@@ -108,28 +108,40 @@ class ReadmeGenerator:
             "\n### 📊 Visual Analysis\n"
         ]
         
-        # Add visualizations
+        # Add visualizations - only if they exist
+        existing_viz_paths = []
         for viz_path in viz_paths:
+            viz_full_path = self.analysis_dir / viz_path if not str(viz_path).startswith('/') else Path(viz_path)
+            if viz_full_path.exists():
+                existing_viz_paths.append(viz_path)
+        
+        # Add visualizations - only existing ones
+        for viz_path in existing_viz_paths:
             viz_name = Path(viz_path).stem.replace('_', ' ').title()
             content.append(f"#### {viz_name}")
             content.append(f"![{viz_name}]({self._relative_path(viz_path)})")
             content.append("")
         
-        content.extend([
-            "\n### 📋 Current Reports",
-            "\n| Report | Description | Key Insight |",
-            "| ------ | ----------- | ----------- |"
-        ])
-        
+        # Complete mapping for all possible current reports - only shown if files exist
         current_reports = {
+            "52_week_high_sells": ("Profit taking patterns", "Strategic exits at peaks"),
+            "52_week_low_buys": ("Value hunting activity", "Managers buying at market lows"),
+            "concentration_changes": ("Portfolio shifts", "Major allocation adjustments"),
+            "contrarian_opportunities": ("Against-the-trend plays", "Institutional contrarian bets"),
+            "deep_value_plays": ("Deep value opportunities", "Undervalued institutional picks"),
             "hidden_gems": ("Under-the-radar opportunities", "5-factor scoring identifies stocks with high potential"),
+            "high_conviction_low_price": ("Best value + conviction combo", "High conviction meets low price"),
+            "highest_portfolio_concentration": ("Most focused positions", "Highest concentration institutional bets"),
             "momentum_stocks": ("Recent buying activity", "Tracks institutional accumulation patterns"),
+            "most_sold_stocks": ("Recent exit activity", "Most divested institutional positions"),
             "new_positions": ("Fresh acquisitions", "Identifies emerging manager interests"),
             "stocks_under_$5": ("Ultra-low price opportunities", "Deep value plays under $5"),
+            "stocks_under_$10": ("Sub-$10 opportunities", "Manager favorites under $10"),
             "stocks_under_$20": ("Affordable growth plays", "Quality stocks at accessible prices"),
-            "52_week_low_buys": ("Value hunting activity", "Managers buying at market lows"),
-            "52_week_high_sells": ("Profit taking patterns", "Strategic exits at peaks"),
-            "concentration_changes": ("Portfolio shifts", "Major allocation adjustments")
+            "stocks_under_$50": ("Mid-price value plays", "Institutional picks under $50"),
+            "stocks_under_$100": ("Sub-$100 opportunities", "Value plays under $100"),
+            "under_radar_picks": ("Hidden gem opportunities", "Under-the-radar institutional picks"),
+            "value_price_opportunities": ("Multi-tier price analysis", "Comprehensive price-based screening")
         }
         
         for report_name, (desc, insight) in current_reports.items():
@@ -169,26 +181,36 @@ class ReadmeGenerator:
             "\n### 📊 Visual Analysis\n"
         ]
         
-        # Add visualizations
+        # Add visualizations - only if they exist
+        existing_viz_paths = []
         for viz_path in viz_paths:
+            viz_full_path = self.analysis_dir / viz_path if not str(viz_path).startswith('/') else Path(viz_path)
+            if viz_full_path.exists():
+                existing_viz_paths.append(viz_path)
+        
+        # Add visualizations - only existing ones
+        for viz_path in existing_viz_paths:
             viz_name = Path(viz_path).stem.replace('_', ' ').title()
             content.append(f"#### {viz_name}")
             content.append(f"![{viz_name}]({self._relative_path(viz_path)})")
             content.append("")
         
-        content.extend([
-            "\n### 📋 Advanced Reports",
-            "\n| Report | Description | Key Insight |",
-            "| ------ | ----------- | ----------- |"
-        ])
-        
         advanced_reports = {
-            "manager_track_records": ("18+ year performance history", "Comprehensive manager scoring"),
+            "action_sequence_patterns": ("Trading pattern analysis", "Institutional buy/sell sequence patterns"),
+            "catalyst_timing_masters": ("Market timing excellence", "Managers with exceptional timing skills"),
             "crisis_alpha_generators": ("Crisis period outperformers", "Managers who buy during crashes"),
-            "position_sizing_mastery": ("Optimal allocation patterns", "Risk/reward optimization"),
-            "multi_manager_favorites": ("Consensus high-conviction picks", "Stocks held by multiple gurus"),
-            "sector_rotation_patterns": ("Timing market trends", "Early sector shift detection"),
-            "manager_evolution_patterns": ("Strategy adaptation over time", "How managers evolve")
+            "high_conviction_stocks": ("Highest conviction positions", "Stocks with strongest institutional backing"),
+            "interesting_stocks_overview": ("Top-tier opportunities", "Multi-factor scoring of elite picks"),
+            "long_term_winners": ("Sustained institutional interest", "Stocks with long-term institutional backing"),
+            "manager_evolution_patterns": ("Strategy adaptation over time", "How managers evolve their approaches"),
+            "manager_performance": ("Comprehensive manager evaluation", "Multi-dimensional performance metrics"),
+            "manager_track_records": ("18+ year performance history", "Comprehensive manager scoring with consistency"),
+            "multi_manager_favorites": ("Consensus high-conviction picks", "Stocks held by multiple elite managers"),
+            "position_sizing_mastery": ("Optimal allocation patterns", "Advanced portfolio construction analysis"),
+            "sector_rotation_excellence": ("Elite sector allocation", "Superior sector rotation strategies"),
+            "sector_rotation_patterns": ("Institutional sector flows", "Sector rotation trend analysis"),
+            "theme_emergence_detection": ("Early theme identification", "Emerging investment theme detection"),
+            "top_holdings": ("Largest institutional positions", "Deep dive into major institutional holdings")
         }
         
         for report_name, (desc, insight) in advanced_reports.items():
@@ -199,20 +221,43 @@ class ReadmeGenerator:
         
         content.append("")
         
-        # Add top managers
+        # Add top managers - only if the CSV file actually exists
         if "manager_track_records" in results and not results["manager_track_records"].empty:
-            top_managers = results["manager_track_records"].nlargest(5, 'track_record_score')
-            content.extend([
-                "### 🏆 Top 5 Managers by Track Record",
-                "\n| Manager | Score | Years Active | Win Rate |",
-                "| ------- | ----- | ------------ | -------- |"
-            ])
-            
-            for _, mgr in top_managers.iterrows():
-                content.append(f"| **{mgr.get('manager_name', 'N/A')}** | "
-                             f"{mgr.get('track_record_score', 0):.2f} | "
-                             f"{mgr.get('years_active', 0)} | "
-                             f"{mgr.get('win_rate', 0):.1f}% |")
+            csv_path = self.analysis_dir / "advanced" / "manager_track_records.csv"
+            if csv_path.exists():
+                # Get the data period from the CSV
+                df = results["manager_track_records"]
+                min_year = df['first_year'].min() if 'first_year' in df.columns else 2007
+                max_year = df['last_year'].max() if 'last_year' in df.columns else 2025
+                
+                # Sort by annual return first, then by track record score as tiebreaker
+                top_managers = df.sort_values(
+                    ['annualized_return_pct', 'track_record_score'], 
+                    ascending=[False, False]
+                ).head(15)
+                
+                content.extend([
+                    f"### 🏆 Top 15 Managers by Annual Return ({int(min_year)}-{int(max_year)})",
+                    "\n| Rank | Manager | Annual Return | Score | Years Active |",
+                    "| ---- | ------- | ------------- | ----- | ------------ |"
+                ])
+                
+                for rank, (_, mgr) in enumerate(top_managers.iterrows(), 1):
+                    # Use the actual column names from the CSV
+                    # The CSV has duplicate 'manager' columns - first is code, second is full name
+                    if hasattr(mgr, 'iloc') and len(mgr) > 1:
+                        manager_name = mgr.iloc[1]  # Second 'manager' column has full name
+                    else:
+                        manager_name = mgr.get('manager', 'N/A')
+                    
+                    track_score = mgr.get('track_record_score', 0)
+                    years = mgr.get('years_active', 0)
+                    annual_return = mgr.get('annualized_return_pct', 0)
+                    
+                    content.append(f"| {rank} | **{manager_name}** | "
+                                 f"{annual_return:.1f}% | "
+                                 f"{track_score:.2f} | "
+                                 f"{years} |")
         
         content.append("\n---\n")
         return content
@@ -244,25 +289,25 @@ class ReadmeGenerator:
             "\n### 📊 Visual Analysis\n"
         ]
         
-        # Add visualizations
+        # Add visualizations - only if they exist
+        existing_viz_paths = []
         for viz_path in viz_paths:
+            viz_full_path = self.analysis_dir / viz_path if not str(viz_path).startswith('/') else Path(viz_path)
+            if viz_full_path.exists():
+                existing_viz_paths.append(viz_path)
+        
+        # Add visualizations - only existing ones
+        for viz_path in existing_viz_paths:
             viz_name = Path(viz_path).stem.replace('_', ' ').title()
             content.append(f"#### {viz_name}")
             content.append(f"![{viz_name}]({self._relative_path(viz_path)})")
             content.append("")
         
-        content.extend([
-            "\n### 📋 Historical Reports",
-            "\n| Report | Description | Key Insight |",
-            "| ------ | ----------- | ----------- |"
-        ])
-        
         historical_reports = {
-            "multi_decade_conviction": ("Stocks held 10+ years", "Ultimate conviction plays"),
-            "stock_life_cycles": ("Entry/exit patterns", "Optimal holding periods"),
-            "crisis_response_analysis": ("2008 vs 2020 comparison", "Crisis behavior patterns"),
-            "quarterly_activity_timeline": ("18-year activity map", "Market timing insights"),
-            "long_term_winners": ("Best performers over time", "Compound growth champions")
+            "crisis_response_analysis": ("2008 vs 2020 comparison", "Crisis behavior patterns across decades"),
+            "multi_decade_conviction": ("Stocks held 10+ years", "Ultimate long-term conviction plays"),
+            "quarterly_activity_timeline": ("18-year activity map", "73 quarters of market timing insights"),
+            "stock_life_cycles": ("Complete holding patterns", "Entry/exit patterns and optimal holding periods")
         }
         
         for report_name, (desc, insight) in historical_reports.items():
