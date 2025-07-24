@@ -57,6 +57,59 @@ Transform complex institutional data into actionable investment opportunities:
 
 ---
 
+## 🧠 **Advanced Analytics & Manager Intelligence**
+
+### Sophisticated Investment Analysis
+Deep dive into manager psychology, performance patterns, and market intelligence:
+
+| **Advanced Analysis** | **Description** | **Visualization** |
+|----------------------|-----------------|-------------------|
+| **🏆 Manager Performance** | Comprehensive manager evaluation and rankings | [📊 Chart](analysis/advanced/visuals/manager_performance_advanced.png) |
+| **⚡ Crisis Alpha Generation** | Who excels during market downturns | [📊 Chart](analysis/advanced/visuals/crisis_alpha_advanced.png) |
+| **📏 Position Sizing Mastery** | Advanced portfolio construction analysis | [📊 Chart](analysis/advanced/visuals/position_sizing_advanced.png) |
+| **🔄 Manager Evolution** | How investment styles evolve over time | [📊 Chart](analysis/advanced/visuals/manager_evolution_advanced.png) |
+| **🤝 Consensus Picks** | Stocks with broad institutional agreement | [📊 Chart](analysis/advanced/visuals/consensus_picks_advanced.png) |
+| **💎 Top Holdings Analysis** | Deep dive into largest institutional positions | [📊 Chart](analysis/advanced/visuals/top_holdings_advanced.png) |
+
+### Multi-Timeframe Performance Analysis
+| **Performance Timeframe** | **Description** | **Visualization** |
+|---------------------------|-----------------|-------------------|
+| **📈 3-Year Performance** | Recent performance across market cycles | [📊 Chart](analysis/advanced/visuals/3_year_performance.png) |
+| **📊 5-Year Performance** | Medium-term track record analysis | [📊 Chart](analysis/advanced/visuals/5_year_performance.png) |
+| **🏛️ 10-Year Performance** | Long-term excellence identification | [📊 Chart](analysis/advanced/visuals/10_year_performance.png) |
+| **🎯 Comprehensive Performance** | All-time performance across all metrics | [📊 Chart](analysis/advanced/visuals/comprehensive_performance.png) |
+
+### 📊 **Advanced Analysis Reports**
+
+#### 🎯 **Manager Intelligence**
+| Report | Description | Link |
+|--------|-------------|------|
+| **Manager Performance** | Comprehensive manager evaluation metrics | [📄 CSV](analysis/advanced/manager_performance.csv) |
+| **Manager Track Records** | Historical performance with consistency metrics | [📄 CSV](analysis/advanced/manager_track_records.csv) |
+| **Manager Evolution Patterns** | How investment styles change over time | [📄 CSV](analysis/advanced/manager_evolution_patterns.csv) |
+| **Crisis Alpha Generators** | Managers who excel during downturns | [📄 CSV](analysis/advanced/crisis_alpha_generators.csv) |
+| **Position Sizing Mastery** | Advanced portfolio construction analysis | [📄 CSV](analysis/advanced/position_sizing_mastery.csv) |
+
+#### 🏆 **Elite Stock Selection**
+| Report | Description | Link |
+|--------|-------------|------|
+| **Interesting Stocks Overview** | Top-tier opportunities with multi-factor scoring | [📄 CSV](analysis/advanced/interesting_stocks_overview.csv) |
+| **High Conviction Stocks** | Positions with strongest institutional backing | [📄 CSV](analysis/advanced/high_conviction_stocks.csv) |
+| **Multi-Manager Favorites** | Stocks held by multiple elite managers | [📄 CSV](analysis/advanced/multi_manager_favorites.csv) |
+| **Long-Term Winners** | Stocks with sustained institutional interest | [📄 CSV](analysis/advanced/long_term_winners.csv) |
+| **Top Holdings** | Largest institutional positions analysis | [📄 CSV](analysis/advanced/top_holdings.csv) |
+
+#### 🔬 **Advanced Market Intelligence**
+| Report | Description | Link |
+|--------|-------------|------|
+| **Action Sequence Patterns** | Institutional trading pattern analysis | [📄 CSV](analysis/advanced/action_sequence_patterns.csv) |
+| **Catalyst Timing Masters** | Managers with exceptional market timing | [📄 CSV](analysis/advanced/catalyst_timing_masters.csv) |
+| **Sector Rotation Excellence** | Elite sector allocation strategies | [📄 CSV](analysis/advanced/sector_rotation_excellence.csv) |
+| **Sector Rotation Patterns** | Institutional sector flow analysis | [📄 CSV](analysis/advanced/sector_rotation_patterns.csv) |
+| **Theme Emergence Detection** | Early identification of investment themes | [📄 CSV](analysis/advanced/theme_emergence_detection.csv) |
+
+---
+
 ## 📈 **Historical Analysis (18-Year Perspective)**
 
 ### Long-Term Market Intelligence
