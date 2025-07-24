@@ -1,0 +1,31 @@
+ticker,company_name,current_price,managers,total_value,avg_portfolio_pct,index,manager_count,max_portfolio_pct,total_shares,conviction_price_score,opportunity_type
+IEP,Icahn Enterprises,9.68,Carl Icahn,4084140000,54.55,11,1,54.55,450788170,125.42,Deep Conviction Bargain
+ORLA,Orla Mining Ltd,11.81,Prem Watsa,527018000,28.57,18,1,28.57,56817229,71.33,High Conviction Low Price
+VFC,V.F. Corp.,13.43,Glenn Welling,85117000,21.7,31,1,21.7,5484368,55.97,High Conviction Low Price
+PTLO,Portillo's Inc Cl A,11.48,Glenn Welling,65154000,16.61,21,1,16.61,5479771,47.74,High Conviction Low Price
+RYCEF,Rolls Royce Holdings plc,6.31,Ruane Cunniff,405311000,12.26,24,1,12.26,41891727,44.21,Deep Conviction Bargain
+BB,BlackBerry Ltd.,4.1,Prem Watsa,175685000,9.52,2,1,9.52,46724700,40.94,High Conviction Low Price
+EVH,Evolent Health Inc.,10.21,Glenn Welling,49050000,12.51,7,1,12.51,5179468,40.81,High Conviction Low Price
+PCG,PG&E Corp.,13.73,Daniel Loeb,877898000,13.97,19,1,13.97,51100000,40.21,High Conviction Low Price
+TRMD,Torm Plc,18.71,Howard Marks,662770000,16.39,30,1,16.39,40581120,40.07,High Conviction Low Price
+WEN,Wendy's Co.,11.32,Nelson Peltz,445099000,11.91,32,1,11.91,30423683,38.5,High Conviction Low Price
+BRCC,BRC Inc.,1.97,Glenn Welling,28289000,7.21,3,1,7.21,13535560,38.45,High Conviction Low Price
+GTN,Gray Television Inc.,5.31,Bill Miller,15456000,7.04,9,1,7.04,3577790,34.77,High Conviction Low Price
+BAYRY,Bayer Ag Sponsored ADR,8.05,Kahn Brothers Group,39574000,8.0,1,1,8.0,6573693,33.95,High Conviction Low Price
+FLG,Flagstar Financial Inc.,12.44,Kahn Brothers Group,49001000,9.91,8,1,9.91,4216986,33.38,High Conviction Low Price
+QUAD,Quad/Graphics Inc.,5.76,Bill Miller,14030000,6.39,22,1,6.39,2574225,33.02,High Conviction Low Price
+STLA,Stellantis N.V.,10.34,Francis Chou,15654000,8.61,28,1,8.61,1396388,32.879999999999995,High Conviction Low Price
+LBTYK,Liberty Global Ltd CL C,10.49,Seth Klarman,295154000,8.48,15,1,8.48,24657803,32.47,High Conviction Low Price
+GTX,Garrett Motion Inc.,11.79,Howard Marks,368973000,9.12,10,1,9.12,44082816,32.45,High Conviction Low Price
+OGN,Organon & Co.,10.1,Kahn Brothers Group,37126000,7.51,17,1,7.51,2493384,30.92,High Conviction Low Price
+KW,Kennedy-Wilson Holdings Inc.,7.66,Prem Watsa,115502000,6.26,14,1,6.26,13322009,30.86,High Conviction Low Price
+SGU,Star Gas Partners LP,11.85,Bryan Lawrence,14488000,7.63,25,1,7.63,1099239,29.41,High Conviction Low Price
+KGC,Kinross Gold Corp.,16.17,Christopher Bloomstran,56829000,9.16,13,1,9.16,4506646,28.15,High Conviction Low Price
+CLF,Cleveland-Cliffs Inc.,11.27,Prem Watsa,122472000,6.64,4,1,6.64,14899273,28.01,High Conviction Low Price
+ET,Energy Transfer LP,17.44,Leon Cooperman,241670000,9.59,6,1,9.59,13000000,27.74,High Conviction Low Price
+IVZ,Invesco Ltd,21.44,Nelson Peltz,351541000,9.41,12,1,9.41,23173442,23.38,High Conviction Low Price
+CNH,CNH Industrial NV,13.38,David Einhorn,99179000,5.02,5,1,5.02,8076540,22.66,High Conviction Low Price
+ACI,Albertsons Co Inc.,20.8,Mason Hawkins,76310000,8.23,0,1,8.23,3470204,21.66,High Conviction Low Price
+MAT,Mattel Inc.,20.2,Mason Hawkins,67849000,7.32,16,1,7.32,3491996,20.44,High Conviction Low Price
+STR,Sitio Royalties Corp A,18.3,Howard Marks,257021000,6.35,29,1,6.35,12935120,20.4,High Conviction Low Price
+SIRI,SiriusXM Holdings Inc,24.36,Francis Chou,15837000,8.71,26,1,8.71,702462,19.06,High Conviction Low Price

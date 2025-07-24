@@ -1,0 +1,4 @@
+crisis,period,total_actions,buy_actions,add_actions,sell_actions,reduce_actions,buy_ratio,sell_ratio,top_buyers,most_bought,most_sold,unique_managers,unique_stocks
+2008_financial,"Q3 2008, Q4 2008, Q1 2009, Q2 2009",639,113,188,0,212,0.4710485133020344,0.3317683881064163,"Bill & Melinda Gates Foundation Trust, Tweedy Browne Co., Bruce Berkowitz","JEF, EBAY, COP, BRK.B, MURGF","UNH, YUM, JPM, HD, ELV",11,272
+2020_covid,"Q1 2020, Q2 2020",2519,410,851,0,910,0.5005954743946011,0.3612544660579595,"Thomas Gayner, Francois Rochon, Third Avenue Management","META, V, MSFT, BRK.B, GOOGL","GOOG, META, GOOGL, BRK.B, MA",62,891
+2022_inflation,"Q1 2022, Q2 2022, Q3 2022",5713,674,2180,0,2161,0.4995624015403466,0.378260108524418,"Howard Marks, Thomas Gayner, Bill Miller","META, GOOGL, AMZN, MSFT, GOOG","GOOG, UNH, MSFT, GOOGL, V",76,1641

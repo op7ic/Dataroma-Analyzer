@@ -1,0 +1,84 @@
+ticker,company_name,current_price,managers,total_value,avg_portfolio_pct,index,manager_count,avg_reported_price,max_portfolio_pct,price_change_pct,52_week_low,52_week_high,52_week_position_pct,near_52w_low,value_score,value_type
+EXXRF,,0.0,Mason Hawkins,58633000,6.32,531,1,90.39,6.32,-100.0,,,50.0,False,8.9,Deep Discount
+RYCEF,,6.31,Ruane Cunniff,405311000,12.26,1206,1,9.68,12.26,-34.81404958677686,,,50.0,False,8.5,Deep Discount
+SAFRY,,53.47,"Tweedy Browne Co.
+Steven Romick",230806000,3.49,1209,2,325.0,3.57,-83.5476923076923,,,50.0,False,8.4,Deep Discount
+UNH,,292.51,"Robert Olstein
+Dodge & Cox
+Mairs & Power Growth Fund
+Ruane Cunniff
+Glenn Greenberg
+Lee Ainslie
+David Tepper
+Viking Global Investors
+David Rolfe
+Chase Coleman",4729650000,1.69,1408,17,473.6441176470588,5.03,-38.24266171548507,,,50.0,False,8.4,Deep Discount
+JDEPY,,11.71,Steven Romick,168114000,2.65,787,1,28.57,2.65,-59.01295064753237,,,50.0,False,8.1,Deep Discount
+CNC,,29.42,"Bill Nygren
+David Einhorn",174946000,1.91,340,2,60.71,2.14,-51.54010871355625,,,50.0,False,8.1,Deep Discount
+PUKPF,,0.0,Tweedy Browne Co.,8666000,2.12,1138,1,12.51,2.12,-100.0,,,50.0,False,8.0,Deep Discount
+RNMBF,,560.5,Tweedy Browne Co.,8370000,2.05,1186,1,2109.38,2.05,-73.42821113312917,,,50.0,False,8.0,Deep Discount
+AMRZ.SW,,0.0,Steven Romick,121176000,1.91,101,1,49.88,1.91,-100.0,,,50.0,False,8.0,Deep Discount
+AN3.F,,0.0,Tweedy Browne Co.,6399000,1.57,108,1,87.39,1.57,-100.0,,,50.0,False,7.9,Deep Discount
+KEMIRA.HE,,0.0,Tweedy Browne Co.,6373000,1.56,808,1,23.09,1.56,-100.0,,,50.0,False,7.9,Deep Discount
+CFRUY,,14.53,Steven Romick,99114000,1.56,306,1,189.22,1.56,-92.32110770531656,,,50.0,False,7.9,Deep Discount
+ELV,,296.6,"Ruane Cunniff
+Leon Cooperman
+Glenn Greenberg
+Seth Klarman
+First Eagle Investment Management
+Yacktman Asset Management",2655330000,5.68,489,6,434.96,15.72,-31.809821592790133,,,50.0,False,7.4,Deep Discount
+NTDOF,,54.66,Steven Romick,133316000,2.1,1010,1,96.03,2.1,-43.08028741018432,,,50.0,False,7.3,Deep Discount
+WEN,,11.32,Nelson Peltz,445099000,11.91,1486,1,14.63,11.91,-22.624743677375257,,,50.0,False,7.2,Deep Discount
+MOH,,190.25,Bill Nygren,131900000,2.0,941,1,329.39,2.0,-42.24171954218404,,,50.0,False,7.2,Deep Discount
+BRK.A,,723120.0,"Tweedy Browne Co.
+Guy Spier - Aquamarine Capital
+Christopher Bloomstran
+Norbert Lou
+Bruce Berkowitz
+Francis Chou
+Prem Watsa
+Thomas Russo
+Francois Rochon
+Josh Tarasoff",4568812000,11.87,236,14,788429.0271428572,53.44,-8.283437683608232,,,50.0,False,7.1,Value Play
+BRZE,,28.45,Dennis Hong,85632000,11.77,244,1,36.08,11.77,-21.147450110864742,,,50.0,False,7.1,Deep Discount
+FICO,,1531.26,"Valley Forge Capital Management
+Lindsell Train
+AltaRock Partners
+AKO Capital",2139322000,12.04,554,4,1844.315,32.29,-16.974052697071816,,,50.0,False,7.0,Deep Discount
+OGN,,10.1,"Kahn Brothers Group
+Harry Burn",111235000,5.06,1043,2,14.89,7.51,-32.16924110141034,,,50.0,False,6.9,Deep Discount
+EXE,,98.7,Howard Marks,619202000,15.31,524,1,111.32,15.31,-11.336687028386624,,,50.0,False,6.8,Deep Discount
+BRK.B,,482.63,"Robert Olstein
+Tweedy Browne Co.
+Guy Spier - Aquamarine Capital
+Ruane Cunniff
+Li Lu
+Bill & Melinda Gates Foundation Trust
+Christopher Bloomstran
+Duan Yongping
+Bruce Berkowitz
+Chuck Akre",14133112000,7.36,237,20,525.5635,22.04,-8.169041419352748,,,50.0,False,6.8,Value Play
+FI,,143.0,"Robert Olstein
+Dodge & Cox
+Mairs & Power Growth Fund
+Leon Cooperman
+Francois Rochon
+Torray Funds
+John Armitage",4421175000,3.64,553,7,200.07857142857145,6.07,-28.528078254971252,,,50.0,False,6.8,Deep Discount
+PROSF,,37.17,Steven Romick,161734000,2.55,1128,1,56.11,2.55,-33.75512386383888,,,50.0,False,6.5,Deep Discount
+BAESF,,17.13,Tweedy Browne Co.,10076000,2.47,166,1,25.85,2.47,-33.733075435203105,,,50.0,False,6.5,Deep Discount
+PTLO,,11.48,Glenn Welling,65154000,16.61,1133,1,11.89,16.61,-3.448275862068967,,,50.0,False,6.3,Value Play
+AAPL,,214.15,"Robert Olstein
+Mairs & Power Growth Fund
+Li Lu
+Christopher Bloomstran
+Duan Yongping
+Bruce Berkowitz
+Warren Buffett
+Francis Chou
+David Rolfe
+Kahn Brothers Group",76018955000,6.87,30,18,219.6877777777778,63.33,-2.5207491439871794,,,50.0,False,5.9,Value Play
+NBR,,34.66,Bill Miller,16215000,7.39,977,1,41.71,7.39,-16.902421481659086,,,50.0,False,5.8,Deep Discount
+PTEN,,6.17,Kahn Brothers Group,15925000,3.22,1132,1,8.22,3.22,-24.939172749391734,,,50.0,False,5.7,Deep Discount
+CFRHF,,144.51,Thomas Russo,654958000,7.34,305,1,172.87,7.34,-16.405391334528844,,,50.0,False,5.7,Deep Discount

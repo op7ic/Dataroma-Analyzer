@@ -1,0 +1,101 @@
+ticker,company_name,action,current_price,manager,manager,period,shares,value,portfolio_percent
+STZ,Constellation Brands,Buy,176.09,BRK,Warren Buffett,Q4 2024,5624324,2203892000.0,0.85
+UNH,United Health Group Inc.,Buy,292.51,vg,Viking Global Investors,Q4 2024,1900457,1119676000.0,3.56
+TSM,Taiwan Semiconductor S.A.,Buy,240.33,vg,Viking Global Investors,Q4 2024,4089619,811615000.0,2.58
+COF,Capital One Financial,Buy,219.46,LPC,Stephen Mandel,Q4 2024,3235823,569482000.0,4.99
+VEEV,Veeva Systems Inc.,Buy,286.01,TGM,Chase Coleman,Q4 2024,378000,560660000.0,2.11
+ROST,Ross Stores Inc.,Buy,137.17,vg,Viking Global Investors,Q4 2024,1706953,552215000.0,1.75
+ICE,Intercontinental Exchange Inc.,Buy,181.0,vg,Viking Global Investors,Q4 2024,2767493,552071000.0,1.75
+BA,Boeing Co.,Buy,233.88,vg,Viking Global Investors,Q4 2024,2975071,551087000.0,1.75
+DG,Dollar General,Buy,109.24,FE,First Eagle Investment Management,Q4 2024,5268172,533734000.0,1.13
+CSGP,CoStar Group Inc.,Buy,91.0,pcm,Polen Capital Management,Q4 2024,6497188,523061000.0,1.64
+PDD,Pinduoduo Inc.,Buy,118.46,TGM,Chase Coleman,Q4 2024,2628681,522596000.0,1.97
+FLUT,Flutter Entertainment Plc,Buy,305.48,LPC,Stephen Mandel,Q4 2024,1912519,491818000.0,4.31
+CME,CME Group,Buy,276.48,EC,John Armitage,Q4 2024,964421,459003000.0,5.3
+LLY,Eli Lilly & Co.,Buy,798.89,LPC,Stephen Mandel,Q4 2024,782860,455759000.0,3.99
+LLY,Eli Lilly & Co.,Buy,798.89,EC,John Armitage,Q4 2024,280981,407015000.0,4.7
+KDP,Keurig Dr Pepper Inc.,Buy,33.5,oaklx,Bill Nygren,Q4 2024,8047000,385317000.0,5.83
+GM,General Motors,Buy,53.13,vg,Viking Global Investors,Q4 2024,2580242,338090000.0,1.07
+ABNB,Airbnb Inc.,Buy,139.83,oaklx,Bill Nygren,Q4 2024,1708000,337594000.0,5.11
+ZS,Zscaler Inc.,Buy,283.37,TGM,Chase Coleman,Q4 2024,1450000,333147000.0,1.25
+SKX,Skechers U.S.A. Inc.,Buy,63.23,vg,Viking Global Investors,Q4 2024,3621391,329374000.0,1.05
+EFX,Equifax Inc.,Buy,245.86,oaklx,Bill Nygren,Q4 2024,863000,288131000.0,4.36
+LPLA,LPL Financial Holdings Inc.,Buy,379.18,EC,John Armitage,Q4 2024,257710,285026000.0,3.29
+CSGP,CoStar Group Inc.,Buy,91.0,TGM,Chase Coleman,Q4 2024,3245109,257110000.0,0.97
+TMO,Thermo Fisher Scientific,Buy,466.71,LT,Lindsell Train,Q4 2024,407240,253174000.0,7.01
+B,Barrick Mining Corp.,Buy,21.61,CAU,Sarah Ketterer,Q4 2024,11112293,229843000.0,4.82
+QCOM,QUALCOMM Inc.,Buy,159.88,vg,Viking Global Investors,Q4 2024,322814,220021000.0,0.7
+ICE,Intercontinental Exchange Inc.,Buy,181.0,EC,John Armitage,Q4 2024,733307,189995000.0,2.19
+COF,Capital One Financial,Buy,219.46,tp,Daniel Loeb,Q4 2024,925000,188265000.0,3.0
+CVS,CVS Health Corp.,Buy,61.85,FFH,Prem Watsa,Q4 2024,2712000,183765000.0,9.96
+AMT,American Tower Corp.,Buy,230.18,vg,Viking Global Investors,Q4 2024,897340,182522000.0,0.58
+FERG,Ferguson Enterprises Inc.,Buy,227.72,BAUPOST,Seth Klarman,Q4 2024,1132000,181380000.0,5.21
+MNST,Monster Beverage Corp.,Buy,59.19,vg,Viking Global Investors,Q4 2024,8064361,167238000.0,0.53
+COF,Capital One Financial,Buy,219.46,EC,John Armitage,Q4 2024,1565495,159874000.0,1.84
+CDNS,Cadence Design Systems,Buy,326.46,JIM,Jensen Investment Management,Q4 2024,421257,139158000.0,1.54
+FTV,Fortive Corp.,Buy,51.11,tp,Daniel Loeb,Q4 2024,1900000,139042000.0,2.21
+DFS-OLD,Discover Financial Services,Buy,200.05,tp,Daniel Loeb,Q4 2024,640000,126318000.0,2.01
+WTW,Willis Towers Watson plc,Buy,310.45,pcm,Polen Capital Management,Q4 2024,128586,123872000.0,0.39
+TTAN,Servicetitan Inc A,Buy,117.25,TGM,Chase Coleman,Q4 2024,1301398,123776000.0,0.47
+CLF,Cleveland-Cliffs Inc.,Buy,11.27,FFH,Prem Watsa,Q4 2024,5899273,122472000.0,6.64
+WEC,WEC Energy Group,Buy,109.03,MPGFX,Mairs & Power Growth Fund,Q4 2024,655000,115193000.0,2.15
+COF,Capital One Financial,Buy,219.46,CCM,Glenn Greenberg,Q4 2024,1500,113237000.0,2.59
+AMZN,Amazon.com Inc.,Buy,228.29,VA,ValueAct Capital,Q4 2024,536900,107135000.0,2.34
+MCD,McDonald's Corp.,Buy,298.12,GFT,Bill & Melinda Gates Foundation Trust,Q4 2024,334900,104613000.0,0.25
+MNST,Monster Beverage Corp.,Buy,59.19,mc,Lee Ainslie,Q4 2024,1993020,102333000.0,1.84
+YMM,Full Truck Alliance  Spn ADR,Buy,12.09,DAV,Christopher Davis,Q4 2024,5400391,99853000.0,0.58
+PRMB,Primo Brands Corp,Buy,28.62,tp,Daniel Loeb,Q4 2024,2400000,98485000.0,1.57
+BAX,Baxter International Inc.,Buy,28.56,SSHFX,Harry Burn,Q4 2024,2484581,96731000.0,3.39
+C,Citigroup Inc.,Buy,95.99,SSHFX,Harry Burn,Q4 2024,1226512,96397000.0,3.38
+LUV,Southwest Airlines,Buy,37.44,SSHFX,Harry Burn,Q4 2024,2536050,95948000.0,3.36
+EOG,EOG Resources,Buy,118.88,SSHFX,Harry Burn,Q4 2024,512884,92892000.0,3.25
+CSX,CSX Corp.,Buy,34.97,SSHFX,Harry Burn,Q4 2024,2101785,91542000.0,3.21
+CSGP,CoStar Group Inc.,Buy,91.0,SP,Dennis Hong,Q4 2024,909803,90980000.0,12.5
+CCL,Carnival Corp.,Buy,30.74,mc,Lee Ainslie,Q4 2024,5499782,90869000.0,1.64
+ZBH,Zimmer Biomet Holdings,Buy,97.33,SSHFX,Harry Burn,Q4 2024,771063,90373000.0,3.17
+HHH,Howard Hughes Holdings Inc.,Buy,70.21,EC,John Armitage,Q4 2024,443963,88621000.0,1.02
+BMY,Bristol-Myers Squibb,Buy,48.98,SSHFX,Harry Burn,Q4 2024,1373687,86921000.0,3.04
+ICLR,ICON plc,Buy,167.89,SEQUX,Ruane Cunniff,Q4 2024,494675,86563000.0,2.62
+SNOW,Snowflake Inc.,Buy,212.56,mc,Lee Ainslie,Q4 2024,418890,85795000.0,1.55
+BRZE,Braze Inc A,Buy,28.45,SP,Dennis Hong,Q4 2024,1500413,85632000.0,11.77
+KBR,KBR Inc.,Buy,47.54,oa,Leon Cooperman,Q4 2024,1461402,83681000.0,3.32
+MRK,Merck & Co.,Buy,83.98,CAU,Sarah Ketterer,Q4 2024,584473,80593000.0,1.69
+GLW,Corning Inc.,Buy,55.8,AM,David Tepper,Q4 2024,1500000,79823000.0,1.43
+AES,AES Corp.,Buy,13.94,SSHFX,Harry Burn,Q4 2024,5367768,75736000.0,2.65
+HDB,HDFC Bank Ltd.,Buy,78.94,EC,John Armitage,Q4 2024,1140511,74180000.0,0.86
+TAP,Molson Coors Beverage Co.,Buy,52.08,FFH,Prem Watsa,Q4 2024,1186500,73464000.0,3.98
+ILMN,Illumina Inc.,Buy,104.61,AKO,AKO Capital,Q4 2024,495286,70590000.0,0.92
+DOCS,Doximity Inc.,Buy,61.0,FS,Terry Smith,Q4 2024,710502,69049000.0,0.31
+ACHC,Acadia Healthcare Co.,Buy,22.97,mc,Lee Ainslie,Q4 2024,1038627,68127000.0,1.23
+DFS-OLD,Discover Financial Services,Buy,200.05,mc,Lee Ainslie,Q4 2024,2164,64555000.0,1.16
+MTCH,Match Group Inc.,Buy,33.87,SSHFX,Harry Burn,Q4 2024,1221715,62841000.0,2.2
+HLT,Hilton Worldwide Holdings,Buy,266.85,AP,AltaRock Partners,Q4 2024,91328,62339000.0,1.25
+NTES,NetEase.com Inc.,Buy,140.56,DAV,Christopher Davis,Q4 2024,597320,61352000.0,0.35
+DINO,HF Sinclair Corp.,Buy,45.74,LLPFX,Mason Hawkins,Q4 2024,1723371,60811000.0,6.56
+BIIB,Biogen Inc.,Buy,130.98,CAU,Sarah Ketterer,Q4 2024,281702,59322000.0,1.24
+HTZ,Hertz Global Hldgs Inc.,Buy,7.9,psc,Bill Ackman,Q4 2024,12713963,59100000.0,0.5
+LVS,Las Vegas Sands Corp.,Buy,48.69,oa,Leon Cooperman,Q4 2024,1500000,57945000.0,2.3
+GAP,Gap Inc.,Buy,20.63,mc,Lee Ainslie,Q4 2024,133712,56923000.0,1.03
+GTLS,Chart Industries Inc.,Buy,171.63,ENG,Glenn Welling,Q4 2024,224796,53268000.0,13.58
+KHC,Kraft Heinz Co.,Buy,28.94,LLPFX,Mason Hawkins,Q4 2024,1728800,52607000.0,5.67
+LRCX,Lam Research,Buy,97.1,TFP,Triple Frond Partners,Q4 2024,511765,51371000.0,6.94
+B,Barrick Mining Corp.,Buy,21.61,oc,Howard Marks,Q4 2024,1015063,48924000.0,1.21
+TVTX,Travere Therapeutics Inc.,Buy,16.13,vg,Viking Global Investors,Q4 2024,2901925,46626000.0,0.15
+MEDP,Medpace Holdings Inc.,Buy,437.41,FS,Terry Smith,Q4 2024,127537,38859000.0,0.18
+BRO,Brown & Brown Inc.,Buy,103.18,GC,Francois Rochon,Q4 2024,294809,36649000.0,1.35
+APP,Applovin Corp.,Buy,362.12,vg,Viking Global Investors,Q4 2024,148965,36326000.0,0.12
+PDD,Pinduoduo Inc.,Buy,118.46,PC,Norbert Lou,Q4 2024,130000,36304000.0,16.76
+EFX,Equifax Inc.,Buy,245.86,VFC,Valley Forge Capital Management,Q4 2024,144000,35073000.0,0.8
+MSCI,MSCI Inc.,Buy,530.86,VFC,Valley Forge Capital Management,Q4 2024,59700,33760000.0,0.77
+CNC,Centene Corp.,Buy,29.42,GLRE,David Einhorn,Q4 2024,870500,33243000.0,1.68
+JD,JD.com Inc.,Buy,33.93,PTNT,Samantha McLemore,Q4 2024,100000,32317000.0,1.66
+MCG-OLD,Membership Collective Grp Inc.,Buy,4.82,tp,Daniel Loeb,Q4 2024,2352076,32136000.0,0.51
+NU,Nu Holdings Ltd,Buy,12.96,pcm,Polen Capital Management,Q4 2024,2243471,30411000.0,0.1
+SE,Sea Ltd,Buy,158.57,CAU,Sarah Ketterer,Q4 2024,185494,25927000.0,0.54
+SDRL,Seadrill Ltd,Buy,30.63,tp,Daniel Loeb,Q4 2024,1025000,25625000.0,0.41
+TWLO,Twilio Inc.,Buy,132.7,vg,Viking Global Investors,Q4 2024,838385,25017000.0,0.08
+ALLY,Ally Financial Inc.,Buy,39.44,CAU,Sarah Ketterer,Q4 2024,423364,23756000.0,0.5
+CAE,CAE Inc.,Buy,28.69,FE,First Eagle Investment Management,Q4 2024,955324,23169000.0,0.05
+OSK,Oshkosh Corp.,Buy,127.89,AIM,Alex Roepers,Q4 2024,230000,22193000.0,12.4
+SPOT,Spotify Technology S.A.,Buy,674.46,pcm,Polen Capital Management,Q4 2024,60861,21313000.0,0.07
+CLFD,Clearfield Inc.,Buy,45.34,MPGFX,Mairs & Power Growth Fund,Q4 2024,80000,19120000.0,0.36

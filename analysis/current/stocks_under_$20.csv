@@ -1,0 +1,129 @@
+ticker,company_name,current_price,managers,total_value,avg_portfolio_pct,index,manager_count,total_shares,max_portfolio_pct,buy_count,last_buy_period,price_opportunity_score,price_category
+ET,Energy Transfer LP,17.44,"Leon Cooperman
+David Tepper
+Bruce Berkowitz
+Samantha McLemore
+David Abrams",543076000,3.64,96,5,29213375,9.59,0.0,,13.644,Affordable
+GTX,Garrett Motion Inc.,11.79,"Howard Marks
+Lee Ainslie
+Kahn Brothers Group
+Prem Watsa",372173000,2.32,119,4,44465210,9.12,0.0,,10.3225,Affordable
+LBTYA,Liberty Global Ltd CL A,10.22,"Howard Marks
+David Einhorn
+Francis Chou
+Seth Klarman",201580000,1.71,155,4,17513454,3.04,0.0,,9.7125,Affordable
+NU,Nu Holdings Ltd,12.96,"Lee Ainslie
+ValueAct Capital
+Chase Coleman
+Polen Capital Management",349312000,1.09,185,4,34112446,3.08,0.0,,9.09,Affordable
+CCCS,CCC Intelligent Solutions Hldgs Inc.,9.99,"Triple Frond Partners
+Chuck Akre
+Polen Capital Management
+Torray Funds",147003000,1.07,51,4,16279495,2.95,0.0,,9.0725,Affordable
+NOV,Nov Inc.,13.71,"Robert Olstein
+Richard Pzena
+Greenhaven Associates
+First Eagle Investment Management",655646000,1.02,182,4,44163957,1.84,0.0,,9.0225,Affordable
+VFC,V.F. Corp.,13.43,"Dodge & Cox
+Meridian Contrarian Fund
+Glenn Welling",410955000,7.63,275,3,33128643,21.7,0.0,,13.633333333333333,Affordable
+PCG,PG&E Corp.,13.73,"Steven Romick
+Daniel Loeb
+Sarah Ketterer",932051000,5.02,207,3,54387980,13.97,0.0,,11.02,Affordable
+CNH,CNH Industrial NV,13.38,"Tweedy Browne Co.
+Mason Hawkins
+David Einhorn",148239000,3.82,64,3,12035634,5.02,0.0,,9.82,Affordable
+STLA,Stellantis N.V.,10.34,"Greenhaven Associates
+Francis Chou
+Bill Miller",20387000,3.54,252,3,1822388,8.61,0.0,,9.536666666666669,Affordable
+VTRS,Viatris Inc.,9.37,"David Einhorn
+Bill Miller
+Christopher Davis",623357000,2.79,283,3,71568066,3.26,0.0,,8.79,Affordable
+WBD,Warner Bros. Discovery Inc.,13.31,"Hillman Value Fund
+Bill Nygren
+Yacktman Asset Management",300004000,2.35,286,3,27940815,3.25,0.0,,8.35,Affordable
+APA,APA Corp.,19.2,"Bill Nygren
+Charles Bobrinskoy
+Samantha McLemore",175704000,2.23,19,3,8358876,4.04,0.0,,8.23,Affordable
+AVTR,Avantor arinc.,13.6,"Robert Olstein
+Dodge & Cox
+Harry Burn",1084546000,1.67,25,3,79723067,2.37,0.0,,7.666666666666667,Affordable
+MANU,Manchester United plc,18.17,"John Rogers
+Leon Cooperman
+Lindsell Train",115529000,1.59,164,3,8825715,1.83,0.0,,7.593333333333334,Affordable
+PARA,Paramount Global CL B,13.2,"John Rogers
+Christopher Bloomstran
+David Katz",30628000,1.49,203,3,2562471,3.15,0.0,,7.493333333333333,Affordable
+TEVA,Teva Pharmaceutical Industries Ltd.,16.58,"David Einhorn
+Viking Global Investors
+Harry Burn",248162000,1.29,260,3,16145767,2.94,0.0,,7.29,Affordable
+CPRI,Capri Holdings Ltd,19.88,"Lee Ainslie
+David Einhorn
+Prem Watsa",75663000,1.22,66,3,3834953,3.48,0.0,,7.22,Affordable
+VSH,Vishay Intertechnology,17.62,"Robert Olstein
+FPA Queens Road Small Cap Value Fund
+First Eagle Investment Management",39850000,1.13,282,3,2508506,3.04,0.0,,7.13,Affordable
+BEKE,KE Holdings Inc.,19.58,"Howard Marks
+David Tepper
+Christopher Davis",100758000,0.51,34,3,5015312,0.69,0.0,,6.51,Affordable
+DEI,Douglas Emmett Inc.,15.88,"Steven Romick
+First Eagle Investment Management
+Christopher Davis",278464000,0.48,80,3,17651218,0.98,0.0,,6.483333333333333,Affordable
+ORLA,Orla Mining Ltd,11.81,"Prem Watsa
+First Eagle Investment Management",602129000,14.36,199,2,64858174,28.57,0.0,,18.365,Affordable
+BB,BlackBerry Ltd.,4.1,"Meridian Contrarian Fund
+Prem Watsa",181347000,5.38,31,2,48226533,9.52,0.0,,9.375,Affordable
+OGN,Organon & Co.,10.1,"Kahn Brothers Group
+Harry Burn",111235000,5.06,195,2,7470462,7.51,0.0,,9.055,Affordable
+KGC,Kinross Gold Corp.,16.17,"Christopher Bloomstran
+First Eagle Investment Management",205466000,4.74,148,2,16293857,9.16,0.0,,8.735,Affordable
+LBTYK,Liberty Global Ltd CL C,10.49,"Lee Ainslie
+Seth Klarman",295695000,4.24,156,2,24702995,8.48,0.0,,8.245000000000001,Affordable
+CLB,Core Laboratories Inc.,12.62,"Charles Bobrinskoy
+John Rogers",22668000,2.5,59,2,1512215,2.54,0.0,,6.5,Affordable
+ROIV,Roivant Sciences Ltd,11.39,"David Einhorn
+Viking Global Investors",519180000,2.13,232,2,51454919,2.78,0.0,,6.13,Affordable
+GCI,Gannett Co.,3.8,"Leon Cooperman
+Bill Miller",22571000,2.07,110,2,7810015,3.57,0.0,,6.074999999999999,Affordable
+STKL,SunOpta Inc.,6.73,"Leon Cooperman
+Howard Marks",130407000,1.84,251,2,26823457,2.49,0.0,,5.835,Affordable
+CTO,CTO Realty Growth Inc.,17.63,"Bill Miller
+Third Avenue Management",8630000,1.81,72,2,446900,3.38,0.0,,5.8100000000000005,Affordable
+BHC,Bausch Health,6.65,"Howard Marks
+Carl Icahn",232863000,1.6,35,2,35991118,3.0,0.0,,5.6,Affordable
+GRAB,Grab Holdings Ltd   Cl A,5.37,"Howard Marks
+Chase Coleman",467495000,1.36,115,2,103199783,1.58,0.0,,5.365,Affordable
+PTON,Peloton Interactive Inc.,6.77,"David Einhorn
+Samantha McLemore",49241000,1.26,219,2,7791452,1.6,0.0,,5.255,Affordable
+UAA,Under Armour Inc.,7.37,"Lee Ainslie
+Prem Watsa",43979000,1.1,268,2,7046631,2.13,0.0,,5.105,Affordable
+RKT,Rocket Companies Inc.,16.21,"ValueAct Capital
+Christopher Davis",119104000,1.0,228,2,9867798,1.77,0.0,,4.995,Affordable
+SG,Sweetgreen Inc   Class A,16.26,"Meridian Contrarian Fund
+Lee Ainslie",13710000,0.86,239,2,547969,1.59,0.0,,4.855,Affordable
+VALE,Vale SA,10.4,"Howard Marks
+Christopher Davis",87308000,0.82,273,2,8748295,1.48,0.0,,4.82,Affordable
+VYX,NCR Voyix Corp.,14.63,"Steven Romick
+Glenn Welling",36488000,0.79,284,2,3183515,1.07,0.0,,4.79,Affordable
+SD,SandRidge Energy Inc.,10.38,"Carl Icahn
+Third Avenue Management",58808000,0.74,237,2,5149530,0.76,0.0,,4.745,Affordable
+CLVT,Clarivate Plc,4.47,"Lee Ainslie
+Seth Klarman",42908000,0.62,62,2,10917958,1.22,0.0,,4.615,Affordable
+DBRG,DigitalBridge Group Inc.,11.13,"Meridian Contrarian Fund
+Chuck Akre",6587000,0.57,78,2,746861,1.12,0.0,,4.565,Affordable
+LXU,LSB Industries Inc.,8.6,"Third Avenue Management
+First Eagle Investment Management",17141000,0.54,160,2,2601148,1.04,0.0,,4.535,Affordable
+AM,Antero Midstream Corp.,16.95,"Glenn Greenberg
+Kahn Brothers Group",34873000,0.43,15,2,1937384,0.79,0.0,,4.43,Affordable
+RCKT,Rocket Pharmaceuticals Inc.,3.36,"Lee Ainslie
+Torray Funds",35461000,0.37,222,2,5316519,0.62,0.0,,4.37,Affordable
+ORIC,ORIC Pharmaceuticals Inc.,11.8,"Meridian Contrarian Fund
+Viking Global Investors",38741000,0.29,198,2,6942700,0.45,0.0,,4.285,Affordable
+HLN,Haleon Plc ADR,9.75,"Kahn Brothers Group
+First Eagle Investment Management",27507000,0.22,126,2,2673247,0.38,0.0,,4.215,Affordable
+ALIT,Alight Inc.,5.72,"Lee Ainslie
+David Einhorn",6583000,0.16,12,2,1110164,0.3,0.0,,4.155,Affordable
+MX,MagnaChip Semiconductor Corp.,4.26,"Howard Marks
+Prem Watsa",10204000,0.13,173,2,2974858,0.24,0.0,,4.13,Affordable
+WSR,Whitestone REIT,12.55,"Third Avenue Management
+First Eagle Investment Management",17172000,0.13,289,2,1178540,0.23,0.0,,4.13,Affordable

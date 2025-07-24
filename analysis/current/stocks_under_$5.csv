@@ -1,0 +1,60 @@
+ticker,company_name,current_price,managers,total_value,avg_portfolio_pct,index,manager_count,total_shares,max_portfolio_pct,buy_count,last_buy_period,price_opportunity_score,price_category
+BB,BlackBerry Ltd.,4.1,"Meridian Contrarian Fund
+Prem Watsa",181347000,5.38,9,2,48226533,9.52,0.0,,9.375,Ultra-Low Price
+GCI,Gannett Co.,3.8,"Leon Cooperman
+Bill Miller",22571000,2.07,29,2,7810015,3.57,0.0,,6.074999999999999,Ultra-Low Price
+CLVT,Clarivate Plc,4.47,"Lee Ainslie
+Seth Klarman",42908000,0.62,18,2,10917958,1.22,0.0,,4.615,Ultra-Low Price
+RCKT,Rocket Pharmaceuticals Inc.,3.36,"Lee Ainslie
+Torray Funds",35461000,0.37,60,2,5316519,0.62,0.0,,4.37,Ultra-Low Price
+MX,MagnaChip Semiconductor Corp.,4.26,"Howard Marks
+Prem Watsa",10204000,0.13,48,2,2974858,0.24,0.0,,4.13,Ultra-Low Price
+HTZWW,Hertz Global Hldgs Inc. WTS,4.2,"Daniel Loeb
+Francis Chou",8974000,0.07,36,2,3971000,0.14,0.0,,4.07,Ultra-Low Price
+NUVB,Nuvation Bio Inc.,2.56,"David Einhorn
+David Abrams",6770000,0.06,53,2,3846508,0.12,0.0,,4.06,Ultra-Low Price
+BTG,B2Gold Corp.,3.51,"Sarah Ketterer
+First Eagle Investment Management",36774000,0.04,14,2,12936592,0.08,0.0,,4.045,Ultra-Low Price
+LYG,Lloyds TSB Grp Plc ADR,4.29,"Lee Ainslie
+First Eagle Investment Management",24456000,0.03,44,2,6402176,0.05,0.0,,4.03,Ultra-Low Price
+BRCC,BRC Inc.,1.97,Glenn Welling,28289000,7.21,11,1,13535560,7.21,0.0,,9.21,Ultra-Low Price
+BLND,Blend Labs Inc.,3.62,Dennis Hong,29852000,4.1,10,1,8911039,4.1,0.0,,6.1,Ultra-Low Price
+RMNI,Rimini Street Inc.,4.76,Greg Alexander,20578000,3.12,65,1,5913199,3.12,0.0,,5.12,Ultra-Low Price
+HNST,The Honest Company inc.,4.79,Meridian Contrarian Fund,12613000,2.75,34,1,2683546,2.75,0.0,,4.75,Ultra-Low Price
+NOK,Nokia Corp.,4.52,Howard Marks,98824000,2.44,51,1,18752227,2.44,0.0,,4.44,Ultra-Low Price
+CNDT,Conduent Inc.,2.83,Bill Miller,5064000,2.31,19,1,1875380,2.31,0.0,,4.3100000000000005,Ultra-Low Price
+JBLU,JetBlue Airways Corp.,4.63,Carl Icahn,162057000,2.16,40,1,33621735,2.16,0.0,,4.16,Ultra-Low Price
+KOS,Kosmos Energy Ltd.,2.13,Samantha McLemore,41051000,2.11,41,1,18004787,2.11,0.0,,4.109999999999999,Ultra-Low Price
+AXL,American Axle & Manufacturing Holdings,4.94,Bill Miller,4052000,1.85,6,1,995690,1.85,0.0,,3.85,Ultra-Low Price
+ABEV,Ambev S.A.,2.43,First Eagle Investment Management,795874000,1.68,0,1,341577145,1.68,0.0,,3.68,Ultra-Low Price
+FOSL,Fossil Inc.,1.82,Bill Miller,3410000,1.55,27,1,2965160,1.55,0.0,,3.55,Ultra-Low Price
+NGD,New Gold Inc.,4.49,Meridian Contrarian Fund,6930000,1.51,50,1,1868000,1.51,0.0,,3.51,Ultra-Low Price
+PGEN,Precigen Inc.,1.66,Samantha McLemore,25885000,1.33,57,1,17372301,1.33,0.0,,3.33,Ultra-Low Price
+PACK,Ranpak Holdings Corp. CL A,3.94,Meridian Contrarian Fund,5940000,1.29,54,1,1096000,1.29,0.0,,3.29,Ultra-Low Price
+HLNCF,Haleon plc,5.0,Dodge & Cox,1177557000,1.07,33,1,113554161,1.07,0.0,,3.0700000000000003,Ultra-Low Price
+NFE,New Fortress Energy Inc. CL A,3.82,Samantha McLemore,20632000,1.06,49,1,2482800,1.06,0.0,,3.06,Ultra-Low Price
+UNPSF,Uni-President China Holdings Ltd,0.87,Tweedy Browne Co.,2844000,0.7,73,1,2349905,0.7,0.0,,2.7,Ultra-Low Price
+CDLX,Cardlytics Inc.,3.12,Clifford Sosin,10217000,0.66,16,1,5613922,0.66,0.0,,2.66,Ultra-Low Price
+DNN,Denison Mines Corp.,2.19,Meridian Contrarian Fund,2568000,0.56,23,1,1975000,0.56,0.0,,2.56,Ultra-Low Price
+ZVIA,Zevia PBC,3.39,Meridian Contrarian Fund,2592000,0.56,77,1,1200000,0.56,0.0,,2.56,Ultra-Low Price
+MCDIF,McDermott International Inc.,0.25,Steven Romick,34223000,0.54,45,1,2851883,0.54,0.0,,2.54,Ultra-Low Price
+MCG-OLD,Membership Collective Grp Inc.,4.82,Daniel Loeb,32136000,0.51,46,1,5200000,0.51,0.0,,2.51,Ultra-Low Price
+SRG,Seritage Growth Properties,3.31,Guy Spier - Aquamarine Capital,1540000,0.5,70,1,500000,0.5,0.0,,2.5,Ultra-Low Price
+ATUS,"Altice USA, Inc.",2.89,Howard Marks,19950000,0.49,4,1,7500000,0.49,0.0,,2.49,Ultra-Low Price
+BRY,Berry Petroleum Corp.,3.2,Howard Marks,11867000,0.29,13,1,3697000,0.29,0.0,,2.29,Ultra-Low Price
+SABR,Sabre Corp.,3.27,Terry Smith,60412000,0.27,66,1,21499095,0.27,0.0,,2.27,Ultra-Low Price
+ALGGF,Alliance Global Group Inc.,0.17,Tweedy Browne Co.,1048000,0.26,1,1,6542900,0.26,0.0,,2.26,Ultra-Low Price
+BAK,Braskem S.A.,3.3,Howard Marks,9026000,0.22,7,1,2344292,0.22,0.0,,2.22,Ultra-Low Price
+SMRT,SmartRent Inc.,1.07,Howard Marks,9081000,0.22,68,1,7505294,0.22,0.0,,2.22,Ultra-Low Price
+LAB,Standard Biotools Inc,1.45,Viking Global Investors,63343000,0.2,43,1,58651170,0.2,0.0,,2.2,Ultra-Low Price
+ALVOW,Alvotech SA  27,1.84,Howard Marks,7047000,0.17,2,1,4666667,0.17,0.0,,2.17,Ultra-Low Price
+IQ,iQIYI Inc.,2.08,Sarah Ketterer,6545000,0.14,38,1,2896200,0.14,0.0,,2.14,Ultra-Low Price
+RERE,AiHuiShou International Co. Ltd. ADS,3.63,Chase Coleman,33755000,0.13,62,1,11481218,0.13,0.0,,2.13,Ultra-Low Price
+EAF,GrafTech International Ltd.,1.42,Yacktman Asset Management,9355000,0.12,24,1,10698696,0.12,0.0,,2.12,Ultra-Low Price
+IVVD,Invivyd Inc.,0.8,Lee Ainslie,6633000,0.12,39,1,10958572,0.12,0.0,,2.12,Ultra-Low Price
+BATL,Battalion Oil Corp.,1.4,Howard Marks,3913000,0.1,8,1,3009912,0.1,0.0,,2.1,Ultra-Low Price
+ZKH,Zkh Group Ltd,3.1,Chase Coleman,27455000,0.1,76,1,8195453,0.1,0.0,,2.1,Ultra-Low Price
+GPRO,GoPro Inc.,1.54,David Einhorn,1871000,0.09,30,1,2823100,0.09,0.0,,2.09,Ultra-Low Price
+GUTS,Fractyl Health Inc,1.92,Lee Ainslie,5056000,0.09,32,1,4248492,0.09,0.0,,2.09,Ultra-Low Price
+TPIC,TPI Composites Inc.,0.9,Howard Marks,3716000,0.09,72,1,4610003,0.09,0.0,,2.09,Ultra-Low Price
+SOPH,Sophia Genetics SA,3.61,Chuck Akre,7429000,0.07,69,1,2237504,0.07,0.0,,2.07,Ultra-Low Price

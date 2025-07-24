@@ -1,0 +1,221 @@
+ticker,company_name,current_price,managers,total_value,avg_portfolio_pct,index,manager_count,total_shares,max_portfolio_pct,buy_count,last_buy_period,price_opportunity_score,price_category
+BAC,Bank of America Corp.,48.14,"Tweedy Browne Co.
+Guy Spier - Aquamarine Capital
+Richard Pzena
+Dodge & Cox
+Charles Bobrinskoy
+Glenn Greenberg
+Lee Ainslie
+Li Lu
+Warren Buffett
+Francis Chou",29175493000,4.5,55,15,697315357,26.12,0.0,,34.504,Mid-Price
+CMCSA,Comcast Corp.,35.79,"Robert Olstein
+Dodge & Cox
+Steven Romick
+Hillman Value Fund
+Glenn Greenberg
+Thomas Russo
+First Eagle Investment Management
+Thomas Gayner
+Yacktman Asset Management
+David Katz",4436833000,1.81,127,10,122926027,3.98,0.0,,21.807,Mid-Price
+BMY,Bristol-Myers Squibb,48.98,"Richard Pzena
+Dodge & Cox
+Hillman Value Fund
+Kahn Brothers Group
+Bill Miller
+Jensen Investment Management
+Harry Burn
+David Katz",430449000,2.36,83,8,8612666,7.37,0.0,,18.35875,Mid-Price
+OXY,Occidental Petroleum,44.44,"Dodge & Cox
+Li Lu
+Duan Yongping
+Bruce Berkowitz
+Warren Buffett
+Francis Chou
+Prem Watsa",16433614000,4.9,439,7,341073689,16.12,0.0,,18.90142857142857,Mid-Price
+KHC,Kraft Heinz Co.,28.94,"Mairs & Power Growth Fund
+Hillman Value Fund
+Mason Hawkins
+Bill & Melinda Gates Foundation Trust
+Warren Buffett
+Prem Watsa
+First Eagle Investment Management",10347285000,2.76,330,7,340361136,5.67,0.0,,16.764285714285712,Mid-Price
+PFE,Pfizer Inc.,25.36,"Richard Pzena
+Hillman Value Fund
+Kahn Brothers Group
+Prem Watsa
+Sarah Ketterer
+Torray Funds
+David Katz",115991000,1.77,454,7,4610088,3.77,0.0,,15.765714285714283,Mid-Price
+USB,U.S. Bancorp,46.29,"Robert Olstein
+Hillman Value Fund
+Viking Global Investors
+First Eagle Investment Management
+Christopher Davis
+David Katz",2514602000,2.71,602,6,59542520,4.68,0.0,,14.711666666666666,Mid-Price
+JD,JD.com Inc.,33.93,"Howard Marks
+David Tepper
+Chase Coleman
+Sarah Ketterer
+Samantha McLemore
+Christopher Davis",505106000,1.71,317,6,12283720,5.95,0.0,,13.711666666666666,Mid-Price
+ALLY,Ally Financial Inc.,39.44,"Bill Nygren
+Glenn Greenberg
+Lee Ainslie
+Warren Buffett
+Francis Chou
+Sarah Ketterer",1311480000,1.47,20,6,35960534,4.52,0.0,,13.466666666666669,Mid-Price
+ET,Energy Transfer LP,17.44,"Leon Cooperman
+David Tepper
+Bruce Berkowitz
+Samantha McLemore
+David Abrams",543076000,3.64,209,5,29213375,9.59,0.0,,13.644,Mid-Price
+IAC,IAC Inc.,41.14,"FPA Queens Road Small Cap Value Fund
+Mason Hawkins
+Lee Ainslie
+Samantha McLemore
+Christopher Davis",290381000,2.9,292,5,6396914,8.07,0.0,,12.902,Mid-Price
+B,Barrick Mining Corp.,21.61,"Charles Bobrinskoy
+Howard Marks
+Sarah Ketterer
+First Eagle Investment Management
+Harry Burn",1242438000,2.74,54,5,63927028,4.82,0.0,,12.742,Mid-Price
+CPRT,Copart Inc.,46.83,"David Rolfe
+AKO Capital
+Francois Rochon
+Jensen Investment Management
+Torray Funds",543299000,2.7,140,5,9550309,6.14,0.0,,12.702,Mid-Price
+BAX,Baxter International Inc.,28.56,"Robert Olstein
+Richard Pzena
+Dodge & Cox
+Hillman Value Fund
+Harry Burn",1205744000,2.68,60,5,39451173,4.91,0.0,,12.68,Mid-Price
+SLB,Schlumberger Ltd.,35.14,"Robert Olstein
+Charles Bobrinskoy
+John Rogers
+First Eagle Investment Management
+Torray Funds",1209561000,2.27,533,5,28985313,3.14,0.0,,12.266,Mid-Price
+DB,Deutsche Bank AG,31.28,"David Tepper
+Viking Global Investors
+Kahn Brothers Group
+Sarah Ketterer
+Third Avenue Management",516198000,2.08,166,5,21827152,6.84,0.0,,12.078,Mid-Price
+VZ,Verizon Communications,42.84,"Mairs & Power Growth Fund
+Hillman Value Fund
+Kahn Brothers Group
+Bill Miller
+Yacktman Asset Management",119543000,1.77,628,5,2750263,4.09,0.0,,11.766,Mid-Price
+CPNG,Coupang Inc.,30.54,"Lee Ainslie
+Bill & Melinda Gates Foundation Trust
+Chase Coleman
+Christopher Davis
+David Abrams",957344000,1.65,138,5,43654513,5.07,0.0,,11.652,Mid-Price
+BF.B,Brown-Forman Corp.,30.9,"Hillman Value Fund
+Terry Smith
+Lindsell Train
+Thomas Russo
+Thomas Gayner",426940000,1.1,71,5,12597790,2.1,0.0,,11.104,Mid-Price
+EPD,Enterprise Products Partners LP,31.5,"Tweedy Browne Co.
+Leon Cooperman
+Bruce Berkowitz
+First Eagle Investment Management",286486000,4.47,204,4,8401357,15.31,0.0,,12.4675,Mid-Price
+GSK,GSK plc,38.03,"Dodge & Cox
+Hillman Value Fund
+Kahn Brothers Group
+Sarah Ketterer",2320874000,3.01,264,4,60422327,6.44,0.0,,11.0125,Mid-Price
+DAR,Darling Ingredients Inc.,36.86,"FPA Queens Road Small Cap Value Fund
+Alex Roepers
+Christopher Davis
+Yacktman Asset Management",155261000,2.86,165,4,4898876,8.88,0.0,,10.855,Mid-Price
+GTX,Garrett Motion Inc.,11.79,"Howard Marks
+Lee Ainslie
+Kahn Brothers Group
+Prem Watsa",372173000,2.32,269,4,44465210,9.12,0.0,,10.3225,Mid-Price
+MGM,MGM Resorts International,38.33,"Mason Hawkins
+Prem Watsa
+Christopher Davis
+Thomas Gayner",658981000,1.95,377,4,22232813,4.16,0.0,,9.9475,Mid-Price
+LBTYA,Liberty Global Ltd CL A,10.22,"Howard Marks
+David Einhorn
+Francis Chou
+Seth Klarman",201580000,1.71,346,4,17513454,3.04,0.0,,9.7125,Mid-Price
+NU,Nu Holdings Ltd,12.96,"Lee Ainslie
+ValueAct Capital
+Chase Coleman
+Polen Capital Management",349312000,1.09,413,4,34112446,3.08,0.0,,9.09,Mid-Price
+CCCS,CCC Intelligent Solutions Hldgs Inc.,9.99,"Triple Frond Partners
+Chuck Akre
+Polen Capital Management
+Torray Funds",147003000,1.07,106,4,16279495,2.95,0.0,,9.0725,Mid-Price
+NOV,Nov Inc.,13.71,"Robert Olstein
+Richard Pzena
+Greenhaven Associates
+First Eagle Investment Management",655646000,1.02,409,4,44163957,1.84,0.0,,9.0225,Mid-Price
+WRBY,Warby Parker Inc.,24.46,"Lee Ainslie
+Thomas Russo
+Polen Capital Management
+First Eagle Investment Management",16317000,0.03,637,4,895069,0.09,0.0,,8.0325,Mid-Price
+VFC,V.F. Corp.,13.43,"Dodge & Cox
+Meridian Contrarian Fund
+Glenn Welling",410955000,7.63,610,3,33128643,21.7,0.0,,13.633333333333333,Mid-Price
+PCG,PG&E Corp.,13.73,"Steven Romick
+Daniel Loeb
+Sarah Ketterer",932051000,5.02,447,3,54387980,13.97,0.0,,11.02,Mid-Price
+MAT,Mattel Inc.,20.2,"Mason Hawkins
+John Rogers
+Samantha McLemore",146808000,4.58,369,3,7555775,7.32,0.0,,10.576666666666668,Mid-Price
+CCL,Carnival Corp.,30.74,"Lee Ainslie
+Viking Global Investors
+Sarah Ketterer",852029000,4.43,107,3,43626690,10.88,0.0,,10.43,Mid-Price
+YETI,YETI Holdings Inc.,39.7,"Glenn Welling
+Thomas Russo
+First Eagle Investment Management",60044000,4.35,643,3,1814018,13.03,0.0,,10.353333333333332,Mid-Price
+CNH,CNH Industrial NV,13.38,"Tweedy Browne Co.
+Mason Hawkins
+David Einhorn",148239000,3.82,131,3,12035634,5.02,0.0,,9.82,Mid-Price
+STLA,Stellantis N.V.,10.34,"Greenhaven Associates
+Francis Chou
+Bill Miller",20387000,3.54,552,3,1822388,8.61,0.0,,9.536666666666669,Mid-Price
+RPRX,Royalty Pharma plc,36.01,"Viking Global Investors
+Samantha McLemore
+Torray Funds",448228000,3.27,503,3,14398603,4.76,0.0,,9.266666666666667,Mid-Price
+KVUE,Kenvue Inc,22.54,"Lee Ainslie
+Daniel Loeb
+Yacktman Asset Management",614784000,3.22,341,3,25637389,3.66,0.0,,9.223333333333333,Mid-Price
+BP,BP plc,32.71,"Kahn Brothers Group
+Sarah Ketterer
+Thomas Russo",93021000,3.0,85,3,2752893,7.86,0.0,,8.996666666666666,Mid-Price
+MIR,Mirion Technologies Inc,21.74,"Meridian Contrarian Fund
+Leon Cooperman
+Lee Ainslie",230147000,2.88,378,3,15872109,4.04,0.0,,8.88,Mid-Price
+MRP,Millrose Properties,31.27,"Greenhaven Associates
+Glenn Greenberg
+Third Avenue Management",438005000,2.87,385,3,15927219,4.83,0.0,,8.87,Mid-Price
+VTRS,Viatris Inc.,9.37,"David Einhorn
+Bill Miller
+Christopher Davis",623357000,2.79,624,3,71568066,3.26,0.0,,8.79,Mid-Price
+WBD,Warner Bros. Discovery Inc.,13.31,"Hillman Value Fund
+Bill Nygren
+Yacktman Asset Management",300004000,2.35,630,3,27940815,3.25,0.0,,8.35,Mid-Price
+APA,APA Corp.,19.2,"Bill Nygren
+Charles Bobrinskoy
+Samantha McLemore",175704000,2.23,35,3,8358876,4.04,0.0,,8.23,Mid-Price
+NVST,Envista Holdings Corp.,20.75,"Tweedy Browne Co.
+Meridian Contrarian Fund
+John Rogers",38841000,2.22,416,3,2201237,2.48,0.0,,8.216666666666667,Mid-Price
+T,AT&T Inc.,27.75,"Hillman Value Fund
+Daniel Loeb
+Bill Miller",112029000,1.96,561,3,3998500,2.71,0.0,,7.96,Mid-Price
+NCLH,Norwegian Cruise Line Hlgs Ltd.,24.32,"John Rogers
+Lee Ainslie
+Samantha McLemore",90629000,1.89,397,3,4780013,3.5,0.0,,7.886666666666667,Mid-Price
+CSX,CSX Corp.,34.97,"Viking Global Investors
+Kahn Brothers Group
+Harry Burn",595310000,1.7,149,3,20228010,3.21,0.0,,7.7,Mid-Price
+AVTR,Avantor arinc.,13.6,"Robert Olstein
+Dodge & Cox
+Harry Burn",1084546000,1.67,51,3,79723067,2.37,0.0,,7.666666666666667,Mid-Price
+SDRL,Seadrill Ltd,30.63,"Daniel Loeb
+David Einhorn
+Samantha McLemore",114664000,1.65,520,3,4586541,2.54,0.0,,7.653333333333333,Mid-Price

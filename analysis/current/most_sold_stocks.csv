@@ -1,0 +1,488 @@
+ticker,company_name,total_sells,selling_managers,action_breakdown,periods,shares_sold,remaining_holders,remaining_value,exit_rate_pct,sell_pattern,exit_status
+GOOG,Alphabet Inc. CL C,318,"Robert Olstein
+Tweedy Browne Co.
+Dodge & Cox
+Steven Romick
+Mairs & Power Growth Fund
+Bill Nygren
+Mason Hawkins
+Ruane Cunniff
+Glenn Greenberg
+Li Lu",{'Reduce': np.int64(318)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q4 2016, Q4 2015, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2017, Q3 2015, Q3 2014, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2017, Q2 2016, Q2 2014, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2018, Q1 2017, Q1 2016",243078793,27.0,10497346000.0,92.17391304347828,Reduce: 318,Heavy Exit
+MSFT,Microsoft Corp.,308,"Robert Olstein
+Richard Pzena
+Dodge & Cox
+Steven Romick
+Mairs & Power Growth Fund
+Hillman Value Fund
+Charles Bobrinskoy
+Leon Cooperman
+Stephen Mandel
+Glenn Greenberg",{'Reduce': np.int64(308)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q4 2016, Q4 2015, Q4 2014, Q4 2013, Q4 2011, Q4 2010, Q4 2009, Q4 2008, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2017, Q3 2016, Q3 2015, Q3 2014, Q3 2012, Q3 2011, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2017, Q2 2016, Q2 2015, Q2 2013, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2018, Q1 2017, Q1 2016, Q1 2012, Q1 2009",245264736,36.0,32941361000.0,89.53488372093024,Reduce: 308,Heavy Exit
+BRK.B,Berkshire Hathaway CL B,291,"Robert Olstein
+Greenhaven Associates
+Mason Hawkins
+Ruane Cunniff
+Charles Bobrinskoy
+Glenn Greenberg
+Bill & Melinda Gates Foundation Trust
+Christopher Bloomstran
+Duan Yongping
+Bruce Berkowitz",{'Reduce': np.int64(291)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q4 2016, Q4 2015, Q4 2014, Q4 2013, Q4 2012, Q4 2011, Q4 2010, Q4 2009, Q4 2008, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2017, Q3 2016, Q3 2015, Q3 2014, Q3 2013, Q3 2012, Q3 2011, Q3 2010, Q3 2008, Q3 2007, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2017, Q2 2016, Q2 2015, Q2 2014, Q2 2013, Q2 2012, Q2 2011, Q2 2010, Q2 2009, Q2 2008, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2018, Q1 2017, Q1 2016, Q1 2015, Q1 2014, Q1 2013, Q1 2012, Q1 2011, Q1 2010, Q1 2009, Q1 2008, Q1 2007",247928914,20.0,14133112000.0,93.56913183279742,Reduce: 291,Heavy Exit
+GOOGL,Alphabet Inc.,278,"Tweedy Browne Co.
+Dodge & Cox
+Steven Romick
+Robert Vinall
+Hillman Value Fund
+Bill Nygren
+Ruane Cunniff
+Leon Cooperman
+Greg Alexander
+Glenn Greenberg",{'Reduce': np.int64(278)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q4 2016, Q4 2013, Q4 2012, Q4 2011, Q4 2010, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2017, Q3 2015, Q3 2014, Q3 2012, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2017, Q2 2014, Q2 2013, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2018, Q1 2014, Q1 2013, Q1 2011",88964223,31.0,10335870000.0,89.96763754045307,Reduce: 278,Heavy Exit
+META,Meta Platforms Inc.,260,"Robert Olstein
+Dodge & Cox
+Steven Romick
+Robert Vinall
+Hillman Value Fund
+Bill Nygren
+Ruane Cunniff
+Leon Cooperman
+Stephen Mandel
+Glenn Greenberg",{'Reduce': np.int64(260)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2017, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019",72852199,26.0,16983280000.0,90.9090909090909,Reduce: 260,Heavy Exit
+V,Visa Inc.,207,"Robert Olstein
+Mairs & Power Growth Fund
+Stephen Mandel
+Glenn Greenberg
+Lee Ainslie
+David Tepper
+Daniel Loeb
+Bill Ackman
+Valley Forge Capital Management
+Warren Buffett",{'Reduce': np.int64(207)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2017, Q3 2012, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2017, Q2 2012, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2018, Q1 2015, Q1 2012, Q1 2009",66300642,24.0,17687967000.0,89.6103896103896,Reduce: 207,Heavy Exit
+MA,Mastercard Inc.,199,"Robert Olstein
+Tweedy Browne Co.
+Bill Nygren
+Ruane Cunniff
+Stephen Mandel
+Glenn Greenberg
+David Tepper
+Valley Forge Capital Management
+Warren Buffett
+Viking Global Investors",{'Reduce': np.int64(199)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q4 2016, Q4 2014, Q4 2013, Q4 2012, Q4 2011, Q4 2007, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2017, Q3 2016, Q3 2015, Q3 2014, Q3 2011, Q3 2009, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2017, Q2 2016, Q2 2015, Q2 2014, Q2 2012, Q2 2011, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2018, Q1 2016, Q1 2015, Q1 2014, Q1 2012, Q1 2008",39941761,16.0,8674426000.0,92.55813953488372,Reduce: 199,Heavy Exit
+WFC,Wells Fargo,187,"Robert Olstein
+Tweedy Browne Co.
+Richard Pzena
+Dodge & Cox
+Steven Romick
+Mairs & Power Growth Fund
+Hillman Value Fund
+Meridian Contrarian Fund
+Bill Nygren
+Ruane Cunniff",{'Reduce': np.int64(187)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q4 2016, Q4 2014, Q4 2013, Q4 2012, Q4 2010, Q4 2008, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2017, Q3 2014, Q3 2013, Q3 2012, Q3 2009, Q3 2008, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2018, Q2 2017, Q2 2015, Q2 2014, Q2 2013, Q2 2012, Q2 2009, Q2 2008, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2019, Q1 2018, Q1 2017, Q1 2015, Q1 2013, Q1 2012",589052614,14.0,3940586000.0,93.03482587064676,Reduce: 187,Heavy Exit
+AMZN,Amazon.com Inc.,177,"Dodge & Cox
+Steven Romick
+Mairs & Power Growth Fund
+Hillman Value Fund
+Bill Nygren
+Ruane Cunniff
+Leon Cooperman
+Stephen Mandel
+Glenn Greenberg
+David Tepper",{'Reduce': np.int64(177)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2018, Q3 2015, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2017, Q2 2015, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2018, Q1 2015",157788598,24.0,15717206000.0,88.05970149253731,Reduce: 177,Heavy Exit
+JPM,JPMorgan Chase & Co.,165,"Richard Pzena
+Dodge & Cox
+Mairs & Power Growth Fund
+Greenhaven Associates
+Hillman Value Fund
+Bill Nygren
+Charles Bobrinskoy
+Glenn Greenberg
+Warren Buffett
+Francis Chou",{'Reduce': np.int64(165)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2017, Q4 2016, Q4 2015, Q4 2011, Q4 2008, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2017, Q3 2016, Q3 2015, Q3 2012, Q3 2010, Q3 2009, Q3 2008, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2017, Q2 2016, Q2 2015, Q2 2013, Q2 2009, Q2 2008, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2018, Q1 2017, Q1 2016, Q1 2012, Q1 2011, Q1 2008",101873477,12.0,1393870000.0,93.22033898305084,Reduce: 165,Heavy Exit
+UNH,United Health Group Inc.,157,"Robert Olstein
+Dodge & Cox
+Mairs & Power Growth Fund
+Ruane Cunniff
+Leon Cooperman
+Stephen Mandel
+Glenn Greenberg
+David Tepper
+Daniel Loeb
+Bruce Berkowitz",{'Reduce': np.int64(157)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q4 2009, Q4 2008, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2009, Q3 2008, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2009, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2009",44341280,17.0,4729650000.0,90.22988505747126,Reduce: 157,Heavy Exit
+BAC,Bank of America Corp.,143,"Richard Pzena
+Dodge & Cox
+Steven Romick
+Greenhaven Associates
+Hillman Value Fund
+Bill Nygren
+Charles Bobrinskoy
+Glenn Greenberg
+Li Lu
+David Tepper",{'Reduce': np.int64(143)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q4 2016, Q4 2015, Q4 2014, Q4 2013, Q4 2011, Q3 2024, Q3 2023, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2017, Q3 2016, Q3 2015, Q3 2014, Q3 2013, Q3 2008, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2016, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2018, Q1 2017, Q1 2016, Q1 2015, Q1 2014, Q1 2012, Q1 2010",664648942,15.0,29175493000.0,90.50632911392404,Reduce: 143,Heavy Exit
+C,Citigroup Inc.,123,"Richard Pzena
+Steven Romick
+Greenhaven Associates
+Hillman Value Fund
+Bill Nygren
+Charles Bobrinskoy
+Leon Cooperman
+Glenn Greenberg
+Bruce Berkowitz
+Bill Ackman",{'Reduce': np.int64(123)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q4 2016, Q4 2014, Q4 2011, Q4 2010, Q3 2024, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2017, Q3 2016, Q3 2012, Q3 2011, Q3 2010, Q3 2008, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2017, Q2 2016, Q2 2012, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2018, Q1 2015, Q1 2014, Q1 2013, Q1 2012",133884162,8.0,2046277000.0,93.89312977099236,Reduce: 123,Heavy Exit
+SCHW,Charles Schwab Corp.,121,"Dodge & Cox
+Mairs & Power Growth Fund
+Greenhaven Associates
+Bill Nygren
+Ruane Cunniff
+John Rogers
+Glenn Greenberg
+David Rolfe
+Triple Frond Partners
+Francois Rochon",{'Reduce': np.int64(121)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q4 2016, Q4 2013, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2017, Q3 2016, Q3 2014, Q3 2013, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2017, Q2 2016, Q2 2015, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2018, Q1 2017, Q1 2016, Q1 2014",52496726,11.0,7962711000.0,91.66666666666666,Reduce: 121,Heavy Exit
+GS,Goldman Sachs Group,120,"Robert Olstein
+Richard Pzena
+Dodge & Cox
+Greenhaven Associates
+Hillman Value Fund
+Ruane Cunniff
+Charles Bobrinskoy
+John Rogers
+Warren Buffett
+Francis Chou",{'Reduce': np.int64(120)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2017, Q4 2016, Q4 2015, Q4 2013, Q4 2012, Q4 2011, Q4 2010, Q4 2008, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2016, Q3 2015, Q3 2014, Q3 2012, Q3 2010, Q3 2009, Q3 2008, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2018, Q2 2016, Q2 2015, Q2 2014, Q2 2013, Q2 2012, Q2 2007, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2017, Q1 2013, Q1 2012, Q1 2009",27297398,7.0,1943659000.0,94.48818897637796,Reduce: 120,Heavy Exit
+DIS,Walt Disney Co.,115,"Robert Olstein
+Richard Pzena
+Mairs & Power Growth Fund
+Hillman Value Fund
+Mason Hawkins
+Ruane Cunniff
+Charles Bobrinskoy
+Nelson Peltz
+David Tepper
+Daniel Loeb",{'Reduce': np.int64(115)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2018, Q4 2011, Q4 2010, Q4 2008, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2014, Q3 2012, Q3 2008, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2019, Q2 2012, Q2 2010, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2012, Q1 2011",63148720,14.0,2107473000.0,89.14728682170544,Reduce: 115,Heavy Exit
+AAPL,Apple Inc.,115,"Robert Olstein
+Mairs & Power Growth Fund
+Hillman Value Fund
+Li Lu
+Carl Icahn
+Daniel Loeb
+Bill & Melinda Gates Foundation Trust
+Christopher Bloomstran
+Duan Yongping
+Bruce Berkowitz",{'Reduce': np.int64(115)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q4 2015, Q4 2011, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2017, Q3 2015, Q3 2013, Q3 2011, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2017, Q2 2012, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2018, Q1 2012, Q1 2011",826513588,18.0,76018955000.0,86.46616541353383,Reduce: 115,Heavy Exit
+MCO,Moody's Corp.,112,"Robert Olstein
+Glenn Greenberg
+Lee Ainslie
+ValueAct Capital
+Valley Forge Capital Management
+Warren Buffett
+Chris Hohn
+AltaRock Partners
+AKO Capital
+Triple Frond Partners",{'Reduce': np.int64(112)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2016, Q4 2013, Q4 2012, Q4 2010, Q4 2009, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2017, Q3 2016, Q3 2014, Q3 2010, Q3 2009, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2013, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2018, Q1 2016, Q1 2010",37063711,14.0,20564864000.0,88.88888888888889,Reduce: 112,Heavy Exit
+BRK.A,Berkshire Hathaway CL A,109,"Tweedy Browne Co.
+Ruane Cunniff
+Christopher Bloomstran
+Norbert Lou
+Bruce Berkowitz
+Francis Chou
+Prem Watsa
+Mohnish Pabrai
+Chuck Akre
+Thomas Russo",{'Reduce': np.int64(109)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2019, Q4 2018, Q4 2017, Q4 2016, Q4 2015, Q4 2014, Q4 2012, Q4 2010, Q4 2009, Q4 2007, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2018, Q3 2016, Q3 2014, Q3 2009, Q3 2008, Q3 2007, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2016, Q2 2015, Q2 2014, Q2 2012, Q2 2010, Q2 2009, Q2 2008, Q2 2007, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2020, Q1 2018, Q1 2017, Q1 2016, Q1 2015, Q1 2014, Q1 2013, Q1 2012, Q1 2010, Q1 2009, Q1 2008, Q1 2007",17990,14.0,4568812000.0,88.6178861788618,Reduce: 109,Heavy Exit
+ORCL,Oracle Corp.,107,"Robert Olstein
+Richard Pzena
+Steven Romick
+Bill Nygren
+Charles Bobrinskoy
+David Tepper
+Sarah Ketterer
+Thomas Russo
+First Eagle Investment Management
+Christopher Davis",{'Reduce': np.int64(107)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2015, Q4 2014, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2016, Q3 2015, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2018, Q2 2017, Q2 2016, Q2 2015, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2020, Q1 2019, Q1 2018, Q1 2016, Q1 2015",32501254,12.0,3852881000.0,89.91596638655463,Reduce: 107,Heavy Exit
+JNJ,Johnson & Johnson,104,"Robert Olstein
+Tweedy Browne Co.
+Mairs & Power Growth Fund
+Hillman Value Fund
+Charles Bobrinskoy
+Warren Buffett
+David Rolfe
+Prem Watsa
+Terry Smith
+Lindsell Train",{'Reduce': np.int64(104)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2018, Q4 2017, Q4 2016, Q4 2015, Q4 2013, Q4 2012, Q4 2011, Q4 2009, Q4 2008, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2017, Q3 2015, Q3 2014, Q3 2013, Q3 2012, Q3 2011, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2018, Q2 2016, Q2 2013, Q2 2012, Q2 2011, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2018, Q1 2016, Q1 2010",107913870,10.0,543389000.0,91.2280701754386,Reduce: 104,Heavy Exit
+COF,Capital One Financial,102,"Richard Pzena
+Dodge & Cox
+Bill Nygren
+Ruane Cunniff
+Stephen Mandel
+Clifford Sosin
+Warren Buffett
+Bill Miller
+Samantha McLemore
+Francois Rochon",{'Reduce': np.int64(102)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q4 2016, Q4 2009, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2017, Q3 2009, Q3 2008, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2016, Q2 2014, Q2 2011, Q2 2009, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2016, Q1 2011",40492588,18.0,7571111000.0,85.0,Reduce: 102,Heavy Exit
+CMCSA,Comcast Corp.,101,"Robert Olstein
+Tweedy Browne Co.
+Dodge & Cox
+Steven Romick
+Hillman Value Fund
+Bill Nygren
+Mason Hawkins
+Nelson Peltz
+Glenn Greenberg
+Kahn Brothers Group",{'Reduce': np.int64(101)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q4 2012, Q4 2011, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2012, Q3 2008, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2012, Q2 2008, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2018, Q1 2016, Q1 2014, Q1 2013, Q1 2008, Q1 2007",123769258,10.0,4436833000.0,90.990990990991,Reduce: 101,Heavy Exit
+PYPL,PayPal Holdings Inc.,98,"Mason Hawkins
+Stephen Mandel
+Lee Ainslie
+Carl Icahn
+David Tepper
+David Rolfe
+Chase Coleman
+Pat Dorsey
+Terry Smith
+Lindsell Train",{'Reduce': np.int64(98)},"Q4 2024, Q4 2023, Q4 2022, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q4 2016, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2017, Q3 2016, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2017, Q2 2016, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2017, Q1 2016",99172270,9.0,493302000.0,91.58878504672896,Reduce: 98,Heavy Exit
+CHTR,Charter Communications,98,"Richard Pzena
+Dodge & Cox
+Steven Romick
+Bill Nygren
+Ruane Cunniff
+Stephen Mandel
+Daniel Loeb
+Warren Buffett
+Chris Hohn
+Bryan Lawrence",{'Reduce': np.int64(98)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q3 2024, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2017, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2016, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2018, Q1 2015",35482761,11.0,4540566000.0,89.90825688073394,Reduce: 98,Heavy Exit
+CBRE,CBRE Group,95,"Robert Olstein
+Bill Nygren
+John Rogers
+ValueAct Capital
+Viking Global Investors
+Third Avenue Management
+Jensen Investment Management
+William Von Mueffling",{'Reduce': np.int64(95)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2017, Q4 2014, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2017, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2017, Q2 2016, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2018, Q1 2017",61760473,5.0,968685000.0,95.0,Reduce: 95,Heavy Exit
+BKNG,Booking Holdings Inc.,93,"Robert Olstein
+Richard Pzena
+Dodge & Cox
+Steven Romick
+Bill Nygren
+Ruane Cunniff
+Stephen Mandel
+Michael Burry
+David Rolfe
+Prem Watsa",{'Reduce': np.int64(93)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2017, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2019, Q2 2018, Q2 2017, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2018",2348763,6.0,2640681000.0,93.93939393939394,Reduce: 93,Heavy Exit
+AON,Aon Plc,93,"Steven Romick
+Mason Hawkins
+Glenn Greenberg
+Warren Buffett
+Polen Capital Management
+William Von Mueffling
+Harry Burn
+Wallace Weitz
+David Katz",{'Reduce': np.int64(93)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q4 2016, Q4 2015, Q4 2013, Q4 2012, Q4 2011, Q4 2007, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2017, Q3 2016, Q3 2015, Q3 2014, Q3 2013, Q3 2012, Q3 2008, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2019, Q2 2018, Q2 2017, Q2 2016, Q2 2015, Q2 2013, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2013, Q1 2012, Q1 2011",29420534,9.0,3613338000.0,91.17647058823528,Reduce: 93,Heavy Exit
+FI,Fiserv Inc.,91,"Dodge & Cox
+Mairs & Power Growth Fund
+Bill Nygren
+Mason Hawkins
+Leon Cooperman
+Glenn Greenberg
+ValueAct Capital
+Warren Buffett
+Bill Miller
+Sarah Ketterer",{'Reduce': np.int64(91)},"Q4 2024, Q4 2023, Q4 2022, Q4 2019, Q4 2018, Q4 2017, Q4 2012, Q4 2011, Q3 2024, Q3 2023, Q3 2022, Q3 2020, Q3 2019, Q3 2017, Q3 2012, Q3 2010, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2020, Q2 2019, Q2 2013, Q2 2011, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2020, Q1 2018, Q1 2012, Q1 2011",43362084,7.0,4421175000.0,92.85714285714286,Reduce: 91,Heavy Exit
+AXP,American Express,87,"Robert Olstein
+Tweedy Browne Co.
+Guy Spier - Aquamarine Capital
+Dodge & Cox
+Steven Romick
+Mairs & Power Growth Fund
+Hillman Value Fund
+Bill Nygren
+Christopher Bloomstran
+Bruce Berkowitz",{'Reduce': np.int64(87)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q4 2011, Q4 2008, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2013, Q3 2009, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2012, Q2 2011, Q2 2009, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2018, Q1 2012",32295767,10.0,41652114000.0,89.69072164948454,Reduce: 87,Heavy Exit
+KKR,KKR & Co. L.P.,86,"Richard Pzena
+Bill Nygren
+Charles Bobrinskoy
+John Rogers
+Stephen Mandel
+ValueAct Capital
+Viking Global Investors
+Prem Watsa
+Chuck Akre
+Josh Tarasoff",{'Reduce': np.int64(86)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q4 2012, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2017, Q2 2024, Q2 2023, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2013, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2018, Q1 2017, Q1 2013",86847888,5.0,1761793000.0,94.5054945054945,Reduce: 86,Heavy Exit
+TMO,Thermo Fisher Scientific,86,"Steven Romick
+John Rogers
+Leon Cooperman
+Stephen Mandel
+David Tepper
+Viking Global Investors
+Chris Hohn
+AKO Capital
+Polen Capital Management
+William Von Mueffling",{'Reduce': np.int64(86)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q4 2016, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2017, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2017, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2018, Q1 2017",8129464,9.0,2094162000.0,90.52631578947368,Reduce: 86,Heavy Exit
+BK,Bank of New York Mellon Corp.,85,"Tweedy Browne Co.
+Dodge & Cox
+Hillman Value Fund
+Mason Hawkins
+Charles Bobrinskoy
+Nelson Peltz
+Warren Buffett
+First Eagle Investment Management
+Christopher Davis
+Thomas Gayner",{'Reduce': np.int64(85)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q4 2015, Q4 2014, Q4 2013, Q4 2012, Q4 2010, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2019, Q3 2018, Q3 2017, Q3 2015, Q3 2014, Q3 2012, Q2 2025, Q2 2024, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2015, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2015, Q1 2014, Q1 2013",133447731,6.0,3988600000.0,93.4065934065934,Reduce: 85,Heavy Exit
+PG,Procter & Gamble,84,"Nelson Peltz
+Bill Ackman
+Warren Buffett
+Kahn Brothers Group
+Terry Smith
+AKO Capital
+Thomas Russo
+Jensen Investment Management
+Yacktman Asset Management
+David Katz",{'Reduce': np.int64(84)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2013, Q4 2009, Q4 2008, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2013, Q3 2012, Q3 2010, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2013, Q2 2012, Q2 2010, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2016, Q1 2012, Q1 2010",175398269,6.0,1405093000.0,93.33333333333331,Reduce: 84,Heavy Exit
+GE,GE Aerospace,81,"Richard Pzena
+Dodge & Cox
+Steven Romick
+Mairs & Power Growth Fund
+Hillman Value Fund
+Bill Nygren
+Mason Hawkins
+Nelson Peltz
+Christopher Bloomstran
+Warren Buffett",{'Reduce': np.int64(81)},"Q4 2024, Q4 2023, Q4 2022, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q4 2016, Q4 2015, Q4 2008, Q3 2024, Q3 2023, Q3 2021, Q3 2020, Q3 2019, Q3 2017, Q3 2016, Q3 2012, Q3 2010, Q3 2008, Q2 2025, Q2 2024, Q2 2023, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2016, Q2 2012, Q2 2009, Q2 2007, Q1 2025, Q1 2024, Q1 2023, Q1 2021, Q1 2020, Q1 2019, Q1 2018, Q1 2016, Q1 2012, Q1 2011",51268254,6.0,12829009000.0,93.10344827586206,Reduce: 81,Heavy Exit
+KMX,CarMax Inc.,79,"Hillman Value Fund
+Ruane Cunniff
+John Rogers
+David Tepper
+Daniel Loeb
+Warren Buffett
+Bryan Lawrence
+Tom Bancroft
+Chuck Akre
+Francois Rochon",{'Reduce': np.int64(79)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q4 2009, Q4 2008, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2017, Q3 2012, Q3 2008, Q2 2025, Q2 2024, Q2 2023, Q2 2021, Q2 2020, Q2 2019, Q2 2009, Q1 2025, Q1 2024, Q1 2023, Q1 2021, Q1 2020, Q1 2019, Q1 2012, Q1 2010, Q1 2009",30048823,9.0,339133000.0,89.77272727272727,Reduce: 79,Heavy Exit
+XOM,Exxon Mobil Corp.,77,"Richard Pzena
+Hillman Value Fund
+Charles Bobrinskoy
+Christopher Bloomstran
+Warren Buffett
+Kahn Brothers Group
+Thomas Russo
+First Eagle Investment Management
+Yacktman Asset Management
+David Katz",{'Reduce': np.int64(77)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2018, Q4 2015, Q4 2012, Q4 2011, Q4 2009, Q4 2008, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2018, Q3 2017, Q3 2016, Q3 2015, Q3 2012, Q3 2011, Q3 2008, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2016, Q2 2015, Q2 2008, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2019, Q1 2018, Q1 2016, Q1 2012, Q1 2011, Q1 2009",8224912,6.0,1068830000.0,92.7710843373494,Reduce: 77,Heavy Exit
+TSM,Taiwan Semiconductor S.A.,77,"Hillman Value Fund
+Ruane Cunniff
+Stephen Mandel
+David Tepper
+Daniel Loeb
+Warren Buffett
+David Rolfe
+Prem Watsa
+Sarah Ketterer
+Francois Rochon",{'Reduce': np.int64(77)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2019, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019",71005178,18.0,6088504000.0,81.05263157894737,Reduce: 77,Heavy Exit
+USB,U.S. Bancorp,76,"Robert Olstein
+Mairs & Power Growth Fund
+Hillman Value Fund
+Meridian Contrarian Fund
+Glenn Greenberg
+Warren Buffett
+Viking Global Investors
+David Rolfe
+Prem Watsa
+First Eagle Investment Management",{'Reduce': np.int64(76)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q4 2014, Q4 2012, Q4 2010, Q4 2008, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2019, Q3 2017, Q3 2013, Q3 2012, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2017, Q2 2012, Q2 2011, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2019, Q1 2018, Q1 2013, Q1 2012, Q1 2011",167221851,6.0,2514602000.0,92.6829268292683,Reduce: 76,Heavy Exit
+ADBE,Adobe Inc.,76,"Hillman Value Fund
+Leon Cooperman
+Stephen Mandel
+Glenn Greenberg
+David Tepper
+Daniel Loeb
+ValueAct Capital
+Viking Global Investors
+Chase Coleman
+Terry Smith",{'Reduce': np.int64(76)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2014, Q4 2013, Q4 2012, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2015, Q3 2014, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2015, Q2 2014, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2018, Q1 2016",46199373,8.0,1446185000.0,90.47619047619048,Reduce: 76,Heavy Exit
+PEP,PepsiCo Inc.,75,"Christopher Bloomstran
+David Rolfe
+Kahn Brothers Group
+Terry Smith
+Lindsell Train
+Thomas Russo
+First Eagle Investment Management
+Jensen Investment Management
+Thomas Gayner
+Yacktman Asset Management",{'Reduce': np.int64(75)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2018, Q4 2017, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q2 2024, Q2 2023, Q2 2022, Q2 2020, Q2 2017, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2020",16455216,9.0,895551000.0,89.28571428571429,Reduce: 75,Heavy Exit
+ORLY,O'Reilly Automotive,72,"Ruane Cunniff
+David Rolfe
+AltaRock Partners
+Chuck Akre
+Francois Rochon
+David Abrams
+Torray Funds",{'Reduce': np.int64(72)},"Q4 2024, Q4 2023, Q4 2022, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q4 2016, Q4 2015, Q4 2014, Q4 2013, Q4 2012, Q4 2010, Q4 2007, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2017, Q3 2016, Q3 2015, Q3 2014, Q3 2009, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2017, Q2 2016, Q2 2014, Q2 2013, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2018, Q1 2017, Q1 2016, Q1 2013",43229355,3.0,1261431000.0,96.0,Reduce: 72,Heavy Exit
+TEL,TE Connectivity plc,68,"Richard Pzena
+Dodge & Cox
+Steven Romick
+Bill Nygren
+Daniel Loeb
+First Eagle Investment Management
+David Katz",{'Reduce': np.int64(68)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q4 2016, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2013, Q3 2009, Q2 2025, Q2 2024, Q2 2023, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2016, Q2 2009, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2019, Q1 2018, Q1 2016, Q1 2011",14142582,5.0,1727818000.0,93.15068493150685,Reduce: 68,Heavy Exit
+VRSK,Verisk Analytics Inc.,68,"Ruane Cunniff
+Warren Buffett
+David Rolfe
+Terry Smith
+AKO Capital
+Triple Frond Partners
+Chuck Akre
+Jensen Investment Management
+Torray Funds",{'Reduce': np.int64(68)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2019, Q4 2018, Q4 2017, Q4 2016, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2019, Q3 2018, Q3 2017, Q3 2016, Q3 2015, Q3 2014, Q3 2012, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2017, Q2 2016, Q2 2014, Q2 2012, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2018, Q1 2013, Q1 2012",9638158,6.0,254803000.0,91.8918918918919,Reduce: 68,Heavy Exit
+SPGI,S&P Global Inc.,68,"Robert Olstein
+Stephen Mandel
+Lee Ainslie
+Daniel Loeb
+Valley Forge Capital Management
+David Rolfe
+Chris Hohn
+William Von Mueffling
+John Armitage
+Wallace Weitz",{'Reduce': np.int64(68)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2017, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019",8640701,8.0,7177458000.0,89.47368421052632,Reduce: 68,Heavy Exit
+BABA,Alibaba Group Holdings,67,"Tweedy Browne Co.
+Steven Romick
+Greg Alexander
+Stephen Mandel
+David Tepper
+Daniel Loeb
+Michael Burry
+Duan Yongping
+Bruce Berkowitz
+Chase Coleman",{'Reduce': np.int64(67)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2018, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2018, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2018",38251564,6.0,2007895000.0,91.78082191780824,Reduce: 67,Heavy Exit
+BMY,Bristol-Myers Squibb,67,"Richard Pzena
+Dodge & Cox
+Hillman Value Fund
+Bill Nygren
+Warren Buffett
+David Rolfe
+Kahn Brothers Group
+Prem Watsa
+Seth Klarman
+Torray Funds",{'Reduce': np.int64(67)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2008, Q4 2007, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2011, Q3 2010, Q3 2009, Q3 2008, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2012, Q2 2011, Q2 2010, Q2 2008, Q1 2025, Q1 2024, Q1 2023, Q1 2021, Q1 2020, Q1 2009, Q1 2008",57074865,8.0,430449000.0,89.33333333333333,Reduce: 67,Heavy Exit
+AIG,American International Group,66,"Tweedy Browne Co.
+Richard Pzena
+Steven Romick
+Meridian Contrarian Fund
+Bill Nygren
+Carl Icahn
+Daniel Loeb
+Bruce Berkowitz
+Harry Burn",{'Reduce': np.int64(66)},"Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2016, Q4 2015, Q4 2014, Q4 2013, Q4 2012, Q4 2011, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2017, Q3 2016, Q3 2015, Q3 2014, Q3 2013, Q3 2012, Q3 2011, Q2 2023, Q2 2022, Q2 2021, Q2 2020, Q2 2019, Q2 2018, Q2 2017, Q2 2016, Q2 2015, Q2 2014, Q2 2012, Q2 2008, Q1 2023, Q1 2022, Q1 2021, Q1 2019, Q1 2016, Q1 2015, Q1 2012",122707750,1.0,204000.0,98.50746268656717,Reduce: 66,Heavy Exit
+PFE,Pfizer Inc.,66,"Richard Pzena
+Mairs & Power Growth Fund
+Hillman Value Fund
+Bruce Berkowitz
+Kahn Brothers Group
+Prem Watsa
+Sarah Ketterer
+Jensen Investment Management
+Harry Burn
+David Katz",{'Reduce': np.int64(66)},"Q4 2024, Q4 2023, Q4 2022, Q4 2021, Q4 2020, Q4 2019, Q4 2018, Q4 2015, Q4 2011, Q4 2009, Q3 2024, Q3 2023, Q3 2022, Q3 2021, Q3 2020, Q3 2018, Q3 2017, Q3 2010, Q2 2025, Q2 2024, Q2 2023, Q2 2022, Q2 2020, Q2 2019, Q2 2018, Q2 2012, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2018, Q1 2011, Q1 2010",68301280,7.0,115991000.0,90.41095890410958,Reduce: 66,Heavy Exit
+ZBH,Zimmer Biomet Holdings,65,"Robert Olstein
+Mairs & Power Growth Fund
+Hillman Value Fund
+Charles Bobrinskoy
+John Rogers
+Sarah Ketterer
+First Eagle Investment Management
+David Katz",{'Reduce': np.int64(65)},"Q4 2024, Q4 2022, Q4 2020, Q4 2019, Q4 2018, Q4 2017, Q4 2015, Q4 2012, Q3 2024, Q3 2022, Q3 2021, Q3 2020, Q3 2019, Q3 2018, Q3 2016, Q3 2015, Q3 2012, Q2 2025, Q2 2024, Q2 2023, Q2 2021, Q2 2020, Q2 2017, Q2 2016, Q2 2015, Q2 2014, Q2 2013, Q1 2025, Q1 2024, Q1 2023, Q1 2022, Q1 2021, Q1 2020, Q1 2019, Q1 2018, Q1 2017, Q1 2013",1937340,7.0,1558532000.0,90.2777777777778,Reduce: 65,Heavy Exit

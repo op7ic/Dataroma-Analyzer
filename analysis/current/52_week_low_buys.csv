@@ -1,0 +1,114 @@
+ticker,ticker,current_price,buy_count,buying_managers,shares_bought,periods,activities,52_week_low,52_week_high,value,portfolio_percent,52_week_position_pct,near_52w_low,value_opportunity_score,opportunity_type
+KHC,Kraft Heinz Co.,28.94,5,"Mairs & Power Growth Fund
+Mason Hawkins
+Prem Watsa",5532800,"Q1 2025, Q4 2024",Add 75.98%; Add 39.63%; Buy; Add 1.36%; Add 341.87%,25.44,35.08,10347285000,2.76,36.30705394190873,True,10363.654294605809,Strong Accumulation
+CB,Chubb Limited,270.15,3,"Robert Olstein
+Viking Global Investors",1966065,"Q2 2025, Q1 2025",Add 88.89%; Buy,250.52,305.88,9099975000,2.0,35.45881502890168,True,9112.42911849711,Value Buying
+CNI,Canadian Natl Railway Co.,96.27,4,"AKO Capital
+First Eagle Investment Management",9231,"Q1 2025, Q4 2024",Add 73.52%; Add 10.91%; Add 0.86%; Add 3.18%,90.87,118.7,7964898000,6.28,19.40352137980593,True,7980.957647862019,Value Buying
+DVA,DaVita HealthCare Partners,151.32,1,Lee Ainslie,1811,Q1 2025,Add 123.87%,131.76,179.6,5376247000,1.04,40.88628762541806,True,5384.158371237459,Value Buying
+UNH,United Health Group Inc.,292.51,13,"Robert Olstein
+Dodge & Cox
+Mairs & Power Growth Fund
+Lee Ainslie
+David Tepper
+Viking Global Investors
+Francois Rochon
+Thomas Gayner",5825621,"Q2 2025, Q4 2024, Q1 2025",Add 78.57%; Add 26.67%; Add 117.41%; Add 4.43%; Add 22.59%,247.13,621.24,4729650000,1.69,12.13012215658496,False,4764.436987784341,Strong Accumulation
+CMCSA,Comcast Corp.,35.79,8,"Robert Olstein
+Dodge & Cox
+Viking Global Investors
+First Eagle Investment Management
+David Katz",47901458,"Q1 2025, Q2 2025, Q4 2024",Add 50.45%; Add 20.67%; Add 21.21%; Add 8.37%; Add 540.83%,31.15,44.12,4436833000,1.81,35.77486507324596,True,4459.255513492675,Strong Accumulation
+FI,Fiserv Inc.,143.0,4,"Robert Olstein
+Francois Rochon
+John Armitage",200373,"Q2 2025, Q4 2024, Q1 2025",Add 65.79%; Add 11.76%; Add 25.73%; Add 2.45%,128.22,238.59,4421175000,3.64,13.391320105101023,True,4437.83586798949,Value Buying
+SNY,Sanofi Aventis,50.16,3,"Sarah Ketterer
+First Eagle Investment Management",249025,"Q1 2025, Q4 2024",Add 0.41%; Add 38.79%; Add 16.19%,43.86,57.56,2723122000,1.09,45.98540145985399,True,2734.5234598540146,Value Buying
+ELV,Elevance Health Inc.,296.6,6,"Ruane Cunniff
+Leon Cooperman
+Seth Klarman
+First Eagle Investment Management
+Yacktman Asset Management",1494737,"Q4 2024, Q1 2025",Add 25.55%; Add 62.81%; Buy; Add 0.50%; Add 47.56%,274.4,558.44,2655330000,5.68,7.815800591466004,True,2676.5484199408534,Strong Accumulation
+ZTS,Zoetis Inc.,153.45,6,"Terry Smith
+AKO Capital
+Polen Capital Management
+William Von Mueffling",4788094,"Q1 2025, Q4 2024",Add 1020.18%; Add 1.20%; Add 0.92%; Add 17.55%; Add 17.54%,138.77,197.92,2625041000,2.88,24.81825866441249,True,2644.559174133559,Strong Accumulation
+HUM,Humana Inc.,237.12,7,"Richard Pzena
+Dodge & Cox
+Seth Klarman
+Christopher Davis
+David Katz",4707389,"Q4 2024, Q2 2025, Q1 2025",Add 31.47%; Add 5.17%; Add 5.24%; Add 106.34%; Buy,206.87,400.75,2490832000,3.27,15.602434495564266,True,2513.271756550444,Strong Accumulation
+STZ,Constellation Brands,176.09,3,"Hillman Value Fund
+Warren Buffett",12031600,"Q1 2025, Q4 2024",Buy; Add 113.52%,159.35,257.01,2206560000,1.59,17.141101781691592,True,2220.845889821831,Value Buying
+FTV,Fortive Corp.,51.11,5,"Robert Olstein
+Dodge & Cox
+Daniel Loeb
+Viking Global Investors",24641832,"Q2 2025, Q1 2025, Q4 2024",Add 2.52%; Add 43.42%; Buy; Add 11.83%,46.21,63.69,2203638000,1.76,28.03203661327231,True,2220.8347963386727,Strong Accumulation
+FICO,Fair Isaac Corp.,1531.26,1,AKO Capital,2058,Q1 2025,Add 1.38%,1477.12,2402.52,2139322000,12.04,5.850443051653349,True,2150.7369556948347,Deep Value
+ACN,Accenture,286.04,3,"Sarah Ketterer
+AKO Capital
+David Katz",139537,Q4 2024,Buy; Add 11.59%; Add 105.59%,271.83,394.41,2036957000,3.02,11.59242943383915,True,2051.7977570566163,Value Buying
+WAT,Waters Corp.,295.63,2,AKO Capital,97008,"Q1 2025, Q4 2024",Add 8.81%; Add 3.19%,279.62,423.56,1675056000,3.49,11.122690009726268,True,1687.9437309990274,Value Buying
+ZBH,Zimmer Biomet Holdings,97.33,7,"Dodge & Cox
+Sarah Ketterer
+Harry Burn
+David Katz",4621232,"Q2 2025, Q1 2025, Q4 2024",Add 13.95%; Add 2.47%; Add 15.15%; Add 4.62%; Add 3.56%,88.99,115.64,1558532000,1.98,31.29455909943715,True,1579.4025440900562,Strong Accumulation
+LEN,Lennar Corp.,117.26,8,"Greenhaven Associates
+Glenn Greenberg
+Viking Global Investors
+Bryan Lawrence
+Harry Burn",2390555,"Q2 2025, Q1 2025, Q4 2024",Add 0.57%; Add 3.00%; Add 0.85%; Add 23.40%; Buy,97.54,190.83,1522047000,6.01,21.13838567906528,False,1545.9331614320936,Strong Accumulation
+ADBE,Adobe Inc.,372.46,6,"Robert Olstein
+William Von Mueffling
+Torray Funds
+Wallace Weitz",323864,"Q2 2025, Q1 2025, Q4 2024",Buy; Add 29.60%; Add 18.33%; Add 28.57%; Add 1.60%,332.01,587.75,1446185000,1.64,15.816845233440208,True,1466.603315476656,Strong Accumulation
+REGN,Regeneron Pharmaceuticals,572.39,3,"Dodge & Cox
+Mason Hawkins
+Viking Global Investors",1115312,"Q2 2025, Q1 2025",Add 60.35%; Buy,476.49,1207.86,1420677000,2.28,13.112378139655714,False,1435.3657621860343,Value Buying
+PG,Procter & Gamble,158.28,3,"AKO Capital
+David Katz",114709,"Q4 2024, Q1 2025",Add 10.81%; Add 14.19%; Add 0.09%,150.87,177.66,1405093000,1.88,27.6595744680851,True,1418.3270425531916,Value Buying
+MMC,Marsh & McLennan,209.8,4,"AKO Capital
+Thomas Gayner",169496,"Q1 2025, Q4 2024",Add 2.86%; Add 4.54%; Add 1.09%; Add 1.80%,205.75,248.0,1358206000,4.5,9.585798816568074,True,1375.2474201183431,Deep Value
+BMRN,BioMarin Pharmaceutical Inc.,59.67,3,"Dodge & Cox
+Viking Global Investors",1902366,"Q4 2024, Q1 2025",Add 9.60%; Add 2.75%; Add 7.76%,52.93,94.85,1300492000,1.46,16.078244274809165,True,1314.884175572519,Value Buying
+BDX,Becton Dickinson,182.58,4,"Robert Olstein
+First Eagle Investment Management",2162569,"Q2 2025, Q4 2024, Q1 2025",Add 18.60%; Add 13.16%; Add 24.67%; Add 31.41%,162.35,249.34,1278291000,1.65,23.255546614553417,True,1293.965445338545,Value Buying
+MSCI,MSCI Inc.,530.86,2,"Valley Forge Capital Management
+AKO Capital",62507,Q4 2024,Buy; Add 1.36%,485.21,638.42,1274443000,0.89,29.79570524117227,True,1285.4634294758828,Value Buying
+SLB,Schlumberger Ltd.,35.14,7,"Robert Olstein
+Charles Bobrinskoy
+John Rogers
+First Eagle Investment Management",994470,"Q2 2025, Q4 2024, Q1 2025",Add 0.40%; Add 3.28%; Add 407.53%; Buy; Add 0.33%,30.85,47.94,1209561000,2.27,25.10239906377999,True,1231.050760093622,Strong Accumulation
+BAX,Baxter International Inc.,28.56,6,"Robert Olstein
+Richard Pzena
+Dodge & Cox
+Harry Burn",8142462,"Q4 2024, Q1 2025",Add 18.84%; Add 2.44%; Add 2.81%; Add 14.22%; Add 13.74%,26.1,39.87,1205744000,2.68,17.864923747276674,True,1225.9575076252722,Strong Accumulation
+SHW,Sherwin-Williams,342.94,5,"Lee Ainslie
+Viking Global Investors
+Chase Coleman
+Jensen Investment Management",1078101,"Q4 2024, Q1 2025",Add 4.63%; Add 57.31%; Add 19.90%; Add 90.28%; Add 8.88%,308.17,398.67,1104726000,1.3,38.41988950276241,True,1120.8840110497238,Strong Accumulation
+AVTR,Avantor arinc.,13.6,6,"Robert Olstein
+Dodge & Cox
+Harry Burn",30989098,"Q2 2025, Q1 2025, Q4 2024",Add 19.54%; Add 59.55%; Add 51.49%; Add 12.01%; Add 46.95%,11.82,28.0,1084546000,1.67,11.001236093943136,False,1105.4458763906057,Strong Accumulation
+XOM,Exxon Mobil Corp.,109.93,5,"Thomas Russo
+First Eagle Investment Management
+David Katz",26041,"Q1 2025, Q4 2024",Add 0.27%; Add 0.38%; Add 0.28%; Add 7.81%; Add 0.20%,96.91,123.07,1068830000,0.66,49.77064220183491,True,1083.8529357798163,Strong Accumulation
+PCG,PG&E Corp.,13.73,2,"Daniel Loeb
+Sarah Ketterer",2646597,Q1 2025,Add 5.36%; Add 1.85%,12.97,21.62,932051000,5.02,8.786127167630054,True,945.1723872832372,Deep Value
+DHR,Danaher Corp.,197.89,6,"Lee Ainslie
+Viking Global Investors
+Pat Dorsey
+Wallace Weitz",1644073,"Q1 2025, Q4 2024",Buy; Add 75.11%; Add 32.71%; Add 31.07%; Add 21.18%,170.73,280.22,874026000,3.53,24.805918348707635,False,893.5454081651292,Strong Accumulation
+UHS,Universal Health Services Inc.,164.82,2,First Eagle Investment Management,45635,"Q1 2025, Q4 2024",Add 0.03%; Add 0.95%,153.83,242.48,878755000,1.86,12.39706711787928,True,891.5152932882121,Value Buying
+HKHHF,Heineken Holding NV,74.0,3,"Steven Romick
+Thomas Russo",675503,"Q1 2025, Q4 2024",Add 2.46%; Add 13.59%; Add 3.56%,70.52,85.5,806089000,3.95,23.23097463284381,True,819.7659025367157,Value Buying
+ROST,Ross Stores Inc.,137.17,4,"Lee Ainslie
+Viking Global Investors
+Jensen Investment Management",4370152,"Q1 2025, Q4 2024",Buy; Add 153.16%,122.01,161.83,746910000,0.56,38.071320944249074,True,761.1028679055751,Value Buying
+FNF,Fidelity National Financial Inc.,55.55,1,First Eagle Investment Management,1076,Q1 2025,Add 0.02%,49.85,66.12,634235000,2.55,35.03380454824828,True,642.7316195451751,Value Buying
+OTIS,Otis Worldwide Corp.,88.49,2,First Eagle Investment Management,32684,"Q1 2025, Q4 2024",Add 46.38%; Add 19.38%,86.0,106.37,625161000,0.96,12.223858615611164,True,637.9386141384389,Value Buying
+UHAL.B,U Haul Holding Co Non Voting,56.35,1,Nelson Peltz,75645,Q4 2024,Add 7.21%,50.0,73.78,628541000,3.2,26.7031118587048,True,637.8706888141296,Value Buying
+NSIT,Insight Enterprises Inc.,146.17,2,Polen Capital Management,20776,"Q1 2025, Q4 2024",Add 1.69%; Add 93.99%,126.1,228.07,615540000,6.66,19.682259488084725,False,627.5717740511915,Value Buying
+TAP,Molson Coors Beverage Co.,52.08,3,"Dodge & Cox
+Prem Watsa",1511556,"Q2 2025, Q1 2025, Q4 2024",Add 2.97%; Add 1.69%; Buy,46.94,64.07,600026000,2.21,30.00583771161705,True,613.0254162288383,Value Buying

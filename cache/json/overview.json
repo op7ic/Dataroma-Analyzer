@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-07-24T15:30:42.685736",
+  "num_managers": 81,
+  "num_holdings": 3314,
+  "num_activities": 57643,
+  "unique_stocks": 1538,
+  "progress": {
+    "managers_processed": 81,
+    "holdings_found": 3314,
+    "activities_found": 57643,
+    "stocks_processed": 0,
+    "stocks_enriched": 0,
+    "errors_encountered": 0,
+    "duration_seconds": 684.9512
+  }
+}

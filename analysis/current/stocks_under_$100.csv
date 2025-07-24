@@ -1,0 +1,320 @@
+ticker,company_name,current_price,managers,total_value,avg_portfolio_pct,index,manager_count,total_shares,max_portfolio_pct,buy_count,last_buy_period,price_opportunity_score,price_category
+BAC,Bank of America Corp.,48.14,"Tweedy Browne Co.
+Guy Spier - Aquamarine Capital
+Richard Pzena
+Dodge & Cox
+Charles Bobrinskoy
+Glenn Greenberg
+Lee Ainslie
+Li Lu
+Warren Buffett
+Francis Chou",29175493000,4.5,81,15,697315357,26.12,0.0,,34.504,Higher Price
+WFC,Wells Fargo,83.7,"Robert Olstein
+Tweedy Browne Co.
+Richard Pzena
+Dodge & Cox
+Steven Romick
+Mairs & Power Growth Fund
+Francis Chou
+Thomas Russo
+Christopher Davis
+Torray Funds",3940586000,1.86,951,14,50267739,4.28,0.0,,29.864285714285717,Higher Price
+SCHW,Charles Schwab Corp.,95.15,"Dodge & Cox
+Greenhaven Associates
+Bill Nygren
+Ruane Cunniff
+John Rogers
+Lee Ainslie
+Viking Global Investors
+Francois Rochon
+Christopher Davis
+Thomas Gayner",7962711000,3.15,772,11,92126284,6.0,0.0,,25.15,Higher Price
+CMCSA,Comcast Corp.,35.79,"Robert Olstein
+Dodge & Cox
+Steven Romick
+Hillman Value Fund
+Glenn Greenberg
+Thomas Russo
+First Eagle Investment Management
+Thomas Gayner
+Yacktman Asset Management
+David Katz",4436833000,1.81,202,10,122926027,3.98,0.0,,21.807,Higher Price
+PYPL,PayPal Holdings Inc.,76.66,"Mason Hawkins
+Lee Ainslie
+Francis Chou
+David Rolfe
+Pat Dorsey
+Lindsell Train
+Polen Capital Management
+Harry Burn
+David Katz",493302000,3.29,720,9,7506207,7.53,0.0,,21.293333333333333,Higher Price
+KMX,CarMax Inc.,62.83,"Steven Romick
+Hillman Value Fund
+John Rogers
+Lee Ainslie
+Tom Bancroft
+Chuck Akre
+Francois Rochon
+Thomas Gayner
+Wallace Weitz",339133000,2.5,512,9,4567381,7.11,0.0,,20.504444444444445,Higher Price
+NKE,NIKE Inc.,76.75,"Robert Olstein
+Hillman Value Fund
+Christopher Bloomstran
+Viking Global Investors
+Terry Smith
+Lindsell Train
+Polen Capital Management
+Jensen Investment Management
+Thomas Gayner",930886000,1.09,623,9,14645849,3.31,0.0,,19.09111111111111,Higher Price
+C,Citigroup Inc.,95.99,"Richard Pzena
+Steven Romick
+Greenhaven Associates
+Francis Chou
+Kahn Brothers Group
+Sarah Ketterer
+Samantha McLemore
+Harry Burn",2046277000,6.88,156,8,24877929,20.48,0.0,,22.8825,Higher Price
+CVS,CVS Health Corp.,61.85,"Robert Olstein
+Richard Pzena
+Dodge & Cox
+Hillman Value Fund
+Prem Watsa
+Samantha McLemore
+Christopher Davis
+David Katz",4423171000,3.9,247,8,64400170,9.96,0.0,,19.9,Higher Price
+BMY,Bristol-Myers Squibb,48.98,"Richard Pzena
+Dodge & Cox
+Hillman Value Fund
+Kahn Brothers Group
+Bill Miller
+Jensen Investment Management
+Harry Burn
+David Katz",430449000,2.36,128,8,8612666,7.37,0.0,,18.35875,Higher Price
+SBUX,Starbucks Corp.,95.92,"Stephen Mandel
+Lee Ainslie
+Christopher Bloomstran
+Francois Rochon
+Polen Capital Management
+Jensen Investment Management
+Thomas Gayner
+David Katz",1326755000,1.99,769,8,13525892,5.68,0.0,,17.99375,Higher Price
+CP,Canadian Pacific Kansas City,77.32,"Lee Ainslie
+Bill Ackman
+Chris Hohn
+Lindsell Train
+Sarah Ketterer
+William Von Mueffling
+John Armitage",6648802000,6.85,219,7,94720287,25.33,0.0,,20.852857142857143,Higher Price
+OXY,Occidental Petroleum,44.44,"Dodge & Cox
+Li Lu
+Duan Yongping
+Bruce Berkowitz
+Warren Buffett
+Francis Chou
+Prem Watsa",16433614000,4.9,673,7,341073689,16.12,0.0,,18.90142857142857,Higher Price
+UBER,Uber Technologies Inc.,89.94,"Steven Romick
+David Tepper
+Bill Ackman
+Chase Coleman
+Thomas Russo
+William Von Mueffling
+Thomas Gayner",3232580000,4.27,891,7,44180215,18.5,0.0,,18.27285714285714,Higher Price
+CSGP,CoStar Group Inc.,91.0,"Daniel Loeb
+Chase Coleman
+Dennis Hong
+Chuck Akre
+Polen Capital Management
+Thomas Gayner
+Wallace Weitz",1803466000,4.15,234,7,22762403,12.5,0.0,,18.145714285714284,Higher Price
+GM,General Motors,53.13,"Robert Olstein
+Greenhaven Associates
+Francis Chou
+Viking Global Investors
+Prem Watsa
+Samantha McLemore
+Harry Burn",1646035000,3.88,398,7,33897623,17.32,0.0,,17.875714285714285,Higher Price
+KHC,Kraft Heinz Co.,28.94,"Mairs & Power Growth Fund
+Hillman Value Fund
+Mason Hawkins
+Bill & Melinda Gates Foundation Trust
+Warren Buffett
+Prem Watsa
+First Eagle Investment Management",10347285000,2.76,507,7,340361136,5.67,0.0,,16.764285714285712,Higher Price
+ZBH,Zimmer Biomet Holdings,97.33,"Robert Olstein
+Dodge & Cox
+Hillman Value Fund
+John Rogers
+Sarah Ketterer
+Harry Burn
+David Katz",1558532000,1.98,975,7,16629723,3.17,0.0,,15.981428571428571,Higher Price
+PFE,Pfizer Inc.,25.36,"Richard Pzena
+Hillman Value Fund
+Kahn Brothers Group
+Prem Watsa
+Sarah Ketterer
+Torray Funds
+David Katz",115991000,1.77,693,7,4610088,3.77,0.0,,15.765714285714283,Higher Price
+BN,Brookfield Corp.,67.78,"Daniel Loeb
+Bill Ackman
+Third Avenue Management
+Chuck Akre
+Josh Tarasoff
+Thomas Gayner",3899309000,9.46,129,6,74400093,18.01,0.0,,21.455,Higher Price
+USB,U.S. Bancorp,46.29,"Robert Olstein
+Hillman Value Fund
+Viking Global Investors
+First Eagle Investment Management
+Christopher Davis
+David Katz",2514602000,2.71,908,6,59542520,4.68,0.0,,14.711666666666666,Higher Price
+KO,Coca Cola Co.,69.16,"Christopher Bloomstran
+Warren Buffett
+Lindsell Train
+Thomas Russo
+Jensen Investment Management
+Yacktman Asset Management",28821399000,2.26,516,6,402421092,11.07,0.0,,14.263333333333334,Higher Price
+IFF,International Flavors & Fragrances Inc.,77.46,"Robert Olstein
+Dodge & Cox
+Steven Romick
+Hillman Value Fund
+Carl Icahn
+First Eagle Investment Management",1879882000,2.06,462,6,25216985,3.89,0.0,,14.063333333333333,Higher Price
+MRK,Merck & Co.,83.98,"Christopher Bloomstran
+Kahn Brothers Group
+Prem Watsa
+Sarah Ketterer
+Thomas Russo
+David Katz",144788000,2.02,593,6,1613196,8.94,0.0,,14.023333333333332,Higher Price
+JD,JD.com Inc.,33.93,"Howard Marks
+David Tepper
+Chase Coleman
+Sarah Ketterer
+Samantha McLemore
+Christopher Davis",505106000,1.71,488,6,12283720,5.95,0.0,,13.711666666666666,Higher Price
+BK,Bank of New York Mellon Corp.,99.63,"Dodge & Cox
+First Eagle Investment Management
+Christopher Davis
+Thomas Gayner
+Yacktman Asset Management
+David Katz",3988600000,1.7,115,6,45124445,3.72,0.0,,13.695,Higher Price
+MDT,Medtronic plc,92.01,"Robert Olstein
+Richard Pzena
+Dodge & Cox
+Polen Capital Management
+First Eagle Investment Management
+David Katz",1494354000,1.66,576,6,16809489,3.59,0.0,,13.66,Higher Price
+ALLY,Ally Financial Inc.,39.44,"Bill Nygren
+Glenn Greenberg
+Lee Ainslie
+Warren Buffett
+Francis Chou
+Sarah Ketterer",1311480000,1.47,33,6,35960534,4.52,0.0,,13.466666666666669,Higher Price
+UHAL,U-Haul Holding Co.,63.38,"Tweedy Browne Co.
+Meridian Contrarian Fund
+Nelson Peltz
+Third Avenue Management
+David Abrams
+Yacktman Asset Management",78654000,0.7,896,6,1224063,1.64,0.0,,12.701666666666666,Higher Price
+FIS,Fidelity National Information Services,81.58,"Robert Olstein
+Dodge & Cox
+Mason Hawkins
+Seth Klarman
+Harry Burn",2382264000,4.3,345,5,29735660,7.49,0.0,,14.3,Higher Price
+ET,Energy Transfer LP,17.44,"Leon Cooperman
+David Tepper
+Bruce Berkowitz
+Samantha McLemore
+David Abrams",543076000,3.64,321,5,29213375,9.59,0.0,,13.644,Higher Price
+CRH,CRH plc,96.83,"Greenhaven Associates
+Lee Ainslie
+Daniel Loeb
+Seth Klarman
+John Armitage",851064000,2.99,229,5,9673297,6.81,0.0,,12.99,Higher Price
+IAC,IAC Inc.,41.14,"FPA Queens Road Small Cap Value Fund
+Mason Hawkins
+Lee Ainslie
+Samantha McLemore
+Christopher Davis",290381000,2.9,451,5,6396914,8.07,0.0,,12.902,Higher Price
+B,Barrick Mining Corp.,21.61,"Charles Bobrinskoy
+Howard Marks
+Sarah Ketterer
+First Eagle Investment Management
+Harry Burn",1242438000,2.74,80,5,63927028,4.82,0.0,,12.742,Higher Price
+CPRT,Copart Inc.,46.83,"David Rolfe
+AKO Capital
+Francois Rochon
+Jensen Investment Management
+Torray Funds",543299000,2.7,223,5,9550309,6.14,0.0,,12.702,Higher Price
+BAX,Baxter International Inc.,28.56,"Robert Olstein
+Richard Pzena
+Dodge & Cox
+Hillman Value Fund
+Harry Burn",1205744000,2.68,89,5,39451173,4.91,0.0,,12.68,Higher Price
+SLB,Schlumberger Ltd.,35.14,"Robert Olstein
+Charles Bobrinskoy
+John Rogers
+First Eagle Investment Management
+Torray Funds",1209561000,2.27,796,5,28985313,3.14,0.0,,12.266,Higher Price
+DB,Deutsche Bank AG,31.28,"David Tepper
+Viking Global Investors
+Kahn Brothers Group
+Sarah Ketterer
+Third Avenue Management",516198000,2.08,259,5,21827152,6.84,0.0,,12.078,Higher Price
+LRCX,Lam Research,97.1,"Lee Ainslie
+David Tepper
+Chase Coleman
+Triple Frond Partners
+Christopher Davis",460849000,1.94,555,5,6339044,6.94,0.0,,11.944,Higher Price
+CTSH,Cognizant Technology Solutions,77.19,"Richard Pzena
+Dodge & Cox
+Sarah Ketterer
+Jensen Investment Management
+Yacktman Asset Management",1356618000,1.8,242,5,17474861,3.52,0.0,,11.8,Higher Price
+VZ,Verizon Communications,42.84,"Mairs & Power Growth Fund
+Hillman Value Fund
+Kahn Brothers Group
+Bill Miller
+Yacktman Asset Management",119543000,1.77,942,5,2750263,4.09,0.0,,11.766,Higher Price
+CPNG,Coupang Inc.,30.54,"Lee Ainslie
+Bill & Melinda Gates Foundation Trust
+Chase Coleman
+Christopher Davis
+David Abrams",957344000,1.65,221,5,43654513,5.07,0.0,,11.652,Higher Price
+TSN,Tyson Foods,54.39,"Richard Pzena
+Christopher Davis
+Thomas Gayner
+Yacktman Asset Management
+David Katz",542951000,1.58,881,5,8537769,2.2,0.0,,11.584,Higher Price
+BF.B,Brown-Forman Corp.,30.9,"Hillman Value Fund
+Terry Smith
+Lindsell Train
+Thomas Russo
+Thomas Gayner",426940000,1.1,105,5,12597790,2.1,0.0,,11.104,Higher Price
+BUD,Anheuser-Busch InBev,70.52,"Dodge & Cox
+Hillman Value Fund
+Bill & Melinda Gates Foundation Trust
+Sarah Ketterer
+Thomas Gayner",2135985000,1.1,145,5,31333102,2.55,0.0,,11.102,Higher Price
+CSCO,Cisco Systems,68.62,"Robert Olstein
+Lee Ainslie
+Thomas Gayner
+Yacktman Asset Management
+David Katz",120832000,0.92,233,5,1945889,1.89,0.0,,10.916,Higher Price
+TECH,Bio-Techne Corp.,55.31,"Mairs & Power Growth Fund
+Lee Ainslie
+Polen Capital Management
+Jensen Investment Management
+Wallace Weitz",125454000,0.8,851,5,2310461,2.08,0.0,,10.802,Higher Price
+CL,Colgate-Palmolive,88.79,"Lindsell Train
+First Eagle Investment Management
+Jensen Investment Management
+Yacktman Asset Management
+David Katz",903501000,0.58,194,5,9642491,1.73,0.0,,10.58,Higher Price
+HDB,HDFC Bank Ltd.,78.94,"Howard Marks
+Lee Ainslie
+Sarah Ketterer
+Polen Capital Management
+John Armitage",143537000,0.31,423,5,2160392,0.86,0.0,,10.308,Higher Price
+EL,Estee Lauder Cos.,89.68,"Hillman Value Fund
+Michael Burry
+Lindsell Train
+Thomas Gayner",18439000,25.73,300,4,270225,100.0,0.0,,33.727500000000006,Higher Price

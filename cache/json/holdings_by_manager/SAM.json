@@ -1,0 +1,31 @@
+{
+  "manager_id": "SAM",
+  "holdings": [
+    {
+      "symbol": "EL",
+      "company_name": "Estee Lauder Cos.",
+      "manager_id": "SAM",
+      "shares": 200000,
+      "value": 13200000,
+      "percentage": 100.0,
+      "portfolio_percent": 100.0,
+      "reported_price": 66.0,
+      "current_price": 89.68,
+      "price_change_percent": 0.0,
+      "recent_activity": "Add 100.00%",
+      "week_52_low": 48.12,
+      "week_52_high": 101.93,
+      "reporting_date": "",
+      "reporting_quarter": "Q3 2025",
+      "market_cap": 0.0,
+      "pe_ratio": 0.0,
+      "dividend_yield": 0.0,
+      "price_to_book": 0.0,
+      "sector": "",
+      "industry": "",
+      "data_quality": "Low"
+    }
+  ],
+  "timestamp": "2025-07-24T15:30:41.270850",
+  "scraped_date": "2025-07-24"
+}

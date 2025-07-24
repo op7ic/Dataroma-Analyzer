@@ -1,0 +1,67 @@
+name: Monthly Investment Analysis Update
+
+on:
+  schedule:
+    # Run on the 1st day of every month at 6 AM UTC
+    - cron: '0 6 1 * *'
+  workflow_dispatch:  # Allow manual triggering
+    inputs:
+      force_scrape:
+        description: 'Force fresh data scraping (ignores cache)'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  investment-analysis:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python 3.12
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+
+    - name: Cache Python dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run enhanced data scraper
+      id: scrape
+      run: |
+        echo "Starting enhanced Dataroma scraper with Yahoo Finance integration..."
+        python3 dataroma_scrape.py
+
+    - name: Generate comprehensive analysis
+      if: always()
+      run: |
+        echo "📊 Starting comprehensive investment analysis..."
+        python3 dataroma_analysis.py || echo "⚠️ Analysis completed with warnings"
+        echo "✅ Analysis generation completed"
+
+    - name: Remove Log
+      run: |
+        rm -f analysis.log
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        git diff --staged --quiet || git commit -m "Update $(date -u +'%Y-%m-%d')"
+        git push || echo "No changes to push"
