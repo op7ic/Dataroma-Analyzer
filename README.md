@@ -57,21 +57,25 @@ Transform complex institutional data into actionable investment opportunities:
 
 ---
 
-## 📈 **Historical Performance Analysis (3-Year)**
+## 📈 **Historical Analysis (18-Year Perspective)**
 
-### Long-Term Trend Analysis
-![3-Year Manager Performance](analysis/historical/visuals/manager_performance_3year.png)
-![Quarterly Activity Timeline](analysis/historical/visuals/quarterly_activity_timeline.png)
-![Top Performing Plays](analysis/historical/visuals/top_performing_plays.png)
-![Performance Distribution](analysis/historical/visuals/performance_distribution.png)
+### Long-Term Market Intelligence
+Transform decades of institutional data into strategic insights:
 
-### 📅 **Historical Reports**
+| **Historical Analysis** | **Description** | **Visualization** |
+|------------------------|-----------------|-------------------|
+| **📅 Quarterly Activity Timeline** | 18 years of institutional trading patterns | [📊 Chart](analysis/historical/visuals/quarterly_activity_timeline.png) |
+| **🏛️ Crisis Response Analysis** | How managers navigated major market crises | [📊 Chart](analysis/historical/visuals/crisis_response_comparison.png) |
+| **💎 Multi-Decade Conviction** | Stocks held consistently across decades | [📊 Chart](analysis/historical/visuals/multi_decade_conviction.png) |
+| **🔄 Stock Life Cycles** | Complete institutional holding patterns | [📊 Chart](analysis/historical/visuals/stock_life_cycles.png) |
+
+### 📅 **Historical Data Reports**
 | Report | Description | Link |
 |--------|-------------|------|
-| **3-Year Manager Performance** | Complete performance evolution | [📄 CSV](analysis/historical/manager_performance_3year_summary.csv) |
-| **Stock Performance Winners/Losers** | 1,306 stocks ranked by activity scores | [📄 CSV](analysis/historical/stock_performance_winners_losers.csv) |
-| **Top Performing Plays** | 100 best institutional plays | [📄 CSV](analysis/historical/top_performing_plays.csv) |
-| **Quarterly Activity Timeline** | 73 quarters of market trends | [📄 CSV](analysis/historical/quarterly_activity_timeline.csv) |
+| **Quarterly Activity Timeline** | 73 quarters of market activity trends | [📄 CSV](analysis/historical/quarterly_activity_timeline.csv) |
+| **Crisis Response Analysis** | Manager behavior during market downturns | [📄 CSV](analysis/historical/crisis_response_analysis.csv) |
+| **Multi-Decade Conviction** | Long-term institutional favorites | [📄 CSV](analysis/historical/multi_decade_conviction.csv) |
+| **Stock Life Cycles** | Complete holding pattern analysis | [📄 CSV](analysis/historical/stock_life_cycles.csv) |
 
 ---
 
@@ -91,29 +95,6 @@ python3 datorama_scrape.py
 # Generate fresh analysis (uses cached data if available)
 python3 analyze_holdings.py
 ```
-
-### 📁 **Output Structure**
-```
-analysis/
-├── current/
-│   ├── visuals/                     # 6 current opportunity charts
-│   ├── *.csv                        # 17 current analysis reports
-├── historical/
-│   ├── visuals/                     # 4 historical trend charts  
-│   ├── *.csv                        # 6 historical analysis reports
-├── README.md                        # Complete analysis overview
-```
-
----
-
-## 🔍 **Key Statistics**
-
-- **📊 Current Holdings**: 3,311 positions across 81 institutional managers
-- **📈 Historical Data**: 57,575 activities spanning 18 years (2007-2025)
-- **💵 Assets Tracked**: $1.7+ trillion in institutional holdings
-- **🌍 Stock Universe**: 1,542 unique stocks from global markets
-- **📅 Time Coverage**: 73 quarters of comprehensive market data
-
 ---
 
 ## 🤖 **Technical Features**
