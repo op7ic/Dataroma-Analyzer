@@ -144,30 +144,78 @@ class ReadmeGenerator:
             "value_price_opportunities": ("Multi-tier price analysis", "Comprehensive price-based screening")
         }
         
+        # Only add reports table if we have existing reports
+        existing_reports = []
         for report_name, (desc, insight) in current_reports.items():
             if report_name in results and not results[report_name].empty:
-                count = len(results[report_name])
+                # Check if the actual CSV file exists
+                csv_path = self.analysis_dir / "current" / f"{report_name}.csv"
+                if csv_path.exists():
+                    count = len(results[report_name])
+                    existing_reports.append((report_name, desc, insight, count))
+        
+        if existing_reports:
+            content.extend([
+                "\n### 📋 Current Reports",
+                "\n| Report | Description | Key Insight |",
+                "| ------ | ----------- | ----------- |"
+            ])
+            
+            for report_name, desc, insight, count in existing_reports:
                 content.append(f"| [{report_name}.csv](current/{report_name}.csv) | "
                              f"{desc} ({count} items) | {insight} |")
         
-        content.append("")
-        
-        # Add top opportunities
-        if "hidden_gems" in results and not results["hidden_gems"].empty:
-            top_gems = results["hidden_gems"].head(5)
-            content.extend([
-                "### 🌟 Top 5 Hidden Gems",
-                "\n| Ticker | Score | Price | Managers |",
-                "| ------ | ----- | ----- | -------- |"
-            ])
             
-            for _, gem in top_gems.iterrows():
-                managers_list = str(gem.get('managers', '')).split(',')[:3]
-                managers_str = ', '.join(m.strip() for m in managers_list)
-                content.append(f"| **{gem.get('ticker', 'N/A')}** | "
-                             f"{gem.get('hidden_gem_score', 0):.2f} | "
-                             f"${gem.get('current_price', 0):.2f} | "
-                             f"{managers_str} |")
+            content.append("")
+        
+        # Add top opportunities - check for any high-value report that exists
+        top_opportunity_reports = ["hidden_gems", "under_radar_picks", "deep_value_plays", "high_conviction_low_price", "momentum_stocks"]
+        
+        for report_name in top_opportunity_reports:
+            if report_name in results and not results[report_name].empty:
+                csv_path = self.analysis_dir / "current" / f"{report_name}.csv"
+                if csv_path.exists():
+                    top_opportunities = results[report_name].head(5)
+                    report_title = report_name.replace('_', ' ').title()
+                    
+                    # Special handling for different report types
+                    if report_name == "hidden_gems":
+                        content.extend([
+                            "### 🌟 Top 5 Hidden Gems",
+                            "\n| Ticker | Score | Price | Managers |",
+                            "| ------ | ----- | ----- | -------- |"
+                        ])
+                        
+                        for _, gem in top_opportunities.iterrows():
+                            managers_list = str(gem.get('managers', '')).split(',')[:3]
+                            managers_str = ', '.join(m.strip() for m in managers_list)
+                            content.append(f"| **{gem.get('ticker', 'N/A')}** | "
+                                         f"{gem.get('hidden_gem_score', 0):.2f} | "
+                                         f"${gem.get('current_price', 0):.2f} | "
+                                         f"{managers_str} |")
+                    else:
+                        content.extend([
+                            f"### 🌟 Top 5 {report_title}",
+                            "\n| Ticker | Score | Price | Details |",
+                            "| ------ | ----- | ----- | ------- |"
+                        ])
+                        
+                        for _, opp in top_opportunities.iterrows():
+                            # Get the most relevant columns for each report type
+                            score = opp.get('score', opp.get('momentum_score', opp.get('conviction_score', 0)))
+                            price = opp.get('current_price', opp.get('price', 0))
+                            details = str(opp.get('managers', opp.get('manager_name', opp.get('details', 'N/A'))))
+                            
+                            # Limit details to first 3 items if comma-separated
+                            if ',' in details:
+                                details_list = details.split(',')[:3]
+                                details = ', '.join(d.strip() for d in details_list)
+                            
+                            content.append(f"| **{opp.get('ticker', 'N/A')}** | "
+                                         f"{score:.2f} | "
+                                         f"${price:.2f} | "
+                                         f"{details} |")
+                    break  # Only show one top opportunities table
         
         content.append("\n---\n")
         return content
@@ -213,13 +261,28 @@ class ReadmeGenerator:
             "top_holdings": ("Largest institutional positions", "Deep dive into major institutional holdings")
         }
         
+        # Only add reports table if we have existing reports
+        existing_advanced_reports = []
         for report_name, (desc, insight) in advanced_reports.items():
             if report_name in results and not results[report_name].empty:
-                count = len(results[report_name])
+                # Check if the actual CSV file exists
+                csv_path = self.analysis_dir / "advanced" / f"{report_name}.csv"
+                if csv_path.exists():
+                    count = len(results[report_name])
+                    existing_advanced_reports.append((report_name, desc, insight, count))
+        
+        if existing_advanced_reports:
+            content.extend([
+                "\n### 📋 Advanced Reports",
+                "\n| Report | Description | Key Insight |",
+                "| ------ | ----------- | ----------- |"
+            ])
+            
+            for report_name, desc, insight, count in existing_advanced_reports:
                 content.append(f"| [{report_name}.csv](advanced/{report_name}.csv) | "
                              f"{desc} ({count} items) | {insight} |")
-        
-        content.append("")
+            
+            content.append("")
         
         # Add top managers - only if the CSV file actually exists
         if "manager_track_records" in results and not results["manager_track_records"].empty:
@@ -310,9 +373,24 @@ class ReadmeGenerator:
             "stock_life_cycles": ("Complete holding patterns", "Entry/exit patterns and optimal holding periods")
         }
         
+        # Only add reports table if we have existing reports
+        existing_historical_reports = []
         for report_name, (desc, insight) in historical_reports.items():
             if report_name in results and not results[report_name].empty:
-                count = len(results[report_name])
+                # Check if the actual CSV file exists
+                csv_path = self.analysis_dir / "historical" / f"{report_name}.csv"
+                if csv_path.exists():
+                    count = len(results[report_name])
+                    existing_historical_reports.append((report_name, desc, insight, count))
+        
+        if existing_historical_reports:
+            content.extend([
+                "\n### 📋 Historical Reports",
+                "\n| Report | Description | Key Insight |",
+                "| ------ | ----------- | ----------- |"
+            ])
+            
+            for report_name, desc, insight, count in existing_historical_reports:
                 content.append(f"| [{report_name}.csv](historical/{report_name}.csv) | "
                              f"{desc} ({count} items) | {insight} |")
         
