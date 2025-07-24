@@ -423,14 +423,16 @@ This analysis covers **{years_span}+ years** of investment data from top money m
                 png_files = sorted(visuals_dir.glob("*.png"))
                 if png_files:
                     content.append("### 📊 Visual Analysis\n")
-                    content.append("| Chart | Description |")
-                    content.append("|-------|-------------|")
                     
                     for png_file in png_files:
                         chart_name = png_file.stem
                         relative_path = f"{folder}/visuals/{png_file.name}"
                         desc = chart_descriptions.get(chart_name, f"**{chart_name.replace('_', ' ').title()}**")
-                        content.append(f"| ![{chart_name}]({relative_path}) | {desc} |")
+                        chart_title = chart_name.replace('_', ' ').title()
+                        content.append(f"#### {chart_title}")
+                        content.append(f"![{chart_title}]({relative_path})")
+                        content.append(f"*{desc}*")
+                        content.append("")
                     
                     content.append("")
             

@@ -1,6 +1,6 @@
 # 📊 Dataroma Investment Analysis
 
-*Generated: 2025-07-24 21:35:02*
+*Generated: 2025-07-24 21:57:10*
 
 ## 🎯 Overview
 
@@ -16,10 +16,33 @@ This analysis covers **18+ years** of investment data from top money managers, p
 
 ## 💡 Current Analysis (Last 3 Quarters)
 
-Immediate opportunities and recent market activity recent quarters.
+Immediate opportunities and recent market activity from Q4 2022 to Q4 2024.
 
 ### 📊 Visual Analysis
 
+#### 52 Week Analysis Current
+![52 Week Analysis Current](current/visuals/52_week_analysis_current.png)
+
+#### Momentum Analysis Current
+![Momentum Analysis Current](current/visuals/momentum_analysis_current.png)
+
+#### New Positions Current
+![New Positions Current](current/visuals/new_positions_current.png)
+
+#### Low Price Accumulation Current
+![Low Price Accumulation Current](current/visuals/low_price_accumulation_current.png)
+
+#### Portfolio Changes Current
+![Portfolio Changes Current](current/visuals/portfolio_changes_current.png)
+
+#### Price Opportunities Current
+![Price Opportunities Current](current/visuals/price_opportunities_current.png)
+
+
+### 📋 Current Reports
+
+| Report | Description | Key Insight |
+| ------ | ----------- | ----------- |
 | [52_week_high_sells.csv](current/52_week_high_sells.csv) | Profit taking patterns (40 items) | Strategic exits at peaks |
 | [52_week_low_buys.csv](current/52_week_low_buys.csv) | Value hunting activity (40 items) | Managers buying at market lows |
 | [concentration_changes.csv](current/concentration_changes.csv) | Portfolio shifts (100 items) | Major allocation adjustments |
@@ -38,6 +61,16 @@ Immediate opportunities and recent market activity recent quarters.
 | [under_radar_picks.csv](current/under_radar_picks.csv) | Hidden gem opportunities (20 items) | Under-the-radar institutional picks |
 | [value_price_opportunities.csv](current/value_price_opportunities.csv) | Multi-tier price analysis (40 items) | Comprehensive price-based screening |
 
+### 🌟 Top 5 Under Radar Picks
+
+| Ticker | Score | Price | Details |
+| ------ | ----- | ----- | ------- |
+| **BBWI** | 0.00 | $0.00 | Tom Bancroft |
+| **AER** | 0.00 | $0.00 | Pat Dorsey |
+| **AMR** | 0.00 | $0.00 | Guy Spier - Aquamarine Capital
+Mohnish Pabrai |
+| **ABG** | 0.00 | $0.00 | David Abrams |
+| **ACI** | 0.00 | $0.00 | Mason Hawkins |
 
 ---
 
@@ -47,6 +80,41 @@ Deep insights into manager strategies, performance patterns, and decision-making
 
 ### 📊 Visual Analysis
 
+#### Manager Performance Advanced
+![Manager Performance Advanced](advanced/visuals/manager_performance_advanced.png)
+
+#### Top Holdings Advanced
+![Top Holdings Advanced](advanced/visuals/top_holdings_advanced.png)
+
+#### 3 Year Performance
+![3 Year Performance](advanced/visuals/3_year_performance.png)
+
+#### 5 Year Performance
+![5 Year Performance](advanced/visuals/5_year_performance.png)
+
+#### 10 Year Performance
+![10 Year Performance](advanced/visuals/10_year_performance.png)
+
+#### Comprehensive Performance
+![Comprehensive Performance](advanced/visuals/comprehensive_performance.png)
+
+#### Consensus Picks Advanced
+![Consensus Picks Advanced](advanced/visuals/consensus_picks_advanced.png)
+
+#### Crisis Alpha Advanced
+![Crisis Alpha Advanced](advanced/visuals/crisis_alpha_advanced.png)
+
+#### Manager Evolution Advanced
+![Manager Evolution Advanced](advanced/visuals/manager_evolution_advanced.png)
+
+#### Position Sizing Advanced
+![Position Sizing Advanced](advanced/visuals/position_sizing_advanced.png)
+
+
+### 📋 Advanced Reports
+
+| Report | Description | Key Insight |
+| ------ | ----------- | ----------- |
 | [action_sequence_patterns.csv](advanced/action_sequence_patterns.csv) | Trading pattern analysis (30 items) | Institutional buy/sell sequence patterns |
 | [catalyst_timing_masters.csv](advanced/catalyst_timing_masters.csv) | Market timing excellence (30 items) | Managers with exceptional timing skills |
 | [crisis_alpha_generators.csv](advanced/crisis_alpha_generators.csv) | Crisis period outperformers (30 items) | Managers who buy during crashes |
@@ -91,6 +159,23 @@ Long-term trends and patterns from 2007 to 2025.
 
 ### 📊 Visual Analysis
 
+#### Crisis Response Comparison
+![Crisis Response Comparison](historical/visuals/crisis_response_comparison.png)
+
+#### Multi Decade Conviction
+![Multi Decade Conviction](historical/visuals/multi_decade_conviction.png)
+
+#### Quarterly Activity Timeline
+![Quarterly Activity Timeline](historical/visuals/quarterly_activity_timeline.png)
+
+#### Stock Life Cycles
+![Stock Life Cycles](historical/visuals/stock_life_cycles.png)
+
+
+### 📋 Historical Reports
+
+| Report | Description | Key Insight |
+| ------ | ----------- | ----------- |
 | [crisis_response_analysis.csv](historical/crisis_response_analysis.csv) | 2008 vs 2020 comparison (3 items) | Crisis behavior patterns across decades |
 | [multi_decade_conviction.csv](historical/multi_decade_conviction.csv) | Stocks held 10+ years (50 items) | Ultimate long-term conviction plays |
 | [quarterly_activity_timeline.csv](historical/quarterly_activity_timeline.csv) | 18-year activity map (74 items) | 73 quarters of market timing insights |
