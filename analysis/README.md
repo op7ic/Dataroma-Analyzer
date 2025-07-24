@@ -1,6 +1,6 @@
 # 📊 Dataroma Investment Analysis
 
-*Generated: 2025-07-24 20:31:33*
+*Generated: 2025-07-24 18:40:37*
 
 ## 🎯 Overview
 
@@ -20,36 +20,23 @@ Immediate opportunities and recent market activity recent quarters.
 
 ### 📊 Visual Analysis
 
-#### Momentum Analysis Current
-![Momentum Analysis Current](current/visuals/momentum_analysis_current.png)
-
-#### Price Opportunities Current
-![Price Opportunities Current](current/visuals/price_opportunities_current.png)
-
-#### 52 Week Analysis Current
-![52 Week Analysis Current](current/visuals/52_week_analysis_current.png)
-
-#### New Positions Current
-![New Positions Current](current/visuals/new_positions_current.png)
-
-#### Portfolio Changes Current
-![Portfolio Changes Current](current/visuals/portfolio_changes_current.png)
-
-#### Low Price Accumulation Current
-![Low Price Accumulation Current](current/visuals/low_price_accumulation_current.png)
-
-
-### 📋 Current Reports
-
-| Report | Description | Key Insight |
-| ------ | ----------- | ----------- |
+| [52_week_high_sells.csv](current/52_week_high_sells.csv) | Profit taking patterns (40 items) | Strategic exits at peaks |
+| [52_week_low_buys.csv](current/52_week_low_buys.csv) | Value hunting activity (40 items) | Managers buying at market lows |
+| [concentration_changes.csv](current/concentration_changes.csv) | Portfolio shifts (100 items) | Major allocation adjustments |
+| [contrarian_opportunities.csv](current/contrarian_opportunities.csv) | Against-the-trend plays (30 items) | Institutional contrarian bets |
+| [deep_value_plays.csv](current/deep_value_plays.csv) | Deep value opportunities (30 items) | Undervalued institutional picks |
+| [high_conviction_low_price.csv](current/high_conviction_low_price.csv) | Best value + conviction combo (30 items) | High conviction meets low price |
+| [highest_portfolio_concentration.csv](current/highest_portfolio_concentration.csv) | Most focused positions (100 items) | Highest concentration institutional bets |
 | [momentum_stocks.csv](current/momentum_stocks.csv) | Recent buying activity (50 items) | Tracks institutional accumulation patterns |
+| [most_sold_stocks.csv](current/most_sold_stocks.csv) | Recent exit activity (50 items) | Most divested institutional positions |
 | [new_positions.csv](current/new_positions.csv) | Fresh acquisitions (100 items) | Identifies emerging manager interests |
 | [stocks_under_$5.csv](current/stocks_under_$5.csv) | Ultra-low price opportunities (50 items) | Deep value plays under $5 |
+| [stocks_under_$10.csv](current/stocks_under_$10.csv) | Sub-$10 opportunities (50 items) | Manager favorites under $10 |
 | [stocks_under_$20.csv](current/stocks_under_$20.csv) | Affordable growth plays (50 items) | Quality stocks at accessible prices |
-| [52_week_low_buys.csv](current/52_week_low_buys.csv) | Value hunting activity (40 items) | Managers buying at market lows |
-| [52_week_high_sells.csv](current/52_week_high_sells.csv) | Profit taking patterns (40 items) | Strategic exits at peaks |
-| [concentration_changes.csv](current/concentration_changes.csv) | Portfolio shifts (100 items) | Major allocation adjustments |
+| [stocks_under_$50.csv](current/stocks_under_$50.csv) | Mid-price value plays (50 items) | Institutional picks under $50 |
+| [stocks_under_$100.csv](current/stocks_under_$100.csv) | Sub-$100 opportunities (50 items) | Value plays under $100 |
+| [under_radar_picks.csv](current/under_radar_picks.csv) | Hidden gem opportunities (20 items) | Under-the-radar institutional picks |
+| [value_price_opportunities.csv](current/value_price_opportunities.csv) | Multi-tier price analysis (40 items) | Comprehensive price-based screening |
 
 
 ---
@@ -60,57 +47,41 @@ Deep insights into manager strategies, performance patterns, and decision-making
 
 ### 📊 Visual Analysis
 
-#### Manager Performance Advanced
-![Manager Performance Advanced](advanced/visuals/manager_performance_advanced.png)
-
-#### Crisis Alpha Advanced
-![Crisis Alpha Advanced](advanced/visuals/crisis_alpha_advanced.png)
-
-#### Position Sizing Advanced
-![Position Sizing Advanced](advanced/visuals/position_sizing_advanced.png)
-
-#### Manager Evolution Advanced
-![Manager Evolution Advanced](advanced/visuals/manager_evolution_advanced.png)
-
-#### Consensus Picks Advanced
-![Consensus Picks Advanced](advanced/visuals/consensus_picks_advanced.png)
-
-#### Top Holdings Advanced
-![Top Holdings Advanced](advanced/visuals/top_holdings_advanced.png)
-
-#### 3 Year Performance
-![3 Year Performance](advanced/visuals/3_year_performance.png)
-
-#### 5 Year Performance
-![5 Year Performance](advanced/visuals/5_year_performance.png)
-
-#### 10 Year Performance
-![10 Year Performance](advanced/visuals/10_year_performance.png)
-
-#### Comprehensive Performance
-![Comprehensive Performance](advanced/visuals/comprehensive_performance.png)
-
-
-### 📋 Advanced Reports
-
-| Report | Description | Key Insight |
-| ------ | ----------- | ----------- |
-| [manager_track_records.csv](advanced/manager_track_records.csv) | 18+ year performance history (81 items) | Comprehensive manager scoring |
+| [action_sequence_patterns.csv](advanced/action_sequence_patterns.csv) | Trading pattern analysis (30 items) | Institutional buy/sell sequence patterns |
+| [catalyst_timing_masters.csv](advanced/catalyst_timing_masters.csv) | Market timing excellence (30 items) | Managers with exceptional timing skills |
 | [crisis_alpha_generators.csv](advanced/crisis_alpha_generators.csv) | Crisis period outperformers (30 items) | Managers who buy during crashes |
-| [position_sizing_mastery.csv](advanced/position_sizing_mastery.csv) | Optimal allocation patterns (40 items) | Risk/reward optimization |
-| [multi_manager_favorites.csv](advanced/multi_manager_favorites.csv) | Consensus high-conviction picks (50 items) | Stocks held by multiple gurus |
-| [sector_rotation_patterns.csv](advanced/sector_rotation_patterns.csv) | Timing market trends (352 items) | Early sector shift detection |
-| [manager_evolution_patterns.csv](advanced/manager_evolution_patterns.csv) | Strategy adaptation over time (30 items) | How managers evolve |
+| [high_conviction_stocks.csv](advanced/high_conviction_stocks.csv) | Highest conviction positions (245 items) | Stocks with strongest institutional backing |
+| [interesting_stocks_overview.csv](advanced/interesting_stocks_overview.csv) | Top-tier opportunities (100 items) | Multi-factor scoring of elite picks |
+| [long_term_winners.csv](advanced/long_term_winners.csv) | Sustained institutional interest (132 items) | Stocks with long-term institutional backing |
+| [manager_evolution_patterns.csv](advanced/manager_evolution_patterns.csv) | Strategy adaptation over time (30 items) | How managers evolve their approaches |
+| [manager_performance.csv](advanced/manager_performance.csv) | Comprehensive manager evaluation (81 items) | Multi-dimensional performance metrics |
+| [manager_track_records.csv](advanced/manager_track_records.csv) | 18+ year performance history (81 items) | Comprehensive manager scoring with consistency |
+| [multi_manager_favorites.csv](advanced/multi_manager_favorites.csv) | Consensus high-conviction picks (50 items) | Stocks held by multiple elite managers |
+| [position_sizing_mastery.csv](advanced/position_sizing_mastery.csv) | Optimal allocation patterns (40 items) | Advanced portfolio construction analysis |
+| [sector_rotation_excellence.csv](advanced/sector_rotation_excellence.csv) | Elite sector allocation (30 items) | Superior sector rotation strategies |
+| [sector_rotation_patterns.csv](advanced/sector_rotation_patterns.csv) | Institutional sector flows (352 items) | Sector rotation trend analysis |
+| [theme_emergence_detection.csv](advanced/theme_emergence_detection.csv) | Early theme identification (25 items) | Emerging investment theme detection |
+| [top_holdings.csv](advanced/top_holdings.csv) | Largest institutional positions (50 items) | Deep dive into major institutional holdings |
 
-### 🏆 Top 5 Managers by Track Record
+### 🏆 Top 15 Managers by Annual Return (2007-2025)
 
-| Manager | Score | Years Active | Win Rate |
-| ------- | ----- | ------------ | -------- |
-| **FPA Queens Road Small Cap Value Fund** | 30.33 | 12 | 0.0% |
-| **Mason Hawkins** | 30.21 | 19 | 0.0% |
-| **Pat Dorsey** | 30.08 | 9 | 0.0% |
-| **Wallace Weitz** | 28.78 | 17 | 0.0% |
-| **ValueAct Capital** | 28.63 | 14 | 0.0% |
+| Rank | Manager | Annual Return | Score | Years Active |
+| ---- | ------- | ------------- | ----- | ------------ |
+| 1 | **Mason Hawkins** | 26.9% | 30.21 | 19 |
+| 2 | **Tweedy Browne Co.** | 26.9% | 27.79 | 19 |
+| 3 | **Hillman Value Fund** | 26.9% | 27.71 | 19 |
+| 4 | **Bill Ackman** | 26.9% | 27.69 | 19 |
+| 5 | **Bill Nygren** | 26.9% | 26.78 | 19 |
+| 6 | **Bruce Berkowitz** | 26.9% | 24.37 | 19 |
+| 7 | **Ruane Cunniff** | 26.9% | 24.18 | 19 |
+| 8 | **Bill & Melinda Gates Foundation Trust** | 26.9% | 18.49 | 19 |
+| 9 | **Warren Buffett** | 25.3% | 28.38 | 18 |
+| 10 | **Wallace Weitz** | 23.9% | 28.78 | 17 |
+| 11 | **Mohnish Pabrai** | 23.9% | 18.94 | 17 |
+| 12 | **Glenn Greenberg** | 22.5% | 28.26 | 16 |
+| 13 | **Charles Bobrinskoy** | 21.2% | 27.32 | 15 |
+| 14 | **Chuck Akre** | 21.2% | 26.87 | 15 |
+| 15 | **Prem Watsa** | 21.2% | 26.78 | 15 |
 
 ---
 
@@ -120,28 +91,10 @@ Long-term trends and patterns from 2007 to 2025.
 
 ### 📊 Visual Analysis
 
-#### Timeline
-![Timeline](timeline)
-
-#### Crisis Comparison
-![Crisis Comparison](crisis_comparison)
-
-#### Conviction Plays
-![Conviction Plays](conviction_plays)
-
-#### Life Cycles
-![Life Cycles](life_cycles)
-
-
-### 📋 Historical Reports
-
-| Report | Description | Key Insight |
-| ------ | ----------- | ----------- |
-| [multi_decade_conviction.csv](historical/multi_decade_conviction.csv) | Stocks held 10+ years (50 items) | Ultimate conviction plays |
-| [stock_life_cycles.csv](historical/stock_life_cycles.csv) | Entry/exit patterns (3851 items) | Optimal holding periods |
-| [crisis_response_analysis.csv](historical/crisis_response_analysis.csv) | 2008 vs 2020 comparison (3 items) | Crisis behavior patterns |
-| [quarterly_activity_timeline.csv](historical/quarterly_activity_timeline.csv) | 18-year activity map (74 items) | Market timing insights |
-| [long_term_winners.csv](historical/long_term_winners.csv) | Best performers over time (132 items) | Compound growth champions |
+| [crisis_response_analysis.csv](historical/crisis_response_analysis.csv) | 2008 vs 2020 comparison (3 items) | Crisis behavior patterns across decades |
+| [multi_decade_conviction.csv](historical/multi_decade_conviction.csv) | Stocks held 10+ years (50 items) | Ultimate long-term conviction plays |
+| [quarterly_activity_timeline.csv](historical/quarterly_activity_timeline.csv) | 18-year activity map (74 items) | 73 quarters of market timing insights |
+| [stock_life_cycles.csv](historical/stock_life_cycles.csv) | Complete holding patterns (3851 items) | Entry/exit patterns and optimal holding periods |
 
 ---
 
