@@ -193,6 +193,63 @@ class ReadmeGenerator:
                                          f"{gem.get('hidden_gem_score', 0):.2f} | "
                                          f"${gem.get('current_price', 0):.2f} | "
                                          f"{managers_str} |")
+                    elif report_name == "under_radar_picks":
+                        # Use top 15 for under radar picks with proper analysis
+                        top_opportunities = results[report_name].head(15)
+                        content.extend([
+                            "### 🔍 Top 15 Under Radar Picks",
+                            "\n| Rank | Ticker | Score | Value | Why Under Radar |",
+                            "| ---- | ------ | ----- | ----- | --------------- |"
+                        ])
+                        
+                        for rank, (_, pick) in enumerate(top_opportunities.iterrows(), 1):
+                            ticker = pick.get('ticker', 'N/A')
+                            score = pick.get('under_radar_score', 0)
+                            total_value = pick.get('total_value', 0)
+                            total_shares = pick.get('total_shares', 1)
+                            manager_count = pick.get('manager_count', 0)
+                            pick_type = pick.get('pick_type', 'Unknown')
+                            avg_portfolio_pct = pick.get('avg_portfolio_pct', 0)
+                            first_established = pick.get('first_established', 'Unknown')
+                            
+                            # Calculate approximate price per share
+                            price_per_share = total_value / total_shares if total_shares > 0 else 0
+                            
+                            # Format value in millions/billions
+                            if total_value >= 1e9:
+                                value_str = f"${total_value/1e9:.1f}B"
+                            elif total_value >= 1e6:
+                                value_str = f"${total_value/1e6:.0f}M"
+                            else:
+                                value_str = f"${total_value:,.0f}"
+                            
+                            # Generate "why under radar" explanation
+                            reasons = []
+                            if manager_count == 1:
+                                reasons.append("Exclusive pick")
+                            elif manager_count <= 2:
+                                reasons.append("Limited recognition")
+                            
+                            if avg_portfolio_pct > 10:
+                                reasons.append(f"High conviction ({avg_portfolio_pct:.1f}%)")
+                            
+                            if pick_type == "Growing Interest":
+                                reasons.append("Growing institutional interest")
+                            elif pick_type == "Exclusive Pick":
+                                reasons.append("Single manager exclusive")
+                            
+                            if "Q1 2020" in str(first_established) or "Q2 2024" in str(first_established):
+                                reasons.append("Recent discovery")
+                            
+                            if price_per_share < 50:
+                                reasons.append("Low price entry")
+                            
+                            why_under_radar = "; ".join(reasons) if reasons else "Institutional accumulation"
+                            
+                            content.append(f"| {rank} | **{ticker}** | "
+                                         f"{score:.1f} | "
+                                         f"{value_str} | "
+                                         f"{why_under_radar} |")
                     else:
                         content.extend([
                             f"### 🌟 Top 5 {report_title}",
