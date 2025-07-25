@@ -4,6 +4,8 @@
 
 This repository provides a complete solution for analyzing institutional investment data from [Dataroma](https://www.dataroma.com), tracking **$1.7+ trillion** in assets under management across **3,311 current holdings** and **57,575 historical activities**.
 
+Detailed analysis is in [analysis/](analysis/) folder.
+
 ## 🔥 **Live Analysis Dashboard**
 
 ### 🎯 Current Market Opportunities (Last 3 Quarters)
