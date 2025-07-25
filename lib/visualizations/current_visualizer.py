@@ -1,6 +1,19 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 """
-Visualization module for current analysis (last 3 quarters).
-Creates graphs for immediate opportunities and recent market activity.
+Dataroma Investment Analyzer - Current Visualizer
+
+Generates visualizations for recent market activity and opportunities.
+Visualization module for current analysis (last 3 quarters) that creates 
+graphs for immediate opportunities and recent market activity.
+
+MIT License
+Copyright (c) 2020-present Jerzy 'Yuri' Kramarz
+See LICENSE file for full license text.
+
+Author: Jerzy 'Yuri' Kramarz
+Source: https://github.com/op7ic/Dataroma-Analyzer
 """
 
 import pandas as pd

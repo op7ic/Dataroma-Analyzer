@@ -1,4 +1,19 @@
-"""HTML parsing for Dataroma pages."""
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+Dataroma Investment Analyzer - Parsers
+
+HTML parsing utilities for extracting data from Dataroma pages.
+Parser for Dataroma HTML pages with robust error handling.
+
+MIT License
+Copyright (c) 2020-present Jerzy 'Yuri' Kramarz
+See LICENSE file for full license text.
+
+Author: Jerzy 'Yuri' Kramarz
+Source: https://github.com/op7ic/Dataroma-Analyzer
+"""
 
 import logging
 import re

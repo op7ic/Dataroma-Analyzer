@@ -1,5 +1,18 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 """
-Common financial calculations and utility functions.
+Dataroma Investment Analyzer - Calculations
+
+Financial calculations including returns, momentum scores, and portfolio metrics.
+Common financial calculations and utility functions for analysis modules.
+
+MIT License
+Copyright (c) 2020-present Jerzy 'Yuri' Kramarz
+See LICENSE file for full license text.
+
+Author: Jerzy 'Yuri' Kramarz
+Source: https://github.com/op7ic/Dataroma-Analyzer
 """
 
 import pandas as pd

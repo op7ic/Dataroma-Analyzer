@@ -1,6 +1,19 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 """
-CSV formatting utilities for clean, consistent output.
-Handles manager name mapping and column standardization.
+Dataroma Investment Analyzer - CSV Formatter
+
+Formats analysis results into clean CSV files with proper headers.
+CSV formatting utilities for clean, consistent output with manager name mapping
+and column standardization.
+
+MIT License
+Copyright (c) 2020-present Jerzy 'Yuri' Kramarz
+See LICENSE file for full license text.
+
+Author: Jerzy 'Yuri' Kramarz
+Source: https://github.com/op7ic/Dataroma-Analyzer
 """
 
 import csv

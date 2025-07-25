@@ -1,6 +1,18 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 """
-Advanced historical analysis for deep insights from 18+ years of data.
-Focus on multi-decade patterns, manager excellence, and predictive signals.
+Dataroma Investment Analyzer - Advanced Analyzer
+
+Sophisticated analysis including manager performance, sector rotation, and pattern detection.
+Focuses on multi-decade patterns, manager excellence, and predictive signals from 18+ years of data.
+
+MIT License
+Copyright (c) 2020-present Jerzy 'Yuri' Kramarz
+See LICENSE file for full license text.
+
+Author: Jerzy 'Yuri' Kramarz
+Source: https://github.com/op7ic/Dataroma-Analyzer
 """
 
 import logging

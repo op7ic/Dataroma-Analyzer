@@ -1,5 +1,18 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 """
-Base analyzer class for all analysis modules.
+Dataroma Investment Analyzer - Base Analyzer
+
+Abstract base class providing common analysis functionality and patterns
+for all analysis modules.
+
+MIT License
+Copyright (c) 2020-present Jerzy 'Yuri' Kramarz
+See LICENSE file for full license text.
+
+Author: Jerzy 'Yuri' Kramarz
+Source: https://github.com/op7ic/Dataroma-Analyzer
 """
 
 from abc import ABC, abstractmethod

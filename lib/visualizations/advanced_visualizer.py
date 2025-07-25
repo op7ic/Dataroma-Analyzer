@@ -1,3 +1,19 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+Dataroma Investment Analyzer - Advanced Visualizer
+
+Creates sophisticated multi-panel visualizations for manager performance analysis.
+
+MIT License
+Copyright (c) 2020-present Jerzy 'Yuri' Kramarz
+See LICENSE file for full license text.
+
+Author: Jerzy 'Yuri' Kramarz
+Source: https://github.com/op7ic/Dataroma-Analyzer
+"""
+
 """
 Visualization module for advanced manager analysis.
 Creates graphs for manager performance, patterns, and strategic insights.

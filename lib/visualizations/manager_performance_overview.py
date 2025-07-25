@@ -1,6 +1,19 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 """
-Comprehensive single-page manager performance analysis.
-Shows portfolio value changes and performance metrics across all managers.
+Dataroma Investment Analyzer - Manager Performance Overview
+
+Comprehensive performance visualization across multiple time periods.
+Shows portfolio value changes and performance metrics across all managers
+in a single-page analysis.
+
+MIT License
+Copyright (c) 2020-present Jerzy 'Yuri' Kramarz
+See LICENSE file for full license text.
+
+Author: Jerzy 'Yuri' Kramarz
+Source: https://github.com/op7ic/Dataroma-Analyzer
 """
 
 import pandas as pd

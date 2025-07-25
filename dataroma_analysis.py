@@ -1,7 +1,18 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 """
-Complete analysis runner - the only analysis script needed in root.
-Runs all analysis modules through the AnalysisOrchestrator.
+Dataroma Investment Analyzer - Main Analysis Runner
+
+Entry point for running comprehensive investment analysis across all time periods
+and generating actionable insights from scraped manager data.
+
+MIT License
+Copyright (c) 2020-present Jerzy 'Yuri' Kramarz
+See LICENSE file for full license text.
+
+Author: Jerzy 'Yuri' Kramarz
+Source: https://github.com/op7ic/Dataroma-Analyzer
 """
 
 import os

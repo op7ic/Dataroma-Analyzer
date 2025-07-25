@@ -1,8 +1,19 @@
-"""
-Analysis Orchestrator - Coordinates all analysis modules.
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
+"""
+Dataroma Investment Analyzer - Analysis Orchestrator
+
+Coordinates all analysis modules and generates comprehensive reports.
 This is the main entry point for running comprehensive analysis across
 all modules and generating reports and visualizations.
+
+MIT License
+Copyright (c) 2020-present Jerzy 'Yuri' Kramarz
+See LICENSE file for full license text.
+
+Author: Jerzy 'Yuri' Kramarz
+Source: https://github.com/op7ic/Dataroma-Analyzer
 """
 
 import logging

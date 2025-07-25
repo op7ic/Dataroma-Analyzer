@@ -1,8 +1,19 @@
-"""
-Core holdings analysis module.
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
-Analyzes current holdings data to identify top positions, multi-manager favorites,
-and comprehensive stock overviews.
+"""
+Dataroma Investment Analyzer - Holdings Analyzer
+
+Analyzes current portfolio holdings, concentrations, and position changes.
+Core holdings analysis module that analyzes current holdings data to identify 
+top positions, multi-manager favorites, and comprehensive stock overviews.
+
+MIT License
+Copyright (c) 2020-present Jerzy 'Yuri' Kramarz
+See LICENSE file for full license text.
+
+Author: Jerzy 'Yuri' Kramarz
+Source: https://github.com/op7ic/Dataroma-Analyzer
 """
 
 import logging

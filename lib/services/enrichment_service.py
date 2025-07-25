@@ -1,4 +1,19 @@
-"""Enhanced stock enrichment service with persistent caching and IP limit learning."""
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+Dataroma Investment Analyzer - Enrichment Service
+
+Enriches scraped data with additional financial information.
+Enhanced stock enrichment service with persistent caching and IP limit learning.
+
+MIT License
+Copyright (c) 2020-present Jerzy 'Yuri' Kramarz
+See LICENSE file for full license text.
+
+Author: Jerzy 'Yuri' Kramarz
+Source: https://github.com/op7ic/Dataroma-Analyzer
+"""
 
 import json
 import logging

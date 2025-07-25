@@ -1,8 +1,19 @@
-"""
-Price-based analysis module.
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
+"""
+Dataroma Investment Analyzer - Price Analyzer
+
+Identifies value opportunities across different price ranges and 52-week extremes.
 Analyzes stocks by price ranges and thresholds to identify opportunities
 at different investment levels (under $5, $10, $20, $50, $100).
+
+MIT License
+Copyright (c) 2020-present Jerzy 'Yuri' Kramarz
+See LICENSE file for full license text.
+
+Author: Jerzy 'Yuri' Kramarz
+Source: https://github.com/op7ic/Dataroma-Analyzer
 """
 
 import logging

@@ -1,8 +1,19 @@
-"""
-Historical analysis module for multi-decade investment patterns.
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
+"""
+Dataroma Investment Analyzer - Historical Analyzer
+
+Long-term trend analysis across multiple market cycles and decades.
 Analyzes 18+ years of data (2007-2025) to identify long-term patterns,
 crisis responses, and multi-decade conviction plays.
+
+MIT License
+Copyright (c) 2020-present Jerzy 'Yuri' Kramarz
+See LICENSE file for full license text.
+
+Author: Jerzy 'Yuri' Kramarz
+Source: https://github.com/op7ic/Dataroma-Analyzer
 """
 
 import logging

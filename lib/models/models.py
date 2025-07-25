@@ -1,4 +1,19 @@
-"""Data models for Dataroma scraper."""
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+Dataroma Investment Analyzer - Data Models
+
+Core data structures for managers, holdings, activities, and analysis results.
+Defines all data models used throughout the Dataroma scraper and analyzer.
+
+MIT License
+Copyright (c) 2020-present Jerzy 'Yuri' Kramarz
+See LICENSE file for full license text.
+
+Author: Jerzy 'Yuri' Kramarz
+Source: https://github.com/op7ic/Dataroma-Analyzer
+"""
 
 from dataclasses import dataclass, field
 from datetime import datetime

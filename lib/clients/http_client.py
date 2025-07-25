@@ -1,4 +1,19 @@
-"""Simplified HTTP client for web scraping."""
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+Dataroma Investment Analyzer - HTTP Client
+
+Cached HTTP client with rate limiting for web scraping.
+Simplified HTTP client for web scraping with retry logic.
+
+MIT License
+Copyright (c) 2020-present Jerzy 'Yuri' Kramarz
+See LICENSE file for full license text.
+
+Author: Jerzy 'Yuri' Kramarz
+Source: https://github.com/op7ic/Dataroma-Analyzer
+"""
 
 import logging
 import time

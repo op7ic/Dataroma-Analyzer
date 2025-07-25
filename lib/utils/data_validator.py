@@ -1,3 +1,19 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+Dataroma Investment Analyzer - Data Validator
+
+Validates scraped data integrity and temporal accuracy.
+
+MIT License
+Copyright (c) 2020-present Jerzy 'Yuri' Kramarz
+See LICENSE file for full license text.
+
+Author: Jerzy 'Yuri' Kramarz
+Source: https://github.com/op7ic/Dataroma-Analyzer
+"""
+
 """
 Data validation utilities for ensuring 100% parsing accuracy.
 Validates HTML to JSON conversion and data consistency.

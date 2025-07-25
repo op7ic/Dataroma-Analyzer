@@ -1,5 +1,18 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 """
-Centralized data loading for analysis modules.
+Dataroma Investment Analyzer - Data Loader
+
+Loads and manages scraped investment data from cache files.
+Provides centralized data loading for all analysis modules.
+
+MIT License
+Copyright (c) 2020-present Jerzy 'Yuri' Kramarz
+See LICENSE file for full license text.
+
+Author: Jerzy 'Yuri' Kramarz
+Source: https://github.com/op7ic/Dataroma-Analyzer
 """
 
 import json

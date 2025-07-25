@@ -1,4 +1,19 @@
-"""Refactored Dataroma scraper with improved architecture."""
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+Dataroma Investment Analyzer - Main Scraper
+
+Orchestrates the scraping of investment manager data from Dataroma.com,
+including manager profiles, portfolio holdings, and trading activities.
+
+MIT License
+Copyright (c) 2020-present Jerzy 'Yuri' Kramarz
+See LICENSE file for full license text.
+
+Author: Jerzy 'Yuri' Kramarz
+Source: https://github.com/op7ic/Dataroma-Analyzer
+"""
 
 import logging
 from typing import List, Dict, Any

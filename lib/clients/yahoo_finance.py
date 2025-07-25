@@ -1,4 +1,19 @@
-"""Yahoo Finance API client for stock data enrichment."""
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+Dataroma Investment Analyzer - Yahoo Finance Client
+
+Fetches real-time stock prices and financial data from Yahoo Finance.
+API client for stock data enrichment with IP limit awareness.
+
+MIT License
+Copyright (c) 2020-present Jerzy 'Yuri' Kramarz
+See LICENSE file for full license text.
+
+Author: Jerzy 'Yuri' Kramarz
+Source: https://github.com/op7ic/Dataroma-Analyzer
+"""
 
 import logging
 import re

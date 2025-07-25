@@ -1,8 +1,19 @@
-"""
-Enhanced hidden gems detection analyzer.
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
+"""
+Dataroma Investment Analyzer - Hidden Gems Analyzer
+
+Identifies under-the-radar investment opportunities with high potential.
 Uses sophisticated multi-factor scoring to identify under-followed quality stocks
 with potential for significant returns based on smart money activity.
+
+MIT License
+Copyright (c) 2020-present Jerzy 'Yuri' Kramarz
+See LICENSE file for full license text.
+
+Author: Jerzy 'Yuri' Kramarz
+Source: https://github.com/op7ic/Dataroma-Analyzer
 """
 
 import logging

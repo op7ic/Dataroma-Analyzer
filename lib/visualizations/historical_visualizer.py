@@ -1,7 +1,19 @@
-"""
-Historical data visualization module.
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
-Creates beautiful graphs and charts for multi-decade investment analysis.
+"""
+Dataroma Investment Analyzer - Historical Visualizer
+
+Creates long-term trend visualizations across market cycles.
+Historical data visualization module that creates beautiful graphs 
+and charts for multi-decade investment analysis.
+
+MIT License
+Copyright (c) 2020-present Jerzy 'Yuri' Kramarz
+See LICENSE file for full license text.
+
+Author: Jerzy 'Yuri' Kramarz
+Source: https://github.com/op7ic/Dataroma-Analyzer
 """
 
 import matplotlib.pyplot as plt
