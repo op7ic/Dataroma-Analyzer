@@ -1,6 +1,6 @@
 # 📊 Dataroma Investment Analysis
 
-*Generated: 2025-07-24 21:57:10*
+*Generated: 2025-07-25 08:00:52*
 
 ## 🎯 Overview
 
@@ -16,27 +16,9 @@ This analysis covers **18+ years** of investment data from top money managers, p
 
 ## 💡 Current Analysis (Last 3 Quarters)
 
-Immediate opportunities and recent market activity from Q4 2022 to Q4 2024.
+Immediate opportunities and recent market activity recent quarters.
 
 ### 📊 Visual Analysis
-
-#### 52 Week Analysis Current
-![52 Week Analysis Current](current/visuals/52_week_analysis_current.png)
-
-#### Momentum Analysis Current
-![Momentum Analysis Current](current/visuals/momentum_analysis_current.png)
-
-#### New Positions Current
-![New Positions Current](current/visuals/new_positions_current.png)
-
-#### Low Price Accumulation Current
-![Low Price Accumulation Current](current/visuals/low_price_accumulation_current.png)
-
-#### Portfolio Changes Current
-![Portfolio Changes Current](current/visuals/portfolio_changes_current.png)
-
-#### Price Opportunities Current
-![Price Opportunities Current](current/visuals/price_opportunities_current.png)
 
 
 ### 📋 Current Reports
@@ -61,16 +43,25 @@ Immediate opportunities and recent market activity from Q4 2022 to Q4 2024.
 | [under_radar_picks.csv](current/under_radar_picks.csv) | Hidden gem opportunities (20 items) | Under-the-radar institutional picks |
 | [value_price_opportunities.csv](current/value_price_opportunities.csv) | Multi-tier price analysis (40 items) | Comprehensive price-based screening |
 
-### 🌟 Top 5 Under Radar Picks
+### 🔍 Top 15 Under Radar Picks
 
-| Ticker | Score | Price | Details |
-| ------ | ----- | ----- | ------- |
-| **BBWI** | 0.00 | $0.00 | Tom Bancroft |
-| **AER** | 0.00 | $0.00 | Pat Dorsey |
-| **AMR** | 0.00 | $0.00 | Guy Spier - Aquamarine Capital
-Mohnish Pabrai |
-| **ABG** | 0.00 | $0.00 | David Abrams |
-| **ACI** | 0.00 | $0.00 | Mason Hawkins |
+| Rank | Ticker | Score | Value | Why Under Radar |
+| ---- | ------ | ----- | ----- | --------------- |
+| 1 | **BBWI** | 33.3 | $50M | Exclusive pick; High conviction (16.7%); Single manager exclusive; Recent discovery; Low price entry |
+| 2 | **AER** | 24.7 | $116M | Exclusive pick; High conviction (12.3%); Single manager exclusive |
+| 3 | **AMR** | 22.1 | $53M | Limited recognition; High conviction (11.2%); Growing institutional interest; Recent discovery |
+| 4 | **ABG** | 16.5 | $466M | Exclusive pick; Single manager exclusive |
+| 5 | **ACI** | 16.5 | $76M | Exclusive pick; Growing institutional interest; Low price entry |
+| 6 | **BAYRY** | 16.0 | $40M | Exclusive pick; Growing institutional interest; Low price entry |
+| 7 | **BFH** | 14.1 | $16M | Exclusive pick; Growing institutional interest |
+| 8 | **AME** | 12.4 | $168M | Exclusive pick; Growing institutional interest |
+| 9 | **BELFB** | 12.3 | $18M | Exclusive pick; Single manager exclusive |
+| 10 | **ACGL** | 9.6 | $416M | Exclusive pick; Growing institutional interest |
+| 11 | **BB** | 9.5 | $181M | Limited recognition; Growing institutional interest; Low price entry |
+| 12 | **ALC** | 8.7 | $812M | Limited recognition; Growing institutional interest |
+| 13 | **ATS** | 6.6 | $61M | Exclusive pick; Growing institutional interest; Low price entry |
+| 14 | **AMG** | 5.9 | $57M | Limited recognition; Growing institutional interest |
+| 15 | **AN** | 4.2 | $189M | Limited recognition; Growing institutional interest |
 
 ---
 
@@ -79,36 +70,6 @@ Mohnish Pabrai |
 Deep insights into manager strategies, performance patterns, and decision-making.
 
 ### 📊 Visual Analysis
-
-#### Manager Performance Advanced
-![Manager Performance Advanced](advanced/visuals/manager_performance_advanced.png)
-
-#### Top Holdings Advanced
-![Top Holdings Advanced](advanced/visuals/top_holdings_advanced.png)
-
-#### 3 Year Performance
-![3 Year Performance](advanced/visuals/3_year_performance.png)
-
-#### 5 Year Performance
-![5 Year Performance](advanced/visuals/5_year_performance.png)
-
-#### 10 Year Performance
-![10 Year Performance](advanced/visuals/10_year_performance.png)
-
-#### Comprehensive Performance
-![Comprehensive Performance](advanced/visuals/comprehensive_performance.png)
-
-#### Consensus Picks Advanced
-![Consensus Picks Advanced](advanced/visuals/consensus_picks_advanced.png)
-
-#### Crisis Alpha Advanced
-![Crisis Alpha Advanced](advanced/visuals/crisis_alpha_advanced.png)
-
-#### Manager Evolution Advanced
-![Manager Evolution Advanced](advanced/visuals/manager_evolution_advanced.png)
-
-#### Position Sizing Advanced
-![Position Sizing Advanced](advanced/visuals/position_sizing_advanced.png)
 
 
 ### 📋 Advanced Reports
@@ -158,18 +119,6 @@ Deep insights into manager strategies, performance patterns, and decision-making
 Long-term trends and patterns from 2007 to 2025.
 
 ### 📊 Visual Analysis
-
-#### Crisis Response Comparison
-![Crisis Response Comparison](historical/visuals/crisis_response_comparison.png)
-
-#### Multi Decade Conviction
-![Multi Decade Conviction](historical/visuals/multi_decade_conviction.png)
-
-#### Quarterly Activity Timeline
-![Quarterly Activity Timeline](historical/visuals/quarterly_activity_timeline.png)
-
-#### Stock Life Cycles
-![Stock Life Cycles](historical/visuals/stock_life_cycles.png)
 
 
 ### 📋 Historical Reports
