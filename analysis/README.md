@@ -1,6 +1,6 @@
 # 📊 Dataroma Investment Analysis
 
-*Generated: 2025-07-25 08:03:44*
+*Generated: 2025-08-01 06:09:51*
 
 ## 🎯 Overview
 
@@ -16,27 +16,9 @@ This analysis covers **18+ years** of investment data from top money managers, p
 
 ## 💡 Current Analysis (Last 3 Quarters)
 
-Immediate opportunities and recent market activity from Q4 2022 to Q4 2024.
+Immediate opportunities and recent market activity recent quarters.
 
 ### 📊 Visual Analysis
-
-#### 52 Week Analysis Current
-![52 Week Analysis Current](current/visuals/52_week_analysis_current.png)
-
-#### Momentum Analysis Current
-![Momentum Analysis Current](current/visuals/momentum_analysis_current.png)
-
-#### New Positions Current
-![New Positions Current](current/visuals/new_positions_current.png)
-
-#### Low Price Accumulation Current
-![Low Price Accumulation Current](current/visuals/low_price_accumulation_current.png)
-
-#### Portfolio Changes Current
-![Portfolio Changes Current](current/visuals/portfolio_changes_current.png)
-
-#### Price Opportunities Current
-![Price Opportunities Current](current/visuals/price_opportunities_current.png)
 
 
 ### 📋 Current Reports
@@ -89,36 +71,6 @@ Deep insights into manager strategies, performance patterns, and decision-making
 
 ### 📊 Visual Analysis
 
-#### Manager Performance Advanced
-![Manager Performance Advanced](advanced/visuals/manager_performance_advanced.png)
-
-#### Top Holdings Advanced
-![Top Holdings Advanced](advanced/visuals/top_holdings_advanced.png)
-
-#### 3 Year Performance
-![3 Year Performance](advanced/visuals/3_year_performance.png)
-
-#### 5 Year Performance
-![5 Year Performance](advanced/visuals/5_year_performance.png)
-
-#### 10 Year Performance
-![10 Year Performance](advanced/visuals/10_year_performance.png)
-
-#### Comprehensive Performance
-![Comprehensive Performance](advanced/visuals/comprehensive_performance.png)
-
-#### Consensus Picks Advanced
-![Consensus Picks Advanced](advanced/visuals/consensus_picks_advanced.png)
-
-#### Crisis Alpha Advanced
-![Crisis Alpha Advanced](advanced/visuals/crisis_alpha_advanced.png)
-
-#### Manager Evolution Advanced
-![Manager Evolution Advanced](advanced/visuals/manager_evolution_advanced.png)
-
-#### Position Sizing Advanced
-![Position Sizing Advanced](advanced/visuals/position_sizing_advanced.png)
-
 
 ### 📋 Advanced Reports
 
@@ -167,18 +119,6 @@ Deep insights into manager strategies, performance patterns, and decision-making
 Long-term trends and patterns from 2007 to 2025.
 
 ### 📊 Visual Analysis
-
-#### Crisis Response Comparison
-![Crisis Response Comparison](historical/visuals/crisis_response_comparison.png)
-
-#### Multi Decade Conviction
-![Multi Decade Conviction](historical/visuals/multi_decade_conviction.png)
-
-#### Quarterly Activity Timeline
-![Quarterly Activity Timeline](historical/visuals/quarterly_activity_timeline.png)
-
-#### Stock Life Cycles
-![Stock Life Cycles](historical/visuals/stock_life_cycles.png)
 
 
 ### 📋 Historical Reports
