@@ -124,19 +124,17 @@ class ReadmeGenerator:
             "\n### 📊 Visual Analysis\n"
         ]
         
-        # Add visualizations - only if they exist
-        existing_viz_paths = []
-        for viz_path in viz_paths:
-            viz_full_path = self.analysis_dir / viz_path if not str(viz_path).startswith('/') else Path(viz_path)
-            if viz_full_path.exists():
-                existing_viz_paths.append(viz_path)
-        
-        # Add visualizations - only existing ones
-        for viz_path in existing_viz_paths:
-            viz_name = Path(viz_path).stem.replace('_', ' ').title()
-            content.append(f"#### {viz_name}")
-            content.append(f"![{viz_name}]({self._relative_path(viz_path)})")
-            content.append("")
+        # Add visualizations - scan the current/visuals directory directly
+        visuals_dir = self.analysis_dir / "current" / "visuals"
+        if visuals_dir.exists():
+            png_files = sorted(visuals_dir.glob("*.png"))
+            if png_files:
+                for png_file in png_files:
+                    viz_name = png_file.stem.replace('_', ' ').title()
+                    relative_path = f"current/visuals/{png_file.name}"
+                    content.append(f"#### {viz_name}")
+                    content.append(f"![{viz_name}]({relative_path})")
+                    content.append("")
         
         # Complete mapping for all possible current reports - only shown if files exist
         current_reports = {
@@ -302,19 +300,17 @@ class ReadmeGenerator:
             "\n### 📊 Visual Analysis\n"
         ]
         
-        # Add visualizations - only if they exist
-        existing_viz_paths = []
-        for viz_path in viz_paths:
-            viz_full_path = self.analysis_dir / viz_path if not str(viz_path).startswith('/') else Path(viz_path)
-            if viz_full_path.exists():
-                existing_viz_paths.append(viz_path)
-        
-        # Add visualizations - only existing ones
-        for viz_path in existing_viz_paths:
-            viz_name = Path(viz_path).stem.replace('_', ' ').title()
-            content.append(f"#### {viz_name}")
-            content.append(f"![{viz_name}]({self._relative_path(viz_path)})")
-            content.append("")
+        # Add visualizations - scan the advanced/visuals directory directly
+        visuals_dir = self.analysis_dir / "advanced" / "visuals"
+        if visuals_dir.exists():
+            png_files = sorted(visuals_dir.glob("*.png"))
+            if png_files:
+                for png_file in png_files:
+                    viz_name = png_file.stem.replace('_', ' ').title()
+                    relative_path = f"advanced/visuals/{png_file.name}"
+                    content.append(f"#### {viz_name}")
+                    content.append(f"![{viz_name}]({relative_path})")
+                    content.append("")
         
         advanced_reports = {
             "action_sequence_patterns": ("Trading pattern analysis", "Institutional buy/sell sequence patterns"),
@@ -425,19 +421,17 @@ class ReadmeGenerator:
             "\n### 📊 Visual Analysis\n"
         ]
         
-        # Add visualizations - only if they exist
-        existing_viz_paths = []
-        for viz_path in viz_paths:
-            viz_full_path = self.analysis_dir / viz_path if not str(viz_path).startswith('/') else Path(viz_path)
-            if viz_full_path.exists():
-                existing_viz_paths.append(viz_path)
-        
-        # Add visualizations - only existing ones
-        for viz_path in existing_viz_paths:
-            viz_name = Path(viz_path).stem.replace('_', ' ').title()
-            content.append(f"#### {viz_name}")
-            content.append(f"![{viz_name}]({self._relative_path(viz_path)})")
-            content.append("")
+        # Add visualizations - scan the historical/visuals directory directly
+        visuals_dir = self.analysis_dir / "historical" / "visuals"
+        if visuals_dir.exists():
+            png_files = sorted(visuals_dir.glob("*.png"))
+            if png_files:
+                for png_file in png_files:
+                    viz_name = png_file.stem.replace('_', ' ').title()
+                    relative_path = f"historical/visuals/{png_file.name}"
+                    content.append(f"#### {viz_name}")
+                    content.append(f"![{viz_name}]({relative_path})")
+                    content.append("")
         
         historical_reports = {
             "crisis_response_analysis": ("2008 vs 2020 comparison", "Crisis behavior patterns across decades"),
