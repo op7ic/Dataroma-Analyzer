@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-08-01T06:07:06.592028",
+  "timestamp": "2025-08-11T04:38:18.484182",
   "num_managers": 81,
   "num_holdings": 3314,
   "num_activities": 57643,
@@ -11,6 +11,6 @@
     "stocks_processed": 0,
     "stocks_enriched": 0,
     "errors_encountered": 0,
-    "duration_seconds": 34.876567
+    "duration_seconds": 32.839104
   }
 }
