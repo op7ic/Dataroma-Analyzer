@@ -2,6 +2,325 @@
   "manager_id": "EC",
   "activities": [
     {
+      "symbol": "MDLN",
+      "manager_id": "EC",
+      "action": "Add 277.27%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 12105082,
+      "portfolio_percentage": 4.62,
+      "company_name": "Medline Inc Cl A"
+    },
+    {
+      "symbol": "AWI",
+      "manager_id": "EC",
+      "action": "Add 106.54%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 477358,
+      "portfolio_percentage": 0.74,
+      "company_name": "Armstrong World Industries Inc."
+    },
+    {
+      "symbol": "APH",
+      "manager_id": "EC",
+      "action": "Add 69.49%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 1995335,
+      "portfolio_percentage": 3.4,
+      "company_name": "Amphenol Corp."
+    },
+    {
+      "symbol": "CRH",
+      "manager_id": "EC",
+      "action": "Add 58.87%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 1624535,
+      "portfolio_percentage": 1.68,
+      "company_name": "CRH plc"
+    },
+    {
+      "symbol": "FERG",
+      "manager_id": "EC",
+      "action": "Add 58.61%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 371766,
+      "portfolio_percentage": 0.85,
+      "company_name": "Ferguson Enterprises Inc."
+    },
+    {
+      "symbol": "AMZN",
+      "manager_id": "EC",
+      "action": "Add 51.20%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 1210074,
+      "portfolio_percentage": 2.79,
+      "company_name": "Amazon.com Inc."
+    },
+    {
+      "symbol": "NVDA",
+      "manager_id": "EC",
+      "action": "Add 27.77%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 742932,
+      "portfolio_percentage": 1.44,
+      "company_name": "NVIDIA Corp."
+    },
+    {
+      "symbol": "DVN",
+      "manager_id": "EC",
+      "action": "Add 15.83%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 1032920,
+      "portfolio_percentage": 0.41,
+      "company_name": "Devon Energy Corp."
+    },
+    {
+      "symbol": "EMBJ",
+      "manager_id": "EC",
+      "action": "Add 13.75%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 409118,
+      "portfolio_percentage": 0.25,
+      "company_name": "Embraer SA"
+    },
+    {
+      "symbol": "VMC",
+      "manager_id": "EC",
+      "action": "Add 11.44%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 202478,
+      "portfolio_percentage": 0.58,
+      "company_name": "Vulcan Materials"
+    },
+    {
+      "symbol": "MCO",
+      "manager_id": "EC",
+      "action": "Add 10.26%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 158559,
+      "portfolio_percentage": 0.69,
+      "company_name": "Moody's Corp."
+    },
+    {
+      "symbol": "V",
+      "manager_id": "EC",
+      "action": "Add 3.74%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 153681,
+      "portfolio_percentage": 0.51,
+      "company_name": "Visa Inc."
+    },
+    {
+      "symbol": "LAMR",
+      "manager_id": "EC",
+      "action": "Add 0.17%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 1875,
+      "portfolio_percentage": 0.0,
+      "company_name": "Lamar Advertising Co."
+    },
+    {
+      "symbol": "AMAT",
+      "manager_id": "EC",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 521065,
+      "portfolio_percentage": 3.64,
+      "company_name": "Applied Materials"
+    },
+    {
+      "symbol": "EFX",
+      "manager_id": "EC",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 1481188,
+      "portfolio_percentage": 2.27,
+      "company_name": "Equifax Inc."
+    },
+    {
+      "symbol": "SPGI",
+      "manager_id": "EC",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 351920,
+      "portfolio_percentage": 1.38,
+      "company_name": "S&P Global Inc."
+    },
+    {
+      "symbol": "VST",
+      "manager_id": "EC",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 485253,
+      "portfolio_percentage": 0.74,
+      "company_name": "Vistra Corp."
+    },
+    {
+      "symbol": "RIOT",
+      "manager_id": "EC",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 2628731,
+      "portfolio_percentage": 0.7,
+      "company_name": "Riot Blockchain Inc."
+    },
+    {
+      "symbol": "GOOG",
+      "manager_id": "EC",
+      "action": "Reduce 4.86%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 168055,
+      "portfolio_percentage": 0.57,
+      "company_name": "Alphabet Inc. CL C"
+    },
+    {
+      "symbol": "MA",
+      "manager_id": "EC",
+      "action": "Reduce 20.92%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 96162,
+      "portfolio_percentage": 0.48,
+      "company_name": "Mastercard Inc."
+    },
+    {
+      "symbol": "IBKR",
+      "manager_id": "EC",
+      "action": "Reduce 34.19%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 2145763,
+      "portfolio_percentage": 1.8,
+      "company_name": "Interactive Brokers Group Inc."
+    },
+    {
+      "symbol": "UBER",
+      "manager_id": "EC",
+      "action": "Reduce 50.14%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 2332715,
+      "portfolio_percentage": 1.63,
+      "company_name": "Uber Technologies Inc."
+    },
+    {
+      "symbol": "LIN",
+      "manager_id": "EC",
+      "action": "Reduce 71.84%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 767517,
+      "portfolio_percentage": 3.85,
+      "company_name": "Linde plc"
+    },
+    {
+      "symbol": "CRS",
+      "manager_id": "EC",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 1330920,
+      "portfolio_percentage": 5.82,
+      "company_name": "Carpenter Technology"
+    },
+    {
+      "symbol": "CME",
+      "manager_id": "EC",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 1182907,
+      "portfolio_percentage": 3.88,
+      "company_name": "CME Group"
+    },
+    {
+      "symbol": "CNQ",
+      "manager_id": "EC",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 5690211,
+      "portfolio_percentage": 3.07,
+      "company_name": "Canadian Natural Resources"
+    },
+    {
+      "symbol": "ACGL",
+      "manager_id": "EC",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 1116922,
+      "portfolio_percentage": 1.19,
+      "company_name": "Arch Capital Group Ltd."
+    },
+    {
+      "symbol": "RNR",
+      "manager_id": "EC",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 317308,
+      "portfolio_percentage": 1.05,
+      "company_name": "RenaissanceRe Holdings Ltd."
+    },
+    {
+      "symbol": "NYT",
+      "manager_id": "EC",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 971884,
+      "portfolio_percentage": 0.9,
+      "company_name": "New York Times CL A"
+    },
+    {
       "symbol": "GOOG",
       "manager_id": "EC",
       "action": "Add 220.70%",
@@ -10133,6 +10452,6 @@
       "company_name": "TransUnion"
     }
   ],
-  "timestamp": "2026-07-20T20:12:10.921807",
-  "scraped_date": "2026-07-20"
+  "timestamp": "2026-08-01T06:56:25.602183",
+  "scraped_date": "2026-08-01"
 }

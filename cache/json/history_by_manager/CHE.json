@@ -1762,7 +1762,7 @@
       "company_name": "Sempra Energy"
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "CHE",
       "action": "Sell 100.00%",
       "date": "Q1 2025",
@@ -2367,7 +2367,7 @@
       "company_name": "Corning Inc."
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "CHE",
       "action": "Buy",
       "date": "Q3 2024",
@@ -2895,7 +2895,7 @@
       "company_name": "Quest Diagnostics"
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "CHE",
       "action": "Sell 100.00%",
       "date": "Q2 2024",
@@ -2906,6 +2906,6 @@
       "company_name": "Taylor Morrison Home Corp."
     }
   ],
-  "timestamp": "2026-07-20T20:12:10.999427",
-  "scraped_date": "2026-07-20"
+  "timestamp": "2026-08-01T06:56:26.045113",
+  "scraped_date": "2026-08-01"
 }

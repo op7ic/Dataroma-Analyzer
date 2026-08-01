@@ -1,5 +1,50 @@
 [
   {
+    "id": "MKL",
+    "name": "Thomas Gayner",
+    "firm": "Markel Group Updated 31 Jul 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "T",
+    "name": "Torray Funds Updated 30 Jul 2026",
+    "firm": "",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "cc",
+    "name": "William Von Mueffling",
+    "firm": "Cantillon Capital Management Updated 29 Jul 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "GA",
+    "name": "Greenhaven Associates Updated 28 Jul 2026",
+    "firm": "",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "EC",
+    "name": "John Armitage",
+    "firm": "Egerton Capital Updated 21 Jul 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
     "id": "MAVFX",
     "name": "David Katz",
     "firm": "Matrix Asset Advisors Updated 15 Jul 2026",
@@ -576,15 +621,6 @@
     "last_updated": null
   },
   {
-    "id": "EC",
-    "name": "John Armitage",
-    "firm": "Egerton Capital Updated 13 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
     "id": "GR",
     "name": "Thomas Russo",
     "firm": "Gardner Russo & Quinn Updated 13 May 2026",
@@ -639,15 +675,6 @@
     "last_updated": null
   },
   {
-    "id": "cc",
-    "name": "William Von Mueffling",
-    "firm": "Cantillon Capital Management Updated 07 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
     "id": "DAV",
     "name": "Christopher Davis",
     "firm": "Davis Advisors Updated 07 May 2026",
@@ -693,24 +720,6 @@
     "last_updated": null
   },
   {
-    "id": "MKL",
-    "name": "Thomas Gayner",
-    "firm": "Markel Group Updated 01 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "T",
-    "name": "Torray Funds Updated 01 May 2026",
-    "firm": "",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
     "id": "YAM",
     "name": "Yacktman Asset Management Updated 01 May 2026",
     "firm": "",
@@ -723,24 +732,6 @@
     "id": "PIM",
     "name": "Richard Pzena",
     "firm": "Pzena Investment Management Updated 24 Apr 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "OFALX",
-    "name": "Robert Olstein",
-    "firm": "Olstein Capital Management Updated 21 Apr 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "GA",
-    "name": "Greenhaven Associates Updated 06 Apr 2026",
-    "firm": "",
     "portfolio_value": 0,
     "num_holdings": 0,
     "url": "",

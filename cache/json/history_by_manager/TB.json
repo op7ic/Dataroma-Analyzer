@@ -107,7 +107,7 @@
       "date": "Q1 2026",
       "percentage_change": 0.0,
       "action_type": "Add",
-      "shares": 20021,
+      "shares": 30031,
       "portfolio_percentage": 0.13,
       "company_name": "StoneX Group Inc."
     },
@@ -1350,7 +1350,7 @@
       "date": "Q4 2025",
       "percentage_change": 0.0,
       "action_type": "Add",
-      "shares": 4860,
+      "shares": 7290,
       "portfolio_percentage": 0.02,
       "company_name": "StoneX Group Inc."
     },
@@ -2516,7 +2516,7 @@
       "date": "Q3 2025",
       "percentage_change": 0.0,
       "action_type": "Buy",
-      "shares": 29154,
+      "shares": 43731,
       "portfolio_percentage": 0.17,
       "company_name": "StoneX Group Inc."
     },
@@ -6019,6 +6019,6 @@
       "company_name": "Carlisle Companies"
     }
   ],
-  "timestamp": "2026-07-20T20:12:10.982958",
-  "scraped_date": "2026-07-20"
+  "timestamp": "2026-08-01T06:56:26.028498",
+  "scraped_date": "2026-08-01"
 }

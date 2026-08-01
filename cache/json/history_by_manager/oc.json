@@ -970,7 +970,7 @@
       "company_name": "Transportadora de Gas Del Sur SA"
     },
     {
-      "symbol": "TPICQ",
+      "symbol": "TPICQ-OLD",
       "manager_id": "oc",
       "action": "Sell 100.00%",
       "date": "Q4 2025",
@@ -3049,7 +3049,7 @@
       "company_name": "Freeport-McMoran Inc."
     },
     {
-      "symbol": "TPICQ",
+      "symbol": "TPICQ-OLD",
       "manager_id": "oc",
       "action": "Add 0.20%",
       "date": "Q3 2024",
@@ -4446,7 +4446,7 @@
       "company_name": "Ai Transportation Acquisitio"
     },
     {
-      "symbol": "TPICQ",
+      "symbol": "TPICQ-OLD",
       "manager_id": "oc",
       "action": "Add 556.54%",
       "date": "Q4 2023",
@@ -9781,7 +9781,7 @@
       "company_name": "Monterey Capital Acquisiti A"
     },
     {
-      "symbol": "TPICQ",
+      "symbol": "TPICQ-OLD",
       "manager_id": "oc",
       "action": "Buy",
       "date": "Q3 2022",
@@ -11002,6 +11002,6 @@
       "company_name": "Alvotech SA  27"
     }
   ],
-  "timestamp": "2026-07-20T20:12:10.548142",
-  "scraped_date": "2026-07-20"
+  "timestamp": "2026-08-01T06:56:25.624600",
+  "scraped_date": "2026-08-01"
 }

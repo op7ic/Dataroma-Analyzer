@@ -5876,7 +5876,7 @@
       "company_name": "Relay Therapeutics Inc."
     },
     {
-      "symbol": "TPICQ",
+      "symbol": "TPICQ-OLD",
       "manager_id": "tp",
       "action": "Sell 100.00%",
       "date": "Q4 2022",
@@ -6063,7 +6063,7 @@
       "company_name": "Relay Therapeutics Inc."
     },
     {
-      "symbol": "TPICQ",
+      "symbol": "TPICQ-OLD",
       "manager_id": "tp",
       "action": "Buy",
       "date": "Q3 2022",
@@ -11002,6 +11002,6 @@
       "company_name": "Levere Holdings Corp. Units"
     }
   ],
-  "timestamp": "2026-07-20T20:12:10.655258",
-  "scraped_date": "2026-07-20"
+  "timestamp": "2026-08-01T06:56:25.727811",
+  "scraped_date": "2026-08-01"
 }

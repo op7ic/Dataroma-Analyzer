@@ -3929,7 +3929,7 @@
       "company_name": "Amazon.com Inc."
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "LMM",
       "action": "Sell 100.00%",
       "date": "Q2 2023",
@@ -4336,17 +4336,6 @@
       "company_name": "Desktop Metal Inc."
     },
     {
-      "symbol": "GREE",
-      "manager_id": "LMM",
-      "action": "Sell 100.00%",
-      "date": "Q2 2023",
-      "percentage_change": 0.0,
-      "action_type": "Sell",
-      "shares": 1000,
-      "portfolio_percentage": 0.0,
-      "company_name": "Greenidge Generation Holding"
-    },
-    {
       "symbol": "OPEN",
       "manager_id": "LMM",
       "action": "Sell 100.00%",
@@ -4411,6 +4400,17 @@
       "shares": 50,
       "portfolio_percentage": 0.0,
       "company_name": "Wheels Up Experience Inc."
+    },
+    {
+      "symbol": "VIP",
+      "manager_id": "LMM",
+      "action": "Sell 100.00%",
+      "date": "Q2 2023",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 1000,
+      "portfolio_percentage": 0.0,
+      "company_name": "Vulcan Infrastructure and Power Inc."
     },
     {
       "symbol": "VRMMQ-OLD",
@@ -4765,17 +4765,6 @@
       "company_name": "RCI Hospitality Holdings Inc."
     },
     {
-      "symbol": "GREE",
-      "manager_id": "LMM",
-      "action": "Buy",
-      "date": "Q1 2023",
-      "percentage_change": 0.0,
-      "action_type": "Buy",
-      "shares": 1000,
-      "portfolio_percentage": 0.0,
-      "company_name": "Greenidge Generation Holding"
-    },
-    {
       "symbol": "OPEN",
       "manager_id": "LMM",
       "action": "Buy",
@@ -4840,6 +4829,17 @@
       "shares": 50,
       "portfolio_percentage": 0.0,
       "company_name": "Wheels Up Experience Inc."
+    },
+    {
+      "symbol": "VIP",
+      "manager_id": "LMM",
+      "action": "Buy",
+      "date": "Q1 2023",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 1000,
+      "portfolio_percentage": 0.0,
+      "company_name": "Vulcan Infrastructure and Power Inc."
     },
     {
       "symbol": "VRMMQ-OLD",
@@ -5150,7 +5150,7 @@
       "company_name": "Vale SA"
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "LMM",
       "action": "Reduce 22.23%",
       "date": "Q1 2023",
@@ -5876,7 +5876,7 @@
       "company_name": "Apollo Global Management"
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "LMM",
       "action": "Reduce 10.53%",
       "date": "Q4 2022",
@@ -6965,7 +6965,7 @@
       "company_name": "Organon & Co."
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "LMM",
       "action": "Reduce 5.94%",
       "date": "Q3 2022",
@@ -7295,17 +7295,6 @@
       "company_name": "CoreCivic Inc."
     },
     {
-      "symbol": "GREE",
-      "manager_id": "LMM",
-      "action": "Sell 100.00%",
-      "date": "Q3 2022",
-      "percentage_change": 0.0,
-      "action_type": "Sell",
-      "shares": 1000,
-      "portfolio_percentage": 0.0,
-      "company_name": "Greenidge Generation Holding"
-    },
-    {
       "symbol": "SDIG-OLD",
       "manager_id": "LMM",
       "action": "Sell 100.00%",
@@ -7337,6 +7326,17 @@
       "shares": 10000,
       "portfolio_percentage": 0.0,
       "company_name": "TMC the metals company Inc. WTS"
+    },
+    {
+      "symbol": "VIP",
+      "manager_id": "LMM",
+      "action": "Sell 100.00%",
+      "date": "Q3 2022",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 1000,
+      "portfolio_percentage": 0.0,
+      "company_name": "Vulcan Infrastructure and Power Inc."
     },
     {
       "symbol": "RILY",
@@ -7680,7 +7680,7 @@
       "company_name": "Drive Shack Inc."
     },
     {
-      "symbol": "GREE",
+      "symbol": "VIP",
       "manager_id": "LMM",
       "action": "Buy",
       "date": "Q2 2022",
@@ -7688,7 +7688,7 @@
       "action_type": "Buy",
       "shares": 1000,
       "portfolio_percentage": 0.0,
-      "company_name": "Greenidge Generation Holding"
+      "company_name": "Vulcan Infrastructure and Power Inc."
     },
     {
       "symbol": "META",
@@ -7878,7 +7878,7 @@
       "company_name": "Coinbase Global Inc."
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "LMM",
       "action": "Reduce 9.29%",
       "date": "Q2 2022",
@@ -8516,7 +8516,7 @@
       "company_name": "Teva Pharmaceutical Industries Ltd."
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "LMM",
       "action": "Add 1.00%",
       "date": "Q1 2022",
@@ -9660,7 +9660,7 @@
       "company_name": "Bausch Health"
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "LMM",
       "action": "Add 1.44%",
       "date": "Q4 2021",
@@ -10694,7 +10694,7 @@
       "company_name": "Audacy Inc."
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "LMM",
       "action": "Reduce 6.06%",
       "date": "Q3 2021",
@@ -11002,6 +11002,6 @@
       "company_name": "YETI Holdings Inc."
     }
   ],
-  "timestamp": "2026-07-20T20:12:10.756161",
-  "scraped_date": "2026-07-20"
+  "timestamp": "2026-08-01T06:56:25.824652",
+  "scraped_date": "2026-08-01"
 }

@@ -2730,7 +2730,7 @@
       "company_name": "Nuance Communications Inc."
     },
     {
-      "symbol": "ENZN",
+      "symbol": "ENZN-OLD",
       "manager_id": "ic",
       "action": "Sell 100.00%",
       "date": "Q2 2016",
@@ -3610,6 +3610,6 @@
       "company_name": "WebMD Health Corp."
     }
   ],
-  "timestamp": "2026-07-20T20:12:10.597595",
-  "scraped_date": "2026-07-20"
+  "timestamp": "2026-08-01T06:56:25.672480",
+  "scraped_date": "2026-08-01"
 }

@@ -1,51 +1,51 @@
 ticker,company_name,manager_count,managers,total_value,avg_portfolio_pct,max_portfolio_pct,total_shares,latest_date,recent_activity_score,price_momentum_score,manager_quality_score,hidden_gem_score,gem_type,first_discovered,_analysis_type,_generated,_periods,_window_quarters
-JOE,St. Joe Co.,1,Bruce Berkowitz,1206398000,79.67,79.67,19210167,31 Mar 2026,0.0,0.4736842105263158,1.0,2.364,Conviction Play,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-AMR,Alpha Metallurgical Resources Inc.,1,Mohnish Pabrai,119003000,28.14,28.14,579738,31 Mar 2026,0.2,0.7881692941343559,1.3,1.834,Value Opportunity,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-IEP,Icahn Enterprises,1,Carl Icahn,4147974000,48.49,48.49,549400539,31 Mar 2026,0.1,0.2701149425287359,1.0,1.725,Conviction Play,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-JHG-OLD,Janus Henderson Group,1,Nelson Peltz,1637049000,42.41,42.41,31867800,31 Mar 2026,0.0,0.1126582278481012,1.0,1.565,Conviction Play,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-HCC,Warrior Met Coal Inc.,2,"Mohnish Pabrai, Third Avenue Management",202586000,22.7,39.89,2174833,31 Mar 2026,0.1,0.5182054616384915,1.15,1.347,Under-Radar,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-CVI,CVR Energy Inc.,1,Carl Icahn,2395943000,28.01,28.01,71201875,31 Mar 2026,0.1,0.2925386715195632,1.0,1.319,Conviction Play,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-HHH,Howard Hughes Holdings Inc.,1,Bill Ackman,1192582000,8.7,8.7,18852064,31 Mar 2026,0.0,0.7451763140385893,1.4,1.307,Value Opportunity,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-GPI,Group 1 Automotive,2,"Ruane Cunniff LP, Greg Alexander",250963000,23.84,47.66,759045,31 Mar 2026,0.2,0.8587024781411526,1.0,1.261,Value Opportunity,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-RIG,Transocean Ltd.,2,"Arnold Van Den Berg, Mohnish Pabrai",135387000,16.0,31.97,20420415,31 Mar 2026,0.1,0.5049309664694281,1.15,1.191,Under-Radar,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-BL,BlackLine Inc.,1,Glenn Welling,50602000,16.68,16.68,1367619,31 Mar 2026,0.2,0.8353885861772297,1.0,1.189,Value Opportunity,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-KEX,Kirby Corp.,1,Alex Roepers,34150000,19.89,19.89,257000,31 Mar 2026,0.2,0.1646411666879878,1.0,1.152,Conviction Play,Q4 2025,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-TKO,TKO Group Holdings Inc.,1,Lindsell Train,422522000,16.07,16.07,2098862,30 Jun 2026,0.0,0.5661657135257347,1.0,1.106,Conviction Play,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-IONS,Ionis Pharmaceuticals Inc.,1,Tweedy Browne,170877000,13.57,13.57,2275625,31 Mar 2026,0.0,0.7174052665382146,1.0,1.079,Value Opportunity,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-GXO,Gxo Logistics Inc.,1,Glenn Welling,42609000,14.04,14.04,821769,31 Mar 2026,0.0,0.6442890442890442,1.0,1.077,Conviction Play,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-OKTA,Okta Inc.,1,Dennis Hong,44474000,16.62,16.62,565036,31 Mar 2026,0.0,0.1,1.0,1.047,Conviction Play,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-RYN,Rayonier Inc.,1,Mason Hawkins,221926000,10.92,10.92,10762643,31 Mar 2026,0.2,0.6511627906976745,1.0,1.046,Conviction Play,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-ORLA,Orla Mining Ltd,2,"Prem Watsa, First Eagle Investment Management",578264000,12.98,25.82,36585055,31 Mar 2026,0.0,0.981508875739645,1.0,1.032,Value Opportunity,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-UAA,Under Armour Inc.,1,Prem Watsa,253705000,13.06,13.06,43000872,31 Mar 2026,0.2,0.2139303482587064,1.0,1.023,Conviction Play,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-LEN,Lennar Corp.,4,"Glenn Greenberg, Warren Buffett, Bryan Lawrence, Greenhaven Associates",2019883000,6.31,15.21,23259823,31 Mar 2026,0.4,0.9721535673092768,1.25,1.009,Value Opportunity,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-GWRE,Guidewire Software Inc.,1,Bryan Lawrence,21564000,9.51,9.51,144183,31 Mar 2026,0.2,0.71873165002936,1.0,1.008,Value Opportunity,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-BAYRY,Bayer Ag Sponsored ADR,1,Kahn Brothers Group,74777000,13.26,13.26,6513893,31 Mar 2026,0.0,0.2022332506203474,1.0,0.996,Conviction Play,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-VFC,V.F. Corp.,2,"Glenn Welling, Dodge & Cox Funds",640584000,13.26,26.2,37703614,31 Mar 2026,0.2,0.473404255319149,1.0,0.991,Under-Radar,Q4 2025,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-HGV,Hilton Grand Vacations Inc.,1,Clifford Sosin,204985000,11.73,11.73,5239891,31 Mar 2026,0.0,0.3675443310048359,1.0,0.99,Conviction Play,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-BRZE,Braze Inc A,1,Dennis Hong,26257000,9.81,9.81,1112099,31 Mar 2026,0.1,0.497054825555052,1.0,0.978,Conviction Play,Q1 2026,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-TDS,Telephone & Data Systems,2,"Howard Marks, Daniel Loeb",458563000,8.77,13.34,10892243,31 Mar 2026,0.1,0.9707006369426752,1.0,0.961,Value Opportunity,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-EXE,Expand Energy Corp.,2,"Howard Marks, Lee Ainslie",576179000,6.68,13.35,5248494,31 Mar 2026,0.4,0.9415277432197062,1.0,0.96,Value Opportunity,Q1 2026,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-NBR,Nabors Industries Ltd.,1,Bill Miller,38248000,9.98,9.98,444430,31 Mar 2026,0.0,0.344386832268178,1.0,0.95,Conviction Play,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-GRBK,Green Brick Partners,2,"David Einhorn, Polen Capital Management",611023000,9.57,19.12,9480567,31 Mar 2026,0.2,0.5677220756376432,1.0,0.931,Under-Radar,Q4 2025,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-CCL,Carnival Corp.,2,"Viking Global Investors, Sarah Ketterer",1315168000,6.4,11.82,50817941,31 Mar 2026,0.3,0.7408123791102511,1.0,0.909,Value Opportunity,Q4 2025,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-EWBC,East West Bancorp,2,"Lee Ainslie, Li Lu",297919000,4.64,9.26,2790554,31 Mar 2026,0.1,0.1,1.25,0.898,Under-Radar,Q1 2026,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-SGI,Somnigroup International Inc.,2,"Daniel Loeb, David Abrams",596501000,8.65,9.24,8069545,31 Mar 2026,0.1,0.7383843717001055,1.0,0.893,Value Opportunity,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-MAT,Mattel Inc.,2,"Mason Hawkins, John Rogers",383290000,5.68,9.16,26379240,31 Mar 2026,0.4,0.8482051282051282,1.0,0.892,Value Opportunity,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-SLM,SLM Corp.,3,"David Einhorn, Glenn Greenberg, Michael Burry",349129000,10.92,24.16,16166262,31 Mar 2026,0.3,0.4924590163934426,1.0,0.887,Under-Radar,Q1 2026,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-QSR,Restaurant Brands International,3,"Bill Ackman, Seth Klarman, Christopher Davis",2536685000,8.36,12.2,34324722,31 Mar 2026,0.1,0.3192934782608695,1.1333333333333333,0.884,Under-Radar,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-TOL,Toll Brothers,2,"David Rolfe, Greenhaven Associates",782462000,7.59,12.69,5733584,31 Mar 2026,0.3,0.3937853107344631,1.0,0.881,Under-Radar,Q1 2026,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-ZS,Zscaler Inc.,2,"Chase Coleman, Dennis Hong",249741000,5.74,10.51,1780182,31 Mar 2026,0.1,0.836931102716316,1.0,0.88,Value Opportunity,Q1 2026,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-SNX,SYNNEX Corp.,3,"Abrams Bison Investments, David Einhorn, Glenn Greenberg",1016567000,11.16,18.2,6025531,31 Mar 2026,0.3,0.3630843190587638,1.0,0.873,Under-Radar,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-VAL,Valaris plc,1,Third Avenue Management,49823000,8.09,8.09,508186,31 Mar 2026,0.0,0.5387448647117155,1.0,0.866,Conviction Play,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-PHM,PulteGroup Inc.,2,"Third Avenue Management, Greenhaven Associates",657703000,6.24,10.65,5592237,31 Mar 2026,0.2,0.5665399239543727,1.0,0.865,Under-Radar,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-AN,AutoNation Inc.,1,Glenn Greenberg,302209000,7.48,7.48,1547728,31 Mar 2026,0.2,0.574569789674952,1.0,0.865,Conviction Play,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-NOMD,Nomad Foods Ltd,1,Alex Roepers,12808000,7.46,7.46,1332772,31 Mar 2026,0.1,0.6630695443645083,1.0,0.862,Conviction Play,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-LLYVK,Liberty Media Corp. Series C Live,2,"ValueAct Capital, Warren Buffett",1331501000,3.12,5.87,14148351,31 Mar 2026,0.1,0.2402640264026403,1.5,0.86,Under-Radar,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-TRMD,Torm Plc,2,"Howard Marks, Tweedy Browne",677668000,7.94,15.67,23932486,31 Mar 2026,0.2,0.2932330827067669,1.0,0.858,Under-Radar,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-YETI,YETI Holdings Inc.,2,"Glenn Welling, Thomas Russo",66158000,10.76,21.52,1808095,31 Mar 2026,0.0,0.1061792863359445,1.0,0.856,Under-Radar,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-CNX,CNX Resources Corp.,1,Mason Hawkins,154744000,7.61,7.61,4014111,31 Mar 2026,0.0,0.6635220125786162,1.0,0.856,Conviction Play,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-VRT,Vertiv Holdings Co.,2,"Leon Cooperman, Terry Smith",563565000,8.96,17.74,2249043,31 Mar 2026,0.0,0.3363695510735198,1.0,0.855,Under-Radar,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-DCH,Dauch Corp.,3,"David Einhorn, Alex Roepers, Bill Miller",68475000,5.53,13.27,11547255,31 Mar 2026,0.4,0.7855711422845691,1.0,0.839,Value Opportunity,Q1 2026,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-RKT,Rocket Companies Inc.,4,"ValueAct Capital, Henry Ellenbogen, Leon Cooperman, Christopher Davis",1045390000,5.0,9.83,73360619,31 Mar 2026,0.9,0.8613617719442166,1.0,0.833,Value Opportunity,Q4 2025,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-WFRD,Weatherford International plc,2,"David Einhorn, Alex Roepers",33854000,6.06,11.69,357944,31 Mar 2026,0.0,0.5645003265839321,1.0,0.831,Under-Radar,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-RBC,RBC Bearings Inc.,2,"Henry Ellenbogen, Torray Funds",1240875000,6.74,12.72,2284716,31 Mar 2026,0.1,0.3197005178271053,1.0,0.823,Under-Radar,,hidden_gems,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
+JOE,St. Joe Co.,1,Bruce Berkowitz,1206398000,79.67,79.67,19210167,31 Mar 2026,0.0,0.4030180345969819,1.0,2.354,Conviction Play,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+AMR,Alpha Metallurgical Resources Inc.,1,Mohnish Pabrai,119003000,28.14,28.14,579738,31 Mar 2026,0.2,0.8284334611560858,1.3,1.842,Value Opportunity,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+IEP,Icahn Enterprises,1,Carl Icahn,4147974000,48.49,48.49,549400539,31 Mar 2026,0.1,0.1091954022988508,1.0,1.701,Conviction Play,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+JHG-OLD,Janus Henderson Group,1,Nelson Peltz,1637049000,42.41,42.41,31867800,31 Mar 2026,0.0,0.1126582278481012,1.0,1.565,Conviction Play,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+HCC,Warrior Met Coal Inc.,2,"Mohnish Pabrai, Third Avenue Management",202586000,22.7,39.89,2174833,31 Mar 2026,0.1,0.5035760728218466,1.15,1.345,Under-Radar,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+HHH,Howard Hughes Holdings Inc.,1,Bill Ackman,1192582000,8.7,8.7,18852064,31 Mar 2026,0.0,0.903193612774451,1.4,1.34,Value Opportunity,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+CVI,CVR Energy Inc.,1,Carl Icahn,2395943000,28.01,28.01,71201875,31 Mar 2026,0.1,0.2693357597816196,1.0,1.316,Conviction Play,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+GPI,Group 1 Automotive,2,"Ruane Cunniff LP, Greg Alexander",250963000,23.84,47.66,759045,31 Mar 2026,0.2,0.9409932024169184,1.0,1.273,Value Opportunity,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+RIG,Transocean Ltd.,2,"Arnold Van Den Berg, Mohnish Pabrai",135387000,16.0,31.97,20420415,31 Mar 2026,0.1,0.4736842105263157,1.15,1.186,Under-Radar,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+BL,BlackLine Inc.,1,Glenn Welling,50602000,16.68,16.68,1367619,31 Mar 2026,0.2,0.8078577573845713,1.0,1.185,Value Opportunity,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+KEX,Kirby Corp.,1,Alex Roepers,34150000,19.89,19.89,257000,31 Mar 2026,0.2,0.3396443648458489,1.0,1.179,Conviction Play,Q4 2025,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+TKO,TKO Group Holdings Inc.,1,Lindsell Train,422522000,16.07,16.07,2098862,30 Jun 2026,0.0,0.5764064370262004,1.0,1.108,Conviction Play,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+GXO,Gxo Logistics Inc.,1,Glenn Welling,42609000,14.04,14.04,821769,31 Mar 2026,0.0,0.7780885780885782,1.0,1.098,Value Opportunity,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+IONS,Ionis Pharmaceuticals Inc.,1,Tweedy Browne,170877000,13.57,13.57,2275625,31 Mar 2026,0.0,0.7486619567544424,1.0,1.084,Value Opportunity,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+OKTA,Okta Inc.,1,Dennis Hong,44474000,16.62,16.62,565036,31 Mar 2026,0.0,0.1597413610345557,1.0,1.056,Conviction Play,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+UAA,Under Armour Inc.,1,Prem Watsa,253705000,13.06,13.06,43000872,31 Mar 2026,0.2,0.3731343283582089,1.0,1.047,Conviction Play,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+RYN,Rayonier Inc.,1,Mason Hawkins,221926000,10.92,10.92,10762643,31 Mar 2026,0.2,0.547406082289803,1.0,1.031,Conviction Play,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+VFC,V.F. Corp.,2,"Glenn Welling, Dodge & Cox Funds",640584000,13.26,26.2,37703614,31 Mar 2026,0.2,0.6941489361702127,1.0,1.024,Under-Radar,Q4 2025,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+ORLA-OLD,Orla Mining Ltd,2,"Prem Watsa, First Eagle Investment Management",578264000,12.98,25.82,36585055,31 Mar 2026,0.0,0.9245562130177516,1.0,1.023,Value Opportunity,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+HGV,Hilton Grand Vacations Inc.,1,Clifford Sosin,204985000,11.73,11.73,5239891,31 Mar 2026,0.0,0.4975819451907576,1.0,1.009,Conviction Play,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+GWRE,Guidewire Software Inc.,1,Bryan Lawrence,21564000,9.51,9.51,144183,31 Mar 2026,0.2,0.7085143863769818,1.0,1.007,Value Opportunity,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+LEN,Lennar Corp.,4,"Greenhaven Associates, Glenn Greenberg, Warren Buffett, Bryan Lawrence",2120599000,5.46,11.82,23943971,31 Mar 2026,0.5,0.9590643274853804,1.25,1.004,Value Opportunity,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+BAYRY,Bayer Ag Sponsored ADR,1,Kahn Brothers Group,74777000,13.26,13.26,6513893,31 Mar 2026,0.0,0.1563275434243175,1.0,0.989,Conviction Play,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+BRZE,Braze Inc A,1,Dennis Hong,26257000,9.81,9.81,1112099,31 Mar 2026,0.1,0.5623017671046668,1.0,0.988,Conviction Play,Q1 2026,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+TDS,Telephone & Data Systems,2,"Howard Marks, Daniel Loeb",458563000,8.77,13.34,10892243,31 Mar 2026,0.1,0.9603223806571606,1.0,0.959,Value Opportunity,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+NBR,Nabors Industries Ltd.,1,Bill Miller,38248000,9.98,9.98,444430,31 Mar 2026,0.0,0.3320731707317073,1.0,0.949,Conviction Play,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+EXE,Expand Energy Corp.,2,"Howard Marks, Lee Ainslie",576179000,6.68,13.35,5248494,31 Mar 2026,0.4,0.7750684249813385,1.0,0.935,Value Opportunity,Q1 2026,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+GRBK,Green Brick Partners,2,"David Einhorn, Polen Capital Management",611023000,9.57,19.12,9480567,31 Mar 2026,0.2,0.5474934036939313,1.0,0.928,Under-Radar,Q4 2025,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+ALC,Alcon Inc.,2,"Lee Ainslie, AKO Capital",696563000,6.82,13.62,9337388,31 Mar 2026,0.3,0.7476901208244494,1.0,0.918,Value Opportunity,Q1 2026,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+APTV,Aptiv PLC,2,"Alex Roepers, Sarah Ketterer",69887000,6.82,13.07,1006434,31 Mar 2026,0.2,0.8213353226408057,1.0,0.915,Value Opportunity,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+SGI,Somnigroup International Inc.,2,"Daniel Loeb, David Abrams",596501000,8.65,9.24,8069545,31 Mar 2026,0.1,0.8653643083421331,1.0,0.912,Value Opportunity,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+EWBC,East West Bancorp,2,"Lee Ainslie, Li Lu",297919000,4.64,9.26,2790554,31 Mar 2026,0.1,0.1155712395235997,1.25,0.901,Under-Radar,Q1 2026,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+QSR,Restaurant Brands International,3,"Bill Ackman, Seth Klarman, Christopher Davis",2536685000,8.36,12.2,34324722,31 Mar 2026,0.1,0.3260869565217392,1.1333333333333333,0.885,Under-Radar,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+VRT,Vertiv Holdings Co.,2,"Leon Cooperman, Terry Smith",563565000,8.96,17.74,2249043,31 Mar 2026,0.0,0.5292586780971336,1.0,0.884,Under-Radar,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+LLYVK,Liberty Media Corp. Series C Live,2,"ValueAct Capital, Warren Buffett",1331501000,3.12,5.87,14148351,31 Mar 2026,0.1,0.3425742574257428,1.5,0.883,Under-Radar,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+CCL,Carnival Corp.,2,"Viking Global Investors, Sarah Ketterer",1315168000,6.4,11.82,50817941,31 Mar 2026,0.3,0.5667311411992264,1.0,0.883,Under-Radar,Q4 2025,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+ZS,Zscaler Inc.,2,"Chase Coleman, Dennis Hong",249741000,5.74,10.51,1780182,31 Mar 2026,0.1,0.8355369670804101,1.0,0.88,Value Opportunity,Q1 2026,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+MAT,Mattel Inc.,2,"Mason Hawkins, John Rogers",383290000,5.68,9.16,26379240,31 Mar 2026,0.4,0.757948717948718,1.0,0.879,Value Opportunity,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+SLM,SLM Corp.,3,"David Einhorn, Glenn Greenberg, Michael Burry",349129000,10.92,24.16,16166262,31 Mar 2026,0.3,0.4336461126005362,1.0,0.879,Under-Radar,Q1 2026,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+YETI,YETI Holdings Inc.,2,"Glenn Welling, Thomas Russo",66158000,10.76,21.52,1808095,31 Mar 2026,0.0,0.1881057268722467,1.0,0.869,Under-Radar,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+TOL,Toll Brothers,2,"Greenhaven Associates, David Rolfe",939607000,6.6,10.71,5718384,31 Mar 2026,0.3,0.4294695481335955,1.0,0.866,Under-Radar,Q1 2026,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+VAL,Valaris plc,1,Third Avenue Management,49823000,8.09,8.09,508186,31 Mar 2026,0.0,0.4948292959342684,1.0,0.86,Conviction Play,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+SNX,SYNNEX Corp.,3,"Abrams Bison Investments, David Einhorn, Glenn Greenberg",1016567000,11.16,18.2,6025531,31 Mar 2026,0.3,0.2542222784489849,1.0,0.856,Under-Radar,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+NOMD,Nomad Foods Ltd,1,Alex Roepers,12808000,7.46,7.46,1332772,31 Mar 2026,0.1,0.6046195652173914,1.0,0.853,Conviction Play,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+RBC,RBC Bearings Inc.,2,"Torray Funds, Henry Ellenbogen",1241812000,6.8,12.72,2284748,31 Mar 2026,0.2,0.3838517101487518,1.0,0.848,Under-Radar,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+TRMD,Torm Plc,2,"Howard Marks, Tweedy Browne",677668000,7.94,15.67,23932486,31 Mar 2026,0.2,0.2308539944903583,1.0,0.848,Under-Radar,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+RKT,Rocket Companies Inc.,4,"ValueAct Capital, Henry Ellenbogen, Leon Cooperman, Christopher Davis",1045390000,5.0,9.83,73360619,31 Mar 2026,0.9,0.9401148482362592,1.0,0.844,Value Opportunity,Q4 2025,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+AN,AutoNation Inc.,1,Glenn Greenberg,302209000,7.48,7.48,1547728,31 Mar 2026,0.2,0.3955059976347355,1.0,0.838,Conviction Play,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+CNX,CNX Resources Corp.,1,Mason Hawkins,154744000,7.61,7.61,4014111,31 Mar 2026,0.0,0.4918238993710693,1.0,0.83,Conviction Play,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+CACC,Credit Acceptance Corp.,2,"Ruane Cunniff LP, Robert Vinall",114608000,7.4,13.77,270363,31 Mar 2026,0.0,0.3744006592747977,1.0,0.829,Under-Radar,,hidden_gems,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3

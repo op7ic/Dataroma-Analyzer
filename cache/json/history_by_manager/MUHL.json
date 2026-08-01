@@ -46,7 +46,7 @@
       "company_name": "Schlumberger Ltd."
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "MUHL",
       "action": "Add 0.04%",
       "date": "Q1 2026",
@@ -321,7 +321,7 @@
       "company_name": "LyondellBasell Industries"
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "MUHL",
       "action": "Add 0.73%",
       "date": "Q4 2025",
@@ -585,7 +585,7 @@
       "company_name": "Celanese Corp."
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "MUHL",
       "action": "Add 0.20%",
       "date": "Q3 2025",
@@ -948,7 +948,7 @@
       "company_name": "Dow Inc."
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "MUHL",
       "action": "Add 1.21%",
       "date": "Q2 2025",
@@ -1322,7 +1322,7 @@
       "company_name": "Dow Inc."
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "MUHL",
       "action": "Reduce 0.05%",
       "date": "Q1 2025",
@@ -1564,7 +1564,7 @@
       "company_name": "Dow Inc."
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "MUHL",
       "action": "Add 0.30%",
       "date": "Q4 2024",
@@ -2015,7 +2015,7 @@
       "company_name": "PulteGroup Inc."
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "MUHL",
       "action": "Reduce 0.03%",
       "date": "Q3 2024",
@@ -2202,7 +2202,7 @@
       "company_name": "TEGNA Inc."
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "MUHL",
       "action": "Add 0.09%",
       "date": "Q2 2024",
@@ -2543,7 +2543,7 @@
       "company_name": "MasTec Inc."
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "MUHL",
       "action": "Add 1.44%",
       "date": "Q1 2024",
@@ -2697,6 +2697,6 @@
       "company_name": "McKesson Corp."
     }
   ],
-  "timestamp": "2026-07-20T20:12:10.988053",
-  "scraped_date": "2026-07-20"
+  "timestamp": "2026-08-01T06:56:26.033586",
+  "scraped_date": "2026-08-01"
 }

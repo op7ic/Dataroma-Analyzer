@@ -4875,7 +4875,7 @@
       "company_name": "Farfetch Ltd"
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "PTNT",
       "action": "Sell 100.00%",
       "date": "Q3 2023",
@@ -5249,7 +5249,7 @@
       "company_name": "Fiserv Inc."
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "PTNT",
       "action": "Add 234.54%",
       "date": "Q2 2023",
@@ -5557,7 +5557,7 @@
       "company_name": "United Airlines Holdings Inc."
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "PTNT",
       "action": "Reduce 5.79%",
       "date": "Q1 2023",
@@ -6250,7 +6250,7 @@
       "company_name": "General Motors"
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "PTNT",
       "action": "Reduce 2.43%",
       "date": "Q3 2022",
@@ -6734,7 +6734,7 @@
       "company_name": "Proshares Ultra Bloomberg Cr"
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "PTNT",
       "action": "Reduce 0.92%",
       "date": "Q2 2022",
@@ -7097,7 +7097,7 @@
       "company_name": "Norwegian Cruise Line Hlgs Ltd."
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "PTNT",
       "action": "Reduce 4.17%",
       "date": "Q1 2022",
@@ -7306,6 +7306,6 @@
       "company_name": "RealReal Inc."
     }
   ],
-  "timestamp": "2026-07-20T20:12:10.880996",
-  "scraped_date": "2026-07-20"
+  "timestamp": "2026-08-01T06:56:25.944261",
+  "scraped_date": "2026-08-01"
 }

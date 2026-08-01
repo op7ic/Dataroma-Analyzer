@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-07-20T20:12:11.079584",
-  "num_managers": 84,
-  "num_holdings": 4298,
-  "num_activities": 55120,
-  "unique_stocks": 1731,
+  "timestamp": "2026-08-01T06:56:26.086571",
+  "num_managers": 83,
+  "num_holdings": 4191,
+  "num_activities": 54174,
+  "unique_stocks": 1725,
   "progress": {
-    "managers_processed": 84,
-    "holdings_found": 4298,
-    "activities_found": 55120,
+    "managers_processed": 83,
+    "holdings_found": 4191,
+    "activities_found": 54174,
     "stocks_processed": 0,
     "stocks_enriched": 0,
     "errors_encountered": 0,
-    "duration_seconds": 677.496288
+    "duration_seconds": 653.812605
   }
 }

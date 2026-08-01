@@ -1806,7 +1806,7 @@
       "company_name": "AAR Corp."
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "FE",
       "action": "Add 3.45%",
       "date": "Q1 2026",
@@ -2697,7 +2697,7 @@
       "company_name": "Braze Inc A"
     },
     {
-      "symbol": "CCRN",
+      "symbol": "CCRN-OLD",
       "manager_id": "FE",
       "action": "Buy",
       "date": "Q1 2026",
@@ -2928,7 +2928,7 @@
       "company_name": "Exagen Inc."
     },
     {
-      "symbol": "ORLA",
+      "symbol": "ORLA-OLD",
       "manager_id": "FE",
       "action": "Reduce 0.03%",
       "date": "Q1 2026",
@@ -6492,7 +6492,7 @@
       "company_name": "Colgate-Palmolive"
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "FE",
       "action": "Add 0.35%",
       "date": "Q4 2025",
@@ -8890,7 +8890,7 @@
       "company_name": "Hecla Mining Co."
     },
     {
-      "symbol": "ORLA",
+      "symbol": "ORLA-OLD",
       "manager_id": "FE",
       "action": "Reduce 29.02%",
       "date": "Q4 2025",
@@ -10452,7 +10452,7 @@
       "company_name": "EnPro Industries"
     },
     {
-      "symbol": "TMHC",
+      "symbol": "TMHC-OLD",
       "manager_id": "FE",
       "action": "Add 4.35%",
       "date": "Q3 2025",
@@ -11002,6 +11002,6 @@
       "company_name": "HealthStream Inc."
     }
   ],
-  "timestamp": "2026-07-20T20:12:10.835536",
-  "scraped_date": "2026-07-20"
+  "timestamp": "2026-08-01T06:56:25.898865",
+  "scraped_date": "2026-08-01"
 }

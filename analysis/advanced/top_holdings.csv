@@ -1,51 +1,51 @@
 ticker,company_name,current_price,top_managers,managers_shown,manager_count,total_value,avg_portfolio_pct,total_shares,max_portfolio_pct,portfolio_pct_std,_analysis_type,_generated,_periods,_window_quarters
-GOOGL,Alphabet Inc.,352.0,"David Katz, Lindsell Train, Viking Global Investors, Li Lu, Bill Nygren, +35 more",5,40,32789871000,4.2,113714574,22.85,5.23,top_holdings,2026-07-20,Q2 2026,1
-MSFT,Microsoft Corp.,400.76,"David Katz, Duan Yongping, Lee Ainslie, Viking Global Investors, Bill Nygren, +35 more",5,40,16224085000,3.76,43827219,16.75,4.26,top_holdings,2026-07-20,Q2 2026,1
-GOOG,Alphabet Inc. CL C,351.66,"David Katz, Duan Yongping, Lee Ainslie, Li Lu, Bill Nygren, +31 more",5,36,18638285000,5.38,64941974,21.97,4.84,top_holdings,2026-07-20,Q2 2026,1
-AMZN,Amazon.com Inc.,249.41,"David Katz, Lee Ainslie, Viking Global Investors, ValueAct Capital, Bill Nygren, +30 more",5,35,18307565000,7.11,87883697,38.2,7.73,top_holdings,2026-07-20,Q2 2026,1
-META,Meta Platforms Inc.,648.04,"David Katz, Viking Global Investors, ValueAct Capital, Bill Nygren, Bill Ackman, +25 more",5,30,13373035000,4.48,23374596,21.77,4.35,top_holdings,2026-07-20,Q2 2026,1
-V,Visa Inc.,361.41,"David Katz, Lindsell Train, Lee Ainslie, Viking Global Investors, ValueAct Capital, +22 more",5,27,18165146000,4.7,60100159,20.39,4.72,top_holdings,2026-07-20,Q2 2026,1
-BRK.B,Berkshire Hathaway CL B,490.75,"David Katz, Guy Spier - Aquamarine Capital, Duan Yongping, Li Lu, Bruce Berkowitz, +22 more",5,27,16196651000,7.24,33794505,33.89,10.04,top_holdings,2026-07-20,Q2 2026,1
-AAPL,Apple Inc.,328.28,"David Katz, Duan Yongping, Viking Global Investors, Li Lu, Bruce Berkowitz, +20 more",5,25,67330219000,3.99,265277611,36.72,8.26,top_holdings,2026-07-20,Q2 2026,1
-TSM,Taiwan Semiconductor S.A.,401.34,"Duan Yongping, Lee Ainslie, Viking Global Investors, Daniel Loeb, Stephen Mandel, +19 more",5,24,7988160000,2.79,23637061,9.03,2.9,top_holdings,2026-07-20,Q2 2026,1
-DIS,Walt Disney Co.,96.18,"Lindsell Train, Duan Yongping, Lee Ainslie, Viking Global Investors, ValueAct Capital, +18 more",5,23,2982857000,1.81,30952441,9.55,2.26,top_holdings,2026-07-20,Q2 2026,1
-MA,Mastercard Inc.,546.95,"Guy Spier - Aquamarine Capital, Bill Nygren, Christopher Bloomstran, Glenn Greenberg, Stephen Mandel, +15 more",5,20,4830045000,5.3,9665551,22.02,6.47,top_holdings,2026-07-20,Q2 2026,1
-NVDA,NVIDIA Corp.,202.46,"David Katz, Duan Yongping, Lee Ainslie, Bill Nygren, Daniel Loeb, +14 more",5,19,7805697000,3.33,44756526,12.07,3.79,top_holdings,2026-07-20,Q2 2026,1
-UNH,United Health Group Inc.,422.87,"Duan Yongping, David Tepper, Chase Coleman, Arnold Van Den Berg, Hillman Capital Management, +14 more",5,19,4042862000,1.39,14940893,6.55,1.72,top_holdings,2026-07-20,Q2 2026,1
-MCO,Moody's Corp.,503.93,"Guy Spier - Aquamarine Capital, Li Lu, Bill Nygren, Glenn Greenberg, Warren Buffett, +12 more",5,17,19745196000,4.58,45260168,17.02,5.34,top_holdings,2026-07-20,Q2 2026,1
-BRK.A,Berkshire Hathaway CL A,735740.0,"Guy Spier - Aquamarine Capital, Bruce Berkowitz, Norbert Lou, Christopher Bloomstran, Francois Rochon, +12 more",5,17,3453738000,8.29,4808,38.47,11.15,top_holdings,2026-07-20,Q2 2026,1
-BAC,Bank of America Corp.,60.5,"David Katz, Li Lu, Bill Nygren, Glenn Greenberg, Warren Buffett, +11 more",5,16,26719674000,1.49,548086940,9.52,2.5,top_holdings,2026-07-20,Q2 2026,1
-COF,Capital One Financial,206.51,"David Katz, Abrams Bison Investments, Lee Ainslie, Viking Global Investors, Bill Nygren, +11 more",5,16,8967801000,2.76,49157158,7.15,2.22,top_holdings,2026-07-20,Q2 2026,1
-WFC,Wells Fargo,86.2,"David Katz, Bill Nygren, Dodge & Cox Funds, Francis Chou, First Pacific Advisors, +11 more",5,16,5050786000,1.3,63435805,3.26,1.09,top_holdings,2026-07-20,Q2 2026,1
-JPM,JPMorgan Chase & Co.,337.77,"David Katz, Viking Global Investors, Bill Nygren, Glenn Greenberg, Francois Rochon, +11 more",5,16,1605927000,0.88,5444376,3.54,1.16,top_holdings,2026-07-20,Q2 2026,1
-AXP,American Express,351.24,"David Katz, Lindsell Train, Guy Spier - Aquamarine Capital, Bill Nygren, Christopher Bloomstran, +10 more",5,15,46819997000,2.51,154778160,17.43,5.65,top_holdings,2026-07-20,Q2 2026,1
-CMCSA,Comcast Corp.,23.92,"David Katz, Bill Nygren, Glenn Greenberg, Hillman Capital Management, First Eagle Investment Management, +9 more",5,14,5510213000,1.16,192070260,3.52,1.11,top_holdings,2026-07-20,Q2 2026,1
-CVX,Chevron Corp.,189.81,"Bill Nygren, Christopher Bloomstran, Warren Buffett, Arnold Van Den Berg, John Rogers, +8 more",5,13,17551505000,0.91,84830866,6.64,2.1,top_holdings,2026-07-20,Q2 2026,1
-TXN,Texas Instruments,284.85,"David Katz, Bill Nygren, Arnold Van Den Berg, Terry Smith, First Eagle Investment Management, +8 more",5,13,2099386000,1.47,10761098,3.97,1.36,top_holdings,2026-07-20,Q2 2026,1
-JNJ,Johnson & Johnson,249.62,"David Katz, Prem Watsa, John Rogers, Dodge & Cox Funds, Mairs & Power Funds, +8 more",5,13,742494000,1.06,3037488,4.26,1.48,top_holdings,2026-07-20,Q2 2026,1
-CVS,CVS Health Corp.,107.38,"David Katz, Lee Ainslie, Bill Nygren, Prem Watsa, Hillman Capital Management, +7 more",5,12,5976375000,2.32,83210512,10.03,2.89,top_holdings,2026-07-20,Q2 2026,1
-UBER,Uber Technologies Inc.,72.2,"Bill Ackman, David Tepper, Chase Coleman, Pat Dorsey, Polen Capital Management, +7 more",5,12,4074164000,3.64,56640686,15.71,4.56,top_holdings,2026-07-20,Q2 2026,1
-ELV,Elevance Health Inc.,382.28,"Bill Nygren, Glenn Greenberg, Leon Cooperman, Arnold Van Den Berg, Ruane Cunniff LP, +7 more",5,12,4048037000,2.84,13827619,8.13,2.88,top_holdings,2026-07-20,Q2 2026,1
-AVGO,Broadcom Inc.,378.18,"David Katz, Bill Nygren, Daniel Loeb, Chase Coleman, Sarah Ketterer, +7 more",5,12,3411670000,2.3,11022564,8.34,2.93,top_holdings,2026-07-20,Q2 2026,1
-ORCL,Oracle Corp.,121.9,"Lindsell Train, Bill Nygren, Hillman Capital Management, John Rogers, First Eagle Investment Management, +7 more",5,12,2326562000,0.95,15815143,5.11,1.49,top_holdings,2026-07-20,Q2 2026,1
-TMO,Thermo Fisher Scientific,527.72,"David Katz, Lindsell Train, Viking Global Investors, Arnold Van Den Berg, Hillman Capital Management, +7 more",5,12,1695423000,2.02,3438433,9.81,2.74,top_holdings,2026-07-20,Q2 2026,1
-ADBE,Adobe Inc.,235.18,"Lindsell Train, Bill Nygren, Hillman Capital Management, Dodge & Cox Funds, Samantha McLemore, +7 more",5,12,1518611000,0.81,6248463,2.73,1.04,top_holdings,2026-07-20,Q2 2026,1
-XOM,ExxonMobil Holdings Corp.,148.87,"David Katz, Bill Nygren, Christopher Bloomstran, Arnold Van Den Berg, First Eagle Investment Management, +7 more",5,12,1267346000,0.82,7470631,5.25,1.5,top_holdings,2026-07-20,Q2 2026,1
-PEP,PepsiCo Inc.,134.91,"David Katz, Lindsell Train, Bill Nygren, Dodge & Cox Funds, Mairs & Power Funds, +7 more",5,12,546391000,1.42,3683963,5.27,1.95,top_holdings,2026-07-20,Q2 2026,1
-GE,GE Aerospace,340.63,"Nelson Peltz, Christopher Bloomstran, Arnold Van Den Berg, Chris Hohn, AKO Capital, +6 more",5,11,15127563000,6.03,53309243,29.85,11.83,top_holdings,2026-07-20,Q2 2026,1
-SCHW,Charles Schwab Corp.,102.01,"Viking Global Investors, Bill Nygren, Francois Rochon, Ruane Cunniff LP, John Rogers, +6 more",5,11,11652965000,2.72,123994094,7.35,2.52,top_holdings,2026-07-20,Q2 2026,1
-SPGI,S&P Global Inc.,448.78,"Lindsell Train, Li Lu, Valley Forge Capital Management, David Rolfe, Pat Dorsey, +6 more",5,11,7597875000,4.88,17863375,22.15,7.01,top_holdings,2026-07-20,Q2 2026,1
-CRM,Salesforce.com,173.11,"ValueAct Capital, Bill Nygren, AKO Capital, Hillman Capital Management, Chuck Akre, +6 more",5,11,4755167000,2.11,25473651,9.79,2.75,top_holdings,2026-07-20,Q2 2026,1
-AON,Aon Plc,364.25,"David Katz, Viking Global Investors, Seth Klarman, Wallace Weitz, Dodge & Cox Funds, +6 more",5,11,4362018000,1.94,13513886,4.85,1.84,top_holdings,2026-07-20,Q2 2026,1
-FERG,Ferguson Enterprises Inc.,229.53,"Nelson Peltz, Henry Ellenbogen, Francois Rochon, Ruane Cunniff LP, First Eagle Investment Management, +6 more",5,11,2045278000,2.4,8768233,6.58,2.61,top_holdings,2026-07-20,Q2 2026,1
-INTU,Intuit Inc.,293.08,"David Katz, Lindsell Train, Lee Ainslie, Valley Forge Capital Management, Arnold Van Den Berg, +6 more",5,11,337160000,1.62,1048377,6.62,2.57,top_holdings,2026-07-20,Q2 2026,1
-RTX,RTX Corp.,194.55,"Lee Ainslie, David Tepper, Hillman Capital Management, Dodge & Cox Funds, Mairs & Power Funds, +5 more",5,10,7223929000,0.92,37449089,3.76,1.36,top_holdings,2026-07-20,Q2 2026,1
-SUNB,Sunbelt Rentals Holdings Inc,71.96,"Abrams Bison Investments, Bill Nygren, Glenn Greenberg, Francois Rochon, Pat Dorsey, +5 more",5,10,6217357000,6.56,95520083,35.38,10.7,top_holdings,2026-07-20,Q2 2026,1
-FDX,FedEx Corp.,307.05,"Lee Ainslie, Viking Global Investors, Bill & Melinda Gates Foundation Trust, Mason Hawkins, Arnold Van Den Berg, +5 more",5,10,5253302000,1.55,14749007,4.34,1.35,top_holdings,2026-07-20,Q2 2026,1
-FISV,Fiserv Inc.,51.39,"Bill Nygren, Mason Hawkins, Hillman Capital Management, John Rogers, First Eagle Investment Management, +5 more",5,10,4621116000,1.21,82815682,3.13,0.96,top_holdings,2026-07-20,Q2 2026,1
-AMAT,Applied Materials,526.5,"David Katz, Abrams Bison Investments, Lee Ainslie, Bill Nygren, Glenn Greenberg, +5 more",5,10,2085695000,2.47,6048670,10.41,3.15,top_holdings,2026-07-20,Q2 2026,1
-MRK,Merck & Co.,124.7,"David Katz, Bill Nygren, Christopher Bloomstran, Prem Watsa, Sarah Ketterer, +5 more",5,10,1667078000,0.99,13858687,4.85,1.52,top_holdings,2026-07-20,Q2 2026,1
-ACN,Accenture,144.48,"David Katz, Bill Nygren, Ruane Cunniff LP, First Eagle Investment Management, Wallace Weitz, +5 more",5,10,1599833000,1.02,8072721,3.05,1.11,top_holdings,2026-07-20,Q2 2026,1
-UNP,Union Pacific,296.24,"Bill Nygren, Daniel Loeb, Seth Klarman, Dodge & Cox Funds, Mairs & Power Funds, +5 more",5,10,1428682000,1.05,5888558,7.31,2.25,top_holdings,2026-07-20,Q2 2026,1
-DHR,Danaher Corp.,202.02,"David Katz, Lee Ainslie, Bill Nygren, Bill & Melinda Gates Foundation Trust, Daniel Loeb, +5 more",5,10,537278000,2.36,2833737,8.76,3.16,top_holdings,2026-07-20,Q2 2026,1
-KO,Coca Cola Co.,81.75,"Lindsell Train, Lee Ainslie, Christopher Bloomstran, Warren Buffett, Dodge & Cox Funds, +4 more",5,9,30692526000,1.69,403582686,11.56,3.77,top_holdings,2026-07-20,Q2 2026,1
+GOOGL,Alphabet Inc.,356.13,"Thomas Gayner, Torray Funds, William Von Mueffling, David Katz, Lindsell Train, +35 more",5,40,31825415000,4.26,110169302,22.85,5.27,top_holdings,2026-08-01,Q2 2026,1
+MSFT,Microsoft Corp.,464.72,"Thomas Gayner, Torray Funds, William Von Mueffling, David Katz, Duan Yongping, +34 more",5,39,15818122000,3.78,42725583,16.75,4.3,top_holdings,2026-08-01,Q2 2026,1
+GOOG,Alphabet Inc. CL C,356.65,"Thomas Gayner, Torray Funds, John Armitage, David Katz, Duan Yongping, +30 more",5,35,18989902000,5.55,64766419,21.97,4.85,top_holdings,2026-08-01,Q2 2026,1
+AMZN,Amazon.com Inc.,271.58,"Thomas Gayner, Torray Funds, John Armitage, David Katz, Lee Ainslie, +29 more",5,34,18725628000,7.39,89072055,38.2,7.76,top_holdings,2026-08-01,Q2 2026,1
+META,Meta Platforms Inc.,556.71,"Thomas Gayner, David Katz, Viking Global Investors, ValueAct Capital, Bill Nygren, +24 more",5,29,13358355000,4.6,23352556,21.77,4.38,top_holdings,2026-08-01,Q2 2026,1
+V,Visa Inc.,366.13,"Thomas Gayner, Torray Funds, William Von Mueffling, John Armitage, David Katz, +21 more",5,26,17937539000,4.91,58619373,20.39,4.76,top_holdings,2026-08-01,Q2 2026,1
+BRK.B,Berkshire Hathaway CL B,511.54,"Thomas Gayner, Torray Funds, David Katz, Guy Spier - Aquamarine Capital, Duan Yongping, +21 more",5,26,16223904000,7.46,33783505,33.89,10.17,top_holdings,2026-08-01,Q2 2026,1
+AAPL,Apple Inc.,308.91,"Thomas Gayner, Torray Funds, David Katz, Duan Yongping, Viking Global Investors, +19 more",5,24,67371990000,4.13,265263411,36.72,8.4,top_holdings,2026-08-01,Q2 2026,1
+TSM,Taiwan Semiconductor S.A.,404.25,"Torray Funds, William Von Mueffling, Duan Yongping, Lee Ainslie, Viking Global Investors, +19 more",5,24,7203702000,2.92,21257529,9.03,3.05,top_holdings,2026-08-01,Q2 2026,1
+DIS,Walt Disney Co.,96.19,"Thomas Gayner, Lindsell Train, Duan Yongping, Lee Ainslie, Viking Global Investors, +17 more",5,22,2972568000,1.79,30848441,9.55,2.31,top_holdings,2026-08-01,Q2 2026,1
+MA,Mastercard Inc.,573.1,"Thomas Gayner, John Armitage, Guy Spier - Aquamarine Capital, Bill Nygren, Christopher Bloomstran, +15 more",5,20,4789957000,5.26,9569389,22.02,6.49,top_holdings,2026-08-01,Q2 2026,1
+NVDA,NVIDIA Corp.,200.75,"Torray Funds, John Armitage, David Katz, Duan Yongping, Lee Ainslie, +14 more",5,19,8023127000,3.4,45499341,12.07,3.84,top_holdings,2026-08-01,Q2 2026,1
+UNH,United Health Group Inc.,414.4,"Torray Funds, Duan Yongping, David Tepper, Chase Coleman, Arnold Van Den Berg, +13 more",5,18,4031862000,1.39,14899876,6.55,1.77,top_holdings,2026-08-01,Q2 2026,1
+MCO,Moody's Corp.,478.38,"Thomas Gayner, William Von Mueffling, John Armitage, Guy Spier - Aquamarine Capital, Li Lu, +12 more",5,17,19683296000,4.58,45044289,17.02,5.34,top_holdings,2026-08-01,Q2 2026,1
+BRK.A,Berkshire Hathaway CL A,766600.01,"Thomas Gayner, Guy Spier - Aquamarine Capital, Bruce Berkowitz, Norbert Lou, Christopher Bloomstran, +12 more",5,17,3487949000,8.27,4808,38.47,11.15,top_holdings,2026-08-01,Q2 2026,1
+BAC,Bank of America Corp.,61.95,"David Katz, Li Lu, Bill Nygren, Glenn Greenberg, Warren Buffett, +11 more",5,16,26719674000,1.49,548086940,9.52,2.5,top_holdings,2026-08-01,Q2 2026,1
+COF,Capital One Financial,209.01,"Thomas Gayner, David Katz, Abrams Bison Investments, Lee Ainslie, Viking Global Investors, +11 more",5,16,8969457000,2.76,49157158,7.15,2.22,top_holdings,2026-08-01,Q2 2026,1
+JPM,JPMorgan Chase & Co.,351.79,"Thomas Gayner, Torray Funds, Greenhaven Associates, David Katz, Viking Global Investors, +11 more",5,16,1603483000,0.78,5406976,3.54,1.15,top_holdings,2026-08-01,Q2 2026,1
+AXP,American Express,336.25,"Thomas Gayner, Torray Funds, David Katz, Lindsell Train, Guy Spier - Aquamarine Capital, +10 more",5,15,46837611000,2.51,154778160,17.43,5.65,top_holdings,2026-08-01,Q2 2026,1
+WFC,Wells Fargo,86.45,"Thomas Gayner, Torray Funds, David Katz, Bill Nygren, Dodge & Cox Funds, +10 more",5,15,5046159000,1.31,63369805,3.26,1.12,top_holdings,2026-08-01,Q2 2026,1
+CMCSA,Comcast Corp.,23.96,"Thomas Gayner, Torray Funds, David Katz, Bill Nygren, Glenn Greenberg, +9 more",5,14,5507549000,1.2,192218759,3.52,1.18,top_holdings,2026-08-01,Q2 2026,1
+CVX,Chevron Corp.,196.83,"Torray Funds, Bill Nygren, Christopher Bloomstran, Warren Buffett, Arnold Van Den Berg, +8 more",5,13,17545983000,0.83,84831081,6.64,1.97,top_holdings,2026-08-01,Q2 2026,1
+ELV,Elevance Health Inc.,375.84,"Bill Nygren, Glenn Greenberg, Leon Cooperman, Arnold Van Den Berg, Ruane Cunniff LP, +7 more",5,12,4048037000,2.84,13827619,8.13,2.88,top_holdings,2026-08-01,Q2 2026,1
+AVGO,Broadcom Inc.,389.28,"Torray Funds, William Von Mueffling, David Katz, Bill Nygren, Daniel Loeb, +7 more",5,12,2234389000,2.56,7155320,10.61,3.46,top_holdings,2026-08-01,Q2 2026,1
+TXN,Texas Instruments,275.74,"Thomas Gayner, Torray Funds, David Katz, Bill Nygren, Arnold Van Den Berg, +7 more",5,12,2166480000,1.49,10683836,3.97,1.32,top_holdings,2026-08-01,Q2 2026,1
+ORCL,Oracle Corp.,129.87,"William Von Mueffling, Lindsell Train, Bill Nygren, Hillman Capital Management, John Rogers, +7 more",5,12,2153247000,1.04,14637415,5.11,1.54,top_holdings,2026-08-01,Q2 2026,1
+ACN,Accenture,165.92,"Thomas Gayner, Torray Funds, Greenhaven Associates, David Katz, Bill Nygren, +7 more",5,12,2030119000,1.51,11625092,4.86,1.58,top_holdings,2026-08-01,Q2 2026,1
+XOM,ExxonMobil Holdings Corp.,155.44,"Thomas Gayner, David Katz, Bill Nygren, Christopher Bloomstran, Arnold Van Den Berg, +7 more",5,12,1267042000,0.82,7479731,5.25,1.5,top_holdings,2026-08-01,Q2 2026,1
+JNJ,Johnson & Johnson,256.35,"Thomas Gayner, Torray Funds, David Katz, Prem Watsa, John Rogers, +7 more",5,12,742366000,1.03,3012988,4.26,1.55,top_holdings,2026-08-01,Q2 2026,1
+GE,GE Aerospace,360.07,"Torray Funds, Nelson Peltz, Christopher Bloomstran, Arnold Van Den Berg, Chris Hohn, +6 more",5,11,15128685000,6.04,53309710,29.85,11.83,top_holdings,2026-08-01,Q2 2026,1
+SCHW,Charles Schwab Corp.,105.24,"Thomas Gayner, Greenhaven Associates, Viking Global Investors, Bill Nygren, Francois Rochon, +6 more",5,11,11651592000,2.71,124005094,7.35,2.53,top_holdings,2026-08-01,Q2 2026,1
+SPGI,S&P Global Inc.,411.93,"Thomas Gayner, William Von Mueffling, John Armitage, Lindsell Train, Li Lu, +6 more",5,11,7104215000,4.89,16725741,22.15,7.01,top_holdings,2026-08-01,Q2 2026,1
+CVS,CVS Health Corp.,104.43,"David Katz, Lee Ainslie, Bill Nygren, Prem Watsa, Hillman Capital Management, +6 more",5,11,5972784000,2.46,83160512,10.03,2.99,top_holdings,2026-08-01,Q2 2026,1
+CRM,Salesforce.com,184.02,"ValueAct Capital, Bill Nygren, AKO Capital, Hillman Capital Management, Chuck Akre, +6 more",5,11,4755167000,2.11,25473651,9.79,2.75,top_holdings,2026-08-01,Q2 2026,1
+UBER,Uber Technologies Inc.,70.36,"Thomas Gayner, William Von Mueffling, John Armitage, Bill Ackman, David Tepper, +6 more",5,11,3546777000,3.71,49300072,15.71,4.74,top_holdings,2026-08-01,Q2 2026,1
+AMAT,Applied Materials,507.67,"Thomas Gayner, William Von Mueffling, John Armitage, David Katz, Abrams Bison Investments, +6 more",5,11,1992409000,2.76,5098068,10.41,3.11,top_holdings,2026-08-01,Q2 2026,1
+FERG,Ferguson Enterprises Inc.,234.33,"Thomas Gayner, William Von Mueffling, John Armitage, Nelson Peltz, Henry Ellenbogen, +6 more",5,11,1750115000,2.48,7480745,6.58,2.6,top_holdings,2026-08-01,Q2 2026,1
+PEP,PepsiCo Inc.,139.56,"Thomas Gayner, Torray Funds, David Katz, Lindsell Train, Bill Nygren, +6 more",5,11,539131000,1.44,3668264,5.27,2.0,top_holdings,2026-08-01,Q2 2026,1
+INTU,Intuit Inc.,316.07,"David Katz, Lindsell Train, Lee Ainslie, Valley Forge Capital Management, Arnold Van Den Berg, +6 more",5,11,337160000,1.62,1048377,6.62,2.57,top_holdings,2026-08-01,Q2 2026,1
+SUNB,Sunbelt Rentals Holdings Inc,71.92,"Thomas Gayner, Abrams Bison Investments, Bill Nygren, Glenn Greenberg, Francois Rochon, +5 more",5,10,6227544000,6.56,95531083,35.38,10.7,top_holdings,2026-08-01,Q2 2026,1
+FISV,Fiserv Inc.,53.94,"Bill Nygren, Mason Hawkins, Hillman Capital Management, John Rogers, First Eagle Investment Management, +5 more",5,10,4621116000,1.21,82815682,3.13,0.96,top_holdings,2026-08-01,Q2 2026,1
+BNY,Bank of New York Mellon Corp.,156.33,"Thomas Gayner, Torray Funds, David Katz, Bill Nygren, First Eagle Investment Management, +5 more",5,10,4113787000,0.77,34611557,2.06,0.83,top_holdings,2026-08-01,Q2 2026,1
+AON,Aon Plc,360.55,"Thomas Gayner, David Katz, Viking Global Investors, Seth Klarman, Wallace Weitz, +5 more",5,10,4009600000,1.89,12418312,4.85,1.94,top_holdings,2026-08-01,Q2 2026,1
+MRK,Merck & Co.,130.2,"David Katz, Bill Nygren, Christopher Bloomstran, Prem Watsa, Sarah Ketterer, +5 more",5,10,1667078000,0.99,13858687,4.85,1.52,top_holdings,2026-08-01,Q2 2026,1
+UNP,Union Pacific,292.13,"Thomas Gayner, Torray Funds, Greenhaven Associates, Bill Nygren, Daniel Loeb, +5 more",5,10,1436106000,1.06,5899308,7.31,2.25,top_holdings,2026-08-01,Q2 2026,1
+TMO,Thermo Fisher Scientific,574.3,"Thomas Gayner, David Katz, Lindsell Train, Viking Global Investors, Arnold Van Den Berg, +5 more",5,10,1317442000,2.1,2667985,9.81,3.0,top_holdings,2026-08-01,Q2 2026,1
+ADBE,Adobe Inc.,250.41,"Lindsell Train, Bill Nygren, Hillman Capital Management, Dodge & Cox Funds, Samantha McLemore, +5 more",5,10,1264663000,0.68,5203753,2.73,1.1,top_holdings,2026-08-01,Q2 2026,1
+DHR,Danaher Corp.,194.98,"Torray Funds, David Katz, Lee Ainslie, Bill Nygren, Bill & Melinda Gates Foundation Trust, +5 more",5,10,537279000,2.35,2833737,8.76,3.16,top_holdings,2026-08-01,Q2 2026,1
+KO,Coca Cola Co.,87.59,"Lindsell Train, Lee Ainslie, Christopher Bloomstran, Warren Buffett, Dodge & Cox Funds, +4 more",5,9,30692526000,1.69,403582686,11.56,3.77,top_holdings,2026-08-01,Q2 2026,1
+RTX,RTX Corp.,215.22,"Thomas Gayner, Torray Funds, Lee Ainslie, David Tepper, Hillman Capital Management, +4 more",5,9,7220995000,0.97,37437589,3.76,1.44,top_holdings,2026-08-01,Q2 2026,1

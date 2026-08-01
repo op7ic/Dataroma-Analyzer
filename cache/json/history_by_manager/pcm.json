@@ -6355,7 +6355,7 @@
       "date": "Q4 2025",
       "percentage_change": 0.0,
       "action_type": "Sell",
-      "shares": 2572,
+      "shares": 7716,
       "portfolio_percentage": 0.0,
       "company_name": "Willis Lease Finance Corp."
     },
@@ -8720,7 +8720,7 @@
       "date": "Q3 2025",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 2705,
+      "shares": 8115,
       "portfolio_percentage": 0.0,
       "company_name": "Willis Lease Finance Corp."
     },
@@ -11002,6 +11002,6 @@
       "company_name": "Peloton Interactive Inc."
     }
   ],
-  "timestamp": "2026-07-20T20:12:10.887344",
-  "scraped_date": "2026-07-20"
+  "timestamp": "2026-08-01T06:56:25.950426",
+  "scraped_date": "2026-08-01"
 }

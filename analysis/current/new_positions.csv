@@ -1,101 +1,101 @@
 ticker,company_name,action,current_price,manager,total_value,portfolio_pct,period,shares,_analysis_type,_generated,_periods,_window_quarters
-KKR,KKR & Co. L.P.,Buy,96.62,Lindsell Train,61289000.0,2.33,Q2 2026,667780,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-ABT,Abbott Labs,Buy,101.74,David Katz,4289000.0,0.35,Q2 2026,47262,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-WMG,Warner Music Group Corp. CL A,Buy,28.2,Lindsell Train,1354000.0,0.05,Q2 2026,50000,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-RSP,Invesco S&P  500 Equal Weight,Buy,212.33,David Katz,245000.0,0.02,Q2 2026,1150,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-EMXC,Ishares Msci Emr Mrk Ex Chna,Buy,91.54,David Katz,234000.0,0.02,Q2 2026,2292,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-IBM,International Business Machines,Buy,213.37,David Katz,212000.0,0.02,Q2 2026,755,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-TSLA,Tesla Inc.,Buy,370.46,David Katz,208000.0,0.02,Q2 2026,494,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-SUNB,Sunbelt Rentals Holdings Inc,Buy,71.96,Dodge & Cox Funds,3456399000.0,1.9,Q1 2026,53101847,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-DAL,Delta Air Lines Inc.,Buy,83.92,Warren Buffett,2646533000.0,1.01,Q1 2026,39809456,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-MSFT,Microsoft Corp.,Buy,400.76,Bill Ackman,2092970000.0,15.26,Q1 2026,5654078,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-TSLA,Tesla Inc.,Buy,370.46,Duan Yongping,1267259000.0,6.34,Q1 2026,3408900,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-ROP,Roper Technologies Inc.,Buy,363.44,Dodge & Cox Funds,1183200000.0,0.65,Q1 2026,3343694,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-GOOG,Alphabet Inc. CL C,Buy,351.66,Warren Buffett,1028455000.0,0.39,Q1 2026,3585215,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-AAPL,Apple Inc.,Buy,328.28,Viking Global Investors,911882000.0,2.55,Q1 2026,3593057,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-MRSH,Marsh,Buy,181.99,Bill Nygren,896584000.0,1.2,Q1 2026,5169119,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-SUNB,Sunbelt Rentals Holdings Inc,Buy,71.96,Abrams Bison Investments,817601000.0,35.38,Q1 2026,12561085,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-SUNB,Sunbelt Rentals Holdings Inc,Buy,71.96,Bill Nygren,758515000.0,1.01,Q1 2026,11653333,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-NVO,Novo Nordisk A S,Buy,49.62,Dodge & Cox Funds,710515000.0,0.39,Q1 2026,19333750,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-GOOGL,Alphabet Inc.,Buy,352.0,Chris Hohn,706535000.0,1.56,Q1 2026,2457000,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-FDX,FedEx Corp.,Buy,307.05,Viking Global Investors,688199000.0,1.93,Q1 2026,1932165,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-ROP,Roper Technologies Inc.,Buy,363.44,Bill Nygren,612018000.0,0.82,Q1 2026,1729546,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-META,Meta Platforms Inc.,Buy,648.04,Viking Global Investors,607931000.0,1.7,Q1 2026,1062575,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-ADP,Automatic Data Processing Inc.,Buy,255.22,First Eagle Investment Management,579019000.0,0.98,Q1 2026,2849784,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-BRO,Brown & Brown Inc.,Buy,69.25,First Eagle Investment Management,575358000.0,0.98,Q1 2026,8823162,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-ACN,Accenture,Buy,144.48,Bill Nygren,573435000.0,0.77,Q1 2026,2891902,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-ADBE,Adobe Inc.,Buy,235.18,Bill Nygren,557582000.0,0.74,Q1 2026,2293821,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-TER,Teradyne Inc.,Buy,334.12,Stephen Mandel,555233000.0,4.43,Q1 2026,1872876,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-LIN,Linde plc,Buy,512.64,John Armitage,529656000.0,5.88,Q1 2026,1068371,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-GLW,Corning Inc.,Buy,153.71,Stephen Mandel,505556000.0,4.03,Q1 2026,3718147,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-RJF,Raymond James Financial Inc.,Buy,167.39,Bill Nygren,495953000.0,0.66,Q1 2026,3425321,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-MTZ,MasTec Inc.,Buy,334.12,Stephen Mandel,492600000.0,3.93,Q1 2026,1531050,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-ATI,Allegheny Technologies Inc.,Buy,184.65,Viking Global Investors,484795000.0,1.36,Q1 2026,3332843,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-WAT,Waters Corp.,Buy,358.29,First Eagle Investment Management,469091000.0,0.8,Q1 2026,1575187,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-NVDA,NVIDIA Corp.,Buy,202.46,John Armitage,466523000.0,5.18,Q1 2026,2675018,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-LYB,LyondellBasell Industries,Buy,60.6,Christopher Davis,450862000.0,2.07,Q1 2026,5596588,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-FISV,Fiserv Inc.,Buy,51.39,First Eagle Investment Management,418234000.0,0.71,Q1 2026,7495234,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-SUNB,Sunbelt Rentals Holdings Inc,Buy,71.96,Thomas Russo,394877000.0,4.65,Q1 2026,6067311,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-WAT,Waters Corp.,Buy,358.29,Viking Global Investors,374174000.0,1.05,Q1 2026,1256462,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-SUNB,Sunbelt Rentals Holdings Inc,Buy,71.96,Ruane Cunniff LP,357231000.0,5.93,Q1 2026,5488261,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-USFD,US Foods Holding Corp.,Buy,95.63,Stephen Mandel,350029000.0,2.79,Q1 2026,3795998,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-HAS,Hasbro Inc.,Buy,81.66,Viking Global Investors,349961000.0,0.98,Q1 2026,3738902,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-RDDT,Reddit Inc Cl A,Buy,183.46,Viking Global Investors,343575000.0,0.96,Q1 2026,2551617,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-PFGC,Performance Food Group,Buy,109.4,Stephen Mandel,340769000.0,2.72,Q1 2026,3978158,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-MCK,McKesson Corp.,Buy,831.6,Stephen Mandel,339415000.0,2.71,Q1 2026,392224,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-ICLR,ICON plc,Buy,165.51,Glenn Greenberg,331627000.0,8.21,Q1 2026,2996811,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-DVN,Devon Energy Corp.,Buy,44.12,John Armitage,328345000.0,3.64,Q1 2026,6525140,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-AIG,American International Group,Buy,79.77,Viking Global Investors,317647000.0,0.89,Q1 2026,4221223,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-SYF,Synchrony Financial,Buy,73.1,Bill Nygren,316906000.0,0.42,Q1 2026,4659001,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-CIEN,Ciena Corp.,Buy,379.22,Stephen Mandel,314281000.0,2.51,Q1 2026,809522,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-CFR,Cullen Frost Bankers,Buy,160.84,First Eagle Investment Management,310606000.0,0.53,Q1 2026,2265874,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-KKR,KKR & Co. L.P.,Buy,96.62,ValueAct Capital,303372000.0,5.31,Q1 2026,3279700,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-WULF,Terawulf Inc,Buy,18.87,Stephen Mandel,287466000.0,2.29,Q1 2026,19921430,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-ZTS,Zoetis Inc.,Buy,75.95,Ruane Cunniff LP,286660000.0,4.76,Q1 2026,2425010,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-HUT,Hut 8 Corp,Buy,99.92,Stephen Mandel,285164000.0,2.27,Q1 2026,6078951,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-CNQ,Canadian Natural Resources,Buy,44.13,John Armitage,277056000.0,3.07,Q1 2026,5690211,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-META,Meta Platforms Inc.,Buy,648.04,Polen Capital Management,272713000.0,1.89,Q1 2026,476663,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-AON,Aon Plc,Buy,364.25,Seth Klarman,248218000.0,4.85,Q1 2026,769000,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-MELI,Mercadolibre Inc.,Buy,1836.37,Chase Coleman,233428000.0,1.02,Q1 2026,135006,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-LRCX,Lam Research,Buy,306.81,Polen Capital Management,225303000.0,1.56,Q1 2026,1054495,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-ERFSF,Eurofins Scientific SE,Buy,77.61,Thomas Russo,223551000.0,2.63,Q1 2026,3096404,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-AGX,Argan Inc.,Buy,597.93,Stephen Mandel,214120000.0,1.71,Q1 2026,393134,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-SPOT,Spotify Technology S.A.,Buy,493.02,William Von Mueffling,213046000.0,1.42,Q1 2026,439353,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-V,Visa Inc.,Buy,361.41,Seth Klarman,211978000.0,4.14,Q1 2026,701355,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-LIN,Linde plc,Buy,512.64,Lee Ainslie,211249000.0,2.46,Q1 2026,426111,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-SUNB,Sunbelt Rentals Holdings Inc,Buy,71.96,AKO Capital,207330000.0,4.06,Q1 2026,3185284,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-INFQ,Infleqtion Inc,Buy,9.11,Lee Ainslie,195630000.0,2.28,Q1 2026,19941924,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-MDLN,Medline Inc Cl A,Buy,38.69,John Armitage,194278000.0,2.16,Q1 2026,4365802,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-CBOE,CBOE Holdings Inc.,Buy,278.43,Viking Global Investors,193493000.0,0.54,Q1 2026,688417,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-TFX,Teleflex,Buy,134.21,Seth Klarman,190778000.0,3.73,Q1 2026,1595000,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-CPNG,Coupang Inc.,Buy,16.38,Bill Nygren,188457000.0,0.25,Q1 2026,9981854,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-WIX,Wix.com Ltd.,Buy,53.22,Henry Ellenbogen,183895000.0,1.89,Q1 2026,2041688,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-ABT,Abbott Labs,Buy,101.74,Lee Ainslie,180510000.0,2.1,Q1 2026,1758160,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-RGEN,Repligen Corp.,Buy,145.93,Lee Ainslie,178946000.0,2.08,Q1 2026,1518805,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-SNDK,SanDisk Corp.,Buy,1383.76,David Tepper,178689000.0,3.01,Q1 2026,281250,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-SPOT,Spotify Technology S.A.,Buy,493.02,ValueAct Capital,173840000.0,3.04,Q1 2026,358500,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-VSNT,Versant Media Group Inc.,Buy,35.82,Dodge & Cox Funds,166996000.0,0.09,Q1 2026,4510956,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-HD,Home Depot,Buy,332.81,Viking Global Investors,165845000.0,0.46,Q1 2026,504257,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-UNH,United Health Group Inc.,Buy,422.87,Duan Yongping,162733000.0,0.81,Q1 2026,601400,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-DHR,Danaher Corp.,Buy,202.02,Lee Ainslie,155411000.0,1.81,Q1 2026,819679,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-CRH,CRH plc,Buy,99.7,Henry Ellenbogen,155344000.0,1.6,Q1 2026,1477777,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-KT,KT Corp.,Buy,17.83,Richard Pzena,153915000.0,0.5,Q1 2026,7175547,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-HLN,Haleon Plc ADR,Buy,10.07,Bill Nygren,150471000.0,0.2,Q1 2026,15032041,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-LULU,Lululemon Athletica Inc.,Buy,116.64,Viking Global Investors,150125000.0,0.42,Q1 2026,980568,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-SUNB,Sunbelt Rentals Holdings Inc,Buy,71.96,Pat Dorsey,143523000.0,11.43,Q1 2026,2204996,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-AMD,Advanced Micro Devices,Buy,506.88,Lee Ainslie,137635000.0,1.6,Q1 2026,676572,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-GLOB,Globant S.A.,Buy,32.42,Richard Pzena,136893000.0,0.44,Q1 2026,2968828,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-CDW,CDW Corp.,Buy,129.82,Richard Pzena,135002000.0,0.44,Q1 2026,1115535,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-CRM,Salesforce.com,Buy,173.11,Chuck Akre,133992000.0,2.19,Q1 2026,717799,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-INTC,Intel Corp.,Buy,97.43,Lee Ainslie,132191000.0,1.54,Q1 2026,2995488,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-WMB,Williams Cos.,Buy,74.56,AKO Capital,129251000.0,2.53,Q1 2026,1775909,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-PBR,Petroleo Brasileiro,Buy,18.29,Howard Marks,126355000.0,2.93,Q1 2026,6089413,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-APP,Applovin Corp.,Buy,427.42,Pat Dorsey,126147000.0,10.04,Q1 2026,316952,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-ROL,Rollins Inc.,Buy,44.68,Polen Capital Management,116310000.0,0.8,Q1 2026,2177678,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-BFAM,Bright Horizons Family Solutions Inc.,Buy,77.28,Abrams Bison Investments,116050000.0,5.02,Q1 2026,1413000,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-NOW,ServiceNow Inc.,Buy,104.85,Chuck Akre,114597000.0,1.87,Q1 2026,1096099,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-ENTG,Entegris Inc.,Buy,134.48,Henry Ellenbogen,113922000.0,1.17,Q1 2026,971701,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-FN,Fabrinet,Buy,494.34,Henry Ellenbogen,112894000.0,1.16,Q1 2026,216472,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-BAX,Baxter International Inc.,Buy,22.26,First Pacific Advisors,112576000.0,1.61,Q1 2026,6700925,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-VSNT,Versant Media Group Inc.,Buy,35.82,David Einhorn,112119000.0,3.51,Q1 2026,3028615,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-CRWV,Coreweave Inc Cl A,Buy,73.7,Viking Global Investors,108260000.0,0.3,Q1 2026,1397438,new_positions,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
+BDX,Becton Dickinson,Buy,165.62,Greenhaven Associates,859813000.0,9.93,Q2 2026,5681708,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+ACN,Accenture,Buy,165.92,Greenhaven Associates,421190000.0,4.86,Q2 2026,3384681,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+AMAT,Applied Materials,Buy,507.67,John Armitage,376730000.0,3.64,Q2 2026,521065,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+EFX,Equifax Inc.,Buy,172.62,John Armitage,235094000.0,2.27,Q2 2026,1481188,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+IQV,IQVIA Holdings Inc.,Buy,235.02,Greenhaven Associates,148402000.0,1.71,Q2 2026,768045,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+SPGI,S&P Global Inc.,Buy,411.93,John Armitage,143323000.0,1.38,Q2 2026,351920,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+VST,Vistra Corp.,Buy,148.19,John Armitage,76976000.0,0.74,Q2 2026,485253,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+RIOT,Riot Blockchain Inc.,Buy,20.17,John Armitage,71975000.0,0.7,Q2 2026,2628731,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+KKR,KKR & Co. L.P.,Buy,101.43,Lindsell Train,61289000.0,2.33,Q2 2026,667780,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+EPAM,EPAM Systems Inc.,Buy,105.56,Greenhaven Associates,46602000.0,0.54,Q2 2026,587300,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+ACN,Accenture,Buy,165.92,Torray Funds,20867000.0,3.1,Q2 2026,167690,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+ZTS,Zoetis Inc.,Buy,77.29,Thomas Gayner,4757000.0,0.04,Q2 2026,66195,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+ABT,Abbott Labs,Buy,105.7,David Katz,4289000.0,0.35,Q2 2026,47262,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+NFLX,Netflix Inc.,Buy,71.71,Thomas Gayner,2856000.0,0.02,Q2 2026,40000,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+ZM,Zoom Video Communications Inc.,Buy,96.07,Torray Funds,2140000.0,0.32,Q2 2026,24796,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+NOVT,Novanta Inc.,Buy,142.55,Torray Funds,1808000.0,0.27,Q2 2026,11141,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+WMG,Warner Music Group Corp. CL A,Buy,25.96,Lindsell Train,1354000.0,0.05,Q2 2026,50000,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+UFPI,UFP Industries Inc.,Buy,86.74,Thomas Gayner,363000.0,0.0,Q2 2026,4000,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+UNH,United Health Group Inc.,Buy,414.4,Torray Funds,284000.0,0.04,Q2 2026,683,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+RSP,Invesco S&P  500 Equal Weight,Buy,215.01,David Katz,245000.0,0.02,Q2 2026,1150,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+EMXC,Ishares Msci Emr Mrk Ex Chna,Buy,92.12,David Katz,234000.0,0.02,Q2 2026,2292,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+BNY,Bank of New York Mellon Corp.,Buy,156.33,Torray Funds,229000.0,0.03,Q2 2026,1584,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+IBM,International Business Machines,Buy,223.65,David Katz,212000.0,0.02,Q2 2026,755,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+TSLA,Tesla Inc.,Buy,311.21,David Katz,208000.0,0.02,Q2 2026,494,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+SUNB,Sunbelt Rentals Holdings Inc,Buy,71.92,Dodge & Cox Funds,3456399000.0,1.9,Q1 2026,53101847,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+DAL,Delta Air Lines Inc.,Buy,87.44,Warren Buffett,2646533000.0,1.01,Q1 2026,39809456,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+MSFT,Microsoft Corp.,Buy,464.72,Bill Ackman,2092970000.0,15.26,Q1 2026,5654078,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+TSLA,Tesla Inc.,Buy,311.21,Duan Yongping,1267259000.0,6.34,Q1 2026,3408900,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+ROP,Roper Technologies Inc.,Buy,391.97,Dodge & Cox Funds,1183200000.0,0.65,Q1 2026,3343694,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+GOOG,Alphabet Inc. CL C,Buy,356.65,Warren Buffett,1028455000.0,0.39,Q1 2026,3585215,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+AAPL,Apple Inc.,Buy,308.91,Viking Global Investors,911882000.0,2.55,Q1 2026,3593057,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+MRSH,Marsh,Buy,189.69,Bill Nygren,896584000.0,1.2,Q1 2026,5169119,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+SUNB,Sunbelt Rentals Holdings Inc,Buy,71.92,Abrams Bison Investments,817601000.0,35.38,Q1 2026,12561085,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+SUNB,Sunbelt Rentals Holdings Inc,Buy,71.92,Bill Nygren,758515000.0,1.01,Q1 2026,11653333,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+NVO,Novo Nordisk A S,Buy,47.08,Dodge & Cox Funds,710515000.0,0.39,Q1 2026,19333750,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+GOOGL,Alphabet Inc.,Buy,356.13,Chris Hohn,706535000.0,1.56,Q1 2026,2457000,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+FDX,FedEx Corp.,Buy,307.4,Viking Global Investors,688199000.0,1.93,Q1 2026,1932165,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+NVDA,NVIDIA Corp.,Buy,200.75,John Armitage,683898000.0,6.61,Q1 2026,2675018,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+MDLN,Medline Inc Cl A,Buy,39.28,John Armitage,649612000.0,6.28,Q1 2026,4365802,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+ROP,Roper Technologies Inc.,Buy,391.97,Bill Nygren,612018000.0,0.82,Q1 2026,1729546,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+META,Meta Platforms Inc.,Buy,556.71,Viking Global Investors,607931000.0,1.7,Q1 2026,1062575,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+ADP,Automatic Data Processing Inc.,Buy,266.46,First Eagle Investment Management,579019000.0,0.98,Q1 2026,2849784,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+BRO,Brown & Brown Inc.,Buy,70.4,First Eagle Investment Management,575358000.0,0.98,Q1 2026,8823162,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+ACN,Accenture,Buy,165.92,Bill Nygren,573435000.0,0.77,Q1 2026,2891902,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+ADBE,Adobe Inc.,Buy,250.41,Bill Nygren,557582000.0,0.74,Q1 2026,2293821,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+TER,Teradyne Inc.,Buy,367.69,Stephen Mandel,555233000.0,4.43,Q1 2026,1872876,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+GLW,Corning Inc.,Buy,138.25,Stephen Mandel,505556000.0,4.03,Q1 2026,3718147,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+RJF,Raymond James Financial Inc.,Buy,175.98,Bill Nygren,495953000.0,0.66,Q1 2026,3425321,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+MTZ,MasTec Inc.,Buy,263.1,Stephen Mandel,492600000.0,3.93,Q1 2026,1531050,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+ATI,Allegheny Technologies Inc.,Buy,187.44,Viking Global Investors,484795000.0,1.36,Q1 2026,3332843,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+WAT,Waters Corp.,Buy,377.31,First Eagle Investment Management,469091000.0,0.8,Q1 2026,1575187,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+LYB,LyondellBasell Industries,Buy,62.08,Christopher Davis,450862000.0,2.07,Q1 2026,5596588,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+FISV,Fiserv Inc.,Buy,53.94,First Eagle Investment Management,418234000.0,0.71,Q1 2026,7495234,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+SUNB,Sunbelt Rentals Holdings Inc,Buy,71.92,Thomas Russo,394877000.0,4.65,Q1 2026,6067311,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+WAT,Waters Corp.,Buy,377.31,Viking Global Investors,374174000.0,1.05,Q1 2026,1256462,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+SUNB,Sunbelt Rentals Holdings Inc,Buy,71.92,Ruane Cunniff LP,357231000.0,5.93,Q1 2026,5488261,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+USFD,US Foods Holding Corp.,Buy,100.59,Stephen Mandel,350029000.0,2.79,Q1 2026,3795998,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+HAS,Hasbro Inc.,Buy,93.94,Viking Global Investors,349961000.0,0.98,Q1 2026,3738902,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+RDDT,Reddit Inc Cl A,Buy,140.67,Viking Global Investors,343575000.0,0.96,Q1 2026,2551617,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+PFGC,Performance Food Group,Buy,114.39,Stephen Mandel,340769000.0,2.72,Q1 2026,3978158,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+MCK,McKesson Corp.,Buy,856.19,Stephen Mandel,339415000.0,2.71,Q1 2026,392224,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+ICLR,ICON plc,Buy,163.57,Glenn Greenberg,331627000.0,8.21,Q1 2026,2996811,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+AIG,American International Group,Buy,78.58,Viking Global Investors,317647000.0,0.89,Q1 2026,4221223,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+SYF,Synchrony Financial,Buy,75.79,Bill Nygren,316906000.0,0.42,Q1 2026,4659001,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+CIEN,Ciena Corp.,Buy,377.05,Stephen Mandel,314281000.0,2.51,Q1 2026,809522,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+DVN,Devon Energy Corp.,Buy,45.13,John Armitage,312299000.0,3.02,Q1 2026,6525140,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+CFR,Cullen Frost Bankers,Buy,166.34,First Eagle Investment Management,310606000.0,0.53,Q1 2026,2265874,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+KKR,KKR & Co. L.P.,Buy,101.43,ValueAct Capital,303372000.0,5.31,Q1 2026,3279700,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+WULF,Terawulf Inc,Buy,17.66,Stephen Mandel,287466000.0,2.29,Q1 2026,19921430,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+ZTS,Zoetis Inc.,Buy,77.29,Ruane Cunniff LP,286660000.0,4.76,Q1 2026,2425010,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+HUT,Hut 8 Corp,Buy,107.63,Stephen Mandel,285164000.0,2.27,Q1 2026,6078951,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+META,Meta Platforms Inc.,Buy,556.71,Polen Capital Management,272713000.0,1.89,Q1 2026,476663,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+AON,Aon Plc,Buy,360.55,Seth Klarman,248218000.0,4.85,Q1 2026,769000,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+MELI,Mercadolibre Inc.,Buy,1877.95,Chase Coleman,233428000.0,1.02,Q1 2026,135006,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+LRCX,Lam Research,Buy,293.02,Polen Capital Management,225303000.0,1.56,Q1 2026,1054495,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+ERFSF,Eurofins Scientific SE,Buy,77.79,Thomas Russo,223551000.0,2.63,Q1 2026,3096404,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+AGX,Argan Inc.,Buy,570.43,Stephen Mandel,214120000.0,1.71,Q1 2026,393134,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+V,Visa Inc.,Buy,366.13,Seth Klarman,211978000.0,4.14,Q1 2026,701355,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+LIN,Linde plc,Buy,478.38,Lee Ainslie,211249000.0,2.46,Q1 2026,426111,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+SUNB,Sunbelt Rentals Holdings Inc,Buy,71.92,AKO Capital,207330000.0,4.06,Q1 2026,3185284,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+INFQ,Infleqtion Inc,Buy,9.83,Lee Ainslie,195630000.0,2.28,Q1 2026,19941924,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+CBOE,CBOE Holdings Inc.,Buy,310.23,Viking Global Investors,193493000.0,0.54,Q1 2026,688417,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+TFX,Teleflex,Buy,136.71,Seth Klarman,190778000.0,3.73,Q1 2026,1595000,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+CPNG,Coupang Inc.,Buy,16.35,Bill Nygren,188457000.0,0.25,Q1 2026,9981854,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+WIX,Wix.com Ltd.,Buy,55.03,Henry Ellenbogen,183895000.0,1.89,Q1 2026,2041688,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+ABT,Abbott Labs,Buy,105.7,Lee Ainslie,180510000.0,2.1,Q1 2026,1758160,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+RGEN,Repligen Corp.,Buy,141.01,Lee Ainslie,178946000.0,2.08,Q1 2026,1518805,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+SNDK,SanDisk Corp.,Buy,1214.83,David Tepper,178689000.0,3.01,Q1 2026,281250,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+SPOT,Spotify Technology S.A.,Buy,499.94,ValueAct Capital,173840000.0,3.04,Q1 2026,358500,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+VSNT,Versant Media Group Inc.,Buy,35.99,Dodge & Cox Funds,166996000.0,0.09,Q1 2026,4510956,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+HD,Home Depot,Buy,331.96,Viking Global Investors,165845000.0,0.46,Q1 2026,504257,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+UNH,United Health Group Inc.,Buy,414.4,Duan Yongping,162733000.0,0.81,Q1 2026,601400,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+LIN,Linde plc,Buy,478.38,John Armitage,156125000.0,1.51,Q1 2026,1068371,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+DHR,Danaher Corp.,Buy,194.98,Lee Ainslie,155411000.0,1.81,Q1 2026,819679,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+CRH,CRH plc,Buy,95.01,Henry Ellenbogen,155344000.0,1.6,Q1 2026,1477777,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+KT,KT Corp.,Buy,18.09,Richard Pzena,153915000.0,0.5,Q1 2026,7175547,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+HLN,Haleon Plc ADR,Buy,9.87,Bill Nygren,150471000.0,0.2,Q1 2026,15032041,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+LULU,Lululemon Athletica Inc.,Buy,118.87,Viking Global Investors,150125000.0,0.42,Q1 2026,980568,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+AWI,Armstrong World Industries Inc.,Buy,174.66,John Armitage,148452000.0,1.43,Q1 2026,448036,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+SUNB,Sunbelt Rentals Holdings Inc,Buy,71.92,Pat Dorsey,143523000.0,11.43,Q1 2026,2204996,new_positions,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3

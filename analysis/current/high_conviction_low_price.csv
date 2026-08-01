@@ -1,26 +1,28 @@
 ticker,company_name,current_price,manager_count,managers,total_value,avg_portfolio_pct,max_portfolio_pct,total_shares,conviction_price_score,recent_buys,opportunity_type,_analysis_type,_generated,_periods,_window_quarters
-IEP,Icahn Enterprises,7.51,1,Carl Icahn,4147974000,48.49,48.49,549400539,115.47,1.0,Deep Conviction Bargain,high_conviction_low_price,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-RIG,Transocean Ltd.,5.1,1,Mohnish Pabrai,135203000,31.97,31.97,20392672,84.84,1.0,Deep Conviction Bargain,high_conviction_low_price,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-VFC,V.F. Corp.,16.81,1,Glenn Welling,79496000,26.2,26.2,4678989,61.59,2.0,High Conviction Low Price,high_conviction_low_price,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-CNH,CNH Industrial NV,10.29,1,Tweedy Browne,221654000,17.61,17.61,20150358,50.93,2.0,High Conviction Low Price,high_conviction_low_price,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-DCH,Dauch Corp.,5.33,1,Alex Roepers,22771000,13.27,13.27,3840000,47.21,4.0,Deep Conviction Bargain,high_conviction_low_price,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-UAA,Under Armour Inc.,7.29,1,Prem Watsa,253705000,13.06,13.06,43000872,44.83,2.0,Deep Conviction Bargain,high_conviction_low_price,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-GTN,Gray Television Inc.,4.11,1,Bill Miller,23306000,6.08,6.08,5370100,34.05,2.0,High Conviction Low Price,high_conviction_low_price,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-PTLO,Portillo's Inc Cl A,4.58,1,Glenn Welling,18213000,6.0,6.0,3442990,33.42,2.0,High Conviction Low Price,high_conviction_low_price,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-RKT,Rocket Companies Inc.,13.86,2,"ValueAct Capital, Leon Cooperman",701547000,8.44,9.83,49231324,32.8,9.0,High Conviction Low Price,high_conviction_low_price,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-UA,Under Armour CL C,7.12,1,Prem Watsa,126935000,6.53,6.53,21999128,31.94,2.0,High Conviction Low Price,high_conviction_low_price,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-FLG,Flagstar Financial Inc.,14.82,1,Kahn Brothers Group,53781000,9.53,9.53,4083618,30.24,2.0,High Conviction Low Price,high_conviction_low_price,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-MAT,Mattel Inc.,14.21,1,Mason Hawkins,186161000,9.16,9.16,12812157,30.11,4.0,High Conviction Low Price,high_conviction_low_price,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-CLF,Cleveland-Cliffs Inc.,8.97,1,Prem Watsa,125750000,6.47,6.47,14899273,29.97,1.0,High Conviction Low Price,high_conviction_low_price,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-CRGY,Crescent Energy Inc A,10.57,1,Bill Miller,27042000,7.06,7.06,2003132,29.55,3.0,High Conviction Low Price,high_conviction_low_price,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-WEN,Wendy's Co.,7.84,1,Nelson Peltz,211600000,5.48,5.48,30446022,29.12,3.0,High Conviction Low Price,high_conviction_low_price,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-NOMD,Nomad Foods Ltd,11.8,1,Alex Roepers,12808000,7.46,7.46,1332772,29.12,1.0,High Conviction Low Price,high_conviction_low_price,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-RYN,Rayonier Inc.,21.2,1,Mason Hawkins,221926000,10.92,10.92,10762643,26.64,2.0,High Conviction Low Price,high_conviction_low_price,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-OGN,Organon & Co.,13.51,1,Kahn Brothers Group,33167000,5.88,5.88,5536993,24.25,2.0,High Conviction Low Price,high_conviction_low_price,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-ACI,Albertsons Co Inc.,14.99,1,Mason Hawkins,126433000,6.22,6.22,7419801,23.45,2.0,High Conviction Low Price,high_conviction_low_price,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-CPNG,Coupang Inc.,16.38,2,"David Abrams, Dennis Hong",262890000,5.84,6.39,13924255,23.4,7.0,High Conviction Low Price,high_conviction_low_price,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-DOLE,Dole Food Company,14.27,1,Alex Roepers,9659000,5.63,5.63,675948,22.99,1.0,High Conviction Low Price,high_conviction_low_price,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-ET,Energy Transfer LP,20.38,1,Leon Cooperman,257078000,8.43,8.43,13320100,22.48,4.0,High Conviction Low Price,high_conviction_low_price,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-MIR,Mirion Technologies Inc,15.84,1,Leon Cooperman,155848000,5.11,5.11,8383441,20.380000000000003,2.0,High Conviction Low Price,high_conviction_low_price,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-OLN,Olin Corp.,22.24,1,Christopher Bloomstran,60332000,7.21,7.21,2029319,18.18,5.0,High Conviction Low Price,high_conviction_low_price,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
-KGC,Kinross Gold Corp.,22.62,1,Christopher Bloomstran,46053000,5.5,5.5,1508941,14.38,1.0,High Conviction Low Price,high_conviction_low_price,2026-07-20,"Q2 2026, Q1 2026, Q4 2025",3
+IEP,Icahn Enterprises,7.79,1,Carl Icahn,4147974000,48.49,48.49,549400539,115.19,1.0,Deep Conviction Bargain,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+RIG,Transocean Ltd.,5.32,1,Mohnish Pabrai,135203000,31.97,31.97,20392672,84.62,1.0,Deep Conviction Bargain,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+VFC,V.F. Corp.,14.32,1,Glenn Welling,79496000,26.2,26.2,4678989,64.08,2.0,High Conviction Low Price,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+CNH,CNH Industrial NV,10.25,1,Tweedy Browne,221654000,17.61,17.61,20150358,50.97,2.0,High Conviction Low Price,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+DCH,Dauch Corp.,5.65,1,Alex Roepers,22771000,13.27,13.27,3840000,46.89,4.0,Deep Conviction Bargain,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+UAA,Under Armour Inc.,6.65,1,Prem Watsa,253705000,13.06,13.06,43000872,45.47,2.0,Deep Conviction Bargain,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+GTN,Gray Television Inc.,4.04,1,Bill Miller,23306000,6.08,6.08,5370100,34.120000000000005,2.0,High Conviction Low Price,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+RKT,Rocket Companies Inc.,12.9,2,"ValueAct Capital, Leon Cooperman",701547000,8.44,9.83,49231324,33.76,9.0,High Conviction Low Price,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+PTLO,Portillo's Inc Cl A,4.57,1,Glenn Welling,18213000,6.0,6.0,3442990,33.43,2.0,High Conviction Low Price,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+UA,Under Armour CL C,6.49,1,Prem Watsa,126935000,6.53,6.53,21999128,32.57,2.0,High Conviction Low Price,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+FLG,Flagstar Financial Inc.,14.22,1,Kahn Brothers Group,53781000,9.53,9.53,4083618,30.84,2.0,High Conviction Low Price,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+WEN,Wendy's Co.,7.36,1,Nelson Peltz,211600000,5.48,5.48,30446022,29.6,3.0,High Conviction Low Price,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+MAT,Mattel Inc.,15.09,1,Mason Hawkins,186161000,9.16,9.16,12812157,29.23,4.0,High Conviction Low Price,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+NOMD,Nomad Foods Ltd,11.9,1,Alex Roepers,12808000,7.46,7.46,1332772,29.02,1.0,High Conviction Low Price,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+CRGY,Crescent Energy Inc A,11.47,1,Bill Miller,27042000,7.06,7.06,2003132,28.65,3.0,High Conviction Low Price,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+CLF,Cleveland-Cliffs Inc.,11.52,1,Prem Watsa,125750000,6.47,6.47,14899273,27.42,1.0,High Conviction Low Price,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+ACI,Albertsons Co Inc.,11.58,1,Mason Hawkins,126433000,6.22,6.22,7419801,26.86,2.0,High Conviction Low Price,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+RYN,Rayonier Inc.,21.78,1,Mason Hawkins,221926000,10.92,10.92,10762643,26.06,2.0,High Conviction Low Price,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+OGN,Organon & Co.,13.55,1,Kahn Brothers Group,33167000,5.88,5.88,5536993,24.21,2.0,High Conviction Low Price,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+CPNG,Coupang Inc.,16.35,2,"David Abrams, Dennis Hong",262890000,5.84,6.39,13924255,23.43,7.0,High Conviction Low Price,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+DOLE,Dole Food Company,14.14,1,Alex Roepers,9659000,5.63,5.63,675948,23.12,1.0,High Conviction Low Price,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+ET,Energy Transfer LP,20.36,1,Leon Cooperman,257078000,8.43,8.43,13320100,22.5,4.0,High Conviction Low Price,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+OLN,Olin Corp.,18.51,1,Christopher Bloomstran,60332000,7.21,7.21,2029319,21.91,5.0,High Conviction Low Price,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+MIR,Mirion Technologies Inc,14.98,1,Leon Cooperman,155848000,5.11,5.11,8383441,21.24,2.0,High Conviction Low Price,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+BRZE,Braze Inc A,24.92,1,Dennis Hong,26257000,9.81,9.81,1112099,20.7,1.0,High Conviction Low Price,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+KGC,Kinross Gold Corp.,23.1,1,Christopher Bloomstran,46053000,5.5,5.5,1508941,13.9,1.0,High Conviction Low Price,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
+TRUP,Trupanion Inc.,24.49,1,Josh Tarasoff,19886000,5.78,5.78,776490,13.070000000000002,2.0,High Conviction Low Price,high_conviction_low_price,2026-08-01,"Q2 2026, Q1 2026, Q4 2025",3
