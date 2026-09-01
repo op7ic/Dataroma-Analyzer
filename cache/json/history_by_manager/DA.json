@@ -4,6 +4,127 @@
     {
       "symbol": "BKNG",
       "manager_id": "DA",
+      "action": "Add 80.37%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 330400,
+      "portfolio_percentage": 3.77,
+      "company_name": "Booking Holdings Inc."
+    },
+    {
+      "symbol": "UBER",
+      "manager_id": "DA",
+      "action": "Add 61.60%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 671660,
+      "portfolio_percentage": 3.1,
+      "company_name": "Uber Technologies Inc."
+    },
+    {
+      "symbol": "SPGI",
+      "manager_id": "DA",
+      "action": "Add 42.09%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 93730,
+      "portfolio_percentage": 2.44,
+      "company_name": "S&P Global Inc."
+    },
+    {
+      "symbol": "APP",
+      "manager_id": "DA",
+      "action": "Add 38.61%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 122361,
+      "portfolio_percentage": 4.04,
+      "company_name": "Applovin Corp."
+    },
+    {
+      "symbol": "META",
+      "manager_id": "DA",
+      "action": "Add 23.64%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 38218,
+      "portfolio_percentage": 1.38,
+      "company_name": "Meta Platforms Inc."
+    },
+    {
+      "symbol": "DHR",
+      "manager_id": "DA",
+      "action": "Add 7.92%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 45971,
+      "portfolio_percentage": 0.56,
+      "company_name": "Danaher Corp."
+    },
+    {
+      "symbol": "LYV",
+      "manager_id": "DA",
+      "action": "Add 7.91%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 48049,
+      "portfolio_percentage": 0.56,
+      "company_name": "Live Nation Inc."
+    },
+    {
+      "symbol": "RPRX",
+      "manager_id": "DA",
+      "action": "Add 7.90%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 179958,
+      "portfolio_percentage": 0.65,
+      "company_name": "Royalty Pharma plc"
+    },
+    {
+      "symbol": "ASML",
+      "manager_id": "DA",
+      "action": "Reduce 7.08%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 9931,
+      "portfolio_percentage": 1.27,
+      "company_name": "ASML Holding NV"
+    },
+    {
+      "symbol": "AER",
+      "manager_id": "DA",
+      "action": "Reduce 31.75%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 356661,
+      "portfolio_percentage": 3.33,
+      "company_name": "AerCap Holdings N.V."
+    },
+    {
+      "symbol": "SUNB",
+      "manager_id": "DA",
+      "action": "Reduce 47.82%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1054418,
+      "portfolio_percentage": 5.05,
+      "company_name": "Sunbelt Rentals Holdings Inc"
+    },
+    {
+      "symbol": "BKNG",
+      "manager_id": "DA",
       "action": "Add 0.78%",
       "date": "Q1 2026",
       "percentage_change": 0.0,
@@ -4314,6 +4435,6 @@
       "company_name": "Roper Technologies Inc."
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.833806",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.848377",
+  "scraped_date": "2026-09-01"
 }

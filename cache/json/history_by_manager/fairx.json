@@ -2,6 +2,94 @@
   "manager_id": "fairx",
   "activities": [
     {
+      "symbol": "BRK.A",
+      "manager_id": "fairx",
+      "action": "Add 450.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 9,
+      "portfolio_percentage": 0.45,
+      "company_name": "Berkshire Hathaway CL A"
+    },
+    {
+      "symbol": "KHC",
+      "manager_id": "fairx",
+      "action": "Add 92.12%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 97000,
+      "portfolio_percentage": 0.15,
+      "company_name": "Kraft Heinz Co."
+    },
+    {
+      "symbol": "BRK.B",
+      "manager_id": "fairx",
+      "action": "Add 74.13%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 37400,
+      "portfolio_percentage": 1.26,
+      "company_name": "Berkshire Hathaway CL B"
+    },
+    {
+      "symbol": "PGR",
+      "manager_id": "fairx",
+      "action": "Add 8.73%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 5800,
+      "portfolio_percentage": 0.09,
+      "company_name": "Progressive Corp."
+    },
+    {
+      "symbol": "PFE",
+      "manager_id": "fairx",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 231000,
+      "portfolio_percentage": 0.37,
+      "company_name": "Pfizer Inc."
+    },
+    {
+      "symbol": "CPB",
+      "manager_id": "fairx",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 116500,
+      "portfolio_percentage": 0.17,
+      "company_name": "Campbell's Co."
+    },
+    {
+      "symbol": "UPS",
+      "manager_id": "fairx",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 23800,
+      "portfolio_percentage": 0.17,
+      "company_name": "United Parcel Service"
+    },
+    {
+      "symbol": "JOE",
+      "manager_id": "fairx",
+      "action": "Reduce 5.35%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1027800,
+      "portfolio_percentage": 4.32,
+      "company_name": "St. Joe Co."
+    },
+    {
       "symbol": "PGR",
       "manager_id": "fairx",
       "action": "Add 159.38%",
@@ -9352,6 +9440,6 @@
       "company_name": "Duke Energy"
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.675652",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.790119",
+  "scraped_date": "2026-09-01"
 }

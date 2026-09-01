@@ -4,6 +4,28 @@
     {
       "symbol": "GWRE",
       "manager_id": "OCL",
+      "action": "Add 10.06%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 14500,
+      "portfolio_percentage": 0.66,
+      "company_name": "Guidewire Software Inc."
+    },
+    {
+      "symbol": "MCO",
+      "manager_id": "OCL",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 34000,
+      "portfolio_percentage": 5.74,
+      "company_name": "Moody's Corp."
+    },
+    {
+      "symbol": "GWRE",
+      "manager_id": "OCL",
       "action": "Add 73.33%",
       "date": "Q1 2026",
       "percentage_change": 0.0,
@@ -1300,6 +1322,6 @@
       "company_name": "Bread Financial Holdings Inc."
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.823397",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.965921",
+  "scraped_date": "2026-09-01"
 }

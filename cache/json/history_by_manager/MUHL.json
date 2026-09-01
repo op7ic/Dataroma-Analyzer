@@ -2,6 +2,281 @@
   "manager_id": "MUHL",
   "activities": [
     {
+      "symbol": "NMIH",
+      "manager_id": "MUHL",
+      "action": "Add 0.64%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 2339,
+      "portfolio_percentage": 0.03,
+      "company_name": "NMI Holdings"
+    },
+    {
+      "symbol": "EQX",
+      "manager_id": "MUHL",
+      "action": "Add 0.58%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 3032,
+      "portfolio_percentage": 0.01,
+      "company_name": "Equinox Gold Corp"
+    },
+    {
+      "symbol": "CE",
+      "manager_id": "MUHL",
+      "action": "Add 0.57%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 1197,
+      "portfolio_percentage": 0.02,
+      "company_name": "Celanese Corp."
+    },
+    {
+      "symbol": "SLB",
+      "manager_id": "MUHL",
+      "action": "Add 0.53%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 1707,
+      "portfolio_percentage": 0.02,
+      "company_name": "Schlumberger Ltd."
+    },
+    {
+      "symbol": "ICLR",
+      "manager_id": "MUHL",
+      "action": "Add 0.50%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 332,
+      "portfolio_percentage": 0.02,
+      "company_name": "ICON plc"
+    },
+    {
+      "symbol": "URI",
+      "manager_id": "MUHL",
+      "action": "Add 0.45%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 70,
+      "portfolio_percentage": 0.02,
+      "company_name": "United Rentals"
+    },
+    {
+      "symbol": "LYB",
+      "manager_id": "MUHL",
+      "action": "Add 0.41%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 761,
+      "portfolio_percentage": 0.01,
+      "company_name": "LyondellBasell Industries"
+    },
+    {
+      "symbol": "BRK.B",
+      "manager_id": "MUHL",
+      "action": "Add 0.38%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 144,
+      "portfolio_percentage": 0.02,
+      "company_name": "Berkshire Hathaway CL B"
+    },
+    {
+      "symbol": "EQT",
+      "manager_id": "MUHL",
+      "action": "Add 0.25%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 1001,
+      "portfolio_percentage": 0.02,
+      "company_name": "EQT Corp."
+    },
+    {
+      "symbol": "BGC",
+      "manager_id": "MUHL",
+      "action": "Add 0.22%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 3129,
+      "portfolio_percentage": 0.01,
+      "company_name": "BGC Group Inc."
+    },
+    {
+      "symbol": "RGLD",
+      "manager_id": "MUHL",
+      "action": "Add 0.22%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 196,
+      "portfolio_percentage": 0.01,
+      "company_name": "Royal Gold Inc."
+    },
+    {
+      "symbol": "RUSHA",
+      "manager_id": "MUHL",
+      "action": "Add 0.13%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 427,
+      "portfolio_percentage": 0.01,
+      "company_name": "Rush Enterprises Inc."
+    },
+    {
+      "symbol": "MCK",
+      "manager_id": "MUHL",
+      "action": "Add 0.12%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 33,
+      "portfolio_percentage": 0.01,
+      "company_name": "McKesson Corp."
+    },
+    {
+      "symbol": "MCHP",
+      "manager_id": "MUHL",
+      "action": "Add 0.08%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 154,
+      "portfolio_percentage": 0.0,
+      "company_name": "Microchip Technology"
+    },
+    {
+      "symbol": "TMHC-OLD",
+      "manager_id": "MUHL",
+      "action": "Add 0.01%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 19,
+      "portfolio_percentage": 0.0,
+      "company_name": "Taylor Morrison Home Corp."
+    },
+    {
+      "symbol": "WAB",
+      "manager_id": "MUHL",
+      "action": "Add 0.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 1,
+      "portfolio_percentage": 0.0,
+      "company_name": "WABTEC Corp."
+    },
+    {
+      "symbol": "SLV",
+      "manager_id": "MUHL",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 12550,
+      "portfolio_percentage": 0.19,
+      "company_name": "iShares Silver Trust"
+    },
+    {
+      "symbol": "NEM",
+      "manager_id": "MUHL",
+      "action": "Reduce 0.04%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 92,
+      "portfolio_percentage": 0.0,
+      "company_name": "Newmont Corp."
+    },
+    {
+      "symbol": "AEM",
+      "manager_id": "MUHL",
+      "action": "Reduce 0.05%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 67,
+      "portfolio_percentage": 0.0,
+      "company_name": "Agnico-Eagle Mines Ltd."
+    },
+    {
+      "symbol": "GLD",
+      "manager_id": "MUHL",
+      "action": "Reduce 0.07%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 15,
+      "portfolio_percentage": 0.0,
+      "company_name": "SPDR Gold Trust"
+    },
+    {
+      "symbol": "MSFT",
+      "manager_id": "MUHL",
+      "action": "Reduce 0.49%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 161,
+      "portfolio_percentage": 0.02,
+      "company_name": "Microsoft Corp."
+    },
+    {
+      "symbol": "RUSHB",
+      "manager_id": "MUHL",
+      "action": "Reduce 0.65%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 61,
+      "portfolio_percentage": 0.0,
+      "company_name": "Rush Enterprises Inc. - CL B"
+    },
+    {
+      "symbol": "AAPL",
+      "manager_id": "MUHL",
+      "action": "Reduce 0.69%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 434,
+      "portfolio_percentage": 0.04,
+      "company_name": "Apple Inc."
+    },
+    {
+      "symbol": "MTZ",
+      "manager_id": "MUHL",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 42832,
+      "portfolio_percentage": 3.63,
+      "company_name": "MasTec Inc."
+    },
+    {
+      "symbol": "FRDM",
+      "manager_id": "MUHL",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 236825,
+      "portfolio_percentage": 3.41,
+      "company_name": "Freedom 100 Emeging Mrkt ETF"
+    },
+    {
       "symbol": "LYB",
       "manager_id": "MUHL",
       "action": "Add 0.72%",
@@ -2697,6 +2972,6 @@
       "company_name": "McKesson Corp."
     }
   ],
-  "timestamp": "2026-08-01T06:56:26.033586",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.629568",
+  "scraped_date": "2026-09-01"
 }

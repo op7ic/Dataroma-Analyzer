@@ -1,249 +1,247 @@
 ticker,company_name,current_price,top_managers,managers_shown,manager_count,total_value,avg_portfolio_pct,max_portfolio_pct,conviction_score,_analysis_type,_generated,_periods,_window_quarters
-JOE,St. Joe Co.,62.24,Bruce Berkowitz,1,1,1206398000,79.67,79.67,63.94,high_conviction_stocks,2026-08-01,Q2 2026,1
-CVNA,Carvana Co.,62.36,"Clifford Sosin, Robert Vinall",2,2,1546509000,56.36,81.67,53.08,high_conviction_stocks,2026-08-01,Q2 2026,1
-IEP,Icahn Enterprises,7.79,Carl Icahn,1,1,4147974000,48.49,48.49,38.99,high_conviction_stocks,2026-08-01,Q2 2026,1
-GPI,Group 1 Automotive,286.77,Greg Alexander,1,1,249636000,47.66,47.66,38.33,high_conviction_stocks,2026-08-01,Q2 2026,1
-MOH,Molina Healthcare Inc.,195.62,Michael Burry,1,1,23920000,43.49,43.49,34.99,high_conviction_stocks,2026-08-01,Q2 2026,1
-JHG-OLD,Janus Henderson Group,51.98,Nelson Peltz,1,1,1637049000,42.41,42.41,34.13,high_conviction_stocks,2026-08-01,Q2 2026,1
-LOAR,Loar Holdings Inc,68.45,David Abrams,1,1,1836158000,39.59,39.59,31.87,high_conviction_stocks,2026-08-01,Q2 2026,1
-LULU,Lululemon Athletica Inc.,118.87,Michael Burry,1,1,17793000,32.35,32.35,26.08,high_conviction_stocks,2026-08-01,Q2 2026,1
-RIG,Transocean Ltd.,5.32,Mohnish Pabrai,1,1,135203000,31.97,31.97,25.78,high_conviction_stocks,2026-08-01,Q2 2026,1
-EQH,Equitable Holdings Inc.,47.65,Greg Alexander,1,1,155862000,29.75,29.75,24.0,high_conviction_stocks,2026-08-01,Q2 2026,1
-HCC,Warrior Met Coal Inc.,79.41,"Mohnish Pabrai, Third Avenue Management",2,2,202586000,22.7,39.89,23.71,high_conviction_stocks,2026-08-01,Q2 2026,1
-AMR,Alpha Metallurgical Resources Inc.,137.16,Mohnish Pabrai,1,1,119003000,28.14,28.14,22.71,high_conviction_stocks,2026-08-01,Q2 2026,1
-CVI,CVR Energy Inc.,35.62,Carl Icahn,1,1,2395943000,28.01,28.01,22.61,high_conviction_stocks,2026-08-01,Q2 2026,1
-BRK.A,Berkshire Hathaway CL A,766600.01,"Thomas Gayner, Guy Spier - Aquamarine Capital, Norbert Lou, Christopher Bloomstran, Francis Chou, +3 more",5,8,2303018000,16.72,38.47,21.5,high_conviction_stocks,2026-08-01,Q2 2026,1
-VFC,V.F. Corp.,14.32,Glenn Welling,1,1,79496000,26.2,26.2,21.16,high_conviction_stocks,2026-08-01,Q2 2026,1
-AMZN,Amazon.com Inc.,271.58,"John Armitage, Lee Ainslie, ValueAct Capital, Bill Ackman, Daniel Loeb, +5 more",5,18,12572994000,12.07,38.2,21.09,high_conviction_stocks,2026-08-01,Q2 2026,1
-ORLA-OLD,Orla Mining Ltd,9.45,Prem Watsa,1,1,501579000,25.82,25.82,20.86,high_conviction_stocks,2026-08-01,Q2 2026,1
-BRK.B,Berkshire Hathaway CL B,511.54,"Thomas Gayner, Guy Spier - Aquamarine Capital, Duan Yongping, Li Lu, Bill & Melinda Gates Foundation Trust, +5 more",5,10,15298363000,17.03,33.89,20.68,high_conviction_stocks,2026-08-01,Q2 2026,1
-GE,GE Aerospace,360.07,"Nelson Peltz, Chris Hohn, AKO Capital",3,3,14908720000,21.67,29.85,20.39,high_conviction_stocks,2026-08-01,Q2 2026,1
-SUNB,Sunbelt Rentals Holdings Inc,71.92,"Abrams Bison Investments, Pat Dorsey, Ruane Cunniff LP",3,3,1318355000,17.58,35.38,20.0,high_conviction_stocks,2026-08-01,Q2 2026,1
-AAPL,Apple Inc.,308.91,"Duan Yongping, Warren Buffett, David Rolfe, Francis Chou, Jensen Investment Management",5,5,65639862000,15.83,36.72,19.93,high_conviction_stocks,2026-08-01,Q2 2026,1
-IBKR,Interactive Brokers Group Inc.,87.99,"William Von Mueffling, Bryan Lawrence, Robert Vinall",3,3,165315000,16.88,30.5,18.19,high_conviction_stocks,2026-08-01,Q2 2026,1
-YETI,YETI Holdings Inc.,48.94,Glenn Welling,1,1,65280000,21.52,21.52,17.42,high_conviction_stocks,2026-08-01,Q2 2026,1
-WM,Waste Management Inc.,226.55,Bill & Melinda Gates Foundation Trust,1,1,6351934000,20.06,20.06,16.25,high_conviction_stocks,2026-08-01,Q2 2026,1
-KEX,Kirby Corp.,131.14,Alex Roepers,1,1,34150000,19.89,19.89,16.11,high_conviction_stocks,2026-08-01,Q2 2026,1
-TDG,TransDigm Group Inc.,1254.38,"AltaRock Partners, Bryan Lawrence, Triple Frond Partners, Vulcan Value Partners",4,4,1418694000,14.1,25.54,15.51,high_conviction_stocks,2026-08-01,Q2 2026,1
-GRBK,Green Brick Partners,70.73,David Einhorn,1,1,610173000,19.12,19.12,15.5,high_conviction_stocks,2026-08-01,Q2 2026,1
-SLM,SLM Corp.,26.0,"Glenn Greenberg, Michael Burry",2,2,304129000,15.68,24.16,15.49,high_conviction_stocks,2026-08-01,Q2 2026,1
-CROX,Crocs Inc.,128.01,Norbert Lou,1,1,49361000,18.24,18.24,14.79,high_conviction_stocks,2026-08-01,Q2 2026,1
-FICO,Fair Isaac Corp.,1122.97,"Lindsell Train, Valley Forge Capital Management, Chuck Akre",3,3,1479880000,13.65,24.33,14.73,high_conviction_stocks,2026-08-01,Q2 2026,1
-GOOGL,Alphabet Inc.,356.13,"William Von Mueffling, Lindsell Train, Li Lu, Warren Buffett, David Rolfe, +5 more",5,13,23033036000,10.43,22.85,14.67,high_conviction_stocks,2026-08-01,Q2 2026,1
-GOOG,Alphabet Inc. CL C,356.65,"Thomas Gayner, John Armitage, Duan Yongping, Li Lu, David Tepper, +5 more",5,18,10320445000,8.96,21.97,14.67,high_conviction_stocks,2026-08-01,Q2 2026,1
-SPGI,S&P Global Inc.,411.93,"Valley Forge Capital Management, Pat Dorsey, Chris Hohn",3,3,6812274000,14.3,22.15,14.4,high_conviction_stocks,2026-08-01,Q2 2026,1
-VRT,Vertiv Holdings Co.,241.57,Leon Cooperman,1,1,540699000,17.74,17.74,14.39,high_conviction_stocks,2026-08-01,Q2 2026,1
-AZN,AstraZeneca PLC,169.64,Sarah Ketterer,1,1,1438217000,17.71,17.71,14.37,high_conviction_stocks,2026-08-01,Q2 2026,1
-CNH,CNH Industrial NV,10.25,Tweedy Browne,1,1,221654000,17.61,17.61,14.29,high_conviction_stocks,2026-08-01,Q2 2026,1
-AXP,American Express,336.25,"Guy Spier - Aquamarine Capital, Warren Buffett",2,2,45881190000,16.34,17.43,13.8,high_conviction_stocks,2026-08-01,Q2 2026,1
-MA,Mastercard Inc.,573.1,"Guy Spier - Aquamarine Capital, Valley Forge Capital Management, AltaRock Partners, Triple Frond Partners, Chuck Akre, +4 more",5,9,4064600000,10.56,22.02,13.69,high_conviction_stocks,2026-08-01,Q2 2026,1
-CNI,Canadian Natl Railway Co.,127.21,Bill & Melinda Gates Foundation Trust,1,1,5326239000,16.82,16.82,13.66,high_conviction_stocks,2026-08-01,Q2 2026,1
-SNX,SYNNEX Corp.,255.7,"Abrams Bison Investments, Glenn Greenberg",2,2,935666000,15.48,18.2,13.6,high_conviction_stocks,2026-08-01,Q2 2026,1
-GIL,Gildan Activewear Inc.,55.38,Bryan Lawrence,1,1,37936000,16.74,16.74,13.59,high_conviction_stocks,2026-08-01,Q2 2026,1
-BL,BlackLine Inc.,31.4,Glenn Welling,1,1,50602000,16.68,16.68,13.54,high_conviction_stocks,2026-08-01,Q2 2026,1
-OKTA,Okta Inc.,141.93,Dennis Hong,1,1,44474000,16.62,16.62,13.5,high_conviction_stocks,2026-08-01,Q2 2026,1
-BN,Brookfield Corp.,42.53,"Bill Ackman, Chuck Akre, Josh Tarasoff, Steven Check",4,4,3338652000,14.05,17.62,13.11,high_conviction_stocks,2026-08-01,Q2 2026,1
-TKO,TKO Group Holdings Inc.,181.81,Lindsell Train,1,1,422522000,16.07,16.07,13.06,high_conviction_stocks,2026-08-01,Q2 2026,1
-META,Meta Platforms Inc.,556.71,"ValueAct Capital, Bill Ackman, David Rolfe, Chase Coleman, Francois Rochon, +5 more",5,10,5414607000,8.98,21.77,13.02,high_conviction_stocks,2026-08-01,Q2 2026,1
-TRMD,Torm Plc,30.31,Howard Marks,1,1,675076000,15.67,15.67,12.74,high_conviction_stocks,2026-08-01,Q2 2026,1
-V,Visa Inc.,366.13,"John Armitage, Viking Global Investors, ValueAct Capital, Valley Forge Capital Management, David Rolfe, +5 more",5,12,16295494000,8.41,20.39,12.72,high_conviction_stocks,2026-08-01,Q2 2026,1
-SGOV,Ishares 0 3 Month Treasury B,100.71,"Norbert Lou, Josh Tarasoff",2,2,84857000,14.16,17.11,12.61,high_conviction_stocks,2026-08-01,Q2 2026,1
-PDD,Pinduoduo Inc.,88.56,"Duan Yongping, Li Lu, Norbert Lou",3,3,2531131000,13.49,15.67,12.05,high_conviction_stocks,2026-08-01,Q2 2026,1
-MSFT,Microsoft Corp.,464.72,"David Katz, Bill Ackman, David Rolfe, AltaRock Partners, AKO Capital, +5 more",5,11,6665086000,9.26,16.75,11.85,high_conviction_stocks,2026-08-01,Q2 2026,1
-MCO,Moody's Corp.,478.38,"John Armitage, Guy Spier - Aquamarine Capital, Valley Forge Capital Management, AltaRock Partners, Chris Hohn, +1 more",5,6,8531630000,10.8,17.02,11.71,high_conviction_stocks,2026-08-01,Q2 2026,1
-CAT,Caterpillar Inc.,814.81,Bill & Melinda Gates Foundation Trust,1,1,4501281000,14.22,14.22,11.58,high_conviction_stocks,2026-08-01,Q2 2026,1
-GXO,Gxo Logistics Inc.,50.16,Glenn Welling,1,1,42609000,14.04,14.04,11.43,high_conviction_stocks,2026-08-01,Q2 2026,1
-SOLV,Solventum Corp,85.44,Nelson Peltz,1,1,537860000,13.93,13.93,11.34,high_conviction_stocks,2026-08-01,Q2 2026,1
-ASML,ASML Holding NV,1629.0,"Stephen Mandel, Valley Forge Capital Management, Pat Dorsey, Triple Frond Partners",4,4,1433686000,11.16,16.31,11.28,high_conviction_stocks,2026-08-01,Q2 2026,1
-CACC,Credit Acceptance Corp.,568.91,Robert Vinall,1,1,52697000,13.77,13.77,11.22,high_conviction_stocks,2026-08-01,Q2 2026,1
-EPD,Enterprise Products Partners LP,38.05,Bruce Berkowitz,1,1,206447000,13.63,13.63,11.1,high_conviction_stocks,2026-08-01,Q2 2026,1
-ALC,Alcon Inc.,68.94,AKO Capital,1,1,695604000,13.62,13.62,11.1,high_conviction_stocks,2026-08-01,Q2 2026,1
-IONS,Ionis Pharmaceuticals Inc.,51.77,Tweedy Browne,1,1,170877000,13.57,13.57,11.06,high_conviction_stocks,2026-08-01,Q2 2026,1
-EXE,Expand Energy Corp.,94.03,Howard Marks,1,1,574970000,13.35,13.35,10.88,high_conviction_stocks,2026-08-01,Q2 2026,1
-TDS,Telephone & Data Systems,33.58,Daniel Loeb,1,1,277860000,13.34,13.34,10.87,high_conviction_stocks,2026-08-01,Q2 2026,1
-DCH,Dauch Corp.,5.65,Alex Roepers,1,1,22771000,13.27,13.27,10.82,high_conviction_stocks,2026-08-01,Q2 2026,1
-BAYRY,Bayer Ag Sponsored ADR,13.97,Kahn Brothers Group,1,1,74777000,13.26,13.26,10.81,high_conviction_stocks,2026-08-01,Q2 2026,1
-APTV,Aptiv PLC,56.47,Alex Roepers,1,1,22427000,13.07,13.07,10.66,high_conviction_stocks,2026-08-01,Q2 2026,1
-UAA,Under Armour Inc.,6.65,Prem Watsa,1,1,253705000,13.06,13.06,10.65,high_conviction_stocks,2026-08-01,Q2 2026,1
-RBC,RBC Bearings Inc.,551.31,Henry Ellenbogen,1,1,1235943000,12.72,12.72,10.38,high_conviction_stocks,2026-08-01,Q2 2026,1
-C,Citigroup Inc.,132.45,"Samantha McLemore, First Pacific Advisors, Kahn Brothers Group",3,3,615814000,9.35,16.91,10.35,high_conviction_stocks,2026-08-01,Q2 2026,1
-LAD,Lithia Motors Inc.,385.42,"Greg Alexander, David Abrams",2,2,674877000,11.76,13.41,10.3,high_conviction_stocks,2026-08-01,Q2 2026,1
-UBER,Uber Technologies Inc.,70.36,"Bill Ackman, David Tepper, Pat Dorsey",3,3,2688871000,9.88,15.71,10.25,high_conviction_stocks,2026-08-01,Q2 2026,1
-TDW,Tidewater Inc.,75.06,Third Avenue Management,1,1,76965000,12.49,12.49,10.19,high_conviction_stocks,2026-08-01,Q2 2026,1
-QSR,Restaurant Brands International,74.02,"Bill Ackman, Seth Klarman",2,2,2270709000,11.93,12.2,10.03,high_conviction_stocks,2026-08-01,Q2 2026,1
-BABA,Alibaba Group Holdings,122.25,"David Tepper, Dennis Hong",2,2,471135000,10.47,13.61,9.72,high_conviction_stocks,2026-08-01,Q2 2026,1
-CCL,Carnival Corp.,27.81,Sarah Ketterer,1,1,960060000,11.82,11.82,9.66,high_conviction_stocks,2026-08-01,Q2 2026,1
-EG,Everest Group Ltd,374.15,Vulcan Value Partners,1,1,445126000,11.8,11.8,9.64,high_conviction_stocks,2026-08-01,Q2 2026,1
-HGV,Hilton Grand Vacations Inc.,46.14,Clifford Sosin,1,1,204985000,11.73,11.73,9.58,high_conviction_stocks,2026-08-01,Q2 2026,1
-MKL,Markel Group Inc.,1882.34,"Josh Tarasoff, Steven Check",2,2,190338000,10.8,12.54,9.56,high_conviction_stocks,2026-08-01,Q2 2026,1
-WFRD,Weatherford International plc,87.79,Alex Roepers,1,1,20072000,11.69,11.69,9.55,high_conviction_stocks,2026-08-01,Q2 2026,1
-OSK,Oshkosh Corp.,142.41,Alex Roepers,1,1,20065000,11.69,11.69,9.55,high_conviction_stocks,2026-08-01,Q2 2026,1
-KO,Coca Cola Co.,87.59,Warren Buffett,1,1,30420000000,11.56,11.56,9.45,high_conviction_stocks,2026-08-01,Q2 2026,1
-GM,General Motors,88.86,Greenhaven Associates,1,1,992290000,11.46,11.46,9.37,high_conviction_stocks,2026-08-01,Q2 2026,1
-RYN,Rayonier Inc.,21.78,Mason Hawkins,1,1,221926000,10.92,10.92,8.94,high_conviction_stocks,2026-08-01,Q2 2026,1
-AER,AerCap Holdings N.V.,150.9,"Pat Dorsey, Steven Check",2,2,266286000,9.59,12.27,8.88,high_conviction_stocks,2026-08-01,Q2 2026,1
-NVDA,NVIDIA Corp.,200.75,"John Armitage, Duan Yongping, Lee Ainslie, Chase Coleman, Mairs & Power Funds, +1 more",5,6,6861811000,8.06,12.07,8.85,high_conviction_stocks,2026-08-01,Q2 2026,1
-CNQ,Canadian Natural Resources,47.68,Yacktman Asset Management,1,1,806072000,10.75,10.75,8.8,high_conviction_stocks,2026-08-01,Q2 2026,1
-TOL,Toll Brothers,145.89,Greenhaven Associates,1,1,927560000,10.71,10.71,8.77,high_conviction_stocks,2026-08-01,Q2 2026,1
-ZS,Zscaler Inc.,151.2,Dennis Hong,1,1,28116000,10.51,10.51,8.61,high_conviction_stocks,2026-08-01,Q2 2026,1
-OMF,OneMain Holdings,62.58,Glenn Greenberg,1,1,412050000,10.2,10.2,8.36,high_conviction_stocks,2026-08-01,Q2 2026,1
-APP,Applovin Corp.,395.9,Pat Dorsey,1,1,126147000,10.04,10.04,8.23,high_conviction_stocks,2026-08-01,Q2 2026,1
-CVS,CVS Health Corp.,104.43,Prem Watsa,1,1,194776000,10.03,10.03,8.22,high_conviction_stocks,2026-08-01,Q2 2026,1
-LEN,Lennar Corp.,82.35,"Greenhaven Associates, Glenn Greenberg",2,2,1233299000,8.5,11.82,8.2,high_conviction_stocks,2026-08-01,Q2 2026,1
-NBR,Nabors Industries Ltd.,85.67,Bill Miller,1,1,38248000,9.98,9.98,8.18,high_conviction_stocks,2026-08-01,Q2 2026,1
-BDX,Becton Dickinson,165.62,Greenhaven Associates,1,1,859813000,9.93,9.93,8.14,high_conviction_stocks,2026-08-01,Q2 2026,1
-TMO,Thermo Fisher Scientific,574.3,Lindsell Train,1,1,257956000,9.81,9.81,8.05,high_conviction_stocks,2026-08-01,Q2 2026,1
-BRZE,Braze Inc A,24.92,Dennis Hong,1,1,26257000,9.81,9.81,8.05,high_conviction_stocks,2026-08-01,Q2 2026,1
-CRM,Salesforce.com,184.02,ValueAct Capital,1,1,558985000,9.79,9.79,8.03,high_conviction_stocks,2026-08-01,Q2 2026,1
-CRH,CRH plc,95.01,Daniel Loeb,1,1,199728000,9.59,9.59,7.87,high_conviction_stocks,2026-08-01,Q2 2026,1
-FLG,Flagstar Financial Inc.,14.22,Kahn Brothers Group,1,1,53781000,9.53,9.53,7.82,high_conviction_stocks,2026-08-01,Q2 2026,1
-BAC,Bank of America Corp.,61.95,Warren Buffett,1,1,25039178000,9.52,9.52,7.82,high_conviction_stocks,2026-08-01,Q2 2026,1
-GWRE,Guidewire Software Inc.,151.94,Bryan Lawrence,1,1,21564000,9.51,9.51,7.81,high_conviction_stocks,2026-08-01,Q2 2026,1
-MU,Micron Technology Inc.,823.03,David Tepper,1,1,562504000,9.48,9.48,7.78,high_conviction_stocks,2026-08-01,Q2 2026,1
-TSM,Taiwan Semiconductor S.A.,404.25,"William Von Mueffling, David Rolfe, David Tepper, Chase Coleman, Ruane Cunniff LP",5,5,2836281000,7.97,9.03,7.69,high_conviction_stocks,2026-08-01,Q2 2026,1
-EWBC,East West Bancorp,131.0,Li Lu,1,1,296403000,9.26,9.26,7.61,high_conviction_stocks,2026-08-01,Q2 2026,1
-RKT,Rocket Companies Inc.,12.9,"ValueAct Capital, Leon Cooperman",2,2,701547000,8.44,9.83,7.57,high_conviction_stocks,2026-08-01,Q2 2026,1
-BLK,BlackRock Inc.,1090.39,ValueAct Capital,1,1,525190000,9.19,9.19,7.55,high_conviction_stocks,2026-08-01,Q2 2026,1
-DG,Dollar General,127.05,Christopher Bloomstran,1,1,76964000,9.19,9.19,7.55,high_conviction_stocks,2026-08-01,Q2 2026,1
-MAT,Mattel Inc.,15.09,Mason Hawkins,1,1,186161000,9.16,9.16,7.53,high_conviction_stocks,2026-08-01,Q2 2026,1
-SGI,Somnigroup International Inc.,65.33,"Daniel Loeb, David Abrams",2,2,596501000,8.65,9.24,7.5,high_conviction_stocks,2026-08-01,Q2 2026,1
-AMAT,Applied Materials,507.67,"William Von Mueffling, Abrams Bison Investments",2,2,276897000,7.93,10.41,7.49,high_conviction_stocks,2026-08-01,Q2 2026,1
-PYPL,PayPal Holdings Inc.,57.21,"Lindsell Train, Norbert Lou",2,2,165009000,7.85,10.51,7.48,high_conviction_stocks,2026-08-01,Q2 2026,1
-ABG,Asbury Automotive Group Inc.,231.7,David Abrams,1,1,421205000,9.08,9.08,7.46,high_conviction_stocks,2026-08-01,Q2 2026,1
-AVGO,Broadcom Inc.,389.28,"Torray Funds, William Von Mueffling, Polen Capital Management",3,3,943803000,7.36,10.61,7.46,high_conviction_stocks,2026-08-01,Q2 2026,1
-KOF,Coca-Cola FEMSA S A CV,108.27,Tweedy Browne,1,1,114136000,9.07,9.07,7.46,high_conviction_stocks,2026-08-01,Q2 2026,1
-OXY,Occidental Petroleum,57.07,"Warren Buffett, Francis Chou",2,2,17241538000,8.17,9.79,7.42,high_conviction_stocks,2026-08-01,Q2 2026,1
-DB,Deutsche Bank AG,36.7,Sarah Ketterer,1,1,723329000,8.91,8.91,7.33,high_conviction_stocks,2026-08-01,Q2 2026,1
-KKR,KKR & Co. L.P.,101.43,"ValueAct Capital, Chuck Akre",2,2,924794000,7.74,10.16,7.32,high_conviction_stocks,2026-08-01,Q2 2026,1
-DIS,Walt Disney Co.,96.19,"Lindsell Train, Kahn Brothers Group",2,2,287524000,8.01,9.55,7.27,high_conviction_stocks,2026-08-01,Q2 2026,1
-HHH,Howard Hughes Holdings Inc.,63.92,Bill Ackman,1,1,1192582000,8.7,8.7,7.16,high_conviction_stocks,2026-08-01,Q2 2026,1
-PHM,PulteGroup Inc.,126.47,Greenhaven Associates,1,1,748611000,8.64,8.64,7.11,high_conviction_stocks,2026-08-01,Q2 2026,1
-CP,Canadian Pacific Kansas City,88.89,"Chris Hohn, Sarah Ketterer",2,2,4349498000,8.3,8.49,7.09,high_conviction_stocks,2026-08-01,Q2 2026,1
-MAR,Marriott Int'l.,372.83,Terry Smith,1,1,1102511000,8.59,8.59,7.07,high_conviction_stocks,2026-08-01,Q2 2026,1
-PM,Philip Morris Intl.,190.82,"Terry Smith, Thomas Russo",2,2,1606812000,7.78,8.96,6.98,high_conviction_stocks,2026-08-01,Q2 2026,1
-ET,Energy Transfer LP,20.36,Leon Cooperman,1,1,257078000,8.43,8.43,6.94,high_conviction_stocks,2026-08-01,Q2 2026,1
-APH,Amphenol Corp.,160.7,John Armitage,1,1,858094000,8.29,8.29,6.83,high_conviction_stocks,2026-08-01,Q2 2026,1
-DHR,Danaher Corp.,194.98,"Pat Dorsey, Wallace Weitz",2,2,200595000,7.54,8.76,6.8,high_conviction_stocks,2026-08-01,Q2 2026,1
-ELV,Elevance Health Inc.,375.84,"Glenn Greenberg, Ruane Cunniff LP, Seth Klarman",3,3,1108185000,7.39,8.13,6.73,high_conviction_stocks,2026-08-01,Q2 2026,1
-VAL,Valaris plc,79.19,Third Avenue Management,1,1,49823000,8.09,8.09,6.67,high_conviction_stocks,2026-08-01,Q2 2026,1
-RPRX,Royalty Pharma plc,58.43,"Torray Funds, Pat Dorsey, Samantha McLemore",3,3,317752000,6.74,8.7,6.58,high_conviction_stocks,2026-08-01,Q2 2026,1
-PPLI,People Inc.,41.57,Mason Hawkins,1,1,161030000,7.92,7.92,6.54,high_conviction_stocks,2026-08-01,Q2 2026,1
-DECK,Deckers Outdoor,96.88,Christopher Bloomstran,1,1,66162000,7.9,7.9,6.52,high_conviction_stocks,2026-08-01,Q2 2026,1
-SYK,Stryker Corp.,325.7,Terry Smith,1,1,1005951000,7.84,7.84,6.47,high_conviction_stocks,2026-08-01,Q2 2026,1
-ICLR,ICON plc,163.57,"Greenhaven Associates, Glenn Greenberg",2,2,870235000,7.22,8.21,6.47,high_conviction_stocks,2026-08-01,Q2 2026,1
-CGNX,Cognex Corp.,65.24,Glenn Welling,1,1,23711000,7.81,7.81,6.45,high_conviction_stocks,2026-08-01,Q2 2026,1
-WCC,WESCO International Inc.,343.49,Seth Klarman,1,1,393159000,7.69,7.69,6.35,high_conviction_stocks,2026-08-01,Q2 2026,1
-SW,Smurfit Westrock Plc,45.97,Sarah Ketterer,1,1,620306000,7.64,7.64,6.31,high_conviction_stocks,2026-08-01,Q2 2026,1
-CNX,CNX Resources Corp.,35.8,Mason Hawkins,1,1,154744000,7.61,7.61,6.29,high_conviction_stocks,2026-08-01,Q2 2026,1
-NFLX,Netflix Inc.,71.71,"Thomas Russo, Josh Tarasoff",2,2,566338000,7.07,7.8,6.28,high_conviction_stocks,2026-08-01,Q2 2026,1
-HKHHF,Heineken Holding NV,84.0,Thomas Russo,1,1,643364000,7.57,7.57,6.26,high_conviction_stocks,2026-08-01,Q2 2026,1
-ADI,Analog Devices,367.41,"William Von Mueffling, AKO Capital, First Pacific Advisors",3,3,910687000,6.5,7.83,6.2,high_conviction_stocks,2026-08-01,Q2 2026,1
-AN,AutoNation Inc.,212.4,Glenn Greenberg,1,1,302209000,7.48,7.48,6.18,high_conviction_stocks,2026-08-01,Q2 2026,1
-FWONK,Liberty Media Corp Formula One Series C,98.13,"Ruane Cunniff LP, Dennis Hong",2,2,472719000,7.0,7.56,6.17,high_conviction_stocks,2026-08-01,Q2 2026,1
-NOMD,Nomad Foods Ltd,11.9,Alex Roepers,1,1,12808000,7.46,7.46,6.17,high_conviction_stocks,2026-08-01,Q2 2026,1
-WAT,Waters Corp.,377.31,Terry Smith,1,1,956556000,7.46,7.46,6.17,high_conviction_stocks,2026-08-01,Q2 2026,1
-RACE,Ferrari NV,393.87,"Guy Spier - Aquamarine Capital, AKO Capital",2,2,321915000,6.9,7.71,6.16,high_conviction_stocks,2026-08-01,Q2 2026,1
-ALK,Alaska Air Group,47.45,Christopher Bloomstran,1,1,62344000,7.45,7.45,6.16,high_conviction_stocks,2026-08-01,Q2 2026,1
-KW-OLD,Kennedy-Wilson Holdings Inc.,10.93,Prem Watsa,1,1,144277000,7.43,7.43,6.14,high_conviction_stocks,2026-08-01,Q2 2026,1
-AEM,Agnico-Eagle Mines Ltd.,145.27,Muhlenkamp,1,1,28131000,7.41,7.41,6.13,high_conviction_stocks,2026-08-01,Q2 2026,1
-LYV,Live Nation Inc.,174.13,Pat Dorsey,1,1,92666000,7.38,7.38,6.1,high_conviction_stocks,2026-08-01,Q2 2026,1
-HTHT,H World Group Ltd ADR,42.69,Robert Vinall,1,1,28081000,7.34,7.34,6.07,high_conviction_stocks,2026-08-01,Q2 2026,1
-UNP,Union Pacific,292.13,Seth Klarman,1,1,373876000,7.31,7.31,6.05,high_conviction_stocks,2026-08-01,Q2 2026,1
-SYF,Synchrony Financial,75.79,Francis Chou,1,1,15182000,7.31,7.31,6.05,high_conviction_stocks,2026-08-01,Q2 2026,1
-AU,AngloGold Ashanti Ltd.,79.32,Howard Marks,1,1,313800000,7.29,7.29,6.03,high_conviction_stocks,2026-08-01,Q2 2026,1
-ROP,Roper Technologies Inc.,391.97,Chuck Akre,1,1,444884000,7.27,7.27,6.02,high_conviction_stocks,2026-08-01,Q2 2026,1
-OLN,Olin Corp.,18.51,Christopher Bloomstran,1,1,60332000,7.21,7.21,5.97,high_conviction_stocks,2026-08-01,Q2 2026,1
-COF,Capital One Financial,209.01,"Clifford Sosin, Ruane Cunniff LP, Christopher Davis",3,3,2031012000,6.42,7.15,5.96,high_conviction_stocks,2026-08-01,Q2 2026,1
-CRGY,Crescent Energy Inc A,11.47,Bill Miller,1,1,27042000,7.06,7.06,5.85,high_conviction_stocks,2026-08-01,Q2 2026,1
-CFRHF,Compagnie Financiere Richemont SA,236.09,Thomas Russo,1,1,594389000,7.0,7.0,5.8,high_conviction_stocks,2026-08-01,Q2 2026,1
-SCHW,Charles Schwab Corp.,105.24,"Francois Rochon, Ruane Cunniff LP",2,2,587468000,6.32,7.35,5.76,high_conviction_stocks,2026-08-01,Q2 2026,1
-VST,Vistra Corp.,148.19,"Stephen Mandel, David Tepper",2,2,1234197000,6.27,7.42,5.76,high_conviction_stocks,2026-08-01,Q2 2026,1
-FLR,Fluor Corp.,50.17,David Einhorn,1,1,221464000,6.94,6.94,5.75,high_conviction_stocks,2026-08-01,Q2 2026,1
-BCC,Boise Cascade Company,76.38,Third Avenue Management,1,1,42629000,6.92,6.92,5.74,high_conviction_stocks,2026-08-01,Q2 2026,1
-INTU,Intuit Inc.,316.07,"Lindsell Train, Dennis Hong",2,2,191757000,6.62,6.62,5.69,high_conviction_stocks,2026-08-01,Q2 2026,1
-FERG,Ferguson Enterprises Inc.,234.33,"Nelson Peltz, Henry Ellenbogen, Seth Klarman",3,3,1101161000,6.14,6.58,5.64,high_conviction_stocks,2026-08-01,Q2 2026,1
-ICE,Intercontinental Exchange Inc.,152.48,"AKO Capital, Ruane Cunniff LP",2,2,708848000,6.32,6.89,5.63,high_conviction_stocks,2026-08-01,Q2 2026,1
-PHYS,Sprott Physical Gold Trust,30.59,Arnold Van Den Berg,1,1,29591000,6.78,6.78,5.62,high_conviction_stocks,2026-08-01,Q2 2026,1
-DLTR,Dollar Tree Inc.,127.21,Christopher Bloomstran,1,1,56232000,6.72,6.72,5.58,high_conviction_stocks,2026-08-01,Q2 2026,1
-EQT,EQT Corp.,53.29,Muhlenkamp,1,1,25535000,6.72,6.72,5.58,high_conviction_stocks,2026-08-01,Q2 2026,1
-NEM,Newmont Corp.,93.71,"Christopher Bloomstran, Muhlenkamp",2,2,76892000,6.39,6.59,5.57,high_conviction_stocks,2026-08-01,Q2 2026,1
-CVX,Chevron Corp.,196.83,Warren Buffett,1,1,17457365000,6.64,6.64,5.51,high_conviction_stocks,2026-08-01,Q2 2026,1
-DASH,DoorDash Inc.,196.16,Henry Ellenbogen,1,1,642042000,6.61,6.61,5.49,high_conviction_stocks,2026-08-01,Q2 2026,1
-DHI,D.R. Horton,143.06,Greenhaven Associates,1,1,571025000,6.59,6.59,5.47,high_conviction_stocks,2026-08-01,Q2 2026,1
-SN,Sharkninja Inc,161.77,Abrams Bison Investments,1,1,152072000,6.58,6.58,5.46,high_conviction_stocks,2026-08-01,Q2 2026,1
-UNH,United Health Group Inc.,414.4,Vulcan Value Partners,1,1,246960000,6.55,6.55,5.44,high_conviction_stocks,2026-08-01,Q2 2026,1
-CSGP,CoStar Group Inc.,28.76,"Chuck Akre, Dennis Hong",2,2,431128000,5.97,6.83,5.43,high_conviction_stocks,2026-08-01,Q2 2026,1
-UA,Under Armour CL C,6.49,Prem Watsa,1,1,126935000,6.53,6.53,5.42,high_conviction_stocks,2026-08-01,Q2 2026,1
-CLF,Cleveland-Cliffs Inc.,11.52,Prem Watsa,1,1,125750000,6.47,6.47,5.38,high_conviction_stocks,2026-08-01,Q2 2026,1
-TSLA,Tesla Inc.,311.21,"Duan Yongping, Josh Tarasoff",2,2,1287607000,6.12,6.34,5.36,high_conviction_stocks,2026-08-01,Q2 2026,1
-IDXX,IDEXX Laboratories,559.07,Terry Smith,1,1,823610000,6.42,6.42,5.34,high_conviction_stocks,2026-08-01,Q2 2026,1
-NSRGY,Nestle,102.43,Thomas Russo,1,1,543238000,6.39,6.39,5.31,high_conviction_stocks,2026-08-01,Q2 2026,1
-MGA,Magna International Inc.,68.6,Richard Pzena,1,1,1967838000,6.39,6.39,5.31,high_conviction_stocks,2026-08-01,Q2 2026,1
-DE,Deere & Co.,592.67,Bill & Melinda Gates Foundation Trust,1,1,2003871000,6.33,6.33,5.26,high_conviction_stocks,2026-08-01,Q2 2026,1
-CPNG,Coupang Inc.,16.35,"David Abrams, Dennis Hong",2,2,262890000,5.84,6.39,5.24,high_conviction_stocks,2026-08-01,Q2 2026,1
-MDLN,Medline Inc Cl A,39.28,John Armitage,1,1,649612000,6.28,6.28,5.22,high_conviction_stocks,2026-08-01,Q2 2026,1
-MELI,Mercadolibre Inc.,1877.95,Henry Ellenbogen,1,1,606618000,6.24,6.24,5.19,high_conviction_stocks,2026-08-01,Q2 2026,1
-ACI,Albertsons Co Inc.,11.58,Mason Hawkins,1,1,126433000,6.22,6.22,5.18,high_conviction_stocks,2026-08-01,Q2 2026,1
-MCK,McKesson Corp.,856.19,Muhlenkamp,1,1,23511000,6.19,6.19,5.15,high_conviction_stocks,2026-08-01,Q2 2026,1
-UAN,CVR Partners LP,128.99,Carl Icahn,1,1,527489000,6.17,6.17,5.14,high_conviction_stocks,2026-08-01,Q2 2026,1
-GTX,Garrett Motion Inc.,31.15,Howard Marks,1,1,265188000,6.16,6.16,5.13,high_conviction_stocks,2026-08-01,Q2 2026,1
-APG,APi Group Corp.,39.68,Henry Ellenbogen,1,1,598693000,6.16,6.16,5.13,high_conviction_stocks,2026-08-01,Q2 2026,1
-TRU,TransUnion,78.62,"Triple Frond Partners, Vulcan Value Partners",2,2,278506000,5.88,5.88,5.1,high_conviction_stocks,2026-08-01,Q2 2026,1
-ADP,Automatic Data Processing Inc.,266.46,Terry Smith,1,1,783280000,6.11,6.11,5.09,high_conviction_stocks,2026-08-01,Q2 2026,1
-URBN,Urban Outfitters Inc.,74.18,Abrams Bison Investments,1,1,141017000,6.1,6.1,5.08,high_conviction_stocks,2026-08-01,Q2 2026,1
-CNR,Core Natural Resources Inc.,79.84,David Einhorn,1,1,194603000,6.1,6.1,5.08,high_conviction_stocks,2026-08-01,Q2 2026,1
-KHC,Kraft Heinz Co.,25.85,Prem Watsa,1,1,118429000,6.1,6.1,5.08,high_conviction_stocks,2026-08-01,Q2 2026,1
-MSI,Motorola Solutions Inc.,435.75,David Rolfe,1,1,29484000,6.09,6.09,5.07,high_conviction_stocks,2026-08-01,Q2 2026,1
-GTN,Gray Television Inc.,4.04,Bill Miller,1,1,23306000,6.08,6.08,5.06,high_conviction_stocks,2026-08-01,Q2 2026,1
-CRS,Carpenter Technology,519.66,"Daniel Loeb, Stephen Mandel",2,2,838728000,5.79,5.87,5.06,high_conviction_stocks,2026-08-01,Q2 2026,1
-Q,Qnity Electronics Inc.,131.18,Henry Ellenbogen,1,1,587066000,6.04,6.04,5.03,high_conviction_stocks,2026-08-01,Q2 2026,1
-PTLO,Portillo's Inc Cl A,4.57,Glenn Welling,1,1,18213000,6.0,6.0,5.0,high_conviction_stocks,2026-08-01,Q2 2026,1
-CTRA-OLD,Coterra Energy Inc.,32.47,Christopher Davis,1,1,1304376000,5.99,5.99,4.99,high_conviction_stocks,2026-08-01,Q2 2026,1
-TOST,Toast Inc.,32.27,ValueAct Capital,1,1,341858000,5.98,5.98,4.98,high_conviction_stocks,2026-08-01,Q2 2026,1
-SGU,Star Gas Partners LP,12.54,Bryan Lawrence,1,1,13499000,5.96,5.96,4.97,high_conviction_stocks,2026-08-01,Q2 2026,1
-RYAN,Ryan Specialty Holdings Inc,44.16,Vulcan Value Partners,1,1,222527000,5.9,5.9,4.92,high_conviction_stocks,2026-08-01,Q2 2026,1
-MRP,Millrose Properties,27.98,Glenn Greenberg,1,1,238445000,5.9,5.9,4.92,high_conviction_stocks,2026-08-01,Q2 2026,1
-RGLD,Royal Gold Inc.,198.35,Muhlenkamp,1,1,22368000,5.89,5.89,4.91,high_conviction_stocks,2026-08-01,Q2 2026,1
-OGN,Organon & Co.,13.55,Kahn Brothers Group,1,1,33167000,5.88,5.88,4.9,high_conviction_stocks,2026-08-01,Q2 2026,1
-SEB,Seaboard Corp.,4413.26,Kahn Brothers Group,1,1,33195000,5.88,5.88,4.9,high_conviction_stocks,2026-08-01,Q2 2026,1
-XPO,XPO Logistics,200.97,Henry Ellenbogen,1,1,571186000,5.88,5.88,4.9,high_conviction_stocks,2026-08-01,Q2 2026,1
-ORLY,O'Reilly Automotive,89.35,Chuck Akre,1,1,358699000,5.87,5.87,4.9,high_conviction_stocks,2026-08-01,Q2 2026,1
-LLYVK,Liberty Media Corp. Series C Live,98.6,ValueAct Capital,1,1,335145000,5.87,5.87,4.9,high_conviction_stocks,2026-08-01,Q2 2026,1
-BB,BlackBerry Ltd.,8.5,Prem Watsa,1,1,113336000,5.83,5.83,4.86,high_conviction_stocks,2026-08-01,Q2 2026,1
-LLY,Eli Lilly & Co.,1148.84,Polen Capital Management,1,1,841182000,5.82,5.82,4.86,high_conviction_stocks,2026-08-01,Q2 2026,1
-RBLX,Roblox Corp.,35.6,ValueAct Capital,1,1,330798000,5.79,5.79,4.83,high_conviction_stocks,2026-08-01,Q2 2026,1
-RUSHA,Rush Enterprises Inc.,79.79,Muhlenkamp,1,1,21942000,5.78,5.78,4.82,high_conviction_stocks,2026-08-01,Q2 2026,1
-TRUP,Trupanion Inc.,24.49,Josh Tarasoff,1,1,19886000,5.78,5.78,4.82,high_conviction_stocks,2026-08-01,Q2 2026,1
-HEI.A,HEICO Corp. CL A,257.28,Francois Rochon,1,1,155886000,5.71,5.71,4.77,high_conviction_stocks,2026-08-01,Q2 2026,1
-MDLZ,Mondelez International,62.31,Lindsell Train,1,1,148386000,5.64,5.64,4.71,high_conviction_stocks,2026-08-01,Q2 2026,1
-DOLE,Dole Food Company,14.14,Alex Roepers,1,1,9659000,5.63,5.63,4.7,high_conviction_stocks,2026-08-01,Q2 2026,1
-VMC,Vulcan Materials,268.57,John Armitage,1,1,581669000,5.62,5.62,4.7,high_conviction_stocks,2026-08-01,Q2 2026,1
-IFF,International Flavors & Fragrances Inc.,79.22,First Pacific Advisors,1,1,392490000,5.61,5.61,4.69,high_conviction_stocks,2026-08-01,Q2 2026,1
-SE,Sea Ltd,106.74,Chase Coleman,1,1,1276585000,5.59,5.59,4.67,high_conviction_stocks,2026-08-01,Q2 2026,1
-MTD,Mettler-Toledo International Inc.,1416.3,Terry Smith,1,1,717012000,5.59,5.59,4.67,high_conviction_stocks,2026-08-01,Q2 2026,1
-BKNG,Booking Holdings Inc.,192.9,Pat Dorsey,1,1,69235000,5.51,5.51,4.61,high_conviction_stocks,2026-08-01,Q2 2026,1
-KGC,Kinross Gold Corp.,23.1,Christopher Bloomstran,1,1,46053000,5.5,5.5,4.6,high_conviction_stocks,2026-08-01,Q2 2026,1
-WEN,Wendy's Co.,7.36,Nelson Peltz,1,1,211600000,5.48,5.48,4.58,high_conviction_stocks,2026-08-01,Q2 2026,1
-FIVE,Five Below Inc.,217.13,"Christopher Bloomstran, Francois Rochon",2,2,185036000,5.21,5.26,4.58,high_conviction_stocks,2026-08-01,Q2 2026,1
-PRI,Primerica Inc.,319.96,Glenn Greenberg,1,1,220253000,5.45,5.45,4.56,high_conviction_stocks,2026-08-01,Q2 2026,1
-NRP,Natural Resource Partners,98.06,Bryan Lawrence,1,1,12349000,5.45,5.45,4.56,high_conviction_stocks,2026-08-01,Q2 2026,1
-YUMC,Yum China Holdings Inc.,48.18,Robert Vinall,1,1,20563000,5.37,5.37,4.5,high_conviction_stocks,2026-08-01,Q2 2026,1
-BHF,Brighthouse Financial Inc.,61.91,David Einhorn,1,1,170185000,5.33,5.33,4.46,high_conviction_stocks,2026-08-01,Q2 2026,1
-USB,U.S. Bancorp,63.01,Christopher Davis,1,1,1156597000,5.31,5.31,4.45,high_conviction_stocks,2026-08-01,Q2 2026,1
-LNC,Lincoln National,45.61,Bill Miller,1,1,20259000,5.29,5.29,4.43,high_conviction_stocks,2026-08-01,Q2 2026,1
-MNDY,monday.com Ltd.,87.15,Greg Alexander,1,1,27644000,5.28,5.28,4.42,high_conviction_stocks,2026-08-01,Q2 2026,1
-PEP,PepsiCo Inc.,139.56,Lindsell Train,1,1,138610000,5.27,5.27,4.42,high_conviction_stocks,2026-08-01,Q2 2026,1
-NOW,ServiceNow Inc.,111.23,Polen Capital Management,1,1,760021000,5.26,5.26,4.41,high_conviction_stocks,2026-08-01,Q2 2026,1
-XOM,ExxonMobil Holdings Corp.,155.44,Arnold Van Den Berg,1,1,22890000,5.25,5.25,4.4,high_conviction_stocks,2026-08-01,Q2 2026,1
-PVH,PVH Corp.,86.66,Alex Roepers,1,1,8929000,5.2,5.2,4.36,high_conviction_stocks,2026-08-01,Q2 2026,1
-TFX,Teleflex,136.71,Abrams Bison Investments,1,1,119610000,5.18,5.18,4.34,high_conviction_stocks,2026-08-01,Q2 2026,1
-BP,BP plc,45.22,Kahn Brothers Group,1,1,29246000,5.18,5.18,4.34,high_conviction_stocks,2026-08-01,Q2 2026,1
-SHOP,Shopify Inc.,117.15,Polen Capital Management,1,1,748105000,5.17,5.17,4.34,high_conviction_stocks,2026-08-01,Q2 2026,1
-NYT,New York Times CL A,74.89,Abrams Bison Investments,1,1,118569000,5.13,5.13,4.3,high_conviction_stocks,2026-08-01,Q2 2026,1
-FCNCA,First Citizens Bancshares,2186.65,Steven Check,1,1,83054000,5.12,5.12,4.3,high_conviction_stocks,2026-08-01,Q2 2026,1
-ORCL,Oracle Corp.,129.87,Polen Capital Management,1,1,739118000,5.11,5.11,4.29,high_conviction_stocks,2026-08-01,Q2 2026,1
-MIR,Mirion Technologies Inc,14.98,Leon Cooperman,1,1,155848000,5.11,5.11,4.29,high_conviction_stocks,2026-08-01,Q2 2026,1
-SPY,SPDR S&P 500 ETF Trust,747.03,Bill Miller,1,1,19539000,5.1,5.1,4.28,high_conviction_stocks,2026-08-01,Q2 2026,1
-WTW,Willis Towers Watson plc,335.92,Seth Klarman,1,1,259632000,5.08,5.08,4.26,high_conviction_stocks,2026-08-01,Q2 2026,1
-BFAM,Bright Horizons Family Solutions Inc.,74.54,Abrams Bison Investments,1,1,116050000,5.02,5.02,4.22,high_conviction_stocks,2026-08-01,Q2 2026,1
-PLGO,Pelagos Insurance Capital,25.29,Leon Cooperman,1,1,152581000,5.01,5.01,4.21,high_conviction_stocks,2026-08-01,Q2 2026,1
+JOE,St. Joe Co.,66.1,Bruce Berkowitz,1,1,1138762000,76.43,76.43,61.34,high_conviction_stocks,2026-09-01,Q2 2026,1
+CVNA,Carvana Co.,73.46,"Clifford Sosin, Robert Vinall",2,2,1600931000,54.58,78.85,51.34,high_conviction_stocks,2026-09-01,Q2 2026,1
+IEP,Icahn Enterprises,6.8,Carl Icahn,1,1,4458616000,53.95,53.95,43.36,high_conviction_stocks,2026-09-01,Q2 2026,1
+LOAR,Loar Holdings Inc,70.19,David Abrams,1,1,2583570000,47.15,47.15,37.92,high_conviction_stocks,2026-09-01,Q2 2026,1
+GPI,Group 1 Automotive,269.54,Greg Alexander,1,1,281561000,46.41,46.41,37.33,high_conviction_stocks,2026-09-01,Q2 2026,1
+MOH,Molina Healthcare Inc.,198.77,Michael Burry,1,1,23920000,43.49,43.49,34.99,high_conviction_stocks,2026-09-01,Q2 2026,1
+HCC,Warrior Met Coal Inc.,108.24,Mohnish Pabrai,1,1,141547000,43.32,43.32,34.86,high_conviction_stocks,2026-09-01,Q2 2026,1
+LULU,Lululemon Athletica Inc.,120.26,Michael Burry,1,1,17793000,32.35,32.35,26.08,high_conviction_stocks,2026-09-01,Q2 2026,1
+JHG-OLD,Janus Henderson Group,51.98,Nelson Peltz,1,1,1334028000,31.53,31.53,25.42,high_conviction_stocks,2026-09-01,Q2 2026,1
+RIG,Transocean Ltd.,5.81,Mohnish Pabrai,1,1,99749000,30.53,30.53,24.62,high_conviction_stocks,2026-09-01,Q2 2026,1
+EQH,Equitable Holdings Inc.,50.13,Greg Alexander,1,1,184296000,30.38,30.38,24.5,high_conviction_stocks,2026-09-01,Q2 2026,1
+GE,GE Aerospace,335.71,"Chris Hohn, Nelson Peltz, AKO Capital",3,3,19520074000,25.31,35.61,23.94,high_conviction_stocks,2026-09-01,Q2 2026,1
+BRK.A,Berkshire Hathaway CL A,756650.01,"Christopher Bloomstran, Norbert Lou, Josh Tarasoff, Thomas Russo, Francis Chou, +3 more",5,8,2346896000,17.17,42.42,22.91,high_conviction_stocks,2026-09-01,Q2 2026,1
+CROX,Crocs Inc.,120.38,Norbert Lou,1,1,69630000,27.2,27.2,21.96,high_conviction_stocks,2026-09-01,Q2 2026,1
+AMR,Alpha Metallurgical Resources Inc.,235.7,Mohnish Pabrai,1,1,85306000,26.11,26.11,21.09,high_conviction_stocks,2026-09-01,Q2 2026,1
+AAPL,Apple Inc.,316.85,"Muhlenkamp, David Rolfe, Duan Yongping, Warren Buffett, Francis Chou, +1 more",5,6,74108072000,14.58,41.05,20.81,high_conviction_stocks,2026-09-01,Q2 2026,1
+BRK.B,Berkshire Hathaway CL B,504.03,"Muhlenkamp, Duan Yongping, Christopher Bloomstran, Bill & Melinda Gates Foundation Trust, Li Lu, +5 more",5,11,15312254000,16.02,33.89,20.38,high_conviction_stocks,2026-09-01,Q2 2026,1
+IBKR,Interactive Brokers Group Inc.,97.29,"Robert Vinall, Bryan Lawrence, William Von Mueffling",3,3,183625000,17.65,33.42,19.45,high_conviction_stocks,2026-09-01,Q2 2026,1
+CVI,CVR Energy Inc.,41.86,Carl Icahn,1,1,1960900000,23.73,23.73,19.18,high_conviction_stocks,2026-09-01,Q2 2026,1
+VFC,V.F. Corp.,13.44,Glenn Welling,1,1,75425000,23.36,23.36,18.89,high_conviction_stocks,2026-09-01,Q2 2026,1
+AMZN,Amazon.com Inc.,259.77,"AltaRock Partners, Bill Ackman, Daniel Loeb, David Rolfe, David Tepper, +5 more",5,18,12219872000,11.19,32.21,18.86,high_conviction_stocks,2026-09-01,Q2 2026,1
+ORLA-OLD,Orla Mining Ltd,9.45,Prem Watsa,1,1,568456000,21.55,21.55,17.44,high_conviction_stocks,2026-09-01,Q2 2026,1
+SNX,SYNNEX Corp.,252.85,"Glenn Greenberg, Abrams Bison Investments",2,2,925903000,17.39,26.38,17.01,high_conviction_stocks,2026-09-01,Q2 2026,1
+VRT,Vertiv Holdings Co.,258.72,Leon Cooperman,1,1,722471000,20.37,20.37,16.5,high_conviction_stocks,2026-09-01,Q2 2026,1
+TDG,TransDigm Group Inc.,1171.74,"AltaRock Partners, Triple Frond Partners, Bryan Lawrence, Vulcan Value Partners",4,4,1567675000,14.77,27.51,16.44,high_conviction_stocks,2026-09-01,Q2 2026,1
+CAT,Caterpillar Inc.,797.47,Bill & Melinda Gates Foundation Trust,1,1,6765964000,19.65,19.65,15.92,high_conviction_stocks,2026-09-01,Q2 2026,1
+FICO,Fair Isaac Corp.,1147.21,"Valley Forge Capital Management, Chuck Akre, Lindsell Train",3,3,1505659000,14.84,25.77,15.75,high_conviction_stocks,2026-09-01,Q2 2026,1
+GRBK,Green Brick Partners,72.22,David Einhorn,1,1,757769000,19.39,19.39,15.71,high_conviction_stocks,2026-09-01,Q2 2026,1
+SLM,SLM Corp.,25.97,"Glenn Greenberg, Michael Burry",2,2,360395000,15.86,24.16,15.58,high_conviction_stocks,2026-09-01,Q2 2026,1
+GOOG,Alphabet Inc. CL C,335.41,"Kahn Brothers Group, David Tepper, Li Lu, First Pacific Advisors, Francois Rochon, +5 more",5,19,11833769000,9.37,23.39,15.5,high_conviction_stocks,2026-09-01,Q2 2026,1
+AZN,AstraZeneca PLC,162.13,Sarah Ketterer,1,1,1751546000,19.03,19.03,15.42,high_conviction_stocks,2026-09-01,Q2 2026,1
+GOOGL,Alphabet Inc.,339.35,"Daniel Loeb, David Rolfe, Warren Buffett, Li Lu, Chase Coleman, +5 more",5,13,34288393000,10.46,24.55,15.2,high_conviction_stocks,2026-09-01,Q2 2026,1
+YETI,YETI Holdings Inc.,41.05,Glenn Welling,1,1,59179000,18.33,18.33,14.86,high_conviction_stocks,2026-09-01,Q2 2026,1
+PDD,Pinduoduo Inc.,84.0,"Duan Yongping, Norbert Lou, Li Lu",3,3,2761200000,14.84,22.17,14.67,high_conviction_stocks,2026-09-01,Q2 2026,1
+CACC,Credit Acceptance Corp.,599.74,Robert Vinall,1,1,68941000,18.01,18.01,14.61,high_conviction_stocks,2026-09-01,Q2 2026,1
+CNI,Canadian Natl Railway Co.,124.75,Bill & Melinda Gates Foundation Trust,1,1,6179826000,17.95,17.95,14.56,high_conviction_stocks,2026-09-01,Q2 2026,1
+ASH,Ashland Global Holdings Inc.,73.33,Alex Roepers,1,1,33538000,17.47,17.47,14.18,high_conviction_stocks,2026-09-01,Q2 2026,1
+ASML,ASML Holding NV,1696.01,"Stephen Mandel, Valley Forge Capital Management, Pat Dorsey, Triple Frond Partners",4,4,1968626000,13.89,21.11,14.08,high_conviction_stocks,2026-09-01,Q2 2026,1
+WM,Waste Management Inc.,218.92,Bill & Melinda Gates Foundation Trust,1,1,5955519000,17.3,17.3,14.04,high_conviction_stocks,2026-09-01,Q2 2026,1
+CNH,CNH Industrial NV,11.83,Tweedy Browne,1,1,225901000,17.11,17.11,13.89,high_conviction_stocks,2026-09-01,Q2 2026,1
+BABA,Alibaba Group Holdings,114.02,Dennis Hong,1,1,39271000,16.92,16.92,13.74,high_conviction_stocks,2026-09-01,Q2 2026,1
+AXP,American Express,330.17,"Warren Buffett, Guy Spier - Aquamarine Capital",2,2,51304305000,16.2,17.14,13.64,high_conviction_stocks,2026-09-01,Q2 2026,1
+EGO,Eldorado Gold Corp.,44.84,Prem Watsa,1,1,427002000,16.18,16.18,13.14,high_conviction_stocks,2026-09-01,Q2 2026,1
+MA,Mastercard Inc.,589.31,"AltaRock Partners, Bill Ackman, Valley Forge Capital Management, Chuck Akre, Triple Frond Partners, +5 more",5,10,4865399000,10.16,20.01,13.08,high_conviction_stocks,2026-09-01,Q2 2026,1
+TKO,TKO Group Holdings Inc.,182.61,Lindsell Train,1,1,422522000,16.07,16.07,13.06,high_conviction_stocks,2026-09-01,Q2 2026,1
+MSFT,Microsoft Corp.,507.29,"AltaRock Partners, Bill Ackman, David Rolfe, Dennis Hong, Mairs & Power Funds, +5 more",5,11,5820315000,9.12,20.54,12.92,high_conviction_stocks,2026-09-01,Q2 2026,1
+V,Visa Inc.,379.37,"AltaRock Partners, Viking Global Investors, Bill Ackman, Valley Forge Capital Management, David Rolfe, +5 more",5,13,18634764000,8.49,19.83,12.79,high_conviction_stocks,2026-09-01,Q2 2026,1
+GXO,Gxo Logistics Inc.,47.73,Glenn Welling,1,1,49928000,15.46,15.46,12.57,high_conviction_stocks,2026-09-01,Q2 2026,1
+ALC,Alcon Inc.,72.06,AKO Capital,1,1,651941000,15.19,15.19,12.35,high_conviction_stocks,2026-09-01,Q2 2026,1
+SPGI,S&P Global Inc.,435.84,"Bill Ackman, Valley Forge Capital Management, Chris Hohn, Pat Dorsey",4,4,7540647000,11.12,19.92,12.33,high_conviction_stocks,2026-09-01,Q2 2026,1
+META,Meta Platforms Inc.,572.34,"Bill Ackman, David Rolfe, David Tepper, ValueAct Capital, Chase Coleman, +4 more",5,9,4757436000,8.7,20.45,12.29,high_conviction_stocks,2026-09-01,Q2 2026,1
+MU,Micron Technology Inc.,958.73,David Tepper,1,1,1125433000,15.06,15.06,12.25,high_conviction_stocks,2026-09-01,Q2 2026,1
+MCO,Moody's Corp.,504.64,"Valley Forge Capital Management, Chuck Akre, Chris Hohn, Bryan Lawrence, John Armitage, +1 more",5,6,8412236000,10.56,19.14,12.22,high_conviction_stocks,2026-09-01,Q2 2026,1
+SOLV,Solventum Corp,91.06,Nelson Peltz,1,1,635465000,15.02,15.02,12.22,high_conviction_stocks,2026-09-01,Q2 2026,1
+BN,Brookfield Corp.,41.22,"Bill Ackman, Chuck Akre, Josh Tarasoff, Steven Check",4,4,3211410000,12.45,16.29,11.91,high_conviction_stocks,2026-09-01,Q2 2026,1
+APTV,Aptiv PLC,44.76,Alex Roepers,1,1,27857000,14.51,14.51,11.81,high_conviction_stocks,2026-09-01,Q2 2026,1
+APP,Applovin Corp.,312.06,Pat Dorsey,1,1,226347000,14.5,14.5,11.8,high_conviction_stocks,2026-09-01,Q2 2026,1
+HGV,Hilton Grand Vacations Inc.,42.41,Clifford Sosin,1,1,272683000,14.48,14.48,11.78,high_conviction_stocks,2026-09-01,Q2 2026,1
+BAYRY,Bayer Ag Sponsored ADR,14.02,Kahn Brothers Group,1,1,89308000,14.12,14.12,11.5,high_conviction_stocks,2026-09-01,Q2 2026,1
+AMAT,Applied Materials,458.39,"Stephen Mandel, Abrams Bison Investments, William Von Mueffling",3,3,1308567000,10.09,19.48,11.49,high_conviction_stocks,2026-09-01,Q2 2026,1
+TRMD,Torm Plc,32.81,Howard Marks,1,1,524261000,13.87,13.87,11.3,high_conviction_stocks,2026-09-01,Q2 2026,1
+OKTA,Okta Inc.,173.04,Dennis Hong,1,1,32031000,13.8,13.8,11.24,high_conviction_stocks,2026-09-01,Q2 2026,1
+C,Citigroup Inc.,131.62,"Kahn Brothers Group, First Pacific Advisors, Samantha McLemore",3,3,735720000,10.11,18.5,11.2,high_conviction_stocks,2026-09-01,Q2 2026,1
+IONS,Ionis Pharmaceuticals Inc.,60.36,Tweedy Browne,1,1,180806000,13.7,13.7,11.16,high_conviction_stocks,2026-09-01,Q2 2026,1
+EPD,Enterprise Products Partners LP,38.82,Bruce Berkowitz,1,1,200555000,13.46,13.46,10.97,high_conviction_stocks,2026-09-01,Q2 2026,1
+KEX,Kirby Corp.,141.86,Alex Roepers,1,1,25386000,13.22,13.22,10.78,high_conviction_stocks,2026-09-01,Q2 2026,1
+LAD,Lithia Motors Inc.,367.32,David Abrams,1,1,723475000,13.2,13.2,10.76,high_conviction_stocks,2026-09-01,Q2 2026,1
+GIL,Gildan Activewear Inc.,52.13,Bryan Lawrence,1,1,35175000,13.1,13.1,10.68,high_conviction_stocks,2026-09-01,Q2 2026,1
+KHC,Kraft Heinz Co.,25.67,Prem Watsa,1,1,337633000,12.8,12.8,10.44,high_conviction_stocks,2026-09-01,Q2 2026,1
+CCL,Carnival Corp.,23.89,Sarah Ketterer,1,1,1176816000,12.78,12.78,10.42,high_conviction_stocks,2026-09-01,Q2 2026,1
+EXE,Expand Energy Corp.,98.16,Howard Marks,1,1,477606000,12.64,12.64,10.31,high_conviction_stocks,2026-09-01,Q2 2026,1
+XRAY,DENTSPLY SIRONA Inc.,11.17,Alex Roepers,1,1,23374000,12.18,12.18,9.94,high_conviction_stocks,2026-09-01,Q2 2026,1
+LEN,Lennar Corp.,84.11,Greenhaven Associates,1,1,1024010000,11.82,11.82,9.66,high_conviction_stocks,2026-09-01,Q2 2026,1
+WBD,Warner Bros. Discovery Inc.,28.53,Daniel Loeb,1,1,533200000,11.68,11.68,9.54,high_conviction_stocks,2026-09-01,Q2 2026,1
+GM,General Motors,86.32,Greenhaven Associates,1,1,992290000,11.46,11.46,9.37,high_conviction_stocks,2026-09-01,Q2 2026,1
+EG,Everest Group Ltd,374.65,Vulcan Value Partners,1,1,370414000,11.28,11.28,9.22,high_conviction_stocks,2026-09-01,Q2 2026,1
+RKT,Rocket Companies Inc.,13.41,"ValueAct Capital, Leon Cooperman",2,2,987294000,10.49,11.65,9.14,high_conviction_stocks,2026-09-01,Q2 2026,1
+UBER,Uber Technologies Inc.,75.65,"Bill Ackman, David Tepper, Pat Dorsey",3,3,3159325000,9.43,12.72,9.13,high_conviction_stocks,2026-09-01,Q2 2026,1
+UAA,Under Armour Inc.,5.04,Prem Watsa,1,1,289831000,10.98,10.98,8.98,high_conviction_stocks,2026-09-01,Q2 2026,1
+TSM,Taiwan Semiconductor S.A.,415.32,"David Rolfe, David Tepper, Chase Coleman, Ruane Cunniff LP, William Von Mueffling",5,5,3784290000,9.52,10.55,8.93,high_conviction_stocks,2026-09-01,Q2 2026,1
+KO,Coca Cola Co.,88.67,Warren Buffett,1,1,32507999000,10.86,10.86,8.89,high_conviction_stocks,2026-09-01,Q2 2026,1
+DB,Deutsche Bank AG,40.06,Sarah Ketterer,1,1,994164000,10.8,10.8,8.84,high_conviction_stocks,2026-09-01,Q2 2026,1
+TOL,Toll Brothers,143.45,Greenhaven Associates,1,1,927560000,10.71,10.71,8.77,high_conviction_stocks,2026-09-01,Q2 2026,1
+RBC,RBC Bearings Inc.,494.26,Henry Ellenbogen,1,1,1100648000,10.7,10.7,8.76,high_conviction_stocks,2026-09-01,Q2 2026,1
+SN,Sharkninja Inc,192.49,Abrams Bison Investments,1,1,218660000,10.67,10.67,8.74,high_conviction_stocks,2026-09-01,Q2 2026,1
+AIIR,Air Holdings Ltd,7.48,Greg Alexander,1,1,64381000,10.61,10.61,8.69,high_conviction_stocks,2026-09-01,Q2 2026,1
+ALK,Alaska Air Group,41.33,Christopher Bloomstran,1,1,93627000,10.58,10.58,8.66,high_conviction_stocks,2026-09-01,Q2 2026,1
+RYN,Rayonier Inc.,20.5,Mason Hawkins,1,1,201976000,10.54,10.54,8.63,high_conviction_stocks,2026-09-01,Q2 2026,1
+MKL,Markel Group Inc.,1802.91,"Josh Tarasoff, Steven Check",2,2,194352000,9.9,10.89,8.62,high_conviction_stocks,2026-09-01,Q2 2026,1
+HHH,Howard Hughes Holdings Inc.,64.13,Bill Ackman,1,1,1991144000,10.23,10.23,8.38,high_conviction_stocks,2026-09-01,Q2 2026,1
+ZS,Zscaler Inc.,188.39,Dennis Hong,1,1,23615000,10.18,10.18,8.34,high_conviction_stocks,2026-09-01,Q2 2026,1
+OMF,OneMain Holdings,62.46,Glenn Greenberg,1,1,462467000,10.08,10.08,8.26,high_conviction_stocks,2026-09-01,Q2 2026,1
+TDW,Tidewater Inc.,93.12,Third Avenue Management,1,1,62240000,9.95,9.95,8.16,high_conviction_stocks,2026-09-01,Q2 2026,1
+BLK,BlackRock Inc.,1155.61,ValueAct Capital,1,1,559339000,9.93,9.93,8.14,high_conviction_stocks,2026-09-01,Q2 2026,1
+BDX,Becton Dickinson,188.11,Greenhaven Associates,1,1,859813000,9.93,9.93,8.14,high_conviction_stocks,2026-09-01,Q2 2026,1
+PVH,PVH Corp.,74.16,Alex Roepers,1,1,19042000,9.92,9.92,8.14,high_conviction_stocks,2026-09-01,Q2 2026,1
+ICLR,ICON plc,164.99,"Glenn Greenberg, Ruane Cunniff LP, Greenhaven Associates",3,3,1442142000,7.9,11.94,8.13,high_conviction_stocks,2026-09-01,Q2 2026,1
+SGOV,Ishares 0 3 Month Treasury B,100.69,"Norbert Lou, Josh Tarasoff",2,2,57483000,8.99,10.59,8.07,high_conviction_stocks,2026-09-01,Q2 2026,1
+TMO,Thermo Fisher Scientific,617.1,Lindsell Train,1,1,257956000,9.81,9.81,8.05,high_conviction_stocks,2026-09-01,Q2 2026,1
+QSR,Restaurant Brands International,77.88,"Bill Ackman, Seth Klarman",2,2,2361913000,9.33,9.62,7.95,high_conviction_stocks,2026-09-01,Q2 2026,1
+EWBC,East West Bancorp,126.86,Li Lu,1,1,358399000,9.68,9.68,7.94,high_conviction_stocks,2026-09-01,Q2 2026,1
+FLG,Flagstar Financial Inc.,13.31,Kahn Brothers Group,1,1,60876000,9.62,9.62,7.9,high_conviction_stocks,2026-09-01,Q2 2026,1
+NVDA,NVIDIA Corp.,220.78,"Duan Yongping, Lee Ainslie, Chase Coleman, Mairs & Power Funds, Jensen Investment Management, +2 more",5,7,6770626000,7.05,9.34,7.73,high_conviction_stocks,2026-09-01,Q2 2026,1
+SUNB,Sunbelt Rentals Holdings Inc,72.28,"Abrams Bison Investments, Pat Dorsey, AKO Capital",3,3,694548000,7.87,10.59,7.71,high_conviction_stocks,2026-09-01,Q2 2026,1
+KOF,Coca-Cola FEMSA S A CV,111.16,Tweedy Browne,1,1,123311000,9.34,9.34,7.67,high_conviction_stocks,2026-09-01,Q2 2026,1
+EVH,Evolent Health Inc.,4.5,Glenn Welling,1,1,30156000,9.34,9.34,7.67,high_conviction_stocks,2026-09-01,Q2 2026,1
+CVS,CVS Health Corp.,93.91,"Prem Watsa, Christopher Davis",2,2,1508096000,7.95,10.63,7.56,high_conviction_stocks,2026-09-01,Q2 2026,1
+AVGO,Broadcom Inc.,370.34,"Polen Capital Management, Torray Funds, William Von Mueffling",3,3,849348000,7.56,10.61,7.56,high_conviction_stocks,2026-09-01,Q2 2026,1
+BAC,Bank of America Corp.,61.94,Warren Buffett,1,1,27543792000,9.2,9.2,7.56,high_conviction_stocks,2026-09-01,Q2 2026,1
+PM,Philip Morris Intl.,187.3,Thomas Russo,1,1,819675000,9.18,9.18,7.54,high_conviction_stocks,2026-09-01,Q2 2026,1
+PYPL,PayPal Holdings Inc.,52.67,"Norbert Lou, Lindsell Train",2,2,163720000,7.9,10.61,7.53,high_conviction_stocks,2026-09-01,Q2 2026,1
+RYAN,Ryan Specialty Holdings Inc,42.18,Vulcan Value Partners,1,1,298782000,9.09,9.09,7.47,high_conviction_stocks,2026-09-01,Q2 2026,1
+MAT,Mattel Inc.,14.95,Mason Hawkins,1,1,171036000,8.92,8.92,7.34,high_conviction_stocks,2026-09-01,Q2 2026,1
+FRPT,Freshpet Inc.,69.86,Glenn Welling,1,1,28658000,8.87,8.87,7.3,high_conviction_stocks,2026-09-01,Q2 2026,1
+NBR,Nabors Industries Ltd.,93.64,Bill Miller,1,1,37423000,8.85,8.85,7.28,high_conviction_stocks,2026-09-01,Q2 2026,1
+ELV,Elevance Health Inc.,392.54,"Glenn Greenberg, Ruane Cunniff LP, Seth Klarman",3,3,1249771000,7.74,9.11,7.2,high_conviction_stocks,2026-09-01,Q2 2026,1
+CFRHF,Compagnie Financiere Richemont SA,245.0,Thomas Russo,1,1,773662000,8.67,8.67,7.14,high_conviction_stocks,2026-09-01,Q2 2026,1
+DG,Dollar General,126.75,Christopher Bloomstran,1,1,76583000,8.66,8.66,7.13,high_conviction_stocks,2026-09-01,Q2 2026,1
+PHM,PulteGroup Inc.,126.32,Greenhaven Associates,1,1,748611000,8.64,8.64,7.11,high_conviction_stocks,2026-09-01,Q2 2026,1
+DIS,Walt Disney Co.,107.55,"Kahn Brothers Group, Lindsell Train",2,2,285568000,7.51,9.55,7.02,high_conviction_stocks,2026-09-01,Q2 2026,1
+BKNG,Booking Holdings Inc.,199.09,Pat Dorsey,1,1,132165000,8.46,8.46,6.97,high_conviction_stocks,2026-09-01,Q2 2026,1
+CRM,Salesforce.com,257.54,ValueAct Capital,1,1,469120000,8.33,8.33,6.86,high_conviction_stocks,2026-09-01,Q2 2026,1
+SGI,Somnigroup International Inc.,64.75,David Abrams,1,1,454624000,8.3,8.3,6.84,high_conviction_stocks,2026-09-01,Q2 2026,1
+APH,Amphenol Corp.,158.55,John Armitage,1,1,858094000,8.29,8.29,6.83,high_conviction_stocks,2026-09-01,Q2 2026,1
+BFAM,Bright Horizons Family Solutions Inc.,74.18,Abrams Bison Investments,1,1,169633000,8.28,8.28,6.82,high_conviction_stocks,2026-09-01,Q2 2026,1
+CNX,CNX Resources Corp.,36.38,Mason Hawkins,1,1,158218000,8.25,8.25,6.8,high_conviction_stocks,2026-09-01,Q2 2026,1
+KKR,KKR & Co. L.P.,109.72,"ValueAct Capital, Chuck Akre",2,2,783773000,7.38,8.95,6.77,high_conviction_stocks,2026-09-01,Q2 2026,1
+RPRX,Royalty Pharma plc,61.41,"Pat Dorsey, Samantha McLemore, Torray Funds",3,3,373279000,6.84,8.82,6.67,high_conviction_stocks,2026-09-01,Q2 2026,1
+CNQ,Canadian Natural Resources,50.07,Yacktman Asset Management,1,1,650269000,8.04,8.04,6.63,high_conviction_stocks,2026-09-01,Q2 2026,1
+RACE,Ferrari NV,422.6,"AKO Capital, Guy Spier - Aquamarine Capital",2,2,340054000,7.68,7.71,6.56,high_conviction_stocks,2026-09-01,Q2 2026,1
+ABG,Asbury Automotive Group Inc.,211.4,David Abrams,1,1,433426000,7.91,7.91,6.53,high_conviction_stocks,2026-09-01,Q2 2026,1
+SYF,Synchrony Financial,77.08,Francis Chou,1,1,16975000,7.84,7.84,6.47,high_conviction_stocks,2026-09-01,Q2 2026,1
+CR,Crane Co,205.07,Dennis Hong,1,1,18151000,7.82,7.82,6.46,high_conviction_stocks,2026-09-01,Q2 2026,1
+ROP,Roper Technologies Inc.,424.64,Chuck Akre,1,1,398137000,7.8,7.8,6.44,high_conviction_stocks,2026-09-01,Q2 2026,1
+FWONK,Liberty Media Corp Formula One Series C,99.95,"Dennis Hong, Ruane Cunniff LP",2,2,513209000,7.36,7.73,6.4,high_conviction_stocks,2026-09-01,Q2 2026,1
+URBN,Urban Outfitters Inc.,80.69,Abrams Bison Investments,1,1,158080000,7.72,7.72,6.38,high_conviction_stocks,2026-09-01,Q2 2026,1
+LYV,Live Nation Inc.,179.89,Pat Dorsey,1,1,120058000,7.69,7.69,6.35,high_conviction_stocks,2026-09-01,Q2 2026,1
+HKHHF,Heineken Holding NV,78.31,Thomas Russo,1,1,679640000,7.61,7.61,6.29,high_conviction_stocks,2026-09-01,Q2 2026,1
+NOMD,Nomad Foods Ltd,11.64,Alex Roepers,1,1,14605000,7.61,7.61,6.29,high_conviction_stocks,2026-09-01,Q2 2026,1
+CGNX,Cognex Corp.,60.96,Glenn Welling,1,1,24550000,7.6,7.6,6.28,high_conviction_stocks,2026-09-01,Q2 2026,1
+SW,Smurfit Westrock Plc,46.9,Sarah Ketterer,1,1,695706000,7.56,7.56,6.25,high_conviction_stocks,2026-09-01,Q2 2026,1
+PPLI,People Inc.,38.28,Mason Hawkins,1,1,144566000,7.54,7.54,6.23,high_conviction_stocks,2026-09-01,Q2 2026,1
+DHR,Danaher Corp.,213.56,"Pat Dorsey, Wallace Weitz",2,2,212521000,7.05,7.64,6.22,high_conviction_stocks,2026-09-01,Q2 2026,1
+DECK,Deckers Outdoor,87.08,Christopher Bloomstran,1,1,66544000,7.52,7.52,6.22,high_conviction_stocks,2026-09-01,Q2 2026,1
+BCC,Boise Cascade Company,78.01,Third Avenue Management,1,1,46740000,7.47,7.47,6.18,high_conviction_stocks,2026-09-01,Q2 2026,1
+DASH,DoorDash Inc.,231.74,Henry Ellenbogen,1,1,766571000,7.46,7.46,6.17,high_conviction_stocks,2026-09-01,Q2 2026,1
+ADI,Analog Devices,362.14,"First Pacific Advisors, AKO Capital, William Von Mueffling",3,3,914843000,6.31,7.97,6.15,high_conviction_stocks,2026-09-01,Q2 2026,1
+CP,Canadian Pacific Kansas City,92.69,"Chris Hohn, Sarah Ketterer",2,2,4507573000,6.88,7.44,6.07,high_conviction_stocks,2026-09-01,Q2 2026,1
+AER,AerCap Holdings N.V.,145.94,"Pat Dorsey, Steven Check",2,2,229559000,6.98,7.16,6.04,high_conviction_stocks,2026-09-01,Q2 2026,1
+GTX,Garrett Motion Inc.,26.95,Howard Marks,1,1,275160000,7.28,7.28,6.02,high_conviction_stocks,2026-09-01,Q2 2026,1
+GWRE,Guidewire Software Inc.,204.75,Bryan Lawrence,1,1,19526000,7.27,7.27,6.02,high_conviction_stocks,2026-09-01,Q2 2026,1
+DLTR,Dollar Tree Inc.,126.59,Christopher Bloomstran,1,1,64117000,7.25,7.25,6.0,high_conviction_stocks,2026-09-01,Q2 2026,1
+Q,Qnity Electronics Inc.,119.43,Henry Ellenbogen,1,1,743618000,7.23,7.23,5.98,high_conviction_stocks,2026-09-01,Q2 2026,1
+YNDX,Yandex N.V.,20.0,Stephen Mandel,1,1,1175934000,7.19,7.19,5.95,high_conviction_stocks,2026-09-01,Q2 2026,1
+BL,BlackLine Inc.,33.22,Glenn Welling,1,1,23231000,7.19,7.19,5.95,high_conviction_stocks,2026-09-01,Q2 2026,1
+ET,Energy Transfer LP,21.51,Leon Cooperman,1,1,254680000,7.18,7.18,5.94,high_conviction_stocks,2026-09-01,Q2 2026,1
+FERG,Ferguson Enterprises Inc.,224.51,"Henry Ellenbogen, Seth Klarman, Nelson Peltz",3,3,1309275000,6.44,6.88,5.89,high_conviction_stocks,2026-09-01,Q2 2026,1
+ABM,ABM Industries,46.63,Alex Roepers,1,1,13639000,7.1,7.1,5.88,high_conviction_stocks,2026-09-01,Q2 2026,1
+TSLA,Tesla Inc.,367.95,"Duan Yongping, Josh Tarasoff",2,2,1441728000,6.46,7.44,5.86,high_conviction_stocks,2026-09-01,Q2 2026,1
+COF,Capital One Financial,214.51,"Ruane Cunniff LP, Christopher Davis",2,2,2051850000,6.62,7.13,5.85,high_conviction_stocks,2026-09-01,Q2 2026,1
+RUSHA,Rush Enterprises Inc.,76.83,Muhlenkamp,1,1,24255000,7.03,7.03,5.82,high_conviction_stocks,2026-09-01,Q2 2026,1
+MAR,Marriott Int'l.,341.76,Terry Smith,1,1,958256000,7.02,7.02,5.82,high_conviction_stocks,2026-09-01,Q2 2026,1
+OXY,Occidental Petroleum,60.18,Francis Chou,1,1,15202000,7.02,7.02,5.82,high_conviction_stocks,2026-09-01,Q2 2026,1
+TOST,Toast Inc.,34.09,ValueAct Capital,1,1,393209000,6.98,6.98,5.78,high_conviction_stocks,2026-09-01,Q2 2026,1
+LLY,Eli Lilly & Co.,1156.73,Polen Capital Management,1,1,799914000,6.89,6.89,5.71,high_conviction_stocks,2026-09-01,Q2 2026,1
+CPNG,Coupang Inc.,16.06,Dennis Hong,1,1,15982000,6.89,6.89,5.71,high_conviction_stocks,2026-09-01,Q2 2026,1
+AU,AngloGold Ashanti Ltd.,112.32,Howard Marks,1,1,257157000,6.81,6.81,5.65,high_conviction_stocks,2026-09-01,Q2 2026,1
+GTN,Gray Television Inc.,4.88,Bill Miller,1,1,28756000,6.8,6.8,5.64,high_conviction_stocks,2026-09-01,Q2 2026,1
+SYK,Stryker Corp.,323.8,Terry Smith,1,1,917391000,6.72,6.72,5.58,high_conviction_stocks,2026-09-01,Q2 2026,1
+OSK,Oshkosh Corp.,154.11,Alex Roepers,1,1,12846000,6.69,6.69,5.55,high_conviction_stocks,2026-09-01,Q2 2026,1
+INDV,Indivior Pharmaceuticals Inc.,34.93,Howard Marks,1,1,251400000,6.65,6.65,5.52,high_conviction_stocks,2026-09-01,Q2 2026,1
+INTU,Intuit Inc.,359.3,Lindsell Train,1,1,174056000,6.62,6.62,5.5,high_conviction_stocks,2026-09-01,Q2 2026,1
+DHI,D.R. Horton,144.56,Greenhaven Associates,1,1,571025000,6.59,6.59,5.47,high_conviction_stocks,2026-09-01,Q2 2026,1
+DE,Deere & Co.,654.91,Bill & Melinda Gates Foundation Trust,1,1,2256552000,6.56,6.56,5.45,high_conviction_stocks,2026-09-01,Q2 2026,1
+EWY,iShares MSCI South Korea ETF,180.86,David Tepper,1,1,489608000,6.55,6.55,5.44,high_conviction_stocks,2026-09-01,Q2 2026,1
+MGA,Magna International Inc.,65.57,Richard Pzena,1,1,2227312000,6.54,6.54,5.43,high_conviction_stocks,2026-09-01,Q2 2026,1
+CSGP,CoStar Group Inc.,32.07,Chuck Akre,1,1,331327000,6.49,6.49,5.39,high_conviction_stocks,2026-09-01,Q2 2026,1
+ARES,Ares Management LP,143.17,Vulcan Value Partners,1,1,211776000,6.45,6.45,5.36,high_conviction_stocks,2026-09-01,Q2 2026,1
+AJG,Arthur J. Gallagher & Co.,262.15,Glenn Greenberg,1,1,295003000,6.43,6.43,5.34,high_conviction_stocks,2026-09-01,Q2 2026,1
+SCHW,Charles Schwab Corp.,109.82,"Francois Rochon, Ruane Cunniff LP",2,2,576957000,5.89,6.56,5.31,high_conviction_stocks,2026-09-01,Q2 2026,1
+HEI.A,HEICO Corp. CL A,244.17,Francois Rochon,1,1,189628000,6.38,6.38,5.3,high_conviction_stocks,2026-09-01,Q2 2026,1
+WAT,Waters Corp.,414.63,Terry Smith,1,1,852703000,6.25,6.25,5.2,high_conviction_stocks,2026-09-01,Q2 2026,1
+NEM,Newmont Corp.,126.06,Muhlenkamp,1,1,21584000,6.25,6.25,5.2,high_conviction_stocks,2026-09-01,Q2 2026,1
+FLR,Fluor Corp.,54.51,David Einhorn,1,1,244072000,6.24,6.24,5.19,high_conviction_stocks,2026-09-01,Q2 2026,1
+AEM,Agnico-Eagle Mines Ltd.,203.11,Muhlenkamp,1,1,21489000,6.22,6.22,5.18,high_conviction_stocks,2026-09-01,Q2 2026,1
+EQT,EQT Corp.,54.18,Muhlenkamp,1,1,21387000,6.19,6.19,5.15,high_conviction_stocks,2026-09-01,Q2 2026,1
+AN,AutoNation Inc.,201.25,Glenn Greenberg,1,1,283167000,6.17,6.17,5.14,high_conviction_stocks,2026-09-01,Q2 2026,1
+MDLN,Medline Inc Cl A,35.03,"Stephen Mandel, John Armitage",2,2,1476604000,5.67,6.28,5.12,high_conviction_stocks,2026-09-01,Q2 2026,1
+GPC,Genuine Parts,135.67,Seth Klarman,1,1,332253000,6.13,6.13,5.1,high_conviction_stocks,2026-09-01,Q2 2026,1
+NSRGY,Nestle,97.28,Thomas Russo,1,1,545787000,6.11,6.11,5.09,high_conviction_stocks,2026-09-01,Q2 2026,1
+ACI,Albertsons Co Inc.,12.35,Mason Hawkins,1,1,116848000,6.09,6.09,5.07,high_conviction_stocks,2026-09-01,Q2 2026,1
+UNH,United Health Group Inc.,389.41,Samantha McLemore,1,1,181952000,6.05,6.05,5.04,high_conviction_stocks,2026-09-01,Q2 2026,1
+ACHC,Acadia Healthcare Co.,27.56,Abrams Bison Investments,1,1,122992000,6.0,6.0,5.0,high_conviction_stocks,2026-09-01,Q2 2026,1
+VAL,Valaris plc,86.37,Third Avenue Management,1,1,37484000,5.99,5.99,4.99,high_conviction_stocks,2026-09-01,Q2 2026,1
+BRZE,Braze Inc A,34.04,Dennis Hong,1,1,13907000,5.99,5.99,4.99,high_conviction_stocks,2026-09-01,Q2 2026,1
+TRU,TransUnion,84.91,"Triple Frond Partners, Vulcan Value Partners",2,2,254299000,5.6,5.94,4.98,high_conviction_stocks,2026-09-01,Q2 2026,1
+WEN,Wendy's Co.,8.3,Nelson Peltz,1,1,252583000,5.97,5.97,4.98,high_conviction_stocks,2026-09-01,Q2 2026,1
+MCK,McKesson Corp.,885.32,Muhlenkamp,1,1,20554000,5.95,5.95,4.96,high_conviction_stocks,2026-09-01,Q2 2026,1
+UNP,Union Pacific,300.67,Seth Klarman,1,1,322427000,5.95,5.95,4.96,high_conviction_stocks,2026-09-01,Q2 2026,1
+RHI,Robert Half International,45.34,Third Avenue Management,1,1,37096000,5.93,5.93,4.94,high_conviction_stocks,2026-09-01,Q2 2026,1
+STX,Seagate Technology,828.38,Stephen Mandel,1,1,965105000,5.9,5.9,4.92,high_conviction_stocks,2026-09-01,Q2 2026,1
+Z,Zillow Group Inc.,34.96,Kahn Brothers Group,1,1,37265000,5.89,5.89,4.91,high_conviction_stocks,2026-09-01,Q2 2026,1
+PLGO,Pelagos Insurance Capital,24.41,Leon Cooperman,1,1,207253000,5.84,5.84,4.87,high_conviction_stocks,2026-09-01,Q2 2026,1
+SPUU,Dir Dai S&P  500 Bu 2x ETF Us,224.96,Bill Miller,1,1,24596000,5.81,5.81,4.85,high_conviction_stocks,2026-09-01,Q2 2026,1
+HOG,Harley-Davidson,27.6,Third Avenue Management,1,1,36222000,5.79,5.79,4.83,high_conviction_stocks,2026-09-01,Q2 2026,1
+KLAC,KLA Corp.,175.45,Jensen Investment Management,1,1,238469000,5.78,5.78,4.82,high_conviction_stocks,2026-09-01,Q2 2026,1
+LRCX,Lam Research,301.49,Chase Coleman,1,1,1370837000,5.72,5.72,4.78,high_conviction_stocks,2026-09-01,Q2 2026,1
+OGN,Organon & Co.,13.76,Kahn Brothers Group,1,1,36159000,5.72,5.72,4.78,high_conviction_stocks,2026-09-01,Q2 2026,1
+DELL,Dell Technologies Inc.,456.01,Arnold Van Den Berg,1,1,26877000,5.68,5.68,4.74,high_conviction_stocks,2026-09-01,Q2 2026,1
+MDLZ,Mondelez International,62.07,Lindsell Train,1,1,148386000,5.64,5.64,4.71,high_conviction_stocks,2026-09-01,Q2 2026,1
+MSI,Motorola Solutions Inc.,485.3,David Rolfe,1,1,27261000,5.63,5.63,4.7,high_conviction_stocks,2026-09-01,Q2 2026,1
+VMC,Vulcan Materials,269.58,John Armitage,1,1,581669000,5.62,5.62,4.7,high_conviction_stocks,2026-09-01,Q2 2026,1
+UAN,CVR Partners LP,126.4,Carl Icahn,1,1,464233000,5.62,5.62,4.7,high_conviction_stocks,2026-09-01,Q2 2026,1
+HD,Home Depot,327.83,Stephen Mandel,1,1,918093000,5.61,5.61,4.69,high_conviction_stocks,2026-09-01,Q2 2026,1
+BLDR,Builders FirstSource Inc.,66.4,Christopher Bloomstran,1,1,49547000,5.6,5.6,4.68,high_conviction_stocks,2026-09-01,Q2 2026,1
+BLMN,Bloomin Brands Inc.,10.3,Bill Miller,1,1,23635000,5.59,5.59,4.67,high_conviction_stocks,2026-09-01,Q2 2026,1
+HTHT,H World Group Ltd ADR,47.32,Robert Vinall,1,1,21420000,5.59,5.59,4.67,high_conviction_stocks,2026-09-01,Q2 2026,1
+SIRI,SiriusXM Holdings Inc,28.17,Francis Chou,1,1,12099000,5.59,5.59,4.67,high_conviction_stocks,2026-09-01,Q2 2026,1
+RYAAY,Ryanair Holdings PLC,55.37,Glenn Greenberg,1,1,256325000,5.59,5.59,4.67,high_conviction_stocks,2026-09-01,Q2 2026,1
+USB,U.S. Bancorp,61.58,Christopher Davis,1,1,1295910000,5.56,5.56,4.65,high_conviction_stocks,2026-09-01,Q2 2026,1
+IFF,International Flavors & Fragrances Inc.,86.33,First Pacific Advisors,1,1,432152000,5.43,5.43,4.54,high_conviction_stocks,2026-09-01,Q2 2026,1
+NFLX,Netflix Inc.,81.05,Josh Tarasoff,1,1,19695000,5.41,5.41,4.53,high_conviction_stocks,2026-09-01,Q2 2026,1
+CSCO,Cisco Systems,110.49,AKO Capital,1,1,231587000,5.4,5.4,4.52,high_conviction_stocks,2026-09-01,Q2 2026,1
+TDS,Telephone & Data Systems,33.68,"Daniel Loeb, Howard Marks",2,2,427758000,5.13,5.17,4.52,high_conviction_stocks,2026-09-01,Q2 2026,1
+MCHP,Microchip Technology,73.45,Muhlenkamp,1,1,18526000,5.37,5.37,4.5,high_conviction_stocks,2026-09-01,Q2 2026,1
+PRI,Primerica Inc.,287.65,Glenn Greenberg,1,1,246078000,5.36,5.36,4.49,high_conviction_stocks,2026-09-01,Q2 2026,1
+FCNCA,First Citizens Bancshares,2164.4,Steven Check,1,1,92293000,5.32,5.32,4.46,high_conviction_stocks,2026-09-01,Q2 2026,1
+CLF,Cleveland-Cliffs Inc.,11.55,Prem Watsa,1,1,139904000,5.3,5.3,4.44,high_conviction_stocks,2026-09-01,Q2 2026,1
+PHYS,Sprott Physical Gold Trust,33.81,Arnold Van Den Berg,1,1,25041000,5.29,5.29,4.43,high_conviction_stocks,2026-09-01,Q2 2026,1
+TRUP,Trupanion Inc.,29.15,Josh Tarasoff,1,1,19234000,5.28,5.28,4.42,high_conviction_stocks,2026-09-01,Q2 2026,1
+PEP,PepsiCo Inc.,140.34,Lindsell Train,1,1,138610000,5.27,5.27,4.42,high_conviction_stocks,2026-09-01,Q2 2026,1
+SGU,Star Gas Partners LP,12.78,Bryan Lawrence,1,1,14114000,5.26,5.26,4.41,high_conviction_stocks,2026-09-01,Q2 2026,1
+CTRI,Centuri Holdings Inc,20.41,Carl Icahn,1,1,433522000,5.25,5.25,4.4,high_conviction_stocks,2026-09-01,Q2 2026,1
+UA,Under Armour CL C,4.93,Prem Watsa,1,1,136615000,5.18,5.18,4.34,high_conviction_stocks,2026-09-01,Q2 2026,1
+URI,United Rentals,1038.0,Muhlenkamp,1,1,17756000,5.14,5.14,4.31,high_conviction_stocks,2026-09-01,Q2 2026,1
+CRH,CRH plc,94.29,Daniel Loeb,1,1,234865000,5.14,5.14,4.31,high_conviction_stocks,2026-09-01,Q2 2026,1
+HUM,Humana Inc.,383.23,Richard Pzena,1,1,1749013000,5.13,5.13,4.3,high_conviction_stocks,2026-09-01,Q2 2026,1
+VTRS,Viatris Inc.,16.51,Christopher Davis,1,1,1194790000,5.13,5.13,4.3,high_conviction_stocks,2026-09-01,Q2 2026,1
+AMD,Advanced Micro Devices,470.72,Lee Ainslie,1,1,567158000,5.12,5.12,4.3,high_conviction_stocks,2026-09-01,Q2 2026,1
+MELI,Mercadolibre Inc.,1936.2,Henry Ellenbogen,1,1,523921000,5.1,5.1,4.28,high_conviction_stocks,2026-09-01,Q2 2026,1
+GPGI,GPGI Inc.,13.22,Leon Cooperman,1,1,180444000,5.09,5.09,4.27,high_conviction_stocks,2026-09-01,Q2 2026,1
+RGLD,Royal Gold Inc.,261.47,Muhlenkamp,1,1,17583000,5.09,5.09,4.27,high_conviction_stocks,2026-09-01,Q2 2026,1
+QUAD,Quad/Graphics Inc.,10.06,Bill Miller,1,1,21398000,5.06,5.06,4.25,high_conviction_stocks,2026-09-01,Q2 2026,1
+PTLO,Portillo's Inc Cl A,4.57,Glenn Welling,1,1,16320000,5.05,5.05,4.24,high_conviction_stocks,2026-09-01,Q2 2026,1
+LNC,Lincoln National,42.59,Bill Miller,1,1,21322000,5.04,5.04,4.23,high_conviction_stocks,2026-09-01,Q2 2026,1
+SE,Sea Ltd,113.48,Chase Coleman,1,1,1203544000,5.02,5.02,4.22,high_conviction_stocks,2026-09-01,Q2 2026,1

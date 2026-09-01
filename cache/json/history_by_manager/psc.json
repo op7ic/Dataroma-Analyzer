@@ -2,6 +2,171 @@
   "manager_id": "psc",
   "activities": [
     {
+      "symbol": "HHH",
+      "manager_id": "psc",
+      "action": "Add 47.74%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 9000000,
+      "portfolio_percentage": 3.31,
+      "company_name": "Howard Hughes Holdings Inc."
+    },
+    {
+      "symbol": "META",
+      "manager_id": "psc",
+      "action": "Add 20.11%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 535201,
+      "portfolio_percentage": 1.55,
+      "company_name": "Meta Platforms Inc."
+    },
+    {
+      "symbol": "UBER",
+      "manager_id": "psc",
+      "action": "Add 14.58%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 4367429,
+      "portfolio_percentage": 1.62,
+      "company_name": "Uber Technologies Inc."
+    },
+    {
+      "symbol": "QSR",
+      "manager_id": "psc",
+      "action": "Add 14.02%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 3175801,
+      "portfolio_percentage": 1.18,
+      "company_name": "Restaurant Brands International"
+    },
+    {
+      "symbol": "MSFT",
+      "manager_id": "psc",
+      "action": "Add 9.77%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 552652,
+      "portfolio_percentage": 1.06,
+      "company_name": "Microsoft Corp."
+    },
+    {
+      "symbol": "V",
+      "manager_id": "psc",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 3270470,
+      "portfolio_percentage": 5.76,
+      "company_name": "Visa Inc."
+    },
+    {
+      "symbol": "MA",
+      "manager_id": "psc",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 2124646,
+      "portfolio_percentage": 5.61,
+      "company_name": "Mastercard Inc."
+    },
+    {
+      "symbol": "SPGI",
+      "manager_id": "psc",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 2593155,
+      "portfolio_percentage": 5.43,
+      "company_name": "S&P Global Inc."
+    },
+    {
+      "symbol": "NFLX",
+      "manager_id": "psc",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 13081465,
+      "portfolio_percentage": 4.8,
+      "company_name": "Netflix Inc."
+    },
+    {
+      "symbol": "PSUS",
+      "manager_id": "psc",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 4000000,
+      "portfolio_percentage": 0.77,
+      "company_name": "Pershing Square Usa Ltd"
+    },
+    {
+      "symbol": "HTZ",
+      "manager_id": "psc",
+      "action": "Reduce 1.64%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 249528,
+      "portfolio_percentage": 0.0,
+      "company_name": "Hertz Global Hldgs Inc."
+    },
+    {
+      "symbol": "BN",
+      "manager_id": "psc",
+      "action": "Reduce 3.71%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 2216161,
+      "portfolio_percentage": 0.49,
+      "company_name": "Brookfield Corp."
+    },
+    {
+      "symbol": "AMZN",
+      "manager_id": "psc",
+      "action": "Reduce 25.22%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 2888124,
+      "portfolio_percentage": 3.54,
+      "company_name": "Amazon.com Inc."
+    },
+    {
+      "symbol": "GOOG",
+      "manager_id": "psc",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 311726,
+      "portfolio_percentage": 0.65,
+      "company_name": "Alphabet Inc. CL C"
+    },
+    {
+      "symbol": "GOOGL",
+      "manager_id": "psc",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 32376,
+      "portfolio_percentage": 0.07,
+      "company_name": "Alphabet Inc."
+    },
+    {
       "symbol": "AMZN",
       "manager_id": "psc",
       "action": "Add 19.19%",
@@ -4589,6 +4754,6 @@
       "company_name": "Staples Inc."
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.698515",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.663705",
+  "scraped_date": "2026-09-01"
 }

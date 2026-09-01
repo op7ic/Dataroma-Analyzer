@@ -2,6 +2,50 @@
   "manager_id": "PI",
   "activities": [
     {
+      "symbol": "RIG",
+      "manager_id": "PI",
+      "action": "Add 0.03%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 5987,
+      "portfolio_percentage": 0.01,
+      "company_name": "Transocean Ltd."
+    },
+    {
+      "symbol": "KSPI",
+      "manager_id": "PI",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 1702,
+      "portfolio_percentage": 0.04,
+      "company_name": "Jsc Kaspi.kz ADR"
+    },
+    {
+      "symbol": "HCC",
+      "manager_id": "PI",
+      "action": "Reduce 3.69%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 66781,
+      "portfolio_percentage": 1.66,
+      "company_name": "Warrior Met Coal Inc."
+    },
+    {
+      "symbol": "AMR",
+      "manager_id": "PI",
+      "action": "Reduce 10.79%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 62544,
+      "portfolio_percentage": 3.16,
+      "company_name": "Alpha Metallurgical Resources Inc."
+    },
+    {
       "symbol": "AMR",
       "manager_id": "PI",
       "action": "Add 6.77%",
@@ -3896,6 +3940,6 @@
       "company_name": "CryptoLogic Ltd."
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.959459",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.967249",
+  "scraped_date": "2026-09-01"
 }

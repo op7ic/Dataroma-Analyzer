@@ -508,7 +508,7 @@
       "company_name": "Progressive Corp."
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "MP",
       "action": "Sell 100.00%",
       "date": "Q1 2025",
@@ -629,7 +629,7 @@
       "company_name": "Progressive Corp."
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "MP",
       "action": "Reduce 56.93%",
       "date": "Q4 2024",
@@ -739,7 +739,7 @@
       "company_name": "CDW Corp."
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "MP",
       "action": "Reduce 6.85%",
       "date": "Q3 2024",
@@ -805,7 +805,7 @@
       "company_name": "HEICO Corp. CL A"
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "MP",
       "action": "Reduce 1.41%",
       "date": "Q2 2024",
@@ -992,7 +992,7 @@
       "company_name": "CDW Corp."
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "MP",
       "action": "Reduce 54.69%",
       "date": "Q1 2024",
@@ -1047,7 +1047,7 @@
       "company_name": "Charter Communications"
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "MP",
       "action": "Reduce 46.13%",
       "date": "Q4 2023",
@@ -1091,7 +1091,7 @@
       "company_name": "Zebra Technologies Corp."
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "MP",
       "action": "Add 2.08%",
       "date": "Q3 2023",
@@ -1234,7 +1234,7 @@
       "company_name": "Lamar Advertising Co."
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "MP",
       "action": "Add 1.79%",
       "date": "Q2 2023",
@@ -1300,7 +1300,7 @@
       "company_name": "Zebra Technologies Corp."
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "MP",
       "action": "Add 10.87%",
       "date": "Q1 2023",
@@ -1465,7 +1465,7 @@
       "company_name": "CarMax Inc."
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "MP",
       "action": "Add 2.65%",
       "date": "Q4 2022",
@@ -1564,7 +1564,7 @@
       "company_name": "CDW Corp."
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "MP",
       "action": "Add 52.26%",
       "date": "Q3 2022",
@@ -1729,6 +1729,6 @@
       "company_name": "Qurate Group Series A"
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.872127",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:54.117624",
+  "scraped_date": "2026-09-01"
 }

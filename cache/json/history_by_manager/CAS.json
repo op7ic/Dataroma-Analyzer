@@ -2,6 +2,83 @@
   "manager_id": "CAS",
   "activities": [
     {
+      "symbol": "META",
+      "manager_id": "CAS",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 136246,
+      "portfolio_percentage": 4.08,
+      "company_name": "Meta Platforms Inc."
+    },
+    {
+      "symbol": "VAC",
+      "manager_id": "CAS",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 400000,
+      "portfolio_percentage": 2.16,
+      "company_name": "Marriott Vacations Worldwide"
+    },
+    {
+      "symbol": "HGV",
+      "manager_id": "CAS",
+      "action": "Reduce 0.63%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 33035,
+      "portfolio_percentage": 0.09,
+      "company_name": "Hilton Grand Vacations Inc."
+    },
+    {
+      "symbol": "SWIM",
+      "manager_id": "CAS",
+      "action": "Reduce 0.64%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 5906,
+      "portfolio_percentage": 0.0,
+      "company_name": "Latham Group Inc"
+    },
+    {
+      "symbol": "CVNA",
+      "manager_id": "CAS",
+      "action": "Reduce 0.65%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 146885,
+      "portfolio_percentage": 0.51,
+      "company_name": "Carvana Co."
+    },
+    {
+      "symbol": "CDLX",
+      "manager_id": "CAS",
+      "action": "Reduce 9.39%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 48820,
+      "portfolio_percentage": 0.01,
+      "company_name": "Cardlytics Inc."
+    },
+    {
+      "symbol": "COF",
+      "manager_id": "CAS",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 575548,
+      "portfolio_percentage": 6.01,
+      "company_name": "Capital One Financial"
+    },
+    {
       "symbol": "HGV",
       "manager_id": "CAS",
       "action": "Reduce 1.46%",
@@ -1289,6 +1366,6 @@
       "company_name": "United Rentals"
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.795480",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.823230",
+  "scraped_date": "2026-09-01"
 }

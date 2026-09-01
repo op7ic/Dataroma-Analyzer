@@ -2,6 +2,171 @@
   "manager_id": "AC",
   "activities": [
     {
+      "symbol": "NOW",
+      "manager_id": "AC",
+      "action": "Add 13.68%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 150000,
+      "portfolio_percentage": 0.29,
+      "company_name": "ServiceNow Inc."
+    },
+    {
+      "symbol": "CSGP",
+      "manager_id": "AC",
+      "action": "Add 13.06%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 1351123,
+      "portfolio_percentage": 0.75,
+      "company_name": "CoStar Group Inc."
+    },
+    {
+      "symbol": "CPRT",
+      "manager_id": "AC",
+      "action": "Reduce 0.16%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 13130,
+      "portfolio_percentage": 0.01,
+      "company_name": "Copart Inc."
+    },
+    {
+      "symbol": "FICO",
+      "manager_id": "AC",
+      "action": "Reduce 0.53%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1939,
+      "portfolio_percentage": 0.05,
+      "company_name": "Fair Isaac Corp."
+    },
+    {
+      "symbol": "CCC",
+      "manager_id": "AC",
+      "action": "Reduce 5.25%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1654135,
+      "portfolio_percentage": 0.17,
+      "company_name": "CCC Intelligent Solutions Hldgs Inc."
+    },
+    {
+      "symbol": "ROP",
+      "manager_id": "AC",
+      "action": "Reduce 6.42%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 80670,
+      "portfolio_percentage": 0.53,
+      "company_name": "Roper Technologies Inc."
+    },
+    {
+      "symbol": "MCO",
+      "manager_id": "AC",
+      "action": "Reduce 7.16%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 89221,
+      "portfolio_percentage": 0.79,
+      "company_name": "Moody's Corp."
+    },
+    {
+      "symbol": "MA",
+      "manager_id": "AC",
+      "action": "Reduce 12.77%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 291200,
+      "portfolio_percentage": 2.93,
+      "company_name": "Mastercard Inc."
+    },
+    {
+      "symbol": "BRK.B",
+      "manager_id": "AC",
+      "action": "Reduce 20.84%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 2155,
+      "portfolio_percentage": 0.02,
+      "company_name": "Berkshire Hathaway CL B"
+    },
+    {
+      "symbol": "KKR",
+      "manager_id": "AC",
+      "action": "Reduce 25.85%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1736592,
+      "portfolio_percentage": 3.12,
+      "company_name": "KKR & Co. L.P."
+    },
+    {
+      "symbol": "BN",
+      "manager_id": "AC",
+      "action": "Reduce 28.82%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 4907150,
+      "portfolio_percentage": 4.09,
+      "company_name": "Brookfield Corp."
+    },
+    {
+      "symbol": "V",
+      "manager_id": "AC",
+      "action": "Reduce 32.21%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 527917,
+      "portfolio_percentage": 3.55,
+      "company_name": "Visa Inc."
+    },
+    {
+      "symbol": "ABNB",
+      "manager_id": "AC",
+      "action": "Reduce 41.82%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 850724,
+      "portfolio_percentage": 2.39,
+      "company_name": "Airbnb Inc."
+    },
+    {
+      "symbol": "AMT",
+      "manager_id": "AC",
+      "action": "Reduce 42.38%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 21518,
+      "portfolio_percentage": 0.07,
+      "company_name": "American Tower Corp."
+    },
+    {
+      "symbol": "ORLY",
+      "manager_id": "AC",
+      "action": "Reduce 44.37%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1723995,
+      "portfolio_percentage": 3.11,
+      "company_name": "O'Reilly Automotive"
+    },
+    {
       "symbol": "FICO",
       "manager_id": "AC",
       "action": "Add 31.11%",
@@ -10835,173 +11000,8 @@
       "shares": 2585,
       "portfolio_percentage": 0.01,
       "company_name": "American Tower Corp."
-    },
-    {
-      "symbol": "DLTR",
-      "manager_id": "AC",
-      "action": "Reduce 0.15%",
-      "date": "Q3 2012",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 2224,
-      "portfolio_percentage": 0.01,
-      "company_name": "Dollar Tree Inc."
-    },
-    {
-      "symbol": "NLY",
-      "manager_id": "AC",
-      "action": "Reduce 0.28%",
-      "date": "Q3 2012",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 1075,
-      "portfolio_percentage": 0.01,
-      "company_name": "Annaly Capital Management Inc."
-    },
-    {
-      "symbol": "BRK.B",
-      "manager_id": "AC",
-      "action": "Reduce 1.20%",
-      "date": "Q3 2012",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 3805,
-      "portfolio_percentage": 0.03,
-      "company_name": "Berkshire Hathaway CL B"
-    },
-    {
-      "symbol": "DTV",
-      "manager_id": "AC",
-      "action": "Reduce 19.35%",
-      "date": "Q3 2012",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 240000,
-      "portfolio_percentage": 0.99,
-      "company_name": "DIRECTV Group Inc."
-    },
-    {
-      "symbol": "SPIR",
-      "manager_id": "AC",
-      "action": "Reduce 20.33%",
-      "date": "Q3 2012",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 2800,
-      "portfolio_percentage": 0.01,
-      "company_name": "Spire Global Inc."
-    },
-    {
-      "symbol": "EPD",
-      "manager_id": "AC",
-      "action": "Reduce 21.33%",
-      "date": "Q3 2012",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 5550,
-      "portfolio_percentage": 0.01,
-      "company_name": "Enterprise Products Partners LP"
-    },
-    {
-      "symbol": "KMX",
-      "manager_id": "AC",
-      "action": "Reduce 37.53%",
-      "date": "Q3 2012",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 302498,
-      "portfolio_percentage": 0.67,
-      "company_name": "CarMax Inc."
-    },
-    {
-      "symbol": "LAMR",
-      "manager_id": "AC",
-      "action": "Reduce 41.44%",
-      "date": "Q3 2012",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 439612,
-      "portfolio_percentage": 1.29,
-      "company_name": "Lamar Advertising Co."
-    },
-    {
-      "symbol": "TROW",
-      "manager_id": "AC",
-      "action": "Reduce 89.81%",
-      "date": "Q3 2012",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 30000,
-      "portfolio_percentage": 0.18,
-      "company_name": "T. Rowe Price Group"
-    },
-    {
-      "symbol": "TJX",
-      "manager_id": "AC",
-      "action": "Reduce 95.73%",
-      "date": "Q3 2012",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 1860000,
-      "portfolio_percentage": 3.36,
-      "company_name": "TJX Companies Inc."
-    },
-    {
-      "symbol": "LPS",
-      "manager_id": "AC",
-      "action": "Sell 100.00%",
-      "date": "Q3 2012",
-      "percentage_change": 0.0,
-      "action_type": "Sell",
-      "shares": 115632,
-      "portfolio_percentage": 0.24,
-      "company_name": "Lender Processing Services Inc."
-    },
-    {
-      "symbol": "ONE-OLD",
-      "manager_id": "AC",
-      "action": "Sell 100.00%",
-      "date": "Q3 2012",
-      "percentage_change": 0.0,
-      "action_type": "Sell",
-      "shares": 90690,
-      "portfolio_percentage": 0.09,
-      "company_name": "Higher One Holdings Inc."
-    },
-    {
-      "symbol": "EPR",
-      "manager_id": "AC",
-      "action": "Sell 100.00%",
-      "date": "Q3 2012",
-      "percentage_change": 0.0,
-      "action_type": "Sell",
-      "shares": 5265,
-      "portfolio_percentage": 0.02,
-      "company_name": "EPR Properties"
-    },
-    {
-      "symbol": "JEF",
-      "manager_id": "AC",
-      "action": "Add 164.81%",
-      "date": "Q2 2012",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 995800,
-      "portfolio_percentage": 1.71,
-      "company_name": "Jefferies Financial Group Inc."
-    },
-    {
-      "symbol": "AAPL",
-      "manager_id": "AC",
-      "action": "Add 148.98%",
-      "date": "Q2 2012",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 588168,
-      "portfolio_percentage": 0.99,
-      "company_name": "Apple Inc."
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.889697",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.756527",
+  "scraped_date": "2026-09-01"
 }

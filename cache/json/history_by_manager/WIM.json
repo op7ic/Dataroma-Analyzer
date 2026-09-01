@@ -2,6 +2,391 @@
   "manager_id": "WIM",
   "activities": [
     {
+      "symbol": "VLTO",
+      "manager_id": "WIM",
+      "action": "Add 93.75%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 37500,
+      "portfolio_percentage": 0.23,
+      "company_name": "Veralto Corp."
+    },
+    {
+      "symbol": "RGEN",
+      "manager_id": "WIM",
+      "action": "Add 60.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 15300,
+      "portfolio_percentage": 0.15,
+      "company_name": "Repligen Corp."
+    },
+    {
+      "symbol": "IR",
+      "manager_id": "WIM",
+      "action": "Add 21.37%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 28470,
+      "portfolio_percentage": 0.16,
+      "company_name": "Ingersoll Rand Inc."
+    },
+    {
+      "symbol": "MLM",
+      "manager_id": "WIM",
+      "action": "Add 19.09%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 7595,
+      "portfolio_percentage": 0.3,
+      "company_name": "Martin Marietta"
+    },
+    {
+      "symbol": "MELI",
+      "manager_id": "WIM",
+      "action": "Add 15.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 1200,
+      "portfolio_percentage": 0.14,
+      "company_name": "Mercadolibre Inc."
+    },
+    {
+      "symbol": "HEI.A",
+      "manager_id": "WIM",
+      "action": "Add 8.20%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 15500,
+      "portfolio_percentage": 0.28,
+      "company_name": "HEICO Corp. CL A"
+    },
+    {
+      "symbol": "GPN",
+      "manager_id": "WIM",
+      "action": "Add 4.48%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 15000,
+      "portfolio_percentage": 0.08,
+      "company_name": "Global Payments Inc."
+    },
+    {
+      "symbol": "DHR",
+      "manager_id": "WIM",
+      "action": "Add 2.46%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 11750,
+      "portfolio_percentage": 0.16,
+      "company_name": "Danaher Corp."
+    },
+    {
+      "symbol": "EFX",
+      "manager_id": "WIM",
+      "action": "Add 2.33%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 4375,
+      "portfolio_percentage": 0.05,
+      "company_name": "Equifax Inc."
+    },
+    {
+      "symbol": "SPGI",
+      "manager_id": "WIM",
+      "action": "Add 1.42%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 100,
+      "portfolio_percentage": 0.0,
+      "company_name": "S&P Global Inc."
+    },
+    {
+      "symbol": "NFLX",
+      "manager_id": "WIM",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 147200,
+      "portfolio_percentage": 0.73,
+      "company_name": "Netflix Inc."
+    },
+    {
+      "symbol": "COF",
+      "manager_id": "WIM",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 40000,
+      "portfolio_percentage": 0.56,
+      "company_name": "Capital One Financial"
+    },
+    {
+      "symbol": "MTD",
+      "manager_id": "WIM",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 2550,
+      "portfolio_percentage": 0.23,
+      "company_name": "Mettler-Toledo International Inc."
+    },
+    {
+      "symbol": "MA",
+      "manager_id": "WIM",
+      "action": "Reduce 1.12%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1650,
+      "portfolio_percentage": 0.06,
+      "company_name": "Mastercard Inc."
+    },
+    {
+      "symbol": "LIN",
+      "manager_id": "WIM",
+      "action": "Reduce 1.39%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 100,
+      "portfolio_percentage": 0.0,
+      "company_name": "Linde plc"
+    },
+    {
+      "symbol": "AMZN",
+      "manager_id": "WIM",
+      "action": "Reduce 2.25%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 5000,
+      "portfolio_percentage": 0.08,
+      "company_name": "Amazon.com Inc."
+    },
+    {
+      "symbol": "BRK.B",
+      "manager_id": "WIM",
+      "action": "Reduce 2.60%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 7250,
+      "portfolio_percentage": 0.25,
+      "company_name": "Berkshire Hathaway CL B"
+    },
+    {
+      "symbol": "META",
+      "manager_id": "WIM",
+      "action": "Reduce 2.60%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 2750,
+      "portfolio_percentage": 0.11,
+      "company_name": "Meta Platforms Inc."
+    },
+    {
+      "symbol": "FTV",
+      "manager_id": "WIM",
+      "action": "Reduce 3.33%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 750,
+      "portfolio_percentage": 0.0,
+      "company_name": "Fortive Corp."
+    },
+    {
+      "symbol": "IEX",
+      "manager_id": "WIM",
+      "action": "Reduce 4.50%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 11900,
+      "portfolio_percentage": 0.19,
+      "company_name": "IDEX Corp."
+    },
+    {
+      "symbol": "TMO",
+      "manager_id": "WIM",
+      "action": "Reduce 4.79%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 5800,
+      "portfolio_percentage": 0.2,
+      "company_name": "Thermo Fisher Scientific"
+    },
+    {
+      "symbol": "LBRDA-OLD",
+      "manager_id": "WIM",
+      "action": "Reduce 4.81%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 6250,
+      "portfolio_percentage": 0.01,
+      "company_name": "Liberty Broadband Corp. CL A"
+    },
+    {
+      "symbol": "VMC",
+      "manager_id": "WIM",
+      "action": "Reduce 4.86%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 10400,
+      "portfolio_percentage": 0.21,
+      "company_name": "Vulcan Materials"
+    },
+    {
+      "symbol": "SIRI",
+      "manager_id": "WIM",
+      "action": "Reduce 8.12%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 105000,
+      "portfolio_percentage": 0.21,
+      "company_name": "SiriusXM Holdings Inc"
+    },
+    {
+      "symbol": "MSFT",
+      "manager_id": "WIM",
+      "action": "Reduce 9.59%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 16250,
+      "portfolio_percentage": 0.42,
+      "company_name": "Microsoft Corp."
+    },
+    {
+      "symbol": "PRM",
+      "manager_id": "WIM",
+      "action": "Reduce 11.50%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 58583,
+      "portfolio_percentage": 0.14,
+      "company_name": "Perimeter Solutions SA"
+    },
+    {
+      "symbol": "TECH",
+      "manager_id": "WIM",
+      "action": "Reduce 16.84%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 110000,
+      "portfolio_percentage": 0.54,
+      "company_name": "Bio-Techne Corp."
+    },
+    {
+      "symbol": "GOOG",
+      "manager_id": "WIM",
+      "action": "Reduce 17.95%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 58650,
+      "portfolio_percentage": 1.44,
+      "company_name": "Alphabet Inc. CL C"
+    },
+    {
+      "symbol": "CSGP",
+      "manager_id": "WIM",
+      "action": "Reduce 18.15%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 93844,
+      "portfolio_percentage": 0.18,
+      "company_name": "CoStar Group Inc."
+    },
+    {
+      "symbol": "ADI",
+      "manager_id": "WIM",
+      "action": "Reduce 19.86%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 21125,
+      "portfolio_percentage": 0.58,
+      "company_name": "Analog Devices"
+    },
+    {
+      "symbol": "ACN",
+      "manager_id": "WIM",
+      "action": "Reduce 29.88%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 51000,
+      "portfolio_percentage": 0.44,
+      "company_name": "Accenture"
+    },
+    {
+      "symbol": "CRM",
+      "manager_id": "WIM",
+      "action": "Reduce 39.51%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 32200,
+      "portfolio_percentage": 0.35,
+      "company_name": "Salesforce.com"
+    },
+    {
+      "symbol": "TXN",
+      "manager_id": "WIM",
+      "action": "Reduce 51.34%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 82200,
+      "portfolio_percentage": 1.7,
+      "company_name": "Texas Instruments"
+    },
+    {
+      "symbol": "ODFL",
+      "manager_id": "WIM",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 132000,
+      "portfolio_percentage": 1.8,
+      "company_name": "Old Dominion Freight Line"
+    },
+    {
+      "symbol": "CDW",
+      "manager_id": "WIM",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 36250,
+      "portfolio_percentage": 0.31,
+      "company_name": "CDW Corp."
+    },
+    {
       "symbol": "MELI",
       "manager_id": "WIM",
       "action": "Add 116.22%",
@@ -299,7 +684,7 @@
       "company_name": "Danaher Corp."
     },
     {
-      "symbol": "LBRDA",
+      "symbol": "LBRDA-OLD",
       "manager_id": "WIM",
       "action": "Reduce 7.14%",
       "date": "Q1 2026",
@@ -332,7 +717,7 @@
       "company_name": "Thermo Fisher Scientific"
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "WIM",
       "action": "Reduce 11.52%",
       "date": "Q1 2026",
@@ -508,7 +893,7 @@
       "company_name": "CDW Corp."
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "WIM",
       "action": "Add 30.07%",
       "date": "Q4 2025",
@@ -1300,7 +1685,7 @@
       "company_name": "SiriusXM Holdings Inc"
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "WIM",
       "action": "Reduce 5.66%",
       "date": "Q2 2025",
@@ -2565,7 +2950,7 @@
       "company_name": "Charter Communications"
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "WIM",
       "action": "Reduce 13.10%",
       "date": "Q2 2024",
@@ -2906,7 +3291,7 @@
       "company_name": "Berkshire Hathaway CL B"
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "WIM",
       "action": "Reduce 10.94%",
       "date": "Q1 2024",
@@ -3104,7 +3489,7 @@
       "company_name": "CarMax Inc."
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "WIM",
       "action": "Add 3.01%",
       "date": "Q4 2023",
@@ -3709,7 +4094,7 @@
       "company_name": "Liberty LiLAC Group C"
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "WIM",
       "action": "Reduce 16.71%",
       "date": "Q3 2023",
@@ -3731,7 +4116,7 @@
       "company_name": "Fidelity National Information Services"
     },
     {
-      "symbol": "LBRDA",
+      "symbol": "LBRDA-OLD",
       "manager_id": "WIM",
       "action": "Reduce 26.32%",
       "date": "Q3 2023",
@@ -3841,7 +4226,7 @@
       "company_name": "Amazon.com Inc."
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "WIM",
       "action": "Add 6.33%",
       "date": "Q2 2023",
@@ -4204,6 +4589,6 @@
       "company_name": "Ingersoll Rand Inc."
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.928709",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.973349",
+  "scraped_date": "2026-09-01"
 }

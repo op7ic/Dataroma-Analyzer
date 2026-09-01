@@ -2,6 +2,171 @@
   "manager_id": "BRK",
   "activities": [
     {
+      "symbol": "GOOG",
+      "manager_id": "BRK",
+      "action": "Add 658.35%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 23603218,
+      "portfolio_percentage": 2.79,
+      "company_name": "Alphabet Inc. CL C"
+    },
+    {
+      "symbol": "M",
+      "manager_id": "BRK",
+      "action": "Add 141.82%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 4309071,
+      "portfolio_percentage": 0.04,
+      "company_name": "Macy's Inc."
+    },
+    {
+      "symbol": "GOOGL",
+      "manager_id": "BRK",
+      "action": "Add 45.24%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 24541369,
+      "portfolio_percentage": 2.93,
+      "company_name": "Alphabet Inc."
+    },
+    {
+      "symbol": "DAL",
+      "manager_id": "BRK",
+      "action": "Add 43.99%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 17510544,
+      "portfolio_percentage": 0.55,
+      "company_name": "Delta Air Lines Inc."
+    },
+    {
+      "symbol": "LEN",
+      "manager_id": "BRK",
+      "action": "Add 29.82%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 3012099,
+      "portfolio_percentage": 0.09,
+      "company_name": "Lennar Corp."
+    },
+    {
+      "symbol": "LEN.B",
+      "manager_id": "BRK",
+      "action": "Add 25.42%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 60414,
+      "portfolio_percentage": 0.0,
+      "company_name": "Lennar Corp. CL B"
+    },
+    {
+      "symbol": "NYT",
+      "manager_id": "BRK",
+      "action": "Add 3.65%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 553465,
+      "portfolio_percentage": 0.01,
+      "company_name": "New York Times CL A"
+    },
+    {
+      "symbol": "DHI",
+      "manager_id": "BRK",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 3564,
+      "portfolio_percentage": 0.0,
+      "company_name": "D.R. Horton"
+    },
+    {
+      "symbol": "DVA",
+      "manager_id": "BRK",
+      "action": "Reduce 4.05%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1220376,
+      "portfolio_percentage": 0.09,
+      "company_name": "DaVita HealthCare Partners"
+    },
+    {
+      "symbol": "BAC",
+      "manager_id": "BRK",
+      "action": "Reduce 5.89%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 30230150,
+      "portfolio_percentage": 0.58,
+      "company_name": "Bank of America Corp."
+    },
+    {
+      "symbol": "ALLY",
+      "manager_id": "BRK",
+      "action": "Reduce 6.90%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 2000000,
+      "portfolio_percentage": 0.03,
+      "company_name": "Ally Financial Inc."
+    },
+    {
+      "symbol": "KR",
+      "manager_id": "BRK",
+      "action": "Reduce 22.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 11000000,
+      "portfolio_percentage": 0.2,
+      "company_name": "Kroger Co."
+    },
+    {
+      "symbol": "NUE",
+      "manager_id": "BRK",
+      "action": "Reduce 52.45%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 2049323,
+      "portfolio_percentage": 0.15,
+      "company_name": "Nucor Corp."
+    },
+    {
+      "symbol": "COF",
+      "manager_id": "BRK",
+      "action": "Reduce 58.04%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 4150000,
+      "portfolio_percentage": 0.28,
+      "company_name": "Capital One Financial"
+    },
+    {
+      "symbol": "STZ",
+      "manager_id": "BRK",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 632890,
+      "portfolio_percentage": 0.04,
+      "company_name": "Constellation Brands"
+    },
+    {
       "symbol": "GOOGL",
       "manager_id": "BRK",
       "action": "Add 203.99%",
@@ -10835,173 +11000,8 @@
       "shares": 461969,
       "portfolio_percentage": 0.02,
       "company_name": "Gannett Co."
-    },
-    {
-      "symbol": "MDLZ",
-      "manager_id": "BRK",
-      "action": "Reduce 22.81%",
-      "date": "Q1 2010",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 31537755,
-      "portfolio_percentage": 1.87,
-      "company_name": "Mondelez International"
-    },
-    {
-      "symbol": "ELV",
-      "manager_id": "BRK",
-      "action": "Sell 100.00%",
-      "date": "Q1 2010",
-      "percentage_change": 0.0,
-      "action_type": "Sell",
-      "shares": 1343820,
-      "portfolio_percentage": 0.14,
-      "company_name": "Elevance Health Inc."
-    },
-    {
-      "symbol": "STI",
-      "manager_id": "BRK",
-      "action": "Sell 100.00%",
-      "date": "Q1 2010",
-      "percentage_change": 0.0,
-      "action_type": "Sell",
-      "shares": 47965,
-      "portfolio_percentage": 0.08,
-      "company_name": "SunTrust Banks"
-    },
-    {
-      "symbol": "UNH",
-      "manager_id": "BRK",
-      "action": "Sell 100.00%",
-      "date": "Q1 2010",
-      "percentage_change": 0.0,
-      "action_type": "Sell",
-      "shares": 1175000,
-      "portfolio_percentage": 0.06,
-      "company_name": "United Health Group Inc."
-    },
-    {
-      "symbol": "TRV",
-      "manager_id": "BRK",
-      "action": "Sell 100.00%",
-      "date": "Q1 2010",
-      "percentage_change": 0.0,
-      "action_type": "Sell",
-      "shares": 27336,
-      "portfolio_percentage": 0.0,
-      "company_name": "Travelers Companies Inc."
-    },
-    {
-      "symbol": "RSG",
-      "manager_id": "BRK",
-      "action": "Add 128.70%",
-      "date": "Q4 2009",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 4665500,
-      "portfolio_percentage": 0.23,
-      "company_name": "Republic Services"
-    },
-    {
-      "symbol": "IRM",
-      "manager_id": "BRK",
-      "action": "Add 107.58%",
-      "date": "Q4 2009",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 3627800,
-      "portfolio_percentage": 0.15,
-      "company_name": "Iron Mountain Inc."
-    },
-    {
-      "symbol": "BDX",
-      "manager_id": "BRK",
-      "action": "Add 25.00%",
-      "date": "Q4 2009",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 300000,
-      "portfolio_percentage": 0.04,
-      "company_name": "Becton Dickinson"
-    },
-    {
-      "symbol": "WMT",
-      "manager_id": "BRK",
-      "action": "Add 3.17%",
-      "date": "Q4 2009",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 3601500,
-      "portfolio_percentage": 0.11,
-      "company_name": "Walmart Inc."
-    },
-    {
-      "symbol": "WFC",
-      "manager_id": "BRK",
-      "action": "Add 2.15%",
-      "date": "Q4 2009",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 6732728,
-      "portfolio_percentage": 0.31,
-      "company_name": "Wells Fargo"
-    },
-    {
-      "symbol": "PG",
-      "manager_id": "BRK",
-      "action": "Reduce 9.15%",
-      "date": "Q4 2009",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 8812599,
-      "portfolio_percentage": 0.92,
-      "company_name": "Procter & Gamble"
-    },
-    {
-      "symbol": "KMX",
-      "manager_id": "BRK",
-      "action": "Reduce 11.11%",
-      "date": "Q4 2009",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 1000000,
-      "portfolio_percentage": 0.04,
-      "company_name": "CarMax Inc."
-    },
-    {
-      "symbol": "MCO",
-      "manager_id": "BRK",
-      "action": "Reduce 18.88%",
-      "date": "Q4 2009",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 7404702,
-      "portfolio_percentage": 0.34,
-      "company_name": "Moody's Corp."
-    },
-    {
-      "symbol": "STI",
-      "manager_id": "BRK",
-      "action": "Reduce 22.13%",
-      "date": "Q4 2009",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 13632,
-      "portfolio_percentage": 0.02,
-      "company_name": "SunTrust Banks"
-    },
-    {
-      "symbol": "JNJ",
-      "manager_id": "BRK",
-      "action": "Reduce 26.50%",
-      "date": "Q4 2009",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 9782166,
-      "portfolio_percentage": 1.09,
-      "company_name": "Johnson & Johnson"
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.736983",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.798105",
+  "scraped_date": "2026-09-01"
 }

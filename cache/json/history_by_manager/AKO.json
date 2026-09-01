@@ -2,6 +2,303 @@
   "manager_id": "AKO",
   "activities": [
     {
+      "symbol": "CPRT",
+      "manager_id": "AKO",
+      "action": "Add 139.57%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 382509,
+      "portfolio_percentage": 0.25,
+      "company_name": "Copart Inc."
+    },
+    {
+      "symbol": "APD",
+      "manager_id": "AKO",
+      "action": "Add 137.13%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 320003,
+      "portfolio_percentage": 2.19,
+      "company_name": "Air Products & Chemicals"
+    },
+    {
+      "symbol": "SUNB",
+      "manager_id": "AKO",
+      "action": "Add 90.72%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 2889533,
+      "portfolio_percentage": 5.04,
+      "company_name": "Sunbelt Rentals Holdings Inc"
+    },
+    {
+      "symbol": "MA",
+      "manager_id": "AKO",
+      "action": "Add 22.08%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 34349,
+      "portfolio_percentage": 0.41,
+      "company_name": "Mastercard Inc."
+    },
+    {
+      "symbol": "ALC",
+      "manager_id": "AKO",
+      "action": "Add 3.84%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 358348,
+      "portfolio_percentage": 0.56,
+      "company_name": "Alcon Inc."
+    },
+    {
+      "symbol": "RACE",
+      "manager_id": "AKO",
+      "action": "Reduce 4.33%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 40163,
+      "portfolio_percentage": 0.35,
+      "company_name": "Ferrari NV"
+    },
+    {
+      "symbol": "CSL",
+      "manager_id": "AKO",
+      "action": "Reduce 4.95%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 9963,
+      "portfolio_percentage": 0.08,
+      "company_name": "Carlisle Companies"
+    },
+    {
+      "symbol": "CP",
+      "manager_id": "AKO",
+      "action": "Reduce 11.71%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 321768,
+      "portfolio_percentage": 0.65,
+      "company_name": "Canadian Pacific Kansas City"
+    },
+    {
+      "symbol": "MSFT",
+      "manager_id": "AKO",
+      "action": "Reduce 14.55%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 106990,
+      "portfolio_percentage": 0.93,
+      "company_name": "Microsoft Corp."
+    },
+    {
+      "symbol": "MCO",
+      "manager_id": "AKO",
+      "action": "Reduce 16.23%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 82904,
+      "portfolio_percentage": 0.88,
+      "company_name": "Moody's Corp."
+    },
+    {
+      "symbol": "WMB",
+      "manager_id": "AKO",
+      "action": "Reduce 16.32%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 289793,
+      "portfolio_percentage": 0.5,
+      "company_name": "Williams Cos."
+    },
+    {
+      "symbol": "V",
+      "manager_id": "AKO",
+      "action": "Reduce 17.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 201805,
+      "portfolio_percentage": 1.61,
+      "company_name": "Visa Inc."
+    },
+    {
+      "symbol": "FICO",
+      "manager_id": "AKO",
+      "action": "Reduce 18.55%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 23593,
+      "portfolio_percentage": 0.66,
+      "company_name": "Fair Isaac Corp."
+    },
+    {
+      "symbol": "GE",
+      "manager_id": "AKO",
+      "action": "Reduce 22.61%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 225430,
+      "portfolio_percentage": 1.96,
+      "company_name": "GE Aerospace"
+    },
+    {
+      "symbol": "AMZN",
+      "manager_id": "AKO",
+      "action": "Reduce 34.04%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 589335,
+      "portfolio_percentage": 3.27,
+      "company_name": "Amazon.com Inc."
+    },
+    {
+      "symbol": "CSCO",
+      "manager_id": "AKO",
+      "action": "Reduce 35.22%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1072009,
+      "portfolio_percentage": 2.94,
+      "company_name": "Cisco Systems"
+    },
+    {
+      "symbol": "ADI",
+      "manager_id": "AKO",
+      "action": "Reduce 40.08%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 412642,
+      "portfolio_percentage": 3.82,
+      "company_name": "Analog Devices"
+    },
+    {
+      "symbol": "ICE",
+      "manager_id": "AKO",
+      "action": "Reduce 46.27%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 864039,
+      "portfolio_percentage": 2.48,
+      "company_name": "Intercontinental Exchange Inc."
+    },
+    {
+      "symbol": "LIN",
+      "manager_id": "AKO",
+      "action": "Reduce 51.88%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 69842,
+      "portfolio_percentage": 0.84,
+      "company_name": "Linde plc"
+    },
+    {
+      "symbol": "EFX",
+      "manager_id": "AKO",
+      "action": "Reduce 66.70%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 269335,
+      "portfolio_percentage": 1.0,
+      "company_name": "Equifax Inc."
+    },
+    {
+      "symbol": "WAT",
+      "manager_id": "AKO",
+      "action": "Reduce 75.11%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 613573,
+      "portfolio_percentage": 5.37,
+      "company_name": "Waters Corp."
+    },
+    {
+      "symbol": "SYK",
+      "manager_id": "AKO",
+      "action": "Reduce 91.75%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 229259,
+      "portfolio_percentage": 1.67,
+      "company_name": "Stryker Corp."
+    },
+    {
+      "symbol": "BKNG",
+      "manager_id": "AKO",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 1248075,
+      "portfolio_percentage": 4.11,
+      "company_name": "Booking Holdings Inc."
+    },
+    {
+      "symbol": "CRM",
+      "manager_id": "AKO",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 354805,
+      "portfolio_percentage": 1.3,
+      "company_name": "Salesforce.com"
+    },
+    {
+      "symbol": "FLUT",
+      "manager_id": "AKO",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 487027,
+      "portfolio_percentage": 0.97,
+      "company_name": "Flutter Entertainment Plc"
+    },
+    {
+      "symbol": "MRSH",
+      "manager_id": "AKO",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 261527,
+      "portfolio_percentage": 0.89,
+      "company_name": "Marsh"
+    },
+    {
+      "symbol": "RELX",
+      "manager_id": "AKO",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 23447,
+      "portfolio_percentage": 0.02,
+      "company_name": "RELX plc"
+    },
+    {
       "symbol": "LIN",
       "manager_id": "AKO",
       "action": "Add 899.04%",
@@ -8054,6 +8351,6 @@
       "company_name": "Fair Isaac Corp."
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.840982",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.998023",
+  "scraped_date": "2026-09-01"
 }

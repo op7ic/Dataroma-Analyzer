@@ -2,6 +2,72 @@
   "manager_id": "ENG",
   "activities": [
     {
+      "symbol": "GXO",
+      "manager_id": "ENG",
+      "action": "Add 19.84%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 163000,
+      "portfolio_percentage": 2.56,
+      "company_name": "Gxo Logistics Inc."
+    },
+    {
+      "symbol": "FRPT",
+      "manager_id": "ENG",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 484741,
+      "portfolio_percentage": 8.87,
+      "company_name": "Freshpet Inc."
+    },
+    {
+      "symbol": "VFC",
+      "manager_id": "ENG",
+      "action": "Reduce 3.36%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 157095,
+      "portfolio_percentage": 0.81,
+      "company_name": "V.F. Corp."
+    },
+    {
+      "symbol": "CGNX",
+      "manager_id": "ENG",
+      "action": "Reduce 29.96%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 145000,
+      "portfolio_percentage": 3.25,
+      "company_name": "Cognex Corp."
+    },
+    {
+      "symbol": "YETI",
+      "manager_id": "ENG",
+      "action": "Reduce 33.07%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 590000,
+      "portfolio_percentage": 9.06,
+      "company_name": "YETI Holdings Inc."
+    },
+    {
+      "symbol": "BL",
+      "manager_id": "ENG",
+      "action": "Reduce 39.48%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 540000,
+      "portfolio_percentage": 4.69,
+      "company_name": "BlackLine Inc."
+    },
+    {
       "symbol": "PTLO",
       "manager_id": "ENG",
       "action": "Add 124.30%",
@@ -206,7 +272,7 @@
       "date": "Q3 2025",
       "percentage_change": 0.0,
       "action_type": "Add",
-      "shares": 400000,
+      "shares": 40000,
       "portfolio_percentage": 0.15,
       "company_name": "BRC Inc."
     },
@@ -580,7 +646,7 @@
       "date": "Q3 2024",
       "percentage_change": 0.0,
       "action_type": "Add",
-      "shares": 684542,
+      "shares": 68454,
       "portfolio_percentage": 0.38,
       "company_name": "BRC Inc."
     },
@@ -833,7 +899,7 @@
       "date": "Q4 2023",
       "percentage_change": 0.0,
       "action_type": "Add",
-      "shares": 400000,
+      "shares": 40000,
       "portfolio_percentage": 0.21,
       "company_name": "BRC Inc."
     },
@@ -987,7 +1053,7 @@
       "date": "Q3 2023",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 900432,
+      "shares": 90044,
       "portfolio_percentage": 0.59,
       "company_name": "BRC Inc."
     },
@@ -1262,7 +1328,7 @@
       "date": "Q4 2022",
       "percentage_change": 0.0,
       "action_type": "Add",
-      "shares": 100000,
+      "shares": 10000,
       "portfolio_percentage": 0.1,
       "company_name": "BRC Inc."
     },
@@ -1317,7 +1383,7 @@
       "date": "Q3 2022",
       "percentage_change": 0.0,
       "action_type": "Add",
-      "shares": 2126450,
+      "shares": 212645,
       "portfolio_percentage": 3.25,
       "company_name": "BRC Inc."
     },
@@ -1416,7 +1482,7 @@
       "date": "Q2 2022",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 4900000,
+      "shares": 490000,
       "portfolio_percentage": 6.14,
       "company_name": "BRC Inc."
     },
@@ -1438,7 +1504,7 @@
       "date": "Q1 2022",
       "percentage_change": 0.0,
       "action_type": "Add",
-      "shares": 14591012,
+      "shares": 1459101,
       "portfolio_percentage": 30.84,
       "company_name": "BRC Inc."
     },
@@ -1537,7 +1603,7 @@
       "date": "Q4 2021",
       "percentage_change": 0.0,
       "action_type": "Buy",
-      "shares": 1433988,
+      "shares": 143398,
       "portfolio_percentage": 1.79,
       "company_name": "BRC Inc."
     },
@@ -2191,6 +2257,6 @@
       "company_name": "Del Frisco's Restaurant Group"
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.793506",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.807849",
+  "scraped_date": "2026-09-01"
 }

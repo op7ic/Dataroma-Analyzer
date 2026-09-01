@@ -4,6 +4,39 @@
     {
       "symbol": "GPI",
       "manager_id": "CM",
+      "action": "Add 28.07%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 211968,
+      "portfolio_percentage": 10.17,
+      "company_name": "Group 1 Automotive"
+    },
+    {
+      "symbol": "AIIR",
+      "manager_id": "CM",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 9666791,
+      "portfolio_percentage": 10.61,
+      "company_name": "Air Holdings Ltd"
+    },
+    {
+      "symbol": "LAD",
+      "manager_id": "CM",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 212000,
+      "portfolio_percentage": 10.11,
+      "company_name": "Lithia Motors Inc."
+    },
+    {
+      "symbol": "GPI",
+      "manager_id": "CM",
       "action": "Add 32.83%",
       "date": "Q1 2026",
       "percentage_change": 0.0,
@@ -1520,6 +1553,6 @@
       "company_name": "Alibaba Group Holdings"
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.876344",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.916333",
+  "scraped_date": "2026-09-01"
 }

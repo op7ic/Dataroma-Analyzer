@@ -2,6 +2,1205 @@
   "manager_id": "DAV",
   "activities": [
     {
+      "symbol": "JAN",
+      "manager_id": "DAV",
+      "action": "Add 250.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 25000,
+      "portfolio_percentage": 0.0,
+      "company_name": "Janus Living Inc Cl A 1"
+    },
+    {
+      "symbol": "JBS",
+      "manager_id": "DAV",
+      "action": "Add 90.58%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 23771576,
+      "portfolio_percentage": 1.21,
+      "company_name": "Jbs Nv A"
+    },
+    {
+      "symbol": "ESS",
+      "manager_id": "DAV",
+      "action": "Add 70.04%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 11740,
+      "portfolio_percentage": 0.02,
+      "company_name": "Essex Property Trust"
+    },
+    {
+      "symbol": "LYB",
+      "manager_id": "DAV",
+      "action": "Add 55.43%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 3102264,
+      "portfolio_percentage": 0.7,
+      "company_name": "LyondellBasell Industries"
+    },
+    {
+      "symbol": "ADBE",
+      "manager_id": "DAV",
+      "action": "Add 50.41%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 22755,
+      "portfolio_percentage": 0.02,
+      "company_name": "Adobe Inc."
+    },
+    {
+      "symbol": "FRMI",
+      "manager_id": "DAV",
+      "action": "Add 47.65%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 145670,
+      "portfolio_percentage": 0.01,
+      "company_name": "Fermi Inc."
+    },
+    {
+      "symbol": "NTES",
+      "manager_id": "DAV",
+      "action": "Add 45.01%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 190243,
+      "portfolio_percentage": 0.11,
+      "company_name": "NetEase.com Inc."
+    },
+    {
+      "symbol": "NVDA",
+      "manager_id": "DAV",
+      "action": "Add 36.26%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 41171,
+      "portfolio_percentage": 0.03,
+      "company_name": "NVIDIA Corp."
+    },
+    {
+      "symbol": "TCOM",
+      "manager_id": "DAV",
+      "action": "Add 33.66%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 2206259,
+      "portfolio_percentage": 0.38,
+      "company_name": "Trip.com Group Ltd"
+    },
+    {
+      "symbol": "AMZN",
+      "manager_id": "DAV",
+      "action": "Add 24.84%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 850924,
+      "portfolio_percentage": 0.87,
+      "company_name": "Amazon.com Inc."
+    },
+    {
+      "symbol": "MSFT",
+      "manager_id": "DAV",
+      "action": "Add 18.45%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 14484,
+      "portfolio_percentage": 0.02,
+      "company_name": "Microsoft Corp."
+    },
+    {
+      "symbol": "AMH",
+      "manager_id": "DAV",
+      "action": "Add 17.47%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 48420,
+      "portfolio_percentage": 0.01,
+      "company_name": "American Homes 4 Rent"
+    },
+    {
+      "symbol": "SE",
+      "manager_id": "DAV",
+      "action": "Add 8.76%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 161981,
+      "portfolio_percentage": 0.07,
+      "company_name": "Sea Ltd"
+    },
+    {
+      "symbol": "MKL",
+      "manager_id": "DAV",
+      "action": "Add 6.08%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 23326,
+      "portfolio_percentage": 0.2,
+      "company_name": "Markel Group Inc."
+    },
+    {
+      "symbol": "UNH",
+      "manager_id": "DAV",
+      "action": "Add 2.18%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 27174,
+      "portfolio_percentage": 0.05,
+      "company_name": "United Health Group Inc."
+    },
+    {
+      "symbol": "PINS",
+      "manager_id": "DAV",
+      "action": "Add 1.41%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 174620,
+      "portfolio_percentage": 0.02,
+      "company_name": "Pinterest Inc."
+    },
+    {
+      "symbol": "CI",
+      "manager_id": "DAV",
+      "action": "Add 0.87%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 19495,
+      "portfolio_percentage": 0.02,
+      "company_name": "Cigna Group"
+    },
+    {
+      "symbol": "COP",
+      "manager_id": "DAV",
+      "action": "Add 0.11%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 2155,
+      "portfolio_percentage": 0.0,
+      "company_name": "ConocoPhillips"
+    },
+    {
+      "symbol": "DVN",
+      "manager_id": "DAV",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 25297991,
+      "portfolio_percentage": 4.49,
+      "company_name": "Devon Energy Corp."
+    },
+    {
+      "symbol": "SBAC",
+      "manager_id": "DAV",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 40700,
+      "portfolio_percentage": 0.03,
+      "company_name": "SBA Communications Corp."
+    },
+    {
+      "symbol": "JD",
+      "manager_id": "DAV",
+      "action": "Reduce 0.05%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 138,
+      "portfolio_percentage": 0.0,
+      "company_name": "JD.com Inc."
+    },
+    {
+      "symbol": "VALE",
+      "manager_id": "DAV",
+      "action": "Reduce 0.05%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1348,
+      "portfolio_percentage": 0.0,
+      "company_name": "Vale SA"
+    },
+    {
+      "symbol": "BEKE",
+      "manager_id": "DAV",
+      "action": "Reduce 0.06%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1022,
+      "portfolio_percentage": 0.0,
+      "company_name": "KE Holdings Inc."
+    },
+    {
+      "symbol": "SOLV",
+      "manager_id": "DAV",
+      "action": "Reduce 0.36%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 22596,
+      "portfolio_percentage": 0.01,
+      "company_name": "Solventum Corp"
+    },
+    {
+      "symbol": "PPLI",
+      "manager_id": "DAV",
+      "action": "Reduce 0.80%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 19223,
+      "portfolio_percentage": 0.0,
+      "company_name": "People Inc."
+    },
+    {
+      "symbol": "JLL",
+      "manager_id": "DAV",
+      "action": "Reduce 0.81%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 100,
+      "portfolio_percentage": 0.0,
+      "company_name": "Jones Lang Lasalle Inc."
+    },
+    {
+      "symbol": "CBRE",
+      "manager_id": "DAV",
+      "action": "Reduce 0.86%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 220,
+      "portfolio_percentage": 0.0,
+      "company_name": "CBRE Group"
+    },
+    {
+      "symbol": "OC",
+      "manager_id": "DAV",
+      "action": "Reduce 0.94%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 19722,
+      "portfolio_percentage": 0.01,
+      "company_name": "Owens Corning"
+    },
+    {
+      "symbol": "AGCO",
+      "manager_id": "DAV",
+      "action": "Reduce 1.35%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 28155,
+      "portfolio_percentage": 0.01,
+      "company_name": "AGCO Corp."
+    },
+    {
+      "symbol": "BRK.B",
+      "manager_id": "DAV",
+      "action": "Reduce 1.52%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 11413,
+      "portfolio_percentage": 0.02,
+      "company_name": "Berkshire Hathaway CL B"
+    },
+    {
+      "symbol": "MGM",
+      "manager_id": "DAV",
+      "action": "Reduce 1.61%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 392021,
+      "portfolio_percentage": 0.08,
+      "company_name": "MGM Resorts International"
+    },
+    {
+      "symbol": "ANGI",
+      "manager_id": "DAV",
+      "action": "Reduce 1.72%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 16340,
+      "portfolio_percentage": 0.0,
+      "company_name": "Angi Inc."
+    },
+    {
+      "symbol": "AMT",
+      "manager_id": "DAV",
+      "action": "Reduce 2.12%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1370,
+      "portfolio_percentage": 0.0,
+      "company_name": "American Tower Corp."
+    },
+    {
+      "symbol": "EXR",
+      "manager_id": "DAV",
+      "action": "Reduce 2.13%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 600,
+      "portfolio_percentage": 0.0,
+      "company_name": "Extra Space Storage Inc."
+    },
+    {
+      "symbol": "CPT",
+      "manager_id": "DAV",
+      "action": "Reduce 2.15%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1890,
+      "portfolio_percentage": 0.0,
+      "company_name": "Camden Property Trust"
+    },
+    {
+      "symbol": "HPP",
+      "manager_id": "DAV",
+      "action": "Reduce 2.15%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 6940,
+      "portfolio_percentage": 0.0,
+      "company_name": "Hudson Pacific Properties Inc."
+    },
+    {
+      "symbol": "VTR",
+      "manager_id": "DAV",
+      "action": "Reduce 2.15%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 2450,
+      "portfolio_percentage": 0.0,
+      "company_name": "Ventas Inc."
+    },
+    {
+      "symbol": "CUBE",
+      "manager_id": "DAV",
+      "action": "Reduce 2.16%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1990,
+      "portfolio_percentage": 0.0,
+      "company_name": "CubeSmart"
+    },
+    {
+      "symbol": "DEI",
+      "manager_id": "DAV",
+      "action": "Reduce 2.16%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 6670,
+      "portfolio_percentage": 0.0,
+      "company_name": "Douglas Emmett Inc."
+    },
+    {
+      "symbol": "BXP",
+      "manager_id": "DAV",
+      "action": "Reduce 2.17%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 5140,
+      "portfolio_percentage": 0.0,
+      "company_name": "BXP Inc."
+    },
+    {
+      "symbol": "CDP",
+      "manager_id": "DAV",
+      "action": "Reduce 2.17%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 6500,
+      "portfolio_percentage": 0.0,
+      "company_name": "Copt Defense Properties"
+    },
+    {
+      "symbol": "CHCT",
+      "manager_id": "DAV",
+      "action": "Reduce 2.17%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 7150,
+      "portfolio_percentage": 0.0,
+      "company_name": "Community Healthcare Trust Inc."
+    },
+    {
+      "symbol": "EGP",
+      "manager_id": "DAV",
+      "action": "Reduce 2.18%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1140,
+      "portfolio_percentage": 0.0,
+      "company_name": "EastGroup Properties SBI"
+    },
+    {
+      "symbol": "TRNO",
+      "manager_id": "DAV",
+      "action": "Reduce 2.18%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 2470,
+      "portfolio_percentage": 0.0,
+      "company_name": "Terreno Realty Corp."
+    },
+    {
+      "symbol": "CUZ",
+      "manager_id": "DAV",
+      "action": "Reduce 2.19%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 12860,
+      "portfolio_percentage": 0.0,
+      "company_name": "Cousins Properties"
+    },
+    {
+      "symbol": "SUI",
+      "manager_id": "DAV",
+      "action": "Reduce 2.19%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 950,
+      "portfolio_percentage": 0.0,
+      "company_name": "Sun Communities Inc."
+    },
+    {
+      "symbol": "VICI",
+      "manager_id": "DAV",
+      "action": "Reduce 2.19%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 4820,
+      "portfolio_percentage": 0.0,
+      "company_name": "VICI Properties Inc."
+    },
+    {
+      "symbol": "DOC",
+      "manager_id": "DAV",
+      "action": "Reduce 2.20%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 14180,
+      "portfolio_percentage": 0.0,
+      "company_name": "Healthpeak Properties Inc."
+    },
+    {
+      "symbol": "SHO",
+      "manager_id": "DAV",
+      "action": "Reduce 2.20%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 19600,
+      "portfolio_percentage": 0.0,
+      "company_name": "Sunstone Hotel Investors Inc."
+    },
+    {
+      "symbol": "PLD",
+      "manager_id": "DAV",
+      "action": "Reduce 2.21%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 4030,
+      "portfolio_percentage": 0.0,
+      "company_name": "Prologis Inc."
+    },
+    {
+      "symbol": "WFC",
+      "manager_id": "DAV",
+      "action": "Reduce 2.22%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 182143,
+      "portfolio_percentage": 0.06,
+      "company_name": "Wells Fargo"
+    },
+    {
+      "symbol": "SPG",
+      "manager_id": "DAV",
+      "action": "Reduce 2.26%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1140,
+      "portfolio_percentage": 0.0,
+      "company_name": "Simon Property Group Inc."
+    },
+    {
+      "symbol": "O",
+      "manager_id": "DAV",
+      "action": "Reduce 2.31%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 2190,
+      "portfolio_percentage": 0.0,
+      "company_name": "Realty Income Corp."
+    },
+    {
+      "symbol": "STT",
+      "manager_id": "DAV",
+      "action": "Reduce 2.78%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 4234,
+      "portfolio_percentage": 0.0,
+      "company_name": "State Street Corp."
+    },
+    {
+      "symbol": "CVS",
+      "manager_id": "DAV",
+      "action": "Reduce 3.05%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 373750,
+      "portfolio_percentage": 0.17,
+      "company_name": "CVS Health Corp."
+    },
+    {
+      "symbol": "COF",
+      "manager_id": "DAV",
+      "action": "Reduce 3.15%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 268790,
+      "portfolio_percentage": 0.23,
+      "company_name": "Capital One Financial"
+    },
+    {
+      "symbol": "TSN",
+      "manager_id": "DAV",
+      "action": "Reduce 3.34%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 436972,
+      "portfolio_percentage": 0.11,
+      "company_name": "Tyson Foods"
+    },
+    {
+      "symbol": "USB",
+      "manager_id": "DAV",
+      "action": "Reduce 3.53%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 784450,
+      "portfolio_percentage": 0.2,
+      "company_name": "U.S. Bancorp"
+    },
+    {
+      "symbol": "SNPS",
+      "manager_id": "DAV",
+      "action": "Reduce 3.67%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 951,
+      "portfolio_percentage": 0.0,
+      "company_name": "Synopsys Inc."
+    },
+    {
+      "symbol": "MTB",
+      "manager_id": "DAV",
+      "action": "Reduce 3.70%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 2233,
+      "portfolio_percentage": 0.0,
+      "company_name": "M&T Bank Corp."
+    },
+    {
+      "symbol": "VTRS",
+      "manager_id": "DAV",
+      "action": "Reduce 3.81%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 2978937,
+      "portfolio_percentage": 0.2,
+      "company_name": "Viatris Inc."
+    },
+    {
+      "symbol": "DGX",
+      "manager_id": "DAV",
+      "action": "Reduce 3.84%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 62201,
+      "portfolio_percentage": 0.06,
+      "company_name": "Quest Diagnostics"
+    },
+    {
+      "symbol": "YMM",
+      "manager_id": "DAV",
+      "action": "Reduce 3.91%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1124109,
+      "portfolio_percentage": 0.04,
+      "company_name": "Full Truck Alliance  Spn ADR"
+    },
+    {
+      "symbol": "CB",
+      "manager_id": "DAV",
+      "action": "Reduce 3.96%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 47301,
+      "portfolio_percentage": 0.07,
+      "company_name": "Chubb Limited"
+    },
+    {
+      "symbol": "META",
+      "manager_id": "DAV",
+      "action": "Reduce 4.13%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 70984,
+      "portfolio_percentage": 0.17,
+      "company_name": "Meta Platforms Inc."
+    },
+    {
+      "symbol": "WCC",
+      "manager_id": "DAV",
+      "action": "Reduce 4.49%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 17092,
+      "portfolio_percentage": 0.03,
+      "company_name": "WESCO International Inc."
+    },
+    {
+      "symbol": "FITB",
+      "manager_id": "DAV",
+      "action": "Reduce 4.60%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 129342,
+      "portfolio_percentage": 0.03,
+      "company_name": "Fifth Third Bancorp"
+    },
+    {
+      "symbol": "GOOGL",
+      "manager_id": "DAV",
+      "action": "Reduce 5.09%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 157499,
+      "portfolio_percentage": 0.24,
+      "company_name": "Alphabet Inc."
+    },
+    {
+      "symbol": "NOAH",
+      "manager_id": "DAV",
+      "action": "Reduce 5.59%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 57099,
+      "portfolio_percentage": 0.0,
+      "company_name": "Noah Holdings Ltd"
+    },
+    {
+      "symbol": "NTB",
+      "manager_id": "DAV",
+      "action": "Reduce 5.68%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 60989,
+      "portfolio_percentage": 0.02,
+      "company_name": "Bank of N.T. Butterfield & Son Ltd"
+    },
+    {
+      "symbol": "BRK.A",
+      "manager_id": "DAV",
+      "action": "Reduce 5.96%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 55,
+      "portfolio_percentage": 0.18,
+      "company_name": "Berkshire Hathaway CL A"
+    },
+    {
+      "symbol": "APP",
+      "manager_id": "DAV",
+      "action": "Reduce 6.04%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 20271,
+      "portfolio_percentage": 0.04,
+      "company_name": "Applovin Corp."
+    },
+    {
+      "symbol": "SCHW",
+      "manager_id": "DAV",
+      "action": "Reduce 6.79%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 21111,
+      "portfolio_percentage": 0.01,
+      "company_name": "Charles Schwab Corp."
+    },
+    {
+      "symbol": "ORCL",
+      "manager_id": "DAV",
+      "action": "Reduce 6.83%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 5491,
+      "portfolio_percentage": 0.0,
+      "company_name": "Oracle Corp."
+    },
+    {
+      "symbol": "DLR",
+      "manager_id": "DAV",
+      "action": "Reduce 7.10%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 5600,
+      "portfolio_percentage": 0.0,
+      "company_name": "Digital Realty Trust Inc."
+    },
+    {
+      "symbol": "TFC",
+      "manager_id": "DAV",
+      "action": "Reduce 7.30%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 16414,
+      "portfolio_percentage": 0.0,
+      "company_name": "Truist Financial Corp."
+    },
+    {
+      "symbol": "RKT",
+      "manager_id": "DAV",
+      "action": "Reduce 7.47%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 360422,
+      "portfolio_percentage": 0.02,
+      "company_name": "Rocket Companies Inc."
+    },
+    {
+      "symbol": "CHYM",
+      "manager_id": "DAV",
+      "action": "Reduce 8.17%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 207430,
+      "portfolio_percentage": 0.02,
+      "company_name": "Chime Financial Inc Cl A"
+    },
+    {
+      "symbol": "FISV",
+      "manager_id": "DAV",
+      "action": "Reduce 8.33%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 49046,
+      "portfolio_percentage": 0.01,
+      "company_name": "Fiserv Inc."
+    },
+    {
+      "symbol": "REXR",
+      "manager_id": "DAV",
+      "action": "Reduce 8.42%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 17650,
+      "portfolio_percentage": 0.0,
+      "company_name": "Rexford Industrial Realty Inc."
+    },
+    {
+      "symbol": "PNC",
+      "manager_id": "DAV",
+      "action": "Reduce 8.46%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 45856,
+      "portfolio_percentage": 0.05,
+      "company_name": "PNC Financial Services"
+    },
+    {
+      "symbol": "PSA",
+      "manager_id": "DAV",
+      "action": "Reduce 8.53%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 3520,
+      "portfolio_percentage": 0.0,
+      "company_name": "Public Storage"
+    },
+    {
+      "symbol": "RNR",
+      "manager_id": "DAV",
+      "action": "Reduce 8.81%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 22662,
+      "portfolio_percentage": 0.03,
+      "company_name": "RenaissanceRe Holdings Ltd."
+    },
+    {
+      "symbol": "EQIX",
+      "manager_id": "DAV",
+      "action": "Reduce 9.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1910,
+      "portfolio_percentage": 0.01,
+      "company_name": "Equinix Inc."
+    },
+    {
+      "symbol": "DAR",
+      "manager_id": "DAV",
+      "action": "Reduce 9.08%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 17059,
+      "portfolio_percentage": 0.0,
+      "company_name": "Darling Ingredients Inc."
+    },
+    {
+      "symbol": "AXP",
+      "manager_id": "DAV",
+      "action": "Reduce 10.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 23305,
+      "portfolio_percentage": 0.03,
+      "company_name": "American Express"
+    },
+    {
+      "symbol": "EG",
+      "manager_id": "DAV",
+      "action": "Reduce 10.28%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 14485,
+      "portfolio_percentage": 0.02,
+      "company_name": "Everest Group Ltd"
+    },
+    {
+      "symbol": "L",
+      "manager_id": "DAV",
+      "action": "Reduce 11.22%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 68886,
+      "portfolio_percentage": 0.03,
+      "company_name": "Loews Corp."
+    },
+    {
+      "symbol": "VMRK",
+      "manager_id": "DAV",
+      "action": "Reduce 13.15%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 13910,
+      "portfolio_percentage": 0.0,
+      "company_name": "Vivmark Residential"
+    },
+    {
+      "symbol": "BAC",
+      "manager_id": "DAV",
+      "action": "Reduce 14.36%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 166428,
+      "portfolio_percentage": 0.04,
+      "company_name": "Bank of America Corp."
+    },
+    {
+      "symbol": "JPM",
+      "manager_id": "DAV",
+      "action": "Reduce 14.39%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 80063,
+      "portfolio_percentage": 0.11,
+      "company_name": "JPMorgan Chase & Co."
+    },
+    {
+      "symbol": "TXN",
+      "manager_id": "DAV",
+      "action": "Reduce 14.46%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 412185,
+      "portfolio_percentage": 0.53,
+      "company_name": "Texas Instruments"
+    },
+    {
+      "symbol": "BRX",
+      "manager_id": "DAV",
+      "action": "Reduce 15.27%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 86020,
+      "portfolio_percentage": 0.01,
+      "company_name": "Brixmor Property Group Inc."
+    },
+    {
+      "symbol": "REG",
+      "manager_id": "DAV",
+      "action": "Reduce 16.08%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 22290,
+      "portfolio_percentage": 0.01,
+      "company_name": "Regency Centers Corp."
+    },
+    {
+      "symbol": "GOOG",
+      "manager_id": "DAV",
+      "action": "Reduce 16.73%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 113333,
+      "portfolio_percentage": 0.17,
+      "company_name": "Alphabet Inc. CL C"
+    },
+    {
+      "symbol": "TECK",
+      "manager_id": "DAV",
+      "action": "Reduce 20.98%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 2221166,
+      "portfolio_percentage": 0.57,
+      "company_name": "Teck Resources"
+    },
+    {
+      "symbol": "QSR",
+      "manager_id": "DAV",
+      "action": "Reduce 22.19%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 798782,
+      "portfolio_percentage": 0.25,
+      "company_name": "Restaurant Brands International"
+    },
+    {
+      "symbol": "AVB-OLD",
+      "manager_id": "DAV",
+      "action": "Reduce 25.11%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 20080,
+      "portfolio_percentage": 0.02,
+      "company_name": "AvalonBay Communities"
+    },
+    {
+      "symbol": "JCI",
+      "manager_id": "DAV",
+      "action": "Reduce 27.06%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 52458,
+      "portfolio_percentage": 0.03,
+      "company_name": "Johnson Controls Intl. plc"
+    },
+    {
+      "symbol": "BNY",
+      "manager_id": "DAV",
+      "action": "Reduce 30.23%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 158780,
+      "portfolio_percentage": 0.1,
+      "company_name": "Bank of New York Mellon Corp."
+    },
+    {
+      "symbol": "CCK",
+      "manager_id": "DAV",
+      "action": "Reduce 36.17%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 3100,
+      "portfolio_percentage": 0.0,
+      "company_name": "Crown Holdings"
+    },
+    {
+      "symbol": "TSM",
+      "manager_id": "DAV",
+      "action": "Reduce 44.72%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 3220,
+      "portfolio_percentage": 0.01,
+      "company_name": "Taiwan Semiconductor S.A."
+    },
+    {
+      "symbol": "MAA",
+      "manager_id": "DAV",
+      "action": "Reduce 54.39%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 26120,
+      "portfolio_percentage": 0.01,
+      "company_name": "Mid-America Apt Communties"
+    },
+    {
+      "symbol": "ARE",
+      "manager_id": "DAV",
+      "action": "Reduce 55.50%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 100340,
+      "portfolio_percentage": 0.02,
+      "company_name": "Alexandria RE Equities Inc."
+    },
+    {
+      "symbol": "IVE",
+      "manager_id": "DAV",
+      "action": "Reduce 71.71%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 8336,
+      "portfolio_percentage": 0.0,
+      "company_name": "Ishares S&P  500 Value ETF"
+    },
+    {
+      "symbol": "SAP",
+      "manager_id": "DAV",
+      "action": "Reduce 80.93%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 256893,
+      "portfolio_percentage": 0.17,
+      "company_name": "SAP SE"
+    },
+    {
+      "symbol": "AMAT",
+      "manager_id": "DAV",
+      "action": "Reduce 91.44%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1094581,
+      "portfolio_percentage": 3.42,
+      "company_name": "Applied Materials"
+    },
+    {
+      "symbol": "CTRA-OLD",
+      "manager_id": "DAV",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 37119404,
+      "portfolio_percentage": 5.99,
+      "company_name": "Coterra Energy Inc."
+    },
+    {
+      "symbol": "CCI",
+      "manager_id": "DAV",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 41920,
+      "portfolio_percentage": 0.02,
+      "company_name": "Crown Castle International Corp."
+    },
+    {
       "symbol": "SAP",
       "manager_id": "DAV",
       "action": "Add 463.33%",
@@ -464,7 +1663,7 @@
       "company_name": "Regency Centers Corp."
     },
     {
-      "symbol": "AVB",
+      "symbol": "AVB-OLD",
       "manager_id": "DAV",
       "action": "Add 1.43%",
       "date": "Q1 2026",
@@ -574,7 +1773,7 @@
       "company_name": "Camden Property Trust"
     },
     {
-      "symbol": "EQR",
+      "symbol": "VMRK",
       "manager_id": "DAV",
       "action": "Add 1.20%",
       "date": "Q1 2026",
@@ -582,7 +1781,7 @@
       "action_type": "Add",
       "shares": 1250,
       "portfolio_percentage": 0.0,
-      "company_name": "Equity Residential"
+      "company_name": "Vivmark Residential"
     },
     {
       "symbol": "AMT",
@@ -1344,7 +2543,7 @@
       "company_name": "Oracle Corp."
     },
     {
-      "symbol": "AVB",
+      "symbol": "AVB-OLD",
       "manager_id": "DAV",
       "action": "Add 18.41%",
       "date": "Q4 2025",
@@ -2114,7 +3313,7 @@
       "company_name": "American Express"
     },
     {
-      "symbol": "EQR",
+      "symbol": "VMRK",
       "manager_id": "DAV",
       "action": "Reduce 2.52%",
       "date": "Q4 2025",
@@ -2122,7 +3321,7 @@
       "action_type": "Reduce",
       "shares": 2700,
       "portfolio_percentage": 0.0,
-      "company_name": "Equity Residential"
+      "company_name": "Vivmark Residential"
     },
     {
       "symbol": "SUI",
@@ -2466,7 +3665,7 @@
       "company_name": "Alexandria RE Equities Inc."
     },
     {
-      "symbol": "AVB",
+      "symbol": "AVB-OLD",
       "manager_id": "DAV",
       "action": "Add 15.15%",
       "date": "Q3 2025",
@@ -2664,7 +3863,7 @@
       "company_name": "Fifth Third Bancorp"
     },
     {
-      "symbol": "EQR",
+      "symbol": "VMRK",
       "manager_id": "DAV",
       "action": "Add 5.40%",
       "date": "Q3 2025",
@@ -2672,7 +3871,7 @@
       "action_type": "Add",
       "shares": 5490,
       "portfolio_percentage": 0.0,
-      "company_name": "Equity Residential"
+      "company_name": "Vivmark Residential"
     },
     {
       "symbol": "REXR",
@@ -3808,7 +5007,7 @@
       "company_name": "Fifth Third Bancorp"
     },
     {
-      "symbol": "AVB",
+      "symbol": "AVB-OLD",
       "manager_id": "DAV",
       "action": "Add 2.07%",
       "date": "Q2 2025",
@@ -3841,7 +5040,7 @@
       "company_name": "Equinix Inc."
     },
     {
-      "symbol": "EQR",
+      "symbol": "VMRK",
       "manager_id": "DAV",
       "action": "Add 1.87%",
       "date": "Q2 2025",
@@ -3849,7 +5048,7 @@
       "action_type": "Add",
       "shares": 1870,
       "portfolio_percentage": 0.0,
-      "company_name": "Equity Residential"
+      "company_name": "Vivmark Residential"
     },
     {
       "symbol": "TCOM",
@@ -4897,7 +6096,7 @@
       "company_name": "Solventum Corp"
     },
     {
-      "symbol": "AVB",
+      "symbol": "AVB-OLD",
       "manager_id": "DAV",
       "action": "Add 0.76%",
       "date": "Q1 2025",
@@ -5172,17 +6371,6 @@
       "company_name": "Regency Centers Corp."
     },
     {
-      "symbol": "EQR",
-      "manager_id": "DAV",
-      "action": "Reduce 0.60%",
-      "date": "Q1 2025",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 600,
-      "portfolio_percentage": 0.0,
-      "company_name": "Equity Residential"
-    },
-    {
       "symbol": "ORCL",
       "manager_id": "DAV",
       "action": "Reduce 0.60%",
@@ -5192,6 +6380,17 @@
       "shares": 830,
       "portfolio_percentage": 0.0,
       "company_name": "Oracle Corp."
+    },
+    {
+      "symbol": "VMRK",
+      "manager_id": "DAV",
+      "action": "Reduce 0.60%",
+      "date": "Q1 2025",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 600,
+      "portfolio_percentage": 0.0,
+      "company_name": "Vivmark Residential"
     },
     {
       "symbol": "VTR",
@@ -6162,7 +7361,7 @@
       "company_name": "Essex Property Trust"
     },
     {
-      "symbol": "EQR",
+      "symbol": "VMRK",
       "manager_id": "DAV",
       "action": "Reduce 0.64%",
       "date": "Q4 2024",
@@ -6170,7 +7369,7 @@
       "action_type": "Reduce",
       "shares": 650,
       "portfolio_percentage": 0.0,
-      "company_name": "Equity Residential"
+      "company_name": "Vivmark Residential"
     },
     {
       "symbol": "WELL",
@@ -6239,7 +7438,7 @@
       "company_name": "Extra Space Storage Inc."
     },
     {
-      "symbol": "AVB",
+      "symbol": "AVB-OLD",
       "manager_id": "DAV",
       "action": "Reduce 0.69%",
       "date": "Q4 2024",
@@ -7416,7 +8615,7 @@
       "company_name": "Simon Property Group Inc."
     },
     {
-      "symbol": "EQR",
+      "symbol": "VMRK",
       "manager_id": "DAV",
       "action": "Reduce 1.85%",
       "date": "Q3 2024",
@@ -7424,7 +8623,7 @@
       "action_type": "Reduce",
       "shares": 1910,
       "portfolio_percentage": 0.0,
-      "company_name": "Equity Residential"
+      "company_name": "Vivmark Residential"
     },
     {
       "symbol": "AMH",
@@ -7493,7 +8692,7 @@
       "company_name": "Public Storage"
     },
     {
-      "symbol": "AVB",
+      "symbol": "AVB-OLD",
       "manager_id": "DAV",
       "action": "Reduce 2.01%",
       "date": "Q3 2024",
@@ -8681,7 +9880,7 @@
       "company_name": "Retail Opportunity Investments Corp."
     },
     {
-      "symbol": "AVB",
+      "symbol": "AVB-OLD",
       "manager_id": "DAV",
       "action": "Reduce 12.63%",
       "date": "Q2 2024",
@@ -8736,7 +9935,7 @@
       "company_name": "Welltower Inc."
     },
     {
-      "symbol": "EQR",
+      "symbol": "VMRK",
       "manager_id": "DAV",
       "action": "Reduce 26.26%",
       "date": "Q2 2024",
@@ -8744,7 +9943,7 @@
       "action_type": "Reduce",
       "shares": 36690,
       "portfolio_percentage": 0.01,
-      "company_name": "Equity Residential"
+      "company_name": "Vivmark Residential"
     },
     {
       "symbol": "BNY",
@@ -9396,7 +10595,7 @@
       "company_name": "Sunstone Hotel Investors Inc."
     },
     {
-      "symbol": "EQR",
+      "symbol": "VMRK",
       "manager_id": "DAV",
       "action": "Reduce 3.60%",
       "date": "Q1 2024",
@@ -9404,7 +10603,7 @@
       "action_type": "Reduce",
       "shares": 5210,
       "portfolio_percentage": 0.0,
-      "company_name": "Equity Residential"
+      "company_name": "Vivmark Residential"
     },
     {
       "symbol": "GOOG",
@@ -9561,7 +10760,7 @@
       "company_name": "Texas Instruments"
     },
     {
-      "symbol": "AVB",
+      "symbol": "AVB-OLD",
       "manager_id": "DAV",
       "action": "Reduce 10.67%",
       "date": "Q1 2024",
@@ -9801,1207 +11000,8 @@
       "shares": 74831,
       "portfolio_percentage": 0.18,
       "company_name": "Microsoft Corp."
-    },
-    {
-      "symbol": "FWONA",
-      "manager_id": "DAV",
-      "action": "Reduce 24.46%",
-      "date": "Q1 2024",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 119457,
-      "portfolio_percentage": 0.04,
-      "company_name": "Liberty Media Corp Formula One Series A"
-    },
-    {
-      "symbol": "INTC",
-      "manager_id": "DAV",
-      "action": "Reduce 24.84%",
-      "date": "Q1 2024",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 2244541,
-      "portfolio_percentage": 0.56,
-      "company_name": "Intel Corp."
-    },
-    {
-      "symbol": "BRK.B",
-      "manager_id": "DAV",
-      "action": "Reduce 26.29%",
-      "date": "Q1 2024",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 288901,
-      "portfolio_percentage": 0.68,
-      "company_name": "Berkshire Hathaway CL B"
-    },
-    {
-      "symbol": "NTB",
-      "manager_id": "DAV",
-      "action": "Reduce 37.12%",
-      "date": "Q1 2024",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 640918,
-      "portfolio_percentage": 0.11,
-      "company_name": "Bank of N.T. Butterfield & Son Ltd"
-    },
-    {
-      "symbol": "SKX-OLD",
-      "manager_id": "DAV",
-      "action": "Reduce 39.60%",
-      "date": "Q1 2024",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 4910,
-      "portfolio_percentage": 0.0,
-      "company_name": "Skechers U.S.A. Inc."
-    },
-    {
-      "symbol": "FERG",
-      "manager_id": "DAV",
-      "action": "Reduce 51.88%",
-      "date": "Q1 2024",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 106963,
-      "portfolio_percentage": 0.13,
-      "company_name": "Ferguson Enterprises Inc."
-    },
-    {
-      "symbol": "CARR",
-      "manager_id": "DAV",
-      "action": "Reduce 55.37%",
-      "date": "Q1 2024",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 284955,
-      "portfolio_percentage": 0.09,
-      "company_name": "Carrier Global Corp."
-    },
-    {
-      "symbol": "L",
-      "manager_id": "DAV",
-      "action": "Reduce 56.61%",
-      "date": "Q1 2024",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 821334,
-      "portfolio_percentage": 0.37,
-      "company_name": "Loews Corp."
-    },
-    {
-      "symbol": "MBC",
-      "manager_id": "DAV",
-      "action": "Reduce 56.97%",
-      "date": "Q1 2024",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 1139639,
-      "portfolio_percentage": 0.12,
-      "company_name": "Masterbrand Inc"
-    },
-    {
-      "symbol": "HOLI-OLD",
-      "manager_id": "DAV",
-      "action": "Reduce 87.53%",
-      "date": "Q1 2024",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 4593773,
-      "portfolio_percentage": 0.63,
-      "company_name": "Hollysys Automation Technologies Ltd"
-    },
-    {
-      "symbol": "ETN",
-      "manager_id": "DAV",
-      "action": "Sell 100.00%",
-      "date": "Q1 2024",
-      "percentage_change": 0.0,
-      "action_type": "Sell",
-      "shares": 145440,
-      "portfolio_percentage": 0.2,
-      "company_name": "Eaton Corp."
-    },
-    {
-      "symbol": "IVE",
-      "manager_id": "DAV",
-      "action": "Sell 100.00%",
-      "date": "Q1 2024",
-      "percentage_change": 0.0,
-      "action_type": "Sell",
-      "shares": 139545,
-      "portfolio_percentage": 0.14,
-      "company_name": "Ishares S&P  500 Value ETF"
-    },
-    {
-      "symbol": "FWONK",
-      "manager_id": "DAV",
-      "action": "Sell 100.00%",
-      "date": "Q1 2024",
-      "percentage_change": 0.0,
-      "action_type": "Sell",
-      "shares": 257802,
-      "portfolio_percentage": 0.09,
-      "company_name": "Liberty Media Corp Formula One Series C"
-    },
-    {
-      "symbol": "CUBE",
-      "manager_id": "DAV",
-      "action": "Sell 100.00%",
-      "date": "Q1 2024",
-      "percentage_change": 0.0,
-      "action_type": "Sell",
-      "shares": 72040,
-      "portfolio_percentage": 0.02,
-      "company_name": "CubeSmart"
-    },
-    {
-      "symbol": "LTRPA-OLD",
-      "manager_id": "DAV",
-      "action": "Sell 100.00%",
-      "date": "Q1 2024",
-      "percentage_change": 0.0,
-      "action_type": "Sell",
-      "shares": 237084,
-      "portfolio_percentage": 0.0,
-      "company_name": "Liberty TripAdvisor Hldgs"
-    },
-    {
-      "symbol": "IVE",
-      "manager_id": "DAV",
-      "action": "Add 713.10%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 122383,
-      "portfolio_percentage": 0.12,
-      "company_name": "Ishares S&P  500 Value ETF"
-    },
-    {
-      "symbol": "DGX",
-      "manager_id": "DAV",
-      "action": "Add 59.89%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 998866,
-      "portfolio_percentage": 0.78,
-      "company_name": "Quest Diagnostics"
-    },
-    {
-      "symbol": "WCC",
-      "manager_id": "DAV",
-      "action": "Add 40.33%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 53844,
-      "portfolio_percentage": 0.05,
-      "company_name": "WESCO International Inc."
-    },
-    {
-      "symbol": "CHCT",
-      "manager_id": "DAV",
-      "action": "Add 36.54%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 59700,
-      "portfolio_percentage": 0.01,
-      "company_name": "Community Healthcare Trust Inc."
-    },
-    {
-      "symbol": "BEKE",
-      "manager_id": "DAV",
-      "action": "Add 34.50%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 1208506,
-      "portfolio_percentage": 0.11,
-      "company_name": "KE Holdings Inc."
-    },
-    {
-      "symbol": "AMT",
-      "manager_id": "DAV",
-      "action": "Add 29.95%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 13410,
-      "portfolio_percentage": 0.02,
-      "company_name": "American Tower Corp."
-    },
-    {
-      "symbol": "CCI",
-      "manager_id": "DAV",
-      "action": "Add 25.44%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 8630,
-      "portfolio_percentage": 0.01,
-      "company_name": "Crown Castle International Corp."
-    },
-    {
-      "symbol": "ARE",
-      "manager_id": "DAV",
-      "action": "Add 20.58%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 24570,
-      "portfolio_percentage": 0.02,
-      "company_name": "Alexandria RE Equities Inc."
-    },
-    {
-      "symbol": "PNC",
-      "manager_id": "DAV",
-      "action": "Add 17.59%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 75194,
-      "portfolio_percentage": 0.07,
-      "company_name": "PNC Financial Services"
-    },
-    {
-      "symbol": "VTR",
-      "manager_id": "DAV",
-      "action": "Add 15.60%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 39220,
-      "portfolio_percentage": 0.01,
-      "company_name": "Ventas Inc."
-    },
-    {
-      "symbol": "FRT",
-      "manager_id": "DAV",
-      "action": "Add 14.91%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 8080,
-      "portfolio_percentage": 0.01,
-      "company_name": "Federal Realty Inv. Trust"
-    },
-    {
-      "symbol": "MKL",
-      "manager_id": "DAV",
-      "action": "Add 14.69%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 38501,
-      "portfolio_percentage": 0.31,
-      "company_name": "Markel Group Inc."
-    },
-    {
-      "symbol": "REXR",
-      "manager_id": "DAV",
-      "action": "Add 10.54%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 15190,
-      "portfolio_percentage": 0.0,
-      "company_name": "Rexford Industrial Realty Inc."
-    },
-    {
-      "symbol": "MGM",
-      "manager_id": "DAV",
-      "action": "Add 4.94%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 486764,
-      "portfolio_percentage": 0.12,
-      "company_name": "MGM Resorts International"
-    },
-    {
-      "symbol": "DUSA",
-      "manager_id": "DAV",
-      "action": "Add 1.73%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 57611,
-      "portfolio_percentage": 0.01,
-      "company_name": "Davis Select Us Equity ETF"
-    },
-    {
-      "symbol": "MTB",
-      "manager_id": "DAV",
-      "action": "Add 1.40%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 680,
-      "portfolio_percentage": 0.0,
-      "company_name": "M&T Bank Corp."
-    },
-    {
-      "symbol": "JCI",
-      "manager_id": "DAV",
-      "action": "Add 1.23%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 6246,
-      "portfolio_percentage": 0.0,
-      "company_name": "Johnson Controls Intl. plc"
-    },
-    {
-      "symbol": "DFNL",
-      "manager_id": "DAV",
-      "action": "Add 1.22%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 25862,
-      "portfolio_percentage": 0.0,
-      "company_name": "Davis Select Financial ETF"
-    },
-    {
-      "symbol": "CVS",
-      "manager_id": "DAV",
-      "action": "Add 0.87%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 1782,
-      "portfolio_percentage": 0.0,
-      "company_name": "CVS Health Corp."
-    },
-    {
-      "symbol": "DINT",
-      "manager_id": "DAV",
-      "action": "Add 0.61%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 23576,
-      "portfolio_percentage": 0.0,
-      "company_name": "Davis Select International"
-    },
-    {
-      "symbol": "DWLD",
-      "manager_id": "DAV",
-      "action": "Add 0.61%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 11777,
-      "portfolio_percentage": 0.0,
-      "company_name": "Davis Select Worldwide ETF"
-    },
-    {
-      "symbol": "BIDU",
-      "manager_id": "DAV",
-      "action": "Add 0.53%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 245,
-      "portfolio_percentage": 0.0,
-      "company_name": "Baidu Inc."
-    },
-    {
-      "symbol": "SHO",
-      "manager_id": "DAV",
-      "action": "Add 0.35%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 2940,
-      "portfolio_percentage": 0.0,
-      "company_name": "Sunstone Hotel Investors Inc."
-    },
-    {
-      "symbol": "BRX",
-      "manager_id": "DAV",
-      "action": "Add 0.30%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 2140,
-      "portfolio_percentage": 0.0,
-      "company_name": "Brixmor Property Group Inc."
-    },
-    {
-      "symbol": "BXP",
-      "manager_id": "DAV",
-      "action": "Add 0.29%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 450,
-      "portfolio_percentage": 0.0,
-      "company_name": "BXP Inc."
-    },
-    {
-      "symbol": "TRNO",
-      "manager_id": "DAV",
-      "action": "Add 0.26%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 520,
-      "portfolio_percentage": 0.0,
-      "company_name": "Terreno Realty Corp."
-    },
-    {
-      "symbol": "EQR",
-      "manager_id": "DAV",
-      "action": "Add 0.25%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 360,
-      "portfolio_percentage": 0.0,
-      "company_name": "Equity Residential"
-    },
-    {
-      "symbol": "CARR",
-      "manager_id": "DAV",
-      "action": "Add 0.24%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 1232,
-      "portfolio_percentage": 0.0,
-      "company_name": "Carrier Global Corp."
-    },
-    {
-      "symbol": "DLR",
-      "manager_id": "DAV",
-      "action": "Add 0.24%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 250,
-      "portfolio_percentage": 0.0,
-      "company_name": "Digital Realty Trust Inc."
-    },
-    {
-      "symbol": "CUZ",
-      "manager_id": "DAV",
-      "action": "Add 0.23%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 1560,
-      "portfolio_percentage": 0.0,
-      "company_name": "Cousins Properties"
-    },
-    {
-      "symbol": "FITB",
-      "manager_id": "DAV",
-      "action": "Add 0.20%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 5094,
-      "portfolio_percentage": 0.0,
-      "company_name": "Fifth Third Bancorp"
-    },
-    {
-      "symbol": "AGCO",
-      "manager_id": "DAV",
-      "action": "Buy",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Buy",
-      "shares": 1512163,
-      "portfolio_percentage": 1.04,
-      "company_name": "AGCO Corp."
-    },
-    {
-      "symbol": "HUM",
-      "manager_id": "DAV",
-      "action": "Reduce 0.00%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 1,
-      "portfolio_percentage": 0.0,
-      "company_name": "Humana Inc."
-    },
-    {
-      "symbol": "USB",
-      "manager_id": "DAV",
-      "action": "Reduce 0.35%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 54253,
-      "portfolio_percentage": 0.01,
-      "company_name": "U.S. Bancorp"
-    },
-    {
-      "symbol": "ETN",
-      "manager_id": "DAV",
-      "action": "Reduce 0.61%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 894,
-      "portfolio_percentage": 0.0,
-      "company_name": "Eaton Corp."
-    },
-    {
-      "symbol": "TECK",
-      "manager_id": "DAV",
-      "action": "Reduce 0.82%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 105659,
-      "portfolio_percentage": 0.03,
-      "company_name": "Teck Resources"
-    },
-    {
-      "symbol": "BABA",
-      "manager_id": "DAV",
-      "action": "Reduce 0.82%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 1510,
-      "portfolio_percentage": 0.0,
-      "company_name": "Alibaba Group Holdings"
-    },
-    {
-      "symbol": "MSFT",
-      "manager_id": "DAV",
-      "action": "Reduce 0.88%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 2960,
-      "portfolio_percentage": 0.01,
-      "company_name": "Microsoft Corp."
-    },
-    {
-      "symbol": "DAR",
-      "manager_id": "DAV",
-      "action": "Reduce 1.07%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 33337,
-      "portfolio_percentage": 0.01,
-      "company_name": "Darling Ingredients Inc."
-    },
-    {
-      "symbol": "SAP",
-      "manager_id": "DAV",
-      "action": "Reduce 1.10%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 1545,
-      "portfolio_percentage": 0.0,
-      "company_name": "SAP SE"
-    },
-    {
-      "symbol": "STT",
-      "manager_id": "DAV",
-      "action": "Reduce 1.16%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 646,
-      "portfolio_percentage": 0.0,
-      "company_name": "State Street Corp."
-    },
-    {
-      "symbol": "GOOGL",
-      "manager_id": "DAV",
-      "action": "Reduce 1.29%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 46167,
-      "portfolio_percentage": 0.04,
-      "company_name": "Alphabet Inc."
-    },
-    {
-      "symbol": "BRK.B",
-      "manager_id": "DAV",
-      "action": "Reduce 1.49%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 16584,
-      "portfolio_percentage": 0.03,
-      "company_name": "Berkshire Hathaway CL B"
-    },
-    {
-      "symbol": "NOAH",
-      "manager_id": "DAV",
-      "action": "Reduce 1.58%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 12396,
-      "portfolio_percentage": 0.0,
-      "company_name": "Noah Holdings Ltd"
-    },
-    {
-      "symbol": "PPLI",
-      "manager_id": "DAV",
-      "action": "Reduce 1.70%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 50463,
-      "portfolio_percentage": 0.01,
-      "company_name": "People Inc."
-    },
-    {
-      "symbol": "TFC",
-      "manager_id": "DAV",
-      "action": "Reduce 1.70%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 2490,
-      "portfolio_percentage": 0.0,
-      "company_name": "Truist Financial Corp."
-    },
-    {
-      "symbol": "COF",
-      "manager_id": "DAV",
-      "action": "Reduce 1.78%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 197530,
-      "portfolio_percentage": 0.15,
-      "company_name": "Capital One Financial"
-    },
-    {
-      "symbol": "GOOG",
-      "manager_id": "DAV",
-      "action": "Reduce 1.80%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 12785,
-      "portfolio_percentage": 0.01,
-      "company_name": "Alphabet Inc. CL C"
-    },
-    {
-      "symbol": "YOU",
-      "manager_id": "DAV",
-      "action": "Reduce 2.18%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 14472,
-      "portfolio_percentage": 0.0,
-      "company_name": "Clear Secure Inc."
-    },
-    {
-      "symbol": "VTRS",
-      "manager_id": "DAV",
-      "action": "Reduce 2.19%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 1402057,
-      "portfolio_percentage": 0.09,
-      "company_name": "Viatris Inc."
-    },
-    {
-      "symbol": "HOLI-OLD",
-      "manager_id": "DAV",
-      "action": "Reduce 2.23%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 119874,
-      "portfolio_percentage": 0.02,
-      "company_name": "Hollysys Automation Technologies Ltd"
-    },
-    {
-      "symbol": "ESS",
-      "manager_id": "DAV",
-      "action": "Reduce 2.52%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 1440,
-      "portfolio_percentage": 0.0,
-      "company_name": "Essex Property Trust"
-    },
-    {
-      "symbol": "TXN",
-      "manager_id": "DAV",
-      "action": "Reduce 2.63%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 71678,
-      "portfolio_percentage": 0.07,
-      "company_name": "Texas Instruments"
-    },
-    {
-      "symbol": "ORCL",
-      "manager_id": "DAV",
-      "action": "Reduce 2.65%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 4960,
-      "portfolio_percentage": 0.0,
-      "company_name": "Oracle Corp."
-    },
-    {
-      "symbol": "CI",
-      "manager_id": "DAV",
-      "action": "Reduce 2.77%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 47188,
-      "portfolio_percentage": 0.08,
-      "company_name": "Cigna Group"
-    },
-    {
-      "symbol": "FWONK",
-      "manager_id": "DAV",
-      "action": "Reduce 2.80%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 7428,
-      "portfolio_percentage": 0.0,
-      "company_name": "Liberty Media Corp Formula One Series C"
-    },
-    {
-      "symbol": "BNY",
-      "manager_id": "DAV",
-      "action": "Reduce 3.03%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 394096,
-      "portfolio_percentage": 0.12,
-      "company_name": "Bank of New York Mellon Corp."
-    },
-    {
-      "symbol": "AXP",
-      "manager_id": "DAV",
-      "action": "Reduce 3.09%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 28809,
-      "portfolio_percentage": 0.03,
-      "company_name": "American Express"
-    },
-    {
-      "symbol": "WFC",
-      "manager_id": "DAV",
-      "action": "Reduce 3.16%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 958274,
-      "portfolio_percentage": 0.27,
-      "company_name": "Wells Fargo"
-    },
-    {
-      "symbol": "SCHW",
-      "manager_id": "DAV",
-      "action": "Reduce 3.34%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 10756,
-      "portfolio_percentage": 0.0,
-      "company_name": "Charles Schwab Corp."
-    },
-    {
-      "symbol": "JPM",
-      "manager_id": "DAV",
-      "action": "Reduce 3.48%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 143951,
-      "portfolio_percentage": 0.14,
-      "company_name": "JPMorgan Chase & Co."
-    },
-    {
-      "symbol": "CB",
-      "manager_id": "DAV",
-      "action": "Reduce 3.69%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 53663,
-      "portfolio_percentage": 0.07,
-      "company_name": "Chubb Limited"
-    },
-    {
-      "symbol": "INTC",
-      "manager_id": "DAV",
-      "action": "Reduce 3.73%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 349664,
-      "portfolio_percentage": 0.1,
-      "company_name": "Intel Corp."
-    },
-    {
-      "symbol": "RKT",
-      "manager_id": "DAV",
-      "action": "Reduce 3.75%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 128038,
-      "portfolio_percentage": 0.01,
-      "company_name": "Rocket Companies Inc."
-    },
-    {
-      "symbol": "EG",
-      "manager_id": "DAV",
-      "action": "Reduce 3.88%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 1692,
-      "portfolio_percentage": 0.0,
-      "company_name": "Everest Group Ltd"
-    },
-    {
-      "symbol": "AMH",
-      "manager_id": "DAV",
-      "action": "Reduce 4.18%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 11100,
-      "portfolio_percentage": 0.0,
-      "company_name": "American Homes 4 Rent"
-    },
-    {
-      "symbol": "CPNG",
-      "manager_id": "DAV",
-      "action": "Reduce 4.21%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 270104,
-      "portfolio_percentage": 0.02,
-      "company_name": "Coupang Inc."
-    },
-    {
-      "symbol": "L",
-      "manager_id": "DAV",
-      "action": "Reduce 4.26%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 64494,
-      "portfolio_percentage": 0.03,
-      "company_name": "Loews Corp."
-    },
-    {
-      "symbol": "ROIC-OLD",
-      "manager_id": "DAV",
-      "action": "Reduce 4.57%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 27440,
-      "portfolio_percentage": 0.0,
-      "company_name": "Retail Opportunity Investments Corp."
-    },
-    {
-      "symbol": "BRK.A",
-      "manager_id": "DAV",
-      "action": "Reduce 4.71%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 93,
-      "portfolio_percentage": 0.28,
-      "company_name": "Berkshire Hathaway CL A"
-    },
-    {
-      "symbol": "UNH",
-      "manager_id": "DAV",
-      "action": "Reduce 4.71%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 5353,
-      "portfolio_percentage": 0.02,
-      "company_name": "United Health Group Inc."
-    },
-    {
-      "symbol": "LTRPA-OLD",
-      "manager_id": "DAV",
-      "action": "Reduce 4.84%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 12060,
-      "portfolio_percentage": 0.0,
-      "company_name": "Liberty TripAdvisor Hldgs"
-    },
-    {
-      "symbol": "FWONA",
-      "manager_id": "DAV",
-      "action": "Reduce 5.16%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 26577,
-      "portfolio_percentage": 0.01,
-      "company_name": "Liberty Media Corp Formula One Series A"
-    },
-    {
-      "symbol": "AMZN",
-      "manager_id": "DAV",
-      "action": "Reduce 5.61%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 417214,
-      "portfolio_percentage": 0.36,
-      "company_name": "Amazon.com Inc."
-    },
-    {
-      "symbol": "EQIX",
-      "manager_id": "DAV",
-      "action": "Reduce 5.66%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 1070,
-      "portfolio_percentage": 0.0,
-      "company_name": "Equinix Inc."
-    },
-    {
-      "symbol": "PSA",
-      "manager_id": "DAV",
-      "action": "Reduce 5.73%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 3310,
-      "portfolio_percentage": 0.01,
-      "company_name": "Public Storage"
-    },
-    {
-      "symbol": "JD",
-      "manager_id": "DAV",
-      "action": "Reduce 5.86%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 279441,
-      "portfolio_percentage": 0.05,
-      "company_name": "JD.com Inc."
-    },
-    {
-      "symbol": "AVB",
-      "manager_id": "DAV",
-      "action": "Reduce 8.66%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 7020,
-      "portfolio_percentage": 0.01,
-      "company_name": "AvalonBay Communities"
-    },
-    {
-      "symbol": "PLD",
-      "manager_id": "DAV",
-      "action": "Reduce 9.32%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 19600,
-      "portfolio_percentage": 0.01,
-      "company_name": "Prologis Inc."
-    },
-    {
-      "symbol": "MBC",
-      "manager_id": "DAV",
-      "action": "Reduce 11.97%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 271991,
-      "portfolio_percentage": 0.02,
-      "company_name": "Masterbrand Inc"
-    },
-    {
-      "symbol": "WELL",
-      "manager_id": "DAV",
-      "action": "Reduce 12.01%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 18340,
-      "portfolio_percentage": 0.01,
-      "company_name": "Welltower Inc."
-    },
-    {
-      "symbol": "AMAT",
-      "manager_id": "DAV",
-      "action": "Reduce 12.81%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 872578,
-      "portfolio_percentage": 0.8,
-      "company_name": "Applied Materials"
-    },
-    {
-      "symbol": "SPG",
-      "manager_id": "DAV",
-      "action": "Reduce 13.15%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 16850,
-      "portfolio_percentage": 0.01,
-      "company_name": "Simon Property Group Inc."
-    },
-    {
-      "symbol": "FERG",
-      "manager_id": "DAV",
-      "action": "Reduce 13.30%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 31630,
-      "portfolio_percentage": 0.03,
-      "company_name": "Ferguson Enterprises Inc."
-    },
-    {
-      "symbol": "EXR",
-      "manager_id": "DAV",
-      "action": "Reduce 16.41%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 8100,
-      "portfolio_percentage": 0.01,
-      "company_name": "Extra Space Storage Inc."
-    },
-    {
-      "symbol": "UDR",
-      "manager_id": "DAV",
-      "action": "Reduce 18.19%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 45530,
-      "portfolio_percentage": 0.01,
-      "company_name": "UDR Inc."
-    },
-    {
-      "symbol": "META",
-      "manager_id": "DAV",
-      "action": "Reduce 19.05%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 931254,
-      "portfolio_percentage": 1.86,
-      "company_name": "Meta Platforms Inc."
-    },
-    {
-      "symbol": "CPT",
-      "manager_id": "DAV",
-      "action": "Reduce 23.08%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 13470,
-      "portfolio_percentage": 0.01,
-      "company_name": "Camden Property Trust"
-    },
-    {
-      "symbol": "DOC",
-      "manager_id": "DAV",
-      "action": "Reduce 25.89%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 98520,
-      "portfolio_percentage": 0.01,
-      "company_name": "Healthpeak Properties Inc."
-    },
-    {
-      "symbol": "CUBE",
-      "manager_id": "DAV",
-      "action": "Reduce 26.01%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 25330,
-      "portfolio_percentage": 0.01,
-      "company_name": "CubeSmart"
-    },
-    {
-      "symbol": "OC",
-      "manager_id": "DAV",
-      "action": "Reduce 27.11%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 998816,
-      "portfolio_percentage": 0.84,
-      "company_name": "Owens Corning"
-    },
-    {
-      "symbol": "NTB",
-      "manager_id": "DAV",
-      "action": "Reduce 46.13%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 1478207,
-      "portfolio_percentage": 0.27,
-      "company_name": "Bank of N.T. Butterfield & Son Ltd"
-    },
-    {
-      "symbol": "DEI",
-      "manager_id": "DAV",
-      "action": "Reduce 49.30%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 252880,
-      "portfolio_percentage": 0.02,
-      "company_name": "Douglas Emmett Inc."
-    },
-    {
-      "symbol": "BAC",
-      "manager_id": "DAV",
-      "action": "Reduce 56.07%",
-      "date": "Q4 2023",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 1551548,
-      "portfolio_percentage": 0.29,
-      "company_name": "Bank of America Corp."
     }
   ],
-  "timestamp": "2026-08-01T06:56:26.019498",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:54.014095",
+  "scraped_date": "2026-09-01"
 }

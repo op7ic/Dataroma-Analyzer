@@ -1,5 +1,662 @@
 [
   {
+    "id": "FE",
+    "name": "First Eagle Investment Management Updated 24 Aug 2026",
+    "firm": "",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "MUHL",
+    "name": "Muhlenkamp Updated 18 Aug 2026",
+    "firm": "",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "AP",
+    "name": "AltaRock Partners Updated 17 Aug 2026",
+    "firm": "",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "KB",
+    "name": "Kahn Brothers Group Updated 17 Aug 2026",
+    "firm": "",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "vg",
+    "name": "Viking Global Investors Updated 14 Aug 2026",
+    "firm": "",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "SE",
+    "name": "Mason Hawkins",
+    "firm": "Southeastern Asset Management Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "CCM",
+    "name": "Glenn Greenberg",
+    "firm": "Brave Warrior Advisors Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "psc",
+    "name": "Bill Ackman",
+    "firm": "Pershing Square Capital Management Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "tp",
+    "name": "Daniel Loeb",
+    "firm": "Third Point Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "LPC",
+    "name": "Stephen Mandel",
+    "firm": "Lone Pine Capital Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "VFC",
+    "name": "Valley Forge Capital Management Updated 14 Aug 2026",
+    "firm": "",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "AIM",
+    "name": "Alex Roepers",
+    "firm": "Atlantic Investment Management Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "WP",
+    "name": "David Rolfe",
+    "firm": "Wedgewood Partners Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "AM",
+    "name": "David Tepper",
+    "firm": "Appaloosa Management Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "LMM",
+    "name": "Bill Miller",
+    "firm": "Miller Value Partners Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "HH",
+    "name": "Duan Yongping",
+    "firm": "H&H International Investment Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "SA",
+    "name": "Christopher Bloomstran",
+    "firm": "Semper Augustus Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "ABI",
+    "name": "Abrams Bison Investments Updated 14 Aug 2026",
+    "firm": "",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "VA",
+    "name": "ValueAct Capital  Updated 14 Aug 2026",
+    "firm": "",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "mc",
+    "name": "Lee Ainslie",
+    "firm": "Maverick Capital Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "GLRE",
+    "name": "David Einhorn",
+    "firm": "Greenlight Capital Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "AC",
+    "name": "Chuck Akre",
+    "firm": "Akre Capital Management Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "DCP",
+    "name": "Henry Ellenbogen",
+    "firm": "Durable Capital Partners Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "ic",
+    "name": "Carl Icahn",
+    "firm": "Icahn Capital Management Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "GFT",
+    "name": "Bill & Melinda Gates Foundation Trust Updated 14 Aug 2026",
+    "firm": "",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "PC",
+    "name": "Norbert Lou",
+    "firm": "Punch Card Management Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "HA",
+    "name": "Bill Nygren",
+    "firm": "Oakmark Funds Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "fairx",
+    "name": "Bruce Berkowitz",
+    "firm": "Fairholme Capital Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "BRK",
+    "name": "Warren Buffett",
+    "firm": "Berkshire Hathaway Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "HC",
+    "name": "Li Lu",
+    "firm": "Himalaya Capital Management Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "ENG",
+    "name": "Glenn Welling",
+    "firm": "Engaged Capital Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "TGM",
+    "name": "Chase Coleman",
+    "firm": "Tiger Global Management Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "FPA",
+    "name": "First Pacific Advisors Updated 14 Aug 2026",
+    "firm": "",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "CAS",
+    "name": "Clifford Sosin",
+    "firm": "CAS Investment Partners Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "GC",
+    "name": "Francois Rochon",
+    "firm": "Giverny Capital Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "AI",
+    "name": "John Rogers",
+    "firm": "Ariel Investments Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "SP",
+    "name": "Dennis Hong",
+    "firm": "ShawSpring Partners Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "tci",
+    "name": "Chris Hohn",
+    "firm": "TCI Fund Management Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "DA",
+    "name": "Pat Dorsey",
+    "firm": "Dorsey Asset Management Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "HCM",
+    "name": "Hillman Capital Management Updated 14 Aug 2026",
+    "firm": "",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "VAN",
+    "name": "Arnold Van Den Berg",
+    "firm": "Century Management  Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "MPF",
+    "name": "Mairs & Power Funds Updated 14 Aug 2026",
+    "firm": "",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "oa",
+    "name": "Leon Cooperman Updated 14 Aug 2026",
+    "firm": "",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "RVC",
+    "name": "Robert Vinall",
+    "firm": "RV Capital GmbH Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "GLC",
+    "name": "Josh Tarasoff",
+    "firm": "Greenlea Lane Capital Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "FS",
+    "name": "Terry Smith",
+    "firm": "Fundsmith Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "FFH",
+    "name": "Prem Watsa",
+    "firm": "Fairfax Financial Holdings Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "oc",
+    "name": "Howard Marks",
+    "firm": "Oaktree Capital Management Updated 14 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "RC",
+    "name": "Ruane Cunniff LP Updated 14 Aug 2026",
+    "firm": "",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "CM",
+    "name": "Greg Alexander",
+    "firm": "Conifer Management Updated 13 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "DAC",
+    "name": "Dodge & Cox Funds Updated 13 Aug 2026",
+    "firm": "",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "BAUPOST",
+    "name": "Seth Klarman",
+    "firm": "Baupost Group Updated 13 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "PTNT",
+    "name": "Samantha McLemore",
+    "firm": "Patient Capital Management Updated 13 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "abc",
+    "name": "David Abrams",
+    "firm": "Abrams Capital Management Updated 13 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "TFP",
+    "name": "Triple Frond Partners Updated 13 Aug 2026",
+    "firm": "",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "CAU",
+    "name": "Sarah Ketterer",
+    "firm": "Causeway Capital Management Updated 13 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "GR",
+    "name": "Thomas Russo",
+    "firm": "Gardner Russo & Quinn Updated 13 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "OCL",
+    "name": "Bryan Lawrence",
+    "firm": "Oakcliff Capital Updated 13 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "PI",
+    "name": "Mohnish Pabrai",
+    "firm": "Pabrai Investments Updated 13 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "TF",
+    "name": "Nelson Peltz",
+    "firm": "Trian Fund Management Updated 12 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "WIM",
+    "name": "Wallace Weitz",
+    "firm": "Weitz Investment Management Updated 12 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "TA",
+    "name": "Third Avenue Management Updated 12 Aug 2026",
+    "firm": "",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "SSHFX",
+    "name": "Harry Burn",
+    "firm": "Sound Shore Updated 12 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "ca",
+    "name": "Francis Chou",
+    "firm": "Chou Associates Updated 12 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "AKO",
+    "name": "AKO Capital Updated 12 Aug 2026",
+    "firm": "",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "YAM",
+    "name": "Yacktman Asset Management Updated 11 Aug 2026",
+    "firm": "",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "DAV",
+    "name": "Christopher Davis",
+    "firm": "Davis Advisors Updated 11 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "VVP",
+    "name": "Vulcan Value Partners Updated 10 Aug 2026",
+    "firm": "",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "TB",
+    "name": "Tweedy Browne Updated 07 Aug 2026",
+    "firm": "",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "PIM",
+    "name": "Richard Pzena",
+    "firm": "Pzena Investment Management Updated 07 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "JIM",
+    "name": "Jensen Investment Management Updated 07 Aug 2026",
+    "firm": "",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "CHE",
+    "name": "Steven Check",
+    "firm": "Check Capital Management Updated 05 Aug 2026",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
+    "id": "pcm",
+    "name": "Polen Capital Management Updated 04 Aug 2026",
+    "firm": "",
+    "portfolio_value": 0,
+    "num_holdings": 0,
+    "url": "",
+    "last_updated": null
+  },
+  {
     "id": "MKL",
     "name": "Thomas Gayner",
     "firm": "Markel Group Updated 31 Jul 2026",
@@ -72,666 +729,9 @@
     "last_updated": null
   },
   {
-    "id": "oc",
-    "name": "Howard Marks",
-    "firm": "Oaktree Capital Management Updated 20 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "HH",
-    "name": "Duan Yongping",
-    "firm": "H&H International Investment Updated 19 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "ABI",
-    "name": "Abrams Bison Investments Updated 15 May 2026",
-    "firm": "",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "TF",
-    "name": "Nelson Peltz",
-    "firm": "Trian Fund Management Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "mc",
-    "name": "Lee Ainslie",
-    "firm": "Maverick Capital Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "vg",
-    "name": "Viking Global Investors Updated 15 May 2026",
-    "firm": "",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "VA",
-    "name": "ValueAct Capital  Updated 15 May 2026",
-    "firm": "",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "HC",
-    "name": "Li Lu",
-    "firm": "Himalaya Capital Management Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "GLRE",
-    "name": "David Einhorn",
-    "firm": "Greenlight Capital Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "ic",
-    "name": "Carl Icahn",
-    "firm": "Icahn Capital Management Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "fairx",
-    "name": "Bruce Berkowitz",
-    "firm": "Fairholme Capital Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "HA",
-    "name": "Bill Nygren",
-    "firm": "Oakmark Funds Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "GFT",
-    "name": "Bill & Melinda Gates Foundation Trust Updated 15 May 2026",
-    "firm": "",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "psc",
-    "name": "Bill Ackman",
-    "firm": "Pershing Square Capital Management Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "PC",
-    "name": "Norbert Lou",
-    "firm": "Punch Card Management Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "DCP",
-    "name": "Henry Ellenbogen",
-    "firm": "Durable Capital Partners Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "SA",
-    "name": "Christopher Bloomstran",
-    "firm": "Semper Augustus Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "SE",
-    "name": "Mason Hawkins",
-    "firm": "Southeastern Asset Management Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "CCM",
-    "name": "Glenn Greenberg",
-    "firm": "Brave Warrior Advisors Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "tp",
-    "name": "Daniel Loeb",
-    "firm": "Third Point Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "BRK",
-    "name": "Warren Buffett",
-    "firm": "Berkshire Hathaway Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "LPC",
-    "name": "Stephen Mandel",
-    "firm": "Lone Pine Capital Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "AIM",
-    "name": "Alex Roepers",
-    "firm": "Atlantic Investment Management Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "VFC",
-    "name": "Valley Forge Capital Management Updated 15 May 2026",
-    "firm": "",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "WP",
-    "name": "David Rolfe",
-    "firm": "Wedgewood Partners Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "AM",
-    "name": "David Tepper",
-    "firm": "Appaloosa Management Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "TGM",
-    "name": "Chase Coleman",
-    "firm": "Tiger Global Management Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "ENG",
-    "name": "Glenn Welling",
-    "firm": "Engaged Capital Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "CAS",
-    "name": "Clifford Sosin",
-    "firm": "CAS Investment Partners Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "AP",
-    "name": "AltaRock Partners Updated 15 May 2026",
-    "firm": "",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "GC",
-    "name": "Francois Rochon",
-    "firm": "Giverny Capital Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "oa",
-    "name": "Leon Cooperman Updated 15 May 2026",
-    "firm": "",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "VAN",
-    "name": "Arnold Van Den Berg",
-    "firm": "Century Management  Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "OCL",
-    "name": "Bryan Lawrence",
-    "firm": "Oakcliff Capital Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "LMM",
-    "name": "Bill Miller",
-    "firm": "Miller Value Partners Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "DA",
-    "name": "Pat Dorsey",
-    "firm": "Dorsey Asset Management Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "tci",
-    "name": "Chris Hohn",
-    "firm": "TCI Fund Management Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "AKO",
-    "name": "AKO Capital Updated 15 May 2026",
-    "firm": "",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "FS",
-    "name": "Terry Smith",
-    "firm": "Fundsmith Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "FFH",
-    "name": "Prem Watsa",
-    "firm": "Fairfax Financial Holdings Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "HCM",
-    "name": "Hillman Capital Management Updated 15 May 2026",
-    "firm": "",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "TFP",
-    "name": "Triple Frond Partners Updated 15 May 2026",
-    "firm": "",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
     "id": "MP",
     "name": "Tom Bancroft",
     "firm": "Makaira Partners Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "RC",
-    "name": "Ruane Cunniff LP Updated 15 May 2026",
-    "firm": "",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "CM",
-    "name": "Greg Alexander",
-    "firm": "Conifer Management Updated 15 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "AI",
-    "name": "John Rogers",
-    "firm": "Ariel Investments Updated 14 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "abc",
-    "name": "David Abrams",
-    "firm": "Abrams Capital Management Updated 14 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "AC",
-    "name": "Chuck Akre",
-    "firm": "Akre Capital Management Updated 14 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "FE",
-    "name": "First Eagle Investment Management Updated 14 May 2026",
-    "firm": "",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "BAUPOST",
-    "name": "Seth Klarman",
-    "firm": "Baupost Group Updated 14 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "SP",
-    "name": "Dennis Hong",
-    "firm": "ShawSpring Partners Updated 14 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "CAU",
-    "name": "Sarah Ketterer",
-    "firm": "Causeway Capital Management Updated 14 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "WIM",
-    "name": "Wallace Weitz",
-    "firm": "Weitz Investment Management Updated 14 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "DAC",
-    "name": "Dodge & Cox Funds Updated 14 May 2026",
-    "firm": "",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "ca",
-    "name": "Francis Chou",
-    "firm": "Chou Associates Updated 14 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "PTNT",
-    "name": "Samantha McLemore",
-    "firm": "Patient Capital Management Updated 14 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "pcm",
-    "name": "Polen Capital Management Updated 14 May 2026",
-    "firm": "",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "PI",
-    "name": "Mohnish Pabrai",
-    "firm": "Pabrai Investments Updated 14 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "FPA",
-    "name": "First Pacific Advisors Updated 14 May 2026",
-    "firm": "",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "MPF",
-    "name": "Mairs & Power Funds Updated 14 May 2026",
-    "firm": "",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "TA",
-    "name": "Third Avenue Management Updated 13 May 2026",
-    "firm": "",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "GR",
-    "name": "Thomas Russo",
-    "firm": "Gardner Russo & Quinn Updated 13 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "VVP",
-    "name": "Vulcan Value Partners Updated 11 May 2026",
-    "firm": "",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "RVC",
-    "name": "Robert Vinall",
-    "firm": "RV Capital GmbH Updated 11 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "GLC",
-    "name": "Josh Tarasoff",
-    "firm": "Greenlea Lane Capital Updated 11 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "KB",
-    "name": "Kahn Brothers Group Updated 08 May 2026",
-    "firm": "",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "SSHFX",
-    "name": "Harry Burn",
-    "firm": "Sound Shore Updated 07 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "DAV",
-    "name": "Christopher Davis",
-    "firm": "Davis Advisors Updated 07 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "TB",
-    "name": "Tweedy Browne Updated 06 May 2026",
-    "firm": "",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "MUHL",
-    "name": "Muhlenkamp Updated 06 May 2026",
-    "firm": "",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "JIM",
-    "name": "Jensen Investment Management Updated 05 May 2026",
-    "firm": "",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "CHE",
-    "name": "Steven Check",
-    "firm": "Check Capital Management Updated 04 May 2026",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "YAM",
-    "name": "Yacktman Asset Management Updated 01 May 2026",
-    "firm": "",
-    "portfolio_value": 0,
-    "num_holdings": 0,
-    "url": "",
-    "last_updated": null
-  },
-  {
-    "id": "PIM",
-    "name": "Richard Pzena",
-    "firm": "Pzena Investment Management Updated 24 Apr 2026",
     "portfolio_value": 0,
     "num_holdings": 0,
     "url": "",

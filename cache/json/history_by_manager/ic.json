@@ -2,6 +2,50 @@
   "manager_id": "ic",
   "activities": [
     {
+      "symbol": "IEP",
+      "manager_id": "ic",
+      "action": "Add 12.56%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 68992804,
+      "portfolio_percentage": 6.02,
+      "company_name": "Icahn Enterprises"
+    },
+    {
+      "symbol": "SD",
+      "manager_id": "ic",
+      "action": "Add 2.17%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 107206,
+      "portfolio_percentage": 0.02,
+      "company_name": "SandRidge Energy Inc."
+    },
+    {
+      "symbol": "JBLU",
+      "manager_id": "ic",
+      "action": "Reduce 38.56%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 12963556,
+      "portfolio_percentage": 0.9,
+      "company_name": "JetBlue Airways Corp."
+    },
+    {
+      "symbol": "AEP",
+      "manager_id": "ic",
+      "action": "Reduce 63.93%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 770590,
+      "portfolio_percentage": 1.28,
+      "company_name": "American Electric Power"
+    },
+    {
       "symbol": "CVI",
       "manager_id": "ic",
       "action": "Add 1.11%",
@@ -3610,6 +3654,6 @@
       "company_name": "WebMD Health Corp."
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.672480",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.771650",
+  "scraped_date": "2026-09-01"
 }

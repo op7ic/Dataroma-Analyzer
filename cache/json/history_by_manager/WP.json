@@ -4,6 +4,248 @@
     {
       "symbol": "AMZN",
       "manager_id": "WP",
+      "action": "Add 35.57%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 35533,
+      "portfolio_percentage": 1.75,
+      "company_name": "Amazon.com Inc."
+    },
+    {
+      "symbol": "PGR",
+      "manager_id": "WP",
+      "action": "Add 27.48%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 22909,
+      "portfolio_percentage": 1.03,
+      "company_name": "Progressive Corp."
+    },
+    {
+      "symbol": "CB",
+      "manager_id": "WP",
+      "action": "Add 26.26%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 14153,
+      "portfolio_percentage": 1.0,
+      "company_name": "Chubb Limited"
+    },
+    {
+      "symbol": "MSFT",
+      "manager_id": "WP",
+      "action": "Add 21.10%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 15599,
+      "portfolio_percentage": 1.2,
+      "company_name": "Microsoft Corp."
+    },
+    {
+      "symbol": "META",
+      "manager_id": "WP",
+      "action": "Add 16.21%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 10666,
+      "portfolio_percentage": 1.24,
+      "company_name": "Meta Platforms Inc."
+    },
+    {
+      "symbol": "V",
+      "manager_id": "WP",
+      "action": "Add 7.44%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 6178,
+      "portfolio_percentage": 0.44,
+      "company_name": "Visa Inc."
+    },
+    {
+      "symbol": "TOL",
+      "manager_id": "WP",
+      "action": "Add 2.59%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 2287,
+      "portfolio_percentage": 0.08,
+      "company_name": "Toll Brothers"
+    },
+    {
+      "symbol": "SPGI",
+      "manager_id": "WP",
+      "action": "Reduce 3.19%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1032,
+      "portfolio_percentage": 0.09,
+      "company_name": "S&P Global Inc."
+    },
+    {
+      "symbol": "ODFL",
+      "manager_id": "WP",
+      "action": "Reduce 3.21%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 3653,
+      "portfolio_percentage": 0.16,
+      "company_name": "Old Dominion Freight Line"
+    },
+    {
+      "symbol": "ORLY",
+      "manager_id": "WP",
+      "action": "Reduce 3.22%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 5752,
+      "portfolio_percentage": 0.11,
+      "company_name": "O'Reilly Automotive"
+    },
+    {
+      "symbol": "CPRT",
+      "manager_id": "WP",
+      "action": "Reduce 3.24%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 15001,
+      "portfolio_percentage": 0.09,
+      "company_name": "Copart Inc."
+    },
+    {
+      "symbol": "AAPL",
+      "manager_id": "WP",
+      "action": "Reduce 3.29%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 4446,
+      "portfolio_percentage": 0.27,
+      "company_name": "Apple Inc."
+    },
+    {
+      "symbol": "BKNG",
+      "manager_id": "WP",
+      "action": "Reduce 3.32%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 4574,
+      "portfolio_percentage": 0.17,
+      "company_name": "Booking Holdings Inc."
+    },
+    {
+      "symbol": "EW",
+      "manager_id": "WP",
+      "action": "Reduce 3.37%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 5761,
+      "portfolio_percentage": 0.11,
+      "company_name": "Edwards Lifesciences Corp."
+    },
+    {
+      "symbol": "MSI",
+      "manager_id": "WP",
+      "action": "Reduce 3.38%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 2298,
+      "portfolio_percentage": 0.2,
+      "company_name": "Motorola Solutions Inc."
+    },
+    {
+      "symbol": "GOOGL",
+      "manager_id": "WP",
+      "action": "Reduce 18.28%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 28464,
+      "portfolio_percentage": 2.1,
+      "company_name": "Alphabet Inc."
+    },
+    {
+      "symbol": "TSM",
+      "manager_id": "WP",
+      "action": "Reduce 18.44%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 23854,
+      "portfolio_percentage": 2.35,
+      "company_name": "Taiwan Semiconductor S.A."
+    },
+    {
+      "symbol": "URI",
+      "manager_id": "WP",
+      "action": "Reduce 33.58%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 8460,
+      "portfolio_percentage": 1.98,
+      "company_name": "United Rentals"
+    },
+    {
+      "symbol": "TSCO",
+      "manager_id": "WP",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 456094,
+      "portfolio_percentage": 4.27,
+      "company_name": "Tractor Supply"
+    },
+    {
+      "symbol": "CDW",
+      "manager_id": "WP",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 144870,
+      "portfolio_percentage": 3.62,
+      "company_name": "CDW Corp."
+    },
+    {
+      "symbol": "ZTS",
+      "manager_id": "WP",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 113541,
+      "portfolio_percentage": 2.77,
+      "company_name": "Zoetis Inc."
+    },
+    {
+      "symbol": "IWF",
+      "manager_id": "WP",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 2096,
+      "portfolio_percentage": 0.05,
+      "company_name": "iShares Russell 1000 Growth ETF"
+    },
+    {
+      "symbol": "AMZN",
+      "manager_id": "WP",
       "action": "Add 71.47%",
       "date": "Q1 2026",
       "percentage_change": 0.0,
@@ -5480,7 +5722,7 @@
       "company_name": "Old Dominion Freight Line"
     },
     {
-      "symbol": "EA",
+      "symbol": "EA-OLD",
       "manager_id": "WP",
       "action": "Sell 100.00%",
       "date": "Q4 2021",
@@ -5590,7 +5832,7 @@
       "company_name": "Visa Inc."
     },
     {
-      "symbol": "EA",
+      "symbol": "EA-OLD",
       "manager_id": "WP",
       "action": "Reduce 1.04%",
       "date": "Q3 2021",
@@ -5953,7 +6195,7 @@
       "company_name": "Keysight Technologies Inc."
     },
     {
-      "symbol": "EA",
+      "symbol": "EA-OLD",
       "manager_id": "WP",
       "action": "Reduce 4.95%",
       "date": "Q2 2021",
@@ -6272,7 +6514,7 @@
       "company_name": "Starbucks Corp."
     },
     {
-      "symbol": "EA",
+      "symbol": "EA-OLD",
       "manager_id": "WP",
       "action": "Reduce 6.16%",
       "date": "Q1 2021",
@@ -6602,7 +6844,7 @@
       "company_name": "S&P Global Inc."
     },
     {
-      "symbol": "EA",
+      "symbol": "EA-OLD",
       "manager_id": "WP",
       "action": "Reduce 5.47%",
       "date": "Q4 2020",
@@ -6954,7 +7196,7 @@
       "company_name": "AT&T Inc."
     },
     {
-      "symbol": "EA",
+      "symbol": "EA-OLD",
       "manager_id": "WP",
       "action": "Reduce 4.48%",
       "date": "Q3 2020",
@@ -7350,7 +7592,7 @@
       "company_name": "S&P Global Inc."
     },
     {
-      "symbol": "EA",
+      "symbol": "EA-OLD",
       "manager_id": "WP",
       "action": "Reduce 7.33%",
       "date": "Q2 2020",
@@ -7867,7 +8109,7 @@
       "company_name": "Alphabet Inc."
     },
     {
-      "symbol": "EA",
+      "symbol": "EA-OLD",
       "manager_id": "WP",
       "action": "Reduce 38.38%",
       "date": "Q1 2020",
@@ -7999,7 +8241,7 @@
       "company_name": "Motorola Solutions Inc."
     },
     {
-      "symbol": "EA",
+      "symbol": "EA-OLD",
       "manager_id": "WP",
       "action": "Add 2.41%",
       "date": "Q4 2019",
@@ -8318,7 +8560,7 @@
       "company_name": "Charles Schwab Corp."
     },
     {
-      "symbol": "EA",
+      "symbol": "EA-OLD",
       "manager_id": "WP",
       "action": "Add 54.96%",
       "date": "Q3 2019",
@@ -8725,7 +8967,7 @@
       "company_name": "Alcon Inc."
     },
     {
-      "symbol": "EA",
+      "symbol": "EA-OLD",
       "manager_id": "WP",
       "action": "Buy",
       "date": "Q2 2019",
@@ -10758,250 +11000,8 @@
       "shares": 6500,
       "portfolio_percentage": 0.02,
       "company_name": "Express Scripts"
-    },
-    {
-      "symbol": "BKNG",
-      "manager_id": "WP",
-      "action": "Reduce 16.13%",
-      "date": "Q4 2017",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 371325,
-      "portfolio_percentage": 1.04,
-      "company_name": "Booking Holdings Inc."
-    },
-    {
-      "symbol": "PAYX",
-      "manager_id": "WP",
-      "action": "Reduce 17.54%",
-      "date": "Q4 2017",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 2000,
-      "portfolio_percentage": 0.01,
-      "company_name": "Paychex Inc."
-    },
-    {
-      "symbol": "KHC",
-      "manager_id": "WP",
-      "action": "Reduce 18.11%",
-      "date": "Q4 2017",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 304762,
-      "portfolio_percentage": 0.96,
-      "company_name": "Kraft Heinz Co."
-    },
-    {
-      "symbol": "CLB",
-      "manager_id": "WP",
-      "action": "Reduce 18.27%",
-      "date": "Q4 2017",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 206431,
-      "portfolio_percentage": 0.92,
-      "company_name": "Core Laboratories Inc."
-    },
-    {
-      "symbol": "TJX",
-      "manager_id": "WP",
-      "action": "Reduce 18.44%",
-      "date": "Q4 2017",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 474894,
-      "portfolio_percentage": 0.73,
-      "company_name": "TJX Companies Inc."
-    },
-    {
-      "symbol": "CTSH",
-      "manager_id": "WP",
-      "action": "Reduce 19.46%",
-      "date": "Q4 2017",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 267276,
-      "portfolio_percentage": 0.77,
-      "company_name": "Cognizant Technology Solutions"
-    },
-    {
-      "symbol": "SLB",
-      "manager_id": "WP",
-      "action": "Reduce 20.46%",
-      "date": "Q4 2017",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 440766,
-      "portfolio_percentage": 1.2,
-      "company_name": "Schlumberger Ltd."
-    },
-    {
-      "symbol": "BRK.B",
-      "manager_id": "WP",
-      "action": "Reduce 21.56%",
-      "date": "Q4 2017",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 314826,
-      "portfolio_percentage": 2.53,
-      "company_name": "Berkshire Hathaway CL B"
-    },
-    {
-      "symbol": "AAPL",
-      "manager_id": "WP",
-      "action": "Reduce 22.17%",
-      "date": "Q4 2017",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 1288708,
-      "portfolio_percentage": 2.21,
-      "company_name": "Apple Inc."
-    },
-    {
-      "symbol": "V",
-      "manager_id": "WP",
-      "action": "Reduce 22.66%",
-      "date": "Q4 2017",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 416551,
-      "portfolio_percentage": 1.92,
-      "company_name": "Visa Inc."
-    },
-    {
-      "symbol": "GOOG",
-      "manager_id": "WP",
-      "action": "Reduce 22.84%",
-      "date": "Q4 2017",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 85680,
-      "portfolio_percentage": 0.18,
-      "company_name": "Alphabet Inc. CL C"
-    },
-    {
-      "symbol": "VRSK",
-      "manager_id": "WP",
-      "action": "Reduce 23.83%",
-      "date": "Q4 2017",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 333906,
-      "portfolio_percentage": 1.3,
-      "company_name": "Verisk Analytics Inc."
-    },
-    {
-      "symbol": "GOOGL",
-      "manager_id": "WP",
-      "action": "Reduce 23.91%",
-      "date": "Q4 2017",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 922780,
-      "portfolio_percentage": 1.97,
-      "company_name": "Alphabet Inc."
-    },
-    {
-      "symbol": "TSCO",
-      "manager_id": "WP",
-      "action": "Reduce 24.76%",
-      "date": "Q4 2017",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 3425595,
-      "portfolio_percentage": 2.07,
-      "company_name": "Tractor Supply"
-    },
-    {
-      "symbol": "ROST",
-      "manager_id": "WP",
-      "action": "Reduce 25.36%",
-      "date": "Q4 2017",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 514909,
-      "portfolio_percentage": 1.67,
-      "company_name": "Ross Stores Inc."
-    },
-    {
-      "symbol": "SCHW",
-      "manager_id": "WP",
-      "action": "Reduce 25.51%",
-      "date": "Q4 2017",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 593873,
-      "portfolio_percentage": 1.23,
-      "company_name": "Charles Schwab Corp."
-    },
-    {
-      "symbol": "FAST",
-      "manager_id": "WP",
-      "action": "Reduce 25.61%",
-      "date": "Q4 2017",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 3795400,
-      "portfolio_percentage": 2.1,
-      "company_name": "Fastenal"
-    },
-    {
-      "symbol": "QCOM",
-      "manager_id": "WP",
-      "action": "Reduce 27.27%",
-      "date": "Q4 2017",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 820410,
-      "portfolio_percentage": 2.13,
-      "company_name": "QUALCOMM Inc."
-    },
-    {
-      "symbol": "MN-OLD",
-      "manager_id": "WP",
-      "action": "Reduce 42.68%",
-      "date": "Q4 2017",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 17500,
-      "portfolio_percentage": 0.0,
-      "company_name": "Manning & Napier"
-    },
-    {
-      "symbol": "PYPL",
-      "manager_id": "WP",
-      "action": "Reduce 61.17%",
-      "date": "Q4 2017",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 1665059,
-      "portfolio_percentage": 4.96,
-      "company_name": "PayPal Holdings Inc."
-    },
-    {
-      "symbol": "THS-OLD",
-      "manager_id": "WP",
-      "action": "Sell 100.00%",
-      "date": "Q4 2017",
-      "percentage_change": 0.0,
-      "action_type": "Sell",
-      "shares": 10350,
-      "portfolio_percentage": 0.02,
-      "company_name": "TreeHouse Foods"
-    },
-    {
-      "symbol": "XOM",
-      "manager_id": "WP",
-      "action": "Sell 100.00%",
-      "date": "Q4 2017",
-      "percentage_change": 0.0,
-      "action_type": "Sell",
-      "shares": 2866,
-      "portfolio_percentage": 0.01,
-      "company_name": "ExxonMobil Holdings Corp."
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.765520",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.695567",
+  "scraped_date": "2026-09-01"
 }

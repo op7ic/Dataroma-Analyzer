@@ -2,6 +2,72 @@
   "manager_id": "TFP",
   "activities": [
     {
+      "symbol": "DASH",
+      "manager_id": "TFP",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 300246,
+      "portfolio_percentage": 4.94,
+      "company_name": "DoorDash Inc."
+    },
+    {
+      "symbol": "SPGI",
+      "manager_id": "TFP",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 116700,
+      "portfolio_percentage": 4.24,
+      "company_name": "S&P Global Inc."
+    },
+    {
+      "symbol": "AMZN",
+      "manager_id": "TFP",
+      "action": "Reduce 9.64%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 46114,
+      "portfolio_percentage": 0.98,
+      "company_name": "Amazon.com Inc."
+    },
+    {
+      "symbol": "LYV",
+      "manager_id": "TFP",
+      "action": "Reduce 15.55%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 36503,
+      "portfolio_percentage": 0.6,
+      "company_name": "Live Nation Inc."
+    },
+    {
+      "symbol": "GOOG",
+      "manager_id": "TFP",
+      "action": "Reduce 17.52%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 61915,
+      "portfolio_percentage": 1.95,
+      "company_name": "Alphabet Inc. CL C"
+    },
+    {
+      "symbol": "ILMN",
+      "manager_id": "TFP",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 306460,
+      "portfolio_percentage": 3.92,
+      "company_name": "Illumina Inc."
+    },
+    {
       "symbol": "TRU",
       "manager_id": "TFP",
       "action": "Add 48.38%",
@@ -1443,7 +1509,7 @@
       "company_name": "Alibaba Group Holdings"
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "TFP",
       "action": "Sell 100.00%",
       "date": "Q3 2021",
@@ -1498,7 +1564,7 @@
       "company_name": "Moody's Corp."
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "TFP",
       "action": "Reduce 25.31%",
       "date": "Q2 2021",
@@ -1542,7 +1608,7 @@
       "company_name": "Visa Inc."
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "TFP",
       "action": "Reduce 52.82%",
       "date": "Q1 2021",
@@ -1575,7 +1641,7 @@
       "company_name": "Visa Inc."
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "TFP",
       "action": "Reduce 32.48%",
       "date": "Q4 2020",
@@ -2125,7 +2191,7 @@
       "company_name": "Moody's Corp."
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "TFP",
       "action": "Reduce 14.82%",
       "date": "Q4 2018",
@@ -2169,7 +2235,7 @@
       "company_name": "Charter Communications"
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "TFP",
       "action": "Add 13.31%",
       "date": "Q2 2018",
@@ -2235,7 +2301,7 @@
       "company_name": "Charles Schwab Corp."
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "TFP",
       "action": "Buy",
       "date": "Q1 2018",
@@ -2312,6 +2378,6 @@
       "company_name": "TransDigm Group Inc."
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.870096",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.945795",
+  "scraped_date": "2026-09-01"
 }

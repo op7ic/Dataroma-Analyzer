@@ -2,6 +2,457 @@
   "manager_id": "RC",
   "activities": [
     {
+      "symbol": "SDHC",
+      "manager_id": "RC",
+      "action": "Add 88.23%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 12785,
+      "portfolio_percentage": 0.0,
+      "company_name": "Smith Douglas Homes Corp"
+    },
+    {
+      "symbol": "SAP",
+      "manager_id": "RC",
+      "action": "Add 64.89%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 486637,
+      "portfolio_percentage": 1.16,
+      "company_name": "SAP SE"
+    },
+    {
+      "symbol": "ICLR",
+      "manager_id": "RC",
+      "action": "Add 25.30%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 413476,
+      "portfolio_percentage": 1.12,
+      "company_name": "ICON plc"
+    },
+    {
+      "symbol": "GPI",
+      "manager_id": "RC",
+      "action": "Add 21.70%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 871,
+      "portfolio_percentage": 0.0,
+      "company_name": "Group 1 Automotive"
+    },
+    {
+      "symbol": "VXUS",
+      "manager_id": "RC",
+      "action": "Add 8.59%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 508,
+      "portfolio_percentage": 0.0,
+      "company_name": "Vanguard Total Intl Stock"
+    },
+    {
+      "symbol": "VTI",
+      "manager_id": "RC",
+      "action": "Add 8.19%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 225,
+      "portfolio_percentage": 0.0,
+      "company_name": "Vanguard Total Stock Mkt ETF"
+    },
+    {
+      "symbol": "ROP",
+      "manager_id": "RC",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 674902,
+      "portfolio_percentage": 3.55,
+      "company_name": "Roper Technologies Inc."
+    },
+    {
+      "symbol": "BAC",
+      "manager_id": "RC",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 3625,
+      "portfolio_percentage": 0.0,
+      "company_name": "Bank of America Corp."
+    },
+    {
+      "symbol": "HGV",
+      "manager_id": "RC",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 4189,
+      "portfolio_percentage": 0.0,
+      "company_name": "Hilton Grand Vacations Inc."
+    },
+    {
+      "symbol": "VT",
+      "manager_id": "RC",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 1426,
+      "portfolio_percentage": 0.0,
+      "company_name": "Vanguard Tot World Stk ETF"
+    },
+    {
+      "symbol": "EQH",
+      "manager_id": "RC",
+      "action": "Reduce 0.37%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 149,
+      "portfolio_percentage": 0.0,
+      "company_name": "Equitable Holdings Inc."
+    },
+    {
+      "symbol": "J",
+      "manager_id": "RC",
+      "action": "Reduce 0.70%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 44,
+      "portfolio_percentage": 0.0,
+      "company_name": "Jacobs Solutions Inc."
+    },
+    {
+      "symbol": "TECH",
+      "manager_id": "RC",
+      "action": "Reduce 1.27%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 43160,
+      "portfolio_percentage": 0.05,
+      "company_name": "Bio-Techne Corp."
+    },
+    {
+      "symbol": "LAD",
+      "manager_id": "RC",
+      "action": "Reduce 1.84%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 55,
+      "portfolio_percentage": 0.0,
+      "company_name": "Lithia Motors Inc."
+    },
+    {
+      "symbol": "FWONK",
+      "manager_id": "RC",
+      "action": "Reduce 2.50%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 133715,
+      "portfolio_percentage": 0.2,
+      "company_name": "Liberty Media Corp Formula One Series C"
+    },
+    {
+      "symbol": "GOOG",
+      "manager_id": "RC",
+      "action": "Reduce 2.69%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 25528,
+      "portfolio_percentage": 0.14,
+      "company_name": "Alphabet Inc. CL C"
+    },
+    {
+      "symbol": "ACN",
+      "manager_id": "RC",
+      "action": "Reduce 2.84%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 26356,
+      "portfolio_percentage": 0.05,
+      "company_name": "Accenture"
+    },
+    {
+      "symbol": "ALGN",
+      "manager_id": "RC",
+      "action": "Reduce 2.91%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 35080,
+      "portfolio_percentage": 0.09,
+      "company_name": "Align Technology Inc."
+    },
+    {
+      "symbol": "TSM",
+      "manager_id": "RC",
+      "action": "Reduce 2.95%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 35694,
+      "portfolio_percentage": 0.27,
+      "company_name": "Taiwan Semiconductor S.A."
+    },
+    {
+      "symbol": "ZTS",
+      "manager_id": "RC",
+      "action": "Reduce 2.96%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 71710,
+      "portfolio_percentage": 0.08,
+      "company_name": "Zoetis Inc."
+    },
+    {
+      "symbol": "ICE",
+      "manager_id": "RC",
+      "action": "Reduce 2.98%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 78625,
+      "portfolio_percentage": 0.15,
+      "company_name": "Intercontinental Exchange Inc."
+    },
+    {
+      "symbol": "SCHW",
+      "manager_id": "RC",
+      "action": "Reduce 3.04%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 143425,
+      "portfolio_percentage": 0.21,
+      "company_name": "Charles Schwab Corp."
+    },
+    {
+      "symbol": "COF",
+      "manager_id": "RC",
+      "action": "Reduce 3.06%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 61723,
+      "portfolio_percentage": 0.19,
+      "company_name": "Capital One Financial"
+    },
+    {
+      "symbol": "MSA",
+      "manager_id": "RC",
+      "action": "Reduce 3.09%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 54867,
+      "portfolio_percentage": 0.15,
+      "company_name": "MSA Safety Inc."
+    },
+    {
+      "symbol": "BRK.B",
+      "manager_id": "RC",
+      "action": "Reduce 3.13%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 9716,
+      "portfolio_percentage": 0.08,
+      "company_name": "Berkshire Hathaway CL B"
+    },
+    {
+      "symbol": "UNH",
+      "manager_id": "RC",
+      "action": "Reduce 3.14%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 22853,
+      "portfolio_percentage": 0.15,
+      "company_name": "United Health Group Inc."
+    },
+    {
+      "symbol": "KSPI",
+      "manager_id": "RC",
+      "action": "Reduce 3.65%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 149,
+      "portfolio_percentage": 0.0,
+      "company_name": "Jsc Kaspi.kz ADR"
+    },
+    {
+      "symbol": "FWONA",
+      "manager_id": "RC",
+      "action": "Reduce 3.89%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 28122,
+      "portfolio_percentage": 0.04,
+      "company_name": "Liberty Media Corp Formula One Series A"
+    },
+    {
+      "symbol": "RMNI",
+      "manager_id": "RC",
+      "action": "Reduce 4.53%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1599,
+      "portfolio_percentage": 0.0,
+      "company_name": "Rimini Street Inc."
+    },
+    {
+      "symbol": "GOOGL",
+      "manager_id": "RC",
+      "action": "Reduce 5.83%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 123370,
+      "portfolio_percentage": 0.69,
+      "company_name": "Alphabet Inc."
+    },
+    {
+      "symbol": "BRK.A",
+      "manager_id": "RC",
+      "action": "Reduce 6.36%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 7,
+      "portfolio_percentage": 0.08,
+      "company_name": "Berkshire Hathaway CL A"
+    },
+    {
+      "symbol": "SUNB",
+      "manager_id": "RC",
+      "action": "Reduce 22.36%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1227098,
+      "portfolio_percentage": 1.43,
+      "company_name": "Sunbelt Rentals Holdings Inc"
+    },
+    {
+      "symbol": "META",
+      "manager_id": "RC",
+      "action": "Reduce 23.29%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 46856,
+      "portfolio_percentage": 0.41,
+      "company_name": "Meta Platforms Inc."
+    },
+    {
+      "symbol": "ELV",
+      "manager_id": "RC",
+      "action": "Reduce 29.42%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 408370,
+      "portfolio_percentage": 2.46,
+      "company_name": "Elevance Health Inc."
+    },
+    {
+      "symbol": "AMTM",
+      "manager_id": "RC",
+      "action": "Reduce 66.90%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1085769,
+      "portfolio_percentage": 0.34,
+      "company_name": "Amentum Holdings Inc."
+    },
+    {
+      "symbol": "LBRDA-OLD",
+      "manager_id": "RC",
+      "action": "Reduce 66.95%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 149815,
+      "portfolio_percentage": 0.08,
+      "company_name": "Liberty Broadband Corp. CL A"
+    },
+    {
+      "symbol": "LBRDK-OLD",
+      "manager_id": "RC",
+      "action": "Reduce 73.93%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 860139,
+      "portfolio_percentage": 0.45,
+      "company_name": "Liberty Broadband Corp. CL C"
+    },
+    {
+      "symbol": "GLIBK",
+      "manager_id": "RC",
+      "action": "Reduce 77.48%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 392608,
+      "portfolio_percentage": 0.14,
+      "company_name": "GCI Liberty Inc. Series C"
+    },
+    {
+      "symbol": "GLBAV-OLD",
+      "manager_id": "RC",
+      "action": "Reduce 77.92%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 99386,
+      "portfolio_percentage": 0.04,
+      "company_name": "GCI Liberty Inc. Series A"
+    },
+    {
+      "symbol": "CACC",
+      "manager_id": "RC",
+      "action": "Reduce 96.39%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 140924,
+      "portfolio_percentage": 1.33,
+      "company_name": "Credit Acceptance Corp."
+    },
+    {
+      "symbol": "CHTR",
+      "manager_id": "RC",
+      "action": "Reduce 98.98%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 151007,
+      "portfolio_percentage": 0.0,
+      "company_name": "Charter Communications"
+    },
+    {
       "symbol": "SAP",
       "manager_id": "RC",
       "action": "Add 1532.83%",
@@ -442,7 +893,7 @@
       "company_name": "Amentum Holdings Inc."
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "RC",
       "action": "Reduce 36.82%",
       "date": "Q1 2026",
@@ -464,7 +915,7 @@
       "company_name": "Charter Communications"
     },
     {
-      "symbol": "LBRDA",
+      "symbol": "LBRDA-OLD",
       "manager_id": "RC",
       "action": "Reduce 65.72%",
       "date": "Q1 2026",
@@ -750,7 +1201,7 @@
       "company_name": "Berkshire Hathaway CL A"
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "RC",
       "action": "Reduce 1.74%",
       "date": "Q4 2025",
@@ -794,7 +1245,7 @@
       "company_name": "Meta Platforms Inc."
     },
     {
-      "symbol": "LBRDA",
+      "symbol": "LBRDA-OLD",
       "manager_id": "RC",
       "action": "Reduce 2.45%",
       "date": "Q4 2025",
@@ -1014,7 +1465,7 @@
       "company_name": "Dollar General"
     },
     {
-      "symbol": "LBRDA",
+      "symbol": "LBRDA-OLD",
       "manager_id": "RC",
       "action": "Add 0.05%",
       "date": "Q3 2025",
@@ -1179,7 +1630,7 @@
       "company_name": "Liberty Media Corp Formula One Series C"
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "RC",
       "action": "Reduce 0.80%",
       "date": "Q3 2025",
@@ -1553,7 +2004,7 @@
       "company_name": "Capital One Financial"
     },
     {
-      "symbol": "LBRDA",
+      "symbol": "LBRDA-OLD",
       "manager_id": "RC",
       "action": "Reduce 0.78%",
       "date": "Q2 2025",
@@ -1685,7 +2136,7 @@
       "company_name": "Credit Acceptance Corp."
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "RC",
       "action": "Reduce 20.73%",
       "date": "Q2 2025",
@@ -1806,7 +2257,7 @@
       "company_name": "Liberty Media Corp Formula One Series A"
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "RC",
       "action": "Reduce 1.19%",
       "date": "Q1 2025",
@@ -1817,7 +2268,7 @@
       "company_name": "Liberty Broadband Corp. CL C"
     },
     {
-      "symbol": "LBRDA",
+      "symbol": "LBRDA-OLD",
       "manager_id": "RC",
       "action": "Reduce 1.37%",
       "date": "Q1 2025",
@@ -2169,7 +2620,7 @@
       "company_name": "Liberty Media Corp Formula One Series C"
     },
     {
-      "symbol": "LBRDA",
+      "symbol": "LBRDA-OLD",
       "manager_id": "RC",
       "action": "Reduce 3.71%",
       "date": "Q4 2024",
@@ -2202,7 +2653,7 @@
       "company_name": "Credit Acceptance Corp."
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "RC",
       "action": "Reduce 4.08%",
       "date": "Q4 2024",
@@ -2565,7 +3016,7 @@
       "company_name": "Capital One Financial"
     },
     {
-      "symbol": "LBRDA",
+      "symbol": "LBRDA-OLD",
       "manager_id": "RC",
       "action": "Reduce 1.85%",
       "date": "Q3 2024",
@@ -2598,7 +3049,7 @@
       "company_name": "Elevance Health Inc."
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "RC",
       "action": "Reduce 2.01%",
       "date": "Q3 2024",
@@ -2950,7 +3401,7 @@
       "company_name": "Alphabet Inc. CL C"
     },
     {
-      "symbol": "LBRDA",
+      "symbol": "LBRDA-OLD",
       "manager_id": "RC",
       "action": "Reduce 5.61%",
       "date": "Q2 2024",
@@ -2983,7 +3434,7 @@
       "company_name": "Berkshire Hathaway CL A"
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "RC",
       "action": "Reduce 13.31%",
       "date": "Q2 2024",
@@ -3016,6 +3467,6 @@
       "company_name": "Micron Technology Inc."
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.873717",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.913333",
+  "scraped_date": "2026-09-01"
 }

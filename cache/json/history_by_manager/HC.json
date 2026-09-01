@@ -2,6 +2,94 @@
   "manager_id": "HC",
   "activities": [
     {
+      "symbol": "PDD",
+      "manager_id": "HC",
+      "action": "Add 133.53%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 6153119,
+      "portfolio_percentage": 12.68,
+      "company_name": "Pinduoduo Inc."
+    },
+    {
+      "symbol": "BRK.B",
+      "manager_id": "HC",
+      "action": "Add 23.46%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 210569,
+      "portfolio_percentage": 2.85,
+      "company_name": "Berkshire Hathaway CL B"
+    },
+    {
+      "symbol": "BAC",
+      "manager_id": "HC",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 2997987,
+      "portfolio_percentage": 4.57,
+      "company_name": "Bank of America Corp."
+    },
+    {
+      "symbol": "OXY",
+      "manager_id": "HC",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 1466500,
+      "portfolio_percentage": 2.98,
+      "company_name": "Occidental Petroleum"
+    },
+    {
+      "symbol": "HRB",
+      "manager_id": "HC",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 1626906,
+      "portfolio_percentage": 1.61,
+      "company_name": "H&R Block Inc."
+    },
+    {
+      "symbol": "MCO",
+      "manager_id": "HC",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 117784,
+      "portfolio_percentage": 1.61,
+      "company_name": "Moody's Corp."
+    },
+    {
+      "symbol": "SPGI",
+      "manager_id": "HC",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 121463,
+      "portfolio_percentage": 1.61,
+      "company_name": "S&P Global Inc."
+    },
+    {
+      "symbol": "MSCI",
+      "manager_id": "HC",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 18939,
+      "portfolio_percentage": 0.32,
+      "company_name": "MSCI Inc."
+    },
+    {
       "symbol": "CROX",
       "manager_id": "HC",
       "action": "Add 41.22%",
@@ -464,6 +552,6 @@
       "company_name": "Alibaba Group Holdings"
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.662774",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.807195",
+  "scraped_date": "2026-09-01"
 }

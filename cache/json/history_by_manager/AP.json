@@ -2,6 +2,94 @@
   "manager_id": "AP",
   "activities": [
     {
+      "symbol": "V",
+      "manager_id": "AP",
+      "action": "Add 67.74%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 337793,
+      "portfolio_percentage": 2.73,
+      "company_name": "Visa Inc."
+    },
+    {
+      "symbol": "MA",
+      "manager_id": "AP",
+      "action": "Add 46.22%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 241671,
+      "portfolio_percentage": 2.93,
+      "company_name": "Mastercard Inc."
+    },
+    {
+      "symbol": "MSFT",
+      "manager_id": "AP",
+      "action": "Add 25.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 466945,
+      "portfolio_percentage": 4.11,
+      "company_name": "Microsoft Corp."
+    },
+    {
+      "symbol": "HLT",
+      "manager_id": "AP",
+      "action": "Reduce 0.91%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 139,
+      "portfolio_percentage": 0.0,
+      "company_name": "Hilton Worldwide Holdings"
+    },
+    {
+      "symbol": "GOOGL",
+      "manager_id": "AP",
+      "action": "Reduce 3.22%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1397,
+      "portfolio_percentage": 0.01,
+      "company_name": "Alphabet Inc."
+    },
+    {
+      "symbol": "TDG",
+      "manager_id": "AP",
+      "action": "Reduce 3.68%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 33413,
+      "portfolio_percentage": 1.05,
+      "company_name": "TransDigm Group Inc."
+    },
+    {
+      "symbol": "AMZN",
+      "manager_id": "AP",
+      "action": "Reduce 24.29%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1837974,
+      "portfolio_percentage": 10.33,
+      "company_name": "Amazon.com Inc."
+    },
+    {
+      "symbol": "MCO",
+      "manager_id": "AP",
+      "action": "Reduce 64.89%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 559412,
+      "portfolio_percentage": 5.97,
+      "company_name": "Moody's Corp."
+    },
+    {
       "symbol": "MCO",
       "manager_id": "AP",
       "action": "Add 5.84%",
@@ -1949,6 +2037,6 @@
       "company_name": "TransDigm Group Inc."
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.796701",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.632113",
+  "scraped_date": "2026-09-01"
 }

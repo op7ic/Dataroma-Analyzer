@@ -2,6 +2,116 @@
   "manager_id": "tci",
   "activities": [
     {
+      "symbol": "GOOG",
+      "manager_id": "tci",
+      "action": "Add 12.25%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 1084800,
+      "portfolio_percentage": 0.73,
+      "company_name": "Alphabet Inc. CL C"
+    },
+    {
+      "symbol": "FER",
+      "manager_id": "tci",
+      "action": "Add 0.97%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 200227,
+      "portfolio_percentage": 0.03,
+      "company_name": "Ferrovial Se"
+    },
+    {
+      "symbol": "SPGI",
+      "manager_id": "tci",
+      "action": "Add 0.33%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 46647,
+      "portfolio_percentage": 0.04,
+      "company_name": "S&P Global Inc."
+    },
+    {
+      "symbol": "V",
+      "manager_id": "tci",
+      "action": "Add 0.09%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 26000,
+      "portfolio_percentage": 0.02,
+      "company_name": "Visa Inc."
+    },
+    {
+      "symbol": "MLM",
+      "manager_id": "tci",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 1315109,
+      "portfolio_percentage": 1.44,
+      "company_name": "Martin Marietta"
+    },
+    {
+      "symbol": "VMC",
+      "manager_id": "tci",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 2447004,
+      "portfolio_percentage": 1.37,
+      "company_name": "Vulcan Materials"
+    },
+    {
+      "symbol": "GE",
+      "manager_id": "tci",
+      "action": "Reduce 0.17%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 82198,
+      "portfolio_percentage": 0.06,
+      "company_name": "GE Aerospace"
+    },
+    {
+      "symbol": "CP",
+      "manager_id": "tci",
+      "action": "Reduce 2.57%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1196197,
+      "portfolio_percentage": 0.2,
+      "company_name": "Canadian Pacific Kansas City"
+    },
+    {
+      "symbol": "CNI",
+      "manager_id": "tci",
+      "action": "Reduce 4.23%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 416512,
+      "portfolio_percentage": 0.09,
+      "company_name": "Canadian Natl Railway Co."
+    },
+    {
+      "symbol": "MSFT",
+      "manager_id": "tci",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 2728412,
+      "portfolio_percentage": 2.24,
+      "company_name": "Microsoft Corp."
+    },
+    {
       "symbol": "SPGI",
       "manager_id": "tci",
       "action": "Add 19.04%",
@@ -3962,6 +4072,6 @@
       "company_name": "American Express"
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.837582",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.844880",
+  "scraped_date": "2026-09-01"
 }

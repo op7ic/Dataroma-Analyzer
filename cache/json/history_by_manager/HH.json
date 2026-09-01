@@ -2,6 +2,149 @@
   "manager_id": "HH",
   "activities": [
     {
+      "symbol": "PDD",
+      "manager_id": "HH",
+      "action": "Add 26.71%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 5273800,
+      "portfolio_percentage": 2.11,
+      "company_name": "Pinduoduo Inc."
+    },
+    {
+      "symbol": "DIS",
+      "manager_id": "HH",
+      "action": "Add 12.89%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 194800,
+      "portfolio_percentage": 0.1,
+      "company_name": "Walt Disney Co."
+    },
+    {
+      "symbol": "BRK.B",
+      "manager_id": "HH",
+      "action": "Add 0.90%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 81900,
+      "portfolio_percentage": 0.21,
+      "company_name": "Berkshire Hathaway CL B"
+    },
+    {
+      "symbol": "BABA",
+      "manager_id": "HH",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 301400,
+      "portfolio_percentage": 0.15,
+      "company_name": "Alibaba Group Holdings"
+    },
+    {
+      "symbol": "TSLA",
+      "manager_id": "HH",
+      "action": "Reduce 0.84%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 28500,
+      "portfolio_percentage": 0.06,
+      "company_name": "Tesla Inc."
+    },
+    {
+      "symbol": "AAPL",
+      "manager_id": "HH",
+      "action": "Reduce 6.38%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1846900,
+      "portfolio_percentage": 2.8,
+      "company_name": "Apple Inc."
+    },
+    {
+      "symbol": "CRDO",
+      "manager_id": "HH",
+      "action": "Reduce 6.66%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 50000,
+      "portfolio_percentage": 0.07,
+      "company_name": "Credo Technology Group Holdi"
+    },
+    {
+      "symbol": "MSFT",
+      "manager_id": "HH",
+      "action": "Reduce 25.78%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 261900,
+      "portfolio_percentage": 0.51,
+      "company_name": "Microsoft Corp."
+    },
+    {
+      "symbol": "UNH",
+      "manager_id": "HH",
+      "action": "Reduce 33.56%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 201800,
+      "portfolio_percentage": 0.44,
+      "company_name": "United Health Group Inc."
+    },
+    {
+      "symbol": "GOOG",
+      "manager_id": "HH",
+      "action": "Reduce 46.88%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1737400,
+      "portfolio_percentage": 3.21,
+      "company_name": "Alphabet Inc. CL C"
+    },
+    {
+      "symbol": "NVDA",
+      "manager_id": "HH",
+      "action": "Reduce 54.63%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 7563100,
+      "portfolio_percentage": 7.92,
+      "company_name": "NVIDIA Corp."
+    },
+    {
+      "symbol": "TSM",
+      "manager_id": "HH",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 151200,
+      "portfolio_percentage": 0.26,
+      "company_name": "Taiwan Semiconductor S.A."
+    },
+    {
+      "symbol": "CRWD",
+      "manager_id": "HH",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 40000,
+      "portfolio_percentage": 0.02,
+      "company_name": "CrowdStrike Holdings Inc."
+    },
+    {
       "symbol": "CRDO",
       "manager_id": "HH",
       "action": "Add 431.63%",
@@ -1465,6 +1608,6 @@
       "company_name": "Zoom Video Communications Inc."
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.633751",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.722722",
+  "scraped_date": "2026-09-01"
 }

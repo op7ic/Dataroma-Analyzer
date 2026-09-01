@@ -2,6 +2,226 @@
   "manager_id": "oa",
   "activities": [
     {
+      "symbol": "GEHC",
+      "manager_id": "oa",
+      "action": "Add 95.45%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 639500,
+      "portfolio_percentage": 1.15,
+      "company_name": "GE HealthCare Technologies Inc."
+    },
+    {
+      "symbol": "DMAC",
+      "manager_id": "oa",
+      "action": "Add 70.79%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 1430000,
+      "portfolio_percentage": 0.28,
+      "company_name": "DiaMedica Therapeutics Inc."
+    },
+    {
+      "symbol": "COF",
+      "manager_id": "oa",
+      "action": "Add 22.97%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 85000,
+      "portfolio_percentage": 0.48,
+      "company_name": "Capital One Financial"
+    },
+    {
+      "symbol": "ASH",
+      "manager_id": "oa",
+      "action": "Add 11.47%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 195000,
+      "portfolio_percentage": 0.36,
+      "company_name": "Ashland Global Holdings Inc."
+    },
+    {
+      "symbol": "ABR",
+      "manager_id": "oa",
+      "action": "Add 6.71%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 104739,
+      "portfolio_percentage": 0.02,
+      "company_name": "Arbor Realty Trust Inc."
+    },
+    {
+      "symbol": "PLGO",
+      "manager_id": "oa",
+      "action": "Add 6.60%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 527063,
+      "portfolio_percentage": 0.36,
+      "company_name": "Pelagos Insurance Capital"
+    },
+    {
+      "symbol": "OMF",
+      "manager_id": "oa",
+      "action": "Add 6.23%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 125000,
+      "portfolio_percentage": 0.21,
+      "company_name": "OneMain Holdings"
+    },
+    {
+      "symbol": "GPGI",
+      "manager_id": "oa",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 11384508,
+      "portfolio_percentage": 5.09,
+      "company_name": "GPGI Inc."
+    },
+    {
+      "symbol": "WHK",
+      "manager_id": "oa",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 3261216,
+      "portfolio_percentage": 2.56,
+      "company_name": "Whitehawk Minerals Corp Cl A"
+    },
+    {
+      "symbol": "AMRZ",
+      "manager_id": "oa",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 880000,
+      "portfolio_percentage": 1.32,
+      "company_name": "Amrize Ltd"
+    },
+    {
+      "symbol": "KZIA",
+      "manager_id": "oa",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 50000,
+      "portfolio_percentage": 0.02,
+      "company_name": "Kazia Therapeutics Spon ADR"
+    },
+    {
+      "symbol": "VOO",
+      "manager_id": "oa",
+      "action": "Reduce 1.61%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 702,
+      "portfolio_percentage": 0.01,
+      "company_name": "Vanguard S&P 500 ETF"
+    },
+    {
+      "symbol": "FLCA",
+      "manager_id": "oa",
+      "action": "Reduce 56.14%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 3228,
+      "portfolio_percentage": 0.0,
+      "company_name": "Franklin FTSE Canada ETF"
+    },
+    {
+      "symbol": "SUN",
+      "manager_id": "oa",
+      "action": "Reduce 86.05%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1394006,
+      "portfolio_percentage": 2.65,
+      "company_name": "Sunoco Inc."
+    },
+    {
+      "symbol": "ELV",
+      "manager_id": "oa",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 227900,
+      "portfolio_percentage": 2.19,
+      "company_name": "Elevance Health Inc."
+    },
+    {
+      "symbol": "STKL-OLD",
+      "manager_id": "oa",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 9300000,
+      "portfolio_percentage": 1.98,
+      "company_name": "SunOpta Inc."
+    },
+    {
+      "symbol": "AESI",
+      "manager_id": "oa",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 4083175,
+      "portfolio_percentage": 1.76,
+      "company_name": "Atlas Energy Solutions Inc"
+    },
+    {
+      "symbol": "AMRZ.SW",
+      "manager_id": "oa",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 880000,
+      "portfolio_percentage": 1.62,
+      "company_name": "AMRIZE Ltd."
+    },
+    {
+      "symbol": "GOOGL",
+      "manager_id": "oa",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 75000,
+      "portfolio_percentage": 0.71,
+      "company_name": "Alphabet Inc."
+    },
+    {
+      "symbol": "HSPT-OLD",
+      "manager_id": "oa",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 1100,
+      "portfolio_percentage": 0.0,
+      "company_name": "Horizon Space Acquisition Ii"
+    },
+    {
       "symbol": "OMF",
       "manager_id": "oa",
       "action": "Add 186.43%",
@@ -7867,7 +8087,7 @@
       "company_name": "Neostellar Capital Corp."
     },
     {
-      "symbol": "TWO",
+      "symbol": "TWO-OLD",
       "manager_id": "oa",
       "action": "Sell 100.00%",
       "date": "Q2 2020",
@@ -9979,7 +10199,7 @@
       "company_name": "FS KKR Capital Corp."
     },
     {
-      "symbol": "TWO",
+      "symbol": "TWO-OLD",
       "manager_id": "oa",
       "action": "Buy",
       "date": "Q1 2019",
@@ -10780,228 +11000,8 @@
       "shares": 15900,
       "portfolio_percentage": 0.06,
       "company_name": "Marathon Petroleum Corp."
-    },
-    {
-      "symbol": "ETE-OLD",
-      "manager_id": "oa",
-      "action": "Reduce 3.84%",
-      "date": "Q3 2018",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 90000,
-      "portfolio_percentage": 0.07,
-      "company_name": "Energy Transfer Equity LP old"
-    },
-    {
-      "symbol": "UNH",
-      "manager_id": "oa",
-      "action": "Reduce 3.91%",
-      "date": "Q3 2018",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 7600,
-      "portfolio_percentage": 0.09,
-      "company_name": "United Health Group Inc."
-    },
-    {
-      "symbol": "TMO",
-      "manager_id": "oa",
-      "action": "Reduce 3.95%",
-      "date": "Q3 2018",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 10200,
-      "portfolio_percentage": 0.11,
-      "company_name": "Thermo Fisher Scientific"
-    },
-    {
-      "symbol": "AMZN",
-      "manager_id": "oa",
-      "action": "Reduce 4.04%",
-      "date": "Q3 2018",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 8500,
-      "portfolio_percentage": 0.04,
-      "company_name": "Amazon.com Inc."
-    },
-    {
-      "symbol": "DXC",
-      "manager_id": "oa",
-      "action": "Reduce 4.24%",
-      "date": "Q3 2018",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 12300,
-      "portfolio_percentage": 0.05,
-      "company_name": "DXC Technology Co."
-    },
-    {
-      "symbol": "NRG",
-      "manager_id": "oa",
-      "action": "Reduce 4.68%",
-      "date": "Q3 2018",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 59372,
-      "portfolio_percentage": 0.1,
-      "company_name": "NRG Energy Inc."
-    },
-    {
-      "symbol": "TRN",
-      "manager_id": "oa",
-      "action": "Reduce 5.22%",
-      "date": "Q3 2018",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 98700,
-      "portfolio_percentage": 0.16,
-      "company_name": "Trinity Industries"
-    },
-    {
-      "symbol": "NEWM",
-      "manager_id": "oa",
-      "action": "Reduce 5.93%",
-      "date": "Q3 2018",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 143898,
-      "portfolio_percentage": 0.1,
-      "company_name": "New Media Investment Group"
-    },
-    {
-      "symbol": "LORL",
-      "manager_id": "oa",
-      "action": "Reduce 6.86%",
-      "date": "Q3 2018",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 69675,
-      "portfolio_percentage": 0.14,
-      "company_name": "Loral Space & Communications"
-    },
-    {
-      "symbol": "AMCX",
-      "manager_id": "oa",
-      "action": "Reduce 9.57%",
-      "date": "Q3 2018",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 262786,
-      "portfolio_percentage": 0.75,
-      "company_name": "AMC Networks Inc."
-    },
-    {
-      "symbol": "ASH",
-      "manager_id": "oa",
-      "action": "Reduce 9.58%",
-      "date": "Q3 2018",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 115902,
-      "portfolio_percentage": 0.42,
-      "company_name": "Ashland Global Holdings Inc."
-    },
-    {
-      "symbol": "MSFT",
-      "manager_id": "oa",
-      "action": "Reduce 11.06%",
-      "date": "Q3 2018",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 114665,
-      "portfolio_percentage": 0.57,
-      "company_name": "Microsoft Corp."
-    },
-    {
-      "symbol": "DD",
-      "manager_id": "oa",
-      "action": "Reduce 11.25%",
-      "date": "Q3 2018",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 44200,
-      "portfolio_percentage": 0.37,
-      "company_name": "DuPont de Nemours Inc."
-    },
-    {
-      "symbol": "PVH",
-      "manager_id": "oa",
-      "action": "Reduce 14.90%",
-      "date": "Q3 2018",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 45600,
-      "portfolio_percentage": 0.29,
-      "company_name": "PVH Corp."
-    },
-    {
-      "symbol": "GOOGL",
-      "manager_id": "oa",
-      "action": "Reduce 15.98%",
-      "date": "Q3 2018",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 494500,
-      "portfolio_percentage": 1.29,
-      "company_name": "Alphabet Inc."
-    },
-    {
-      "symbol": "PE",
-      "manager_id": "oa",
-      "action": "Reduce 16.90%",
-      "date": "Q3 2018",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 400500,
-      "portfolio_percentage": 0.51,
-      "company_name": "Parsley Energy Inc."
-    },
-    {
-      "symbol": "PFSI",
-      "manager_id": "oa",
-      "action": "Reduce 19.53%",
-      "date": "Q3 2018",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 275452,
-      "portfolio_percentage": 0.25,
-      "company_name": "PennyMac Financial Services"
-    },
-    {
-      "symbol": "DISH-OLD",
-      "manager_id": "oa",
-      "action": "Reduce 28.50%",
-      "date": "Q3 2018",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 295219,
-      "portfolio_percentage": 0.46,
-      "company_name": "Dish Network Corp."
-    },
-    {
-      "symbol": "FDC",
-      "manager_id": "oa",
-      "action": "Reduce 33.66%",
-      "date": "Q3 2018",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 2606717,
-      "portfolio_percentage": 2.76,
-      "company_name": "First Data Corp."
-    },
-    {
-      "symbol": "MU",
-      "manager_id": "oa",
-      "action": "Reduce 37.31%",
-      "date": "Q3 2018",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 195000,
-      "portfolio_percentage": 0.38,
-      "company_name": "Micron Technology Inc."
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.807592",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.873160",
+  "scraped_date": "2026-09-01"
 }

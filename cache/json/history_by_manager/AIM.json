@@ -2,6 +2,160 @@
   "manager_id": "AIM",
   "activities": [
     {
+      "symbol": "XRAY",
+      "manager_id": "AIM",
+      "action": "Add 261.15%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 1593000,
+      "portfolio_percentage": 8.81,
+      "company_name": "DENTSPLY SIRONA Inc."
+    },
+    {
+      "symbol": "NESR",
+      "manager_id": "AIM",
+      "action": "Add 133.33%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 80000,
+      "portfolio_percentage": 1.25,
+      "company_name": "National Energy Services Reunited Corp."
+    },
+    {
+      "symbol": "PVH",
+      "manager_id": "AIM",
+      "action": "Add 100.33%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 128426,
+      "portfolio_percentage": 4.97,
+      "company_name": "PVH Corp."
+    },
+    {
+      "symbol": "APTV",
+      "manager_id": "AIM",
+      "action": "Add 40.52%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 130871,
+      "portfolio_percentage": 4.18,
+      "company_name": "Aptiv PLC"
+    },
+    {
+      "symbol": "ABM",
+      "manager_id": "AIM",
+      "action": "Add 40.13%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 88287,
+      "portfolio_percentage": 2.03,
+      "company_name": "ABM Industries"
+    },
+    {
+      "symbol": "NOMD",
+      "manager_id": "AIM",
+      "action": "Add 0.08%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 1000,
+      "portfolio_percentage": 0.01,
+      "company_name": "Nomad Foods Ltd"
+    },
+    {
+      "symbol": "ASH",
+      "manager_id": "AIM",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 509000,
+      "portfolio_percentage": 17.47,
+      "company_name": "Ashland Global Holdings Inc."
+    },
+    {
+      "symbol": "VGNT",
+      "manager_id": "AIM",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 120656,
+      "portfolio_percentage": 2.64,
+      "company_name": "Versigent Plc"
+    },
+    {
+      "symbol": "KEX",
+      "manager_id": "AIM",
+      "action": "Reduce 27.35%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 70300,
+      "portfolio_percentage": 4.98,
+      "company_name": "Kirby Corp."
+    },
+    {
+      "symbol": "OSK",
+      "manager_id": "AIM",
+      "action": "Reduce 38.59%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 52600,
+      "portfolio_percentage": 4.2,
+      "company_name": "Oshkosh Corp."
+    },
+    {
+      "symbol": "DCH",
+      "manager_id": "AIM",
+      "action": "Reduce 63.43%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 2435580,
+      "portfolio_percentage": 6.88,
+      "company_name": "Dauch Corp."
+    },
+    {
+      "symbol": "WFRD",
+      "manager_id": "AIM",
+      "action": "Reduce 72.19%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 153200,
+      "portfolio_percentage": 6.51,
+      "company_name": "Weatherford International plc"
+    },
+    {
+      "symbol": "DOLE",
+      "manager_id": "AIM",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 675948,
+      "portfolio_percentage": 5.63,
+      "company_name": "Dole Food Company"
+    },
+    {
+      "symbol": "MHK",
+      "manager_id": "AIM",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 40000,
+      "portfolio_percentage": 2.29,
+      "company_name": "Mohawk Industries"
+    },
+    {
       "symbol": "NOMD",
       "manager_id": "AIM",
       "action": "Add 147.37%",
@@ -10188,6 +10342,6 @@
       "company_name": "GEO Group Inc."
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.755496",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.687100",
+  "scraped_date": "2026-09-01"
 }

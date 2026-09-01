@@ -2,6 +2,171 @@
   "manager_id": "VA",
   "activities": [
     {
+      "symbol": "CBRE",
+      "manager_id": "VA",
+      "action": "Add 323.03%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 757800,
+      "portfolio_percentage": 1.81,
+      "company_name": "CBRE Group"
+    },
+    {
+      "symbol": "RKT",
+      "manager_id": "VA",
+      "action": "Add 47.68%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 13454050,
+      "portfolio_percentage": 3.76,
+      "company_name": "Rocket Companies Inc."
+    },
+    {
+      "symbol": "SPOT",
+      "manager_id": "VA",
+      "action": "Add 46.95%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 168300,
+      "portfolio_percentage": 1.37,
+      "company_name": "Spotify Technology S.A."
+    },
+    {
+      "symbol": "TOST",
+      "manager_id": "VA",
+      "action": "Add 9.60%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 1238600,
+      "portfolio_percentage": 0.61,
+      "company_name": "Toast Inc."
+    },
+    {
+      "symbol": "KKR",
+      "manager_id": "VA",
+      "action": "Add 8.49%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 278500,
+      "portfolio_percentage": 0.45,
+      "company_name": "KKR & Co. L.P."
+    },
+    {
+      "symbol": "BLK",
+      "manager_id": "VA",
+      "action": "Add 6.52%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 35600,
+      "portfolio_percentage": 0.61,
+      "company_name": "BlackRock Inc."
+    },
+    {
+      "symbol": "AMZN",
+      "manager_id": "VA",
+      "action": "Add 1.98%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 57100,
+      "portfolio_percentage": 0.24,
+      "company_name": "Amazon.com Inc."
+    },
+    {
+      "symbol": "PAYP",
+      "manager_id": "VA",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 2154800,
+      "portfolio_percentage": 0.55,
+      "company_name": "Paypay Corp"
+    },
+    {
+      "symbol": "LLYVK",
+      "manager_id": "VA",
+      "action": "Reduce 39.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1388820,
+      "portfolio_percentage": 2.6,
+      "company_name": "Liberty Media Corp. Series C Live"
+    },
+    {
+      "symbol": "SSD",
+      "manager_id": "VA",
+      "action": "Reduce 40.59%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 567400,
+      "portfolio_percentage": 2.11,
+      "company_name": "Simpson Manufacturing"
+    },
+    {
+      "symbol": "RBLX",
+      "manager_id": "VA",
+      "action": "Reduce 46.19%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 2701200,
+      "portfolio_percentage": 2.61,
+      "company_name": "Roblox Corp."
+    },
+    {
+      "symbol": "LYV",
+      "manager_id": "VA",
+      "action": "Reduce 51.64%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 322600,
+      "portfolio_percentage": 1.05,
+      "company_name": "Live Nation Inc."
+    },
+    {
+      "symbol": "LLYVA",
+      "manager_id": "VA",
+      "action": "Reduce 55.82%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 991956,
+      "portfolio_percentage": 1.78,
+      "company_name": "Liberty Media Corp. Series A Live"
+    },
+    {
+      "symbol": "MDB",
+      "manager_id": "VA",
+      "action": "Reduce 84.03%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 872100,
+      "portfolio_percentage": 5.21,
+      "company_name": "MongoDB Inc."
+    },
+    {
+      "symbol": "DIS",
+      "manager_id": "VA",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 400231,
+      "portfolio_percentage": 0.68,
+      "company_name": "Walt Disney Co."
+    },
+    {
       "symbol": "TOST",
       "manager_id": "VA",
       "action": "Add 60.89%",
@@ -7141,6 +7306,6 @@
       "company_name": "New York Times CL A"
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.656786",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.732256",
+  "scraped_date": "2026-09-01"
 }

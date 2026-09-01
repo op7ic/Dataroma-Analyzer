@@ -2,6 +2,160 @@
   "manager_id": "SP",
   "activities": [
     {
+      "symbol": "GDS",
+      "manager_id": "SP",
+      "action": "Add 71.37%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 158296,
+      "portfolio_percentage": 2.05,
+      "company_name": "GDS Holdings Ltd"
+    },
+    {
+      "symbol": "BABA",
+      "manager_id": "SP",
+      "action": "Add 40.96%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 118892,
+      "portfolio_percentage": 4.92,
+      "company_name": "Alibaba Group Holdings"
+    },
+    {
+      "symbol": "CEG",
+      "manager_id": "SP",
+      "action": "Add 22.81%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 5284,
+      "portfolio_percentage": 0.56,
+      "company_name": "Constellation Energy Corp."
+    },
+    {
+      "symbol": "CPNG",
+      "manager_id": "SP",
+      "action": "Add 1.52%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 13777,
+      "portfolio_percentage": 0.1,
+      "company_name": "Coupang Inc."
+    },
+    {
+      "symbol": "CR",
+      "manager_id": "SP",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 81370,
+      "portfolio_percentage": 7.82,
+      "company_name": "Crane Co"
+    },
+    {
+      "symbol": "MSFT",
+      "manager_id": "SP",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 45495,
+      "portfolio_percentage": 7.31,
+      "company_name": "Microsoft Corp."
+    },
+    {
+      "symbol": "AMZN",
+      "manager_id": "SP",
+      "action": "Reduce 15.81%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 29479,
+      "portfolio_percentage": 3.03,
+      "company_name": "Amazon.com Inc."
+    },
+    {
+      "symbol": "FWONK",
+      "manager_id": "SP",
+      "action": "Reduce 15.83%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 32122,
+      "portfolio_percentage": 1.32,
+      "company_name": "Liberty Media Corp Formula One Series C"
+    },
+    {
+      "symbol": "ZS",
+      "manager_id": "SP",
+      "action": "Reduce 16.52%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 33111,
+      "portfolio_percentage": 2.01,
+      "company_name": "Zscaler Inc."
+    },
+    {
+      "symbol": "BRZE",
+      "manager_id": "SP",
+      "action": "Reduce 42.34%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 470905,
+      "portfolio_percentage": 4.4,
+      "company_name": "Braze Inc A"
+    },
+    {
+      "symbol": "OKTA",
+      "manager_id": "SP",
+      "action": "Reduce 58.46%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 330292,
+      "portfolio_percentage": 19.42,
+      "company_name": "Okta Inc."
+    },
+    {
+      "symbol": "INTU",
+      "manager_id": "SP",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 40939,
+      "portfolio_percentage": 6.61,
+      "company_name": "Intuit Inc."
+    },
+    {
+      "symbol": "CSGP",
+      "manager_id": "SP",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 339081,
+      "portfolio_percentage": 5.11,
+      "company_name": "CoStar Group Inc."
+    },
+    {
+      "symbol": "PCOR",
+      "manager_id": "SP",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 216756,
+      "portfolio_percentage": 4.62,
+      "company_name": "Procore Technologies Inc."
+    },
+    {
       "symbol": "AMZN",
       "manager_id": "SP",
       "action": "Add 57.47%",
@@ -2345,6 +2499,6 @@
       "company_name": "JD.com Inc."
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.917203",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.842687",
+  "scraped_date": "2026-09-01"
 }

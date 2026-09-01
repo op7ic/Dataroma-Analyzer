@@ -2,6 +2,50 @@
   "manager_id": "VFC",
   "activities": [
     {
+      "symbol": "FICO",
+      "manager_id": "VFC",
+      "action": "Reduce 12.63%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 97156,
+      "portfolio_percentage": 3.72,
+      "company_name": "Fair Isaac Corp."
+    },
+    {
+      "symbol": "SPGI",
+      "manager_id": "VFC",
+      "action": "Reduce 13.31%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 234038,
+      "portfolio_percentage": 3.06,
+      "company_name": "S&P Global Inc."
+    },
+    {
+      "symbol": "V",
+      "manager_id": "VFC",
+      "action": "Reduce 22.68%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 135775,
+      "portfolio_percentage": 1.5,
+      "company_name": "Visa Inc."
+    },
+    {
+      "symbol": "MA",
+      "manager_id": "VFC",
+      "action": "Reduce 28.34%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 421562,
+      "portfolio_percentage": 6.95,
+      "company_name": "Mastercard Inc."
+    },
+    {
       "symbol": "ASML",
       "manager_id": "VFC",
       "action": "Add 35.52%",
@@ -1366,6 +1410,6 @@
       "company_name": "S&P Global Inc."
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.764205",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.685771",
+  "scraped_date": "2026-09-01"
 }

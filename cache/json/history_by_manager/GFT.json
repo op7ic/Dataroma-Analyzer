@@ -2,6 +2,50 @@
   "manager_id": "GFT",
   "activities": [
     {
+      "symbol": "HD",
+      "manager_id": "GFT",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 1000000,
+      "portfolio_percentage": 1.02,
+      "company_name": "Home Depot"
+    },
+    {
+      "symbol": "FDXF",
+      "manager_id": "GFT",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 1192181,
+      "portfolio_percentage": 0.52,
+      "company_name": "FedEx Freight Holding Co."
+    },
+    {
+      "symbol": "WM",
+      "manager_id": "GFT",
+      "action": "Reduce 3.33%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 921600,
+      "portfolio_percentage": 0.6,
+      "company_name": "Waste Management Inc."
+    },
+    {
+      "symbol": "BRK.B",
+      "manager_id": "GFT",
+      "action": "Reduce 13.83%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 2358460,
+      "portfolio_percentage": 3.43,
+      "company_name": "Berkshire Hathaway CL B"
+    },
+    {
       "symbol": "WM",
       "manager_id": "GFT",
       "action": "Reduce 4.47%",
@@ -2758,7 +2802,7 @@
       "date": "Q4 2019",
       "percentage_change": 0.0,
       "action_type": "Sell",
-      "shares": 96542,
+      "shares": 3219,
       "portfolio_percentage": 0.07,
       "company_name": "Beyond Meat Inc."
     },
@@ -2791,7 +2835,7 @@
       "date": "Q3 2019",
       "percentage_change": 0.0,
       "action_type": "Buy",
-      "shares": 96542,
+      "shares": 3218,
       "portfolio_percentage": 0.07,
       "company_name": "Beyond Meat Inc."
     },
@@ -5411,7 +5455,7 @@
       "action_type": "Sell",
       "shares": 46524,
       "portfolio_percentage": 0.0,
-      "company_name": "MAP Pharmaceuticals Inc."
+      "company_name": "MAPP-old"
     },
     {
       "symbol": "OREX",
@@ -5642,7 +5686,7 @@
       "action_type": "Buy",
       "shares": 46524,
       "portfolio_percentage": 0.0,
-      "company_name": "MAP Pharmaceuticals Inc."
+      "company_name": "MAPP-old"
     },
     {
       "symbol": "OREX",
@@ -7097,6 +7141,6 @@
       "company_name": "Time Warner Cable Inc."
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.692495",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.774830",
+  "scraped_date": "2026-09-01"
 }

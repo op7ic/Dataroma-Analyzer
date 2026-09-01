@@ -2,6 +2,424 @@
   "manager_id": "SE",
   "activities": [
     {
+      "symbol": "GLIBK",
+      "manager_id": "SE",
+      "action": "Add 46.50%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 614314,
+      "portfolio_percentage": 0.69,
+      "company_name": "GCI Liberty Inc. Series C"
+    },
+    {
+      "symbol": "ESRT",
+      "manager_id": "SE",
+      "action": "Add 34.34%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 2223117,
+      "portfolio_percentage": 0.63,
+      "company_name": "Empire State Realty Trust Inc."
+    },
+    {
+      "symbol": "AVTR",
+      "manager_id": "SE",
+      "action": "Add 34.24%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 1205266,
+      "portfolio_percentage": 0.62,
+      "company_name": "Avantor Inc."
+    },
+    {
+      "symbol": "SAM",
+      "manager_id": "SE",
+      "action": "Add 23.35%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 27642,
+      "portfolio_percentage": 0.26,
+      "company_name": "Boston Beer Company"
+    },
+    {
+      "symbol": "REGN",
+      "manager_id": "SE",
+      "action": "Add 16.58%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 21660,
+      "portfolio_percentage": 0.7,
+      "company_name": "Regeneron Pharmaceuticals"
+    },
+    {
+      "symbol": "ACI",
+      "manager_id": "SE",
+      "action": "Add 16.39%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 1216461,
+      "portfolio_percentage": 0.86,
+      "company_name": "Albertsons Co Inc."
+    },
+    {
+      "symbol": "CNX",
+      "manager_id": "SE",
+      "action": "Add 16.17%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 648942,
+      "portfolio_percentage": 1.15,
+      "company_name": "CNX Resources Corp."
+    },
+    {
+      "symbol": "CLW",
+      "manager_id": "SE",
+      "action": "Add 0.92%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 14065,
+      "portfolio_percentage": 0.01,
+      "company_name": "Clearwater Paper Corp."
+    },
+    {
+      "symbol": "ABT",
+      "manager_id": "SE",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 840747,
+      "portfolio_percentage": 3.98,
+      "company_name": "Abbott Labs"
+    },
+    {
+      "symbol": "TME",
+      "manager_id": "SE",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 2305210,
+      "portfolio_percentage": 1.0,
+      "company_name": "Tencent Music Entertainment Grp"
+    },
+    {
+      "symbol": "MAT",
+      "manager_id": "SE",
+      "action": "Reduce 3.82%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 489602,
+      "portfolio_percentage": 0.35,
+      "company_name": "Mattel Inc."
+    },
+    {
+      "symbol": "CNH",
+      "manager_id": "SE",
+      "action": "Reduce 5.34%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 198538,
+      "portfolio_percentage": 0.12,
+      "company_name": "CNH Industrial NV"
+    },
+    {
+      "symbol": "FIS",
+      "manager_id": "SE",
+      "action": "Reduce 7.05%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 58364,
+      "portfolio_percentage": 0.12,
+      "company_name": "Fidelity National Information Services"
+    },
+    {
+      "symbol": "KHC",
+      "manager_id": "SE",
+      "action": "Reduce 8.63%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 340767,
+      "portfolio_percentage": 0.42,
+      "company_name": "Kraft Heinz Co."
+    },
+    {
+      "symbol": "WTM",
+      "manager_id": "SE",
+      "action": "Reduce 9.33%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1760,
+      "portfolio_percentage": 0.19,
+      "company_name": "White Mountains Insurance"
+    },
+    {
+      "symbol": "DOLE",
+      "manager_id": "SE",
+      "action": "Reduce 9.39%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 181553,
+      "portfolio_percentage": 0.13,
+      "company_name": "Dole Food Company"
+    },
+    {
+      "symbol": "BATRK",
+      "manager_id": "SE",
+      "action": "Reduce 9.82%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 65923,
+      "portfolio_percentage": 0.18,
+      "company_name": "Atlanta Braves Holdings Inc. Series C"
+    },
+    {
+      "symbol": "GLBAV-OLD",
+      "manager_id": "SE",
+      "action": "Reduce 9.90%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 7983,
+      "portfolio_percentage": 0.01,
+      "company_name": "GCI Liberty Inc. Series A"
+    },
+    {
+      "symbol": "MLCO",
+      "manager_id": "SE",
+      "action": "Reduce 10.54%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 189400,
+      "portfolio_percentage": 0.05,
+      "company_name": "Melco Resorts & Entertainment"
+    },
+    {
+      "symbol": "SHEN",
+      "manager_id": "SE",
+      "action": "Reduce 11.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 323499,
+      "portfolio_percentage": 0.25,
+      "company_name": "Shenandoah Telecommunications Co."
+    },
+    {
+      "symbol": "HTHT",
+      "manager_id": "SE",
+      "action": "Reduce 11.10%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 25690,
+      "portfolio_percentage": 0.06,
+      "company_name": "H World Group Ltd ADR"
+    },
+    {
+      "symbol": "KSPI",
+      "manager_id": "SE",
+      "action": "Reduce 11.48%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 27629,
+      "portfolio_percentage": 0.12,
+      "company_name": "Jsc Kaspi.kz ADR"
+    },
+    {
+      "symbol": "RYN",
+      "manager_id": "SE",
+      "action": "Reduce 11.81%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1271296,
+      "portfolio_percentage": 1.41,
+      "company_name": "Rayonier Inc."
+    },
+    {
+      "symbol": "PVH",
+      "manager_id": "SE",
+      "action": "Reduce 14.52%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 107038,
+      "portfolio_percentage": 0.41,
+      "company_name": "PVH Corp."
+    },
+    {
+      "symbol": "EDU",
+      "manager_id": "SE",
+      "action": "Reduce 21.19%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 110682,
+      "portfolio_percentage": 0.27,
+      "company_name": "New Oriental Education & Technology"
+    },
+    {
+      "symbol": "FDX",
+      "manager_id": "SE",
+      "action": "Reduce 21.28%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 52667,
+      "portfolio_percentage": 0.86,
+      "company_name": "FedEx Corp."
+    },
+    {
+      "symbol": "FBIN",
+      "manager_id": "SE",
+      "action": "Reduce 21.65%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 466176,
+      "portfolio_percentage": 1.33,
+      "company_name": "Fortune Brands Innovations Inc."
+    },
+    {
+      "symbol": "PPLI",
+      "manager_id": "SE",
+      "action": "Reduce 22.15%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 890894,
+      "portfolio_percentage": 2.14,
+      "company_name": "People Inc."
+    },
+    {
+      "symbol": "GHC",
+      "manager_id": "SE",
+      "action": "Reduce 22.79%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 8604,
+      "portfolio_percentage": 0.51,
+      "company_name": "Graham Holdings Co."
+    },
+    {
+      "symbol": "MGM",
+      "manager_id": "SE",
+      "action": "Reduce 29.67%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 493448,
+      "portfolio_percentage": 1.23,
+      "company_name": "MGM Resorts International"
+    },
+    {
+      "symbol": "MICC",
+      "manager_id": "SE",
+      "action": "Reduce 38.16%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 618032,
+      "portfolio_percentage": 0.56,
+      "company_name": "Magnum Ice Cream Co NV"
+    },
+    {
+      "symbol": "TRIP",
+      "manager_id": "SE",
+      "action": "Reduce 50.88%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 2339602,
+      "portfolio_percentage": 1.68,
+      "company_name": "TripAdvisor Inc."
+    },
+    {
+      "symbol": "SN",
+      "manager_id": "SE",
+      "action": "Reduce 74.77%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 187432,
+      "portfolio_percentage": 1.48,
+      "company_name": "Sharkninja Inc"
+    },
+    {
+      "symbol": "ACMR",
+      "manager_id": "SE",
+      "action": "Reduce 82.18%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 643422,
+      "portfolio_percentage": 4.24,
+      "company_name": "ACM Research Inc."
+    },
+    {
+      "symbol": "BIO",
+      "manager_id": "SE",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 162804,
+      "portfolio_percentage": 2.23,
+      "company_name": "Bio-Rad Laboratories Inc."
+    },
+    {
+      "symbol": "STZ",
+      "manager_id": "SE",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 3661,
+      "portfolio_percentage": 0.03,
+      "company_name": "Constellation Brands"
+    },
+    {
+      "symbol": "CLVT",
+      "manager_id": "SE",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 121927,
+      "portfolio_percentage": 0.02,
+      "company_name": "Clarivate Plc"
+    },
+    {
+      "symbol": "FISV",
+      "manager_id": "SE",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 3990,
+      "portfolio_percentage": 0.01,
+      "company_name": "Fiserv Inc."
+    },
+    {
       "symbol": "RYN",
       "manager_id": "SE",
       "action": "Add 89.52%",
@@ -3434,7 +3852,7 @@
       "company_name": "RTX Corp."
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "SE",
       "action": "Sell 100.00%",
       "date": "Q2 2024",
@@ -3456,6 +3874,6 @@
       "company_name": "Douglas Emmett Inc."
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.715702",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.651539",
+  "scraped_date": "2026-09-01"
 }

@@ -2,6 +2,28 @@
   "manager_id": "PC",
   "activities": [
     {
+      "symbol": "CROX",
+      "manager_id": "PC",
+      "action": "Reduce 2.93%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 17400,
+      "portfolio_percentage": 0.82,
+      "company_name": "Crocs Inc."
+    },
+    {
+      "symbol": "SGOV",
+      "manager_id": "PC",
+      "action": "Reduce 59.13%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 272000,
+      "portfolio_percentage": 10.69,
+      "company_name": "Ishares 0 3 Month Treasury B"
+    },
+    {
       "symbol": "SGOV",
       "manager_id": "PC",
       "action": "Reduce 18.73%",
@@ -431,6 +453,6 @@
       "company_name": "Baidu Inc."
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.702494",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.780718",
+  "scraped_date": "2026-09-01"
 }

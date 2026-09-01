@@ -2,6 +2,226 @@
   "manager_id": "BAUPOST",
   "activities": [
     {
+      "symbol": "NCLH",
+      "manager_id": "BAUPOST",
+      "action": "Add 112.95%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 4100000,
+      "portfolio_percentage": 1.6,
+      "company_name": "Norwegian Cruise Line Hlgs Ltd."
+    },
+    {
+      "symbol": "GPC",
+      "manager_id": "BAUPOST",
+      "action": "Add 88.96%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 1325830,
+      "portfolio_percentage": 2.89,
+      "company_name": "Genuine Parts"
+    },
+    {
+      "symbol": "GDS",
+      "manager_id": "BAUPOST",
+      "action": "Add 23.81%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 725000,
+      "portfolio_percentage": 0.4,
+      "company_name": "GDS Holdings Ltd"
+    },
+    {
+      "symbol": "AMZN",
+      "manager_id": "BAUPOST",
+      "action": "Add 20.04%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 625100,
+      "portfolio_percentage": 2.75,
+      "company_name": "Amazon.com Inc."
+    },
+    {
+      "symbol": "GOOG",
+      "manager_id": "BAUPOST",
+      "action": "Add 16.15%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 190800,
+      "portfolio_percentage": 1.24,
+      "company_name": "Alphabet Inc. CL C"
+    },
+    {
+      "symbol": "FERG",
+      "manager_id": "BAUPOST",
+      "action": "Add 0.57%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 8183,
+      "portfolio_percentage": 0.04,
+      "company_name": "Ferguson Enterprises Inc."
+    },
+    {
+      "symbol": "CME",
+      "manager_id": "BAUPOST",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 619000,
+      "portfolio_percentage": 2.52,
+      "company_name": "CME Group"
+    },
+    {
+      "symbol": "AXTA",
+      "manager_id": "BAUPOST",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 1274356,
+      "portfolio_percentage": 0.81,
+      "company_name": "Axalta Coating Systems Ltd."
+    },
+    {
+      "symbol": "PS",
+      "manager_id": "BAUPOST",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 392000,
+      "portfolio_percentage": 0.24,
+      "company_name": "Pershing Square Inc."
+    },
+    {
+      "symbol": "AON",
+      "manager_id": "BAUPOST",
+      "action": "Reduce 10.66%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 82000,
+      "portfolio_percentage": 0.5,
+      "company_name": "Aon Plc"
+    },
+    {
+      "symbol": "TFX",
+      "manager_id": "BAUPOST",
+      "action": "Reduce 11.66%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 186000,
+      "portfolio_percentage": 0.44,
+      "company_name": "Teleflex"
+    },
+    {
+      "symbol": "COLD",
+      "manager_id": "BAUPOST",
+      "action": "Reduce 12.22%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 950570,
+      "portfolio_percentage": 0.28,
+      "company_name": "Americold Realty Trust"
+    },
+    {
+      "symbol": "QSR",
+      "manager_id": "BAUPOST",
+      "action": "Reduce 16.42%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1327000,
+      "portfolio_percentage": 1.78,
+      "company_name": "Restaurant Brands International"
+    },
+    {
+      "symbol": "UNP",
+      "manager_id": "BAUPOST",
+      "action": "Reduce 23.08%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 355600,
+      "portfolio_percentage": 1.78,
+      "company_name": "Union Pacific"
+    },
+    {
+      "symbol": "DNOW",
+      "manager_id": "BAUPOST",
+      "action": "Reduce 23.09%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 837000,
+      "portfolio_percentage": 0.2,
+      "company_name": "NOW Inc."
+    },
+    {
+      "symbol": "LBTYK",
+      "manager_id": "BAUPOST",
+      "action": "Reduce 36.23%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 4854086,
+      "portfolio_percentage": 0.99,
+      "company_name": "Liberty Global Ltd CL C"
+    },
+    {
+      "symbol": "EXP",
+      "manager_id": "BAUPOST",
+      "action": "Reduce 40.55%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 362000,
+      "portfolio_percentage": 1.51,
+      "company_name": "Eagle Materials Inc."
+    },
+    {
+      "symbol": "WCC",
+      "manager_id": "BAUPOST",
+      "action": "Reduce 53.87%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 774000,
+      "portfolio_percentage": 4.94,
+      "company_name": "WESCO International Inc."
+    },
+    {
+      "symbol": "WTW",
+      "manager_id": "BAUPOST",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 893126,
+      "portfolio_percentage": 5.08,
+      "company_name": "Willis Towers Watson plc"
+    },
+    {
+      "symbol": "PCVX",
+      "manager_id": "BAUPOST",
+      "action": "Sell 100.00%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 800000,
+      "portfolio_percentage": 0.91,
+      "company_name": "Vaxcyte Inc."
+    },
+    {
       "symbol": "COLD",
       "manager_id": "BAUPOST",
       "action": "Add 123.86%",
@@ -673,7 +893,7 @@
       "company_name": "Viasat Inc."
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "BAUPOST",
       "action": "Sell 100.00%",
       "date": "Q3 2025",
@@ -706,7 +926,7 @@
       "company_name": "Amcor plc"
     },
     {
-      "symbol": "LBRDA",
+      "symbol": "LBRDA-OLD",
       "manager_id": "BAUPOST",
       "action": "Sell 100.00%",
       "date": "Q3 2025",
@@ -717,7 +937,7 @@
       "company_name": "Liberty Broadband Corp. CL A"
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "BAUPOST",
       "action": "Add 337.03%",
       "date": "Q2 2025",
@@ -1399,7 +1619,7 @@
       "company_name": "Dollar General"
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "BAUPOST",
       "action": "Buy",
       "date": "Q3 2024",
@@ -1432,7 +1652,7 @@
       "company_name": "Restaurant Brands International"
     },
     {
-      "symbol": "LBRDA",
+      "symbol": "LBRDA-OLD",
       "manager_id": "BAUPOST",
       "action": "Buy",
       "date": "Q3 2024",
@@ -10780,228 +11000,8 @@
       "shares": 5049547,
       "portfolio_percentage": 1.75,
       "company_name": "Fox Corporation"
-    },
-    {
-      "symbol": "PBF",
-      "manager_id": "BAUPOST",
-      "action": "Add 47.77%",
-      "date": "Q3 2016",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 5083000,
-      "portfolio_percentage": 1.65,
-      "company_name": "PBF Energy Inc."
-    },
-    {
-      "symbol": "AIG.WS",
-      "manager_id": "BAUPOST",
-      "action": "Add 1.70%",
-      "date": "Q3 2016",
-      "percentage_change": 0.0,
-      "action_type": "Add",
-      "shares": 43400,
-      "portfolio_percentage": 0.01,
-      "company_name": "American Intl. Grp. WTS"
-    },
-    {
-      "symbol": "SYF",
-      "manager_id": "BAUPOST",
-      "action": "Buy",
-      "date": "Q3 2016",
-      "percentage_change": 0.0,
-      "action_type": "Buy",
-      "shares": 17565000,
-      "portfolio_percentage": 7.03,
-      "company_name": "Synchrony Financial"
-    },
-    {
-      "symbol": "DVMT-OLD",
-      "manager_id": "BAUPOST",
-      "action": "Buy",
-      "date": "Q3 2016",
-      "percentage_change": 0.0,
-      "action_type": "Buy",
-      "shares": 6652459,
-      "portfolio_percentage": 4.55,
-      "company_name": "Dell Technologies Inc. old"
-    },
-    {
-      "symbol": "NSAM",
-      "manager_id": "BAUPOST",
-      "action": "Buy",
-      "date": "Q3 2016",
-      "percentage_change": 0.0,
-      "action_type": "Buy",
-      "shares": 9913654,
-      "portfolio_percentage": 1.83,
-      "company_name": "Northstar Asset Management Grp"
-    },
-    {
-      "symbol": "DBRG",
-      "manager_id": "BAUPOST",
-      "action": "Buy",
-      "date": "Q3 2016",
-      "percentage_change": 0.0,
-      "action_type": "Buy",
-      "shares": 1111484,
-      "portfolio_percentage": 1.16,
-      "company_name": "DigitalBridge Group Inc."
-    },
-    {
-      "symbol": "NRF",
-      "manager_id": "BAUPOST",
-      "action": "Buy",
-      "date": "Q3 2016",
-      "percentage_change": 0.0,
-      "action_type": "Buy",
-      "shares": 5498261,
-      "portfolio_percentage": 1.04,
-      "company_name": "NorthStar Realty Finance Corp."
-    },
-    {
-      "symbol": "ODP-OLD",
-      "manager_id": "BAUPOST",
-      "action": "Buy",
-      "date": "Q3 2016",
-      "percentage_change": 0.0,
-      "action_type": "Buy",
-      "shares": 1300000,
-      "portfolio_percentage": 0.66,
-      "company_name": "ODP Corp."
-    },
-    {
-      "symbol": "CPAA-OLD",
-      "manager_id": "BAUPOST",
-      "action": "Buy",
-      "date": "Q3 2016",
-      "percentage_change": 0.0,
-      "action_type": "Buy",
-      "shares": 3712500,
-      "portfolio_percentage": 0.53,
-      "company_name": "Conyers Park Acquisition Corp."
-    },
-    {
-      "symbol": "SCAC-OLD",
-      "manager_id": "BAUPOST",
-      "action": "Buy",
-      "date": "Q3 2016",
-      "percentage_change": 0.0,
-      "action_type": "Buy",
-      "shares": 2326500,
-      "portfolio_percentage": 0.34,
-      "company_name": "Saban Capital Acquisition Corp."
-    },
-    {
-      "symbol": "TBRA",
-      "manager_id": "BAUPOST",
-      "action": "Buy",
-      "date": "Q3 2016",
-      "percentage_change": 0.0,
-      "action_type": "Buy",
-      "shares": 160829,
-      "portfolio_percentage": 0.09,
-      "company_name": "Tobira Therapeutics Inc."
-    },
-    {
-      "symbol": "TMQ",
-      "manager_id": "BAUPOST",
-      "action": "Buy",
-      "date": "Q3 2016",
-      "percentage_change": 0.0,
-      "action_type": "Buy",
-      "shares": 10600758,
-      "portfolio_percentage": 0.08,
-      "company_name": "Trilogy Metals Inc."
-    },
-    {
-      "symbol": "CPAAW-OLD",
-      "manager_id": "BAUPOST",
-      "action": "Buy",
-      "date": "Q3 2016",
-      "percentage_change": 0.0,
-      "action_type": "Buy",
-      "shares": 1237500,
-      "portfolio_percentage": 0.02,
-      "company_name": "Conyers Park Acquisition Corp. WTS"
-    },
-    {
-      "symbol": "OREX",
-      "manager_id": "BAUPOST",
-      "action": "Reduce 0.00%",
-      "date": "Q3 2016",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 1,
-      "portfolio_percentage": 0.0,
-      "company_name": "Orexigen Therapeutics Inc."
-    },
-    {
-      "symbol": "KIN",
-      "manager_id": "BAUPOST",
-      "action": "Reduce 0.08%",
-      "date": "Q3 2016",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 2264,
-      "portfolio_percentage": 0.0,
-      "company_name": "Kindred Biosciences Inc."
-    },
-    {
-      "symbol": "LNG",
-      "manager_id": "BAUPOST",
-      "action": "Reduce 6.70%",
-      "date": "Q3 2016",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 1998217,
-      "portfolio_percentage": 1.25,
-      "company_name": "Cheniere Energy Inc."
-    },
-    {
-      "symbol": "PYPL",
-      "manager_id": "BAUPOST",
-      "action": "Reduce 11.72%",
-      "date": "Q3 2016",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 664087,
-      "portfolio_percentage": 0.39,
-      "company_name": "PayPal Holdings Inc."
-    },
-    {
-      "symbol": "INVA",
-      "manager_id": "BAUPOST",
-      "action": "Reduce 15.21%",
-      "date": "Q3 2016",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 2678608,
-      "portfolio_percentage": 0.42,
-      "company_name": "Innoviva Inc."
-    },
-    {
-      "symbol": "SRAQ.WS",
-      "manager_id": "BAUPOST",
-      "action": "Reduce 24.00%",
-      "date": "Q3 2016",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 300000,
-      "portfolio_percentage": 0.03,
-      "company_name": "Silver Run Acquisition Corp. WTS"
-    },
-    {
-      "symbol": "VMW-OLD",
-      "manager_id": "BAUPOST",
-      "action": "Reduce 28.80%",
-      "date": "Q3 2016",
-      "percentage_change": 0.0,
-      "action_type": "Reduce",
-      "shares": 648805,
-      "portfolio_percentage": 0.68,
-      "company_name": "VMware Inc."
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.907951",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.926551",
+  "scraped_date": "2026-09-01"
 }

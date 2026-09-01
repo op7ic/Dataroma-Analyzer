@@ -2,6 +2,17 @@
   "manager_id": "abc",
   "activities": [
     {
+      "symbol": "GOOGL",
+      "manager_id": "abc",
+      "action": "Reduce 26.55%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 495273,
+      "portfolio_percentage": 3.23,
+      "company_name": "Alphabet Inc."
+    },
+    {
       "symbol": "SGI",
       "manager_id": "abc",
       "action": "Reduce 0.09%",
@@ -4193,6 +4204,6 @@
       "company_name": "Silgan Holdings Inc."
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.886039",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.942179",
+  "scraped_date": "2026-09-01"
 }

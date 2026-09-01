@@ -2,6 +2,50 @@
   "manager_id": "TF",
   "activities": [
     {
+      "symbol": "GEHC",
+      "manager_id": "TF",
+      "action": "Add 76194.36%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 3081300,
+      "portfolio_percentage": 4.66,
+      "company_name": "GE HealthCare Technologies Inc."
+    },
+    {
+      "symbol": "WEN",
+      "manager_id": "TF",
+      "action": "Add 0.07%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 22412,
+      "portfolio_percentage": 0.0,
+      "company_name": "Wendy's Co."
+    },
+    {
+      "symbol": "JHG-OLD",
+      "manager_id": "TF",
+      "action": "Reduce 19.50%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 6213418,
+      "portfolio_percentage": 7.64,
+      "company_name": "Janus Henderson Group"
+    },
+    {
+      "symbol": "IVZ",
+      "manager_id": "TF",
+      "action": "Reduce 45.29%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1345472,
+      "portfolio_percentage": 0.84,
+      "company_name": "Invesco Ltd"
+    },
+    {
       "symbol": "WEN",
       "manager_id": "TF",
       "action": "Add 0.02%",
@@ -3082,6 +3126,6 @@
       "company_name": "Allegion Plc"
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.635851",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.970656",
+  "scraped_date": "2026-09-01"
 }

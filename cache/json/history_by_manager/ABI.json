@@ -2,6 +2,94 @@
   "manager_id": "ABI",
   "activities": [
     {
+      "symbol": "BFAM",
+      "manager_id": "ABI",
+      "action": "Add 69.37%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 980249,
+      "portfolio_percentage": 3.39,
+      "company_name": "Bright Horizons Family Solutions Inc."
+    },
+    {
+      "symbol": "URBN",
+      "manager_id": "ABI",
+      "action": "Add 0.22%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 4873,
+      "portfolio_percentage": 0.02,
+      "company_name": "Urban Outfitters Inc."
+    },
+    {
+      "symbol": "ACHC",
+      "manager_id": "ABI",
+      "action": "Reduce 4.91%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 215000,
+      "portfolio_percentage": 0.31,
+      "company_name": "Acadia Healthcare Co."
+    },
+    {
+      "symbol": "NYT",
+      "manager_id": "ABI",
+      "action": "Reduce 5.97%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 84520,
+      "portfolio_percentage": 0.29,
+      "company_name": "New York Times CL A"
+    },
+    {
+      "symbol": "SNX",
+      "manager_id": "ABI",
+      "action": "Reduce 18.88%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 470593,
+      "portfolio_percentage": 6.14,
+      "company_name": "SYNNEX Corp."
+    },
+    {
+      "symbol": "TFX",
+      "manager_id": "ABI",
+      "action": "Reduce 20.70%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 207000,
+      "portfolio_percentage": 1.28,
+      "company_name": "Teleflex"
+    },
+    {
+      "symbol": "AMAT",
+      "manager_id": "ABI",
+      "action": "Reduce 21.59%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 152000,
+      "portfolio_percentage": 5.36,
+      "company_name": "Applied Materials"
+    },
+    {
+      "symbol": "SUNB",
+      "manager_id": "ABI",
+      "action": "Reduce 83.61%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 10502327,
+      "portfolio_percentage": 38.36,
+      "company_name": "Sunbelt Rentals Holdings Inc"
+    },
+    {
       "symbol": "URBN",
       "manager_id": "ABI",
       "action": "Add 31.79%",
@@ -673,6 +761,6 @@
       "company_name": "StoneCo Ltd."
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.635082",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.731452",
+  "scraped_date": "2026-09-01"
 }

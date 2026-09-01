@@ -4006,7 +4006,7 @@
       "company_name": "Solventum Corp"
     },
     {
-      "symbol": "EA",
+      "symbol": "EA-OLD",
       "manager_id": "MKL",
       "action": "Sell 100.00%",
       "date": "Q3 2024",
@@ -4578,7 +4578,7 @@
       "company_name": "Ul Solutions Inc   Class A"
     },
     {
-      "symbol": "EA",
+      "symbol": "EA-OLD",
       "manager_id": "MKL",
       "action": "Reduce 38.37%",
       "date": "Q2 2024",
@@ -5678,7 +5678,7 @@
       "company_name": "Activision Blizzard Inc."
     },
     {
-      "symbol": "LBRDA",
+      "symbol": "LBRDA-OLD",
       "manager_id": "MKL",
       "action": "Sell 100.00%",
       "date": "Q4 2023",
@@ -5689,7 +5689,7 @@
       "company_name": "Liberty Broadband Corp. CL A"
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "MKL",
       "action": "Sell 100.00%",
       "date": "Q4 2023",
@@ -6294,7 +6294,7 @@
       "company_name": "Ferguson Enterprises Inc."
     },
     {
-      "symbol": "LBRDA",
+      "symbol": "LBRDA-OLD",
       "manager_id": "MKL",
       "action": "Reduce 4.14%",
       "date": "Q3 2023",
@@ -6316,7 +6316,7 @@
       "company_name": "Liberty Global Ltd CL A"
     },
     {
-      "symbol": "LBRDK",
+      "symbol": "LBRDK-OLD",
       "manager_id": "MKL",
       "action": "Reduce 12.93%",
       "date": "Q3 2023",
@@ -7064,7 +7064,7 @@
       "company_name": "Old Dominion Freight Line"
     },
     {
-      "symbol": "EA",
+      "symbol": "EA-OLD",
       "manager_id": "MKL",
       "action": "Add 32.89%",
       "date": "Q1 2023",
@@ -8505,7 +8505,7 @@
       "company_name": "Alphabet Inc."
     },
     {
-      "symbol": "EA",
+      "symbol": "EA-OLD",
       "manager_id": "MKL",
       "action": "Add 7.04%",
       "date": "Q3 2022",
@@ -8813,7 +8813,7 @@
       "company_name": "Scotts Miracle-Gro Co."
     },
     {
-      "symbol": "EA",
+      "symbol": "EA-OLD",
       "manager_id": "MKL",
       "action": "Add 236.09%",
       "date": "Q2 2022",
@@ -9836,7 +9836,7 @@
       "company_name": "Hanover Insurance Group"
     },
     {
-      "symbol": "EA",
+      "symbol": "EA-OLD",
       "manager_id": "MKL",
       "action": "Buy",
       "date": "Q1 2022",
@@ -11002,6 +11002,6 @@
       "company_name": "Carlyle Group"
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.569053",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:54.062750",
+  "scraped_date": "2026-09-01"
 }

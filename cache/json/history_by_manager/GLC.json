@@ -2,6 +2,61 @@
   "manager_id": "GLC",
   "activities": [
     {
+      "symbol": "SPOT",
+      "manager_id": "GLC",
+      "action": "Buy",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 39370,
+      "portfolio_percentage": 4.96,
+      "company_name": "Spotify Technology S.A."
+    },
+    {
+      "symbol": "NFLX",
+      "manager_id": "GLC",
+      "action": "Reduce 1.30%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 3645,
+      "portfolio_percentage": 0.07,
+      "company_name": "Netflix Inc."
+    },
+    {
+      "symbol": "MKL",
+      "manager_id": "GLC",
+      "action": "Reduce 9.98%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 2250,
+      "portfolio_percentage": 1.21,
+      "company_name": "Markel Group Inc."
+    },
+    {
+      "symbol": "AMZN",
+      "manager_id": "GLC",
+      "action": "Reduce 10.30%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 32180,
+      "portfolio_percentage": 2.11,
+      "company_name": "Amazon.com Inc."
+    },
+    {
+      "symbol": "TSLA",
+      "manager_id": "GLC",
+      "action": "Reduce 13.42%",
+      "date": "Q2 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 7345,
+      "portfolio_percentage": 0.85,
+      "company_name": "Tesla Inc."
+    },
+    {
       "symbol": "SGOV",
       "manager_id": "GLC",
       "action": "Buy",
@@ -2675,6 +2730,6 @@
       "company_name": "Stitch Fix Inc."
     }
   ],
-  "timestamp": "2026-08-01T06:56:25.998959",
-  "scraped_date": "2026-08-01"
+  "timestamp": "2026-09-01T10:47:53.883838",
+  "scraped_date": "2026-09-01"
 }
