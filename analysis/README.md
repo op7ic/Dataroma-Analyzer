@@ -1,6 +1,6 @@
 # 📊 Dataroma Investment Analysis
 
-*Generated: 2026-09-03 15:28:27*
+*Generated: 2026-09-03 13:04:25*
 
 ## 🎯 Overview
 
@@ -296,22 +296,22 @@ Some stocks appear in multiple analysis files with opposite signals, because dif
 
 These tickers appear in both `contrarian_opportunities.csv` and `momentum_stocks.csv`. This happens when different managers take opposite positions on the same stock:
 
-- **DIS**: Contrarian signal: Net Selling (buys: 29.0, sells: 35.0) | Momentum score: 84.773
+- **GOOG**: Contrarian signal: Net Selling (buys: 23.0, sells: 64.0) | Momentum score: 91.2279411764706
 
-- **BRK.B**: Contrarian signal: Net Selling (buys: 26.0, sells: 36.0) | Momentum score: 90.62076923076923
+- **GOOGL**: Contrarian signal: Net Selling (buys: 20.0, sells: 73.0) | Momentum score: 85.7461111111111
 
-- **META**: Contrarian signal: Net Selling (buys: 38.0, sells: 46.0) | Momentum score: 116.17935483870968
+- **COF**: Contrarian signal: Net Selling (buys: 13.0, sells: 35.0) | Momentum score: 49.409375
 
-- **TXN**: Contrarian signal: Net Selling (buys: 10.0, sells: 23.0) | Momentum score: 40.206428571428575
+- **UNH**: Contrarian signal: Net Selling (buys: 23.0, sells: 40.0) | Momentum score: 69.45823529411764
 
-- **MSFT**: Contrarian signal: Net Selling (buys: 54.0, sells: 63.0) | Momentum score: 153.94351351351352
+- **AVGO**: Contrarian signal: Net Selling (buys: 16.0, sells: 20.0) | Momentum score: 52.31923076923077
 
 #### New Positions with Contrarian Signals
 
 These newly initiated positions also show contrarian patterns, suggesting managers are taking bold positions against the crowd:
-- **TSM**: New position initiated amid contrarian activity
+- **META**: New position initiated amid contrarian activity
+- **AMAT**: New position initiated amid contrarian activity
 - **MA**: New position initiated amid contrarian activity
-- **SPGI**: New position initiated amid contrarian activity
 
 
 ### Data Freshness Notes
@@ -328,7 +328,7 @@ All current analysis reports use manager filings from this window.
 
 4. **Manager Activity**: A single manager may have multiple entries for the same stock if they made multiple transactions (Buy, Add, Reduce) within the analysis window.
 
-**Report Generated**: 2026-09-03 15:28:28
+**Report Generated**: 2026-09-03 13:04:25
 
 
 ---
