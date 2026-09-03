@@ -3775,7 +3775,7 @@
       "company_name": "Airgain Inc"
     },
     {
-      "symbol": "HLX",
+      "symbol": "HOS",
       "manager_id": "FE",
       "action": "Reduce 8.17%",
       "date": "Q2 2026",
@@ -3783,7 +3783,7 @@
       "action_type": "Reduce",
       "shares": 43000,
       "portfolio_percentage": 0.0,
-      "company_name": "Helix Energy Solutions"
+      "company_name": "Hornbeck Offshores Services"
     },
     {
       "symbol": "MEC",
@@ -8186,7 +8186,7 @@
       "company_name": "Expeditors Int'l"
     },
     {
-      "symbol": "HLX",
+      "symbol": "HOS",
       "manager_id": "FE",
       "action": "Reduce 5.98%",
       "date": "Q1 2026",
@@ -8194,7 +8194,7 @@
       "action_type": "Reduce",
       "shares": 33500,
       "portfolio_percentage": 0.0,
-      "company_name": "Helix Energy Solutions"
+      "company_name": "Hornbeck Offshores Services"
     },
     {
       "symbol": "REPX",
@@ -10617,7 +10617,7 @@
       "company_name": "Stewart Information Services"
     },
     {
-      "symbol": "HLX",
+      "symbol": "HOS",
       "manager_id": "FE",
       "action": "Add 5.76%",
       "date": "Q4 2025",
@@ -10625,7 +10625,7 @@
       "action_type": "Add",
       "shares": 30500,
       "portfolio_percentage": 0.0,
-      "company_name": "Helix Energy Solutions"
+      "company_name": "Hornbeck Offshores Services"
     },
     {
       "symbol": "PKOH",
@@ -11002,6 +11002,6 @@
       "company_name": "Timken Co."
     }
   ],
-  "timestamp": "2026-09-01T10:47:53.620684",
-  "scraped_date": "2026-09-01"
+  "timestamp": "2026-09-03T11:09:04.461199",
+  "scraped_date": "2026-09-03"
 }

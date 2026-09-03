@@ -129,7 +129,7 @@
       "date": "Q2 2026",
       "percentage_change": 0.0,
       "action_type": "Add",
-      "shares": 427,
+      "shares": 640,
       "portfolio_percentage": 0.01,
       "company_name": "Rush Enterprises Inc."
     },
@@ -239,7 +239,7 @@
       "date": "Q2 2026",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 61,
+      "shares": 92,
       "portfolio_percentage": 0.0,
       "company_name": "Rush Enterprises Inc. - CL B"
     },
@@ -437,7 +437,7 @@
       "date": "Q1 2026",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 47,
+      "shares": 71,
       "portfolio_percentage": 0.0,
       "company_name": "Rush Enterprises Inc. - CL B"
     },
@@ -492,7 +492,7 @@
       "date": "Q1 2026",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 43614,
+      "shares": 65421,
       "portfolio_percentage": 0.76,
       "company_name": "Rush Enterprises Inc."
     },
@@ -701,7 +701,7 @@
       "date": "Q4 2025",
       "percentage_change": 0.0,
       "action_type": "Add",
-      "shares": 1468,
+      "shares": 2202,
       "portfolio_percentage": 0.02,
       "company_name": "Rush Enterprises Inc."
     },
@@ -987,7 +987,7 @@
       "date": "Q3 2025",
       "percentage_change": 0.0,
       "action_type": "Add",
-      "shares": 268,
+      "shares": 402,
       "portfolio_percentage": 0.0,
       "company_name": "Rush Enterprises Inc."
     },
@@ -1295,7 +1295,7 @@
       "date": "Q2 2025",
       "percentage_change": 0.0,
       "action_type": "Add",
-      "shares": 2302,
+      "shares": 3453,
       "portfolio_percentage": 0.04,
       "company_name": "Rush Enterprises Inc."
     },
@@ -1636,7 +1636,7 @@
       "date": "Q1 2025",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 497,
+      "shares": 746,
       "portfolio_percentage": 0.01,
       "company_name": "Rush Enterprises Inc."
     },
@@ -2010,7 +2010,7 @@
       "date": "Q4 2024",
       "percentage_change": 0.0,
       "action_type": "Add",
-      "shares": 541,
+      "shares": 811,
       "portfolio_percentage": 0.01,
       "company_name": "Rush Enterprises Inc."
     },
@@ -2263,7 +2263,7 @@
       "date": "Q3 2024",
       "percentage_change": 0.0,
       "action_type": "Add",
-      "shares": 53,
+      "shares": 79,
       "portfolio_percentage": 0.0,
       "company_name": "Rush Enterprises Inc."
     },
@@ -2494,7 +2494,7 @@
       "date": "Q2 2024",
       "percentage_change": 0.0,
       "action_type": "Add",
-      "shares": 145,
+      "shares": 217,
       "portfolio_percentage": 0.0,
       "company_name": "Rush Enterprises Inc."
     },
@@ -2901,7 +2901,7 @@
       "date": "Q1 2024",
       "percentage_change": 0.0,
       "action_type": "Add",
-      "shares": 3526,
+      "shares": 5289,
       "portfolio_percentage": 0.05,
       "company_name": "Rush Enterprises Inc."
     },
@@ -2972,6 +2972,6 @@
       "company_name": "McKesson Corp."
     }
   ],
-  "timestamp": "2026-09-01T10:47:53.629568",
-  "scraped_date": "2026-09-01"
+  "timestamp": "2026-09-03T11:09:04.470170",
+  "scraped_date": "2026-09-03"
 }

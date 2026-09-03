@@ -1449,7 +1449,7 @@
       "date": "Q1 2026",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 19000,
+      "shares": 28500,
       "portfolio_percentage": 0.02,
       "company_name": "Rush Enterprises Inc."
     },
@@ -1966,7 +1966,7 @@
       "date": "Q4 2025",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 11000,
+      "shares": 16500,
       "portfolio_percentage": 0.01,
       "company_name": "Rush Enterprises Inc."
     },
@@ -3132,7 +3132,7 @@
       "date": "Q2 2025",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 13543,
+      "shares": 20315,
       "portfolio_percentage": 0.01,
       "company_name": "Rush Enterprises Inc."
     },
@@ -3539,7 +3539,7 @@
       "date": "Q1 2025",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 11305,
+      "shares": 16958,
       "portfolio_percentage": 0.01,
       "company_name": "Rush Enterprises Inc."
     },
@@ -5260,6 +5260,6 @@
       "company_name": "Paramount Group Inc."
     }
   ],
-  "timestamp": "2026-09-01T10:47:53.818869",
-  "scraped_date": "2026-09-01"
+  "timestamp": "2026-09-03T11:09:04.661735",
+  "scraped_date": "2026-09-03"
 }

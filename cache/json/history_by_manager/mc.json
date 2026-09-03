@@ -2752,7 +2752,7 @@
       "company_name": "Hudbay Minerals Inc."
     },
     {
-      "symbol": "HLX",
+      "symbol": "HOS",
       "manager_id": "mc",
       "action": "Sell 100.00%",
       "date": "Q2 2026",
@@ -2760,7 +2760,7 @@
       "action_type": "Sell",
       "shares": 75723,
       "portfolio_percentage": 0.01,
-      "company_name": "Helix Energy Solutions"
+      "company_name": "Hornbeck Offshores Services"
     },
     {
       "symbol": "HRB",
@@ -4897,7 +4897,7 @@
       "company_name": "Hudbay Minerals Inc."
     },
     {
-      "symbol": "HLX",
+      "symbol": "HOS",
       "manager_id": "mc",
       "action": "Buy",
       "date": "Q1 2026",
@@ -4905,7 +4905,7 @@
       "action_type": "Buy",
       "shares": 75723,
       "portfolio_percentage": 0.01,
-      "company_name": "Helix Energy Solutions"
+      "company_name": "Hornbeck Offshores Services"
     },
     {
       "symbol": "HUN",
@@ -11002,6 +11002,6 @@
       "company_name": "Turning Point Brands Inc."
     }
   ],
-  "timestamp": "2026-09-01T10:47:53.738348",
-  "scraped_date": "2026-09-01"
+  "timestamp": "2026-09-03T11:09:04.580355",
+  "scraped_date": "2026-09-03"
 }

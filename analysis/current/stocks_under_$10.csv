@@ -1,51 +1,51 @@
 ticker,company_name,current_price,manager_count,managers,total_value,avg_portfolio_pct,total_shares,max_portfolio_pct,recent_buys,latest_buy_quarter,price_opportunity_score,price_category,_analysis_type,_generated,_periods,_window_quarters
-HLN,Haleon Plc ADR,9.87,5,"Bill Nygren, First Eagle Investment Management, Dodge & Cox Funds, Kahn Brothers Group, Tweedy Browne",1658993000,0.25,165733528,0.81,3.0,Q4 2025,13.248,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-DCH,Dauch Corp.,5.65,3,"David Einhorn, Alex Roepers, Bill Miller",68475000,5.53,11547255,13.27,4.0,Q4 2025,15.533333333333337,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-WEN,Wendy's Co.,7.36,3,"Nelson Peltz, Bill Nygren, Prem Watsa",275564000,2.24,39644725,5.48,3.0,Q4 2025,11.236666666666666,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-STLA,Stellantis N.V.,5.76,3,"Viking Global Investors, Ruane Cunniff LP, Francis Chou",121978000,1.69,17399537,4.76,3.0,Q4 2025,10.69,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-PSKY,Paramount Skydance Corp.,7.96,3,"David Einhorn, Christopher Bloomstran, John Rogers",64269000,0.69,7125107,1.11,1.0,Q1 2026,7.69,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-TME,Tencent Music Entertainment Grp,9.45,3,"Li Lu, Sarah Ketterer, Polen Capital Management",70658000,0.67,7614014,1.91,2.0,Q4 2025,8.67,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-ABEV,Ambev S.A.,3.11,3,"First Eagle Investment Management, Dodge & Cox Funds, Richard Pzena",1027864000,0.59,352008185,1.72,4.0,Q4 2025,10.586666666666666,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-HUN,Huntsman Corp.,9.76,3,"Lee Ainslie, First Eagle Investment Management, Richard Pzena",88536000,0.09,6651777,0.25,4.0,Q4 2025,10.093333333333334,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-OEC,Orion SA,6.75,3,"First Pacific Advisors, Tweedy Browne, Richard Pzena",33009000,0.06,5078415,0.1,3.0,Q4 2025,9.056666666666668,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-RIG,Transocean Ltd.,5.32,2,"Arnold Van Den Berg, Mohnish Pabrai",135387000,16.0,20420415,31.97,1.0,Q4 2025,21.005,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-CCC,CCC Intelligent Solutions Hldgs Inc.,6.09,2,"Triple Frond Partners, Chuck Akre",221556000,3.23,36926106,3.37,5.0,Q4 2025,12.23,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-PTLO,Portillo's Inc Cl A,4.57,2,"Glenn Welling, Bill Miller",18897000,3.09,3572313,6.0,2.0,Q1 2026,9.09,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-STKL-OLD,SunOpta Inc.,6.5,2,"Howard Marks, Leon Cooperman",194494000,2.55,30026126,3.12,2.0,Q4 2025,8.55,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-TDAY,Gannett Co.,8.69,2,"Leon Cooperman, Bill Miller",58100000,2.54,8241241,3.62,3.0,Q4 2025,9.535,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-EVH,Evolent Health Inc.,3.09,2,"Lee Ainslie, Glenn Welling",18552000,2.12,8136675,4.18,2.0,Q4 2025,8.125,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-NOK,Nokia Corp.,9.14,2,"Howard Marks, Richard Pzena",599991000,1.88,74625826,2.09,1.0,Q4 2025,6.875,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-MBI,MBIA Inc.,5.12,2,"Francis Chou, Kahn Brothers Group",14051000,1.53,2377434,2.15,1.0,Q1 2026,6.53,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-EQX,Equinox Gold Corp,8.95,2,"Lee Ainslie, Muhlenkamp",8512000,1.0,588729,1.98,3.0,Q4 2025,7.995,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-ABR,Arbor Realty Trust Inc.,5.01,2,"Leon Cooperman, Bill Miller",16685000,0.8,2164000,1.22,1.0,Q1 2026,5.805,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-SRTA,Strata Critical Medical Inc.,5.02,2,"Daniel Loeb, First Eagle Investment Management",30373000,0.51,7266243,1.0,2.0,Q4 2025,6.51,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-STUB,Stubhub Holdings Inc Class A,8.44,2,"Lee Ainslie, David Einhorn",32227000,0.45,5164673,0.83,1.0,Q1 2026,5.45,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-EMBC,Embecta Corp,3.64,2,"Tweedy Browne, Yacktman Asset Management",33125000,0.24,3747233,0.43,4.0,Q4 2025,8.24,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-MBC,Masterbrand Inc,8.25,2,"Bill Miller, Richard Pzena",32565000,0.16,3918868,0.23,2.0,Q1 2026,6.165,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-ARCO,Arcos Dorados Holdings Inc.,8.17,2,"Dodge & Cox Funds, Richard Pzena",89547000,0.14,10854132,0.29,2.0,Q4 2025,6.145,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-HAFN,Hafnia Ltd,7.69,2,"Sarah Ketterer, Tweedy Browne",3280000,0.12,431270,0.23,3.0,Q4 2025,7.12,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-ADTN,ADTRAN Holdings Inc.,8.51,2,"First Eagle Investment Management, Polen Capital Management",18170000,0.02,1444395,0.03,3.0,Q4 2025,7.02,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-IEP,Icahn Enterprises,7.79,1,Carl Icahn,4147974000,48.49,549400539,48.49,1.0,Q4 2025,51.49,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-UAA,Under Armour Inc.,6.65,1,Prem Watsa,253705000,13.06,43000872,13.06,2.0,Q4 2025,17.060000000000002,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-UA,Under Armour CL C,6.49,1,Prem Watsa,126935000,6.53,21999128,6.53,2.0,Q4 2025,10.53,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-GTN,Gray Television Inc.,4.04,1,Bill Miller,23306000,6.08,5370100,6.08,2.0,Q4 2025,10.08,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-LUMN,Lumen Technologies Inc.,6.38,1,Arnold Van Den Berg,16874000,3.87,2427862,3.87,1.0,Q1 2026,6.87,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-CNDT,Conduent Inc.,1.57,1,Bill Miller,12831000,3.35,10023930,3.35,2.0,Q4 2025,7.35,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-BLMN,Bloomin Brands Inc.,8.66,1,Bill Miller,10998000,2.87,2036734,2.87,1.0,Q1 2026,5.87,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-PGEN,Precigen Inc.,6.27,1,Samantha McLemore,68953000,2.57,17817387,2.57,1.0,Q4 2025,5.57,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-ITUB,ita Unibanco Holding S.A.,8.46,1,Howard Marks,102144000,2.37,12188995,2.37,1.0,Q4 2025,5.37,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-INFQ,Infleqtion Inc,9.83,1,Lee Ainslie,195630000,2.28,19941924,2.28,1.0,Q1 2026,5.279999999999999,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-JELD,JELD-WEN Holding Inc.,1.42,1,Bill Miller,8209000,2.14,6619885,2.14,2.0,Q4 2025,6.140000000000001,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-ESRT,Empire State Realty Trust Inc.,5.06,1,Mason Hawkins,33661000,1.66,6473317,1.66,2.0,Q4 2025,5.66,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-PTON,Peloton Interactive Inc.,6.39,1,David Einhorn,43389000,1.36,10113940,1.36,1.0,Q1 2026,4.36,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-AQN,Algonquin Power & Utilities,5.84,1,John Rogers,120600000,1.35,19641661,1.35,1.0,Q1 2026,4.35,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-YMM,Full Truck Alliance  Spn ADR,9.49,1,Christopher Davis,238734000,1.1,28763191,1.1,2.0,Q4 2025,5.1,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-OSG,Octave Specialty Group Inc.,5.4,1,Third Avenue Management,6237000,1.01,1341211,1.01,2.0,Q4 2025,5.01,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-WVE,Wave Life Sciences Ltd.,5.51,1,Lee Ainslie,73670000,0.86,10161399,0.86,2.0,Q4 2025,4.859999999999999,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-TIC,Acuren Corporation,7.31,1,Viking Global Investors,235726000,0.66,35824562,0.66,1.0,Q1 2026,3.66,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-WLTH,Wealthfront Corp,9.49,1,Chase Coleman,140201000,0.61,15156877,0.61,1.0,Q4 2025,3.61,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-NWL,Newell Brands Inc.,5.6,1,Richard Pzena,163964000,0.53,47802935,0.53,1.0,Q4 2025,3.53,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-PAGS,PagSeguro Digital Ltd.,9.64,1,Sarah Ketterer,40524000,0.5,4044350,0.5,1.0,Q4 2025,3.5,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-VYX,NCR Voyix Corp.,8.27,1,First Pacific Advisors,34214000,0.49,5405082,0.49,2.0,Q4 2025,4.49,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-SPRY,Ars Pharmaceuticals Inc,5.13,1,Daniel Loeb,8030000,0.39,1000000,0.39,2.0,Q4 2025,4.390000000000001,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
-EVLV,Evolv Technologies Holdings,5.53,1,Torray Funds,2278000,0.34,392714,0.34,2.0,Q2 2026,4.34,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+HLN,Haleon Plc ADR,9.91,5,"First Eagle Investment Management, Kahn Brothers Group, Bill Nygren, Dodge & Cox Funds, Tweedy Browne",1596578000,0.23,171122991,0.73,7.0,Q4 2025,17.23,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+ORLA-OLD,Orla Mining Ltd,9.45,3,"First Eagle Investment Management, Prem Watsa, Sarah Ketterer",615546000,7.21,63219430,21.55,2.0,Q2 2026,15.213333333333336,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+DCH,Dauch Corp.,6.56,3,"Alex Roepers, Bill Miller, David Einhorn",87163000,2.87,16081614,3.97,6.0,Q4 2025,14.87,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+WEN,Wendy's Co.,8.24,3,"Bill Nygren, Prem Watsa, Nelson Peltz",365187000,2.85,44061198,5.97,6.0,Q4 2025,14.846666666666666,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+TME,Tencent Music Entertainment Grp,8.39,3,"Mason Hawkins, Li Lu, Polen Capital Management",77682000,0.84,9303228,1.49,3.0,Q4 2025,9.84,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+ABEV,Ambev S.A.,2.99,3,"First Eagle Investment Management, Dodge & Cox Funds, Richard Pzena",1109411000,0.61,353315806,1.81,5.0,Q4 2025,11.613333333333332,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+AUR,Aurora Innovation Inc.,5.85,3,"Daniel Loeb, Henry Ellenbogen, Polen Capital Management",81529000,0.29,11954398,0.72,2.0,Q2 2026,8.29,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+ARCO,Arcos Dorados Holdings Inc.,8.21,3,"Dodge & Cox Funds, Sarah Ketterer, Richard Pzena",103804000,0.14,12878837,0.26,4.0,Q4 2025,10.143333333333334,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+OEC,Orion SA,6.17,3,"First Pacific Advisors, Tweedy Browne, Richard Pzena",35005000,0.06,5279877,0.09,5.0,Q4 2025,11.056666666666668,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+RIG,Transocean Ltd.,6.22,2,"Arnold Van Den Berg, Mohnish Pabrai",99838000,15.28,20416924,30.53,2.0,Q4 2025,21.275,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+CCC,CCC Intelligent Solutions Hldgs Inc.,7.18,2,"Chuck Akre, Triple Frond Partners",182003000,2.76,35271971,3.02,5.0,Q4 2025,11.755,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+MBI,MBIA Inc.,4.76,2,"Kahn Brothers Group, Francis Chou",29568000,2.66,4534920,4.34,2.0,Q2 2026,8.655,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+TDAY,Gannett Co.,6.3,2,"Bill Miller, Leon Cooperman",65604000,2.17,7673041,2.83,3.0,Q4 2025,9.17,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+STLA,Stellantis N.V.,5.27,2,"Ruane Cunniff LP, Francis Chou",8147000,1.84,1419269,3.69,3.0,Q4 2025,8.844999999999999,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+TRIP,TripAdvisor Inc.,9.61,2,"Mason Hawkins, David Einhorn",63347000,1.23,4620439,1.62,5.0,Q4 2025,10.225,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+COTY,Coty Inc.,2.9,2,"Bill Miller, Lee Ainslie",10633000,1.01,4923022,2.0,2.0,Q2 2026,7.01,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+ABR,Arbor Realty Trust Inc.,5.16,2,"Bill Miller, Leon Cooperman",12335000,0.52,2275739,0.78,3.0,Q2 2026,7.515,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+HAFN,Hafnia Ltd,8.88,2,"Sarah Ketterer, Tweedy Browne",7312000,0.13,1111807,0.21,5.0,Q4 2025,9.13,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+MRVI,Maravai LifeSciences Holdings Inc.,7.38,2,"First Eagle Investment Management, First Pacific Advisors",28431000,0.06,4556170,0.07,3.0,Q4 2025,7.055,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+ADTN,ADTRAN Holdings Inc.,7.52,2,"First Eagle Investment Management, Polen Capital Management",18331000,0.02,1318799,0.03,3.0,Q4 2025,7.02,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+IEP,Icahn Enterprises,6.8,1,Carl Icahn,4458616000,53.95,618393343,53.95,2.0,Q4 2025,57.95,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+UAA,Under Armour Inc.,5.15,1,Prem Watsa,289831000,10.98,45356965,10.98,3.0,Q4 2025,15.98,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+AIIR,Air Holdings Ltd,7.4,1,Greg Alexander,64381000,10.61,9666791,10.61,1.0,Q2 2026,13.61,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+EVH,Evolent Health Inc.,4.23,1,Glenn Welling,30156000,9.34,5563912,9.34,2.0,Q4 2025,13.34,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+GTN,Gray Television Inc.,4.93,1,Bill Miller,28756000,6.8,7243390,6.8,3.0,Q4 2025,11.8,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+BLMN,Bloomin Brands Inc.,9.93,1,Bill Miller,23635000,5.59,2585909,5.59,2.0,Q2 2026,9.59,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+UA,Under Armour CL C,5.03,1,Prem Watsa,136615000,5.18,21999128,5.18,2.0,Q4 2025,9.18,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+PTLO,Portillo's Inc Cl A,4.5,1,Glenn Welling,16320000,5.05,3442990,5.05,2.0,Q1 2026,9.05,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+CNDT,Conduent Inc.,1.89,1,Bill Miller,18960000,4.48,12986100,4.48,3.0,Q4 2025,9.48,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+LUMN,Lumen Technologies Inc.,6.81,1,Arnold Van Den Berg,18303000,3.87,2383170,3.87,1.0,Q1 2026,6.87,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+PGEN,Precigen Inc.,7.01,1,Samantha McLemore,108511000,3.61,19036976,3.61,2.0,Q4 2025,7.609999999999999,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+ITUB,ita Unibanco Holding S.A.,8.08,1,Howard Marks,97858000,2.59,11977665,2.59,1.0,Q4 2025,5.59,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+JELD,JELD-WEN Holding Inc.,2.31,1,Bill Miller,10709000,2.53,7139095,2.53,3.0,Q4 2025,7.529999999999999,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+ESRT,Empire State Realty Trust Inc.,4.39,1,Mason Hawkins,47048000,2.45,8696434,2.45,3.0,Q4 2025,7.45,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+LILAK,Liberty LiLAC Group C,8.63,1,Howard Marks,58885000,1.56,7559083,1.56,1.0,Q2 2026,4.5600000000000005,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+STUB,Stubhub Holdings Inc Class A,6.18,1,David Einhorn,54481000,1.39,4233200,1.39,1.0,Q1 2026,4.39,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+OSG,Octave Specialty Group Inc.,4.49,1,Third Avenue Management,8373000,1.34,1341879,1.34,3.0,Q4 2025,6.34,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+YMM,Full Truck Alliance  Spn ADR,8.63,1,Christopher Davis,224429000,0.96,27639082,0.96,2.0,Q4 2025,4.96,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+NWL,Newell Brands Inc.,5.98,1,Richard Pzena,294663000,0.87,47990664,0.87,2.0,Q4 2025,4.87,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+TIC,Acuren Corporation,9.36,1,Viking Global Investors,289821000,0.83,35824562,0.83,1.0,Q1 2026,3.83,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+DMAC,DiaMedica Therapeutics Inc.,6.75,1,Leon Cooperman,24288000,0.68,3450000,0.68,1.0,Q2 2026,3.68,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+HKHGF,Hongkong Land Holdings Ltd,8.56,1,Third Avenue Management,3918000,0.63,550300,0.63,1.0,Q2 2026,3.63,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+SRTA,Strata Critical Medical Inc.,5.39,1,Daniel Loeb,26350000,0.58,5000000,0.58,3.0,Q4 2025,5.58,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+WLTH,Wealthfront Corp,9.01,1,Chase Coleman,135502000,0.57,15156877,0.57,1.0,Q4 2025,3.57,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+VYX,NCR Voyix Corp.,8.98,1,First Pacific Advisors,44224000,0.56,5413012,0.56,3.0,Q4 2025,5.5600000000000005,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+WVE,Wave Life Sciences Ltd.,4.88,1,Lee Ainslie,59716000,0.54,10278115,0.54,3.0,Q4 2025,5.54,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+MBC,Masterbrand Inc,8.16,1,Richard Pzena,157740000,0.46,15329483,0.46,3.0,Q2 2026,5.46,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+SOPH,Sophia Genetics SA,8.28,1,Chuck Akre,21459000,0.42,3719140,0.42,1.0,Q4 2025,3.42,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+AQN,Algonquin Power & Utilities,5.63,1,John Rogers,38726000,0.39,6608611,0.39,1.0,Q1 2026,3.39,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3
+COYA,Coya Therapeutics Inc,4.42,1,David Einhorn,13663000,0.35,2335540,0.35,2.0,Q4 2025,4.35,Low Price,stocks_under_$10,2026-09-03,"Q2 2026, Q1 2026, Q4 2025",3

@@ -10,7 +10,7 @@
       "percentage": 43.49,
       "portfolio_percent": 43.49,
       "reported_price": 191.36,
-      "current_price": 198.77,
+      "current_price": 202.62,
       "price_change_percent": 0.0,
       "recent_activity": "Buy",
       "week_52_low": 121.06,
@@ -34,7 +34,7 @@
       "percentage": 32.35,
       "portfolio_percent": 32.35,
       "reported_price": 177.93,
-      "current_price": 120.26,
+      "current_price": 120.07,
       "price_change_percent": 0.0,
       "recent_activity": "Add 100.00%",
       "week_52_low": 104.44,
@@ -58,7 +58,7 @@
       "percentage": 24.16,
       "portfolio_percent": 24.16,
       "reported_price": 27.68,
-      "current_price": 25.97,
+      "current_price": 26.51,
       "price_change_percent": 0.0,
       "recent_activity": "Buy",
       "week_52_low": 17.55,
@@ -74,6 +74,6 @@
       "data_quality": "Low"
     }
   ],
-  "timestamp": "2026-09-01T10:47:52.624526",
-  "scraped_date": "2026-09-01"
+  "timestamp": "2026-09-03T11:09:03.452054",
+  "scraped_date": "2026-09-03"
 }
