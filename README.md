@@ -63,18 +63,14 @@ Transform complex institutional data into actionable investment opportunities:
 
 ## 🧠 **Advanced Analytics & Manager Intelligence**
 
-### 🆕 **NEW: Position Timeline Tracking**
-**Track how managers build and reduce positions over time!**
+### **Position Timeline Tracking**
+Track how managers build and reduce positions over time.
 
-| **Timeline Analysis** | **Description** | **Rows (Jul 2026)** | **Use Case** |
+| **Timeline Analysis** | **Description** | **Rows** | **Use Case** |
 |----------------------|-----------------|----------|--------------|
-| **📈 Position Building Timeline** | Quarter-by-quarter position progression for each manager-stock | **40,713** | See how managers accumulated/distributed positions over time |
+| **📈 Position Building Timeline** | Quarter-by-quarter position progression for each manager-stock | **40,084** | See how managers accumulated/distributed positions over time |
 | **🔄 Accumulation vs Distribution** | Net building vs reducing per stock over the last 4 quarters (top 100 most active) | **100** | Identify which stocks are being built up or wound down |
 | **🔀 Position Flip Points** | When managers switched from accumulation to distribution | **96** | Spot when managers started reducing positions |
-
-**Important caveats**:
-- Dataroma publicly exposes at most ~1,000 activities per manager, so very active managers' history starts mid-stream; rows carry a `has_complete_history` flag and cumulative share counts are only reliable when it is true.
-- Row counts refresh monthly; the table above reflects the July 2026 run.
 
 📄 Files: [position_building_timeline.csv](analysis/advanced/position_building_timeline.csv) | [accumulation_vs_distribution.csv](analysis/advanced/accumulation_vs_distribution.csv) | [position_flip_points.csv](analysis/advanced/position_flip_points.csv)
 
@@ -92,7 +88,7 @@ Deep dive into manager psychology, performance patterns, and market intelligence
 | **🤝 Consensus Picks** | Stocks with broad institutional agreement | [📊 Chart](analysis/advanced/visuals/consensus_picks_advanced.png) |
 | **💎 Top Holdings Analysis** | Deep dive into largest institutional positions | [📊 Chart](analysis/advanced/visuals/top_holdings_advanced.png) |
 
-> **Note on "performance" metrics**: 13F filings contain no purchase or sale prices, so actual investment returns cannot be computed from this data. Earlier versions displayed an "annualized return" per manager that was derived from an assumed flat 10%/year growth rate (it was a pure function of years tracked); that metric and its charts have been removed. Manager rankings now use the activity-based track record score.
+> **Note on "performance" metrics**: 13F filings contain no purchase or sale prices, so actual investment returns cannot be computed from this data. Manager rankings use the activity-based track record score.
 
 ### 📊 **Advanced Analysis Reports**
 
@@ -122,8 +118,6 @@ Deep dive into manager psychology, performance patterns, and market intelligence
 | **Sector Rotation Excellence** | Elite sector allocation strategies | [📄 CSV](analysis/advanced/sector_rotation_excellence.csv) |
 | **Sector Rotation Patterns** | Institutional sector flow analysis | [📄 CSV](analysis/advanced/sector_rotation_patterns.csv) |
 | **Theme Emergence Detection** | Early identification of investment themes | [📄 CSV](analysis/advanced/theme_emergence_detection.csv) |
-
-> **Sector caveat**: Dataroma does not publish sector classifications, so the two sector-rotation reports approximate sectors from company-name keywords. Treat them as rough heuristics, not real sector data.
 
 ---
 

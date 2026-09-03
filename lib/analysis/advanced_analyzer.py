@@ -74,6 +74,11 @@ class AdvancedHistoricalAnalyzer(MultiAnalyzer):
         """
         Analyze stocks held 10+ years by the same managers.
         These represent ultimate conviction plays with compound growth potential.
+
+        years_held is the number of DISTINCT CALENDAR YEARS in which the ticker
+        appears in the activity history - not a continuous holding duration, and
+        a lower bound, since Dataroma exposes at most ~1,000 activity rows per
+        manager. Rows are the top 50 by conviction_score.
         """
         if self.data.history_df is None or self.data.history_df.empty:
             return pd.DataFrame()
@@ -147,7 +152,11 @@ class AdvancedHistoricalAnalyzer(MultiAnalyzer):
             return pd.DataFrame()
 
         conviction_df = pd.DataFrame.from_dict(long_term_analysis, orient="index")
-        conviction_df = conviction_df.sort_values(by=["years_held", "conviction_score"], ascending=[False, False])
+        # Rank by conviction first: sorting by years_held first turned the
+        # head(50) below into "the 50 longest-tracked tickers", so any
+        # high-conviction stock with fewer distinct active years could never
+        # reach the CSV (or the chart built from it).
+        conviction_df = conviction_df.sort_values(by=["conviction_score", "years_held"], ascending=[False, False])
 
         if self.data.holdings_df is not None and "stock" in self.data.holdings_df.columns:
             company_names = self.data.holdings_df.groupby("ticker")["stock"].first()

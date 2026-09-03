@@ -64,6 +64,10 @@ class HistoricalAnalyzer(MultiAnalyzer):
         - Crisis navigation success
         - Long-term performance patterns
         - Consistency across market cycles
+
+        Action columns are mutually exclusive: sell_actions counts complete exits
+        (Sell) only and reduce_actions counts position decreases (Reduce) only, so a
+        sell-side total is sell_actions + reduce_actions.
         """
         if self.data.history_df is None or self.data.history_df.empty:
             return pd.DataFrame()
@@ -105,7 +109,7 @@ class HistoricalAnalyzer(MultiAnalyzer):
                 "total_actions": total_actions,
                 "current_holdings": current_holdings,
                 "buy_actions": action_breakdown.get("Buy", 0),
-                "sell_actions": action_breakdown.get("Sell", 0) + action_breakdown.get("Reduce", 0),
+                "sell_actions": action_breakdown.get("Sell", 0),
                 "add_actions": action_breakdown.get("Add", 0),
                 "reduce_actions": action_breakdown.get("Reduce", 0),
                 "consistency_score": consistency_score,
@@ -167,6 +171,9 @@ class HistoricalAnalyzer(MultiAnalyzer):
         - Entry timing for successful stocks
         - When smart money bought today's winners
         - Exit patterns before major declines
+
+        total_sells counts complete exits (Sell) only and total_reduces counts
+        position decreases (Reduce) only; a sell-side total is their sum.
         """
         if self.data.history_df is None or self.data.history_df.empty:
             return pd.DataFrame()
@@ -232,15 +239,18 @@ class HistoricalAnalyzer(MultiAnalyzer):
                 "unique_managers": row["unique_managers"],
                 "currently_held": row["currently_held"],
                 "total_buys": actions.get("Buy", 0),
-                "total_sells": actions.get("Sell", 0) + actions.get("Reduce", 0),
+                "total_sells": actions.get("Sell", 0),
                 "total_adds": actions.get("Add", 0),
                 "total_reduces": actions.get("Reduce", 0),
                 "first_buy_period": first_buys if pd.notna(first_buys) else "",
                 "complete_exit_count": len(complete_exits),
+                # Net action count. Reduce carries its full weight (it was
+                # half-weighted, which made this score contradict the
+                # buy-vs-sell scatter that plots the same stocks).
                 "accumulation_score": actions.get("Buy", 0)
                 + actions.get("Add", 0)
                 - actions.get("Sell", 0)
-                - actions.get("Reduce", 0) * 0.5,
+                - actions.get("Reduce", 0),
             }
 
             life_cycles.append(life_cycle)
@@ -371,6 +381,10 @@ class HistoricalAnalyzer(MultiAnalyzer):
         - 2008 Financial Crisis
         - 2020 COVID Crash
         - 2022 Inflation/Rate Hike Period
+
+        sell_actions counts complete exits (Sell) only and reduce_actions counts
+        position decreases (Reduce) only. sell_ratio is the combined sell-side
+        share, (Sell + Reduce) / total_actions.
         """
         if self.data.history_df is None or self.data.history_df.empty:
             return pd.DataFrame()
@@ -413,7 +427,7 @@ class HistoricalAnalyzer(MultiAnalyzer):
                 "total_actions": total_actions,
                 "buy_actions": action_breakdown.get("Buy", 0),
                 "add_actions": action_breakdown.get("Add", 0),
-                "sell_actions": action_breakdown.get("Sell", 0) + action_breakdown.get("Reduce", 0),
+                "sell_actions": action_breakdown.get("Sell", 0),
                 "reduce_actions": action_breakdown.get("Reduce", 0),
                 "buy_ratio": buy_ratio,
                 "sell_ratio": sell_ratio,
@@ -514,6 +528,10 @@ class HistoricalAnalyzer(MultiAnalyzer):
     def analyze_quarterly_timeline(self) -> pd.DataFrame:
         """
         Create quarterly activity timeline showing market dynamics.
+
+        sell_actions counts complete exits (Sell) only and reduce_actions counts
+        position decreases (Reduce) only, so buy_actions + add_actions +
+        sell_actions + reduce_actions reconciles to total_actions.
         """
         if self.data.history_df is None or self.data.history_df.empty:
             return pd.DataFrame()
@@ -543,7 +561,7 @@ class HistoricalAnalyzer(MultiAnalyzer):
                     "unique_managers": row["manager_id"],
                     "unique_stocks": row["ticker"],
                     "buy_actions": actions.get("Buy", 0),
-                    "sell_actions": actions.get("Sell", 0) + actions.get("Reduce", 0),
+                    "sell_actions": actions.get("Sell", 0),
                     "add_actions": actions.get("Add", 0),
                     "reduce_actions": actions.get("Reduce", 0),
                     "net_activity": actions.get("Buy", 0)

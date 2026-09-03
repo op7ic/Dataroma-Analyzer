@@ -1007,9 +1007,9 @@ CONTRACT_MANAGER_TRACK_RECORDS = FileContract(
         "total_actions": ColumnSpec("total_actions", "Total number of actions", "int", (0, None)),
         "current_holdings": ColumnSpec("current_holdings", "Current number of holdings", "int", (0, None)),
         "buy_actions": ColumnSpec("buy_actions", "Total buy actions", "int", (0, None)),
-        "sell_actions": ColumnSpec("sell_actions", "Total sell actions", "int", (0, None)),
+        "sell_actions": ColumnSpec("sell_actions", "Complete exits (Sell only; Reduce counted separately)", "int", (0, None)),
         "add_actions": ColumnSpec("add_actions", "Total add actions", "int", (0, None)),
-        "reduce_actions": ColumnSpec("reduce_actions", "Total reduce actions", "int", (0, None)),
+        "reduce_actions": ColumnSpec("reduce_actions", "Position decreases (Reduce only)", "int", (0, None)),
         "consistency_score": ColumnSpec("consistency_score", "Consistency score (-1 to 1)", "float", (-1, 1)),
         "2008_financial_actions": ColumnSpec("2008_financial_actions", "Actions during 2008", "float"),
         "2008_financial_buy_ratio": ColumnSpec("2008_financial_buy_ratio", "Buy ratio during 2008", "float"),
@@ -1225,7 +1225,7 @@ CONTRACT_MULTI_DECADE_CONVICTION = FileContract(
         "company_name": ColumnSpec("company_name", "Company name", "str"),
         "top_managers": ColumnSpec("top_managers", "Top long-term managers", "str", is_preview=True),
         "total_value": ColumnSpec("total_value", "Total current value", "float", (0, None)),
-        "years_held": ColumnSpec("years_held", "Years held by managers", "int", (0, None)),
+        "years_held": ColumnSpec("years_held", "Distinct calendar years with recorded activity (not continuous tenure)", "int", (0, None)),
         "consistent_managers": ColumnSpec("consistent_managers", "Managers with consistent holdings", "int", (0, None)),
         "total_managers": ColumnSpec("total_managers", "Total managers ever", "int", (0, None)),
         "current_holders": ColumnSpec("current_holders", "Current number of holders", "int", (0, None)),
@@ -1238,7 +1238,11 @@ CONTRACT_MULTI_DECADE_CONVICTION = FileContract(
         "top_manager_consistency": ColumnSpec("top_manager_consistency", "Top manager consistency %", "str"),
         "conviction_type": ColumnSpec(
             "conviction_type", "Type of conviction", "str",
-            allowed_values=["Consensus Champion", "Single Manager Focus", "Growing Consensus", "Legacy Holding", "Multi-Decade Champion", "Decade+ Conviction"]
+            # The four values analyze_multi_decade_conviction can assign; the
+            # previous list carried three labels the analyzer never emits and
+            # omitted its default, which only stayed hidden while the report
+            # was ranked by tenure.
+            allowed_values=["Long-term Hold", "Decade+ Conviction", "Multi-Decade Champion", "Consensus Champion"]
         ),
     }
 )
@@ -1260,12 +1264,14 @@ CONTRACT_STOCK_LIFE_CYCLES = FileContract(
         "unique_managers": ColumnSpec("unique_managers", "Unique managers ever", "int", (0, None)),
         "currently_held": ColumnSpec("currently_held", "Whether currently held", "bool"),
         "total_buys": ColumnSpec("total_buys", "Total buy actions", "int", (0, None)),
-        "total_sells": ColumnSpec("total_sells", "Total sell actions", "int", (0, None)),
+        "total_sells": ColumnSpec("total_sells", "Complete exits (Sell only; Reduce counted separately)", "int", (0, None)),
         "total_adds": ColumnSpec("total_adds", "Total add actions", "int", (0, None)),
-        "total_reduces": ColumnSpec("total_reduces", "Total reduce actions", "int", (0, None)),
+        "total_reduces": ColumnSpec("total_reduces", "Position decreases (Reduce only)", "int", (0, None)),
         "first_buy_period": ColumnSpec("first_buy_period", "First buy period", "str"),
         "complete_exit_count": ColumnSpec("complete_exit_count", "Times completely exited", "int", (0, None)),
-        "accumulation_score": ColumnSpec("accumulation_score", "Accumulation score", "float"),
+        "accumulation_score": ColumnSpec(
+            "accumulation_score", "Net actions: (Buy + Add) - (Sell + Reduce)", "float"
+        ),
         "life_cycle_score": ColumnSpec("life_cycle_score", "Overall life cycle score", "float", (0, None)),
     }
 )
@@ -1283,9 +1289,9 @@ CONTRACT_QUARTERLY_ACTIVITY_TIMELINE = FileContract(
         "unique_managers": ColumnSpec("unique_managers", "Active managers", "int", (0, None)),
         "unique_stocks": ColumnSpec("unique_stocks", "Unique stocks traded", "int", (0, None)),
         "buy_actions": ColumnSpec("buy_actions", "Buy actions", "int", (0, None)),
-        "sell_actions": ColumnSpec("sell_actions", "Sell actions", "int", (0, None)),
+        "sell_actions": ColumnSpec("sell_actions", "Complete exits (Sell only; Reduce counted separately)", "int", (0, None)),
         "add_actions": ColumnSpec("add_actions", "Add actions", "int", (0, None)),
-        "reduce_actions": ColumnSpec("reduce_actions", "Reduce actions", "int", (0, None)),
+        "reduce_actions": ColumnSpec("reduce_actions", "Position decreases (Reduce only)", "int", (0, None)),
         "net_activity": ColumnSpec("net_activity", "Net activity (buy+add)-(sell+reduce)", "int"),
         "year": ColumnSpec("year", "Year", "int", (2000, 2030)),
     }
@@ -1304,10 +1310,10 @@ CONTRACT_CRISIS_RESPONSE_ANALYSIS = FileContract(
         "total_actions": ColumnSpec("total_actions", "Total actions during crisis", "int", (0, None)),
         "buy_actions": ColumnSpec("buy_actions", "Buy actions during crisis", "int", (0, None)),
         "add_actions": ColumnSpec("add_actions", "Add actions during crisis", "int", (0, None)),
-        "sell_actions": ColumnSpec("sell_actions", "Sell actions during crisis", "int", (0, None)),
-        "reduce_actions": ColumnSpec("reduce_actions", "Reduce actions during crisis", "int", (0, None)),
+        "sell_actions": ColumnSpec("sell_actions", "Complete exits during crisis (Sell only)", "int", (0, None)),
+        "reduce_actions": ColumnSpec("reduce_actions", "Position decreases during crisis (Reduce only)", "int", (0, None)),
         "buy_ratio": ColumnSpec("buy_ratio", "Buy ratio (0-1)", "float", (0, 1)),
-        "sell_ratio": ColumnSpec("sell_ratio", "Sell ratio (0-1)", "float", (0, 1)),
+        "sell_ratio": ColumnSpec("sell_ratio", "Sell-side ratio (Sell+Reduce)/total (0-1)", "float", (0, 1)),
         "top_buyers": ColumnSpec("top_buyers", "Top buyers during crisis", "str", is_preview=True),
         "most_bought": ColumnSpec("most_bought", "Most bought stocks", "str", is_preview=True),
         "most_sold": ColumnSpec("most_sold", "Most sold stocks", "str", is_preview=True),

@@ -26,7 +26,6 @@ from pathlib import Path
 from typing import Dict, List
 import logging
 from matplotlib.ticker import MaxNLocator, FuncFormatter
-from .manager_performance_overview import ManagerPerformanceOverview
 
 logger = logging.getLogger(__name__)
 
@@ -52,7 +51,7 @@ class AdvancedVisualizer:
                 first_year = int(df["first_year"].min())
                 last_year = int(df["last_year"].max())
                 total_years = last_year - first_year + 1
-                return f"{first_year}-{last_year} ({total_years} years)"
+                return f"{first_year}-{last_year}, {total_years} years"
 
         for key, df in results.items():
             if df.empty:
@@ -62,6 +61,12 @@ class AdvancedVisualizer:
                 return f"Average {avg_years:.1f} year careers"
 
         return "Long-term Analysis"
+
+    @staticmethod
+    def _short_name(name: str, limit: int = 18) -> str:
+        """Shorten a label without silently chopping it mid-word into a fake name."""
+        name = str(name).strip()
+        return name if len(name) <= limit else name[: limit - 1].rstrip() + "\u2026"
 
     def _get_manager_name(self, row: pd.Series) -> str:
         """Get the full manager name, preferring the descriptive name over ID."""
@@ -113,15 +118,6 @@ class AdvancedVisualizer:
                 if path:
                     viz_paths.append(path)
 
-            # Create comprehensive performance overview charts
-            if "manager_track_records" in results and not results["manager_track_records"].empty:
-                try:
-                    perf_overview = ManagerPerformanceOverview(output_dir=str(self.output_dir))
-                    perf_paths = perf_overview.create_all_performance_analyses(results["manager_track_records"])
-                    viz_paths.extend(perf_paths)
-                except Exception as e:
-                    logger.error(f"Error creating performance overview charts: {e}")
-
             # Create accumulation vs distribution visualization
             if "accumulation_vs_distribution" in results and not results["accumulation_vs_distribution"].empty:
                 path = self.create_accumulation_distribution_chart(results["accumulation_vs_distribution"])
@@ -150,7 +146,7 @@ class AdvancedVisualizer:
             manager_col = "manager_name" if "manager_name" in top_managers.columns else "manager"
             _ = ax1.barh(top_managers[manager_col], top_managers["track_record_score"], color="darkblue", alpha=0.7)
             ax1.set_xlabel("Track Record Score", fontweight="bold")
-            ax1.set_title("Top 15 Managers by Overall Performance", fontsize=12, fontweight="bold")
+            ax1.set_title("Top 15 Managers by Track Record Score", fontsize=12, fontweight="bold")
             ax1.invert_yaxis()
             ax1.grid(True, alpha=0.3)
 
@@ -162,36 +158,74 @@ class AdvancedVisualizer:
                     score + max_score * 0.02, i, f"{score:.1f}", va="center", ha="left", fontsize=9, fontweight="bold"
                 )
 
+            # Bins must cover the whole range: include_lowest keeps 0-year managers
+            # and an open upper bin keeps >20-year managers from silently vanishing
+            # while the pie still claims to add up to 100%.
+            bin_labels = ["0-5 years", "6-10 years", "11-15 years", "16-20 years", "20+ years"]
             years_bins = pd.cut(
                 df["years_active"],
-                bins=[0, 5, 10, 15, 20],
-                labels=["<5 years", "5-10 years", "10-15 years", "15+ years"],
+                bins=[0, 5, 10, 15, 20, float("inf")],
+                labels=bin_labels,
+                include_lowest=True,
             )
-            years_counts = years_bins.value_counts()
+            years_counts = years_bins.value_counts().reindex(bin_labels).fillna(0).astype(int)
+            years_counts = years_counts[years_counts > 0]
             ax2.pie(years_counts.values, labels=years_counts.index, autopct="%1.1f%%")
-            ax2.set_title("Manager Experience Distribution")
+            ax2.set_title(f"Manager Experience Distribution\n({int(years_counts.sum())} managers)")
 
+            # Dataroma serves at most ~1000 activity rows per manager, so
+            # total_actions saturates at 1000 for the most active managers.
+            # Those points are a floor, not a count - mark them as such.
+            history_cap = 1000
+            capped = top_managers["total_actions"] >= history_cap
             ax3.scatter(
-                top_managers["total_actions"],
-                top_managers["consistency_score"],
+                top_managers.loc[~capped, "total_actions"],
+                top_managers.loc[~capped, "consistency_score"],
                 s=100,
                 alpha=0.6,
-                c=top_managers["years_active"],
+                c=top_managers.loc[~capped, "years_active"],
                 cmap="viridis",
+                label="Full history",
             )
+            if capped.any():
+                ax3.scatter(
+                    top_managers.loc[capped, "total_actions"],
+                    top_managers.loc[capped, "consistency_score"],
+                    s=120,
+                    alpha=0.8,
+                    marker=">",
+                    c=top_managers.loc[capped, "years_active"],
+                    cmap="viridis",
+                    edgecolors="red",
+                    linewidth=1.2,
+                    label=f"\u2265{history_cap} (history truncated)",
+                )
+                ax3.axvline(x=history_cap, color="red", linestyle="--", alpha=0.5, linewidth=1.5)
+                ax3.legend(loc="lower left", fontsize=8, frameon=True)
             for idx, row in top_managers.iterrows():
-                manager_name = row[manager_col][:10] if len(str(row[manager_col])) > 10 else str(row[manager_col])
-                ax3.annotate(manager_name, (row["total_actions"], row["consistency_score"]), fontsize=8, alpha=0.7)
-            ax3.set_xlabel("Total Actions")
+                ax3.annotate(
+                    self._short_name(row[manager_col]),
+                    (row["total_actions"], row["consistency_score"]),
+                    xytext=(4, 4),
+                    textcoords="offset points",
+                    fontsize=8,
+                    alpha=0.7,
+                )
+            ax3.set_xlabel(f"Recorded Actions (scrape-capped at {history_cap})")
             ax3.set_ylabel("Consistency Score")
-            ax3.set_title("Activity vs Consistency")
+            ax3.set_title("Recorded Activity vs Consistency")
 
             if "current_portfolio_value" in df.columns:
                 top_by_value = df.nlargest(10, "current_portfolio_value")
                 values_billions = top_by_value["current_portfolio_value"] / 1e9
                 _ = ax4.bar(range(len(top_by_value)), values_billions, color="green", alpha=0.7)
                 ax4.set_xticks(range(len(top_by_value)))
-                ax4.set_xticklabels(top_by_value[manager_col].str[:10], rotation=45, ha="right")
+                ax4.set_xticklabels(
+                    [self._short_name(n, 14) for n in top_by_value[manager_col]],
+                    rotation=45,
+                    ha="right",
+                    fontsize=8,
+                )
                 ax4.set_ylabel("Portfolio Value ($B)", fontsize=11, fontweight="bold")
                 ax4.set_title("Largest Portfolios", fontsize=12, fontweight="bold")
                 ax4.grid(True, alpha=0.3)
@@ -226,17 +260,40 @@ class AdvancedVisualizer:
                     )
                     active_count.append(count)
 
-                ax5.plot(years_range, active_count, marker="o", linewidth=2, markersize=6)
+                years_list = list(years_range)
+                # The final year is still in progress: its filing count is not
+                # comparable to the completed years, so it is drawn detached
+                # rather than as a genuine decline.
+                ax5.plot(years_list[:-1], active_count[:-1], marker="o", linewidth=2, markersize=6)
+                if len(years_list) > 1:
+                    ax5.plot(
+                        years_list[-2:],
+                        active_count[-2:],
+                        linestyle=":",
+                        linewidth=2,
+                        color="gray",
+                    )
+                    ax5.plot(
+                        years_list[-1:],
+                        active_count[-1:],
+                        marker="o",
+                        markersize=7,
+                        markerfacecolor="white",
+                        markeredgecolor="gray",
+                        linestyle="none",
+                        label=f"{years_list[-1]} (partial year)",
+                    )
+                    ax5.legend(loc="lower left", fontsize=9)
                 ax5.set_xlabel("Year")
                 ax5.set_ylabel("Number of Active Managers")
-                ax5.set_title("Manager Activity Timeline")
+                ax5.set_title("Manager Activity Timeline (final year incomplete)")
                 ax5.grid(True, alpha=0.3)
 
                 ax5.xaxis.set_major_locator(MaxNLocator(integer=True, nbins=8))
                 ax5.xaxis.set_major_formatter(FuncFormatter(lambda x, p: f"{int(x)}"))
 
             analysis_period = self._extract_analysis_period({"manager_track_records": df})
-            plt.suptitle(f"Manager Performance Analysis ({analysis_period})", fontsize=18, fontweight="bold")
+            plt.suptitle(f"Manager Track Record Analysis ({analysis_period})", fontsize=18, fontweight="bold")
 
             output_path = self.output_dir / "manager_performance_advanced.png"
             plt.savefig(output_path, dpi=300, bbox_inches="tight")
@@ -254,14 +311,17 @@ class AdvancedVisualizer:
             fig, axes = plt.subplots(2, 2, figsize=(14, 10))
             axes = axes.flatten()
 
+            n_managers = len(df)
+            subset_note = f"top {n_managers} managers by crisis buy-activity score"
+
             if "crisis_alpha_score" in df.columns:
                 top_crisis = df.nlargest(15, "crisis_alpha_score")
                 manager_name_col = "manager_name" if "manager_name" in top_crisis.columns else "manager"
                 _ = axes[0].barh(
                     top_crisis[manager_name_col], top_crisis["crisis_alpha_score"], color="darkred", alpha=0.7
                 )
-                axes[0].set_xlabel("Crisis Alpha Score", fontweight="bold")
-                axes[0].set_title("Top Crisis Alpha Generators", fontsize=12, fontweight="bold")
+                axes[0].set_xlabel("Crisis Buy-Activity Score (buy ratio \u00d7 10 \u00d7 crisis periods)", fontweight="bold")
+                axes[0].set_title("Top 15 by Crisis Buy-Activity Score", fontsize=12, fontweight="bold")
                 axes[0].invert_yaxis()
                 axes[0].grid(True, alpha=0.3)
 
@@ -290,19 +350,23 @@ class AdvancedVisualizer:
                     linewidth=0.5,
                 )
                 axes[1].set_xlabel("Total Crisis Activities", fontweight="bold")
-                axes[1].set_ylabel("Crisis Alpha Score", fontweight="bold")
-                axes[1].set_title("Activity vs Performance in Crises", fontsize=12, fontweight="bold")
+                axes[1].set_ylabel("Crisis Buy-Activity Score", fontweight="bold")
+                axes[1].set_title(f"Crisis Activity vs Buy-Activity Score\n({subset_note})", fontsize=12, fontweight="bold")
                 axes[1].grid(True, alpha=0.3)
 
                 top_performers = df.nlargest(5, "crisis_alpha_score")
                 for i, (idx, row) in enumerate(top_performers.iterrows()):
                     manager_name_col = "manager_name" if "manager_name" in row else "manager"
-                    # Alternate offset positions to reduce overlap
-                    offset = (5, 5) if i % 2 == 0 else (-5, -5)
-                    ha = "left" if i % 2 == 0 else "right"
+                    # Point the label inward: labels on points near the right
+                    # edge run off the axes, and near the left edge they
+                    # overprinted the y-axis label.
+                    x_mid = df["total_crisis_activities"].max() / 2
+                    to_left = row["total_crisis_activities"] > x_mid
+                    offset = (-6, 6) if to_left else (6, 6)
+                    ha = "right" if to_left else "left"
 
                     axes[1].annotate(
-                        row[manager_name_col][:15],
+                        self._short_name(row[manager_name_col], 15),
                         (row["total_crisis_activities"], row["crisis_alpha_score"]),
                         xytext=offset,
                         textcoords="offset points",
@@ -316,24 +380,37 @@ class AdvancedVisualizer:
                 # BOTTOM of the chart (higher should read as up).
 
             if all(col in df.columns for col in ["buy_during_crisis", "total_crisis_activities"]):
-                df["buy_ratio"] = df["buy_during_crisis"] / df["total_crisis_activities"]
-                axes[2].hist(df["buy_ratio"], bins=20, color="green", alpha=0.7)
-                axes[2].set_xlabel("Crisis Buy Ratio")
+                # Local series - never mutate the caller's results frame.
+                buy_ratio = df["buy_during_crisis"] / df["total_crisis_activities"]
+                axes[2].hist(buy_ratio, bins=20, color="green", alpha=0.7)
+                axes[2].set_xlabel("Crisis Buy Ratio (buys / crisis actions)")
                 axes[2].set_ylabel("Number of Managers")
-                axes[2].set_title("Buying Behavior During Crises")
-                axes[2].axvline(x=df["buy_ratio"].mean(), color="red", linestyle="--", label="Average")
+                axes[2].set_title(f"Buying Behavior During Crises\n({subset_note})", fontsize=12, fontweight="bold")
+                axes[2].axvline(
+                    x=buy_ratio.mean(),
+                    color="red",
+                    linestyle="--",
+                    label=f"Subset mean: {buy_ratio.mean():.2f}",
+                )
                 axes[2].legend()
 
             if "crisis_periods_active" in df.columns:
                 period_counts = df["crisis_periods_active"].value_counts().sort_index()
-                axes[3].bar(period_counts.index, period_counts.values, color=["red", "orange", "green"])
+                # Single colour: a red/orange/green list is positional, so it
+                # implies a ranking that is really just index order.
+                axes[3].bar(period_counts.index, period_counts.values, color="darkred", alpha=0.7)
                 axes[3].set_xlabel("Number of Crisis Periods Active")
                 axes[3].set_ylabel("Number of Managers")
-                axes[3].set_title("Crisis Participation Frequency")
+                axes[3].set_title(f"Crisis Participation Frequency\n({subset_note})", fontsize=12, fontweight="bold")
                 axes[3].set_xticks(period_counts.index)
+                axes[3].grid(True, alpha=0.3, axis="y")
 
-            analysis_period = self._extract_analysis_period({"crisis_alpha_generators": df})
-            plt.suptitle(f"Crisis Alpha Generation Analysis ({analysis_period})", fontsize=16, fontweight="bold")
+            plt.suptitle(
+                "Crisis-Period Buying Behavior\n"
+                f"Score = crisis buy ratio \u00d7 10 \u00d7 crisis periods active - not a return measure ({n_managers} managers)",
+                fontsize=16,
+                fontweight="bold",
+            )
             plt.tight_layout()
 
             output_path = self.output_dir / "crisis_alpha_advanced.png"
@@ -352,18 +429,25 @@ class AdvancedVisualizer:
             fig, axes = plt.subplots(2, 2, figsize=(14, 10))
             axes = axes.flatten()
 
+            n_managers = len(df)
+
             if all(col in df.columns for col in ["sizing_efficiency_score", "avg_position_size"]):
+                # sizing_efficiency_score is a coarse bucketed score, so points
+                # stack on a handful of rows: smaller, more transparent markers
+                # keep the overplotted rows readable.
                 scatter = axes[0].scatter(
                     df["avg_position_size"],
                     df["sizing_efficiency_score"],
-                    s=100,
-                    alpha=0.6,
+                    s=60,
+                    alpha=0.5,
                     c=df["position_concentration"],
                     cmap="plasma",
+                    edgecolors="black",
+                    linewidth=0.4,
                 )
                 axes[0].set_xlabel("Average Position Size (%)")
-                axes[0].set_ylabel("Sizing Efficiency Score")
-                axes[0].set_title("Position Sizing Efficiency")
+                axes[0].set_ylabel("Sizing Efficiency Score (bucketed)")
+                axes[0].set_title(f"Position Sizing Efficiency (top {n_managers} by sizing efficiency score)")
                 cbar = axes[0].figure.colorbar(scatter, ax=axes[0])
                 cbar.set_label("Position Concentration")
 
@@ -374,9 +458,13 @@ class AdvancedVisualizer:
                 )
                 axes[1].set_xticks(range(len(top_concentrated)))
                 manager_name_col = "manager_name" if "manager_name" in top_concentrated.columns else "manager"
-                axes[1].set_xticklabels(top_concentrated[manager_name_col].str[:10], rotation=45, ha="right")
+                axes[1].set_xticklabels(
+                    [self._short_name(n, 16) for n in top_concentrated[manager_name_col]], rotation=45, ha="right"
+                )
                 axes[1].set_ylabel("Position Concentration (%)", fontweight="bold")
-                axes[1].set_title("Most Concentrated Portfolios", fontsize=12, fontweight="bold")
+                axes[1].set_title(
+                    f"Most Concentrated Portfolios (of top {n_managers} by sizing efficiency)", fontsize=12, fontweight="bold"
+                )
                 axes[1].grid(True, alpha=0.3, axis="y")
 
             if all(col in df.columns for col in ["small_positions_pct", "medium_positions_pct", "large_positions_pct"]):
@@ -384,41 +472,59 @@ class AdvancedVisualizer:
                 top_10_managers = df.nlargest(10, "sizing_efficiency_score")
 
                 x = range(len(top_10_managers))
-                axes[2].bar(x, top_10_managers["small_positions_pct"], label="Small Positions", color="lightcoral")
-                axes[2].bar(
+                bars_small = axes[2].bar(
+                    x, top_10_managers["small_positions_pct"], label="Small (<2%)", color="lightcoral"
+                )
+                bars_medium = axes[2].bar(
                     x,
                     top_10_managers["medium_positions_pct"],
                     bottom=top_10_managers["small_positions_pct"],
-                    label="Medium Positions",
+                    label="Medium (2-5%)",
                     color="gold",
                 )
-                axes[2].bar(
+                bars_large = axes[2].bar(
                     x,
                     top_10_managers["large_positions_pct"],
                     bottom=top_10_managers["small_positions_pct"] + top_10_managers["medium_positions_pct"],
-                    label="Large Positions",
+                    label="Large (>5%)",
                     color="green",
                 )
 
                 axes[2].set_xticks(x)
-                axes[2].set_xticklabels(top_10_managers[manager_name_col].str[:10], rotation=45, ha="right")
+                axes[2].set_xticklabels(
+                    [self._short_name(n, 16) for n in top_10_managers[manager_name_col]], rotation=45, ha="right"
+                )
                 axes[2].set_ylabel("Position Percentage (%)", fontweight="bold")
-                axes[2].set_title("Position Size Distribution (Top 10 Managers)", fontsize=12, fontweight="bold")
+                axes[2].set_title(
+                    "Position Size Distribution\n(Top 10, ordered by sizing efficiency score)",
+                    fontsize=12,
+                    fontweight="bold",
+                )
                 axes[2].grid(True, alpha=0.3, axis="y")
 
+                # Legend built from the actual bar handles and drawn inside the
+                # panel: a positional label list silently mislabels if the bar
+                # order ever changes, and bbox_to_anchor put it in the gutter.
+                axes[2].set_ylim(0, 120)
                 axes[2].legend(
-                    ["Small (<2%)", "Medium (2-5%)", "Large (>5%)"],
-                    bbox_to_anchor=(1.05, 1),
-                    loc="upper left",
-                    fontsize=9,
+                    handles=[bars_small, bars_medium, bars_large],
+                    loc="upper center",
+                    ncol=3,
+                    fontsize=8,
+                    frameon=True,
+                    framealpha=0.95,
                 )
 
             if "sizing_style" in df.columns:
                 style_counts = df["sizing_style"].value_counts()
                 axes[3].pie(style_counts.values, labels=style_counts.index, autopct="%1.1f%%", startangle=90)
-                axes[3].set_title("Distribution of Sizing Styles")
+                axes[3].set_title(f"Distribution of Sizing Styles\n(top {n_managers} by sizing efficiency score)")
 
-            plt.suptitle("Position Sizing Mastery Analysis", fontsize=16, fontweight="bold")
+            plt.suptitle(
+                f"Position Sizing Analysis (top {n_managers} managers by sizing efficiency score)",
+                fontsize=16,
+                fontweight="bold",
+            )
             plt.tight_layout()
 
             output_path = self.output_dir / "position_sizing_advanced.png"
@@ -437,10 +543,12 @@ class AdvancedVisualizer:
             fig, axes = plt.subplots(2, 2, figsize=(14, 10))
             axes = axes.flatten()
 
+            n_managers = len(df)
+
             if "evolution_type" in df.columns:
                 evolution_counts = df["evolution_type"].value_counts()
                 axes[0].pie(evolution_counts.values, labels=evolution_counts.index, autopct="%1.1f%%", startangle=90)
-                axes[0].set_title("Manager Evolution Types")
+                axes[0].set_title(f"Manager Evolution Types\n(top {n_managers} by evolution score)")
 
             if "evolution_score" in df.columns:
                 top_evolving = df.nlargest(15, "evolution_score")
@@ -449,7 +557,7 @@ class AdvancedVisualizer:
                     top_evolving[manager_name_col], top_evolving["evolution_score"], color="teal", alpha=0.7
                 )
                 axes[1].set_xlabel("Evolution Score", fontweight="bold")
-                axes[1].set_title("Highest Evolution Scores", fontsize=12, fontweight="bold")
+                axes[1].set_title(f"Top {len(top_evolving)} Evolution Scores", fontsize=12, fontweight="bold")
                 axes[1].invert_yaxis()
                 axes[1].grid(True, alpha=0.3)
 
@@ -471,7 +579,7 @@ class AdvancedVisualizer:
                 axes[2].scatter(df["career_length_years"], df["style_change_score"], s=80, alpha=0.6, color="coral")
                 axes[2].set_xlabel("Career Length (Years)")
                 axes[2].set_ylabel("Style Change Score")
-                axes[2].set_title("Experience vs Style Evolution")
+                axes[2].set_title(f"Experience vs Style Evolution (top {n_managers} by evolution score)")
 
             # The analyzer emits early_buy_pct / late_buy_pct — the previous
             # gate checked *_ratio names that never exist, so this panel
@@ -491,19 +599,28 @@ class AdvancedVisualizer:
 
                 axes[3].set_xlabel("Early Career Buy Ratio (%)", fontweight="bold")
                 axes[3].set_ylabel("Late Career Buy Ratio (%)", fontweight="bold")
-                axes[3].set_title("Buy Behavior Evolution", fontsize=12, fontweight="bold")
+                axes[3].set_title(f"Buy Behavior Evolution (top {n_managers} by evolution score)", fontsize=12, fontweight="bold")
                 axes[3].grid(True, alpha=0.3)
                 axes[3].legend(loc="upper left", fontsize=10, frameon=True, fancybox=True)
 
-                df["buy_change"] = abs(df["late_buy_pct"] - df["early_buy_pct"])
-                top_changers = df.nlargest(3, "buy_change")
+                # Local series - never mutate the caller's results frame.
+                buy_change = (df["late_buy_pct"] - df["early_buy_pct"]).abs()
+                top_changers = df.loc[buy_change.nlargest(3).index]
                 for _, row in top_changers.iterrows():
                     manager_name_col = "manager_name" if "manager_name" in row else "manager"
+                    # Offset the text and flip it inward near the right edge so
+                    # points sitting on the axis maximum are not clipped.
+                    to_left = row["early_buy_pct"] > 75
                     axes[3].annotate(
-                        row[manager_name_col][:10], (row["early_buy_pct"], row["late_buy_pct"]), fontsize=8
+                        self._short_name(row[manager_name_col], 20),
+                        (row["early_buy_pct"], row["late_buy_pct"]),
+                        xytext=(-6, 6) if to_left else (6, 6),
+                        textcoords="offset points",
+                        ha="right" if to_left else "left",
+                        fontsize=8,
                     )
 
-            plt.suptitle("Manager Evolution Patterns", fontsize=16, fontweight="bold")
+            plt.suptitle(f"Manager Evolution Patterns (top {n_managers} managers by evolution score)", fontsize=16, fontweight="bold")
             plt.tight_layout()
 
             output_path = self.output_dir / "manager_evolution_advanced.png"
@@ -553,17 +670,26 @@ class AdvancedVisualizer:
                     )
                 axes[1].set_xlabel("Number of Managers")
                 axes[1].set_ylabel("Average Portfolio %")
-                axes[1].set_title("Consensus vs Concentration")
+                axes[1].set_title(f"Consensus vs Concentration (top {len(top_consensus)} by manager count)")
 
             axes[2].hist(df["manager_count"], bins=20, color="purple", alpha=0.7, edgecolor="black", linewidth=0.5)
             axes[2].set_xlabel("Number of Managers Holding", fontweight="bold")
             axes[2].set_ylabel("Number of Stocks", fontweight="bold")
-            axes[2].set_title("Distribution of Manager Consensus", fontsize=12, fontweight="bold")
+            axes[2].set_title(
+                f"Manager Consensus Distribution\n(top {len(df)} stocks by consensus score, not all stocks)",
+                fontsize=12,
+                fontweight="bold",
+            )
             axes[2].grid(True, alpha=0.3)
 
             mean_value = df["manager_count"].mean()
             axes[2].axvline(
-                x=mean_value, color="red", linestyle="--", linewidth=2.5, label=f"Mean: {mean_value:.1f}", alpha=0.8
+                x=mean_value,
+                color="red",
+                linestyle="--",
+                linewidth=2.5,
+                label=f"Mean of these {len(df)}: {mean_value:.1f}",
+                alpha=0.8,
             )
             axes[2].legend(loc="upper right", fontsize=10, frameon=True, fancybox=True)
 
@@ -572,24 +698,49 @@ class AdvancedVisualizer:
             # exists, so this panel rendered permanently blank.
             managers_col = next((c for c in ["managers", "top_managers"] if c in df.columns), None)
             if managers_col:
-                manager_appearances = {}
-                for managers_str in top_consensus[managers_col]:
-                    if pd.notna(managers_str):
-                        for mgr in str(managers_str).split(","):
-                            mgr = mgr.strip()
-                            if mgr and not mgr.startswith("+"):
-                                manager_appearances[mgr] = manager_appearances.get(mgr, 0) + 1
-
-                top_consensus_mgrs = sorted(manager_appearances.items(), key=lambda x: x[1], reverse=True)[:10]
-                axes[3].bar(
-                    [m[0][:15] for m in top_consensus_mgrs], [m[1] for m in top_consensus_mgrs], color="darkgreen"
+                # The CSV writer truncates these lists to 5 names + "+N more".
+                # Counting a truncated preview would silently under-report every
+                # manager, so refuse to plot rather than render a wrong ranking.
+                truncated = sum(
+                    1
+                    for v in top_consensus[managers_col]
+                    if pd.notna(v) and any(part.strip().startswith("+") for part in str(v).split(","))
                 )
-                axes[3].set_xlabel("Manager")
-                axes[3].set_ylabel("Consensus Picks Count")
-                axes[3].set_title("Managers Most Aligned with Consensus")
-                axes[3].tick_params(axis="x", rotation=45)
+                if truncated:
+                    axes[3].text(
+                        0.5,
+                        0.5,
+                        f"Manager lists are truncated previews for\n{truncated} of {len(top_consensus)} tickers"
+                        "\n(counts would be understated - panel omitted)",
+                        ha="center",
+                        va="center",
+                        fontsize=11,
+                        transform=axes[3].transAxes,
+                    )
+                    axes[3].set_axis_off()
+                else:
+                    manager_appearances = {}
+                    for managers_str in top_consensus[managers_col]:
+                        if pd.notna(managers_str):
+                            for mgr in str(managers_str).split(","):
+                                mgr = mgr.strip()
+                                if mgr:
+                                    manager_appearances[mgr] = manager_appearances.get(mgr, 0) + 1
 
-            plt.suptitle("Multi-Manager Consensus Analysis", fontsize=16, fontweight="bold")
+                    top_consensus_mgrs = sorted(manager_appearances.items(), key=lambda x: x[1], reverse=True)[:10]
+                    axes[3].bar(
+                        [self._short_name(m[0], 20) for m in top_consensus_mgrs],
+                        [m[1] for m in top_consensus_mgrs],
+                        color="darkgreen",
+                    )
+                    axes[3].set_xlabel("Manager")
+                    axes[3].set_ylabel(f"Appearances in Top {len(top_consensus)} Consensus Picks")
+                    axes[3].set_title(f"Managers Most Aligned with Top {len(top_consensus)} Consensus Picks")
+                    axes[3].tick_params(axis="x", rotation=45)
+                    for label in axes[3].get_xticklabels():
+                        label.set_ha("right")
+
+            plt.suptitle(f"Multi-Manager Consensus Analysis (top {len(df)} stocks by consensus score)", fontsize=16, fontweight="bold")
             plt.tight_layout()
 
             output_path = self.output_dir / "consensus_picks_advanced.png"
@@ -636,7 +787,7 @@ class AdvancedVisualizer:
                 )
                 axes[1].set_xlabel("Total Value ($B) - Log Scale", fontweight="bold")
                 axes[1].set_ylabel("Number of Managers", fontweight="bold")
-                axes[1].set_title("Value vs Manager Interest", fontsize=12, fontweight="bold")
+                axes[1].set_title(f"Value vs Manager Interest (all {len(df)} top holdings)", fontsize=12, fontweight="bold")
                 axes[1].set_xscale("log")
                 axes[1].grid(True, alpha=0.3)
 
@@ -648,20 +799,23 @@ class AdvancedVisualizer:
                 axes[2].scatter(df["avg_portfolio_pct"], df["max_portfolio_pct"], s=60, alpha=0.6, color="red")
                 axes[2].set_xlabel("Average Portfolio Percentage (%)")
                 axes[2].set_ylabel("Maximum Portfolio Percentage (%)")
-                axes[2].set_title("Position Concentration Patterns")
+                axes[2].set_title(f"Position Concentration Patterns (all {len(df)} top holdings)")
 
                 max_val = max(df["max_portfolio_pct"].max(), df["avg_portfolio_pct"].max())
                 axes[2].plot([0, max_val], [0, max_val], "k--", alpha=0.3, label="Equal avg/max")
                 axes[2].legend()
 
-            if "avg_portfolio_pct" in top_by_value.columns:
-                axes[3].bar(range(len(top_by_value)), top_by_value["avg_portfolio_pct"], color="darkgreen")
-                axes[3].set_xticks(range(len(top_by_value)))
-                axes[3].set_xticklabels(top_by_value["ticker"], rotation=45)
+            if "avg_portfolio_pct" in df.columns:
+                # Rank by the metric this panel plots; reusing the by-value
+                # ordering produced visibly non-monotonic bars.
+                top_by_weight = df.nlargest(15, "avg_portfolio_pct")
+                axes[3].bar(range(len(top_by_weight)), top_by_weight["avg_portfolio_pct"], color="darkgreen")
+                axes[3].set_xticks(range(len(top_by_weight)))
+                axes[3].set_xticklabels(top_by_weight["ticker"], rotation=45, ha="right")
                 axes[3].set_ylabel("Average Portfolio Allocation (%)")
-                axes[3].set_title("Average Portfolio Weight of Top Holdings")
+                axes[3].set_title("Top 15 Holdings by Average Portfolio Weight")
 
-            plt.suptitle("Top Holdings Analysis", fontsize=16, fontweight="bold")
+            plt.suptitle(f"Top Holdings Analysis (top {len(df)} tickers by manager count and value)", fontsize=16, fontweight="bold")
             plt.tight_layout()
 
             output_path = self.output_dir / "top_holdings_advanced.png"
@@ -693,8 +847,16 @@ class AdvancedVisualizer:
                 startangle=90,
                 textprops={"fontsize": 11, "fontweight": "bold"},
             )
+            # This frame is the analyzer's top-N slice ranked by |net_activity|
+            # over stocks with >=2 active managers, so "Mixed" (net == 0) sorts
+            # last and can never appear. Say so instead of implying a
+            # market-wide accumulate/distribute split.
             axes[0].set_title(
-                "Stock Activity Phases\n(Last 4 Quarters - Across All Managers)", fontsize=13, fontweight="bold"
+                f"Activity Phase Mix of the {len(df)} Most-Traded Stocks\n"
+                "(ranked by |net activity|, last 4 quarters, \u22652 managers;\n"
+                "net-zero 'Mixed' stocks cannot enter this ranking)",
+                fontsize=11,
+                fontweight="bold",
             )
 
             # Chart 2: Top 20 Stocks Being Accumulated
@@ -706,7 +868,7 @@ class AdvancedVisualizer:
                     company = row.get("company_name", "")
                     ticker = row["ticker"]
                     if company and str(company) != "nan":
-                        label = f"{ticker}\n({str(company)[:25]})"
+                        label = f"{ticker} ({self._short_name(company, 22)})"
                     else:
                         label = ticker
                     labels.append(label)
@@ -720,13 +882,17 @@ class AdvancedVisualizer:
                     linewidth=1,
                 )
                 axes[1].set_yticks(range(len(accumulating)))
-                axes[1].set_yticklabels(labels, fontsize=9)
+                axes[1].set_yticklabels(labels, fontsize=8)
                 axes[1].set_xlabel("Net Buying Actions (Last 4 Quarters)", fontweight="bold", fontsize=11)
                 axes[1].set_title(
-                    "Top 20 Stocks Being Accumulated\n(Across All Managers)", fontsize=12, fontweight="bold"
+                    f"Top {len(accumulating)} Stocks Being Accumulated\n(of the {len(df)} most-traded, last 4 quarters)",
+                    fontsize=12,
+                    fontweight="bold",
                 )
                 axes[1].invert_yaxis()
                 axes[1].grid(True, alpha=0.3, axis="x")
+                # Headroom so the value labels do not run into the panel edge.
+                axes[1].set_xlim(0, accumulating["net_activity"].max() * 1.25)
 
                 # Add value labels with manager count
                 for i, (_, row) in enumerate(accumulating.iterrows()):
@@ -756,7 +922,7 @@ class AdvancedVisualizer:
                     company = row.get("company_name", "")
                     ticker = row["ticker"]
                     if company and str(company) != "nan":
-                        label = f"{ticker}\n({str(company)[:25]})"
+                        label = f"{ticker} ({self._short_name(company, 22)})"
                     else:
                         label = ticker
                     labels.append(label)
@@ -770,20 +936,25 @@ class AdvancedVisualizer:
                     linewidth=1,
                 )
                 axes[2].set_yticks(range(len(distributing)))
-                axes[2].set_yticklabels(labels, fontsize=9)
+                axes[2].set_yticklabels(labels, fontsize=8)
                 axes[2].set_xlabel("Net Selling Actions (Last 4 Quarters)", fontweight="bold", fontsize=11)
                 axes[2].set_title(
-                    "Top 20 Stocks Being Distributed\n(Across All Managers)", fontsize=12, fontweight="bold"
+                    f"Top {len(distributing)} Stocks Being Distributed\n(of the {len(df)} most-traded, last 4 quarters)",
+                    fontsize=12,
+                    fontweight="bold",
                 )
                 axes[2].invert_yaxis()
                 axes[2].grid(True, alpha=0.3, axis="x")
+                axes[2].set_xlim(distributing["net_activity"].min() * 1.1, 0)
 
                 # Add value labels with manager count
                 for i, (_, row) in enumerate(distributing.iterrows()):
                     val = row["net_activity"]
                     mgrs = row.get("unique_managers", 0)
+                    # Anchor value labels at the zero end: at the bar tip they
+                    # overprinted the y tick labels on the same side.
                     axes[2].text(
-                        val - 0.5, i, f"{val} ({mgrs}M)", va="center", ha="right", fontsize=8, fontweight="bold"
+                        0.5, i, f"{val} ({mgrs}M)", va="center", ha="left", fontsize=8, fontweight="bold"
                     )
             else:
                 axes[2].text(
@@ -803,7 +974,7 @@ class AdvancedVisualizer:
             axes[3].scatter(
                 top_activity["buy_add_actions"],
                 top_activity["sell_reduce_actions"],
-                s=top_activity.get("unique_managers", 1) * 20,  # Size by manager count
+                s=top_activity.get("unique_managers", 1) * 6,  # Size by manager count
                 alpha=0.6,
                 c=scatter_colors,
                 edgecolors="black",
@@ -823,11 +994,9 @@ class AdvancedVisualizer:
             # Add legend for colors
             from matplotlib.patches import Patch
 
-            legend_elements = [
-                Patch(facecolor="#2ecc71", label="Accumulating"),
-                Patch(facecolor="#e74c3c", label="Distributing"),
-                Patch(facecolor="#f39c12", label="Mixed"),
-            ]
+            # Only list phases that are actually present in this panel.
+            present_phases = [p for p in ["Accumulating", "Distributing", "Mixed"] if p in set(top_activity["phase"])]
+            legend_elements = [Patch(facecolor=colors[p], label=p) for p in present_phases]
             axes[3].legend(handles=legend_elements, loc="upper left")
             axes[3].grid(True, alpha=0.3)
 
@@ -845,7 +1014,8 @@ class AdvancedVisualizer:
                     )
 
             plt.suptitle(
-                "Accumulation vs Distribution Analysis\nTop Stocks by Institutional Activity",
+                "Accumulation vs Distribution Analysis\n"
+                f"The {len(df)} stocks with the largest net 4-quarter activity (\u22652 managers) - not the full universe",
                 fontsize=16,
                 fontweight="bold",
             )

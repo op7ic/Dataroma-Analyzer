@@ -204,20 +204,10 @@ class ReadmeGenerator:
 
     def _generate_current_section(self, results: Dict[str, pd.DataFrame], viz_paths: List[str]) -> List[str]:
         """Generate current analysis section."""
-        # Get recent quarters dynamically if data loader is available
-        recent_quarters = []
-        if self.data_loader is not None:
-            # Use a simple approach to get recent quarters from history data
-            if hasattr(self.data_loader, "history_df") and self.data_loader.history_df is not None:
-                periods = self.data_loader.history_df["period"].dropna().unique()
-                # Extract and sort quarters
-                quarter_data = []
-                for period in periods:
-                    if "Q" in str(period):
-                        parts = str(period).split()
-                        if len(parts) == 2:
-                            quarter_data.append(period)
-                recent_quarters = sorted(quarter_data, reverse=True)[:3]
+        # Sorting quarter labels as plain strings put "Q4 2023" ahead of
+        # "Q2 2026", so this header disagreed with the Analysis Periods
+        # section. Use the chronological sort both sections now share.
+        recent_quarters = self._get_recent_quarters(3)
 
         quarter_range = (
             f"from {recent_quarters[-1]} to {recent_quarters[0]}" if len(recent_quarters) >= 3 else "recent quarters"
@@ -624,9 +614,7 @@ class ReadmeGenerator:
             "+ 5 if the manager has current holdings.",
             "- **Consistency**: Stability of activity across observed years",
             "- **Crisis Buying**: Share of buy-side actions during the 2008 / 2020 / 2022 crisis windows",
-            "- **Longevity**: Years of observed activity (NOTE: Dataroma caps public history at "
-            "~1,000 activities per manager, so very active managers' first observed year is later "
-            "than their real start)",
+            "- **Longevity**: Years of observed activity",
             "\n### Data Processing",
             "- **Quarters**: Parsed from Dataroma period labels; filing period taken from each page",
             "- **Price Data**: From Dataroma HTML at scrape time",
@@ -761,16 +749,13 @@ class ReadmeGenerator:
         content = ["\n### 52-Week Analysis Edge Cases"]
 
         content.append(
-            "\nThe 52-week high/low analyses use specific filter criteria that may initially "
-            "seem counterintuitive:"
+            "\nThe 52-week high/low analyses use these filter criteria:"
         )
 
         # 52-week low buys explanation
         content.append("\n#### 52-Week Low Buys (`52_week_low_buys.csv`)")
         content.append(
-            "\nThis report shows stocks being **bought near their 52-week lows**. "
-            "The `near_52w_low=True` filter is **intentional** - these are the exact "
-            "stocks we want to highlight as potential value opportunities."
+            "\nStocks bought while trading near their 52-week low (`near_52w_low=True`)."
         )
 
         if "52_week_low_buys" in results and not results["52_week_low_buys"].empty:
@@ -790,9 +775,7 @@ class ReadmeGenerator:
         # 52-week high sells explanation
         content.append("\n#### 52-Week High Sells (`52_week_high_sells.csv`)")
         content.append(
-            "\nThis report shows stocks being **sold near their 52-week highs**. "
-            "The `near_52w_high=True` filter is **intentional** - these represent "
-            "profit-taking opportunities where managers are locking in gains."
+            "\nStocks sold while trading near their 52-week high (`near_52w_high=True`)."
         )
 
         if "52_week_high_sells" in results and not results["52_week_high_sells"].empty:
@@ -892,8 +875,8 @@ class ReadmeGenerator:
         content = ["\n### Cross-File Context"]
 
         content.append(
-            "\nSome stocks appear in multiple analysis files with seemingly contradictory signals. "
-            "This is normal and reflects the diverse strategies of different managers."
+            "\nSome stocks appear in multiple analysis files with opposite signals, because "
+            "different managers traded them in opposite directions."
         )
 
         # Find overlaps between contrarian_opportunities and momentum_stocks
@@ -1013,18 +996,15 @@ class ReadmeGenerator:
         else:
             content.append("\n**Analysis Window**: Last 3 quarters")
 
-        content.append(
-            "\nAll current analysis reports are based on manager filings within this window. "
-            "Key points to understand:"
-        )
+        content.append("\nAll current analysis reports use manager filings from this window.")
 
         content.extend(
             [
                 "\n1. **Filing Lag**: SEC 13F filings are reported quarterly with a 45-day delay. "
                 "Positions may have changed since filing.",
                 "\n2. **Historical Reference Columns**: Some reports include columns like `last_buy_period`, "
-                "`first_established`, or `last_activity`. These may show dates outside the 3-quarter "
-                "window - this is intentional to provide historical context.",
+                "`first_established`, or `last_activity`. These carry dates from outside the "
+                "3-quarter window.",
                 "\n3. **Price Data**: Current prices are from the most recent scrape and may differ "
                 "from the prices at which positions were established.",
                 "\n4. **Manager Activity**: A single manager may have multiple entries for the same stock "

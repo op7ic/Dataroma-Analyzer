@@ -166,6 +166,12 @@ class GemsAnalyzer(MultiAnalyzer):
             company_names = holdings.groupby("ticker")["stock"].first()
             hidden_gems = hidden_gems.join(company_names.to_frame("company_name"), on="ticker")
 
+        # Carry the scraped price through: the README hidden-gems table reads
+        # current_price and printed $0.00 for every row while it was missing.
+        if "current_price" in holdings.columns:
+            prices = holdings.groupby("ticker")["current_price"].first()
+            hidden_gems = hidden_gems.join(prices.to_frame("current_price"), on="ticker")
+
         # Calculate recent activity score
         hidden_gems["recent_activity_score"] = 0.0
         if (

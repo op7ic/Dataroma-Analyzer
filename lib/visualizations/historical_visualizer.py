@@ -40,6 +40,59 @@ class HistoricalVisualizer:
 
         self.crisis_colors = {"2008_financial": "#FF6B6B", "2020_covid": "#4ECDC4", "2022_inflation": "#FFE66D"}
 
+    @staticmethod
+    def _trim_partial_tail(values: pd.Series, ref_window: int = 4, threshold: float = 0.5) -> int:
+        """
+        Count trailing entries that are clearly a partial period.
+
+        13F filings for the most recent quarter (or the current calendar year)
+        are still being filed when the cache is scraped, so the last bucket of a
+        chronological series is a partial count and must not be plotted next to
+        complete periods. Returns how many trailing entries to drop: an entry
+        qualifies only when it falls below ``threshold`` of the median of the
+        ``ref_window`` complete entries before it. Nothing is extrapolated - the
+        partial period is simply excluded.
+        """
+        n_drop = 0
+        vals = list(values)
+        while len(vals) - n_drop > ref_window + 1:
+            idx = len(vals) - n_drop - 1
+            ref = np.median(vals[idx - ref_window : idx])
+            if ref > 0 and vals[idx] < threshold * ref:
+                n_drop += 1
+            else:
+                break
+        return n_drop
+
+    @staticmethod
+    def _shorten(text: str, limit: int) -> str:
+        """Truncate on a word boundary and mark the truncation with an ellipsis."""
+        text = str(text).strip()
+        if len(text) <= limit:
+            return text
+        cut = text[: limit - 1]
+        if " " in cut:
+            cut = cut[: cut.rfind(" ")]
+        return cut.rstrip(",; ") + "\u2026"
+
+    @staticmethod
+    def _shorten_list(text: str, limit: int) -> str:
+        """Truncate a ", "-separated list of tickers without cutting a ticker in half."""
+        text = str(text).strip()
+        if len(text) <= limit:
+            return text
+        kept = []
+        used = 0
+        for token in text.split(", "):
+            extra = len(token) + (2 if kept else 0)
+            if used + extra > limit - 1:
+                break
+            kept.append(token)
+            used += extra
+        if not kept:
+            return text[: limit - 1] + "\u2026"
+        return ", ".join(kept) + "\u2026"
+
     def create_all_visualizations(self, data: Dict[str, pd.DataFrame]) -> Dict[str, str]:
         """Create all historical visualizations."""
         viz_paths = {}
@@ -75,6 +128,22 @@ class HistoricalVisualizer:
         # from an unsorted source those lookups land on wrong quarters.
         df = df.sort_values(["year", "quarter"]).reset_index(drop=True)
 
+        # The most recent quarter is still being filed when the cache is
+        # scraped, so its counts are a partial tally. Plotted next to complete
+        # quarters it renders as a 90%+ collapse in activity that never
+        # happened; drop it instead of extrapolating it.
+        n_partial = self._trim_partial_tail(df["total_actions"])
+        partial_periods = list(df["period"].iloc[len(df) - n_partial :]) if n_partial else []
+        if n_partial:
+            df = df.iloc[: len(df) - n_partial].reset_index(drop=True)
+
+        # Dataroma exposes at most ~1,000 activity rows per manager, so the
+        # earliest quarters retain only a handful of managers. Mark that prefix
+        # rather than letting its flat line read as low market activity.
+        peak_managers = df["unique_managers"].max()
+        covered = df.index[df["unique_managers"] >= 0.5 * peak_managers]
+        coverage_cut = int(covered[0]) if len(covered) else 0
+
         crisis_periods = {
             "2008 Financial Crisis": ["Q3 2008", "Q4 2008", "Q1 2009", "Q2 2009"],
             "COVID-19 Pandemic": ["Q1 2020", "Q2 2020"],
@@ -84,6 +153,21 @@ class HistoricalVisualizer:
         ax1 = axes[0]
         ax1.fill_between(range(len(df)), df["total_actions"], alpha=0.3, label="Total Actions", color="steelblue")
         ax1.plot(range(len(df)), df["total_actions"], linewidth=2, color="darkblue")
+
+        # Per-active-manager rate is comparable across the whole window; the raw
+        # total is not, because manager coverage grows with the scrape cap.
+        ax1_rate = ax1.twinx()
+        ax1_rate.plot(
+            range(len(df)),
+            df["total_actions"] / df["unique_managers"].replace(0, np.nan),
+            linewidth=1.5,
+            linestyle="--",
+            color="darkorange",
+            label="Actions per Active Manager",
+        )
+        ax1_rate.set_ylabel("Actions per Active Manager", fontweight="bold", color="darkorange")
+        ax1_rate.tick_params(axis="y", labelcolor="darkorange")
+        ax1_rate.grid(False)
 
         crisis_colors = ["#FF6B6B", "#4ECDC4", "#FFE66D"]
         for (crisis, periods), color in zip(crisis_periods.items(), crisis_colors):
@@ -114,6 +198,12 @@ class HistoricalVisualizer:
         ax1.set_ylabel("Total Actions", fontweight="bold")
         ax1.grid(True, alpha=0.3)
 
+        handles, labels = ax1.get_legend_handles_labels()
+        rate_handles, rate_labels = ax1_rate.get_legend_handles_labels()
+        ax1.legend(
+            handles + rate_handles, labels + rate_labels, loc="upper left", bbox_to_anchor=(0.0, 0.86), fontsize=9
+        )
+
         ax2 = axes[1]
         buy_data = df["buy_actions"] + df["add_actions"]
         sell_data = df["sell_actions"] + df["reduce_actions"]
@@ -121,8 +211,8 @@ class HistoricalVisualizer:
         width = 0.8
         x_positions = np.arange(len(df))
 
-        ax2.bar(x_positions, buy_data, width=width, label="Buy/Add", color="green", alpha=0.7)
-        ax2.bar(x_positions, -sell_data, width=width, label="Sell/Reduce", color="red", alpha=0.7)
+        ax2.bar(x_positions, buy_data, width=width, label="Buy + Add", color="green", alpha=0.7)
+        ax2.bar(x_positions, -sell_data, width=width, label="Sell + Reduce", color="red", alpha=0.7)
         ax2.axhline(y=0, color="black", linestyle="-", linewidth=0.8)
 
         ax2.set_title("Buy vs Sell Activity by Quarter", fontsize=14, fontweight="bold")
@@ -146,13 +236,43 @@ class HistoricalVisualizer:
         ax3.legend(loc="best")
         ax3.grid(True, alpha=0.3)
 
+        if partial_periods:
+            ax3.set_xlabel(
+                f"Quarter (partial quarter{'s' if len(partial_periods) > 1 else ''} "
+                f"{', '.join(partial_periods)} excluded - filings incomplete)",
+                fontweight="bold",
+            )
+
         for ax in axes:
+            if coverage_cut > 0:
+                ax.axvspan(
+                    -0.5,
+                    coverage_cut - 0.5,
+                    color="grey",
+                    alpha=0.10,
+                    zorder=0,
+                    label="Partial manager coverage (~1,000-row history cap)",
+                )
             tick_spacing = 8
             ax.set_xticks(range(0, len(df), tick_spacing))
             ax.set_xticklabels(df["period"].iloc[::tick_spacing], rotation=45, ha="right", fontsize=9)
 
             ax.set_xticks(range(0, len(df), 4), minor=True)
             ax.tick_params(axis="x", which="minor", length=2)
+
+        if coverage_cut > 0:
+            ax2.legend(loc="upper left", bbox_to_anchor=(1.02, 1))
+            ax3.legend(loc="best")
+            ax1.text(
+                coverage_cut / 2,
+                ax1.get_ylim()[1] * 0.55,
+                "partial manager\ncoverage",
+                ha="center",
+                va="center",
+                fontsize=9,
+                color="dimgrey",
+                fontweight="bold",
+            )
 
         plt.suptitle("Quarterly Investment Activity Timeline Analysis", fontsize=16, fontweight="bold")
         plt.tight_layout()
@@ -268,18 +388,24 @@ class HistoricalVisualizer:
         action_types = ["buy_actions", "add_actions", "reduce_actions", "sell_actions"]
         crisis_names = df["crisis"].values
 
+        # The crisis windows span different numbers of quarters (4 / 2 / 3), so
+        # raw totals compare window length as much as behaviour. Normalise.
+        quarters = df["period"].fillna("").apply(lambda p: max(1, len([q for q in str(p).split(",") if q.strip()])))
+
         x = np.arange(len(crisis_names))
         width = 0.2
 
         colors = ["darkgreen", "lightgreen", "orange", "red"]
         for i, action in enumerate(action_types):
-            ax1.bar(x + i * width, df[action], width, label=action.replace("_", " ").title(), color=colors[i])
+            ax1.bar(x + i * width, df[action] / quarters, width, label=action.replace("_", " ").title(), color=colors[i])
 
         ax1.set_xlabel("Crisis Period", fontweight="bold")
-        ax1.set_ylabel("Number of Actions", fontweight="bold")
+        ax1.set_ylabel("Actions per Quarter", fontweight="bold")
         ax1.set_title("Investment Actions During Crisis Periods", fontsize=14, fontweight="bold")
         ax1.set_xticks(x + width * 1.5)
-        ax1.set_xticklabels([c.replace("_", " ").title() for c in crisis_names], rotation=15)
+        ax1.set_xticklabels(
+            [f"{c.replace('_', ' ').title()}\n({q}Q)" for c, q in zip(crisis_names, quarters)], rotation=15
+        )
         ax1.legend(loc="upper left", bbox_to_anchor=(1.02, 1), labels=["Buy", "Add", "Reduce", "Sell"])
         ax1.grid(True, alpha=0.3, axis="y")
 
@@ -300,15 +426,35 @@ class HistoricalVisualizer:
         ax2.grid(True, alpha=0.3, axis="y")
 
         ax3 = axes[1, 0]
-        _ = ax3.bar(range(len(df)), df["unique_managers"], color="purple", alpha=0.7)
-        ax3.set_ylabel("Number of Active Managers", fontweight="bold")
-        ax3.set_title("Manager Participation During Crises", fontsize=14, fontweight="bold")
+        # This counts managers whose RETAINED history reaches the window, not
+        # managers who chose to sit a crisis out: Dataroma exposes at most
+        # ~1,000 activity rows per manager, so older windows survive for only a
+        # few managers. Labelled precisely, and windows below half of peak
+        # coverage are hatched.
+        peak_managers = df["unique_managers"].max()
+        bars = ax3.bar(range(len(df)), df["unique_managers"], color="purple", alpha=0.7)
+        for bar, count in zip(bars, df["unique_managers"]):
+            if peak_managers and count < 0.5 * peak_managers:
+                bar.set_hatch("//")
+                bar.set_edgecolor("black")
+        ax3.set_ylabel("Managers with Retained History in Window", fontweight="bold")
+        ax3.set_title("Manager History Coverage per Crisis Window", fontsize=14, fontweight="bold")
         ax3.set_xticks(range(len(df)))
         ax3.set_xticklabels([c.replace("_", " ").title() for c in df["crisis"]], rotation=15)
         ax3.grid(True, alpha=0.3, axis="y")
 
         for i, (crisis, count) in enumerate(zip(df["crisis"], df["unique_managers"])):
             ax3.text(i, count + 1, f"{count}", ha="center", va="bottom", fontweight="bold")
+
+        ax3.text(
+            0.02,
+            0.97,
+            "Hatched = window predates most managers' retained history\n(Dataroma caps activity at ~1,000 rows per manager)",
+            transform=ax3.transAxes,
+            va="top",
+            fontsize=8,
+            bbox=dict(boxstyle="round,pad=0.3", facecolor="white", alpha=0.85),
+        )
 
         ax4 = axes[1, 1]
         ax4.axis("off")
@@ -319,10 +465,8 @@ class HistoricalVisualizer:
             bought_stocks = crisis["most_bought"] if pd.notna(crisis["most_bought"]) else "N/A"
             sold_stocks = crisis["most_sold"] if pd.notna(crisis["most_sold"]) else "N/A"
 
-            if len(bought_stocks) > 30:
-                bought_stocks = bought_stocks[:27] + "..."
-            if len(sold_stocks) > 30:
-                sold_stocks = sold_stocks[:27] + "..."
+            bought_stocks = self._shorten_list(bought_stocks, 27)
+            sold_stocks = self._shorten_list(sold_stocks, 27)
 
             table_data.append([crisis_name, bought_stocks, sold_stocks])
 
@@ -331,6 +475,7 @@ class HistoricalVisualizer:
             colLabels=["Crisis Period", "Most Bought", "Most Sold"],
             cellLoc="left",
             loc="center",
+            colWidths=[0.22, 0.39, 0.39],
             bbox=[0, 0, 1, 1],
         )
         table.auto_set_font_size(False)
@@ -362,28 +507,41 @@ class HistoricalVisualizer:
         top_conviction = df.nlargest(20, "conviction_score")
 
         ax1 = axes[0, 0]
-        for i, (_, stock) in enumerate(top_conviction.head(10).iterrows()):
-            years = stock["years_held"]
-            _bar = ax1.barh(i, years, height=0.8, alpha=0.7, color="darkblue")  # noqa: F841
+        top10 = top_conviction.head(10)
+        max_score = top10["conviction_score"].max() if not top10.empty else 1
+        bar_labels: list = []
+        for i, (_, stock) in enumerate(top10.iterrows()):
+            # Bar length must be the ranking metric, otherwise a "Top 10" chart
+            # sorted by conviction_score renders as an unsorted years bar chart.
+            score = stock["conviction_score"]
+            _bar = ax1.barh(i, score, height=0.8, alpha=0.7, color="darkblue")  # noqa: F841
             label = f"{stock['ticker']}"
             if "company_name" in stock and pd.notna(stock["company_name"]):
-                label += f" ({stock['company_name'][:15]})"
-            ax1.text(years / 2, i, label, ha="center", va="center", fontsize=8, fontweight="bold")
+                label += f" ({self._shorten(stock['company_name'], 24)})"
+            bar_labels.append(label)
 
-            ax1.text(years + 0.2, i, f"{years:.1f}y", va="center", ha="left", fontsize=9, fontweight="bold")
+            ax1.text(
+                score + max_score * 0.01,
+                i,
+                f"{score:.1f}  ({stock['years_held']:.0f} active yrs)",
+                va="center",
+                ha="left",
+                fontsize=8,
+                fontweight="bold",
+            )
 
-        ax1.set_yticks(range(10))
-        ax1.set_yticklabels([""] * 10)
-        ax1.set_xlabel("Years Held", fontweight="bold")
+        ax1.set_yticks(range(len(top10)))
+        ax1.set_yticklabels(bar_labels, fontsize=8, fontweight="bold")
+        ax1.set_xlabel("Conviction Score", fontweight="bold")
         ax1.set_title("Top 10 Multi-Decade Conviction Plays", fontsize=14, fontweight="bold")
         ax1.grid(True, alpha=0.3, axis="x")
-        ax1.set_xlim(0, ax1.get_xlim()[1] * 1.1)  # Add padding for labels
+        ax1.set_xlim(0, ax1.get_xlim()[1] * 1.25)  # Add padding for labels
         # Rank #1 belongs at the TOP (consistent with every other ranked barh
         # in this codebase); without this, the list rendered upside down.
         ax1.invert_yaxis()
 
         ax2 = axes[0, 1]
-        _scatter = ax2.scatter(  # noqa: F841
+        scatter2 = ax2.scatter(
             top_conviction["years_held"],
             top_conviction["conviction_score"],
             s=top_conviction["total_managers"] * 20,
@@ -394,23 +552,63 @@ class HistoricalVisualizer:
             linewidth=0.5,
         )
 
+        # Greedy label placement: several tickers share the same years_held, so
+        # a fixed proportional offset stacks their boxes into one clump.
+        placed: list = []
+        candidates = [(8, 8), (8, -14), (-34, 8), (-34, -14), (8, 22), (8, -28), (-34, 22), (-34, -28)]
+        ax2.set_xlim(*ax2.get_xlim())
+        ax2.set_ylim(*ax2.get_ylim())
         for idx, stock in top_conviction.head(10).iterrows():
-            bubble_size = stock["total_managers"] * 20
-            offset = max(5, bubble_size / 40)  # Proportional to bubble size
+            px, py = ax2.transData.transform((stock["years_held"], stock["conviction_score"]))
+            bubble_r = (stock["total_managers"] * 20) ** 0.5 / 2
+            pad = max(0.0, bubble_r - 6)
+            scaled = [(dx + np.sign(dx) * pad, dy + np.sign(dy) * pad) for dx, dy in candidates]
+            chosen = next(
+                (
+                    (dx, dy)
+                    for dx, dy in scaled
+                    if not any(abs(px + dx - ox) < 40 and abs(py + dy - oy) < 12 for ox, oy in placed)
+                ),
+                scaled[0],
+            )
+            placed.append((px + chosen[0], py + chosen[1]))
             ax2.annotate(
                 stock["ticker"],
                 (stock["years_held"], stock["conviction_score"]),
-                xytext=(offset, offset),
+                xytext=chosen,
                 textcoords="offset points",
                 fontsize=8,
                 fontweight="bold",
                 bbox=dict(boxstyle="round,pad=0.2", facecolor="yellow", alpha=0.7),
             )
 
-        ax2.set_xlabel("Years Held")
+        ax2.set_xlabel("Distinct Years with Activity")
         ax2.set_ylabel("Conviction Score")
         ax2.set_title("Long-Term Accumulation Patterns", fontsize=14, fontweight="bold")
         ax2.grid(True, alpha=0.3)
+
+        cbar2 = plt.colorbar(scatter2, ax=ax2)
+        cbar2.set_label("Current Holders", fontweight="bold")
+
+        # Bubble area encodes total_managers; without a key the panel had two
+        # unreadable encodings.
+        mgr_values = top_conviction["total_managers"]
+        if not mgr_values.empty:
+            ticks = sorted({int(mgr_values.min()), int(mgr_values.median()), int(mgr_values.max())})
+            size_handles = [
+                plt.scatter([], [], s=t * 20, facecolor="grey", edgecolors="black", linewidth=0.5, alpha=0.6, label=str(t))
+                for t in ticks
+            ]
+            ax2.legend(
+                handles=size_handles,
+                title="Total Managers",
+                loc="upper left",
+                labelspacing=1.2,
+                borderpad=0.8,
+                fontsize=8,
+                title_fontsize=8,
+                framealpha=0.85,
+            )
 
         ax3 = axes[1, 0]
         holder_data = top_conviction[["ticker", "consistent_managers", "current_holders"]].head(15)
@@ -432,13 +630,25 @@ class HistoricalVisualizer:
         ax3.grid(True, alpha=0.3, axis="y")
 
         ax4 = axes[1, 1]
-        ax4.hist(df["conviction_score"], bins=30, alpha=0.7, color="purple", edgecolor="black")
+        # Conviction scores are heavily right-skewed (a handful of outliers an
+        # order of magnitude above the median), so linear bins collapsed almost
+        # every stock into two bars. Log-spaced bins keep the shape readable.
+        scores = df["conviction_score"].dropna()
+        positive = scores[scores > 0]
+        if len(positive) > 1 and positive.max() / positive.min() > 10:
+            bins = np.logspace(np.log10(positive.min()), np.log10(positive.max()), 25)
+            ax4.set_xscale("log")
+            x_label = "Conviction Score (log scale)"
+        else:
+            bins = np.histogram_bin_edges(scores, bins="auto")
+            x_label = "Conviction Score"
+        ax4.hist(scores, bins=bins, alpha=0.7, color="purple", edgecolor="black")
 
-        mean_val = df["conviction_score"].mean()
+        mean_val = scores.mean()
         ax4.axvline(mean_val, color="red", linestyle="--", linewidth=2)
 
         ax4.text(
-            mean_val + 0.05,
+            mean_val * 1.05 if ax4.get_xscale() == "log" else mean_val + 0.05,
             ax4.get_ylim()[1] * 0.9,
             f"Mean: {mean_val:.1f}",
             bbox=dict(boxstyle="round,pad=0.3", facecolor="white", alpha=0.8, edgecolor="red"),
@@ -446,9 +656,11 @@ class HistoricalVisualizer:
             fontsize=10,
         )
 
-        ax4.set_xlabel("Conviction Score", fontweight="bold")
+        ax4.set_xlabel(x_label, fontweight="bold")
         ax4.set_ylabel("Number of Stocks", fontweight="bold")
-        ax4.set_title("Distribution of Conviction Scores", fontsize=14, fontweight="bold")
+        ax4.set_title(
+            f"Conviction Score Distribution (top {len(scores)} stocks)", fontsize=14, fontweight="bold"
+        )
         ax4.grid(True, alpha=0.3, axis="y")
 
         plt.suptitle("Multi-Decade Conviction Analysis", fontsize=16, fontweight="bold")
@@ -470,15 +682,21 @@ class HistoricalVisualizer:
 
         ax1 = axes[0]
 
+        # first_year is the first year Dataroma still exposes activity for the
+        # ticker, not the year it was bought: the ~1,000-row-per-manager cap
+        # floors the oldest observations at the start of the scrape window, so
+        # the earliest bucket is labelled as the floor it is.
+        floor_year = int(df["first_year"].min())
         decade_groups = {
-            "2000s": top_stocks[top_stocks["first_year"] < 2010],
-            "2010s": top_stocks[(top_stocks["first_year"] >= 2010) & (top_stocks["first_year"] < 2020)],
-            "2020s": top_stocks[top_stocks["first_year"] >= 2020],
+            f"First seen {floor_year}-2009 (at history floor)": top_stocks[top_stocks["first_year"] < 2010],
+            "First seen 2010s": top_stocks[(top_stocks["first_year"] >= 2010) & (top_stocks["first_year"] < 2020)],
+            "First seen 2020s": top_stocks[top_stocks["first_year"] >= 2020],
         }
 
         colors = ["#3498db", "#2ecc71", "#e74c3c"]
         y_offset = 0
         decade_labels_added = set()
+        bar_tickers = []
 
         for (decade, group), color in zip(decade_groups.items(), colors):
             for idx, (_, stock) in enumerate(group.head(5).iterrows()):
@@ -486,9 +704,13 @@ class HistoricalVisualizer:
                 if label:
                     decade_labels_added.add(decade)
 
+                # Span the observed years first_year..last_year. Using
+                # years_tracked as the width drew the bar a full year past the
+                # last observed year, pushing the axis into the future.
+                span = max(0.35, stock["last_year"] - stock["first_year"])
                 ax1.barh(
                     y_offset,
-                    stock["years_tracked"],
+                    span,
                     left=stock["first_year"],
                     height=0.8,
                     alpha=0.7,
@@ -497,18 +719,7 @@ class HistoricalVisualizer:
                 )
 
                 ax1.text(
-                    stock["first_year"] + stock["years_tracked"] / 2,
-                    y_offset,
-                    stock["ticker"],
-                    ha="center",
-                    va="center",
-                    fontsize=9,
-                    fontweight="bold",
-                    bbox=dict(boxstyle="round,pad=0.2", facecolor="white", alpha=0.8),
-                )
-
-                ax1.text(
-                    stock["first_year"] + stock["years_tracked"] + 0.5,
+                    stock["first_year"] + span + 0.3,
                     y_offset,
                     f"{stock['years_tracked']:.0f}y",
                     ha="left",
@@ -516,19 +727,33 @@ class HistoricalVisualizer:
                     fontsize=8,
                 )
 
+                bar_tickers.append(stock["ticker"])
                 y_offset += 1
 
-        ax1.set_xlabel("Year", fontweight="bold")
-        ax1.set_ylabel("Stocks (grouped by entry decade)", fontweight="bold")
-        ax1.set_title("Stock Life Cycles by Entry Decade", fontsize=14, fontweight="bold")
-        ax1.legend(loc="upper left", bbox_to_anchor=(1.02, 1))
+        ax1.set_xlabel("Year Observed", fontweight="bold")
+        ax1.set_ylabel("Stock (grouped by first observed year)", fontweight="bold")
+        ax1.set_title("Stock Life Cycles by First Observed Year", fontsize=14, fontweight="bold")
+        ax1.legend(loc="upper left", fontsize=8, framealpha=0.9)
         ax1.grid(True, alpha=0.3, axis="x")
-        ax1.set_yticks([])
+        ax1.set_yticks(range(len(bar_tickers)))
+        ax1.set_yticklabels(bar_tickers, fontsize=9, fontweight="bold")
+        ax1.set_xlim(floor_year - 1, int(df["last_year"].max()) + 1)
+        ax1.xaxis.set_major_locator(plt.MaxNLocator(integer=True))
 
         ax2 = axes[1]
 
-        entry_years = df.groupby("first_year").size()
-        currently_held_by_year = df[df["currently_held"]].groupby("first_year").size()
+        entry_years = df.groupby("first_year").size().sort_index()
+        # The scrape happens mid-year, so the final entry year covers only part
+        # of the year and cannot be compared with the full years beside it.
+        n_partial_years = self._trim_partial_tail(entry_years)
+        partial_years = list(entry_years.index[len(entry_years) - n_partial_years :]) if n_partial_years else []
+        if n_partial_years:
+            entry_years = entry_years.iloc[: len(entry_years) - n_partial_years]
+
+        held = df[df["currently_held"]]
+        if partial_years:
+            held = held[~held["first_year"].isin(partial_years)]
+        currently_held_by_year = held.groupby("first_year").size()
 
         width = 0.8
         ax2.bar(
@@ -543,10 +768,15 @@ class HistoricalVisualizer:
             color="green",
         )
 
-        ax2.set_xlabel("Entry Year", fontweight="bold")
+        ax2.set_xlabel(
+            "First Observed Year"
+            + (f" (partial year {', '.join(str(int(y)) for y in partial_years)} excluded)" if partial_years else ""),
+            fontweight="bold",
+        )
         ax2.set_ylabel("Number of Stocks", fontweight="bold")
-        ax2.set_title("Stock Entry Patterns Over Time", fontsize=14, fontweight="bold")
-        ax2.legend()
+        ax2.set_title("First Observed Stock Entries Over Time", fontsize=14, fontweight="bold")
+        ax2.xaxis.set_major_locator(plt.MaxNLocator(integer=True))
+        ax2.legend(loc="upper left")
         ax2.grid(True, alpha=0.3, axis="y")
 
         ax3 = axes[2]

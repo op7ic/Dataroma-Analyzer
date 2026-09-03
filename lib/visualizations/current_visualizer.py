@@ -259,12 +259,26 @@ class CurrentVisualizer:
                     fontweight="bold",
                 )
 
-            # Momentum-Price Quadrant Analysis (improved readability)
-            if "current_price" in df.columns:
+            # Momentum-Price Quadrant Analysis (improved readability).
+            # The filtered frame, the medians and the cheap-momentum subset are
+            # computed ONCE here and reused by the summary table in axes[3] so
+            # the two panels always describe exactly the same set of stocks.
+            filtered_df = pd.DataFrame()
+            cheap_momentum = pd.DataFrame()
+            momentum_median = price_median = float("nan")
+            if "current_price" in df.columns and "momentum_score" in df.columns and not df.empty:
                 # Filter out extreme price outliers for better visualization
                 price_q99 = df["current_price"].quantile(0.99)
                 filtered_df = df[df["current_price"] <= price_q99].copy()
+                if not filtered_df.empty:
+                    momentum_median = filtered_df["momentum_score"].median()
+                    price_median = filtered_df["current_price"].median()
+                    cheap_momentum = filtered_df[
+                        (filtered_df["momentum_score"] > momentum_median)
+                        & (filtered_df["current_price"] < price_median)
+                    ]
 
+            if not filtered_df.empty:
                 # Create quadrant chart with better spacing
                 _scatter = axes[2].scatter(  # noqa: F841
                     filtered_df["momentum_score"],
@@ -277,15 +291,10 @@ class CurrentVisualizer:
                 )
 
                 # Add quadrant lines using filtered data
-                momentum_median = filtered_df["momentum_score"].median()
-                price_median = filtered_df["current_price"].median()
                 axes[2].axvline(x=momentum_median, color="red", linestyle="--", alpha=0.8, linewidth=2)
                 axes[2].axhline(y=price_median, color="red", linestyle="--", alpha=0.8, linewidth=2)
 
-                # Identify and highlight cheap momentum plays
-                cheap_momentum = filtered_df[
-                    (filtered_df["momentum_score"] > momentum_median) & (filtered_df["current_price"] < price_median)
-                ]
+                # Highlight the cheap momentum plays identified above
                 if not cheap_momentum.empty:
                     axes[2].scatter(
                         cheap_momentum["momentum_score"],
@@ -342,7 +351,9 @@ class CurrentVisualizer:
                 )
 
                 if not cheap_momentum.empty:
-                    axes[2].legend(loc="upper left", fontsize=9)
+                    # Corners are taken by the quadrant labels and the
+                    # outlier note; the top centre stays clear.
+                    axes[2].legend(loc="upper center", fontsize=9)
 
                 # Add note about outliers if any were filtered
                 if len(filtered_df) < len(df):
@@ -369,26 +380,13 @@ class CurrentVisualizer:
             # Create actionable opportunities table based on scatter plot analysis
             axes[3].axis("off")
 
-            # Calculate medians for quadrant analysis (same as scatter plot)
+            # Reuse the EXACT frame, medians and subset drawn in the scatter
+            # panel so the table and the scatter never disagree.
+            headers = ["Rank", "Ticker", "Price", "Momentum Score", "Key Details"]
             if "momentum_score" in df.columns and "current_price" in df.columns and len(df) > 0:
-                # Filter data same way as scatter plot
-                momentum_q99 = df["momentum_score"].quantile(0.99)
-                price_q99 = df["current_price"].quantile(0.99)
-                filtered_df = df[(df["momentum_score"] <= momentum_q99) & (df["current_price"] <= price_q99)].copy()
-
                 if not filtered_df.empty:
-                    momentum_median = filtered_df["momentum_score"].median()
-                    price_median = filtered_df["current_price"].median()
-
-                    # Identify cheap momentum opportunities (High Mom + Low Price quadrant)
-                    cheap_momentum = filtered_df[
-                        (filtered_df["momentum_score"] > momentum_median)
-                        & (filtered_df["current_price"] < price_median)
-                    ]
-
                     # Build actionable opportunities table
                     table_data = []
-                    headers = ["Rank", "Ticker", "Price", "Momentum Score", "Key Details"]
 
                     if not cheap_momentum.empty:
                         # Get top 10 cheap momentum opportunities
@@ -473,7 +471,13 @@ class CurrentVisualizer:
             # Make table fill the available space better
             table.auto_set_column_width(col=list(range(len(headers))))
 
-            axes[3].set_title("Momentum Analysis Summary", fontsize=12, fontweight="bold")
+            # The table ranks ONLY the cheap-momentum quadrant highlighted in
+            # the scatter panel, not every stock in the figure.
+            axes[3].set_title(
+                "Cheap Momentum: High Momentum + Below-Median Price",
+                fontsize=12,
+                fontweight="bold",
+            )
 
             plt.suptitle(f"Momentum Analysis ({time_period})", fontsize=16, fontweight="bold")
             plt.tight_layout()
@@ -581,7 +585,8 @@ class CurrentVisualizer:
 
             # Best under $20 opportunities with value formatting
             if "stocks_under_$20" in price_dfs and not price_dfs["stocks_under_$20"].empty:
-                under_20 = price_dfs["stocks_under_$20"].head(10)
+                # Rank by the plotted metric so the bars read top-to-bottom.
+                under_20 = price_dfs["stocks_under_$20"].nlargest(10, "total_value")
                 values_billions = under_20["total_value"] / 1e9
                 _ = axes[1].barh(under_20["ticker"], values_billions, color="coral", alpha=0.7)
                 axes[1].set_xlabel("Total Value ($B)", fontweight="bold")
@@ -684,8 +689,13 @@ class CurrentVisualizer:
             fig, axes = plt.subplots(2, 2, figsize=(14, 10))
             axes = axes.flatten()
 
+            low_managers = {}
+
             if low_buys_df is not None and not low_buys_df.empty:
-                top_low_buys = low_buys_df.head(15)
+                # Rank by the plotted metric (buy_count); the frame itself is
+                # ordered by value_opportunity_score, which left the bars
+                # visibly unsorted.
+                top_low_buys = low_buys_df.nlargest(15, "buy_count")
                 # Use buy_count as proxy for activity level
                 _ = axes[0].barh(top_low_buys["ticker"], top_low_buys["buy_count"], color="green", alpha=0.7)
                 axes[0].set_xlabel("Number of Buy Transactions", fontweight="bold")
@@ -699,7 +709,6 @@ class CurrentVisualizer:
                         count + max_value * 0.02, i, f"{count}", va="center", ha="left", fontsize=9, fontweight="bold"
                     )
 
-                low_managers = {}
                 if "buying_managers" in low_buys_df.columns:
                     for managers in low_buys_df["buying_managers"]:
                         if pd.notna(managers):
@@ -712,7 +721,7 @@ class CurrentVisualizer:
                         :8
                     ]  # Reduced from 10 to 8
                     _ = axes[2].bar(
-                        [m[0][:15] for m in top_low_mgrs], [m[1] for m in top_low_mgrs], color="darkgreen", alpha=0.7
+                        [m[0][:22] for m in top_low_mgrs], [m[1] for m in top_low_mgrs], color="darkgreen", alpha=0.7
                     )
                     axes[2].set_xlabel("Manager", fontweight="bold")
                     axes[2].set_ylabel("Low-Buy Count", fontweight="bold")
@@ -729,7 +738,7 @@ class CurrentVisualizer:
                         )
 
             if high_sells_df is not None and not high_sells_df.empty:
-                top_high_sells = high_sells_df.head(15)
+                top_high_sells = high_sells_df.nlargest(15, "sell_count")
                 # Use sell_count as proxy for activity level
                 _ = axes[1].barh(top_high_sells["ticker"], top_high_sells["sell_count"], color="red", alpha=0.7)
                 axes[1].set_xlabel("Number of Sell Transactions", fontweight="bold")
@@ -755,160 +764,181 @@ class CurrentVisualizer:
                 if high_managers and not low_managers:
                     # Use axes[2] for high managers if no low managers
                     top_high_mgrs = sorted(high_managers.items(), key=lambda x: x[1], reverse=True)[:10]
-                    axes[2].bar([m[0][:15] for m in top_high_mgrs], [m[1] for m in top_high_mgrs], color="darkred")
+                    axes[2].bar([m[0][:22] for m in top_high_mgrs], [m[1] for m in top_high_mgrs], color="darkred")
                     axes[2].set_xlabel("Manager")
                     axes[2].set_ylabel("High-Sell Count")
                     axes[2].set_title("Managers Selling at Highs")
                     axes[2].tick_params(axis="x", rotation=45)
 
-                # Create actionable 52-week trading opportunities table
-                axes[3].axis("off")
+            # Label the panels that have no data rather than leaving bare axes
+            if low_buys_df is None or low_buys_df.empty:
+                axes[0].text(
+                    0.5, 0.5, "No 52-week low buys found", transform=axes[0].transAxes, ha="center", va="center"
+                )
+                axes[0].set_title("Stocks Bought Near 52-Week Lows", fontsize=12, fontweight="bold")
+            if high_sells_df is None or high_sells_df.empty:
+                axes[1].text(
+                    0.5, 0.5, "No 52-week high sells found", transform=axes[1].transAxes, ha="center", va="center"
+                )
+                axes[1].set_title("Stocks Sold Near 52-Week Highs", fontsize=12, fontweight="bold")
+            if not low_managers and not (high_sells_df is not None and not high_sells_df.empty):
+                axes[2].text(
+                    0.5,
+                    0.5,
+                    "No manager activity data available",
+                    transform=axes[2].transAxes,
+                    ha="center",
+                    va="center",
+                )
 
-                # Combine and analyze both buy and sell opportunities
-                all_opportunities = []
+            # Create actionable 52-week trading opportunities table
+            axes[3].axis("off")
 
-                # Process 52-week low buy opportunities
-                if low_buys_df is not None and not low_buys_df.empty:
-                    for _, row in low_buys_df.iterrows():
-                        opportunity = {
-                            "ticker": row["ticker"],
-                            "action": "BUY",
-                            "current_price": row.get("current_price", 0),
-                            "buy_count": row.get("buy_count", 0),
-                            "managers": row.get("buying_managers", ""),
-                            "52_week_low": row.get("52_week_low", 0),
-                            "52_week_high": row.get("52_week_high", 0),
-                            "52_week_position_pct": row.get("52_week_position_pct", 0),
-                        }
-                        all_opportunities.append(opportunity)
+            # Combine and analyze both buy and sell opportunities
+            all_opportunities = []
 
-                # Process 52-week high sell opportunities
-                if high_sells_df is not None and not high_sells_df.empty:
-                    for _, row in high_sells_df.iterrows():
-                        opportunity = {
-                            "ticker": row["ticker"],
-                            "action": "SELL",
-                            "current_price": row.get("current_price", 0),
-                            "sell_count": row.get("sell_count", 0),
-                            "managers": row.get("selling_managers", ""),
-                            "52_week_low": row.get("52_week_low", 0),
-                            "52_week_high": row.get("52_week_high", 0),
-                            "52_week_position_pct": row.get("52_week_position_pct", 100),
-                        }
-                        all_opportunities.append(opportunity)
+            # Process 52-week low buy opportunities
+            if low_buys_df is not None and not low_buys_df.empty:
+                for _, row in low_buys_df.iterrows():
+                    opportunity = {
+                        "ticker": row["ticker"],
+                        "action": "BUY",
+                        "current_price": row.get("current_price", 0),
+                        "buy_count": row.get("buy_count", 0),
+                        "managers": row.get("buying_managers", ""),
+                        "52_week_low": row.get("52_week_low", 0),
+                        "52_week_high": row.get("52_week_high", 0),
+                        "52_week_position_pct": row.get("52_week_position_pct", 0),
+                    }
+                    all_opportunities.append(opportunity)
 
-                table_data = []
-                headers = ["Action", "Ticker", "Price", "From 52W Low/High", "Activity"]
+            # Process 52-week high sell opportunities
+            if high_sells_df is not None and not high_sells_df.empty:
+                for _, row in high_sells_df.iterrows():
+                    opportunity = {
+                        "ticker": row["ticker"],
+                        "action": "SELL",
+                        "current_price": row.get("current_price", 0),
+                        "sell_count": row.get("sell_count", 0),
+                        "managers": row.get("selling_managers", ""),
+                        "52_week_low": row.get("52_week_low", 0),
+                        "52_week_high": row.get("52_week_high", 0),
+                        "52_week_position_pct": row.get("52_week_position_pct", 100),
+                    }
+                    all_opportunities.append(opportunity)
 
-                if all_opportunities:
-                    # Sort buy opportunities by proximity to 52-week low (lowest % first)
-                    buy_opps = [opp for opp in all_opportunities if opp["action"] == "BUY"]
-                    sell_opps = [opp for opp in all_opportunities if opp["action"] == "SELL"]
+            table_data = []
+            headers = ["Action", "Ticker", "Price", "From 52W Low/High", "Activity"]
 
-                    # Sort by the SAME metric the table displays (distance from
-                    # the 52-week low/high) so the printed percentages read as
-                    # ordered. Sorting by range position while displaying
-                    # low-normalized distance made rows look unsorted.
-                    def _distance_from_low(opp):
-                        if opp["current_price"] > 0 and opp["52_week_low"] > 0:
-                            return (opp["current_price"] - opp["52_week_low"]) / opp["52_week_low"] * 100
-                        return float("inf")
+            if all_opportunities:
+                # Sort buy opportunities by proximity to 52-week low (lowest % first)
+                buy_opps = [opp for opp in all_opportunities if opp["action"] == "BUY"]
+                sell_opps = [opp for opp in all_opportunities if opp["action"] == "SELL"]
 
-                    def _distance_from_high(opp):
-                        if opp["current_price"] > 0 and opp["52_week_high"] > 0:
-                            return (opp["52_week_high"] - opp["current_price"]) / opp["52_week_high"] * 100
-                        return float("inf")
+                # Sort by the SAME metric the table displays (distance from
+                # the 52-week low/high) so the printed percentages read as
+                # ordered. Sorting by range position while displaying
+                # low-normalized distance made rows look unsorted.
+                def _distance_from_low(opp):
+                    if opp["current_price"] > 0 and opp["52_week_low"] > 0:
+                        return (opp["current_price"] - opp["52_week_low"]) / opp["52_week_low"] * 100
+                    return float("inf")
 
-                    buy_opps.sort(key=_distance_from_low)
-                    sell_opps.sort(key=_distance_from_high)
+                def _distance_from_high(opp):
+                    if opp["current_price"] > 0 and opp["52_week_high"] > 0:
+                        return (opp["52_week_high"] - opp["current_price"]) / opp["52_week_high"] * 100
+                    return float("inf")
 
-                    # Show top 5 buy opportunities
-                    for opp in buy_opps[:5]:
-                        if opp["current_price"] > 0 and opp["52_week_low"] > 0:
-                            distance_from_low = (opp["current_price"] - opp["52_week_low"]) / opp["52_week_low"] * 100
-                            managers_short = str(opp["managers"]).split(",")[0][:12] if opp["managers"] else "Unknown"
-                            table_data.append(
-                                [
-                                    "BUY",
-                                    opp["ticker"],
-                                    f"${opp['current_price']:.2f}",
-                                    f"+{distance_from_low:.1f}% from low",
-                                    f"{int(opp['buy_count'])} buys, {managers_short}",
-                                ]
-                            )
+                buy_opps.sort(key=_distance_from_low)
+                sell_opps.sort(key=_distance_from_high)
 
-                    # Add separator
-                    if buy_opps and sell_opps:
-                        table_data.append(["—", "————", "—————————", "——————————————", "————————————————"])
+                # Show top 5 buy opportunities
+                for opp in buy_opps[:5]:
+                    if opp["current_price"] > 0 and opp["52_week_low"] > 0:
+                        distance_from_low = (opp["current_price"] - opp["52_week_low"]) / opp["52_week_low"] * 100
+                        managers_short = str(opp["managers"]).split(",")[0][:22] if opp["managers"] else "Unknown"
+                        table_data.append(
+                            [
+                                "BUY",
+                                opp["ticker"],
+                                f"${opp['current_price']:.2f}",
+                                f"+{distance_from_low:.1f}% from low",
+                                f"{int(opp['buy_count'])} buys, {managers_short}",
+                            ]
+                        )
 
-                    # Show top 5 sell opportunities
-                    for opp in sell_opps[:5]:
-                        if opp["current_price"] > 0 and opp["52_week_high"] > 0:
-                            distance_from_high = (
-                                (opp["52_week_high"] - opp["current_price"]) / opp["52_week_high"] * 100
-                            )
-                            managers_short = str(opp["managers"]).split(",")[0][:12] if opp["managers"] else "Unknown"
-                            table_data.append(
-                                [
-                                    "SELL",
-                                    opp["ticker"],
-                                    f"${opp['current_price']:.2f}",
-                                    f"-{distance_from_high:.1f}% from high",
-                                    f"{int(opp['sell_count'])} sells, {managers_short}",
-                                ]
-                            )
-
-                    # Add summary row
+                # Add separator
+                if buy_opps and sell_opps:
                     table_data.append(["—", "————", "—————————", "——————————————", "————————————————"])
-                    buy_count = len(buy_opps)
-                    sell_count = len(sell_opps)
-                    table_data.append(
-                        [
-                            "TOTAL",
-                            f"{buy_count}B/{sell_count}S",
-                            time_period,
-                            f"{buy_count + sell_count} opportunities",
-                            "Value hunt vs Profit take",
-                        ]
-                    )
-                else:
-                    # No data available
-                    table_data = [
-                        ["N/A", "No data", "N/A", "No 52-week analysis", "Check data source"],
-                        ["—", "————", "—————————", "——————————————", "————————————————"],
-                        ["INFO", time_period, "Period", "Limited 52-week data", "available"],
+
+                # Show top 5 sell opportunities
+                for opp in sell_opps[:5]:
+                    if opp["current_price"] > 0 and opp["52_week_high"] > 0:
+                        distance_from_high = (
+                            (opp["52_week_high"] - opp["current_price"]) / opp["52_week_high"] * 100
+                        )
+                        managers_short = str(opp["managers"]).split(",")[0][:22] if opp["managers"] else "Unknown"
+                        table_data.append(
+                            [
+                                "SELL",
+                                opp["ticker"],
+                                f"${opp['current_price']:.2f}",
+                                f"-{distance_from_high:.1f}% from high",
+                                f"{int(opp['sell_count'])} sells, {managers_short}",
+                            ]
+                        )
+
+                # Add summary row
+                table_data.append(["—", "————", "—————————", "——————————————", "————————————————"])
+                buy_count = len(buy_opps)
+                sell_count = len(sell_opps)
+                table_data.append(
+                    [
+                        "TOTAL",
+                        f"{buy_count}B/{sell_count}S",
+                        time_period,
+                        f"{buy_count + sell_count} opportunities",
+                        "Value hunt vs Profit take",
                     ]
+                )
+            else:
+                # No data available
+                table_data = [
+                    ["N/A", "No data", "N/A", "No 52-week analysis", "Check data source"],
+                    ["—", "————", "—————————", "——————————————", "————————————————"],
+                    ["INFO", time_period, "Period", "Limited 52-week data", "available"],
+                ]
 
-                # Create full-sized table that fills the entire panel
-                table = axes[3].table(cellText=table_data, colLabels=headers, loc="center", cellLoc="left")
-                table.auto_set_font_size(False)
-                table.set_fontsize(10)  # Reasonable font for better readability
-                table.scale(1.0, 2.5)  # Taller rows for better readability
+            # Create full-sized table that fills the entire panel
+            table = axes[3].table(cellText=table_data, colLabels=headers, loc="center", cellLoc="left")
+            table.auto_set_font_size(False)
+            table.set_fontsize(10)  # Reasonable font for better readability
+            table.scale(1.0, 2.5)  # Taller rows for better readability
 
-                # Style the header row
-                for i in range(len(headers)):
-                    table[(0, i)].set_facecolor("#4472C4")
-                    table[(0, i)].set_text_props(weight="bold", color="white")
+            # Style the header row
+            for i in range(len(headers)):
+                table[(0, i)].set_facecolor("#4472C4")
+                table[(0, i)].set_text_props(weight="bold", color="white")
 
-                # Format columns for trading table
-                for row in range(1, len(table_data) + 1):
-                    if row <= len(table_data):  # Safety check
-                        table[(row, 0)].set_text_props(ha="center", weight="bold")  # Action (BUY/SELL)
-                        table[(row, 1)].set_text_props(ha="center")  # Ticker
-                        table[(row, 2)].set_text_props(ha="right")  # Price (right-aligned)
-                        table[(row, 3)].set_text_props(ha="center")  # Distance from 52W
-                        table[(row, 4)].set_text_props(ha="left")  # Activity details
+            # Format columns for trading table
+            for row in range(1, len(table_data) + 1):
+                if row <= len(table_data):  # Safety check
+                    table[(row, 0)].set_text_props(ha="center", weight="bold")  # Action (BUY/SELL)
+                    table[(row, 1)].set_text_props(ha="center")  # Ticker
+                    table[(row, 2)].set_text_props(ha="right")  # Price (right-aligned)
+                    table[(row, 3)].set_text_props(ha="center")  # Distance from 52W
+                    table[(row, 4)].set_text_props(ha="left")  # Activity details
 
-                        # Color-code action column
-                        if row < len(table_data) and len(table_data[row - 1]) > 0:
-                            action = table_data[row - 1][0]
-                            if action == "BUY":
-                                table[(row, 0)].set_facecolor("#90EE90")  # Light green
-                            elif action == "SELL":
-                                table[(row, 0)].set_facecolor("#FFB6C1")  # Light red
+                    # Color-code action column
+                    if row < len(table_data) and len(table_data[row - 1]) > 0:
+                        action = table_data[row - 1][0]
+                        if action == "BUY":
+                            table[(row, 0)].set_facecolor("#90EE90")  # Light green
+                        elif action == "SELL":
+                            table[(row, 0)].set_facecolor("#FFB6C1")  # Light red
 
-                # Make table fill the available space better
-                table.auto_set_column_width(col=list(range(len(headers))))
+            # Make table fill the available space better
+            table.auto_set_column_width(col=list(range(len(headers))))
 
             plt.suptitle("52-Week High/Low Trading Analysis", fontsize=16, fontweight="bold")
             plt.tight_layout()
@@ -1012,18 +1042,10 @@ class CurrentVisualizer:
                     corr_desc = "Moderate Price/Weight Relationship"
                 else:
                     corr_desc = "Strong Price/Weight Relationship"
-                correlation_text = f"Correlation: {correlation:.3f}\n({corr_desc})"
-                axes[0].text(
-                    0.02,
-                    0.98,
-                    correlation_text,
-                    transform=axes[0].transAxes,
-                    ha="left",
-                    va="top",
-                    fontsize=11,
-                    fontweight="bold",
-                    bbox=dict(boxstyle="round,pad=0.4", facecolor="lightyellow", alpha=0.9, edgecolor="orange"),
-                )
+                # Reported in the panel title: an in-axes box here overlapped
+                # the "Low Price / High Conviction" quadrant label and the
+                # point annotations in that corner.
+                correlation_text = f"Correlation: {correlation:.3f} ({corr_desc})"
 
                 # Add quadrant labels
                 axes[0].text(
@@ -1062,9 +1084,12 @@ class CurrentVisualizer:
 
                 axes[0].set_xlabel("Stock Price ($)", fontweight="bold", fontsize=12)
                 axes[0].set_ylabel("Portfolio Weight (%)", fontweight="bold", fontsize=12)
-                axes[0].set_title("Price vs Portfolio Weight Quadrant Analysis", fontsize=14, fontweight="bold")
+                axes[0].set_title(
+                    f"Price vs Portfolio Weight Quadrant Analysis\n{correlation_text}", fontsize=14, fontweight="bold"
+                )
                 axes[0].grid(True, alpha=0.3, linestyle=":")
-                axes[0].legend(loc="upper right", fontsize=9)
+                # Upper right holds the "High Price / High Conviction" label
+                axes[0].legend(loc="lower right", fontsize=9)
             else:
                 axes[0].text(
                     0.5,
@@ -1089,11 +1114,20 @@ class CurrentVisualizer:
                     edgecolor="black",
                     linewidth=0.5,
                 )
+                # Rows are per manager-stock, so a ticker can legitimately
+                # appear several times (four SUNB rows, one per manager).
+                # Identify each row by ticker + manager, never by ticker alone.
+                row_labels = []
+                for _, row in top_positions.iterrows():
+                    label = row["ticker"]
+                    if "current_price" in top_positions.columns and pd.notna(row["current_price"]):
+                        label += f" (${row['current_price']:.0f})"
+                    manager = self._get_manager_name(row)
+                    if manager != "Unknown Manager":
+                        label += f" — {manager[:22]}"
+                    row_labels.append(label)
                 axes[1].set_yticks(range(len(top_positions)))
-                axes[1].set_yticklabels(
-                    [f"{row['ticker']} (${row['current_price']:.0f})" for _, row in top_positions.iterrows()],
-                    fontsize=10,
-                )
+                axes[1].set_yticklabels(row_labels, fontsize=9)
                 axes[1].set_xlabel("Portfolio Weight (%)", fontweight="bold", fontsize=11)
                 axes[1].set_title("Top 15 New Positions by Portfolio Weight", fontsize=13, fontweight="bold")
                 axes[1].invert_yaxis()
@@ -1110,8 +1144,8 @@ class CurrentVisualizer:
                 )
                 axes[1].legend(loc="lower right", fontsize=9)
 
-                # Add value labels for top 10 only to avoid clutter
-                for i, (_, row) in enumerate(top_positions.head(10).iterrows()):
+                # Label every bar, not just the first ten
+                for i, (_, row) in enumerate(top_positions.iterrows()):
                     axes[1].text(
                         row["portfolio_percent"] + 0.1,
                         i,
@@ -1376,11 +1410,9 @@ class CurrentVisualizer:
                 axes[0].invert_yaxis()
                 axes[0].grid(True, alpha=0.3)
 
-                # Add data labels for top 10 only
+                # Label every bar, not just the first ten
                 max_val = top_accumulation[sort_col].max()
-                for i, (ticker, val) in enumerate(
-                    zip(top_accumulation["ticker"][:10], top_accumulation[sort_col][:10])
-                ):
+                for i, (ticker, val) in enumerate(zip(top_accumulation["ticker"], top_accumulation[sort_col])):
                     axes[0].text(
                         val + max_val * 0.02, i, f"{val:.1f}", va="center", ha="left", fontsize=9, fontweight="bold"
                     )
@@ -1409,14 +1441,17 @@ class CurrentVisualizer:
                 )
 
                 if manager_col == "managers":
-                    # Multiple managers per row
-                    for _, row in low_price_df.head(10).iterrows():  # Top 10 stocks
+                    # Multiple managers per row. Use the SAME top-accumulation
+                    # stocks the bar panel shows — head(10) took an arbitrary
+                    # slice, so the heatmap described different tickers than
+                    # the bars beside it.
+                    for _, row in low_price_df.nlargest(10, sort_col).iterrows():
                         if pd.notna(row["managers"]):
                             managers = [m.strip() for m in str(row["managers"]).split(",")][:5]  # Top 5 managers
                             for manager in managers:
                                 manager_stock_data.append(
                                     {
-                                        "manager": manager[:15],  # Truncate names
+                                        "manager": manager[:25],  # Truncate only very long names
                                         "ticker": row["ticker"],
                                         # Real portfolio % (the old hard default
                                         # of 1 made the heatmap binary while
@@ -1435,7 +1470,7 @@ class CurrentVisualizer:
                             if pd.notna(row[manager_col]):
                                 manager_stock_data.append(
                                     {
-                                        "manager": str(row[manager_col])[:15],
+                                        "manager": str(row[manager_col])[:25],
                                         "ticker": ticker,
                                         "value": row.get(heat_pct_col, 1) if heat_pct_col else 1,
                                     }
@@ -1446,6 +1481,9 @@ class CurrentVisualizer:
                     pivot_df = heatmap_df.pivot_table(values="value", index="manager", columns="ticker", fill_value=0)
 
                     im = axes[2].imshow(pivot_df.values, cmap="Greens", aspect="auto", interpolation="nearest")
+                    # The seaborn whitegrid theme otherwise draws gridlines
+                    # across the cells, making each one look quartered.
+                    axes[2].grid(False)
                     axes[2].set_xticks(range(len(pivot_df.columns)))
                     axes[2].set_xticklabels(pivot_df.columns, rotation=45, ha="right", fontsize=9)
                     axes[2].set_yticks(range(len(pivot_df.index)))
@@ -1498,7 +1536,7 @@ class CurrentVisualizer:
                             stock_managers = [m.strip() for m in str(stock[manager_col]).split(",") if m.strip()]
                         else:
                             stock_managers = [str(stock[manager_col])]
-                    top_manager = stock_managers[0][:12] if stock_managers else "N/A"
+                    top_manager = stock_managers[0][:22] if stock_managers else "N/A"
 
                     table_data.append(
                         [
@@ -1578,6 +1616,45 @@ class CurrentVisualizer:
             logger.error(f"Error creating new positions chart: {e}")
             return None
 
+    def _plot_position_rows(self, ax, rows: pd.DataFrame, value_col: str, color: str, title: str) -> None:
+        """
+        Draw one horizontal bar per manager-stock ROW.
+
+        Rows are per manager-stock, so the same ticker can appear several
+        times. Plotting against the ticker column would collapse duplicates
+        onto a single categorical position (bars stacked on top of each other,
+        and the value labels for the collapsed rows written outside the axes),
+        so bars are drawn on a numeric index with explicit per-row tick labels.
+        """
+        ax.set_xlabel("Concentration Score", fontweight="bold")
+        ax.set_title(title, fontsize=12, fontweight="bold")
+        ax.grid(True, alpha=0.3)
+
+        if rows.empty:
+            ax.text(0.5, 0.5, "No positions in this category", transform=ax.transAxes, ha="center", va="center")
+            return
+
+        positions = range(len(rows))
+        ax.barh(positions, rows[value_col], color=color, alpha=0.7)
+
+        labels = []
+        for _, row in rows.iterrows():
+            label = str(row["ticker"])
+            manager = self._get_manager_name(row)
+            if manager != "Unknown Manager":
+                label += f" — {manager[:22]}"
+            labels.append(label)
+        ax.set_yticks(list(positions))
+        ax.set_yticklabels(labels, fontsize=9)
+        ax.invert_yaxis()
+
+        max_score = rows[value_col].max()
+        ax.set_xlim(0, max_score * 1.1)  # Add 10% padding
+        for i, score in zip(positions, rows[value_col]):
+            ax.text(
+                score + max_score * 0.02, i, f"{score:.1f}", va="center", ha="left", fontsize=9, fontweight="bold"
+            )
+
     def create_portfolio_changes_chart(self, df: pd.DataFrame, time_period: str = "Last 3 Quarters") -> str:
         """Create portfolio concentration changes visualization."""
         try:
@@ -1601,40 +1678,14 @@ class CurrentVisualizer:
                     decreasing = df.iloc[0:0]
 
                 top_increases = increasing.nlargest(10, score_col)
-                _ = axes[0].barh(top_increases["ticker"], top_increases[score_col], color="green", alpha=0.7)
-                axes[0].set_xlabel("Concentration Score", fontweight="bold")
-                axes[0].set_title("Top Building/Held Positions (by score)", fontsize=12, fontweight="bold")
-                axes[0].invert_yaxis()
-                axes[0].grid(True, alpha=0.3)
-
-                if not top_increases.empty:
-                    max_score = top_increases[score_col].max()
-                    axes[0].set_xlim(0, max_score * 1.1)  # Add 10% padding
-                    for i, (ticker, score) in enumerate(zip(top_increases["ticker"], top_increases[score_col])):
-                        axes[0].text(
-                            score + max_score * 0.02,
-                            i,
-                            f"{score:.1f}",
-                            va="center",
-                            ha="left",
-                            fontsize=9,
-                            fontweight="bold",
-                        )
+                self._plot_position_rows(
+                    axes[0], top_increases, score_col, "green", "Top Building/Held Positions (by score)"
+                )
 
                 top_decreases = decreasing.nlargest(10, score_col)
-                _ = axes[1].barh(top_decreases["ticker"], top_decreases[score_col], color="red", alpha=0.7)
-                axes[1].set_xlabel("Concentration Score", fontweight="bold")
-                axes[1].set_title("Top Reducing Positions (by score)", fontsize=12, fontweight="bold")
-                axes[1].invert_yaxis()
-                axes[1].grid(True, alpha=0.3)
-
-                if not top_decreases.empty:
-                    max_dec = top_decreases[score_col].max()
-                    axes[1].set_xlim(0, max_dec * 1.1)
-                    for i, (ticker, score) in enumerate(zip(top_decreases["ticker"], top_decreases[score_col])):
-                        axes[1].text(
-                            score + max_dec * 0.02, i, f"{score:.1f}", va="center", ha="left", fontsize=9, fontweight="bold"
-                        )
+                self._plot_position_rows(
+                    axes[1], top_decreases, score_col, "red", "Top Reducing Positions (by score)"
+                )
 
                 axes[2].hist(df[score_col], bins=30, color="blue", alpha=0.7, edgecolor="black", linewidth=0.5)
                 axes[2].set_xlabel("Concentration Score", fontweight="bold")
@@ -1652,7 +1703,17 @@ class CurrentVisualizer:
 
                 if "change_type" in df.columns:
                     change_counts = df["change_type"].value_counts()
-                    colors = ["darkgreen", "orange", "red", "purple", "brown"][: len(change_counts)]
+                    # Map colour to the MEANING of each slice. Positional
+                    # colours followed value_counts() order, which painted
+                    # "Reduced" green and "Maintained" red.
+                    change_type_colors = {
+                        "New High Conviction": "darkgreen",
+                        "Increased": "mediumseagreen",
+                        "Maintained": "steelblue",
+                        "Reduced": "red",
+                        "Partial Exit": "darkorange",
+                    }
+                    colors = [change_type_colors.get(str(label), "gray") for label in change_counts.index]
                     wedges, texts, autotexts = axes[3].pie(
                         change_counts.values,
                         labels=change_counts.index,

@@ -207,6 +207,10 @@ class PositionTimelineAnalyzer(MultiAnalyzer):
 
         Shows which stocks are seeing net accumulation vs distribution across the manager universe.
 
+        Returns only the 100 stocks with the largest |net activity| over the last
+        4 quarters among stocks touched by >=2 managers - a deliberately
+        directional slice, not a census of all stocks.
+
         Returns:
             DataFrame showing which stocks are being built up vs reduced
         """
@@ -272,7 +276,12 @@ class PositionTimelineAnalyzer(MultiAnalyzer):
         if significant_stocks.empty:
             return pd.DataFrame()
 
-        # Sort by absolute net activity (most active first)
+        # Sort by absolute net activity (most active first).
+        # NOTE: this ranking is directional by construction - a "Mixed" stock
+        # (net_activity == 0) sorts last and therefore never survives the
+        # head(100) cut. The phase mix of the returned rows is a property of
+        # this selection, not of the stock universe; anything presenting it
+        # (e.g. the accumulation/distribution pie) must say so.
         significant_stocks["abs_net_activity"] = significant_stocks["net_activity"].abs()
         significant_stocks = significant_stocks.sort_values("abs_net_activity", ascending=False)
 
