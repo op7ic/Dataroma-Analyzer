@@ -1,6 +1,6 @@
 # 📊 Dataroma Investment Analysis
 
-*Generated: 2026-09-03 11:13:14*
+*Generated: 2026-09-03 15:28:27*
 
 ## 🎯 Overview
 
@@ -175,7 +175,7 @@ Long-term trends and patterns from 2007 to 2026.
 | Report | Description | Key Insight |
 | ------ | ----------- | ----------- |
 | [crisis_response_analysis.csv](historical/crisis_response_analysis.csv) | 2008 vs 2020 comparison (3 items) | Crisis behavior patterns across decades |
-| [multi_decade_conviction.csv](historical/multi_decade_conviction.csv) | Stocks held 10+ years (50 items) | Ultimate long-term conviction plays |
+| [multi_decade_conviction.csv](historical/multi_decade_conviction.csv) | Stocks active in 10+ distinct years (50 items) | Ultimate long-term conviction plays |
 | [quarterly_activity_timeline.csv](historical/quarterly_activity_timeline.csv) | Full-history activity map (78 items) | 78 quarters of market timing insights |
 | [stock_life_cycles.csv](historical/stock_life_cycles.csv) | Complete holding patterns (3831 items) | Entry/exit patterns and optimal holding periods |
 
@@ -296,22 +296,22 @@ Some stocks appear in multiple analysis files with opposite signals, because dif
 
 These tickers appear in both `contrarian_opportunities.csv` and `momentum_stocks.csv`. This happens when different managers take opposite positions on the same stock:
 
-- **TSM**: Contrarian signal: Net Selling (buys: 20.0, sells: 43.0) | Momentum score: 72.36875
+- **DIS**: Contrarian signal: Net Selling (buys: 29.0, sells: 35.0) | Momentum score: 84.773
 
-- **JPM**: Contrarian signal: Net Selling (buys: 11.0, sells: 26.0) | Momentum score: 42.796
+- **BRK.B**: Contrarian signal: Net Selling (buys: 26.0, sells: 36.0) | Momentum score: 90.62076923076923
 
-- **UNH**: Contrarian signal: Net Selling (buys: 23.0, sells: 40.0) | Momentum score: 69.45823529411764
+- **META**: Contrarian signal: Net Selling (buys: 38.0, sells: 46.0) | Momentum score: 116.17935483870968
 
-- **GOOGL**: Contrarian signal: Net Selling (buys: 20.0, sells: 73.0) | Momentum score: 85.7461111111111
+- **TXN**: Contrarian signal: Net Selling (buys: 10.0, sells: 23.0) | Momentum score: 40.206428571428575
 
-- **CMCSA**: Contrarian signal: Net Buying (buys: 19.0, sells: 15.0) | Momentum score: 58.07
+- **MSFT**: Contrarian signal: Net Selling (buys: 54.0, sells: 63.0) | Momentum score: 153.94351351351352
 
 #### New Positions with Contrarian Signals
 
 These newly initiated positions also show contrarian patterns, suggesting managers are taking bold positions against the crowd:
-- **MA**: New position initiated amid contrarian activity
 - **TSM**: New position initiated amid contrarian activity
-- **META**: New position initiated amid contrarian activity
+- **MA**: New position initiated amid contrarian activity
+- **SPGI**: New position initiated amid contrarian activity
 
 
 ### Data Freshness Notes
@@ -328,7 +328,7 @@ All current analysis reports use manager filings from this window.
 
 4. **Manager Activity**: A single manager may have multiple entries for the same stock if they made multiple transactions (Buy, Add, Reduce) within the analysis window.
 
-**Report Generated**: 2026-09-03 11:13:14
+**Report Generated**: 2026-09-03 15:28:28
 
 
 ---

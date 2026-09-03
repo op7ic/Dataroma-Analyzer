@@ -565,7 +565,7 @@ class ReadmeGenerator:
         )
         historical_reports = {
             "crisis_response_analysis": ("2008 vs 2020 comparison", "Crisis behavior patterns across decades"),
-            "multi_decade_conviction": ("Stocks held 10+ years", "Ultimate long-term conviction plays"),
+            "multi_decade_conviction": ("Stocks active in 10+ distinct years", "Ultimate long-term conviction plays"),
             "quarterly_activity_timeline": ("Full-history activity map", timeline_insight),
             "stock_life_cycles": ("Complete holding patterns", "Entry/exit patterns and optimal holding periods"),
         }

@@ -594,7 +594,9 @@ CONTRACT_MOST_SOLD_STOCKS = FileContract(
         "total_sells": ColumnSpec("total_sells", "Total number of sell actions", "int", (0, None)),
         "exit_status": ColumnSpec(
             "exit_status", "Selling intensity classification", "str",
-            allowed_values=["Heavy Selling", "Moderate Selling", "Light Selling", "Exit Wave", "Partial Exit"]
+            # The four labels momentum_analyzer assigns; the previous list
+            # carried three the analyzer never emits and omitted two it does.
+            allowed_values=["Partial Exit", "Complete Exit", "Light Selling", "Heavy Exit"]
         ),
         "buy_count": ColumnSpec("buy_count", "Counter-buys during period", "int"),
         "add_count": ColumnSpec("add_count", "Counter-adds during period", "int"),
@@ -959,7 +961,8 @@ CONTRACT_MANAGER_EVOLUTION_PATTERNS = FileContract(
         "total_activities": ColumnSpec("total_activities", "Total activities tracked", "int", (0, None)),
         "evolution_type": ColumnSpec(
             "evolution_type", "Type of evolution pattern", "str",
-            allowed_values=["More Active", "Less Active", "More Concentrated", "More Diversified", "Style Shift", "Stable", "Style Shifter"]
+            # The six labels advanced_analyzer assigns.
+            allowed_values=["Stable", "Diversifying", "Concentrating", "Style Shifter", "More Active", "Less Active"]
         ),
         "evolution_score": ColumnSpec("evolution_score", "Overall evolution score", "float", (0, None)),
     }
@@ -1216,7 +1219,7 @@ CONTRACT_TOP_HOLDINGS = FileContract(
 CONTRACT_MULTI_DECADE_CONVICTION = FileContract(
     file_name="multi_decade_conviction.csv",
     mode="historical",
-    description="Stocks held with conviction across multiple decades",
+    description="Stocks with recorded activity in 10+ distinct calendar years, ranked by conviction score",
     allowed_horizons="multi-year",
     required_metadata=[],
     forbidden_states=["ERROR", "INVALID"],
@@ -1229,20 +1232,28 @@ CONTRACT_MULTI_DECADE_CONVICTION = FileContract(
         "consistent_managers": ColumnSpec("consistent_managers", "Managers with consistent holdings", "int", (0, None)),
         "total_managers": ColumnSpec("total_managers", "Total managers ever", "int", (0, None)),
         "current_holders": ColumnSpec("current_holders", "Current number of holders", "int", (0, None)),
-        "conviction_score": ColumnSpec("conviction_score", "Long-term conviction score", "float", (0, None)),
+        "conviction_score": ColumnSpec(
+            "conviction_score",
+            "Accumulation over distribution: (buy_actions + 0.7*add_actions) / (1 + sell_actions + 0.5*reduce_actions). "
+            "A complete exit (Sell) weighs twice a trim (Reduce); the 1 keeps the ratio finite when neither occurred. "
+            "Not a return - 13F filings carry no prices.",
+            "float", (0, None)
+        ),
         "total_activities": ColumnSpec("total_activities", "Total historical activities", "int", (0, None)),
-        "buy_actions": ColumnSpec("buy_actions", "Total buy actions", "int", (0, None)),
+        "buy_actions": ColumnSpec("buy_actions", "New-position actions (Buy only)", "int", (0, None)),
+        "add_actions": ColumnSpec("add_actions", "Position increases (Add only)", "int", (0, None)),
+        "sell_actions": ColumnSpec("sell_actions", "Complete exits (Sell only; Reduce counted separately)", "int", (0, None)),
+        "reduce_actions": ColumnSpec("reduce_actions", "Position decreases (Reduce only)", "int", (0, None)),
         "periods_active": ColumnSpec("periods_active", "Periods with activity", "int", (0, None)),
-        "top_manager": ColumnSpec("top_manager", "Manager with longest tenure", "str"),
-        "top_manager_years": ColumnSpec("top_manager_years", "Longest tenure in years", "int", (0, None)),
+        "top_manager": ColumnSpec("top_manager", "Manager active in the largest share of the ticker's active years", "str"),
+        "top_manager_years": ColumnSpec("top_manager_years", "Distinct years that manager was active in the ticker (not tenure)", "int", (0, None)),
         "top_manager_consistency": ColumnSpec("top_manager_consistency", "Top manager consistency %", "str"),
         "conviction_type": ColumnSpec(
             "conviction_type", "Type of conviction", "str",
-            # The four values analyze_multi_decade_conviction can assign; the
-            # previous list carried three labels the analyzer never emits and
-            # omitted its default, which only stayed hidden while the report
-            # was ranked by tenure.
-            allowed_values=["Long-term Hold", "Decade+ Conviction", "Multi-Decade Champion", "Consensus Champion"]
+            # The three values analyze_multi_decade_conviction can assign.
+            # "Long-term Hold" went away with the years_held >= 10 inclusion
+            # threshold: every row in this file is now Decade+ or better.
+            allowed_values=["Decade+ Conviction", "Multi-Decade Champion", "Consensus Champion"]
         ),
     }
 )

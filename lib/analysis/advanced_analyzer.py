@@ -72,13 +72,20 @@ class AdvancedHistoricalAnalyzer(MultiAnalyzer):
 
     def analyze_multi_decade_conviction(self) -> pd.DataFrame:
         """
-        Analyze stocks held 10+ years by the same managers.
-        These represent ultimate conviction plays with compound growth potential.
+        Analyze stocks with activity in 10+ distinct calendar years.
 
         years_held is the number of DISTINCT CALENDAR YEARS in which the ticker
         appears in the activity history - not a continuous holding duration, and
         a lower bound, since Dataroma exposes at most ~1,000 activity rows per
-        manager. Rows are the top 50 by conviction_score.
+        manager. Only tickers with years_held >= 10 qualify, so the report
+        matches the "multi-decade" name it is published under.
+
+        conviction_score = (buy_actions + 0.7 * add_actions)
+                           / (1 + sell_actions + 0.5 * reduce_actions)
+        Accumulation over distribution: a complete exit (Sell) weighs twice a
+        partial trim (Reduce), and the 1 in the denominator keeps the ratio
+        finite for tickers that were never sold down. Rows are the top 50 by
+        conviction_score.
         """
         if self.data.history_df is None or self.data.history_df.empty:
             return pd.DataFrame()
@@ -99,7 +106,7 @@ class AdvancedHistoricalAnalyzer(MultiAnalyzer):
 
             years_held = len(years_with_activity)
 
-            if years_held >= 5:
+            if years_held >= 10:
                 managers = ticker_data["manager_id"].unique().tolist()
 
                 manager_consistency = {}
@@ -132,8 +139,15 @@ class AdvancedHistoricalAnalyzer(MultiAnalyzer):
                     buy_actions = len(ticker_data[ticker_data["action_type"] == "Buy"])
                     add_actions = len(ticker_data[ticker_data["action_type"] == "Add"])
                     reduce_actions = len(ticker_data[ticker_data["action_type"] == "Reduce"])
+                    sell_actions = len(ticker_data[ticker_data["action_type"] == "Sell"])
 
-                    conviction_score = (buy_actions + add_actions * 0.7) / max(1, reduce_actions * 0.5)
+                    # Distribution belongs in the denominator: scoring only
+                    # Reduce left complete exits invisible, so tickers every
+                    # manager had walked away from still ranked as conviction
+                    # plays. A Sell (full exit) weighs twice a Reduce (trim).
+                    conviction_score = (buy_actions + add_actions * 0.7) / (
+                        1 + sell_actions + reduce_actions * 0.5
+                    )
 
                     long_term_analysis[ticker] = {
                         "years_held": years_held,
@@ -145,6 +159,9 @@ class AdvancedHistoricalAnalyzer(MultiAnalyzer):
                         "conviction_score": conviction_score,
                         "total_activities": len(ticker_data),
                         "buy_actions": buy_actions,
+                        "add_actions": add_actions,
+                        "sell_actions": sell_actions,
+                        "reduce_actions": reduce_actions,
                         "periods_active": len(ticker_data["period"].unique()),
                     }
 
@@ -213,12 +230,11 @@ class AdvancedHistoricalAnalyzer(MultiAnalyzer):
         # Drop the raw manager_details column
         conviction_df = conviction_df.drop(columns=["manager_details"])
 
-        conviction_df["conviction_type"] = "Long-term Hold"
-        conviction_df.loc[conviction_df["years_held"] >= 10, "conviction_type"] = "Decade+ Conviction"
+        # Every surviving row has years_held >= 10, so "Decade+ Conviction" is
+        # the floor label here, not an upgrade.
+        conviction_df["conviction_type"] = "Decade+ Conviction"
         conviction_df.loc[conviction_df["years_held"] >= 15, "conviction_type"] = "Multi-Decade Champion"
-        conviction_df.loc[
-            (conviction_df["consistent_managers"] >= 3) & (conviction_df["years_held"] >= 8), "conviction_type"
-        ] = "Consensus Champion"
+        conviction_df.loc[conviction_df["consistent_managers"] >= 3, "conviction_type"] = "Consensus Champion"
 
         result = self.format_output(conviction_df.reset_index().rename(columns={"index": "ticker"})).head(50)
         return self.add_metadata_columns(result, window_quarters=40, analysis_type="multi_decade_conviction")

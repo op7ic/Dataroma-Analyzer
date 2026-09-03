@@ -68,6 +68,73 @@ class AdvancedVisualizer:
         name = str(name).strip()
         return name if len(name) <= limit else name[: limit - 1].rstrip() + "\u2026"
 
+    # Candidate label placements, in preference order, as (dx, dy) point offsets.
+    _LABEL_OFFSETS = [
+        (5, 5), (5, -5), (-5, 5), (-5, -5),
+        (10, 0), (-10, 0), (0, 9), (0, -9),
+        (14, 9), (-14, 9), (14, -9), (-14, -9),
+    ]
+
+    def _annotate_without_overlap(self, ax, xs, ys, labels, fontsize=8, avoid=None, **text_kw):
+        """Label scatter points with greedy collision avoidance.
+
+        Each label tries a ring of candidate offsets and keeps the first that
+        neither overlaps an already-placed label (or a bbox in ``avoid``, e.g.
+        a legend) nor spills outside the axes. If every candidate collides,
+        the least-bad one wins. This replaces fixed nudges, which cannot keep
+        co-located tickers apart or keep edge labels inside the figure.
+        """
+        from matplotlib.transforms import Bbox
+
+        fig = ax.figure
+        fig.canvas.draw()
+        renderer = fig.canvas.get_renderer()
+        placed = list(avoid or [])
+
+        def overlap_area(a, b):
+            box = Bbox.intersection(a, b)
+            if box is None:
+                return 0.0
+            return max(box.width, 0.0) * max(box.height, 0.0)
+
+        for x, y, label in zip(xs, ys, labels):
+            if pd.isna(x) or pd.isna(y) or not str(label).strip():
+                continue
+            ann = ax.annotate(str(label), (x, y), textcoords="offset points", fontsize=fontsize, **text_kw)
+            ax_bbox = ax.get_window_extent(renderer=renderer)
+            best = None
+            for dx, dy in self._LABEL_OFFSETS:
+                ann.set_ha("left" if dx >= 0 else "right")
+                ann.set_va("bottom" if dy >= 0 else "top")
+                ann.xyann = (dx, dy)
+                bbox = ann.get_window_extent(renderer=renderer)
+                cost = sum(overlap_area(bbox, other) for other in placed)
+                # Anything outside the axes is worse than any in-axes overlap.
+                inside = overlap_area(bbox, ax_bbox)
+                cost += (bbox.width * bbox.height - inside) * 10.0
+                if cost <= 0.0:
+                    best = (cost, dx, dy)
+                    break
+                if best is None or cost < best[0]:
+                    best = (cost, dx, dy)
+            _, dx, dy = best
+            ann.set_ha("left" if dx >= 0 else "right")
+            ann.set_va("bottom" if dy >= 0 else "top")
+            ann.xyann = (dx, dy)
+            placed.append(ann.get_window_extent(renderer=renderer))
+
+    @staticmethod
+    def _fold_thin_wedge_pct(wedges, texts, autotexts, min_angle=18.0):
+        """Fold the percentage of a too-thin pie wedge into its outside label.
+
+        A wedge only a few degrees wide has no room for an autopct label, so
+        matplotlib prints it across the neighbouring slice boundary.
+        """
+        for wedge, text, auto in zip(wedges, texts, autotexts):
+            if wedge.theta2 - wedge.theta1 < min_angle and auto.get_text():
+                text.set_text(f"{text.get_text()}\n{auto.get_text()}")
+                auto.set_text("")
+
     def _get_manager_name(self, row: pd.Series) -> str:
         """Get the full manager name, preferring the descriptive name over ID."""
         name_cols = ["manager_name", "manager.1", "manager_full_name"]
@@ -201,19 +268,40 @@ class AdvancedVisualizer:
                     label=f"\u2265{history_cap} (history truncated)",
                 )
                 ax3.axvline(x=history_cap, color="red", linestyle="--", alpha=0.5, linewidth=1.5)
-                ax3.legend(loc="lower left", fontsize=8, frameon=True)
-            for idx, row in top_managers.iterrows():
-                ax3.annotate(
-                    self._short_name(row[manager_col]),
-                    (row["total_actions"], row["consistency_score"]),
-                    xytext=(4, 4),
-                    textcoords="offset points",
-                    fontsize=8,
-                    alpha=0.7,
-                )
+
+            # Capped managers sit exactly on the 1000 line, so without extra
+            # room their labels are drawn in the figure gutter. Give the axis
+            # headroom past the cap, and a band of empty space at the bottom
+            # for the legend so it cannot cover a plotted manager.
+            x_max = max(float(top_managers["total_actions"].max()), float(history_cap))
+            x_min = float(top_managers["total_actions"].min())
+            x_pad = max((x_max - x_min) * 0.12, x_max * 0.06)
+            ax3.set_xlim(max(0.0, x_min - x_pad), x_max + x_pad * 2.2)
+
+            y_vals = top_managers["consistency_score"]
+            y_min, y_max = float(y_vals.min()), float(y_vals.max())
+            y_pad = max((y_max - y_min) * 0.1, 0.01)
+            ax3.set_ylim(y_min - y_pad * 3.0, y_max + y_pad)
+
             ax3.set_xlabel(f"Recorded Actions (scrape-capped at {history_cap})")
             ax3.set_ylabel("Consistency Score")
             ax3.set_title("Recorded Activity vs Consistency")
+
+            avoid = []
+            if capped.any():
+                legend = ax3.legend(loc="lower left", fontsize=8, frameon=True)
+                ax3.figure.canvas.draw()
+                avoid.append(legend.get_window_extent(renderer=ax3.figure.canvas.get_renderer()))
+
+            self._annotate_without_overlap(
+                ax3,
+                top_managers["total_actions"],
+                top_managers["consistency_score"],
+                [self._short_name(row[manager_col]) for _, row in top_managers.iterrows()],
+                fontsize=8,
+                avoid=avoid,
+                alpha=0.7,
+            )
 
             if "current_portfolio_value" in df.columns:
                 top_by_value = df.nlargest(10, "current_portfolio_value")
@@ -547,7 +635,10 @@ class AdvancedVisualizer:
 
             if "evolution_type" in df.columns:
                 evolution_counts = df["evolution_type"].value_counts()
-                axes[0].pie(evolution_counts.values, labels=evolution_counts.index, autopct="%1.1f%%", startangle=90)
+                wedges, wedge_labels, wedge_pcts = axes[0].pie(
+                    evolution_counts.values, labels=evolution_counts.index, autopct="%1.1f%%", startangle=90
+                )
+                self._fold_thin_wedge_pct(wedges, wedge_labels, wedge_pcts)
                 axes[0].set_title(f"Manager Evolution Types\n(top {n_managers} by evolution score)")
 
             if "evolution_score" in df.columns:
@@ -649,7 +740,15 @@ class AdvancedVisualizer:
 
             _ = axes[0].barh(top_consensus["ticker"], top_consensus["manager_count"], color="darkblue", alpha=0.7)
             axes[0].set_xlabel("Number of Managers", fontweight="bold")
-            axes[0].set_title("Top 20 Consensus Picks (by manager count)", fontsize=12, fontweight="bold")
+            # This frame is the analyzer's 50 highest consensus scores, not the
+            # whole universe, so tickers held by more managers but scoring lower
+            # (BAC, JPM, CMCSA, ORCL ...) are absent. The title has to say so.
+            axes[0].set_title(
+                f"Top {len(top_consensus)} by Manager Count\n"
+                f"(among the {len(df)} highest consensus scores, not all stocks)",
+                fontsize=12,
+                fontweight="bold",
+            )
             axes[0].invert_yaxis()
             axes[0].grid(True, alpha=0.3)
 
@@ -664,13 +763,18 @@ class AdvancedVisualizer:
                 axes[1].scatter(
                     top_consensus["manager_count"], top_consensus["avg_portfolio_pct"], s=100, alpha=0.6, color="green"
                 )
-                for idx, row in top_consensus.iterrows():
-                    axes[1].annotate(
-                        row["ticker"], (row["manager_count"], row["avg_portfolio_pct"]), fontsize=8, alpha=0.7
-                    )
                 axes[1].set_xlabel("Number of Managers")
                 axes[1].set_ylabel("Average Portfolio %")
-                axes[1].set_title(f"Consensus vs Concentration (top {len(top_consensus)} by manager count)")
+                axes[1].set_title(f"Consensus vs Concentration (the {len(top_consensus)} picks shown above)")
+                axes[1].margins(x=0.12, y=0.1)
+                self._annotate_without_overlap(
+                    axes[1],
+                    top_consensus["manager_count"],
+                    top_consensus["avg_portfolio_pct"],
+                    top_consensus["ticker"],
+                    fontsize=8,
+                    alpha=0.7,
+                )
 
             axes[2].hist(df["manager_count"], bins=20, color="purple", alpha=0.7, edgecolor="black", linewidth=0.5)
             axes[2].set_xlabel("Number of Managers Holding", fontweight="bold")
@@ -734,8 +838,11 @@ class AdvancedVisualizer:
                         color="darkgreen",
                     )
                     axes[3].set_xlabel("Manager")
-                    axes[3].set_ylabel(f"Appearances in Top {len(top_consensus)} Consensus Picks")
-                    axes[3].set_title(f"Managers Most Aligned with Top {len(top_consensus)} Consensus Picks")
+                    axes[3].set_ylabel(f"Appearances Among the {len(top_consensus)} Picks Shown")
+                    axes[3].set_title(
+                        f"Managers Most Aligned with the {len(top_consensus)} Picks Shown\n"
+                        f"(counted over panel 1 only, not all stocks)"
+                    )
                     axes[3].tick_params(axis="x", rotation=45)
                     for label in axes[3].get_xticklabels():
                         label.set_ha("right")
@@ -764,7 +871,14 @@ class AdvancedVisualizer:
             values_billions = top_by_value["total_value"] / 1e9
             _ = axes[0].barh(top_by_value["ticker"], values_billions, color="gold", alpha=0.7)
             axes[0].set_xlabel("Total Value ($B)", fontweight="bold")
-            axes[0].set_title("Top 15 Holdings by Total Value", fontsize=12, fontweight="bold")
+            # The frame is the analyzer's 50 most widely held tickers, so
+            # universe-wide value leaders that few managers hold (KO, OXY ...)
+            # are not in it. Rank honestly inside the frame we were given.
+            axes[0].set_title(
+                f"Top {len(top_by_value)} by Total Value\n(among the {len(df)} most widely held)",
+                fontsize=12,
+                fontweight="bold",
+            )
             axes[0].invert_yaxis()
             axes[0].grid(True, alpha=0.3)
 
@@ -813,7 +927,10 @@ class AdvancedVisualizer:
                 axes[3].set_xticks(range(len(top_by_weight)))
                 axes[3].set_xticklabels(top_by_weight["ticker"], rotation=45, ha="right")
                 axes[3].set_ylabel("Average Portfolio Allocation (%)")
-                axes[3].set_title("Top 15 Holdings by Average Portfolio Weight")
+                axes[3].set_title(
+                    f"Top {len(top_by_weight)} by Average Portfolio Weight\n"
+                    f"(among the {len(df)} most widely held)"
+                )
 
             plt.suptitle(f"Top Holdings Analysis (top {len(df)} tickers by manager count and value)", fontsize=16, fontweight="bold")
             plt.tight_layout()
@@ -997,21 +1114,24 @@ class AdvancedVisualizer:
             # Only list phases that are actually present in this panel.
             present_phases = [p for p in ["Accumulating", "Distributing", "Mixed"] if p in set(top_activity["phase"])]
             legend_elements = [Patch(facecolor=colors[p], label=p) for p in present_phases]
-            axes[3].legend(handles=legend_elements, loc="upper left")
+            acc_legend = axes[3].legend(handles=legend_elements, loc="upper left")
             axes[3].grid(True, alpha=0.3)
 
             # Add annotations for most active stocks
-            for _, row in top_activity.nlargest(10, "unique_managers").iterrows():
-                if pd.notna(row["buy_add_actions"]) and pd.notna(row["sell_reduce_actions"]):
-                    axes[3].annotate(
-                        row["ticker"],
-                        (row["buy_add_actions"], row["sell_reduce_actions"]),
-                        fontsize=8,
-                        alpha=0.8,
-                        fontweight="bold",
-                        xytext=(5, 5),
-                        textcoords="offset points",
-                    )
+            labelled = top_activity.nlargest(10, "unique_managers")
+            axes[3].margins(0.08)
+            axes[3].figure.canvas.draw()
+            legend_bbox = acc_legend.get_window_extent(renderer=axes[3].figure.canvas.get_renderer())
+            self._annotate_without_overlap(
+                axes[3],
+                labelled["buy_add_actions"],
+                labelled["sell_reduce_actions"],
+                labelled["ticker"],
+                fontsize=8,
+                avoid=[legend_bbox],
+                alpha=0.8,
+                fontweight="bold",
+            )
 
             plt.suptitle(
                 "Accumulation vs Distribution Analysis\n"

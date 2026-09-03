@@ -18,6 +18,7 @@ Source: https://github.com/op7ic/Dataroma-Analyzer
 
 import pandas as pd
 import matplotlib.pyplot as plt
+from matplotlib.transforms import Bbox
 import seaborn as sns
 import numpy as np
 from pathlib import Path
@@ -178,8 +179,23 @@ class CurrentVisualizer:
                     score + max_score * 0.02, i, f"{score:.2f}", va="center", ha="left", fontsize=9, fontweight="bold"
                 )
 
+            # Jitter x-position deterministically for points that share the same
+            # integer manager_count so co-located markers/labels can separate.
+            # The spread stays inside +/-0.4 of the true count: a wider band
+            # would push a 1-manager stock past 1.5 and read as 2 managers.
+            max_offset = 0.4
+            plot_x = top_gems["manager_count"].astype(float).copy()
+            for mgr_count, group in top_gems.groupby("manager_count"):
+                if len(group) <= 1:
+                    continue
+                ordered = group.sort_values("hidden_gem_score", ascending=False)
+                n = len(ordered)
+                jitter_step = min(0.16, 2 * max_offset / (n - 1))
+                for rank, idx in enumerate(ordered.index):
+                    plot_x.loc[idx] = mgr_count + (rank - (n - 1) / 2.0) * jitter_step
+
             ax2.scatter(
-                top_gems["manager_count"],
+                plot_x,
                 top_gems["hidden_gem_score"],
                 s=100,
                 alpha=0.6,
@@ -188,25 +204,118 @@ class CurrentVisualizer:
                 linewidth=0.5,
             )
 
-            # Improved label positioning to avoid overlap
-            texts = []
-            for idx, row in top_gems.iterrows():
-                # Offset labels slightly to reduce overlap
-                x_offset = 0.1
-                y_offset = 0.02
-                texts.append(
-                    ax2.annotate(
-                        row["ticker"],
-                        (row["manager_count"] + x_offset, row["hidden_gem_score"] + y_offset),
-                        fontsize=8,
-                        alpha=0.8,
-                        fontweight="bold",
+            # Give the axes some breathing room before placing labels so
+            # collision-avoided labels have space to land inside the axes.
+            x_min, x_max = plot_x.min(), plot_x.max()
+            x_pad = max((x_max - x_min) * 0.25, 0.6)
+            ax2.set_xlim(x_min - x_pad, x_max + x_pad)
+            # manager_count is a count: tick only the integers it can take.
+            counts = sorted(top_gems["manager_count"].astype(int).unique())
+            ax2.set_xticks(counts)
+            ax2.set_xticklabels([str(c) for c in counts])
+            y_min, y_max = top_gems["hidden_gem_score"].min(), top_gems["hidden_gem_score"].max()
+            y_pad = max((y_max - y_min) * 0.2, 0.05)
+            ax2.set_ylim(y_min - y_pad, y_max + y_pad * 2.5)
+
+            # Only label the top N by score to keep the panel readable; the
+            # remaining markers are still plotted (unlabeled).
+            label_n = min(15, len(top_gems))
+            labeled = top_gems.nlargest(label_n, "hidden_gem_score")
+
+            fig.canvas.draw()
+            renderer = fig.canvas.get_renderer()
+
+            # Marker bounding boxes (in display coords) so labels avoid sitting on markers.
+            marker_radius_pts = 7.0
+            marker_boxes = []
+            for idx in top_gems.index:
+                dx, dy = ax2.transData.transform((plot_x.loc[idx], top_gems.loc[idx, "hidden_gem_score"]))
+                marker_boxes.append(
+                    Bbox.from_extents(
+                        dx - marker_radius_pts, dy - marker_radius_pts, dx + marker_radius_pts, dy + marker_radius_pts
                     )
                 )
 
-            ax2.set_xlabel("Number of Managers", fontweight="bold")
+            # Candidate offsets (points, from the marker) tried nearest-first, in a
+            # spiral of increasing radius so labels stay as close as possible to
+            # their marker while still avoiding collisions.
+            candidate_offsets = []
+            for radius in (14, 20, 28, 36, 46, 58, 72, 88):
+                for angle_deg in (90, -90, 45, -45, 135, -135, 0, 180, 60, -60, 120, -120, 20, -20, 160, -160):
+                    rad = np.deg2rad(angle_deg)
+                    candidate_offsets.append((radius * np.cos(rad), radius * np.sin(rad)))
+
+            placed_boxes = []
+            # Place best-scoring labels first so they get the closest offsets.
+            for _, row in labeled.sort_values("hidden_gem_score", ascending=False).iterrows():
+                px, py = plot_x.loc[row.name], row["hidden_gem_score"]
+                chosen_dx, chosen_dy = candidate_offsets[-1]
+                for dx, dy in candidate_offsets:
+                    ann = ax2.annotate(
+                        row["ticker"],
+                        xy=(px, py),
+                        xytext=(dx, dy),
+                        textcoords="offset points",
+                        fontsize=8,
+                        alpha=0,
+                        fontweight="bold",
+                        ha="center",
+                        va="center",
+                    )
+                    fig.canvas.draw()
+                    bbox = ann.get_window_extent(renderer=renderer)
+                    ann.remove()
+
+                    overlaps_label = any(bbox.overlaps(b) for b in placed_boxes)
+                    overlaps_marker = any(bbox.overlaps(b) for b in marker_boxes)
+                    within_axes = ax2.bbox.contains(bbox.x0, bbox.y0) and ax2.bbox.contains(bbox.x1, bbox.y1)
+                    if not overlaps_label and not overlaps_marker and within_axes:
+                        chosen_dx, chosen_dy = dx, dy
+                        placed_boxes.append(bbox)
+                        break
+                else:
+                    # No collision-free spot found; use the farthest candidate and
+                    # record its box anyway so later labels still steer clear of it.
+                    ann = ax2.annotate(
+                        row["ticker"],
+                        xy=(px, py),
+                        xytext=(chosen_dx, chosen_dy),
+                        textcoords="offset points",
+                        fontsize=8,
+                        alpha=0,
+                        fontweight="bold",
+                        ha="center",
+                        va="center",
+                    )
+                    fig.canvas.draw()
+                    placed_boxes.append(ann.get_window_extent(renderer=renderer))
+                    ann.remove()
+
+                use_arrow = (chosen_dx**2 + chosen_dy**2) ** 0.5 > 20
+                ax2.annotate(
+                    row["ticker"],
+                    xy=(px, py),
+                    xytext=(chosen_dx, chosen_dy),
+                    textcoords="offset points",
+                    fontsize=8,
+                    alpha=0.9,
+                    fontweight="bold",
+                    ha="center",
+                    va="center",
+                    arrowprops=(
+                        dict(arrowstyle="-", color="gray", lw=0.5, alpha=0.6, shrinkA=2, shrinkB=marker_radius_pts)
+                        if use_arrow
+                        else None
+                    ),
+                )
+
+            ax2.set_xlabel("Number of Managers (jittered to separate overlapping points)", fontweight="bold")
             ax2.set_ylabel("Hidden Gem Score", fontweight="bold")
-            ax2.set_title("Hidden Gems: Manager Count vs Score Analysis", fontsize=12, fontweight="bold")
+            ax2.set_title(
+                f"Hidden Gems: Manager Count vs Score Analysis (top {label_n} by score labeled)",
+                fontsize=12,
+                fontweight="bold",
+            )
             ax2.grid(True, alpha=0.3)
 
             plt.tight_layout()

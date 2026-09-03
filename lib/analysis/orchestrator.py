@@ -445,7 +445,7 @@ providing insights into current opportunities, manager performance patterns, and
             "top_holdings": ("Largest positions", "Where smart money concentrates"),
             "quarterly_activity_timeline": ("18-year activity map", "Market timing and sentiment"),
             "crisis_response_analysis": ("Crisis behavior comparison", "2008 vs COVID vs 2022"),
-            "multi_decade_conviction": ("10+ year holdings", "Ultimate long-term plays"),
+            "multi_decade_conviction": ("Active in 10+ distinct years", "Ultimate long-term plays"),
             "stock_life_cycles": ("Entry/exit patterns", "Stock lifecycle insights"),
         }
 
@@ -466,7 +466,7 @@ providing insights into current opportunities, manager performance patterns, and
             "manager_performance_advanced": "**Manager Track Record Overview** - Activity, consistency and portfolio-size metrics (no returns)",
             "quarterly_activity_timeline": "**Investment Activity Timeline** - 18-year quarterly activity patterns with crisis periods",
             "crisis_response_comparison": "**Crisis Response Analysis** - Comparing behavior during major market crises",
-            "multi_decade_conviction": "**Multi-Decade Conviction Plays** - Stocks held for 10+ years by top managers",
+            "multi_decade_conviction": "**Multi-Decade Conviction Plays** - Stocks with recorded activity in 10+ distinct calendar years",
             "stock_life_cycles": "**Stock Life Cycle Analysis** - Entry, accumulation, and exit patterns over time",
             "manager_performance_historical": "**Historical Manager Performance** - Long-term track records and consistency",
         }

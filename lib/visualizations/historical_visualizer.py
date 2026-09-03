@@ -41,28 +41,41 @@ class HistoricalVisualizer:
         self.crisis_colors = {"2008_financial": "#FF6B6B", "2020_covid": "#4ECDC4", "2022_inflation": "#FFE66D"}
 
     @staticmethod
-    def _trim_partial_tail(values: pd.Series, ref_window: int = 4, threshold: float = 0.5) -> int:
+    def _trim_incomplete_tail(coverage: pd.Series, full: float) -> int:
         """
-        Count trailing entries that are clearly a partial period.
+        Count trailing buckets the cache has not fully observed.
 
-        13F filings for the most recent quarter (or the current calendar year)
-        are still being filed when the cache is scraped, so the last bucket of a
-        chronological series is a partial count and must not be plotted next to
-        complete periods. Returns how many trailing entries to drop: an entry
-        qualifies only when it falls below ``threshold`` of the median of the
-        ``ref_window`` complete entries before it. Nothing is extrapolated - the
-        partial period is simply excluded.
+        ``coverage`` must measure HOW MUCH OF EACH BUCKET the cache contains -
+        quarters of filings recorded in a calendar year, managers who filed in
+        a quarter - and never activity volume, which rises and falls for real
+        market reasons. A bucket is incomplete when its coverage is below
+        ``full``; the count stops at the first complete bucket. Nothing is
+        extrapolated - incomplete buckets are simply excluded from the plot.
         """
+        vals = list(coverage)
         n_drop = 0
-        vals = list(values)
-        while len(vals) - n_drop > ref_window + 1:
-            idx = len(vals) - n_drop - 1
-            ref = np.median(vals[idx - ref_window : idx])
-            if ref > 0 and vals[idx] < threshold * ref:
-                n_drop += 1
-            else:
-                break
+        while n_drop < len(vals) and vals[len(vals) - n_drop - 1] < full:
+            n_drop += 1
         return n_drop
+
+    @staticmethod
+    def _quarters_per_year(timeline_df: pd.DataFrame) -> pd.Series:
+        """
+        Quarters of activity the cache actually holds for each calendar year.
+
+        This is the coverage yardstick for any per-year chart: a year with
+        fewer than 4 observed quarters is a partial year, whatever its counts
+        happen to be.
+        """
+        if timeline_df is None or timeline_df.empty or "period" not in timeline_df.columns:
+            return pd.Series(dtype=int)
+        periods = timeline_df["period"].astype(str).str.strip()
+        parsed = periods.str.extract(r"^(Q[1-4])\s+(\d{4})$")
+        parsed = parsed.dropna()
+        if parsed.empty:
+            return pd.Series(dtype=int)
+        parsed.columns = ["quarter", "year"]
+        return parsed.groupby(parsed["year"].astype(int))["quarter"].nunique().sort_index()
 
     @staticmethod
     def _shorten(text: str, limit: int) -> str:
@@ -97,6 +110,10 @@ class HistoricalVisualizer:
         """Create all historical visualizations."""
         viz_paths = {}
 
+        # How many quarters the cache actually holds for each calendar year.
+        # Per-year charts need this to tell a partial year from a quiet one.
+        quarters_per_year = self._quarters_per_year(data.get("quarterly_activity_timeline"))
+
         if "quarterly_activity_timeline" in data:
             viz_paths["timeline"] = self.plot_activity_timeline(data["quarterly_activity_timeline"])
 
@@ -110,7 +127,7 @@ class HistoricalVisualizer:
             viz_paths["conviction_plays"] = self.plot_conviction_plays(data["multi_decade_conviction"])
 
         if "stock_life_cycles" in data:
-            viz_paths["life_cycles"] = self.plot_stock_life_cycles(data["stock_life_cycles"])
+            viz_paths["life_cycles"] = self.plot_stock_life_cycles(data["stock_life_cycles"], quarters_per_year)
 
         if "sector_rotation_patterns" in data:
             viz_paths["sector_rotation"] = self.plot_sector_rotation(data["sector_rotation_patterns"])
@@ -128,11 +145,13 @@ class HistoricalVisualizer:
         # from an unsorted source those lookups land on wrong quarters.
         df = df.sort_values(["year", "quarter"]).reset_index(drop=True)
 
-        # The most recent quarter is still being filed when the cache is
-        # scraped, so its counts are a partial tally. Plotted next to complete
-        # quarters it renders as a 90%+ collapse in activity that never
-        # happened; drop it instead of extrapolating it.
-        n_partial = self._trim_partial_tail(df["total_actions"])
+        # A quarter still inside the 45-day 13F filing window when the cache is
+        # scraped holds only the handful of managers who have filed so far.
+        # Judge that from manager coverage - the data's own measure of how much
+        # of the quarter is in hand - not from action volume, which rises and
+        # falls for real market reasons.
+        peak_coverage = df["unique_managers"].max()
+        n_partial = self._trim_incomplete_tail(df["unique_managers"], 0.6 * peak_coverage)
         partial_periods = list(df["period"].iloc[len(df) - n_partial :]) if n_partial else []
         if n_partial:
             df = df.iloc[: len(df) - n_partial].reset_index(drop=True)
@@ -170,7 +189,7 @@ class HistoricalVisualizer:
         ax1_rate.grid(False)
 
         crisis_colors = ["#FF6B6B", "#4ECDC4", "#FFE66D"]
-        for (crisis, periods), color in zip(crisis_periods.items(), crisis_colors):
+        for row, ((crisis, periods), color) in enumerate(zip(crisis_periods.items(), crisis_colors)):
             crisis_indices = []
             for period in periods:
                 if period in df["period"].values:
@@ -180,9 +199,13 @@ class HistoricalVisualizer:
 
             if crisis_indices:
                 mid_idx = crisis_indices[len(crisis_indices) // 2]
+                # COVID (Q1-Q2 2020) and the 2022 window sit ~7 quarters apart,
+                # so boxes pinned to the same height overprinted each other.
+                # Step each successive label down one band.
+                label_y = ax1.get_ylim()[1] * (0.95 - 0.11 * row)
                 ax1.text(
                     mid_idx,
-                    ax1.get_ylim()[1] * 0.95,
+                    label_y,
                     crisis,
                     ha="center",
                     va="top",
@@ -221,25 +244,45 @@ class HistoricalVisualizer:
         ax2.grid(True, alpha=0.3)
 
         ax3 = axes[2]
-        cumulative_net = df["net_activity"].cumsum()
-        ax3.plot(range(len(df)), cumulative_net, linewidth=3, color="purple", label="Cumulative Net Activity")
-        ax3.fill_between(
-            range(len(df)), 0, cumulative_net, where=(cumulative_net > 0), color="green", alpha=0.3, label="Net Buying"
+        # Cumulating the raw net counts turned the coverage ramp into a story:
+        # the curve fell from +286 to -4,665 almost entirely because the panel
+        # was summing 1-4 managers' quarters at the start and ~80 managers'
+        # quarters at the end. Two corrections, both applied: divide each
+        # quarter by the managers who filed it, and start the accumulation
+        # where coverage is at least half of peak.
+        per_manager_net = df["net_activity"] / df["unique_managers"].replace(0, np.nan)
+        x_cum = np.arange(coverage_cut, len(df))
+        cumulative_net = per_manager_net.iloc[coverage_cut:].fillna(0).cumsum()
+        start_period = df["period"].iloc[coverage_cut]
+        ax3.plot(
+            x_cum,
+            cumulative_net,
+            linewidth=3,
+            color="purple",
+            label=f"Cumulative net actions per active manager (from {start_period})",
         )
         ax3.fill_between(
-            range(len(df)), 0, cumulative_net, where=(cumulative_net <= 0), color="red", alpha=0.3, label="Net Selling"
+            x_cum, 0, cumulative_net, where=(cumulative_net > 0), color="green", alpha=0.3, label="Net Buying"
+        )
+        ax3.fill_between(
+            x_cum, 0, cumulative_net, where=(cumulative_net <= 0), color="red", alpha=0.3, label="Net Selling"
         )
 
-        ax3.set_title("Cumulative Net Market Sentiment", fontsize=14, fontweight="bold")
-        ax3.set_ylabel("Cumulative Net Actions", fontweight="bold")
+        ax3.set_title(
+            "Cumulative Net Activity per Active Manager (well-covered quarters only)",
+            fontsize=14,
+            fontweight="bold",
+        )
+        ax3.set_ylabel("Cumulative (Buy+Add) - (Sell+Reduce)\nper active manager", fontweight="bold")
         ax3.set_xlabel("Quarter", fontweight="bold")
-        ax3.legend(loc="best")
+        ax3.set_xlim(-0.5, len(df) - 0.5)
+        ax3.legend(loc="best", fontsize=8)
         ax3.grid(True, alpha=0.3)
 
         if partial_periods:
             ax3.set_xlabel(
                 f"Quarter (partial quarter{'s' if len(partial_periods) > 1 else ''} "
-                f"{', '.join(partial_periods)} excluded - filings incomplete)",
+                f"{', '.join(partial_periods)} excluded - fewer than 60% of filers reported)",
                 fontweight="bold",
             )
 
@@ -262,7 +305,7 @@ class HistoricalVisualizer:
 
         if coverage_cut > 0:
             ax2.legend(loc="upper left", bbox_to_anchor=(1.02, 1))
-            ax3.legend(loc="best")
+            ax3.legend(loc="best", fontsize=8)
             ax1.text(
                 coverage_cut / 2,
                 ax1.get_ylim()[1] * 0.55,
@@ -410,8 +453,20 @@ class HistoricalVisualizer:
         ax1.grid(True, alpha=0.3, axis="y")
 
         ax2 = axes[0, 1]
-        ax2.bar(range(len(df)), df["buy_ratio"], color="green", alpha=0.7, label="Buy Ratio")
-        ax2.bar(range(len(df)), df["sell_ratio"], bottom=df["buy_ratio"], color="red", alpha=0.7, label="Sell Ratio")
+        # Each bar is a ratio, so all three reach 100% however thin the evidence
+        # underneath them: the 2008 window survives for a handful of managers
+        # (Dataroma caps activity at ~1,000 rows each) while 2022 rests on
+        # dozens. Hatch the thin windows and put the sample size on the axis.
+        peak_window_managers = df["unique_managers"].max()
+        buy_bars = ax2.bar(range(len(df)), df["buy_ratio"], color="green", alpha=0.7, label="Buy Ratio")
+        sell_bars = ax2.bar(
+            range(len(df)), df["sell_ratio"], bottom=df["buy_ratio"], color="red", alpha=0.7, label="Sell Ratio"
+        )
+        for i, count in enumerate(df["unique_managers"]):
+            if peak_window_managers and count < 0.5 * peak_window_managers:
+                for bar in (buy_bars[i], sell_bars[i]):
+                    bar.set_hatch("//")
+                    bar.set_edgecolor("black")
 
         from matplotlib.ticker import PercentFormatter
 
@@ -421,8 +476,24 @@ class HistoricalVisualizer:
 
         ax2.set_title("Buy vs Sell Ratios During Crises", fontsize=14, fontweight="bold")
         ax2.set_xticks(range(len(df)))
-        ax2.set_xticklabels([c.replace("_", " ").title() for c in df["crisis"]], rotation=15)
-        ax2.legend()
+        ax2.set_xticklabels(
+            [
+                f"{c.replace('_', ' ').title()}\n({m} mgrs, {t:,.0f} actions)"
+                for c, m, t in zip(df["crisis"], df["unique_managers"], df["total_actions"])
+            ],
+            rotation=15,
+            fontsize=8,
+        )
+        ax2.legend(loc="lower right", fontsize=8)
+        ax2.text(
+            0.02,
+            0.05,
+            "Hatched = ratio rests on a fraction\nof the managers (window predates\nmost retained history)",
+            transform=ax2.transAxes,
+            va="bottom",
+            fontsize=7,
+            bbox=dict(boxstyle="round,pad=0.3", facecolor="white", alpha=0.85),
+        )
         ax2.grid(True, alpha=0.3, axis="y")
 
         ax3 = axes[1, 0]
@@ -672,8 +743,14 @@ class HistoricalVisualizer:
 
         return str(path)
 
-    def plot_stock_life_cycles(self, df: pd.DataFrame) -> str:
-        """Create stock life cycle visualization."""
+    def plot_stock_life_cycles(self, df: pd.DataFrame, quarters_per_year: pd.Series = None) -> str:
+        """
+        Create stock life cycle visualization.
+
+        ``quarters_per_year`` carries how many quarters the cache holds for each
+        calendar year (from the quarterly timeline); the per-year panel needs it
+        to exclude a year the scrape only covers part of.
+        """
         fig = plt.figure(figsize=(18, 14))
         gs = fig.add_gridspec(2, 2, hspace=0.3, wspace=0.3)
         axes = [fig.add_subplot(gs[i // 2, i % 2]) for i in range(4)]
@@ -743,9 +820,15 @@ class HistoricalVisualizer:
         ax2 = axes[1]
 
         entry_years = df.groupby("first_year").size().sort_index()
-        # The scrape happens mid-year, so the final entry year covers only part
-        # of the year and cannot be compared with the full years beside it.
-        n_partial_years = self._trim_partial_tail(entry_years)
+        # The scrape happens mid-year, so the newest calendar years hold only
+        # part of a year's filings. Completeness is a property of the cache's
+        # own coverage - a year with fewer than 4 observed quarters is partial,
+        # whatever its entry count - so read it off the quarterly timeline
+        # rather than guessing from the size of the bar.
+        year_coverage = (
+            pd.Series(dtype=int) if quarters_per_year is None else quarters_per_year.reindex(entry_years.index).fillna(0)
+        )
+        n_partial_years = self._trim_incomplete_tail(year_coverage, 4) if not year_coverage.empty else 0
         partial_years = list(entry_years.index[len(entry_years) - n_partial_years :]) if n_partial_years else []
         if n_partial_years:
             entry_years = entry_years.iloc[: len(entry_years) - n_partial_years]
@@ -770,7 +853,13 @@ class HistoricalVisualizer:
 
         ax2.set_xlabel(
             "First Observed Year"
-            + (f" (partial year {', '.join(str(int(y)) for y in partial_years)} excluded)" if partial_years else ""),
+            + (
+                f" (partial year{'s' if len(partial_years) > 1 else ''} "
+                f"{', '.join(str(int(y)) for y in partial_years)} excluded - "
+                "fewer than 4 quarters of filings in the cache)"
+                if partial_years
+                else ""
+            ),
             fontweight="bold",
         )
         ax2.set_ylabel("Number of Stocks", fontweight="bold")
