@@ -805,7 +805,7 @@
       "company_name": "Madison Square Garden Sports Corp."
     },
     {
-      "symbol": "ATGE",
+      "symbol": "CVSA",
       "manager_id": "AI",
       "action": "Reduce 8.26%",
       "date": "Q2 2026",
@@ -813,7 +813,7 @@
       "action_type": "Reduce",
       "shares": 159440,
       "portfolio_percentage": 0.2,
-      "company_name": "Adtalem Global Education"
+      "company_name": "Covista Inc."
     },
     {
       "symbol": "ADT",
@@ -1597,7 +1597,7 @@
       "company_name": "Norwegian Cruise Line Hlgs Ltd."
     },
     {
-      "symbol": "ATGE",
+      "symbol": "CVSA",
       "manager_id": "AI",
       "action": "Add 1.77%",
       "date": "Q1 2026",
@@ -1605,7 +1605,7 @@
       "action_type": "Add",
       "shares": 33656,
       "portfolio_percentage": 0.04,
-      "company_name": "Adtalem Global Education"
+      "company_name": "Covista Inc."
     },
     {
       "symbol": "MHK",
@@ -2510,7 +2510,7 @@
       "company_name": "Intel Corp."
     },
     {
-      "symbol": "ATGE",
+      "symbol": "CVSA",
       "manager_id": "AI",
       "action": "Add 46.55%",
       "date": "Q4 2025",
@@ -2518,7 +2518,7 @@
       "action_type": "Add",
       "shares": 602752,
       "portfolio_percentage": 0.67,
-      "company_name": "Adtalem Global Education"
+      "company_name": "Covista Inc."
     },
     {
       "symbol": "HDB",
@@ -4479,7 +4479,7 @@
       "company_name": "Jones Lang Lasalle Inc."
     },
     {
-      "symbol": "ATGE",
+      "symbol": "CVSA",
       "manager_id": "AI",
       "action": "Reduce 5.87%",
       "date": "Q3 2025",
@@ -4487,7 +4487,7 @@
       "action_type": "Reduce",
       "shares": 80811,
       "portfolio_percentage": 0.13,
-      "company_name": "Adtalem Global Education"
+      "company_name": "Covista Inc."
     },
     {
       "symbol": "NTRS",
@@ -5843,7 +5843,7 @@
       "company_name": "CBRE Group"
     },
     {
-      "symbol": "ATGE",
+      "symbol": "CVSA",
       "manager_id": "AI",
       "action": "Reduce 25.91%",
       "date": "Q2 2025",
@@ -5851,7 +5851,7 @@
       "action_type": "Reduce",
       "shares": 481191,
       "portfolio_percentage": 0.69,
-      "company_name": "Adtalem Global Education"
+      "company_name": "Covista Inc."
     },
     {
       "symbol": "CHKP",
@@ -6976,7 +6976,7 @@
       "company_name": "CarMax Inc."
     },
     {
-      "symbol": "ATGE",
+      "symbol": "CVSA",
       "manager_id": "AI",
       "action": "Reduce 11.29%",
       "date": "Q1 2025",
@@ -6984,7 +6984,7 @@
       "action_type": "Reduce",
       "shares": 236326,
       "portfolio_percentage": 0.28,
-      "company_name": "Adtalem Global Education"
+      "company_name": "Covista Inc."
     },
     {
       "symbol": "NTRS",
@@ -8142,7 +8142,7 @@
       "company_name": "Kennametal Inc."
     },
     {
-      "symbol": "ATGE",
+      "symbol": "CVSA",
       "manager_id": "AI",
       "action": "Reduce 7.07%",
       "date": "Q4 2024",
@@ -8150,7 +8150,7 @@
       "action_type": "Reduce",
       "shares": 159155,
       "portfolio_percentage": 0.15,
-      "company_name": "Adtalem Global Education"
+      "company_name": "Covista Inc."
     },
     {
       "symbol": "IPG-OLD",
@@ -9539,7 +9539,7 @@
       "company_name": "M&T Bank Corp."
     },
     {
-      "symbol": "ATGE",
+      "symbol": "CVSA",
       "manager_id": "AI",
       "action": "Reduce 23.43%",
       "date": "Q3 2024",
@@ -9547,7 +9547,7 @@
       "action_type": "Reduce",
       "shares": 689374,
       "portfolio_percentage": 0.53,
-      "company_name": "Adtalem Global Education"
+      "company_name": "Covista Inc."
     },
     {
       "symbol": "FICO",
@@ -10628,7 +10628,7 @@
       "company_name": "Stanley Black & Decker Inc."
     },
     {
-      "symbol": "ATGE",
+      "symbol": "CVSA",
       "manager_id": "AI",
       "action": "Reduce 4.47%",
       "date": "Q2 2024",
@@ -10636,7 +10636,7 @@
       "action_type": "Reduce",
       "shares": 137584,
       "portfolio_percentage": 0.1,
-      "company_name": "Adtalem Global Education"
+      "company_name": "Covista Inc."
     },
     {
       "symbol": "GNTX",
@@ -11002,6 +11002,6 @@
       "company_name": "DaVita HealthCare Partners"
     }
   ],
-  "timestamp": "2026-09-03T13:00:34.129404",
-  "scraped_date": "2026-09-03"
+  "timestamp": "2026-10-01T12:06:19.201641",
+  "scraped_date": "2026-10-01"
 }

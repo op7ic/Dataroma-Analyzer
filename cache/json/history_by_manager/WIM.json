@@ -525,7 +525,7 @@
       "date": "Q1 2026",
       "percentage_change": 0.0,
       "action_type": "Buy",
-      "shares": 9200,
+      "shares": 18400,
       "portfolio_percentage": 0.08,
       "company_name": "Amphenol Corp."
     },
@@ -4589,6 +4589,6 @@
       "company_name": "Ingersoll Rand Inc."
     }
   ],
-  "timestamp": "2026-09-03T13:00:34.268031",
-  "scraped_date": "2026-09-03"
+  "timestamp": "2026-10-01T12:06:19.339733",
+  "scraped_date": "2026-10-01"
 }

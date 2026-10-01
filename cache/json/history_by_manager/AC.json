@@ -882,7 +882,7 @@
       "company_name": "American Tower Corp."
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "AC",
       "action": "Sell 100.00%",
       "date": "Q2 2025",
@@ -1047,7 +1047,7 @@
       "company_name": "CarMax Inc."
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "AC",
       "action": "Reduce 78.46%",
       "date": "Q1 2025",
@@ -1157,7 +1157,7 @@
       "company_name": "KKR & Co. L.P."
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "AC",
       "action": "Reduce 41.85%",
       "date": "Q4 2024",
@@ -1333,7 +1333,7 @@
       "company_name": "CarMax Inc."
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "AC",
       "action": "Reduce 63.90%",
       "date": "Q3 2024",
@@ -1509,7 +1509,7 @@
       "company_name": "KKR & Co. L.P."
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "AC",
       "action": "Reduce 11.34%",
       "date": "Q2 2024",
@@ -1674,7 +1674,7 @@
       "company_name": "O'Reilly Automotive"
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "AC",
       "action": "Reduce 6.66%",
       "date": "Q1 2024",
@@ -1839,7 +1839,7 @@
       "company_name": "Brookfield Corp."
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "AC",
       "action": "Reduce 1.02%",
       "date": "Q4 2023",
@@ -2103,7 +2103,7 @@
       "company_name": "Brookfield Asset Management"
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "AC",
       "action": "Reduce 11.41%",
       "date": "Q3 2023",
@@ -2158,7 +2158,7 @@
       "company_name": "Danaher Corp."
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "AC",
       "action": "Reduce 2.22%",
       "date": "Q2 2023",
@@ -2235,7 +2235,7 @@
       "company_name": "Brookfield Corp."
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "AC",
       "action": "Add 2.86%",
       "date": "Q1 2023",
@@ -2356,7 +2356,7 @@
       "company_name": "Danaher Corp."
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "AC",
       "action": "Add 7.96%",
       "date": "Q4 2022",
@@ -2510,7 +2510,7 @@
       "company_name": "Snowflake Inc."
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "AC",
       "action": "Add 12.84%",
       "date": "Q3 2022",
@@ -2631,7 +2631,7 @@
       "company_name": "ThredUp Inc."
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "AC",
       "action": "Add 56.03%",
       "date": "Q2 2022",
@@ -3621,7 +3621,7 @@
       "company_name": "American Tower Corp."
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "AC",
       "action": "Reduce 1.87%",
       "date": "Q1 2021",
@@ -3907,7 +3907,7 @@
       "company_name": "Primo Water Corp."
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "AC",
       "action": "Add 613.65%",
       "date": "Q3 2020",
@@ -4226,7 +4226,7 @@
       "company_name": "Alarm.Com Holdings"
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "AC",
       "action": "Add 0.11%",
       "date": "Q2 2020",
@@ -4336,7 +4336,7 @@
       "company_name": "Primo Water Corp."
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "AC",
       "action": "Add 14883.82%",
       "date": "Q1 2020",
@@ -4908,7 +4908,7 @@
       "company_name": "Descartes Systems Group"
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "AC",
       "action": "Buy",
       "date": "Q3 2019",
@@ -11002,6 +11002,6 @@
       "company_name": "American Tower Corp."
     }
   ],
-  "timestamp": "2026-09-03T13:00:34.053060",
-  "scraped_date": "2026-09-03"
+  "timestamp": "2026-10-01T12:06:19.126183",
+  "scraped_date": "2026-10-01"
 }

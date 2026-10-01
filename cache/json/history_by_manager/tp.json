@@ -3275,7 +3275,7 @@
       "date": "Q4 2024",
       "percentage_change": 0.0,
       "action_type": "Sell",
-      "shares": 1600000,
+      "shares": 3200000,
       "portfolio_percentage": 1.41,
       "company_name": "Amphenol Corp."
     },
@@ -3572,7 +3572,7 @@
       "date": "Q3 2024",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 1200000,
+      "shares": 2400000,
       "portfolio_percentage": 1.06,
       "company_name": "Amphenol Corp."
     },
@@ -3803,7 +3803,7 @@
       "date": "Q2 2024",
       "percentage_change": 0.0,
       "action_type": "Buy",
-      "shares": 2800000,
+      "shares": 5600000,
       "portfolio_percentage": 2.17,
       "company_name": "Amphenol Corp."
     },
@@ -4325,7 +4325,7 @@
       "company_name": "Social Leverage Acquisition Corp. WTS"
     },
     {
-      "symbol": "TMCWW",
+      "symbol": "TMCWW-OLD",
       "manager_id": "tp",
       "action": "Sell 100.00%",
       "date": "Q1 2024",
@@ -9792,7 +9792,7 @@
       "company_name": "Cano Health Inc."
     },
     {
-      "symbol": "TMCWW",
+      "symbol": "TMCWW-OLD",
       "manager_id": "tp",
       "action": "Add 100.00%",
       "date": "Q2 2021",
@@ -11002,6 +11002,6 @@
       "company_name": "Shopify Inc."
     }
   ],
-  "timestamp": "2026-09-03T13:00:33.965302",
-  "scraped_date": "2026-09-03"
+  "timestamp": "2026-10-01T12:06:19.039346",
+  "scraped_date": "2026-10-01"
 }

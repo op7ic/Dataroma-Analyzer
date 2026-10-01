@@ -60902,7 +60902,7 @@
     "date": "Q4 2024",
     "percentage_change": 0.0,
     "action_type": "Sell",
-    "shares": 1600000,
+    "shares": 3200000,
     "portfolio_percentage": 1.41,
     "company_name": "Amphenol Corp."
   },
@@ -61199,7 +61199,7 @@
     "date": "Q3 2024",
     "percentage_change": 0.0,
     "action_type": "Reduce",
-    "shares": 1200000,
+    "shares": 2400000,
     "portfolio_percentage": 1.06,
     "company_name": "Amphenol Corp."
   },
@@ -61430,7 +61430,7 @@
     "date": "Q2 2024",
     "percentage_change": 0.0,
     "action_type": "Buy",
-    "shares": 2800000,
+    "shares": 5600000,
     "portfolio_percentage": 2.17,
     "company_name": "Amphenol Corp."
   },
@@ -61952,7 +61952,7 @@
     "company_name": "Social Leverage Acquisition Corp. WTS"
   },
   {
-    "symbol": "TMCWW",
+    "symbol": "TMCWW-OLD",
     "manager_id": "tp",
     "action": "Sell 100.00%",
     "date": "Q1 2024",
@@ -67419,7 +67419,7 @@
     "company_name": "Cano Health Inc."
   },
   {
-    "symbol": "TMCWW",
+    "symbol": "TMCWW-OLD",
     "manager_id": "tp",
     "action": "Add 100.00%",
     "date": "Q2 2021",
@@ -69119,7 +69119,7 @@
     "date": "Q2 2026",
     "percentage_change": 0.0,
     "action_type": "Sell",
-    "shares": 223084,
+    "shares": 446168,
     "portfolio_percentage": 0.22,
     "company_name": "Amphenol Corp."
   },
@@ -69548,7 +69548,7 @@
     "date": "Q1 2026",
     "percentage_change": 0.0,
     "action_type": "Reduce",
-    "shares": 2586689,
+    "shares": 5173378,
     "portfolio_percentage": 2.55,
     "company_name": "Amphenol Corp."
   },
@@ -69911,7 +69911,7 @@
     "date": "Q4 2025",
     "percentage_change": 0.0,
     "action_type": "Reduce",
-    "shares": 213458,
+    "shares": 426916,
     "portfolio_percentage": 0.21,
     "company_name": "Amphenol Corp."
   },
@@ -70164,7 +70164,7 @@
     "date": "Q3 2025",
     "percentage_change": 0.0,
     "action_type": "Buy",
-    "shares": 3023231,
+    "shares": 6046462,
     "portfolio_percentage": 2.72,
     "company_name": "Amphenol Corp."
   },
@@ -121231,7 +121231,7 @@
     "company_name": "TAL Education Group"
   },
   {
-    "symbol": "TMCWW",
+    "symbol": "TMCWW-OLD",
     "manager_id": "LMM",
     "action": "Sell 100.00%",
     "date": "Q3 2022",
@@ -143578,7 +143578,7 @@
     "date": "Q2 2026",
     "percentage_change": 0.0,
     "action_type": "Buy",
-    "shares": 6423,
+    "shares": 12846,
     "portfolio_percentage": 0.01,
     "company_name": "Amphenol Corp."
   },
@@ -158609,7 +158609,7 @@
     "company_name": "Paysafe Ltd WTS"
   },
   {
-    "symbol": "TMCWW",
+    "symbol": "TMCWW-OLD",
     "manager_id": "GLRE",
     "action": "Sell 100.00%",
     "date": "Q1 2023",
@@ -159830,7 +159830,7 @@
     "company_name": "Lakefront Biotherapeutics"
   },
   {
-    "symbol": "TMCWW",
+    "symbol": "TMCWW-OLD",
     "manager_id": "GLRE",
     "action": "Reduce 15.84%",
     "date": "Q1 2022",
@@ -160732,7 +160732,7 @@
     "company_name": "BlackSky Technology Inc. WTS"
   },
   {
-    "symbol": "TMCWW",
+    "symbol": "TMCWW-OLD",
     "manager_id": "GLRE",
     "action": "Buy",
     "date": "Q3 2021",
@@ -165627,7 +165627,7 @@
     "company_name": "American Tower Corp."
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "AC",
     "action": "Sell 100.00%",
     "date": "Q2 2025",
@@ -165792,7 +165792,7 @@
     "company_name": "CarMax Inc."
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "AC",
     "action": "Reduce 78.46%",
     "date": "Q1 2025",
@@ -165902,7 +165902,7 @@
     "company_name": "KKR & Co. L.P."
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "AC",
     "action": "Reduce 41.85%",
     "date": "Q4 2024",
@@ -166078,7 +166078,7 @@
     "company_name": "CarMax Inc."
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "AC",
     "action": "Reduce 63.90%",
     "date": "Q3 2024",
@@ -166254,7 +166254,7 @@
     "company_name": "KKR & Co. L.P."
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "AC",
     "action": "Reduce 11.34%",
     "date": "Q2 2024",
@@ -166419,7 +166419,7 @@
     "company_name": "O'Reilly Automotive"
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "AC",
     "action": "Reduce 6.66%",
     "date": "Q1 2024",
@@ -166584,7 +166584,7 @@
     "company_name": "Brookfield Corp."
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "AC",
     "action": "Reduce 1.02%",
     "date": "Q4 2023",
@@ -166848,7 +166848,7 @@
     "company_name": "Brookfield Asset Management"
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "AC",
     "action": "Reduce 11.41%",
     "date": "Q3 2023",
@@ -166903,7 +166903,7 @@
     "company_name": "Danaher Corp."
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "AC",
     "action": "Reduce 2.22%",
     "date": "Q2 2023",
@@ -166980,7 +166980,7 @@
     "company_name": "Brookfield Corp."
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "AC",
     "action": "Add 2.86%",
     "date": "Q1 2023",
@@ -167101,7 +167101,7 @@
     "company_name": "Danaher Corp."
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "AC",
     "action": "Add 7.96%",
     "date": "Q4 2022",
@@ -167255,7 +167255,7 @@
     "company_name": "Snowflake Inc."
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "AC",
     "action": "Add 12.84%",
     "date": "Q3 2022",
@@ -167376,7 +167376,7 @@
     "company_name": "ThredUp Inc."
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "AC",
     "action": "Add 56.03%",
     "date": "Q2 2022",
@@ -168366,7 +168366,7 @@
     "company_name": "American Tower Corp."
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "AC",
     "action": "Reduce 1.87%",
     "date": "Q1 2021",
@@ -168652,7 +168652,7 @@
     "company_name": "Primo Water Corp."
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "AC",
     "action": "Add 613.65%",
     "date": "Q3 2020",
@@ -168971,7 +168971,7 @@
     "company_name": "Alarm.Com Holdings"
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "AC",
     "action": "Add 0.11%",
     "date": "Q2 2020",
@@ -169081,7 +169081,7 @@
     "company_name": "Primo Water Corp."
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "AC",
     "action": "Add 14883.82%",
     "date": "Q1 2020",
@@ -169653,7 +169653,7 @@
     "company_name": "Descartes Systems Group"
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "AC",
     "action": "Buy",
     "date": "Q3 2019",
@@ -236533,7 +236533,7 @@
     "company_name": "Dynatrace Inc."
   },
   {
-    "symbol": "JTKWY",
+    "symbol": "JTKWY-OLD",
     "manager_id": "TGM",
     "action": "Sell 100.00%",
     "date": "Q1 2022",
@@ -239052,7 +239052,7 @@
     "company_name": "SentinelOne Inc."
   },
   {
-    "symbol": "JTKWY",
+    "symbol": "JTKWY-OLD",
     "manager_id": "TGM",
     "action": "Buy",
     "date": "Q2 2021",
@@ -257961,7 +257961,7 @@
     "company_name": "Madison Square Garden Sports Corp."
   },
   {
-    "symbol": "ATGE",
+    "symbol": "CVSA",
     "manager_id": "AI",
     "action": "Reduce 8.26%",
     "date": "Q2 2026",
@@ -257969,7 +257969,7 @@
     "action_type": "Reduce",
     "shares": 159440,
     "portfolio_percentage": 0.2,
-    "company_name": "Adtalem Global Education"
+    "company_name": "Covista Inc."
   },
   {
     "symbol": "ADT",
@@ -258753,7 +258753,7 @@
     "company_name": "Norwegian Cruise Line Hlgs Ltd."
   },
   {
-    "symbol": "ATGE",
+    "symbol": "CVSA",
     "manager_id": "AI",
     "action": "Add 1.77%",
     "date": "Q1 2026",
@@ -258761,7 +258761,7 @@
     "action_type": "Add",
     "shares": 33656,
     "portfolio_percentage": 0.04,
-    "company_name": "Adtalem Global Education"
+    "company_name": "Covista Inc."
   },
   {
     "symbol": "MHK",
@@ -259666,7 +259666,7 @@
     "company_name": "Intel Corp."
   },
   {
-    "symbol": "ATGE",
+    "symbol": "CVSA",
     "manager_id": "AI",
     "action": "Add 46.55%",
     "date": "Q4 2025",
@@ -259674,7 +259674,7 @@
     "action_type": "Add",
     "shares": 602752,
     "portfolio_percentage": 0.67,
-    "company_name": "Adtalem Global Education"
+    "company_name": "Covista Inc."
   },
   {
     "symbol": "HDB",
@@ -261635,7 +261635,7 @@
     "company_name": "Jones Lang Lasalle Inc."
   },
   {
-    "symbol": "ATGE",
+    "symbol": "CVSA",
     "manager_id": "AI",
     "action": "Reduce 5.87%",
     "date": "Q3 2025",
@@ -261643,7 +261643,7 @@
     "action_type": "Reduce",
     "shares": 80811,
     "portfolio_percentage": 0.13,
-    "company_name": "Adtalem Global Education"
+    "company_name": "Covista Inc."
   },
   {
     "symbol": "NTRS",
@@ -262999,7 +262999,7 @@
     "company_name": "CBRE Group"
   },
   {
-    "symbol": "ATGE",
+    "symbol": "CVSA",
     "manager_id": "AI",
     "action": "Reduce 25.91%",
     "date": "Q2 2025",
@@ -263007,7 +263007,7 @@
     "action_type": "Reduce",
     "shares": 481191,
     "portfolio_percentage": 0.69,
-    "company_name": "Adtalem Global Education"
+    "company_name": "Covista Inc."
   },
   {
     "symbol": "CHKP",
@@ -264132,7 +264132,7 @@
     "company_name": "CarMax Inc."
   },
   {
-    "symbol": "ATGE",
+    "symbol": "CVSA",
     "manager_id": "AI",
     "action": "Reduce 11.29%",
     "date": "Q1 2025",
@@ -264140,7 +264140,7 @@
     "action_type": "Reduce",
     "shares": 236326,
     "portfolio_percentage": 0.28,
-    "company_name": "Adtalem Global Education"
+    "company_name": "Covista Inc."
   },
   {
     "symbol": "NTRS",
@@ -265298,7 +265298,7 @@
     "company_name": "Kennametal Inc."
   },
   {
-    "symbol": "ATGE",
+    "symbol": "CVSA",
     "manager_id": "AI",
     "action": "Reduce 7.07%",
     "date": "Q4 2024",
@@ -265306,7 +265306,7 @@
     "action_type": "Reduce",
     "shares": 159155,
     "portfolio_percentage": 0.15,
-    "company_name": "Adtalem Global Education"
+    "company_name": "Covista Inc."
   },
   {
     "symbol": "IPG-OLD",
@@ -266695,7 +266695,7 @@
     "company_name": "M&T Bank Corp."
   },
   {
-    "symbol": "ATGE",
+    "symbol": "CVSA",
     "manager_id": "AI",
     "action": "Reduce 23.43%",
     "date": "Q3 2024",
@@ -266703,7 +266703,7 @@
     "action_type": "Reduce",
     "shares": 689374,
     "portfolio_percentage": 0.53,
-    "company_name": "Adtalem Global Education"
+    "company_name": "Covista Inc."
   },
   {
     "symbol": "FICO",
@@ -267784,7 +267784,7 @@
     "company_name": "Stanley Black & Decker Inc."
   },
   {
-    "symbol": "ATGE",
+    "symbol": "CVSA",
     "manager_id": "AI",
     "action": "Reduce 4.47%",
     "date": "Q2 2024",
@@ -267792,7 +267792,7 @@
     "action_type": "Reduce",
     "shares": 137584,
     "portfolio_percentage": 0.1,
-    "company_name": "Adtalem Global Education"
+    "company_name": "Covista Inc."
   },
   {
     "symbol": "GNTX",
@@ -284906,7 +284906,7 @@
     "date": "Q2 2026",
     "percentage_change": 0.0,
     "action_type": "Buy",
-    "shares": 21645,
+    "shares": 43290,
     "portfolio_percentage": 0.81,
     "company_name": "Amphenol Corp."
   },
@@ -310673,7 +310673,7 @@
     "company_name": "D and Z Media Acquisition Corp. Units"
   },
   {
-    "symbol": "GBTG",
+    "symbol": "GBTG-OLD",
     "manager_id": "oa",
     "action": "Sell 100.00%",
     "date": "Q3 2021",
@@ -311509,7 +311509,7 @@
     "company_name": "Foresight Acquisition Corp. Units"
   },
   {
-    "symbol": "GBTG",
+    "symbol": "GBTG-OLD",
     "manager_id": "oa",
     "action": "Buy",
     "date": "Q1 2021",
@@ -342012,7 +342012,7 @@
     "company_name": "Nexen Inc."
   },
   {
-    "symbol": "BTAI",
+    "symbol": "BTAIQ",
     "manager_id": "oc",
     "action": "Add 472.27%",
     "date": "Q2 2026",
@@ -344245,7 +344245,7 @@
     "company_name": "Jbs Nv A"
   },
   {
-    "symbol": "BTAI",
+    "symbol": "BTAIQ",
     "manager_id": "oc",
     "action": "Buy",
     "date": "Q2 2025",
@@ -352842,7 +352842,7 @@
     "date": "Q3 2022",
     "percentage_change": 0.0,
     "action_type": "Sell",
-    "shares": 7500,
+    "shares": 625,
     "portfolio_percentage": 0.02,
     "company_name": "SHF Holdings Inc."
   },
@@ -353617,7 +353617,7 @@
     "company_name": "Globus Medical Inc."
   },
   {
-    "symbol": "ATAI",
+    "symbol": "ATAI-OLD",
     "manager_id": "RC",
     "action": "Buy",
     "date": "Q1 2026",
@@ -354365,7 +354365,7 @@
     "company_name": "Jacobs Solutions Inc."
   },
   {
-    "symbol": "ATAI",
+    "symbol": "ATAI-OLD",
     "manager_id": "RC",
     "action": "Sell 100.00%",
     "date": "Q4 2025",
@@ -357412,7 +357412,7 @@
     "company_name": "GTT Communications"
   },
   {
-    "symbol": "JTKWY",
+    "symbol": "JTKWY-OLD",
     "manager_id": "CM",
     "action": "Sell 100.00%",
     "date": "Q2 2021",
@@ -357445,7 +357445,7 @@
     "company_name": "Cresud Inc."
   },
   {
-    "symbol": "JTKWY",
+    "symbol": "JTKWY-OLD",
     "manager_id": "CM",
     "action": "Buy",
     "date": "Q1 2021",
@@ -370777,7 +370777,7 @@
     "company_name": "WillScot Mobile Mini Hldgs Corp."
   },
   {
-    "symbol": "TBPH",
+    "symbol": "TBPH-OLD",
     "manager_id": "BAUPOST",
     "action": "Sell 100.00%",
     "date": "Q3 2024",
@@ -371008,7 +371008,7 @@
     "company_name": "Viasat Inc."
   },
   {
-    "symbol": "TBPH",
+    "symbol": "TBPH-OLD",
     "manager_id": "BAUPOST",
     "action": "Reduce 36.31%",
     "date": "Q2 2024",
@@ -371195,7 +371195,7 @@
     "company_name": "Viasat Inc."
   },
   {
-    "symbol": "TBPH",
+    "symbol": "TBPH-OLD",
     "manager_id": "BAUPOST",
     "action": "Reduce 11.12%",
     "date": "Q1 2024",
@@ -371965,7 +371965,7 @@
     "company_name": "New Oriental Education & Technology"
   },
   {
-    "symbol": "TBPH",
+    "symbol": "TBPH-OLD",
     "manager_id": "BAUPOST",
     "action": "Reduce 28.79%",
     "date": "Q2 2023",
@@ -372031,7 +372031,7 @@
     "company_name": "Lithia Motors Inc."
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "BAUPOST",
     "action": "Sell 100.00%",
     "date": "Q2 2023",
@@ -372196,7 +372196,7 @@
     "company_name": "New Oriental Education & Technology"
   },
   {
-    "symbol": "TBPH",
+    "symbol": "TBPH-OLD",
     "manager_id": "BAUPOST",
     "action": "Reduce 8.76%",
     "date": "Q1 2023",
@@ -372262,7 +372262,7 @@
     "company_name": "Trilogy Metals Inc."
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "BAUPOST",
     "action": "Reduce 61.46%",
     "date": "Q1 2023",
@@ -372482,7 +372482,7 @@
     "company_name": "Liberty SiriusXM Series C"
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "BAUPOST",
     "action": "Reduce 2.68%",
     "date": "Q4 2022",
@@ -372526,7 +372526,7 @@
     "company_name": "Finch Therapeutics Group Inc."
   },
   {
-    "symbol": "TBPH",
+    "symbol": "TBPH-OLD",
     "manager_id": "BAUPOST",
     "action": "Reduce 14.90%",
     "date": "Q4 2022",
@@ -373175,7 +373175,7 @@
     "company_name": "Joby Aviation Inc. WTS"
   },
   {
-    "symbol": "TBPH",
+    "symbol": "TBPH-OLD",
     "manager_id": "BAUPOST",
     "action": "Reduce 1.64%",
     "date": "Q2 2022",
@@ -373318,7 +373318,7 @@
     "company_name": "ironSource Ltd"
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "BAUPOST",
     "action": "Reduce 28.35%",
     "date": "Q2 2022",
@@ -373593,7 +373593,7 @@
     "company_name": "BellRing Brands Inc. CL A"
   },
   {
-    "symbol": "TBPH",
+    "symbol": "TBPH-OLD",
     "manager_id": "BAUPOST",
     "action": "Reduce 0.12%",
     "date": "Q1 2022",
@@ -373868,7 +373868,7 @@
     "company_name": "Archaea Energy Inc."
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "BAUPOST",
     "action": "Reduce 19.72%",
     "date": "Q1 2022",
@@ -374297,7 +374297,7 @@
     "company_name": "Liberty SiriusXM Series C"
   },
   {
-    "symbol": "TBPH",
+    "symbol": "TBPH-OLD",
     "manager_id": "BAUPOST",
     "action": "Add 37.84%",
     "date": "Q3 2021",
@@ -374583,7 +374583,7 @@
     "company_name": "Meta Platforms Inc."
   },
   {
-    "symbol": "TBPH",
+    "symbol": "TBPH-OLD",
     "manager_id": "BAUPOST",
     "action": "Add 13.45%",
     "date": "Q2 2021",
@@ -374715,7 +374715,7 @@
     "company_name": "Advantage Solutions Inc."
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "BAUPOST",
     "action": "Reduce 5.52%",
     "date": "Q2 2021",
@@ -375496,7 +375496,7 @@
     "company_name": "SS&C Technologies Holdings Inc."
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "BAUPOST",
     "action": "Add 7.03%",
     "date": "Q4 2020",
@@ -376057,7 +376057,7 @@
     "company_name": "eBay Inc."
   },
   {
-    "symbol": "TBPH",
+    "symbol": "TBPH-OLD",
     "manager_id": "BAUPOST",
     "action": "Reduce 6.17%",
     "date": "Q3 2020",
@@ -376068,7 +376068,7 @@
     "company_name": "Theravance Biopharma Inc."
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "BAUPOST",
     "action": "Reduce 11.93%",
     "date": "Q3 2020",
@@ -376332,7 +376332,7 @@
     "company_name": "Alphabet Inc. CL C"
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "BAUPOST",
     "action": "Reduce 48.30%",
     "date": "Q2 2020",
@@ -376943,7 +376943,7 @@
     "date": "Q4 2019",
     "percentage_change": 0.0,
     "action_type": "Sell",
-    "shares": 967171,
+    "shares": 12090,
     "portfolio_percentage": 0.19,
     "company_name": "Gossamer Bio Inc."
   },
@@ -377108,7 +377108,7 @@
     "date": "Q3 2019",
     "percentage_change": 0.0,
     "action_type": "Reduce",
-    "shares": 300000,
+    "shares": 3750,
     "portfolio_percentage": 0.06,
     "company_name": "Gossamer Bio Inc."
   },
@@ -377614,7 +377614,7 @@
     "date": "Q1 2019",
     "percentage_change": 0.0,
     "action_type": "Buy",
-    "shares": 1267171,
+    "shares": 15839,
     "portfolio_percentage": 0.23,
     "company_name": "Gossamer Bio Inc."
   },
@@ -378367,7 +378367,7 @@
     "company_name": "Viasat Inc."
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "BAUPOST",
     "action": "Buy",
     "date": "Q2 2018",
@@ -379027,7 +379027,7 @@
     "company_name": "Fox Corporation CL B"
   },
   {
-    "symbol": "TBPH",
+    "symbol": "TBPH-OLD",
     "manager_id": "BAUPOST",
     "action": "Add 0.38%",
     "date": "Q3 2017",
@@ -379643,7 +379643,7 @@
     "company_name": "NorthStar Realty Finance Corp."
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "BAUPOST",
     "action": "Sell 100.00%",
     "date": "Q1 2017",
@@ -379731,7 +379731,7 @@
     "company_name": "Allergan Plc"
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "BAUPOST",
     "action": "Add 56.53%",
     "date": "Q4 2016",
@@ -379753,7 +379753,7 @@
     "company_name": "Fox Corporation"
   },
   {
-    "symbol": "TBPH",
+    "symbol": "TBPH-OLD",
     "manager_id": "BAUPOST",
     "action": "Add 26.16%",
     "date": "Q4 2016",
@@ -382157,7 +382157,7 @@
     "date": "Q2 2025",
     "percentage_change": 0.0,
     "action_type": "Sell",
-    "shares": 2482800,
+    "shares": 49656,
     "portfolio_percentage": 1.06,
     "company_name": "New Fortress Energy Inc. CL A"
   },
@@ -382366,7 +382366,7 @@
     "date": "Q1 2025",
     "percentage_change": 0.0,
     "action_type": "Buy",
-    "shares": 2482800,
+    "shares": 49656,
     "portfolio_percentage": 1.06,
     "company_name": "New Fortress Energy Inc. CL A"
   },
@@ -425233,7 +425233,7 @@
     "date": "Q1 2026",
     "percentage_change": 0.0,
     "action_type": "Buy",
-    "shares": 9200,
+    "shares": 18400,
     "portfolio_percentage": 0.08,
     "company_name": "Amphenol Corp."
   },
@@ -440000,7 +440000,7 @@
     "company_name": "Howard Hughes Holdings Inc."
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "TA",
     "action": "Sell 100.00%",
     "date": "Q1 2020",
@@ -440132,7 +440132,7 @@
     "company_name": "Seritage Growth Properties"
   },
   {
-    "symbol": "DBRG",
+    "symbol": "DBRG-OLD",
     "manager_id": "TA",
     "action": "Add 2.77%",
     "date": "Q4 2019",
@@ -507293,7 +507293,7 @@
     "date": "Q2 2026",
     "percentage_change": 0.0,
     "action_type": "Add",
-    "shares": 389297,
+    "shares": 778594,
     "portfolio_percentage": 1.67,
     "company_name": "Amphenol Corp."
   },
@@ -508415,7 +508415,7 @@
     "date": "Q1 2026",
     "percentage_change": 0.0,
     "action_type": "Reduce",
-    "shares": 5125,
+    "shares": 10250,
     "portfolio_percentage": 0.01,
     "company_name": "Amphenol Corp."
   },
@@ -509735,7 +509735,7 @@
     "date": "Q4 2025",
     "percentage_change": 0.0,
     "action_type": "Reduce",
-    "shares": 638976,
+    "shares": 1277952,
     "portfolio_percentage": 1.36,
     "company_name": "Amphenol Corp."
   },
@@ -510593,7 +510593,7 @@
     "date": "Q3 2025",
     "percentage_change": 0.0,
     "action_type": "Reduce",
-    "shares": 1742545,
+    "shares": 3485090,
     "portfolio_percentage": 2.69,
     "company_name": "Amphenol Corp."
   },
@@ -510791,7 +510791,7 @@
     "date": "Q2 2025",
     "percentage_change": 0.0,
     "action_type": "Add",
-    "shares": 94418,
+    "shares": 188836,
     "portfolio_percentage": 0.11,
     "company_name": "Amphenol Corp."
   },
@@ -511517,7 +511517,7 @@
     "date": "Q1 2025",
     "percentage_change": 0.0,
     "action_type": "Reduce",
-    "shares": 2085,
+    "shares": 4170,
     "portfolio_percentage": 0.0,
     "company_name": "Amphenol Corp."
   },
@@ -512859,7 +512859,7 @@
     "date": "Q4 2024",
     "percentage_change": 0.0,
     "action_type": "Reduce",
-    "shares": 575984,
+    "shares": 1151968,
     "portfolio_percentage": 0.36,
     "company_name": "Amphenol Corp."
   },
@@ -513662,7 +513662,7 @@
     "date": "Q3 2024",
     "percentage_change": 0.0,
     "action_type": "Reduce",
-    "shares": 871884,
+    "shares": 1743768,
     "portfolio_percentage": 0.48,
     "company_name": "Amphenol Corp."
   },
@@ -514377,7 +514377,7 @@
     "date": "Q2 2024",
     "percentage_change": 0.0,
     "action_type": "Reduce",
-    "shares": 1985650,
+    "shares": 3971300,
     "portfolio_percentage": 1.1,
     "company_name": "Amphenol Corp."
   },
@@ -515004,7 +515004,7 @@
     "date": "Q1 2024",
     "percentage_change": 0.0,
     "action_type": "Reduce",
-    "shares": 780650,
+    "shares": 1561300,
     "portfolio_percentage": 0.34,
     "company_name": "Amphenol Corp."
   },
@@ -515587,7 +515587,7 @@
     "date": "Q4 2023",
     "percentage_change": 0.0,
     "action_type": "Reduce",
-    "shares": 158324,
+    "shares": 316648,
     "portfolio_percentage": 0.06,
     "company_name": "Amphenol Corp."
   },
@@ -516258,7 +516258,7 @@
     "date": "Q3 2023",
     "percentage_change": 0.0,
     "action_type": "Reduce",
-    "shares": 59670,
+    "shares": 119340,
     "portfolio_percentage": 0.02,
     "company_name": "Amphenol Corp."
   },
@@ -517006,7 +517006,7 @@
     "date": "Q2 2023",
     "percentage_change": 0.0,
     "action_type": "Add",
-    "shares": 66886,
+    "shares": 133772,
     "portfolio_percentage": 0.02,
     "company_name": "Amphenol Corp."
   },
@@ -517864,7 +517864,7 @@
     "date": "Q1 2023",
     "percentage_change": 0.0,
     "action_type": "Reduce",
-    "shares": 235908,
+    "shares": 471816,
     "portfolio_percentage": 0.08,
     "company_name": "Amphenol Corp."
   },
@@ -518249,7 +518249,7 @@
     "date": "Q4 2022",
     "percentage_change": 0.0,
     "action_type": "Add",
-    "shares": 1337264,
+    "shares": 2674528,
     "portfolio_percentage": 0.4,
     "company_name": "Amphenol Corp."
   },
@@ -544275,7 +544275,7 @@
     "date": "Q2 2026",
     "percentage_change": 0.0,
     "action_type": "Reduce",
-    "shares": 3900,
+    "shares": 7800,
     "portfolio_percentage": 0.1,
     "company_name": "Amphenol Corp."
   },
@@ -544990,7 +544990,7 @@
     "date": "Q1 2026",
     "percentage_change": 0.0,
     "action_type": "Reduce",
-    "shares": 968,
+    "shares": 1936,
     "portfolio_percentage": 0.02,
     "company_name": "Amphenol Corp."
   },
@@ -546134,7 +546134,7 @@
     "date": "Q4 2025",
     "percentage_change": 0.0,
     "action_type": "Reduce",
-    "shares": 17598,
+    "shares": 35196,
     "portfolio_percentage": 0.37,
     "company_name": "Amphenol Corp."
   },
@@ -547113,7 +547113,7 @@
     "date": "Q3 2025",
     "percentage_change": 0.0,
     "action_type": "Reduce",
-    "shares": 14644,
+    "shares": 29288,
     "portfolio_percentage": 0.25,
     "company_name": "Amphenol Corp."
   },
@@ -548070,7 +548070,7 @@
     "date": "Q2 2025",
     "percentage_change": 0.0,
     "action_type": "Reduce",
-    "shares": 7217,
+    "shares": 14434,
     "portfolio_percentage": 0.1,
     "company_name": "Amphenol Corp."
   },
@@ -548950,7 +548950,7 @@
     "date": "Q1 2025",
     "percentage_change": 0.0,
     "action_type": "Reduce",
-    "shares": 2016,
+    "shares": 4032,
     "portfolio_percentage": 0.02,
     "company_name": "Amphenol Corp."
   },
@@ -549555,7 +549555,7 @@
     "date": "Q4 2024",
     "percentage_change": 0.0,
     "action_type": "Add",
-    "shares": 1551,
+    "shares": 3102,
     "portfolio_percentage": 0.02,
     "company_name": "Amphenol Corp."
   },
@@ -550930,7 +550930,7 @@
     "date": "Q3 2024",
     "percentage_change": 0.0,
     "action_type": "Reduce",
-    "shares": 3,
+    "shares": 6,
     "portfolio_percentage": 0.0,
     "company_name": "Amphenol Corp."
   },
@@ -552228,7 +552228,7 @@
     "date": "Q2 2024",
     "percentage_change": 0.0,
     "action_type": "Reduce",
-    "shares": 16470,
+    "shares": 32940,
     "portfolio_percentage": 0.17,
     "company_name": "Amphenol Corp."
   },
@@ -552921,7 +552921,7 @@
     "date": "Q1 2024",
     "percentage_change": 0.0,
     "action_type": "Reduce",
-    "shares": 2944,
+    "shares": 5888,
     "portfolio_percentage": 0.03,
     "company_name": "Amphenol Corp."
   },
@@ -553658,7 +553658,7 @@
     "date": "Q4 2023",
     "percentage_change": 0.0,
     "action_type": "Add",
-    "shares": 1210,
+    "shares": 2420,
     "portfolio_percentage": 0.01,
     "company_name": "Amphenol Corp."
   },
@@ -572765,7 +572765,7 @@
     "date": "Q2 2026",
     "percentage_change": 0.0,
     "action_type": "Add",
-    "shares": 1995335,
+    "shares": 3990670,
     "portfolio_percentage": 3.4,
     "company_name": "Amphenol Corp."
   },
@@ -573271,7 +573271,7 @@
     "date": "Q1 2026",
     "percentage_change": 0.0,
     "action_type": "Reduce",
-    "shares": 836558,
+    "shares": 1673116,
     "portfolio_percentage": 1.17,
     "company_name": "Amphenol Corp."
   },
@@ -573590,7 +573590,7 @@
     "date": "Q4 2025",
     "percentage_change": 0.0,
     "action_type": "Reduce",
-    "shares": 115511,
+    "shares": 231022,
     "portfolio_percentage": 0.17,
     "company_name": "Amphenol Corp."
   },
@@ -573777,7 +573777,7 @@
     "date": "Q3 2025",
     "percentage_change": 0.0,
     "action_type": "Add",
-    "shares": 654949,
+    "shares": 1309898,
     "portfolio_percentage": 0.85,
     "company_name": "Amphenol Corp."
   },
@@ -574074,7 +574074,7 @@
     "date": "Q2 2025",
     "percentage_change": 0.0,
     "action_type": "Add",
-    "shares": 1405850,
+    "shares": 2811700,
     "portfolio_percentage": 1.42,
     "company_name": "Amphenol Corp."
   },
@@ -574558,7 +574558,7 @@
     "date": "Q1 2025",
     "percentage_change": 0.0,
     "action_type": "Buy",
-    "shares": 1762623,
+    "shares": 3525246,
     "portfolio_percentage": 1.33,
     "company_name": "Amphenol Corp."
   },
@@ -590090,7 +590090,7 @@
     "date": "Q4 2024",
     "percentage_change": 0.0,
     "action_type": "Buy",
-    "shares": 3056,
+    "shares": 6112,
     "portfolio_percentage": 0.02,
     "company_name": "Amphenol Corp."
   },
@@ -591487,7 +591487,7 @@
     "date": "Q3 2024",
     "percentage_change": 0.0,
     "action_type": "Sell",
-    "shares": 3056,
+    "shares": 6112,
     "portfolio_percentage": 0.02,
     "company_name": "Amphenol Corp."
   },
@@ -591916,7 +591916,7 @@
     "date": "Q2 2024",
     "percentage_change": 0.0,
     "action_type": "Buy",
-    "shares": 3056,
+    "shares": 6112,
     "portfolio_percentage": 0.02,
     "company_name": "Amphenol Corp."
   },

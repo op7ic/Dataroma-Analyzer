@@ -1751,7 +1751,7 @@
       "company_name": "WillScot Mobile Mini Hldgs Corp."
     },
     {
-      "symbol": "TBPH",
+      "symbol": "TBPH-OLD",
       "manager_id": "BAUPOST",
       "action": "Sell 100.00%",
       "date": "Q3 2024",
@@ -1982,7 +1982,7 @@
       "company_name": "Viasat Inc."
     },
     {
-      "symbol": "TBPH",
+      "symbol": "TBPH-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 36.31%",
       "date": "Q2 2024",
@@ -2169,7 +2169,7 @@
       "company_name": "Viasat Inc."
     },
     {
-      "symbol": "TBPH",
+      "symbol": "TBPH-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 11.12%",
       "date": "Q1 2024",
@@ -2939,7 +2939,7 @@
       "company_name": "New Oriental Education & Technology"
     },
     {
-      "symbol": "TBPH",
+      "symbol": "TBPH-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 28.79%",
       "date": "Q2 2023",
@@ -3005,7 +3005,7 @@
       "company_name": "Lithia Motors Inc."
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "BAUPOST",
       "action": "Sell 100.00%",
       "date": "Q2 2023",
@@ -3170,7 +3170,7 @@
       "company_name": "New Oriental Education & Technology"
     },
     {
-      "symbol": "TBPH",
+      "symbol": "TBPH-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 8.76%",
       "date": "Q1 2023",
@@ -3236,7 +3236,7 @@
       "company_name": "Trilogy Metals Inc."
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 61.46%",
       "date": "Q1 2023",
@@ -3456,7 +3456,7 @@
       "company_name": "Liberty SiriusXM Series C"
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 2.68%",
       "date": "Q4 2022",
@@ -3500,7 +3500,7 @@
       "company_name": "Finch Therapeutics Group Inc."
     },
     {
-      "symbol": "TBPH",
+      "symbol": "TBPH-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 14.90%",
       "date": "Q4 2022",
@@ -4149,7 +4149,7 @@
       "company_name": "Joby Aviation Inc. WTS"
     },
     {
-      "symbol": "TBPH",
+      "symbol": "TBPH-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 1.64%",
       "date": "Q2 2022",
@@ -4292,7 +4292,7 @@
       "company_name": "ironSource Ltd"
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 28.35%",
       "date": "Q2 2022",
@@ -4567,7 +4567,7 @@
       "company_name": "BellRing Brands Inc. CL A"
     },
     {
-      "symbol": "TBPH",
+      "symbol": "TBPH-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 0.12%",
       "date": "Q1 2022",
@@ -4842,7 +4842,7 @@
       "company_name": "Archaea Energy Inc."
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 19.72%",
       "date": "Q1 2022",
@@ -5271,7 +5271,7 @@
       "company_name": "Liberty SiriusXM Series C"
     },
     {
-      "symbol": "TBPH",
+      "symbol": "TBPH-OLD",
       "manager_id": "BAUPOST",
       "action": "Add 37.84%",
       "date": "Q3 2021",
@@ -5557,7 +5557,7 @@
       "company_name": "Meta Platforms Inc."
     },
     {
-      "symbol": "TBPH",
+      "symbol": "TBPH-OLD",
       "manager_id": "BAUPOST",
       "action": "Add 13.45%",
       "date": "Q2 2021",
@@ -5689,7 +5689,7 @@
       "company_name": "Advantage Solutions Inc."
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 5.52%",
       "date": "Q2 2021",
@@ -6470,7 +6470,7 @@
       "company_name": "SS&C Technologies Holdings Inc."
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "BAUPOST",
       "action": "Add 7.03%",
       "date": "Q4 2020",
@@ -7031,7 +7031,7 @@
       "company_name": "eBay Inc."
     },
     {
-      "symbol": "TBPH",
+      "symbol": "TBPH-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 6.17%",
       "date": "Q3 2020",
@@ -7042,7 +7042,7 @@
       "company_name": "Theravance Biopharma Inc."
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 11.93%",
       "date": "Q3 2020",
@@ -7306,7 +7306,7 @@
       "company_name": "Alphabet Inc. CL C"
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 48.30%",
       "date": "Q2 2020",
@@ -7917,7 +7917,7 @@
       "date": "Q4 2019",
       "percentage_change": 0.0,
       "action_type": "Sell",
-      "shares": 967171,
+      "shares": 12090,
       "portfolio_percentage": 0.19,
       "company_name": "Gossamer Bio Inc."
     },
@@ -8082,7 +8082,7 @@
       "date": "Q3 2019",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 300000,
+      "shares": 3750,
       "portfolio_percentage": 0.06,
       "company_name": "Gossamer Bio Inc."
     },
@@ -8588,7 +8588,7 @@
       "date": "Q1 2019",
       "percentage_change": 0.0,
       "action_type": "Buy",
-      "shares": 1267171,
+      "shares": 15839,
       "portfolio_percentage": 0.23,
       "company_name": "Gossamer Bio Inc."
     },
@@ -9341,7 +9341,7 @@
       "company_name": "Viasat Inc."
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "BAUPOST",
       "action": "Buy",
       "date": "Q2 2018",
@@ -10001,7 +10001,7 @@
       "company_name": "Fox Corporation CL B"
     },
     {
-      "symbol": "TBPH",
+      "symbol": "TBPH-OLD",
       "manager_id": "BAUPOST",
       "action": "Add 0.38%",
       "date": "Q3 2017",
@@ -10617,7 +10617,7 @@
       "company_name": "NorthStar Realty Finance Corp."
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "BAUPOST",
       "action": "Sell 100.00%",
       "date": "Q1 2017",
@@ -10705,7 +10705,7 @@
       "company_name": "Allergan Plc"
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "BAUPOST",
       "action": "Add 56.53%",
       "date": "Q4 2016",
@@ -10727,7 +10727,7 @@
       "company_name": "Fox Corporation"
     },
     {
-      "symbol": "TBPH",
+      "symbol": "TBPH-OLD",
       "manager_id": "BAUPOST",
       "action": "Add 26.16%",
       "date": "Q4 2016",
@@ -11002,6 +11002,6 @@
       "company_name": "Fox Corporation"
     }
   ],
-  "timestamp": "2026-09-03T13:00:34.221744",
-  "scraped_date": "2026-09-03"
+  "timestamp": "2026-10-01T12:06:19.293638",
+  "scraped_date": "2026-10-01"
 }

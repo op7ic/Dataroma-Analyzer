@@ -6905,7 +6905,7 @@
       "date": "Q4 2024",
       "percentage_change": 0.0,
       "action_type": "Buy",
-      "shares": 3056,
+      "shares": 6112,
       "portfolio_percentage": 0.02,
       "company_name": "Amphenol Corp."
     },
@@ -8302,7 +8302,7 @@
       "date": "Q3 2024",
       "percentage_change": 0.0,
       "action_type": "Sell",
-      "shares": 3056,
+      "shares": 6112,
       "portfolio_percentage": 0.02,
       "company_name": "Amphenol Corp."
     },
@@ -8731,7 +8731,7 @@
       "date": "Q2 2024",
       "percentage_change": 0.0,
       "action_type": "Buy",
-      "shares": 3056,
+      "shares": 6112,
       "portfolio_percentage": 0.02,
       "company_name": "Amphenol Corp."
     },
@@ -11002,6 +11002,6 @@
       "company_name": "U.S. Bancorp"
     }
   ],
-  "timestamp": "2026-09-03T13:00:34.398717",
-  "scraped_date": "2026-09-03"
+  "timestamp": "2026-10-01T12:06:19.470011",
+  "scraped_date": "2026-10-01"
 }

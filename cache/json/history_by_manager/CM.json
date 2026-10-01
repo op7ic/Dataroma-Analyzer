@@ -937,7 +937,7 @@
       "company_name": "GTT Communications"
     },
     {
-      "symbol": "JTKWY",
+      "symbol": "JTKWY-OLD",
       "manager_id": "CM",
       "action": "Sell 100.00%",
       "date": "Q2 2021",
@@ -970,7 +970,7 @@
       "company_name": "Cresud Inc."
     },
     {
-      "symbol": "JTKWY",
+      "symbol": "JTKWY-OLD",
       "manager_id": "CM",
       "action": "Buy",
       "date": "Q1 2021",
@@ -1553,6 +1553,6 @@
       "company_name": "Alibaba Group Holdings"
     }
   ],
-  "timestamp": "2026-09-03T13:00:34.211532",
-  "scraped_date": "2026-09-03"
+  "timestamp": "2026-10-01T12:06:19.283374",
+  "scraped_date": "2026-10-01"
 }

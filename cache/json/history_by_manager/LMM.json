@@ -7856,7 +7856,7 @@
       "company_name": "TAL Education Group"
     },
     {
-      "symbol": "TMCWW",
+      "symbol": "TMCWW-OLD",
       "manager_id": "LMM",
       "action": "Sell 100.00%",
       "date": "Q3 2022",
@@ -11002,6 +11002,6 @@
       "company_name": "Pitney Bowes Inc."
     }
   ],
-  "timestamp": "2026-09-03T13:00:34.010809",
-  "scraped_date": "2026-09-03"
+  "timestamp": "2026-10-01T12:06:19.084159",
+  "scraped_date": "2026-10-01"
 }

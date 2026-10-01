@@ -569,7 +569,7 @@
       "date": "Q2 2026",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 3900,
+      "shares": 7800,
       "portfolio_percentage": 0.1,
       "company_name": "Amphenol Corp."
     },
@@ -1284,7 +1284,7 @@
       "date": "Q1 2026",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 968,
+      "shares": 1936,
       "portfolio_percentage": 0.02,
       "company_name": "Amphenol Corp."
     },
@@ -2428,7 +2428,7 @@
       "date": "Q4 2025",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 17598,
+      "shares": 35196,
       "portfolio_percentage": 0.37,
       "company_name": "Amphenol Corp."
     },
@@ -3407,7 +3407,7 @@
       "date": "Q3 2025",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 14644,
+      "shares": 29288,
       "portfolio_percentage": 0.25,
       "company_name": "Amphenol Corp."
     },
@@ -4364,7 +4364,7 @@
       "date": "Q2 2025",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 7217,
+      "shares": 14434,
       "portfolio_percentage": 0.1,
       "company_name": "Amphenol Corp."
     },
@@ -5244,7 +5244,7 @@
       "date": "Q1 2025",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 2016,
+      "shares": 4032,
       "portfolio_percentage": 0.02,
       "company_name": "Amphenol Corp."
     },
@@ -5849,7 +5849,7 @@
       "date": "Q4 2024",
       "percentage_change": 0.0,
       "action_type": "Add",
-      "shares": 1551,
+      "shares": 3102,
       "portfolio_percentage": 0.02,
       "company_name": "Amphenol Corp."
     },
@@ -7224,7 +7224,7 @@
       "date": "Q3 2024",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 3,
+      "shares": 6,
       "portfolio_percentage": 0.0,
       "company_name": "Amphenol Corp."
     },
@@ -8522,7 +8522,7 @@
       "date": "Q2 2024",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 16470,
+      "shares": 32940,
       "portfolio_percentage": 0.17,
       "company_name": "Amphenol Corp."
     },
@@ -9215,7 +9215,7 @@
       "date": "Q1 2024",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 2944,
+      "shares": 5888,
       "portfolio_percentage": 0.03,
       "company_name": "Amphenol Corp."
     },
@@ -9952,7 +9952,7 @@
       "date": "Q4 2023",
       "percentage_change": 0.0,
       "action_type": "Add",
-      "shares": 1210,
+      "shares": 2420,
       "portfolio_percentage": 0.01,
       "company_name": "Amphenol Corp."
     },
@@ -11002,6 +11002,6 @@
       "company_name": "T. Rowe Price Group"
     }
   ],
-  "timestamp": "2026-09-03T13:00:34.365870",
-  "scraped_date": "2026-09-03"
+  "timestamp": "2026-10-01T12:06:19.437839",
+  "scraped_date": "2026-10-01"
 }

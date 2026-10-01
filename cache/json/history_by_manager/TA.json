@@ -10705,7 +10705,7 @@
       "company_name": "Howard Hughes Holdings Inc."
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "TA",
       "action": "Sell 100.00%",
       "date": "Q1 2020",
@@ -10837,7 +10837,7 @@
       "company_name": "Seritage Growth Properties"
     },
     {
-      "symbol": "DBRG",
+      "symbol": "DBRG-OLD",
       "manager_id": "TA",
       "action": "Add 2.77%",
       "date": "Q4 2019",
@@ -11002,6 +11002,6 @@
       "company_name": "Southside Bancshares Inc."
     }
   ],
-  "timestamp": "2026-09-03T13:00:34.271886",
-  "scraped_date": "2026-09-03"
+  "timestamp": "2026-10-01T12:06:19.343611",
+  "scraped_date": "2026-10-01"
 }

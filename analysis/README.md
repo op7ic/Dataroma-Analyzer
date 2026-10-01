@@ -1,6 +1,6 @@
 # 📊 Dataroma Investment Analysis
 
-*Generated: 2026-09-03 13:04:25*
+*Generated: 2026-10-01 12:10:09*
 
 ## 🎯 Overview
 
@@ -57,7 +57,7 @@ Immediate opportunities and recent market activity from Q4 2025 to Q2 2026.
 | [momentum_stocks.csv](current/momentum_stocks.csv) | Recent buying activity (50 items) | Tracks institutional accumulation patterns |
 | [most_sold_stocks.csv](current/most_sold_stocks.csv) | Recent exit activity (50 items) | Most divested institutional positions |
 | [new_positions.csv](current/new_positions.csv) | Fresh acquisitions (100 items) | Identifies emerging manager interests |
-| [stocks_under_$5.csv](current/stocks_under_$5.csv) | Ultra-low price opportunities (32 items) | Deep value plays under $5 |
+| [stocks_under_$5.csv](current/stocks_under_$5.csv) | Ultra-low price opportunities (40 items) | Deep value plays under $5 |
 | [stocks_under_$10.csv](current/stocks_under_$10.csv) | Sub-$10 opportunities (50 items) | Manager favorites under $10 |
 | [stocks_under_$20.csv](current/stocks_under_$20.csv) | Affordable growth plays (50 items) | Quality stocks at accessible prices |
 | [stocks_under_$50.csv](current/stocks_under_$50.csv) | Mid-price value plays (50 items) | Institutional picks under $50 |
@@ -70,11 +70,11 @@ Immediate opportunities and recent market activity from Q4 2025 to Q2 2026.
 
 | Ticker | Score | Price | Managers |
 | ------ | ----- | ----- | -------- |
-| **JOE** | 2.27 | $65.42 | Bruce Berkowitz |
-| **IEP** | 1.87 | $6.80 | Carl Icahn |
-| **AMR** | 1.66 | $233.29 | Mohnish Pabrai |
-| **HHH** | 1.48 | $63.18 | Bill Ackman |
-| **EWBC** | 1.38 | $128.97 | Li Lu |
+| **JOE** | 2.27 | $65.78 | Bruce Berkowitz |
+| **IEP** | 1.87 | $6.75 | Carl Icahn |
+| **AMR** | 1.77 | $168.22 | Mohnish Pabrai |
+| **EWBC** | 1.41 | $123.93 | Li Lu |
+| **HHH** | 1.41 | $73.62 | Bill Ackman |
 
 ---
 
@@ -256,7 +256,7 @@ The 52-week high/low analyses use these filter criteria:
 Stocks bought while trading near their 52-week low (`near_52w_low=True`).
 
 - **40 stocks** currently meet this criterion
-- Examples: BN, TEL, FISV
+- Examples: AXP, COF, SPGI
 - These are being accumulated by value-focused managers
 
 #### 52-Week High Sells (`52_week_high_sells.csv`)
@@ -264,8 +264,8 @@ Stocks bought while trading near their 52-week low (`near_52w_low=True`).
 Stocks sold while trading near their 52-week high (`near_52w_high=True`).
 
 - **40 stocks** currently meet this criterion
-- Examples: AAPL, KO, BAC
-- 34 stocks show "Heavy Distribution" patterns
+- Examples: AAPL, KO, META
+- 31 stocks show "Heavy Distribution" patterns
 
 
 ### New Positions Context
@@ -296,21 +296,21 @@ Some stocks appear in multiple analysis files with opposite signals, because dif
 
 These tickers appear in both `contrarian_opportunities.csv` and `momentum_stocks.csv`. This happens when different managers take opposite positions on the same stock:
 
-- **GOOG**: Contrarian signal: Net Selling (buys: 23.0, sells: 64.0) | Momentum score: 91.2279411764706
+- **CMCSA**: Contrarian signal: Net Buying (buys: 19.0, sells: 15.0) | Momentum score: 58.07
 
-- **GOOGL**: Contrarian signal: Net Selling (buys: 20.0, sells: 73.0) | Momentum score: 85.7461111111111
+- **FISV**: Contrarian signal: Net Buying (buys: 21.0, sells: 14.0) | Momentum score: 57.18888888888889
+
+- **AMZN**: Contrarian signal: Net Selling (buys: 42.0, sells: 51.0) | Momentum score: 130.03411764705882
 
 - **COF**: Contrarian signal: Net Selling (buys: 13.0, sells: 35.0) | Momentum score: 49.409375
 
-- **UNH**: Contrarian signal: Net Selling (buys: 23.0, sells: 40.0) | Momentum score: 69.45823529411764
-
-- **AVGO**: Contrarian signal: Net Selling (buys: 16.0, sells: 20.0) | Momentum score: 52.31923076923077
+- **MA**: Contrarian signal: Net Selling (buys: 17.0, sells: 34.0) | Momentum score: 65.5404761904762
 
 #### New Positions with Contrarian Signals
 
 These newly initiated positions also show contrarian patterns, suggesting managers are taking bold positions against the crowd:
-- **META**: New position initiated amid contrarian activity
-- **AMAT**: New position initiated amid contrarian activity
+- **SPGI**: New position initiated amid contrarian activity
+- **TSM**: New position initiated amid contrarian activity
 - **MA**: New position initiated amid contrarian activity
 
 
@@ -328,7 +328,7 @@ All current analysis reports use manager filings from this window.
 
 4. **Manager Activity**: A single manager may have multiple entries for the same stock if they made multiple transactions (Buy, Add, Reduce) within the analysis window.
 
-**Report Generated**: 2026-09-03 13:04:25
+**Report Generated**: 2026-10-01 12:10:09
 
 
 ---

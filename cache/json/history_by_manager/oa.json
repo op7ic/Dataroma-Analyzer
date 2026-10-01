@@ -6096,7 +6096,7 @@
       "company_name": "D and Z Media Acquisition Corp. Units"
     },
     {
-      "symbol": "GBTG",
+      "symbol": "GBTG-OLD",
       "manager_id": "oa",
       "action": "Sell 100.00%",
       "date": "Q3 2021",
@@ -6932,7 +6932,7 @@
       "company_name": "Foresight Acquisition Corp. Units"
     },
     {
-      "symbol": "GBTG",
+      "symbol": "GBTG-OLD",
       "manager_id": "oa",
       "action": "Buy",
       "date": "Q1 2021",
@@ -11002,6 +11002,6 @@
       "company_name": "Marathon Petroleum Corp."
     }
   ],
-  "timestamp": "2026-09-03T13:00:34.168543",
-  "scraped_date": "2026-09-03"
+  "timestamp": "2026-10-01T12:06:19.240371",
+  "scraped_date": "2026-10-01"
 }

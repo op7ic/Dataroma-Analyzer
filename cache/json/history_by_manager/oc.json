@@ -2,7 +2,7 @@
   "manager_id": "oc",
   "activities": [
     {
-      "symbol": "BTAI",
+      "symbol": "BTAIQ",
       "manager_id": "oc",
       "action": "Add 472.27%",
       "date": "Q2 2026",
@@ -2235,7 +2235,7 @@
       "company_name": "Jbs Nv A"
     },
     {
-      "symbol": "BTAI",
+      "symbol": "BTAIQ",
       "manager_id": "oc",
       "action": "Buy",
       "date": "Q2 2025",
@@ -10832,7 +10832,7 @@
       "date": "Q3 2022",
       "percentage_change": 0.0,
       "action_type": "Sell",
-      "shares": 7500,
+      "shares": 625,
       "portfolio_percentage": 0.02,
       "company_name": "SHF Holdings Inc."
     },
@@ -11002,6 +11002,6 @@
       "company_name": "Metal Sky Star Acquisi Right"
     }
   ],
-  "timestamp": "2026-09-03T13:00:34.199481",
-  "scraped_date": "2026-09-03"
+  "timestamp": "2026-10-01T12:06:19.271354",
+  "scraped_date": "2026-10-01"
 }

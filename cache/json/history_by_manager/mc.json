@@ -833,7 +833,7 @@
       "date": "Q2 2026",
       "percentage_change": 0.0,
       "action_type": "Buy",
-      "shares": 6423,
+      "shares": 12846,
       "portfolio_percentage": 0.01,
       "company_name": "Amphenol Corp."
     },
@@ -11002,6 +11002,6 @@
       "company_name": "Turning Point Brands Inc."
     }
   ],
-  "timestamp": "2026-09-03T13:00:34.035190",
-  "scraped_date": "2026-09-03"
+  "timestamp": "2026-10-01T12:06:19.108549",
+  "scraped_date": "2026-10-01"
 }

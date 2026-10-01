@@ -607,7 +607,7 @@
       "company_name": "Globus Medical Inc."
     },
     {
-      "symbol": "ATAI",
+      "symbol": "ATAI-OLD",
       "manager_id": "RC",
       "action": "Buy",
       "date": "Q1 2026",
@@ -1355,7 +1355,7 @@
       "company_name": "Jacobs Solutions Inc."
     },
     {
-      "symbol": "ATAI",
+      "symbol": "ATAI-OLD",
       "manager_id": "RC",
       "action": "Sell 100.00%",
       "date": "Q4 2025",
@@ -3467,6 +3467,6 @@
       "company_name": "Micron Technology Inc."
     }
   ],
-  "timestamp": "2026-09-03T13:00:34.208588",
-  "scraped_date": "2026-09-03"
+  "timestamp": "2026-10-01T12:06:19.280334",
+  "scraped_date": "2026-10-01"
 }

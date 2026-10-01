@@ -4864,7 +4864,7 @@
       "company_name": "Paysafe Ltd WTS"
     },
     {
-      "symbol": "TMCWW",
+      "symbol": "TMCWW-OLD",
       "manager_id": "GLRE",
       "action": "Sell 100.00%",
       "date": "Q1 2023",
@@ -6085,7 +6085,7 @@
       "company_name": "Lakefront Biotherapeutics"
     },
     {
-      "symbol": "TMCWW",
+      "symbol": "TMCWW-OLD",
       "manager_id": "GLRE",
       "action": "Reduce 15.84%",
       "date": "Q1 2022",
@@ -6987,7 +6987,7 @@
       "company_name": "BlackSky Technology Inc. WTS"
     },
     {
-      "symbol": "TMCWW",
+      "symbol": "TMCWW-OLD",
       "manager_id": "GLRE",
       "action": "Buy",
       "date": "Q3 2021",
@@ -11002,6 +11002,6 @@
       "company_name": "Altaba Inc."
     }
   ],
-  "timestamp": "2026-09-03T13:00:34.044037",
-  "scraped_date": "2026-09-03"
+  "timestamp": "2026-10-01T12:06:19.117302",
+  "scraped_date": "2026-10-01"
 }

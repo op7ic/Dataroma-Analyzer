@@ -327,7 +327,7 @@
       "date": "Q2 2026",
       "percentage_change": 0.0,
       "action_type": "Buy",
-      "shares": 21645,
+      "shares": 43290,
       "portfolio_percentage": 0.81,
       "company_name": "Amphenol Corp."
     },
@@ -9000,6 +9000,6 @@
       "company_name": "Cencora Inc."
     }
   ],
-  "timestamp": "2026-09-03T13:00:34.152433",
-  "scraped_date": "2026-09-03"
+  "timestamp": "2026-10-01T12:06:19.224294",
+  "scraped_date": "2026-10-01"
 }

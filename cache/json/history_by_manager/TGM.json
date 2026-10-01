@@ -7999,7 +7999,7 @@
       "company_name": "Dynatrace Inc."
     },
     {
-      "symbol": "JTKWY",
+      "symbol": "JTKWY-OLD",
       "manager_id": "TGM",
       "action": "Sell 100.00%",
       "date": "Q1 2022",
@@ -10518,7 +10518,7 @@
       "company_name": "SentinelOne Inc."
     },
     {
-      "symbol": "JTKWY",
+      "symbol": "JTKWY-OLD",
       "manager_id": "TGM",
       "action": "Buy",
       "date": "Q2 2021",
@@ -11002,6 +11002,6 @@
       "company_name": "Zoom Video Communications Inc."
     }
   ],
-  "timestamp": "2026-09-03T13:00:34.105914",
-  "scraped_date": "2026-09-03"
+  "timestamp": "2026-10-01T12:06:19.178532",
+  "scraped_date": "2026-10-01"
 }

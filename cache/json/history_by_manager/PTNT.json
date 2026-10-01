@@ -2131,7 +2131,7 @@
       "date": "Q2 2025",
       "percentage_change": 0.0,
       "action_type": "Sell",
-      "shares": 2482800,
+      "shares": 49656,
       "portfolio_percentage": 1.06,
       "company_name": "New Fortress Energy Inc. CL A"
     },
@@ -2340,7 +2340,7 @@
       "date": "Q1 2025",
       "percentage_change": 0.0,
       "action_type": "Buy",
-      "shares": 2482800,
+      "shares": 49656,
       "portfolio_percentage": 1.06,
       "company_name": "New Fortress Energy Inc. CL A"
     },
@@ -7724,6 +7724,6 @@
       "company_name": "RealReal Inc."
     }
   ],
-  "timestamp": "2026-09-03T13:00:34.230838",
-  "scraped_date": "2026-09-03"
+  "timestamp": "2026-10-01T12:06:19.302592",
+  "scraped_date": "2026-10-01"
 }

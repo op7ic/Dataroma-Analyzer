@@ -492,7 +492,7 @@
       "date": "Q2 2026",
       "percentage_change": 0.0,
       "action_type": "Sell",
-      "shares": 223084,
+      "shares": 446168,
       "portfolio_percentage": 0.22,
       "company_name": "Amphenol Corp."
     },
@@ -921,7 +921,7 @@
       "date": "Q1 2026",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 2586689,
+      "shares": 5173378,
       "portfolio_percentage": 2.55,
       "company_name": "Amphenol Corp."
     },
@@ -1284,7 +1284,7 @@
       "date": "Q4 2025",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 213458,
+      "shares": 426916,
       "portfolio_percentage": 0.21,
       "company_name": "Amphenol Corp."
     },
@@ -1537,7 +1537,7 @@
       "date": "Q3 2025",
       "percentage_change": 0.0,
       "action_type": "Buy",
-      "shares": 3023231,
+      "shares": 6046462,
       "portfolio_percentage": 2.72,
       "company_name": "Amphenol Corp."
     },
@@ -11002,6 +11002,6 @@
       "company_name": "TransUnion"
     }
   ],
-  "timestamp": "2026-09-03T13:00:33.974269",
-  "scraped_date": "2026-09-03"
+  "timestamp": "2026-10-01T12:06:19.048184",
+  "scraped_date": "2026-10-01"
 }
