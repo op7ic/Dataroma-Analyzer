@@ -1553,7 +1553,7 @@
       "company_name": "Phillips 66"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "HA",
       "action": "Reduce 85.39%",
       "date": "Q2 2026",
@@ -3181,7 +3181,7 @@
       "company_name": "Lear Corp."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "HA",
       "action": "Reduce 58.31%",
       "date": "Q1 2026",
@@ -4776,7 +4776,7 @@
       "company_name": "General Motors"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "HA",
       "action": "Reduce 17.83%",
       "date": "Q4 2025",
@@ -5106,7 +5106,7 @@
       "company_name": "Bank of New York Mellon Corp."
     },
     {
-      "symbol": "ACVA",
+      "symbol": "ACVA-OLD",
       "manager_id": "HA",
       "action": "Sell 100.00%",
       "date": "Q4 2025",
@@ -5447,7 +5447,7 @@
       "company_name": "Charles River Labs"
     },
     {
-      "symbol": "ACVA",
+      "symbol": "ACVA-OLD",
       "manager_id": "HA",
       "action": "Add 25.07%",
       "date": "Q3 2025",
@@ -6536,7 +6536,7 @@
       "company_name": "KKR & Co. L.P."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "HA",
       "action": "Reduce 11.90%",
       "date": "Q3 2025",
@@ -7526,7 +7526,7 @@
       "company_name": "ABM Industries"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "HA",
       "action": "Add 13.97%",
       "date": "Q2 2025",
@@ -7812,7 +7812,7 @@
       "company_name": "Apple Inc."
     },
     {
-      "symbol": "ACVA",
+      "symbol": "ACVA-OLD",
       "manager_id": "HA",
       "action": "Add 1.72%",
       "date": "Q2 2025",
@@ -9319,7 +9319,7 @@
       "company_name": "Sapiens International Corp"
     },
     {
-      "symbol": "ACVA",
+      "symbol": "ACVA-OLD",
       "manager_id": "HA",
       "action": "Add 31.89%",
       "date": "Q1 2025",
@@ -9748,7 +9748,7 @@
       "company_name": "Corebridge Financial Inc."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "HA",
       "action": "Add 0.06%",
       "date": "Q1 2025",
@@ -11002,6 +11002,6 @@
       "company_name": "Keurig Dr Pepper Inc."
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.150582",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.705402",
+  "scraped_date": "2026-11-01"
 }

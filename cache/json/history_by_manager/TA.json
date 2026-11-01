@@ -2147,7 +2147,7 @@
       "company_name": "Brookfield Asset Management"
     },
     {
-      "symbol": "ELME",
+      "symbol": "ELME-OLD",
       "manager_id": "TA",
       "action": "Sell 100.00%",
       "date": "Q2 2025",
@@ -3610,7 +3610,7 @@
       "company_name": "LSB Industries Inc."
     },
     {
-      "symbol": "ELME",
+      "symbol": "ELME-OLD",
       "manager_id": "TA",
       "action": "Add 43.08%",
       "date": "Q1 2024",
@@ -4358,7 +4358,7 @@
       "company_name": "Washington Trust Bancorp Inc."
     },
     {
-      "symbol": "ELME",
+      "symbol": "ELME-OLD",
       "manager_id": "TA",
       "action": "Add 44.44%",
       "date": "Q3 2023",
@@ -4908,7 +4908,7 @@
       "company_name": "Whitestone REIT"
     },
     {
-      "symbol": "ELME",
+      "symbol": "ELME-OLD",
       "manager_id": "TA",
       "action": "Buy",
       "date": "Q2 2023",
@@ -11002,6 +11002,6 @@
       "company_name": "Southside Bancshares Inc."
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.343611",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.914164",
+  "scraped_date": "2026-11-01"
 }

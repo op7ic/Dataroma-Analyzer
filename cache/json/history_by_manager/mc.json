@@ -5574,7 +5574,7 @@
       "date": "Q1 2026",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 273686,
+      "shares": 22808,
       "portfolio_percentage": 0.0,
       "company_name": "Fractyl Health Inc"
     },
@@ -11002,6 +11002,6 @@
       "company_name": "Turning Point Brands Inc."
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.108549",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.659934",
+  "scraped_date": "2026-11-01"
 }

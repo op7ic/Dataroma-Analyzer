@@ -1,41 +1,51 @@
 ticker,company_name,current_price,manager_count,managers,total_value,avg_portfolio_pct,total_shares,max_portfolio_pct,recent_buys,latest_buy_quarter,price_opportunity_score,price_category,_analysis_type,_generated,_periods,_window_quarters
-ABEV,Ambev S.A.,2.92,3,"First Eagle Investment Management, Dodge & Cox Funds, Richard Pzena",1109411000,0.61,353315806,1.81,5.0,Q4 2025,11.613333333333332,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-MBI,MBIA Inc.,4.26,2,"Kahn Brothers Group, Francis Chou",29568000,2.66,4534920,4.34,2.0,Q2 2026,8.655,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-STLA,Stellantis N.V.,4.36,2,"Ruane Cunniff LP, Francis Chou",8147000,1.84,1419269,3.69,3.0,Q4 2025,8.844999999999999,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-COTY,Coty Inc.,2.61,2,"Bill Miller, Lee Ainslie",10633000,1.01,4923022,2.0,2.0,Q2 2026,7.01,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-ABR,Arbor Realty Trust Inc.,3.86,2,"Bill Miller, Leon Cooperman",12335000,0.52,2275739,0.78,3.0,Q2 2026,7.515,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-UAA,Under Armour Inc.,4.46,1,Prem Watsa,289831000,10.98,45356965,10.98,3.0,Q4 2025,15.98,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-EVH,Evolent Health Inc.,3.49,1,Glenn Welling,30156000,9.34,5563912,9.34,2.0,Q4 2025,13.34,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-GTN,Gray Television Inc.,4.5,1,Bill Miller,28756000,6.8,7243390,6.8,3.0,Q4 2025,11.8,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-UA,Under Armour CL C,4.35,1,Prem Watsa,136615000,5.18,21999128,5.18,2.0,Q4 2025,9.18,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-PTLO,Portillo's Inc Cl A,3.53,1,Glenn Welling,16320000,5.05,3442990,5.05,2.0,Q1 2026,9.05,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-CNDT,Conduent Inc.,1.56,1,Bill Miller,18960000,4.48,12986100,4.48,3.0,Q4 2025,9.48,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-JELD,JELD-WEN Holding Inc.,1.84,1,Bill Miller,10709000,2.53,7139095,2.53,3.0,Q4 2025,7.529999999999999,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-ESRT,Empire State Realty Trust Inc.,4.03,1,Mason Hawkins,47048000,2.45,8696434,2.45,3.0,Q4 2025,7.45,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-OSG,Octave Specialty Group Inc.,4.14,1,Third Avenue Management,8373000,1.34,1341879,1.34,3.0,Q4 2025,6.34,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-WVE,Wave Life Sciences Ltd.,3.7,1,Lee Ainslie,59716000,0.54,10278115,0.54,3.0,Q4 2025,5.54,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-EVLV,Evolv Technologies Holdings,4.65,1,Torray Funds,2278000,0.34,392714,0.34,2.0,Q2 2026,4.34,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-MINE,Mayfair Gold Corp,2.72,1,Howard Marks,11070000,0.29,4500000,0.29,1.0,Q1 2026,3.29,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-LESL,Leslie's Inc.,0.16,1,John Rogers,24526000,0.24,2416405,0.24,1.0,Q1 2026,3.24,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-SPRY,Ars Pharmaceuticals Inc,4.31,1,Daniel Loeb,8010000,0.18,1000000,0.18,2.0,Q4 2025,4.18,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-BTE,Baytex Energy Corp.,4.53,1,Arnold Van Den Berg,659000,0.14,164777,0.14,1.0,Q4 2025,3.14,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-GT,Goodyear Tire & Rubber,4.97,1,David Tepper,9957000,0.13,1508591,0.13,1.0,Q2 2026,3.13,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-RCKT,Rocket Pharmaceuticals Inc.,2.63,1,Lee Ainslie,13420000,0.12,3923963,0.12,2.0,Q2 2026,4.12,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-RFL,Rafael Holdings Inc.,1.32,1,Kahn Brothers Group,494000,0.08,150493,0.08,1.0,Q2 2026,3.08,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-ALT,Altimmune Inc.,2.86,1,Viking Global Investors,20368000,0.06,6700000,0.06,1.0,Q2 2026,3.06,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-BTAIQ,Bioxcel Therapeutics Inc,0.05,1,Howard Marks,1946000,0.05,1380248,0.05,1.0,Q2 2026,3.05,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-NNBR,NN Inc.,3.67,1,Howard Marks,1834000,0.05,510943,0.05,1.0,Q2 2026,3.05,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-RXT,Rackspace Technology Inc.,3.73,1,Polen Capital Management,4631000,0.04,709189,0.04,1.0,Q2 2026,3.04,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-ZDGE,Zedge Inc.,2.88,1,Kahn Brothers Group,242000,0.04,78126,0.04,1.0,Q2 2026,3.04,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-TSHA,Taysha Gene Therapies Inc,4.87,1,Polen Capital Management,3332000,0.03,489219,0.03,3.0,Q4 2025,5.029999999999999,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-FIP,Ftai Infrastructure Inc,2.76,1,First Eagle Investment Management,12749000,0.02,2747562,0.02,3.0,Q4 2025,5.02,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-FRMI,Fermi Inc.,4.21,1,Christopher Davis,4135000,0.02,451400,0.02,2.0,Q2 2026,4.02,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-SKYX,Skyx Platforms Corp,1.15,1,David Katz,238000,0.02,215000,0.02,1.0,Q2 2026,3.02,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-SSPPF,Ssp Group Plc,2.54,1,Thomas Russo,1744000,0.02,700000,0.02,1.0,Q1 2026,3.02,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-AIRJ,Airjoule Technologies Corp,3.9,1,Polen Capital Management,1348000,0.01,243378,0.01,1.0,Q2 2026,3.01,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-ASPI,Asp Isotopes Inc,2.65,1,Polen Capital Management,930000,0.01,149559,0.01,1.0,Q2 2026,3.01,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-CRMT,America's Car Mart Inc.,1.02,1,Yacktman Asset Management,572000,0.01,205000,0.01,3.0,Q4 2025,5.01,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-ECTXF,Electrolux Professional Ab B,4.65,1,Thomas Russo,1006000,0.01,230000,0.01,1.0,Q1 2026,3.01,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-REI,Ring Energy Inc.,1.31,1,Arnold Van Den Berg,70000,0.01,64391,0.01,2.0,Q4 2025,4.01,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-WIT,Wipro Ltd ADR,1.65,1,Sarah Ketterer,1010000,0.01,448957,0.01,1.0,Q2 2026,3.01,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
-NAK,Northern Dynasty Minerals Ltd,1.37,1,Arnold Van Den Berg,19000,0.0,10000,0.0,1.0,Q1 2026,3.0,Ultra-Low Price,stocks_under_$5,2026-10-01,"Q2 2026, Q1 2026, Q4 2025",3
+DCH,Dauch Corp.,4.78,3,"Alex Roepers, Bill Miller, David Einhorn",87163000,2.87,16081614,3.97,4.0,Q2 2026,12.87,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+ABEV,Ambev S.A.,2.66,3,"Richard Pzena, First Eagle Investment Management, Dodge & Cox Funds",1108828000,0.61,353397943,1.81,5.0,Q3 2026,11.613333333333333,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+AUR,Aurora Innovation Inc.,4.36,3,"Daniel Loeb, Henry Ellenbogen, Polen Capital Management",81529000,0.29,11954398,0.72,2.0,Q2 2026,8.29,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+NUVB,Nuvation Bio Inc.,4.76,3,"Torray Funds, David Einhorn, David Abrams",8954000,0.12,1580313,0.23,1.0,Q3 2026,7.123333333333333,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+MBI,MBIA Inc.,4.46,2,"Kahn Brothers Group, Francis Chou",29568000,2.66,4534920,4.34,2.0,Q2 2026,8.655,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+STLA,Stellantis N.V.,4.64,2,"Ruane Cunniff LP, Francis Chou",8147000,1.84,1419269,3.69,1.0,Q1 2026,6.845,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+COTY,Coty Inc.,3.4,2,"Bill Miller, Lee Ainslie",10633000,1.01,4923022,2.0,2.0,Q2 2026,7.01,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+ABR,Arbor Realty Trust Inc.,2.14,2,"Bill Miller, Leon Cooperman",12335000,0.52,2275739,0.78,3.0,Q2 2026,7.515,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+UAA,Under Armour Inc.,4.99,1,Prem Watsa,289831000,10.98,45356965,10.98,2.0,Q2 2026,14.98,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+EVH,Evolent Health Inc.,4.3,1,Glenn Welling,30156000,9.34,5563912,9.34,1.0,Q1 2026,12.34,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+GTN,Gray Television Inc.,4.49,1,Bill Miller,28756000,6.8,7243390,6.8,2.0,Q2 2026,10.8,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+UA,Under Armour CL C,4.85,1,Prem Watsa,136615000,5.18,21999128,5.18,1.0,Q1 2026,8.18,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+PTLO,Portillo's Inc Cl A,4.87,1,Glenn Welling,16320000,5.05,3442990,5.05,2.0,Q1 2026,9.05,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+CNDT,Conduent Inc.,1.54,1,Bill Miller,18960000,4.48,12986100,4.48,2.0,Q2 2026,8.48,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+LUMN,Lumen Technologies Inc.,4.88,1,Arnold Van Den Berg,18303000,3.87,2383170,3.87,1.0,Q1 2026,6.87,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+JELD,JELD-WEN Holding Inc.,1.26,1,Bill Miller,10709000,2.53,7139095,2.53,2.0,Q2 2026,6.529999999999999,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+ESRT,Empire State Realty Trust Inc.,4.97,1,Mason Hawkins,47048000,2.45,8696434,2.45,2.0,Q2 2026,6.45,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+SRTA,Strata Critical Medical Inc.,4.44,1,Daniel Loeb,26350000,0.58,5000000,0.58,2.0,Q2 2026,4.58,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+WVE,Wave Life Sciences Ltd.,3.59,1,Lee Ainslie,59716000,0.54,10278115,0.54,2.0,Q2 2026,4.54,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+COYA,Coya Therapeutics Inc,3.61,1,David Einhorn,13663000,0.35,2335540,0.35,1.0,Q1 2026,3.35,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+MINE,Mayfair Gold Corp,2.24,1,Howard Marks,11070000,0.29,4500000,0.29,1.0,Q1 2026,3.29,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+BMM,Blue Moon Metals Inc,3.74,1,Howard Marks,10689000,0.28,1685000,0.28,1.0,Q1 2026,3.2800000000000002,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+LESLQ,Leslie's Inc.,0.06,1,John Rogers,24526000,0.24,2416405,0.24,1.0,Q1 2026,3.24,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+EVLV,Evolv Technologies Holdings,4.69,1,Torray Funds,1502000,0.22,323112,0.22,2.0,Q2 2026,4.220000000000001,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+SPRY,Ars Pharmaceuticals Inc,3.38,1,Daniel Loeb,8010000,0.18,1000000,0.18,1.0,Q1 2026,3.18,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+GT,Goodyear Tire & Rubber,4.29,1,David Tepper,9957000,0.13,1508591,0.13,1.0,Q2 2026,3.13,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+RCKT,Rocket Pharmaceuticals Inc.,2.44,1,Lee Ainslie,13420000,0.12,3923963,0.12,2.0,Q2 2026,4.12,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+RFL,Rafael Holdings Inc.,1.08,1,Kahn Brothers Group,494000,0.08,150493,0.08,1.0,Q2 2026,3.08,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+ARTV,Artiva Biotherapeutics Inc,4.19,1,Viking Global Investors,25260000,0.07,2604166,0.07,1.0,Q2 2026,3.07,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+LYG,Lloyds TSB Grp Plc ADR,5.0,1,First Eagle Investment Management,40820000,0.07,7001757,0.07,1.0,Q1 2026,3.07,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+ALT,Altimmune Inc.,2.04,1,Viking Global Investors,20368000,0.06,6700000,0.06,1.0,Q2 2026,3.06,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+BTAIQ,Bioxcel Therapeutics Inc,0.01,1,Howard Marks,1946000,0.05,1380248,0.05,1.0,Q2 2026,3.05,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+NNBR,NN Inc.,3.93,1,Howard Marks,1834000,0.05,510943,0.05,1.0,Q2 2026,3.05,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+RXT,Rackspace Technology Inc.,2.62,1,Polen Capital Management,4631000,0.04,709189,0.04,1.0,Q2 2026,3.04,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+ZDGE,Zedge Inc.,2.34,1,Kahn Brothers Group,242000,0.04,78126,0.04,1.0,Q2 2026,3.04,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+AZUL,Azul S.A.,4.0,1,Viking Global Investors,12134000,0.03,1349734,0.03,1.0,Q2 2026,3.03,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+BW,Babcock & Wilcox Enterprises,4.27,1,Polen Capital Management,3517000,0.03,249411,0.03,1.0,Q1 2026,3.03,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+JOBY,Joby Aviation Inc.,4.9,1,Polen Capital Management,2963000,0.03,332157,0.03,2.0,Q2 2026,4.029999999999999,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+TSHA,Taysha Gene Therapies Inc,4.13,1,Polen Capital Management,3332000,0.03,489219,0.03,2.0,Q2 2026,4.029999999999999,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+FIP,Ftai Infrastructure Inc,2.86,1,First Eagle Investment Management,12749000,0.02,2747562,0.02,2.0,Q2 2026,4.02,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+FRMI,Fermi Inc.,2.61,1,Christopher Davis,4135000,0.02,451400,0.02,2.0,Q2 2026,4.02,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+SKYX,Skyx Platforms Corp,0.78,1,David Katz,204000,0.02,177590,0.02,1.0,Q2 2026,3.02,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+SSPPF,Ssp Group Plc,2.54,1,Thomas Russo,1744000,0.02,700000,0.02,1.0,Q1 2026,3.02,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+AIRJ,Airjoule Technologies Corp,2.54,1,Polen Capital Management,1348000,0.01,243378,0.01,1.0,Q2 2026,3.01,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+ASPI,Asp Isotopes Inc,2.02,1,Polen Capital Management,930000,0.01,149559,0.01,1.0,Q2 2026,3.01,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+CRMT,America's Car Mart Inc.,1.04,1,Yacktman Asset Management,572000,0.01,205000,0.01,2.0,Q2 2026,4.01,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+ECTXF,Electrolux Professional Ab B,4.71,1,Thomas Russo,1006000,0.01,230000,0.01,1.0,Q1 2026,3.01,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+INTR,Inter & Co Inc   Cl A,4.01,1,Sarah Ketterer,546000,0.01,100618,0.01,1.0,Q2 2026,3.01,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+REI,Ring Energy Inc.,1.43,1,Arnold Van Den Berg,70000,0.01,64391,0.01,1.0,Q2 2026,3.01,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3
+VGZ,Vista Gold Corp,2.49,1,Thomas Gayner,1667000,0.01,615000,0.01,1.0,Q3 2026,3.01,Ultra-Low Price,stocks_under_$5,2026-11-01,"Q3 2026, Q2 2026, Q1 2026",3

@@ -794,7 +794,7 @@
       "company_name": "Barrick Mining Corp."
     },
     {
-      "symbol": "MSGS",
+      "symbol": "MSGK",
       "manager_id": "AI",
       "action": "Reduce 8.20%",
       "date": "Q2 2026",
@@ -802,7 +802,7 @@
       "action_type": "Reduce",
       "shares": 58790,
       "portfolio_percentage": 0.24,
-      "company_name": "Madison Square Garden Sports Corp."
+      "company_name": "MSG Knickerbockers Corp."
     },
     {
       "symbol": "CVSA",
@@ -959,7 +959,7 @@
       "company_name": "Oracle Corp."
     },
     {
-      "symbol": "LESL",
+      "symbol": "LESLQ",
       "manager_id": "AI",
       "action": "Reduce 16.18%",
       "date": "Q2 2026",
@@ -1168,7 +1168,7 @@
       "company_name": "Microsoft Corp."
     },
     {
-      "symbol": "PSKY",
+      "symbol": "SKYD",
       "manager_id": "AI",
       "action": "Sell 100.00%",
       "date": "Q2 2026",
@@ -1176,7 +1176,7 @@
       "action_type": "Sell",
       "shares": 2546320,
       "portfolio_percentage": 0.26,
-      "company_name": "Paramount Skydance Corp."
+      "company_name": "Skydance Corp."
     },
     {
       "symbol": "TAP",
@@ -1619,7 +1619,7 @@
       "company_name": "Mohawk Industries"
     },
     {
-      "symbol": "LESL",
+      "symbol": "LESLQ",
       "manager_id": "AI",
       "action": "Add 1.64%",
       "date": "Q1 2026",
@@ -1894,7 +1894,7 @@
       "company_name": "Resideo Technologies Inc."
     },
     {
-      "symbol": "MSGS",
+      "symbol": "MSGK",
       "manager_id": "AI",
       "action": "Reduce 0.71%",
       "date": "Q1 2026",
@@ -1902,7 +1902,7 @@
       "action_type": "Reduce",
       "shares": 5154,
       "portfolio_percentage": 0.02,
-      "company_name": "Madison Square Garden Sports Corp."
+      "company_name": "MSG Knickerbockers Corp."
     },
     {
       "symbol": "BAC",
@@ -1949,7 +1949,7 @@
       "company_name": "M&T Bank Corp."
     },
     {
-      "symbol": "PSKY",
+      "symbol": "SKYD",
       "manager_id": "AI",
       "action": "Reduce 1.58%",
       "date": "Q1 2026",
@@ -1957,7 +1957,7 @@
       "action_type": "Reduce",
       "shares": 40870,
       "portfolio_percentage": 0.0,
-      "company_name": "Paramount Skydance Corp."
+      "company_name": "Skydance Corp."
     },
     {
       "symbol": "LH",
@@ -2939,7 +2939,7 @@
       "company_name": "Progressive Corp."
     },
     {
-      "symbol": "MSGS",
+      "symbol": "MSGK",
       "manager_id": "AI",
       "action": "Reduce 0.62%",
       "date": "Q4 2025",
@@ -2947,7 +2947,7 @@
       "action_type": "Reduce",
       "shares": 4540,
       "portfolio_percentage": 0.01,
-      "company_name": "Madison Square Garden Sports Corp."
+      "company_name": "MSG Knickerbockers Corp."
     },
     {
       "symbol": "MSI",
@@ -3247,7 +3247,7 @@
       "company_name": "CenterPoint Energy"
     },
     {
-      "symbol": "LESL",
+      "symbol": "LESLQ",
       "manager_id": "AI",
       "action": "Reduce 3.65%",
       "date": "Q4 2025",
@@ -3489,7 +3489,7 @@
       "company_name": "Barrick Mining Corp."
     },
     {
-      "symbol": "PSKY",
+      "symbol": "SKYD",
       "manager_id": "AI",
       "action": "Reduce 13.77%",
       "date": "Q4 2025",
@@ -3497,7 +3497,7 @@
       "action_type": "Reduce",
       "shares": 413274,
       "portfolio_percentage": 0.06,
-      "company_name": "Paramount Skydance Corp."
+      "company_name": "Skydance Corp."
     },
     {
       "symbol": "BCO",
@@ -4061,7 +4061,7 @@
       "company_name": "Interpublic Group"
     },
     {
-      "symbol": "PSKY",
+      "symbol": "SKYD",
       "manager_id": "AI",
       "action": "Buy",
       "date": "Q3 2025",
@@ -4069,7 +4069,7 @@
       "action_type": "Buy",
       "shares": 3000464,
       "portfolio_percentage": 0.61,
-      "company_name": "Paramount Skydance Corp."
+      "company_name": "Skydance Corp."
     },
     {
       "symbol": "HUM",
@@ -4413,7 +4413,7 @@
       "company_name": "Mattel Inc."
     },
     {
-      "symbol": "LESL",
+      "symbol": "LESLQ",
       "manager_id": "AI",
       "action": "Reduce 3.32%",
       "date": "Q3 2025",
@@ -4446,7 +4446,7 @@
       "company_name": "BOK Financial Corp."
     },
     {
-      "symbol": "MSGS",
+      "symbol": "MSGK",
       "manager_id": "AI",
       "action": "Reduce 4.06%",
       "date": "Q3 2025",
@@ -4454,7 +4454,7 @@
       "action_type": "Reduce",
       "shares": 30802,
       "portfolio_percentage": 0.07,
-      "company_name": "Madison Square Garden Sports Corp."
+      "company_name": "MSG Knickerbockers Corp."
     },
     {
       "symbol": "ADT",
@@ -5260,7 +5260,7 @@
       "company_name": "D.R. Horton"
     },
     {
-      "symbol": "LESL",
+      "symbol": "LESLQ",
       "manager_id": "AI",
       "action": "Add 4.69%",
       "date": "Q2 2025",
@@ -5700,7 +5700,7 @@
       "company_name": "Boyd Gaming Corp."
     },
     {
-      "symbol": "MSGS",
+      "symbol": "MSGK",
       "manager_id": "AI",
       "action": "Reduce 9.67%",
       "date": "Q2 2025",
@@ -5708,7 +5708,7 @@
       "action_type": "Reduce",
       "shares": 81106,
       "portfolio_percentage": 0.19,
-      "company_name": "Madison Square Garden Sports Corp."
+      "company_name": "MSG Knickerbockers Corp."
     },
     {
       "symbol": "LIND",
@@ -6184,7 +6184,7 @@
       "company_name": "KKR & Co. L.P."
     },
     {
-      "symbol": "LESL",
+      "symbol": "LESLQ",
       "manager_id": "AI",
       "action": "Add 15.14%",
       "date": "Q1 2025",
@@ -6899,7 +6899,7 @@
       "company_name": "Labcorp Holdings Inc."
     },
     {
-      "symbol": "MSGS",
+      "symbol": "MSGK",
       "manager_id": "AI",
       "action": "Reduce 5.91%",
       "date": "Q1 2025",
@@ -6907,7 +6907,7 @@
       "action_type": "Reduce",
       "shares": 52686,
       "portfolio_percentage": 0.12,
-      "company_name": "Madison Square Garden Sports Corp."
+      "company_name": "MSG Knickerbockers Corp."
     },
     {
       "symbol": "MAT",
@@ -7460,7 +7460,7 @@
       "company_name": "Vail Resorts Inc."
     },
     {
-      "symbol": "LESL",
+      "symbol": "LESLQ",
       "manager_id": "AI",
       "action": "Add 8.54%",
       "date": "Q4 2024",
@@ -7878,7 +7878,7 @@
       "company_name": "Axalta Coating Systems Ltd."
     },
     {
-      "symbol": "MSGS",
+      "symbol": "MSGK",
       "manager_id": "AI",
       "action": "Reduce 2.88%",
       "date": "Q4 2024",
@@ -7886,7 +7886,7 @@
       "action_type": "Reduce",
       "shares": 26425,
       "portfolio_percentage": 0.06,
-      "company_name": "Madison Square Garden Sports Corp."
+      "company_name": "MSG Knickerbockers Corp."
     },
     {
       "symbol": "ST",
@@ -8549,7 +8549,7 @@
       "company_name": "Middleby Corp."
     },
     {
-      "symbol": "LESL",
+      "symbol": "LESLQ",
       "manager_id": "AI",
       "action": "Add 27.19%",
       "date": "Q3 2024",
@@ -9154,7 +9154,7 @@
       "company_name": "Northern Trust Corp."
     },
     {
-      "symbol": "MSGS",
+      "symbol": "MSGK",
       "manager_id": "AI",
       "action": "Reduce 5.37%",
       "date": "Q3 2024",
@@ -9162,7 +9162,7 @@
       "action_type": "Reduce",
       "shares": 52102,
       "portfolio_percentage": 0.11,
-      "company_name": "Madison Square Garden Sports Corp."
+      "company_name": "MSG Knickerbockers Corp."
     },
     {
       "symbol": "NVT",
@@ -9869,7 +9869,7 @@
       "company_name": "Manchester United plc"
     },
     {
-      "symbol": "LESL",
+      "symbol": "LESLQ",
       "manager_id": "AI",
       "action": "Add 46.51%",
       "date": "Q2 2024",
@@ -10067,7 +10067,7 @@
       "company_name": "Northern Trust Corp."
     },
     {
-      "symbol": "MSGS",
+      "symbol": "MSGK",
       "manager_id": "AI",
       "action": "Add 3.52%",
       "date": "Q2 2024",
@@ -10075,7 +10075,7 @@
       "action_type": "Add",
       "shares": 33031,
       "portfolio_percentage": 0.07,
-      "company_name": "Madison Square Garden Sports Corp."
+      "company_name": "MSG Knickerbockers Corp."
     },
     {
       "symbol": "IPG-OLD",
@@ -11002,6 +11002,6 @@
       "company_name": "DaVita HealthCare Partners"
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.201641",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.761420",
+  "scraped_date": "2026-11-01"
 }

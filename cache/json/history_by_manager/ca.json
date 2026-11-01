@@ -90,7 +90,7 @@
       "company_name": "Berkshire Hathaway CL B"
     },
     {
-      "symbol": "ATKR",
+      "symbol": "ATKR-OLD",
       "manager_id": "ca",
       "action": "Buy",
       "date": "Q1 2026",
@@ -428,7 +428,7 @@
       "action_type": "Sell",
       "shares": 264245,
       "portfolio_percentage": 2.62,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "OXY",
@@ -549,7 +549,7 @@
       "action_type": "Add",
       "shares": 80907,
       "portfolio_percentage": 0.85,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "LBTYA",
@@ -846,7 +846,7 @@
       "action_type": "Buy",
       "shares": 183338,
       "portfolio_percentage": 4.09,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "RFP-OLD",
@@ -3082,6 +3082,6 @@
       "company_name": "Sprint Corp."
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.361453",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.933435",
+  "scraped_date": "2026-11-01"
 }

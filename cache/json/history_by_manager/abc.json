@@ -1014,7 +1014,7 @@
       "company_name": "Sculptor Capital Management"
     },
     {
-      "symbol": "CCO",
+      "symbol": "CCO-OLD",
       "manager_id": "abc",
       "action": "Sell 100.00%",
       "date": "Q1 2021",
@@ -3618,7 +3618,7 @@
       "action_type": "Sell",
       "shares": 5170518,
       "portfolio_percentage": 6.49,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "RYN",
@@ -3684,7 +3684,7 @@
       "action_type": "Buy",
       "shares": 5170518,
       "portfolio_percentage": 6.49,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "OPB",
@@ -4204,6 +4204,6 @@
       "company_name": "Silgan Holdings Inc."
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.308854",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.875998",
+  "scraped_date": "2026-11-01"
 }

@@ -6360,7 +6360,7 @@
       "company_name": "Vahanna Tech Edge Acquisi A"
     },
     {
-      "symbol": "CMLSQ",
+      "symbol": "CMLSQ-OLD",
       "manager_id": "oc",
       "action": "Sell 100.00%",
       "date": "Q3 2023",
@@ -10799,7 +10799,7 @@
       "date": "Q3 2022",
       "percentage_change": 0.0,
       "action_type": "Sell",
-      "shares": 2500,
+      "shares": 313,
       "portfolio_percentage": 0.03,
       "company_name": "Dragonfly Energy Corp."
     },
@@ -11002,6 +11002,6 @@
       "company_name": "Metal Sky Star Acquisi Right"
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.271354",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.835933",
+  "scraped_date": "2026-11-01"
 }

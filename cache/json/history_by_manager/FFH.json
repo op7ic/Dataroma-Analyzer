@@ -35,7 +35,7 @@
       "company_name": "Orla Mining Ltd"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "FFH",
       "action": "Add 41.45%",
       "date": "Q2 2026",
@@ -299,7 +299,7 @@
       "company_name": "Wendy's Co."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "FFH",
       "action": "Buy",
       "date": "Q1 2026",
@@ -4138,7 +4138,7 @@
       "company_name": "Discovery Inc. OLD"
     },
     {
-      "symbol": "MSGS",
+      "symbol": "MSGK",
       "manager_id": "FFH",
       "action": "Sell 100.00%",
       "date": "Q2 2021",
@@ -4146,7 +4146,7 @@
       "action_type": "Sell",
       "shares": 8000,
       "portfolio_percentage": 0.05,
-      "company_name": "Madison Square Garden Sports Corp."
+      "company_name": "MSG Knickerbockers Corp."
     },
     {
       "symbol": "CRHM",
@@ -5304,7 +5304,7 @@
       "company_name": "El Paso Electric"
     },
     {
-      "symbol": "MSGS",
+      "symbol": "MSGK",
       "manager_id": "FFH",
       "action": "Buy",
       "date": "Q2 2020",
@@ -5312,7 +5312,7 @@
       "action_type": "Buy",
       "shares": 8000,
       "portfolio_percentage": 0.07,
-      "company_name": "Madison Square Garden Sports Corp."
+      "company_name": "MSG Knickerbockers Corp."
     },
     {
       "symbol": "CETV",
@@ -9778,7 +9778,7 @@
       "action_type": "Sell",
       "shares": 15000,
       "portfolio_percentage": 0.02,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "SLM",
@@ -10053,7 +10053,7 @@
       "action_type": "Buy",
       "shares": 15000,
       "portfolio_percentage": 0.02,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "PTEN",
@@ -11002,6 +11002,6 @@
       "company_name": "Nexen Inc."
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.262402",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.826179",
+  "scraped_date": "2026-11-01"
 }

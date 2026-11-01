@@ -2,6 +2,281 @@
   "manager_id": "GA",
   "activities": [
     {
+      "symbol": "VBIL",
+      "manager_id": "GA",
+      "action": "Add 29.75%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 196916,
+      "portfolio_percentage": 0.19,
+      "company_name": "Vanguard 0 3m T Bill ETF"
+    },
+    {
+      "symbol": "LEN",
+      "manager_id": "GA",
+      "action": "Add 15.37%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 1738824,
+      "portfolio_percentage": 1.78,
+      "company_name": "Lennar Corp."
+    },
+    {
+      "symbol": "DHI",
+      "manager_id": "GA",
+      "action": "Add 7.08%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 248044,
+      "portfolio_percentage": 0.43,
+      "company_name": "D.R. Horton"
+    },
+    {
+      "symbol": "MTH",
+      "manager_id": "GA",
+      "action": "Add 5.40%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 70085,
+      "portfolio_percentage": 0.06,
+      "company_name": "Meritage Homes Corp."
+    },
+    {
+      "symbol": "BDX",
+      "manager_id": "GA",
+      "action": "Add 3.93%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 223022,
+      "portfolio_percentage": 0.5,
+      "company_name": "Becton Dickinson"
+    },
+    {
+      "symbol": "DNOW",
+      "manager_id": "GA",
+      "action": "Add 0.77%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 33573,
+      "portfolio_percentage": 0.01,
+      "company_name": "NOW Inc."
+    },
+    {
+      "symbol": "LEN.B",
+      "manager_id": "GA",
+      "action": "Add 0.52%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 1900,
+      "portfolio_percentage": 0.0,
+      "company_name": "Lennar Corp. CL B"
+    },
+    {
+      "symbol": "GM",
+      "manager_id": "GA",
+      "action": "Add 0.26%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 33267,
+      "portfolio_percentage": 0.03,
+      "company_name": "General Motors"
+    },
+    {
+      "symbol": "BBWI",
+      "manager_id": "GA",
+      "action": "Buy",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 10000,
+      "portfolio_percentage": 0.0,
+      "company_name": "Bath & Body Works Inc."
+    },
+    {
+      "symbol": "TOL",
+      "manager_id": "GA",
+      "action": "Reduce 0.29%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 16100,
+      "portfolio_percentage": 0.03,
+      "company_name": "Toll Brothers"
+    },
+    {
+      "symbol": "ICLR",
+      "manager_id": "GA",
+      "action": "Reduce 1.02%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 31600,
+      "portfolio_percentage": 0.07,
+      "company_name": "ICON plc"
+    },
+    {
+      "symbol": "PHM",
+      "manager_id": "GA",
+      "action": "Reduce 1.13%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 61400,
+      "portfolio_percentage": 0.09,
+      "company_name": "PulteGroup Inc."
+    },
+    {
+      "symbol": "AVTR",
+      "manager_id": "GA",
+      "action": "Reduce 1.13%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 277700,
+      "portfolio_percentage": 0.05,
+      "company_name": "Avantor Inc."
+    },
+    {
+      "symbol": "OSK",
+      "manager_id": "GA",
+      "action": "Reduce 1.20%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 30800,
+      "portfolio_percentage": 0.05,
+      "company_name": "Oshkosh Corp."
+    },
+    {
+      "symbol": "SLB",
+      "manager_id": "GA",
+      "action": "Reduce 1.37%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 52100,
+      "portfolio_percentage": 0.03,
+      "company_name": "Schlumberger Ltd."
+    },
+    {
+      "symbol": "NOV",
+      "manager_id": "GA",
+      "action": "Reduce 6.02%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 338400,
+      "portfolio_percentage": 0.08,
+      "company_name": "Nov Inc."
+    },
+    {
+      "symbol": "BAX",
+      "manager_id": "GA",
+      "action": "Reduce 13.22%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1888724,
+      "portfolio_percentage": 0.57,
+      "company_name": "Baxter International Inc."
+    },
+    {
+      "symbol": "AVT",
+      "manager_id": "GA",
+      "action": "Reduce 15.04%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 567346,
+      "portfolio_percentage": 0.71,
+      "company_name": "Avnet Inc."
+    },
+    {
+      "symbol": "ARW",
+      "manager_id": "GA",
+      "action": "Reduce 15.72%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 277379,
+      "portfolio_percentage": 0.79,
+      "company_name": "Arrow Electronics"
+    },
+    {
+      "symbol": "SCHW",
+      "manager_id": "GA",
+      "action": "Reduce 16.00%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 2000,
+      "portfolio_percentage": 0.0,
+      "company_name": "Charles Schwab Corp."
+    },
+    {
+      "symbol": "IQV",
+      "manager_id": "GA",
+      "action": "Reduce 29.05%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 223120,
+      "portfolio_percentage": 0.75,
+      "company_name": "IQVIA Holdings Inc."
+    },
+    {
+      "symbol": "LEA",
+      "manager_id": "GA",
+      "action": "Reduce 42.68%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 621406,
+      "portfolio_percentage": 0.92,
+      "company_name": "Lear Corp."
+    },
+    {
+      "symbol": "JPM",
+      "manager_id": "GA",
+      "action": "Reduce 60.00%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1500,
+      "portfolio_percentage": 0.0,
+      "company_name": "JPMorgan Chase & Co."
+    },
+    {
+      "symbol": "ACN",
+      "manager_id": "GA",
+      "action": "Sell 100.00%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 3384681,
+      "portfolio_percentage": 4.86,
+      "company_name": "Accenture"
+    },
+    {
+      "symbol": "EPAM",
+      "manager_id": "GA",
+      "action": "Sell 100.00%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 587300,
+      "portfolio_percentage": 0.54,
+      "company_name": "EPAM Systems Inc."
+    },
+    {
       "symbol": "DNOW",
       "manager_id": "GA",
       "action": "Add 426.83%",
@@ -5332,7 +5607,7 @@
       "date": "Q4 2020",
       "percentage_change": 0.0,
       "action_type": "Sell",
-      "shares": 1724,
+      "shares": 29,
       "portfolio_percentage": 0.0,
       "company_name": "AMTD IDEA Group"
     },
@@ -6443,7 +6718,7 @@
       "date": "Q4 2019",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 667,
+      "shares": 12,
       "portfolio_percentage": 0.0,
       "company_name": "AMTD IDEA Group"
     },
@@ -7031,6 +7306,6 @@
       "company_name": "Stellantis N.V."
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.455669",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.490782",
+  "scraped_date": "2026-11-01"
 }

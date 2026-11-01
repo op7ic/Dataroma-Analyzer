@@ -1047,7 +1047,7 @@
       "company_name": "Barrick Mining Corp."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "SSHFX",
       "action": "Sell 100.00%",
       "date": "Q1 2026",
@@ -1454,7 +1454,7 @@
       "company_name": "Applied Materials"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "SSHFX",
       "action": "Reduce 77.18%",
       "date": "Q4 2025",
@@ -1894,7 +1894,7 @@
       "company_name": "Flex Ltd."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "SSHFX",
       "action": "Reduce 49.21%",
       "date": "Q3 2025",
@@ -2125,7 +2125,7 @@
       "company_name": "Bank of America Corp."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "SSHFX",
       "action": "Buy",
       "date": "Q2 2025",
@@ -11002,6 +11002,6 @@
       "company_name": "Marsh"
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.352401",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.923778",
+  "scraped_date": "2026-11-01"
 }

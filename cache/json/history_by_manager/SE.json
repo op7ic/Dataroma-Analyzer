@@ -1212,7 +1212,7 @@
       "company_name": "Rxo Inc"
     },
     {
-      "symbol": "MSGS",
+      "symbol": "MSGK",
       "manager_id": "SE",
       "action": "Reduce 20.11%",
       "date": "Q4 2025",
@@ -1220,7 +1220,7 @@
       "action_type": "Reduce",
       "shares": 810,
       "portfolio_percentage": 0.01,
-      "company_name": "Madison Square Garden Sports Corp."
+      "company_name": "MSG Knickerbockers Corp."
     },
     {
       "symbol": "PVH",
@@ -2961,7 +2961,7 @@
       "company_name": "Warner Music Group Corp. CL A"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "SE",
       "action": "Sell 100.00%",
       "date": "Q4 2024",
@@ -3324,7 +3324,7 @@
       "company_name": "Empire State Realty Trust Inc."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "SE",
       "action": "Reduce 38.41%",
       "date": "Q3 2024",
@@ -3423,7 +3423,7 @@
       "company_name": "PVH Corp."
     },
     {
-      "symbol": "MSGS",
+      "symbol": "MSGK",
       "manager_id": "SE",
       "action": "Add 25.17%",
       "date": "Q2 2024",
@@ -3431,7 +3431,7 @@
       "action_type": "Add",
       "shares": 810,
       "portfolio_percentage": 0.01,
-      "company_name": "Madison Square Garden Sports Corp."
+      "company_name": "MSG Knickerbockers Corp."
     },
     {
       "symbol": "ENOV",
@@ -3753,7 +3753,7 @@
       "company_name": "Graham Holdings Co."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "SE",
       "action": "Reduce 6.54%",
       "date": "Q2 2024",
@@ -3874,6 +3874,6 @@
       "company_name": "Douglas Emmett Inc."
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.023382",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.561294",
+  "scraped_date": "2026-11-01"
 }

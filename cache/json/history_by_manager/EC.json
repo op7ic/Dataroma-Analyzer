@@ -2,6 +2,303 @@
   "manager_id": "EC",
   "activities": [
     {
+      "symbol": "SPGI",
+      "manager_id": "EC",
+      "action": "Add 124.59%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 438444,
+      "portfolio_percentage": 1.76,
+      "company_name": "S&P Global Inc."
+    },
+    {
+      "symbol": "VST",
+      "manager_id": "EC",
+      "action": "Add 95.98%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 465758,
+      "portfolio_percentage": 0.66,
+      "company_name": "Vistra Corp."
+    },
+    {
+      "symbol": "DVN",
+      "manager_id": "EC",
+      "action": "Add 43.28%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 3271332,
+      "portfolio_percentage": 1.53,
+      "company_name": "Devon Energy Corp."
+    },
+    {
+      "symbol": "LIN",
+      "manager_id": "EC",
+      "action": "Add 33.60%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 101078,
+      "portfolio_percentage": 0.49,
+      "company_name": "Linde plc"
+    },
+    {
+      "symbol": "AMZN",
+      "manager_id": "EC",
+      "action": "Add 31.92%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 1140719,
+      "portfolio_percentage": 2.89,
+      "company_name": "Amazon.com Inc."
+    },
+    {
+      "symbol": "APH",
+      "manager_id": "EC",
+      "action": "Add 10.02%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 975337,
+      "portfolio_percentage": 0.84,
+      "company_name": "Amphenol Corp."
+    },
+    {
+      "symbol": "NVDA",
+      "manager_id": "EC",
+      "action": "Add 9.48%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 324021,
+      "portfolio_percentage": 0.75,
+      "company_name": "NVIDIA Corp."
+    },
+    {
+      "symbol": "AWI",
+      "manager_id": "EC",
+      "action": "Add 7.34%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 67950,
+      "portfolio_percentage": 0.11,
+      "company_name": "Armstrong World Industries Inc."
+    },
+    {
+      "symbol": "FERG",
+      "manager_id": "EC",
+      "action": "Add 5.39%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Add",
+      "shares": 54179,
+      "portfolio_percentage": 0.12,
+      "company_name": "Ferguson Enterprises Inc."
+    },
+    {
+      "symbol": "ICE",
+      "manager_id": "EC",
+      "action": "Buy",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 1467474,
+      "portfolio_percentage": 2.27,
+      "company_name": "Intercontinental Exchange Inc."
+    },
+    {
+      "symbol": "META",
+      "manager_id": "EC",
+      "action": "Buy",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 192860,
+      "portfolio_percentage": 1.42,
+      "company_name": "Meta Platforms Inc."
+    },
+    {
+      "symbol": "TMO",
+      "manager_id": "EC",
+      "action": "Buy",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 198227,
+      "portfolio_percentage": 1.36,
+      "company_name": "Thermo Fisher Scientific"
+    },
+    {
+      "symbol": "DIS",
+      "manager_id": "EC",
+      "action": "Buy",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Buy",
+      "shares": 933073,
+      "portfolio_percentage": 1.0,
+      "company_name": "Walt Disney Co."
+    },
+    {
+      "symbol": "MCO",
+      "manager_id": "EC",
+      "action": "Reduce 3.93%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 66983,
+      "portfolio_percentage": 0.31,
+      "company_name": "Moody's Corp."
+    },
+    {
+      "symbol": "EMBJ",
+      "manager_id": "EC",
+      "action": "Reduce 4.20%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 142211,
+      "portfolio_percentage": 0.11,
+      "company_name": "Embraer SA"
+    },
+    {
+      "symbol": "V",
+      "manager_id": "EC",
+      "action": "Reduce 4.35%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 185425,
+      "portfolio_percentage": 0.68,
+      "company_name": "Visa Inc."
+    },
+    {
+      "symbol": "MA",
+      "manager_id": "EC",
+      "action": "Reduce 4.35%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 15798,
+      "portfolio_percentage": 0.09,
+      "company_name": "Mastercard Inc."
+    },
+    {
+      "symbol": "CRH",
+      "manager_id": "EC",
+      "action": "Reduce 17.17%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 752634,
+      "portfolio_percentage": 0.63,
+      "company_name": "CRH plc"
+    },
+    {
+      "symbol": "MDLN",
+      "manager_id": "EC",
+      "action": "Reduce 19.35%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 3187867,
+      "portfolio_percentage": 1.13,
+      "company_name": "Medline Inc Cl A"
+    },
+    {
+      "symbol": "LAMR",
+      "manager_id": "EC",
+      "action": "Reduce 20.45%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 223028,
+      "portfolio_percentage": 0.33,
+      "company_name": "Lamar Advertising Co."
+    },
+    {
+      "symbol": "IBKR",
+      "manager_id": "EC",
+      "action": "Reduce 23.46%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 968712,
+      "portfolio_percentage": 0.84,
+      "company_name": "Interactive Brokers Group Inc."
+    },
+    {
+      "symbol": "GOOG",
+      "manager_id": "EC",
+      "action": "Reduce 36.23%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 1192452,
+      "portfolio_percentage": 4.14,
+      "company_name": "Alphabet Inc. CL C"
+    },
+    {
+      "symbol": "VMC",
+      "manager_id": "EC",
+      "action": "Reduce 48.88%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Reduce",
+      "shares": 963782,
+      "portfolio_percentage": 2.4,
+      "company_name": "Vulcan Materials"
+    },
+    {
+      "symbol": "AMAT",
+      "manager_id": "EC",
+      "action": "Sell 100.00%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 521065,
+      "portfolio_percentage": 3.64,
+      "company_name": "Applied Materials"
+    },
+    {
+      "symbol": "EFX",
+      "manager_id": "EC",
+      "action": "Sell 100.00%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 1481188,
+      "portfolio_percentage": 2.27,
+      "company_name": "Equifax Inc."
+    },
+    {
+      "symbol": "UBER",
+      "manager_id": "EC",
+      "action": "Sell 100.00%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 2319648,
+      "portfolio_percentage": 1.62,
+      "company_name": "Uber Technologies Inc."
+    },
+    {
+      "symbol": "RIOT",
+      "manager_id": "EC",
+      "action": "Sell 100.00%",
+      "date": "Q3 2026",
+      "percentage_change": 0.0,
+      "action_type": "Sell",
+      "shares": 2628731,
+      "portfolio_percentage": 0.7,
+      "company_name": "Riot Blockchain Inc."
+    },
+    {
       "symbol": "MDLN",
       "manager_id": "EC",
       "action": "Add 277.27%",
@@ -10452,6 +10749,6 @@
       "company_name": "TransUnion"
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.461483",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.497097",
+  "scraped_date": "2026-11-01"
 }

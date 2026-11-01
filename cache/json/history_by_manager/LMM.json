@@ -2092,7 +2092,7 @@
       "company_name": "AT&T Inc."
     },
     {
-      "symbol": "ATKR",
+      "symbol": "ATKR-OLD",
       "manager_id": "LMM",
       "action": "Sell 100.00%",
       "date": "Q1 2025",
@@ -2312,7 +2312,7 @@
       "company_name": "Carlyle Group"
     },
     {
-      "symbol": "ATKR",
+      "symbol": "ATKR-OLD",
       "manager_id": "LMM",
       "action": "Buy",
       "date": "Q4 2024",
@@ -3302,7 +3302,7 @@
       "company_name": "Airbnb Inc."
     },
     {
-      "symbol": "BZH",
+      "symbol": "BZH-OLD",
       "manager_id": "LMM",
       "action": "Sell 100.00%",
       "date": "Q1 2024",
@@ -3335,7 +3335,7 @@
       "company_name": "Lithia Motors Inc."
     },
     {
-      "symbol": "ATKR",
+      "symbol": "ATKR-OLD",
       "manager_id": "LMM",
       "action": "Sell 100.00%",
       "date": "Q1 2024",
@@ -3918,7 +3918,7 @@
       "company_name": "Dauch Corp."
     },
     {
-      "symbol": "ATKR",
+      "symbol": "ATKR-OLD",
       "manager_id": "LMM",
       "action": "Reduce 20.00%",
       "date": "Q3 2023",
@@ -3962,7 +3962,7 @@
       "company_name": "Alliance Resource Partners LP"
     },
     {
-      "symbol": "BZH",
+      "symbol": "BZH-OLD",
       "manager_id": "LMM",
       "action": "Reduce 34.29%",
       "date": "Q3 2023",
@@ -4347,7 +4347,7 @@
       "company_name": "Alliance Resource Partners LP"
     },
     {
-      "symbol": "BZH",
+      "symbol": "BZH-OLD",
       "manager_id": "LMM",
       "action": "Reduce 30.00%",
       "date": "Q2 2023",
@@ -6151,7 +6151,7 @@
       "company_name": "MicroStrategy Inc."
     },
     {
-      "symbol": "ATKR",
+      "symbol": "ATKR-OLD",
       "manager_id": "LMM",
       "action": "Buy",
       "date": "Q4 2022",
@@ -6162,7 +6162,7 @@
       "company_name": "Atkore International Group Inc."
     },
     {
-      "symbol": "BZH",
+      "symbol": "BZH-OLD",
       "manager_id": "LMM",
       "action": "Buy",
       "date": "Q4 2022",
@@ -11002,6 +11002,6 @@
       "company_name": "Pitney Bowes Inc."
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.084159",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.633837",
+  "scraped_date": "2026-11-01"
 }

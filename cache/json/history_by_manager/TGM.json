@@ -4270,7 +4270,7 @@
       "company_name": "Visa Inc."
     },
     {
-      "symbol": "WEAV",
+      "symbol": "WEAV-OLD",
       "manager_id": "TGM",
       "action": "Sell 100.00%",
       "date": "Q2 2023",
@@ -4644,7 +4644,7 @@
       "company_name": "Sea Ltd"
     },
     {
-      "symbol": "WEAV",
+      "symbol": "WEAV-OLD",
       "manager_id": "TGM",
       "action": "Reduce 5.98%",
       "date": "Q1 2023",
@@ -5172,7 +5172,7 @@
       "company_name": "Kanzhun Ltd"
     },
     {
-      "symbol": "WEAV",
+      "symbol": "WEAV-OLD",
       "manager_id": "TGM",
       "action": "Reduce 25.33%",
       "date": "Q4 2022",
@@ -6261,7 +6261,7 @@
       "company_name": "StoneCo Ltd."
     },
     {
-      "symbol": "WEAV",
+      "symbol": "WEAV-OLD",
       "manager_id": "TGM",
       "action": "Reduce 5.31%",
       "date": "Q2 2022",
@@ -8989,7 +8989,7 @@
       "company_name": "Perimeter Solutions SA"
     },
     {
-      "symbol": "WEAV",
+      "symbol": "WEAV-OLD",
       "manager_id": "TGM",
       "action": "Buy",
       "date": "Q4 2021",
@@ -11002,6 +11002,6 @@
       "company_name": "Zoom Video Communications Inc."
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.178532",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.735352",
+  "scraped_date": "2026-11-01"
 }

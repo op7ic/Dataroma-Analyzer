@@ -4809,7 +4809,7 @@
       "company_name": "Solaris Energy Infrastructure Inc."
     },
     {
-      "symbol": "ATKR",
+      "symbol": "ATKR-OLD",
       "manager_id": "VAN",
       "action": "Sell 100.00%",
       "date": "Q3 2025",
@@ -5557,7 +5557,7 @@
       "company_name": "Walt Disney Co."
     },
     {
-      "symbol": "ATKR",
+      "symbol": "ATKR-OLD",
       "manager_id": "VAN",
       "action": "Reduce 1.24%",
       "date": "Q2 2025",
@@ -6195,7 +6195,7 @@
       "company_name": "Microsoft Corp."
     },
     {
-      "symbol": "ATKR",
+      "symbol": "ATKR-OLD",
       "manager_id": "VAN",
       "action": "Add 4.11%",
       "date": "Q1 2025",
@@ -7240,7 +7240,7 @@
       "company_name": "Sprott Physical Gold Trust"
     },
     {
-      "symbol": "ATKR",
+      "symbol": "ATKR-OLD",
       "manager_id": "VAN",
       "action": "Add 0.39%",
       "date": "Q4 2024",
@@ -8835,7 +8835,7 @@
       "company_name": "Kolibri Global Energy Inc"
     },
     {
-      "symbol": "ATKR",
+      "symbol": "ATKR-OLD",
       "manager_id": "VAN",
       "action": "Reduce 25.26%",
       "date": "Q3 2024",
@@ -9000,6 +9000,6 @@
       "company_name": "Cencora Inc."
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.224294",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.785815",
+  "scraped_date": "2026-11-01"
 }

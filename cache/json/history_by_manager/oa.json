@@ -1091,7 +1091,7 @@
       "company_name": "Microsoft Corp."
     },
     {
-      "symbol": "MSGS",
+      "symbol": "MSGK",
       "manager_id": "oa",
       "action": "Sell 100.00%",
       "date": "Q2 2025",
@@ -1099,7 +1099,7 @@
       "action_type": "Sell",
       "shares": 20000,
       "portfolio_percentage": 0.15,
-      "company_name": "Madison Square Garden Sports Corp."
+      "company_name": "MSG Knickerbockers Corp."
     },
     {
       "symbol": "BBDC",
@@ -2884,7 +2884,7 @@
       "company_name": "Manchester United plc"
     },
     {
-      "symbol": "MSGS",
+      "symbol": "MSGK",
       "manager_id": "oa",
       "action": "Buy",
       "date": "Q3 2023",
@@ -2892,7 +2892,7 @@
       "action_type": "Buy",
       "shares": 20000,
       "portfolio_percentage": 0.18,
-      "company_name": "Madison Square Garden Sports Corp."
+      "company_name": "MSG Knickerbockers Corp."
     },
     {
       "symbol": "IJH",
@@ -2961,7 +2961,7 @@
       "company_name": "iShares S&P 500 Growth ETF"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "oa",
       "action": "Sell 100.00%",
       "date": "Q3 2023",
@@ -3280,7 +3280,7 @@
       "company_name": "Alphabet Inc."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "oa",
       "action": "Reduce 59.75%",
       "date": "Q2 2023",
@@ -3423,7 +3423,7 @@
       "company_name": "Gannett Co."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "oa",
       "action": "Add 16.93%",
       "date": "Q1 2023",
@@ -3973,7 +3973,7 @@
       "company_name": "Alphabet Inc."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "oa",
       "action": "Reduce 5.56%",
       "date": "Q4 2022",
@@ -4402,7 +4402,7 @@
       "company_name": "Mirion Technologies Inc"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "oa",
       "action": "Add 47.54%",
       "date": "Q2 2022",
@@ -5381,7 +5381,7 @@
       "company_name": "Mirion Technologies Inc"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "oa",
       "action": "Buy",
       "date": "Q4 2021",
@@ -5565,7 +5565,7 @@
       "action_type": "Sell",
       "shares": 151100,
       "portfolio_percentage": 0.16,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "IEMG",
@@ -6016,7 +6016,7 @@
       "action_type": "Reduce",
       "shares": 1601644,
       "portfolio_percentage": 1.7,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "SNR",
@@ -6566,7 +6566,7 @@
       "action_type": "Reduce",
       "shares": 1383215,
       "portfolio_percentage": 1.5,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "FOE-OLD",
@@ -6995,7 +6995,7 @@
       "action_type": "Reduce",
       "shares": 169041,
       "portfolio_percentage": 0.15,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "ABR",
@@ -7259,7 +7259,7 @@
       "action_type": "Add",
       "shares": 125000,
       "portfolio_percentage": 0.09,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "STKL-OLD",
@@ -7545,7 +7545,7 @@
       "action_type": "Add",
       "shares": 210000,
       "portfolio_percentage": 0.17,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "TRN",
@@ -8104,7 +8104,7 @@
       "date": "Q2 2020",
       "percentage_change": 0.0,
       "action_type": "Sell",
-      "shares": 7107,
+      "shares": 711,
       "portfolio_percentage": 0.0,
       "company_name": "Granite Point Mortgage Trust Inc."
     },
@@ -8183,7 +8183,7 @@
       "action_type": "Add",
       "shares": 772549,
       "portfolio_percentage": 0.75,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "STKL-OLD",
@@ -8678,7 +8678,7 @@
       "action_type": "Add",
       "shares": 460260,
       "portfolio_percentage": 0.34,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "STKL-OLD",
@@ -9184,7 +9184,7 @@
       "action_type": "Add",
       "shares": 123703,
       "portfolio_percentage": 0.1,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "ASPS",
@@ -9426,7 +9426,7 @@
       "action_type": "Add",
       "shares": 1124424,
       "portfolio_percentage": 0.91,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "UNH",
@@ -10119,7 +10119,7 @@
       "action_type": "Buy",
       "shares": 489064,
       "portfolio_percentage": 0.35,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "ASPU",
@@ -10238,7 +10238,7 @@
       "date": "Q1 2019",
       "percentage_change": 0.0,
       "action_type": "Buy",
-      "shares": 7107,
+      "shares": 710,
       "portfolio_percentage": 0.01,
       "company_name": "Granite Point Mortgage Trust Inc."
     },
@@ -11002,6 +11002,6 @@
       "company_name": "Marathon Petroleum Corp."
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.240371",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.802715",
+  "scraped_date": "2026-11-01"
 }

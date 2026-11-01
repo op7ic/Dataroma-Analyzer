@@ -769,7 +769,7 @@
       "action_type": "Sell",
       "shares": 20600,
       "portfolio_percentage": 0.05,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "AR",
@@ -2507,7 +2507,7 @@
       "action_type": "Reduce",
       "shares": 1400,
       "portfolio_percentage": 0.0,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "GNE",
@@ -3717,7 +3717,7 @@
       "action_type": "Reduce",
       "shares": 421,
       "portfolio_percentage": 0.0,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "PFE",
@@ -4355,7 +4355,7 @@
       "action_type": "Reduce",
       "shares": 865,
       "portfolio_percentage": 0.0,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "XOM",
@@ -6357,7 +6357,7 @@
       "action_type": "Reduce",
       "shares": 4000,
       "portfolio_percentage": 0.01,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "DB",
@@ -6379,7 +6379,7 @@
       "action_type": "Add",
       "shares": 4000,
       "portfolio_percentage": 0.01,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "VOXX-OLD",
@@ -7072,7 +7072,7 @@
       "action_type": "Reduce",
       "shares": 4500,
       "portfolio_percentage": 0.01,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "PTEN",
@@ -7127,7 +7127,7 @@
       "action_type": "Add",
       "shares": 4500,
       "portfolio_percentage": 0.01,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "VOXX-OLD",
@@ -9305,7 +9305,7 @@
       "action_type": "Reduce",
       "shares": 2000,
       "portfolio_percentage": 0.0,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "NTPIF",
@@ -9888,7 +9888,7 @@
       "action_type": "Add",
       "shares": 11606,
       "portfolio_percentage": 0.02,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "CCRK",
@@ -10317,7 +10317,7 @@
       "action_type": "Add",
       "shares": 880,
       "portfolio_percentage": 0.0,
-      "company_name": "Navient Corp."
+      "company_name": "Navient Holdings Inc."
     },
     {
       "symbol": "BB",
@@ -11002,6 +11002,6 @@
       "company_name": "Hologic Inc."
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.005904",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.542732",
+  "scraped_date": "2026-11-01"
 }

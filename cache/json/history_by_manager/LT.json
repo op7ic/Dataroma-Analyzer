@@ -453,7 +453,7 @@
       "company_name": "TKO Group Holdings Inc."
     },
     {
-      "symbol": "MSGS",
+      "symbol": "MSGK",
       "manager_id": "LT",
       "action": "Reduce 15.15%",
       "date": "Q1 2026",
@@ -461,7 +461,7 @@
       "action_type": "Reduce",
       "shares": 500,
       "portfolio_percentage": 0.01,
-      "company_name": "Madison Square Garden Sports Corp."
+      "company_name": "MSG Knickerbockers Corp."
     },
     {
       "symbol": "GOOGL",
@@ -3918,7 +3918,7 @@
       "company_name": "Hershey Co."
     },
     {
-      "symbol": "MSGS",
+      "symbol": "MSGK",
       "manager_id": "LT",
       "action": "Buy",
       "date": "Q2 2020",
@@ -3926,7 +3926,7 @@
       "action_type": "Buy",
       "shares": 3300,
       "portfolio_percentage": 0.01,
-      "company_name": "Madison Square Garden Sports Corp."
+      "company_name": "MSG Knickerbockers Corp."
     },
     {
       "symbol": "PYPL",
@@ -4611,6 +4611,6 @@
       "company_name": "Keurig Dr Pepper Inc."
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.478931",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:16.005758",
+  "scraped_date": "2026-11-01"
 }

@@ -1,101 +1,101 @@
 ticker,company_name,total_value,unique_managers,quarters_active,buy_add_actions,sell_reduce_actions,net_activity,phase,current_shares,current_holders,buy_count,add_count,reduce_count,sell_count,_analysis_type,_generated,_periods,_window_quarters
-GOOG,Alphabet Inc. CL C,30919831000.0,33,4,24,89,-65,Distributing,87509726.0,34.0,4,20,85,4,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-GOOGL,Alphabet Inc.,43755497000.0,39,4,28,89,-61,Distributing,122437406.0,36.0,7,21,82,7,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-BAC,Bank of America Corp.,29551279000.0,20,4,7,55,-48,Distributing,518625474.0,15.0,1,6,49,6,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-AXP,American Express,52363646000.0,15,4,6,40,-34,Distributing,154807652.0,16.0,2,4,39,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-COF,Capital One Financial,8654828000.0,20,4,15,48,-33,Distributing,43139883.0,16.0,3,12,42,6,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-WFC,Wells Fargo,5181510000.0,12,4,8,39,-31,Distributing,62699066.0,14.0,0,8,38,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-TSM,Taiwan Semiconductor S.A.,9742601000.0,25,4,25,55,-30,Distributing,20400496.0,24.0,4,21,53,2,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-C,Citigroup Inc.,2892143000.0,9,4,1,31,-30,Distributing,20664062.0,8.0,0,1,30,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-AAPL,Apple Inc.,74939400000.0,23,4,19,48,-29,Distributing,258983287.0,22.0,3,16,44,4,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-JPM,JPMorgan Chase & Co.,1721146000.0,14,4,13,38,-25,Distributing,5258142.0,15.0,0,13,37,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-MA,Mastercard Inc.,6148680000.0,22,4,19,44,-25,Distributing,11971727.0,21.0,6,13,41,3,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-MSFT,Microsoft Corp.,14687184000.0,45,4,62,86,-24,Distributing,39373656.0,37.0,5,57,78,8,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-GS,Goldman Sachs Group,554325000.0,8,4,2,23,-21,Distributing,548094.0,5.0,0,2,19,4,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-CVS,CVS Health Corp.,8522911000.0,11,4,8,29,-21,Distributing,82386660.0,10.0,2,6,27,2,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-ADI,Analog Devices,1448359000.0,12,4,7,28,-21,Distributing,3646692.0,11.0,3,4,27,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-CSCO,Cisco Systems,441382000.0,9,4,4,24,-20,Distributing,3757716.0,7.0,2,2,22,2,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-XOM,ExxonMobil Holdings Corp.,990683000.0,15,4,13,33,-20,Distributing,7246065.0,11.0,2,11,29,4,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-BNY,Bank of New York Mellon Corp.,3869418000.0,9,4,4,24,-20,Distributing,26757619.0,10.0,1,3,24,0,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-JNJ,Johnson & Johnson,670897000.0,10,4,6,26,-20,Distributing,2641637.0,12.0,2,4,25,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-META,Meta Platforms Inc.,14823867000.0,35,4,46,64,-18,Distributing,26315988.0,31.0,8,38,57,7,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-BN,Brookfield Corp.,6435612000.0,11,4,8,26,-18,Distributing,151106127.0,9.0,3,5,24,2,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-MCO,Moody's Corp.,20032119000.0,15,4,10,27,-17,Distributing,44228825.0,17.0,3,7,25,2,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-LLY,Eli Lilly & Co.,1421531000.0,8,4,3,19,-16,Distributing,1185174.0,7.0,0,3,17,2,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-FDX,FedEx Corp.,3783401000.0,11,4,10,26,-16,Distributing,12082528.0,7.0,3,7,22,4,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-ORCL,Oracle Corp.,1993536000.0,17,4,13,29,-16,Distributing,13603158.0,14.0,3,10,26,3,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-TXN,Texas Instruments,1696913000.0,13,4,13,29,-16,Distributing,5692972.0,14.0,4,9,27,2,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-CI,Cigna Group,4256973000.0,7,4,18,2,16,Accumulating,15441642.0,7.0,1,17,2,0,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-FISV,Fiserv Inc.,4344248000.0,17,4,31,16,15,Accumulating,88567740.0,9.0,8,23,8,8,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-BRK.B,Berkshire Hathaway CL B,16239545000.0,25,4,33,48,-15,Distributing,32453758.0,26.0,1,32,48,0,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-TSN,Tyson Foods,1928589000.0,7,4,21,7,14,Accumulating,33686148.0,6.0,2,19,5,2,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-CAT,Caterpillar Inc.,7179422000.0,6,4,1,15,-14,Distributing,6741875.0,6.0,1,0,14,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-VZ,Verizon Communications,151014000.0,8,4,4,18,-14,Distributing,3566673.0,6.0,0,4,16,2,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-INTU,Intuit Inc.,449890000.0,20,4,18,32,-14,Distributing,1723716.0,8.0,8,10,20,12,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-GEHC,GE HealthCare Technologies Inc.,3811145000.0,7,4,17,3,14,Accumulating,59539825.0,7.0,1,16,3,0,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-BABA,Alibaba Group Holdings,1319879000.0,12,4,11,25,-14,Distributing,13751597.0,9.0,4,7,20,5,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-AMZN,Amazon.com Inc.,20776721000.0,36,4,51,65,-14,Distributing,87172409.0,34.0,8,43,61,4,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-RTX,RTX Corp.,7004345000.0,7,4,4,18,-14,Distributing,36917438.0,7.0,1,3,16,2,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-NVST,Envista Holdings Corp.,399662000.0,6,4,4,17,-13,Distributing,15167479.0,4.0,1,3,16,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-EBAY,eBay Inc.,265824000.0,5,4,1,14,-13,Distributing,2378743.0,2.0,1,0,11,3,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-MRK,Merck & Co.,1754887000.0,9,4,7,20,-13,Distributing,13656849.0,10.0,1,6,20,0,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-LEA,Lear Corp.,1086660000.0,4,4,0,13,-13,Distributing,8105771.0,3.0,0,0,12,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-IDXX,IDEXX Laboratories,892744000.0,6,4,3,16,-13,Distributing,1695815.0,6.0,1,2,16,0,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-GSK,GSK plc,2545596000.0,6,4,5,18,-13,Distributing,48561532.0,6.0,0,5,18,0,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-GM,General Motors,2556109000.0,6,4,5,18,-13,Distributing,33161858.0,7.0,0,5,17,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-GE,GE Aerospace,20012627000.0,12,4,6,19,-13,Distributing,53548352.0,10.0,4,2,16,3,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-BRK.A,Berkshire Hathaway CL A,3540571000.0,11,4,4,16,-12,Distributing,4728.0,17.0,0,4,15,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-TEL,TE Connectivity plc,4588766000.0,8,4,6,18,-12,Distributing,22760610.0,8.0,2,4,18,0,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-GLW,Corning Inc.,728727000.0,6,4,2,14,-12,Distributing,2852944.0,4.0,2,0,12,2,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-DHI,D.R. Horton,694366000.0,7,4,3,15,-12,Distributing,4263047.0,4.0,1,2,11,4,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-NVS,Novartis AG,136813000.0,6,4,5,17,-12,Distributing,872974.0,5.0,1,4,15,2,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-SYK,Stryker Corp.,1110818000.0,5,4,1,13,-12,Distributing,3528199.0,4.0,1,0,12,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-USB,U.S. Bancorp,1936717000.0,8,4,6,18,-12,Distributing,32062872.0,6.0,0,6,16,2,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-ILMN,Illumina Inc.,68385000.0,4,4,1,12,-11,Distributing,388924.0,2.0,1,0,10,2,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-UNH,United Health Group Inc.,5467811000.0,27,4,36,47,-11,Distributing,13155341.0,17.0,10,26,34,13,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-LH,Labcorp Holdings Inc.,129980000.0,4,4,2,13,-11,Distributing,464212.0,3.0,1,1,12,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-AMT,American Tower Corp.,15461000.0,6,4,3,14,-11,Distributing,94524.0,3.0,0,3,11,3,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-BMY,Bristol-Myers Squibb,1042747000.0,10,4,11,22,-11,Distributing,18096976.0,8.0,2,9,19,3,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-VTI,Vanguard Total Stock Mkt ETF,3989000.0,6,4,15,4,11,Accumulating,10782.0,5.0,2,13,3,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-FERG,Ferguson Enterprises Inc.,1963409000.0,10,4,23,12,11,Accumulating,8272914.0,11.0,3,20,11,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-EMR,Emerson Electric,20853000.0,4,4,1,12,-11,Distributing,145669.0,3.0,1,0,11,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-FLUT,Flutter Entertainment Plc,64252000.0,11,4,9,20,-11,Distributing,628878.0,1.0,0,9,9,11,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-JD,JD.com Inc.,388732000.0,7,4,4,15,-11,Distributing,15256354.0,5.0,1,3,12,3,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-KSPI,Jsc Kaspi.kz ADR,318216000.0,7,4,16,5,11,Accumulating,3672963.0,7.0,3,13,5,0,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-GNRC,Generac Holdings Inc.,358091000.0,7,4,5,16,-11,Distributing,1222946.0,5.0,1,4,15,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-JCI,Johnson Controls Intl. plc,8785221000.0,4,4,2,13,-11,Distributing,60127472.0,4.0,0,2,13,0,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-WBD,Warner Bros. Discovery Inc.,728380000.0,7,4,5,15,-10,Distributing,27321260.0,5.0,4,1,12,3,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-CASY,Casey's Gen'l Stores,85765000.0,5,4,2,12,-10,Distributing,107909.0,2.0,0,2,10,2,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-BKNG,Booking Holdings Inc.,5954724000.0,12,4,13,23,-10,Distributing,33408462.0,6.0,3,10,16,7,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-ECL,Ecolab Inc.,1763134000.0,4,4,1,11,-10,Distributing,6328321.0,4.0,0,1,9,2,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-COST,Costco Co.,47151000.0,8,4,5,15,-10,Distributing,50403.0,7.0,1,4,13,2,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-APA,APA Corp.,8339000.0,3,4,0,10,-10,Distributing,256021.0,3.0,0,0,9,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-COHR,Coherent Corp.,232155000.0,4,4,1,11,-10,Distributing,588524.0,3.0,1,0,11,0,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-TEVA,Teva Pharmaceutical Industries Ltd.,226676000.0,4,4,0,10,-10,Distributing,6690556.0,2.0,0,0,8,2,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-B,Barrick Mining Corp.,857250000.0,6,4,4,14,-10,Distributing,23339217.0,5.0,1,3,13,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-OMF,OneMain Holdings,640214000.0,4,4,2,12,-10,Distributing,10500462.0,4.0,0,2,12,0,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-PEP,PepsiCo Inc.,502631000.0,11,4,13,23,-10,Distributing,3712189.0,11.0,2,11,21,2,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-ORLY,O'Reilly Automotive,235564000.0,6,4,3,13,-10,Distributing,2557975.0,4.0,2,1,11,2,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-AVTR,Avantor Inc.,1607210000.0,6,4,15,5,10,Accumulating,162344502.0,5.0,4,11,4,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-OSK,Oshkosh Corp.,474699000.0,6,4,5,14,-9,Distributing,3092904.0,5.0,2,3,13,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-SEE-OLD,,0.0,3,4,0,9,-9,Distributing,0.0,0.0,0,0,6,3,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-GILD,Gilead Sciences,3016143000.0,3,4,0,9,-9,Distributing,23873224.0,2.0,0,0,9,0,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-HRL,Hormel Foods Corp.,136556000.0,4,4,1,10,-9,Distributing,5501837.0,3.0,1,0,8,2,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-DAL,Delta Air Lines Inc.,7277368000.0,6,4,5,14,-9,Distributing,77699848.0,4.0,1,4,13,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-CSGP,CoStar Group Inc.,591679000.0,10,4,10,19,-9,Distributing,20892636.0,4.0,1,9,13,6,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-KO,Coca Cola Co.,32860178000.0,10,4,8,17,-9,Distributing,404333447.0,9.0,2,6,15,2,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-HON,Honeywell Int'l Inc.,898000.0,4,4,0,9,-9,Distributing,4010.0,1.0,0,0,6,3,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-CPNG,Coupang Inc.,2607085000.0,8,4,15,6,9,Accumulating,150091141.0,8.0,3,12,4,2,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-MICC,Magnum Ice Cream Co NV,679903000.0,7,3,12,3,9,Accumulating,40710395.0,7.0,6,6,3,0,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-RKT,Rocket Companies Inc.,1317279000.0,6,4,14,5,9,Accumulating,83636760.0,4.0,2,12,4,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-SAP,SAP SE,388256000.0,7,4,14,5,9,Accumulating,2519302.0,7.0,4,10,5,0,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-MS,Morgan Stanley,478180000.0,6,4,3,12,-9,Distributing,2287504.0,4.0,2,1,11,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-LHX,L3Harris Technologies Inc.,120160000.0,5,4,3,12,-9,Distributing,413504.0,1.0,2,1,9,3,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-APD,Air Products & Chemicals,4333933000.0,7,4,16,7,9,Accumulating,14782500.0,6.0,1,15,7,0,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-PHG,Koninklijke Philips Electronics NV,84567000.0,2,4,8,0,8,Accumulating,3110205.0,2.0,0,8,0,0,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-RYAN,Ryan Specialty Holdings Inc,301724000.0,3,4,9,1,8,Accumulating,7990580.0,2.0,1,8,0,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-SDHC,Smith Douglas Homes Corp,22698000.0,3,4,8,0,8,Accumulating,1460625.0,2.0,1,7,0,0,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-NUE,Nucor Corp.,415500000.0,3,4,1,9,-8,Distributing,1865320.0,3.0,0,1,8,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-MELI,Mercadolibre Inc.,890474000.0,10,4,16,8,8,Accumulating,524614.0,7.0,5,11,5,3,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-OXY,Occidental Petroleum,16916001000.0,6,4,2,10,-8,Distributing,348280875.0,4.0,1,1,6,4,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
-SNA,Snap-On Inc.,12861000.0,3,4,1,9,-8,Distributing,31963.0,2.0,1,0,8,1,accumulation_vs_distribution,2026-10-01,"Q2 2026, Q1 2026, Q4 2025, Q3 2025",4
+GOOGL,Alphabet Inc.,43694453000.0,40,4,20,76,-56,Distributing,122290589.0,36.0,6,14,70,6,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+GOOG,Alphabet Inc. CL C,30435990000.0,33,4,24,66,-42,Distributing,86318221.0,34.0,4,20,63,3,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+BAC,Bank of America Corp.,29466845000.0,19,4,4,44,-40,Distributing,517372321.0,15.0,1,3,39,5,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+AXP,American Express,52346733000.0,15,3,5,32,-27,Distributing,154807652.0,16.0,1,4,31,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+AAPL,Apple Inc.,75000431000.0,22,4,13,39,-26,Distributing,258979360.0,22.0,2,11,36,3,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+TSM,Taiwan Semiconductor S.A.,9741296000.0,25,4,20,45,-25,Distributing,20399058.0,24.0,2,18,43,2,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+C,Citigroup Inc.,2783947000.0,9,4,1,24,-23,Distributing,20277567.0,8.0,0,1,23,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+COF,Capital One Financial,8598881000.0,20,4,14,36,-22,Distributing,43033446.0,16.0,3,11,30,6,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+WFC,Wells Fargo,5159554000.0,12,4,9,29,-20,Distributing,62724137.0,14.0,0,9,28,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+FDX,FedEx Corp.,3783401000.0,10,3,4,23,-19,Distributing,12082528.0,7.0,1,3,19,4,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+XOM,ExxonMobil Holdings Corp.,1003045000.0,13,4,9,27,-18,Distributing,7218172.0,11.0,1,8,25,2,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+CSCO,Cisco Systems,287382000.0,8,4,2,20,-18,Distributing,2476387.0,6.0,2,0,17,3,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+MA,Mastercard Inc.,6161594000.0,22,4,17,35,-18,Distributing,11955929.0,21.0,6,11,33,2,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+UNH,United Health Group Inc.,5467778000.0,25,3,23,40,-17,Distributing,13155341.0,17.0,5,18,30,10,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+ADI,Analog Devices,1447898000.0,12,3,6,23,-17,Distributing,3646692.0,11.0,3,3,22,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+JNJ,Johnson & Johnson,677537000.0,10,3,4,21,-17,Distributing,2641637.0,12.0,2,2,20,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+BN,Brookfield Corp.,6355471000.0,11,3,5,22,-17,Distributing,151106127.0,9.0,1,4,20,2,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+JPM,JPMorgan Chase & Co.,1724297000.0,14,4,12,28,-16,Distributing,5259997.0,15.0,0,12,27,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+LLY,Eli Lilly & Co.,1421495000.0,6,4,1,16,-15,Distributing,1185168.0,7.0,0,1,16,0,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+GS,Goldman Sachs Group,510727000.0,8,4,2,17,-15,Distributing,546713.0,5.0,0,2,13,4,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+CVS,CVS Health Corp.,8187585000.0,11,4,7,22,-15,Distributing,80914027.0,10.0,2,5,20,2,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+BNY,Bank of New York Mellon Corp.,3867147000.0,9,4,4,19,-15,Distributing,26741880.0,10.0,1,3,19,0,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+AMAT,Applied Materials,2617629000.0,15,4,8,22,-14,Distributing,3645222.0,11.0,4,4,18,4,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+RTX,RTX Corp.,7003425000.0,7,3,2,15,-13,Distributing,36917438.0,7.0,0,2,13,2,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+MRK,Merck & Co.,1754585000.0,9,4,5,18,-13,Distributing,13654288.0,9.0,1,4,17,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+TXN,Texas Instruments,1686911000.0,13,4,11,24,-13,Distributing,5714279.0,14.0,4,7,24,0,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+LEA,Lear Corp.,872044000.0,4,4,0,12,-12,Distributing,7386768.0,3.0,0,0,11,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+MCO,Moody's Corp.,20004022000.0,14,4,9,21,-12,Distributing,44161842.0,17.0,3,6,20,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+FERG,Ferguson Enterprises Inc.,1958911000.0,10,4,20,9,11,Accumulating,8331093.0,11.0,1,19,8,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+USB,U.S. Bancorp,1932845000.0,7,4,4,15,-11,Distributing,32027905.0,6.0,0,4,14,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+TSN,Tyson Foods,1847183000.0,7,4,17,6,11,Accumulating,34525471.0,6.0,1,16,4,2,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+GE,GE Aerospace,20011738000.0,10,4,5,16,-11,Distributing,53547814.0,10.0,3,2,14,2,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+GEHC,GE HealthCare Technologies Inc.,3893230000.0,8,4,14,3,11,Accumulating,60795516.0,8.0,2,12,3,0,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+CAT,Caterpillar Inc.,7095909000.0,5,3,0,11,-11,Distributing,6741875.0,6.0,0,0,10,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+BABA,Alibaba Group Holdings,1319974000.0,12,4,9,20,-11,Distributing,13749606.0,9.0,3,6,15,5,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+VZ,Verizon Communications,151014000.0,8,3,2,13,-11,Distributing,3566673.0,6.0,0,2,11,2,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+ABBV,AbbVie Inc.,51057000.0,6,4,3,13,-10,Distributing,198261.0,7.0,0,3,13,0,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+GSK,GSK plc,2545706000.0,6,4,4,14,-10,Distributing,48565989.0,6.0,0,4,14,0,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+GM,General Motors,2557641000.0,6,4,4,14,-10,Distributing,33195125.0,7.0,0,4,13,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+GLW,Corning Inc.,728727000.0,6,3,2,12,-10,Distributing,2852944.0,4.0,2,0,10,2,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+IDXX,IDEXX Laboratories,892744000.0,6,3,2,12,-10,Distributing,1695815.0,6.0,0,2,12,0,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+BMY,Bristol-Myers Squibb,951680000.0,10,4,8,18,-10,Distributing,15334771.0,8.0,2,6,16,2,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+INTU,Intuit Inc.,447079000.0,17,4,14,24,-10,Distributing,1712946.0,7.0,6,8,14,10,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+CI,Cigna Group,4245410000.0,6,4,13,3,10,Accumulating,15407065.0,7.0,1,12,3,0,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+ORLY,O'Reilly Automotive,234933000.0,6,4,2,12,-10,Distributing,2555347.0,4.0,2,0,10,2,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+MICC,Magnum Ice Cream Co NV,698940000.0,7,4,13,3,10,Accumulating,41525678.0,7.0,6,7,3,0,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+NVST,Envista Holdings Corp.,395830000.0,6,4,4,14,-10,Distributing,15146207.0,4.0,1,3,13,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+NVDA,NVIDIA Corp.,7432952000.0,20,4,21,31,-10,Distributing,36617572.0,18.0,4,17,28,3,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+BRK.B,Berkshire Hathaway CL B,16236219000.0,24,4,27,37,-10,Distributing,32454658.0,26.0,1,26,37,0,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+EBAY,eBay Inc.,265824000.0,4,3,1,10,-9,Distributing,2378743.0,2.0,1,0,8,2,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+B,Barrick Mining Corp.,857250000.0,6,3,3,12,-9,Distributing,23339217.0,5.0,1,2,11,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+PSX,Phillips 66,327877000.0,5,4,2,11,-9,Distributing,1885019.0,5.0,1,1,10,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+SYK,Stryker Corp.,1110818000.0,4,3,1,10,-9,Distributing,3528199.0,4.0,1,0,10,0,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+SUNB,Sunbelt Rentals Holdings Inc,6430740000.0,12,3,16,7,9,Accumulating,85940146.0,11.0,12,4,7,0,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+AMGN,Amgen,65036000.0,5,4,2,11,-9,Distributing,156796.0,4.0,0,2,10,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+LH,Labcorp Holdings Inc.,129980000.0,4,3,1,10,-9,Distributing,464212.0,3.0,0,1,9,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+JCI,Johnson Controls Intl. plc,8785221000.0,4,3,1,10,-9,Distributing,60127472.0,4.0,0,1,10,0,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+ILMN,Illumina Inc.,68385000.0,3,3,0,9,-9,Distributing,388924.0,2.0,0,0,8,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+COST,Costco Co.,41158000.0,9,4,4,13,-9,Distributing,44933.0,7.0,1,3,11,2,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+FLUT,Flutter Entertainment Plc,64252000.0,10,3,5,14,-9,Distributing,628878.0,1.0,0,5,4,10,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+JD,JD.com Inc.,388732000.0,7,3,2,11,-9,Distributing,15256354.0,5.0,1,1,9,2,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+PYPL,PayPal Holdings Inc.,439537000.0,12,4,7,15,-8,Distributing,10122559.0,8.0,3,4,11,4,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+AMZN,Amazon.com Inc.,21123876000.0,35,4,44,52,-8,Distributing,88313855.0,34.0,8,36,50,2,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+TEVA,Teva Pharmaceutical Industries Ltd.,226676000.0,4,3,0,8,-8,Distributing,6690556.0,2.0,0,0,6,2,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+CASY,Casey's Gen'l Stores,82757000.0,5,4,2,10,-8,Distributing,108106.0,2.0,0,2,8,2,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+OSK,Oshkosh Corp.,396774000.0,6,4,4,12,-8,Distributing,3057382.0,5.0,1,3,11,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+BKNG,Booking Holdings Inc.,5954724000.0,10,3,9,17,-8,Distributing,33408462.0,6.0,2,7,12,5,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+APA,APA Corp.,8339000.0,3,3,0,8,-8,Distributing,256021.0,3.0,0,0,7,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+APD,Air Products & Chemicals,4333793000.0,7,4,14,6,8,Accumulating,14786750.0,6.0,1,13,6,0,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+KO,Coca Cola Co.,32860178000.0,8,3,5,13,-8,Distributing,404333447.0,9.0,0,5,11,2,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+MSFT,Microsoft Corp.,14914051000.0,45,4,56,64,-8,Distributing,39612138.0,37.0,4,52,56,8,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+OXY,Occidental Petroleum,16916001000.0,6,3,1,9,-8,Distributing,348280875.0,4.0,0,1,5,4,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+TGT,Target Corp.,94490000.0,7,4,6,14,-8,Distributing,645468.0,4.0,2,4,11,3,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+MELI,Mercadolibre Inc.,891567000.0,8,4,14,6,8,Accumulating,524814.0,7.0,3,11,5,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+BRK.A,Berkshire Hathaway CL A,3538516000.0,9,3,4,12,-8,Distributing,4728.0,17.0,0,4,12,0,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+COHR,Coherent Corp.,232155000.0,4,3,1,9,-8,Distributing,588524.0,3.0,1,0,9,0,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+CRBG,Corebridge Financial Inc.,1918068000.0,3,4,8,0,8,Accumulating,61683047.0,3.0,1,7,0,0,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+EMR,Emerson Electric,20853000.0,4,3,1,9,-8,Distributing,145669.0,3.0,1,0,8,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+CDNS,Cadence Design Systems,201384000.0,4,3,0,8,-8,Distributing,536567.0,2.0,0,0,6,2,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+BIL,SPDR Bloomberg 1 3 Month T B,121161000.0,4,3,9,2,7,Accumulating,1322135.0,3.0,2,7,1,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+ORCL,Oracle Corp.,1993517000.0,14,3,12,19,-7,Distributing,13603158.0,14.0,3,9,18,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+NOV,Nov Inc.,1461768000.0,4,4,3,10,-7,Distributing,78400483.0,4.0,0,3,10,0,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+TFC,Truist Financial Corp.,38529000.0,6,3,2,9,-7,Distributing,773382.0,3.0,0,2,7,2,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+KSPI,Jsc Kaspi.kz ADR,314373000.0,7,4,12,5,7,Accumulating,3389769.0,7.0,2,10,5,0,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+KMX,CarMax Inc.,238076000.0,9,3,5,12,-7,Distributing,4495625.0,5.0,0,5,7,5,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+BTI,British American Tobacco plc,142261000.0,3,3,8,1,7,Accumulating,2303459.0,3.0,0,8,1,0,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+SMFG,Sumitomo Mitsui Spons ADR,33882000.0,2,4,7,0,7,Accumulating,1432907.0,2.0,0,7,0,0,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+SPOT,Spotify Technology S.A.,862582000.0,10,4,13,6,7,Accumulating,1876478.0,8.0,8,5,3,3,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+NEM,Newmont Corp.,1144023000.0,4,3,1,8,-7,Distributing,12248644.0,3.0,0,1,7,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+MT,ArcelorMittal,1334000.0,2,4,0,7,-7,Distributing,22155.0,1.0,0,0,6,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+SPGI,S&P Global Inc.,8013596000.0,15,4,19,12,7,Accumulating,19705374.0,14.0,8,11,10,2,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+NCLH,Norwegian Cruise Line Hlgs Ltd.,616214000.0,4,3,8,1,7,Accumulating,29190589.0,3.0,1,7,0,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+MSCI,MSCI Inc.,1142913000.0,6,3,3,10,-7,Distributing,2046224.0,6.0,2,1,8,2,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+NVS,Novartis AG,136813000.0,6,3,5,12,-7,Distributing,872974.0,5.0,1,4,11,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+PHG,Koninklijke Philips Electronics NV,84582000.0,2,4,7,0,7,Accumulating,3116275.0,2.0,0,7,0,0,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+ABM,ABM Industries,270497000.0,6,4,12,5,7,Accumulating,5950202.0,5.0,2,10,4,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+UBS,UBS AG,2451392000.0,4,4,3,10,-7,Distributing,52342726.0,4.0,1,2,9,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+FISV,Fiserv Inc.,4344248000.0,16,3,21,14,7,Accumulating,88567740.0,9.0,4,17,7,7,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+ECL,Ecolab Inc.,1762028000.0,4,3,1,8,-7,Distributing,6328321.0,4.0,0,1,6,2,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4
+CPNG,Coupang Inc.,2607085000.0,7,3,12,5,7,Accumulating,150091141.0,8.0,3,9,4,1,accumulation_vs_distribution,2026-11-01,"Q3 2026, Q2 2026, Q1 2026, Q4 2025",4

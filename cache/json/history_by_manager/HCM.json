@@ -288,7 +288,7 @@
       "company_name": "Zimmer Biomet Holdings"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "HCM",
       "action": "Reduce 3.22%",
       "date": "Q2 2026",
@@ -1113,7 +1113,7 @@
       "company_name": "CVS Health Corp."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "HCM",
       "action": "Reduce 8.52%",
       "date": "Q1 2026",
@@ -1861,7 +1861,7 @@
       "company_name": "Alphabet Inc."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "HCM",
       "action": "Reduce 35.11%",
       "date": "Q4 2025",
@@ -2422,7 +2422,7 @@
       "company_name": "Taiwan Semiconductor S.A."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "HCM",
       "action": "Reduce 44.47%",
       "date": "Q3 2025",
@@ -2796,7 +2796,7 @@
       "company_name": "Campbell's Co."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "HCM",
       "action": "Reduce 9.50%",
       "date": "Q2 2025",
@@ -3500,7 +3500,7 @@
       "company_name": "GSK plc"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "HCM",
       "action": "Reduce 28.67%",
       "date": "Q1 2025",
@@ -4193,7 +4193,7 @@
       "company_name": "Microsoft Corp."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "HCM",
       "action": "Reduce 18.63%",
       "date": "Q4 2024",
@@ -4754,7 +4754,7 @@
       "company_name": "Biogen Inc."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "HCM",
       "action": "Reduce 2.17%",
       "date": "Q3 2024",
@@ -4886,7 +4886,7 @@
       "company_name": "Estee Lauder Cos."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "HCM",
       "action": "Add 28.47%",
       "date": "Q2 2024",
@@ -5425,6 +5425,6 @@
       "company_name": "Taiwan Semiconductor S.A."
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.219813",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.780902",
+  "scraped_date": "2026-11-01"
 }

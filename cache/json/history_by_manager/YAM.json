@@ -1432,7 +1432,7 @@
       "company_name": "SPDR S&P 500 ETF Trust"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "YAM",
       "action": "Sell 100.00%",
       "date": "Q1 2026",
@@ -2092,7 +2092,7 @@
       "company_name": "Goldman Sachs Group"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "YAM",
       "action": "Reduce 75.70%",
       "date": "Q4 2025",
@@ -2400,7 +2400,7 @@
       "company_name": "Coca Cola Co."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "YAM",
       "action": "Reduce 3.78%",
       "date": "Q3 2025",
@@ -3016,7 +3016,7 @@
       "company_name": "Talen Energy Corp"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "YAM",
       "action": "Reduce 0.27%",
       "date": "Q2 2025",
@@ -3599,7 +3599,7 @@
       "company_name": "Elevance Health Inc."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "YAM",
       "action": "Add 0.02%",
       "date": "Q1 2025",
@@ -4193,7 +4193,7 @@
       "company_name": "Elevance Health Inc."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "YAM",
       "action": "Reduce 0.46%",
       "date": "Q4 2024",
@@ -4941,7 +4941,7 @@
       "company_name": "Unilever PLC"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "YAM",
       "action": "Reduce 5.78%",
       "date": "Q3 2024",
@@ -5480,7 +5480,7 @@
       "company_name": "Berkshire Hathaway CL B"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "YAM",
       "action": "Add 1.25%",
       "date": "Q2 2024",
@@ -6272,7 +6272,7 @@
       "company_name": "Canadian Natural Resources"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "YAM",
       "action": "Add 0.70%",
       "date": "Q1 2024",
@@ -6943,7 +6943,7 @@
       "company_name": "First Hawaiian Inc."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "YAM",
       "action": "Reduce 0.00%",
       "date": "Q4 2023",
@@ -7592,7 +7592,7 @@
       "company_name": "L3Harris Technologies Inc."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "YAM",
       "action": "Add 0.02%",
       "date": "Q3 2023",
@@ -8417,7 +8417,7 @@
       "company_name": "Cognizant Technology Solutions"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "YAM",
       "action": "Add 0.37%",
       "date": "Q2 2023",
@@ -8846,7 +8846,7 @@
       "company_name": "iShares MSCI South Korea ETF"
     },
     {
-      "symbol": "ACA",
+      "symbol": "ACA-OLD",
       "manager_id": "YAM",
       "action": "Sell 100.00%",
       "date": "Q2 2023",
@@ -9066,7 +9066,7 @@
       "company_name": "News Corp."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "YAM",
       "action": "Add 0.64%",
       "date": "Q1 2023",
@@ -9407,7 +9407,7 @@
       "company_name": "Booking Holdings Inc."
     },
     {
-      "symbol": "ACA",
+      "symbol": "ACA-OLD",
       "manager_id": "YAM",
       "action": "Reduce 6.98%",
       "date": "Q1 2023",
@@ -9550,7 +9550,7 @@
       "company_name": "eBay Inc."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "YAM",
       "action": "Add 46.03%",
       "date": "Q4 2022",
@@ -10012,7 +10012,7 @@
       "company_name": "Ingredion Inc."
     },
     {
-      "symbol": "ACA",
+      "symbol": "ACA-OLD",
       "manager_id": "YAM",
       "action": "Reduce 2.50%",
       "date": "Q4 2022",
@@ -10342,7 +10342,7 @@
       "company_name": "Micron Technology Inc."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "YAM",
       "action": "Add 0.70%",
       "date": "Q3 2022",
@@ -10738,7 +10738,7 @@
       "company_name": "Canadian Natural Resources"
     },
     {
-      "symbol": "ACA",
+      "symbol": "ACA-OLD",
       "manager_id": "YAM",
       "action": "Reduce 7.77%",
       "date": "Q3 2022",
@@ -11002,6 +11002,6 @@
       "company_name": "Micron Technology Inc."
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.371949",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.944045",
+  "scraped_date": "2026-11-01"
 }

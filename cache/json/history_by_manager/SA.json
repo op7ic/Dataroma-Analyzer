@@ -233,7 +233,7 @@
       "company_name": "ExxonMobil Holdings Corp."
     },
     {
-      "symbol": "PSKY",
+      "symbol": "SKYD",
       "manager_id": "SA",
       "action": "Reduce 0.59%",
       "date": "Q2 2026",
@@ -241,7 +241,7 @@
       "action_type": "Reduce",
       "shares": 3872,
       "portfolio_percentage": 0.0,
-      "company_name": "Paramount Skydance Corp."
+      "company_name": "Skydance Corp."
     },
     {
       "symbol": "AXP",
@@ -574,7 +574,7 @@
       "company_name": "Cummins Inc."
     },
     {
-      "symbol": "PSKY",
+      "symbol": "SKYD",
       "manager_id": "SA",
       "action": "Reduce 0.96%",
       "date": "Q1 2026",
@@ -582,7 +582,7 @@
       "action_type": "Reduce",
       "shares": 6354,
       "portfolio_percentage": 0.01,
-      "company_name": "Paramount Skydance Corp."
+      "company_name": "Skydance Corp."
     },
     {
       "symbol": "NXPI",
@@ -838,7 +838,7 @@
       "company_name": "Abrdn Physical Silver Shares"
     },
     {
-      "symbol": "PSKY",
+      "symbol": "SKYD",
       "manager_id": "SA",
       "action": "Reduce 0.03%",
       "date": "Q4 2025",
@@ -846,7 +846,7 @@
       "action_type": "Reduce",
       "shares": 223,
       "portfolio_percentage": 0.0,
-      "company_name": "Paramount Skydance Corp."
+      "company_name": "Skydance Corp."
     },
     {
       "symbol": "BRK.B",
@@ -1124,7 +1124,7 @@
       "company_name": "Newmont Corp."
     },
     {
-      "symbol": "PSKY",
+      "symbol": "SKYD",
       "manager_id": "SA",
       "action": "Buy",
       "date": "Q3 2025",
@@ -1132,7 +1132,7 @@
       "action_type": "Buy",
       "shares": 659284,
       "portfolio_percentage": 1.56,
-      "company_name": "Paramount Skydance Corp."
+      "company_name": "Skydance Corp."
     },
     {
       "symbol": "PSX",
@@ -8703,6 +8703,6 @@
       "company_name": "Sanofi Aventis"
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.094593",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.645228",
+  "scraped_date": "2026-11-01"
 }

@@ -145,7 +145,7 @@
       "company_name": "Danaher Corp."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "tp",
       "action": "Buy",
       "date": "Q2 2026",
@@ -2917,7 +2917,7 @@
       "company_name": "Global Blue Group Holding AG"
     },
     {
-      "symbol": "CCO",
+      "symbol": "CCO-OLD",
       "manager_id": "tp",
       "action": "Sell 100.00%",
       "date": "Q1 2025",
@@ -3027,7 +3027,7 @@
       "company_name": "Meta Platforms Inc."
     },
     {
-      "symbol": "CCO",
+      "symbol": "CCO-OLD",
       "manager_id": "tp",
       "action": "Add 5.88%",
       "date": "Q4 2024",
@@ -3467,7 +3467,7 @@
       "company_name": "Hawaiian Electric Industries"
     },
     {
-      "symbol": "CCO",
+      "symbol": "CCO-OLD",
       "manager_id": "tp",
       "action": "Buy",
       "date": "Q3 2024",
@@ -7108,7 +7108,7 @@
       "company_name": "Ingersoll Rand Inc."
     },
     {
-      "symbol": "LESL",
+      "symbol": "LESLQ",
       "manager_id": "tp",
       "action": "Sell 100.00%",
       "date": "Q2 2022",
@@ -7548,7 +7548,7 @@
       "company_name": "Dell Technologies Inc."
     },
     {
-      "symbol": "LESL",
+      "symbol": "LESLQ",
       "manager_id": "tp",
       "action": "Reduce 49.58%",
       "date": "Q1 2022",
@@ -8340,7 +8340,7 @@
       "company_name": "Rice Acquisition Corp Ii WTS"
     },
     {
-      "symbol": "LESL",
+      "symbol": "LESLQ",
       "manager_id": "tp",
       "action": "Reduce 3.25%",
       "date": "Q4 2021",
@@ -10848,7 +10848,7 @@
       "company_name": "United Health Group Inc."
     },
     {
-      "symbol": "LESL",
+      "symbol": "LESLQ",
       "manager_id": "tp",
       "action": "Add 36.67%",
       "date": "Q1 2021",
@@ -11002,6 +11002,6 @@
       "company_name": "Shopify Inc."
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.039346",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.578558",
+  "scraped_date": "2026-11-01"
 }

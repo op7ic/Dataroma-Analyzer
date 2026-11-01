@@ -167,7 +167,7 @@
       "company_name": "PayPal Holdings Inc."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "GLRE",
       "action": "Buy",
       "date": "Q2 2026",
@@ -607,7 +607,7 @@
       "company_name": "Dauch Corp."
     },
     {
-      "symbol": "PSKY",
+      "symbol": "SKYD",
       "manager_id": "GLRE",
       "action": "Buy",
       "date": "Q1 2026",
@@ -615,7 +615,7 @@
       "action_type": "Buy",
       "shares": 3926080,
       "portfolio_percentage": 1.11,
-      "company_name": "Paramount Skydance Corp."
+      "company_name": "Skydance Corp."
     },
     {
       "symbol": "STUB",
@@ -816,7 +816,7 @@
       "company_name": "Kyndryl Holdings Inc"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "GLRE",
       "action": "Sell 100.00%",
       "date": "Q1 2026",
@@ -1003,7 +1003,7 @@
       "company_name": "Fluor Corp."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "GLRE",
       "action": "Buy",
       "date": "Q4 2025",
@@ -5414,7 +5414,7 @@
       "company_name": "Chemours Co."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "GLRE",
       "action": "Sell 100.00%",
       "date": "Q3 2022",
@@ -5739,7 +5739,7 @@
       "date": "Q2 2022",
       "percentage_change": 0.0,
       "action_type": "Sell",
-      "shares": 963018,
+      "shares": 96302,
       "portfolio_percentage": 0.3,
       "company_name": "PLAYSTUDIOS Inc."
     },
@@ -5799,7 +5799,7 @@
       "company_name": "Kyndryl Holdings Inc"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "GLRE",
       "action": "Add 153.37%",
       "date": "Q1 2022",
@@ -6404,7 +6404,7 @@
       "company_name": "Intel Corp."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "GLRE",
       "action": "Buy",
       "date": "Q4 2021",
@@ -6498,7 +6498,7 @@
       "date": "Q4 2021",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 16782,
+      "shares": 1679,
       "portfolio_percentage": 0.0,
       "company_name": "PLAYSTUDIOS Inc."
     },
@@ -6784,7 +6784,7 @@
       "date": "Q3 2021",
       "percentage_change": 0.0,
       "action_type": "Add",
-      "shares": 891400,
+      "shares": 89140,
       "portfolio_percentage": 0.27,
       "company_name": "PLAYSTUDIOS Inc."
     },
@@ -8258,7 +8258,7 @@
       "date": "Q1 2021",
       "percentage_change": 0.0,
       "action_type": "Buy",
-      "shares": 88400,
+      "shares": 8840,
       "portfolio_percentage": 0.06,
       "company_name": "PLAYSTUDIOS Inc."
     },
@@ -11002,6 +11002,6 @@
       "company_name": "Altaba Inc."
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.117302",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.669279",
+  "scraped_date": "2026-11-01"
 }

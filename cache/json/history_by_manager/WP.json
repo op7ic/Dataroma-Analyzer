@@ -2884,7 +2884,7 @@
       "company_name": "Amazon.com Inc."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "WP",
       "action": "Sell 100.00%",
       "date": "Q3 2023",
@@ -2983,7 +2983,7 @@
       "company_name": "Verizon Communications"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "WP",
       "action": "Add 0.42%",
       "date": "Q2 2023",
@@ -3544,7 +3544,7 @@
       "company_name": "Tractor Supply"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "WP",
       "action": "Reduce 9.57%",
       "date": "Q1 2023",
@@ -3709,7 +3709,7 @@
       "company_name": "First Republic Bank"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "WP",
       "action": "Add 9.04%",
       "date": "Q4 2022",
@@ -4215,7 +4215,7 @@
       "company_name": "Annaly Capital Management Inc."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "WP",
       "action": "Add 0.62%",
       "date": "Q3 2022",
@@ -4644,7 +4644,7 @@
       "company_name": "Pool Corp."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "WP",
       "action": "Buy",
       "date": "Q2 2022",
@@ -11002,6 +11002,6 @@
       "company_name": "Express Scripts"
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.066640",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.608050",
+  "scraped_date": "2026-11-01"
 }

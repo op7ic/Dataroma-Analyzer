@@ -398,7 +398,7 @@
       "company_name": "Black Stone Minerals L.P."
     },
     {
-      "symbol": "BZH",
+      "symbol": "BZH-OLD",
       "manager_id": "TB",
       "action": "Add 7.74%",
       "date": "Q2 2026",
@@ -1245,7 +1245,7 @@
       "company_name": "StoneX Group Inc."
     },
     {
-      "symbol": "BZH",
+      "symbol": "BZH-OLD",
       "manager_id": "TB",
       "action": "Add 58.52%",
       "date": "Q1 2026",
@@ -2576,7 +2576,7 @@
       "company_name": "Advance Auto Parts"
     },
     {
-      "symbol": "BZH",
+      "symbol": "BZH-OLD",
       "manager_id": "TB",
       "action": "Add 16.59%",
       "date": "Q4 2025",
@@ -3203,7 +3203,7 @@
       "company_name": "HF Sinclair Corp."
     },
     {
-      "symbol": "BZH",
+      "symbol": "BZH-OLD",
       "manager_id": "TB",
       "action": "Add 106.25%",
       "date": "Q3 2025",
@@ -4534,7 +4534,7 @@
       "company_name": "Black Stone Minerals L.P."
     },
     {
-      "symbol": "BZH",
+      "symbol": "BZH-OLD",
       "manager_id": "TB",
       "action": "Buy",
       "date": "Q2 2025",
@@ -7152,6 +7152,6 @@
       "company_name": "Carlisle Companies"
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.393351",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.966918",
+  "scraped_date": "2026-11-01"
 }

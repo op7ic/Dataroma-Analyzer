@@ -277,7 +277,7 @@
       "company_name": "Medpace Holdings Inc."
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "VVP",
       "action": "Reduce 32.55%",
       "date": "Q2 2026",
@@ -750,7 +750,7 @@
       "company_name": "Littelfuse Inc."
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "VVP",
       "action": "Reduce 75.64%",
       "date": "Q1 2026",
@@ -1190,7 +1190,7 @@
       "company_name": "HEICO Corp. CL A"
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "VVP",
       "action": "Reduce 7.85%",
       "date": "Q4 2025",
@@ -1652,7 +1652,7 @@
       "company_name": "Virtus Investment Partners Inc."
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "VVP",
       "action": "Reduce 9.33%",
       "date": "Q3 2025",
@@ -2191,7 +2191,7 @@
       "company_name": "HEICO Corp. CL A"
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "VVP",
       "action": "Reduce 44.46%",
       "date": "Q2 2025",
@@ -2477,7 +2477,7 @@
       "company_name": "Colliers International Group Inc."
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "VVP",
       "action": "Reduce 7.88%",
       "date": "Q1 2025",
@@ -2840,7 +2840,7 @@
       "company_name": "Medpace Holdings Inc."
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "VVP",
       "action": "Add 53.75%",
       "date": "Q4 2024",
@@ -3698,7 +3698,7 @@
       "company_name": "Elevance Health Inc."
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "VVP",
       "action": "Reduce 20.95%",
       "date": "Q3 2024",
@@ -3951,7 +3951,7 @@
       "company_name": "Skyworks Solutions Inc."
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "VVP",
       "action": "Add 34.95%",
       "date": "Q2 2024",
@@ -4391,6 +4391,6 @@
       "company_name": "GE Aerospace"
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.389608",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.962740",
+  "scraped_date": "2026-11-01"
 }

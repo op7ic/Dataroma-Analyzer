@@ -871,7 +871,7 @@
       "company_name": "inTEST Corp."
     },
     {
-      "symbol": "SLP",
+      "symbol": "SLP-OLD",
       "manager_id": "FE",
       "action": "Add 44.27%",
       "date": "Q2 2026",
@@ -2620,7 +2620,7 @@
       "company_name": "Oracle Corp."
     },
     {
-      "symbol": "ACA",
+      "symbol": "ACA-OLD",
       "manager_id": "FE",
       "action": "Add 0.95%",
       "date": "Q2 2026",
@@ -4424,7 +4424,7 @@
       "company_name": "Thermon Group Holdings Inc."
     },
     {
-      "symbol": "BZH",
+      "symbol": "BZH-OLD",
       "manager_id": "FE",
       "action": "Sell 100.00%",
       "date": "Q2 2026",
@@ -5084,7 +5084,7 @@
       "company_name": "ABM Industries"
     },
     {
-      "symbol": "SLP",
+      "symbol": "SLP-OLD",
       "manager_id": "FE",
       "action": "Add 62.32%",
       "date": "Q1 2026",
@@ -7185,7 +7185,7 @@
       "company_name": "Ferroglobe Plc"
     },
     {
-      "symbol": "ACA",
+      "symbol": "ACA-OLD",
       "manager_id": "FE",
       "action": "Add 0.94%",
       "date": "Q1 2026",
@@ -7845,7 +7845,7 @@
       "company_name": "Royal Gold Inc."
     },
     {
-      "symbol": "BZH",
+      "symbol": "BZH-OLD",
       "manager_id": "FE",
       "action": "Reduce 0.96%",
       "date": "Q1 2026",
@@ -9528,7 +9528,7 @@
       "company_name": "Walker & Dunlop Inc."
     },
     {
-      "symbol": "SLP",
+      "symbol": "SLP-OLD",
       "manager_id": "FE",
       "action": "Add 1898.06%",
       "date": "Q4 2025",
@@ -11002,6 +11002,6 @@
       "company_name": "Timken Co."
     }
   ],
-  "timestamp": "2026-10-01T12:06:18.992706",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.528638",
+  "scraped_date": "2026-11-01"
 }

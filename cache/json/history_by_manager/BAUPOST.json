@@ -2037,7 +2037,7 @@
       "company_name": "Liberty SiriusXM Series A"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "BAUPOST",
       "action": "Sell 100.00%",
       "date": "Q2 2024",
@@ -2235,7 +2235,7 @@
       "company_name": "Liberty SiriusXM Series C"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 85.28%",
       "date": "Q1 2024",
@@ -2312,7 +2312,7 @@
       "company_name": "Liberty Media Corp. Series C Live"
     },
     {
-      "symbol": "FNCHQ",
+      "symbol": "FNCHQ-OLD",
       "manager_id": "BAUPOST",
       "action": "Sell 100.00%",
       "date": "Q1 2024",
@@ -2466,7 +2466,7 @@
       "company_name": "Dollar General"
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "BAUPOST",
       "action": "Sell 100.00%",
       "date": "Q4 2023",
@@ -2708,7 +2708,7 @@
       "company_name": "Advantage Solutions Inc."
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 64.26%",
       "date": "Q3 2023",
@@ -2884,7 +2884,7 @@
       "company_name": "CRH plc"
     },
     {
-      "symbol": "FNCHQ",
+      "symbol": "FNCHQ-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 0.01%",
       "date": "Q2 2023",
@@ -2961,7 +2961,7 @@
       "company_name": "Alphabet Inc. CL C"
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 43.70%",
       "date": "Q2 2023",
@@ -3038,7 +3038,7 @@
       "company_name": "Fidelity National Information Services"
     },
     {
-      "symbol": "FNCHQ",
+      "symbol": "FNCHQ-OLD",
       "manager_id": "BAUPOST",
       "action": "Add 98.13%",
       "date": "Q1 2023",
@@ -3192,7 +3192,7 @@
       "company_name": "SS&C Technologies Holdings Inc."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 18.60%",
       "date": "Q1 2023",
@@ -3203,7 +3203,7 @@
       "company_name": "Warner Bros. Discovery Inc."
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 18.88%",
       "date": "Q1 2023",
@@ -3379,7 +3379,7 @@
       "company_name": "Gray Television Inc."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "BAUPOST",
       "action": "Add 6.90%",
       "date": "Q4 2022",
@@ -3489,7 +3489,7 @@
       "company_name": "Advantage Solutions Inc."
     },
     {
-      "symbol": "FNCHQ",
+      "symbol": "FNCHQ-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 9.27%",
       "date": "Q4 2022",
@@ -3511,7 +3511,7 @@
       "company_name": "Theravance Biopharma Inc."
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 15.41%",
       "date": "Q4 2022",
@@ -3753,7 +3753,7 @@
       "company_name": "SVF Investment Corp. WTS"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "BAUPOST",
       "action": "Add 61.11%",
       "date": "Q3 2022",
@@ -3874,7 +3874,7 @@
       "company_name": "Liberty Global Ltd CL C"
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 2.74%",
       "date": "Q3 2022",
@@ -4083,7 +4083,7 @@
       "company_name": "Liberty SiriusXM Series C"
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "BAUPOST",
       "action": "Add 4.84%",
       "date": "Q2 2022",
@@ -4094,7 +4094,7 @@
       "company_name": "Qorvo Inc."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "BAUPOST",
       "action": "Buy",
       "date": "Q2 2022",
@@ -4501,7 +4501,7 @@
       "company_name": "Liberty SiriusXM Series A"
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "BAUPOST",
       "action": "Add 11.77%",
       "date": "Q1 2022",
@@ -4600,7 +4600,7 @@
       "company_name": "Ermenegildo Zegna Hold  WTS27"
     },
     {
-      "symbol": "FNCHQ",
+      "symbol": "FNCHQ-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 0.81%",
       "date": "Q1 2022",
@@ -4919,7 +4919,7 @@
       "company_name": "Willis Towers Watson plc"
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "BAUPOST",
       "action": "Add 16.94%",
       "date": "Q4 2021",
@@ -5051,7 +5051,7 @@
       "company_name": "Trilogy Metals Inc."
     },
     {
-      "symbol": "FNCHQ",
+      "symbol": "FNCHQ-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 6.28%",
       "date": "Q4 2021",
@@ -5370,7 +5370,7 @@
       "company_name": "Hippo Holdings Inc. WTS"
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 4.69%",
       "date": "Q3 2021",
@@ -5568,7 +5568,7 @@
       "company_name": "Theravance Biopharma Inc."
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "BAUPOST",
       "action": "Add 2.11%",
       "date": "Q2 2021",
@@ -5898,7 +5898,7 @@
       "company_name": "Healthpeak Properties Inc."
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "BAUPOST",
       "action": "Add 17.67%",
       "date": "Q1 2021",
@@ -6096,7 +6096,7 @@
       "company_name": "Investindustrial Acquisition Corp."
     },
     {
-      "symbol": "FNCHQ",
+      "symbol": "FNCHQ-OLD",
       "manager_id": "BAUPOST",
       "action": "Buy",
       "date": "Q1 2021",
@@ -6426,7 +6426,7 @@
       "company_name": "Meta Platforms Inc."
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "BAUPOST",
       "action": "Add 49.86%",
       "date": "Q4 2020",
@@ -7009,7 +7009,7 @@
       "company_name": "Fox Corporation"
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 3.33%",
       "date": "Q3 2020",
@@ -7196,7 +7196,7 @@
       "company_name": "Liberty Global Ltd CL C"
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "BAUPOST",
       "action": "Add 0.08%",
       "date": "Q2 2020",
@@ -7471,7 +7471,7 @@
       "company_name": "Paramount Global CL B"
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "BAUPOST",
       "action": "Add 11.36%",
       "date": "Q1 2020",
@@ -7845,7 +7845,7 @@
       "company_name": "Synchrony Financial"
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 51.59%",
       "date": "Q4 2019",
@@ -8109,7 +8109,7 @@
       "company_name": "eBay Inc."
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 34.56%",
       "date": "Q3 2019",
@@ -8340,7 +8340,7 @@
       "company_name": "eBay Inc."
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 18.02%",
       "date": "Q2 2019",
@@ -8593,7 +8593,7 @@
       "company_name": "Gossamer Bio Inc."
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 0.86%",
       "date": "Q1 2019",
@@ -8890,7 +8890,7 @@
       "company_name": "Fox Corporation CL B"
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "BAUPOST",
       "action": "Reduce 2.90%",
       "date": "Q4 2018",
@@ -9770,7 +9770,7 @@
       "company_name": "AMC Entertainment Hldgs Inc."
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "BAUPOST",
       "action": "Add 22.22%",
       "date": "Q4 2017",
@@ -10254,7 +10254,7 @@
       "company_name": "Antero Resources"
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "BAUPOST",
       "action": "Add 25.25%",
       "date": "Q2 2017",
@@ -10474,7 +10474,7 @@
       "company_name": "Colony NorthStar Inc."
     },
     {
-      "symbol": "QRVO",
+      "symbol": "QRVO-OLD",
       "manager_id": "BAUPOST",
       "action": "Buy",
       "date": "Q1 2017",
@@ -11002,6 +11002,6 @@
       "company_name": "Fox Corporation"
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.293638",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.859484",
+  "scraped_date": "2026-11-01"
 }

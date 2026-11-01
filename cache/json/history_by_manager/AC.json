@@ -5035,7 +5035,7 @@
       "date": "Q3 2019",
       "percentage_change": 0.0,
       "action_type": "Sell",
-      "shares": 1116667,
+      "shares": 18612,
       "portfolio_percentage": 1.7,
       "company_name": "AMTD IDEA Group"
     },
@@ -5387,7 +5387,7 @@
       "date": "Q4 2018",
       "percentage_change": 0.0,
       "action_type": "Add",
-      "shares": 127500,
+      "shares": 2125,
       "portfolio_percentage": 0.24,
       "company_name": "AMTD IDEA Group"
     },
@@ -5816,7 +5816,7 @@
       "date": "Q2 2018",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 5693,
+      "shares": 95,
       "portfolio_percentage": 0.01,
       "company_name": "AMTD IDEA Group"
     },
@@ -5893,7 +5893,7 @@
       "date": "Q1 2018",
       "percentage_change": 0.0,
       "action_type": "Add",
-      "shares": 5692,
+      "shares": 94,
       "portfolio_percentage": 0.01,
       "company_name": "AMTD IDEA Group"
     },
@@ -7686,7 +7686,7 @@
       "date": "Q4 2015",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 86300,
+      "shares": 1439,
       "portfolio_percentage": 0.2,
       "company_name": "AMTD IDEA Group"
     },
@@ -7873,7 +7873,7 @@
       "date": "Q3 2015",
       "percentage_change": 0.0,
       "action_type": "Add",
-      "shares": 22500,
+      "shares": 375,
       "portfolio_percentage": 0.05,
       "company_name": "AMTD IDEA Group"
     },
@@ -10287,7 +10287,7 @@
       "company_name": "Lamar Advertising Co."
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "AC",
       "action": "Sell 100.00%",
       "date": "Q2 2013",
@@ -10419,7 +10419,7 @@
       "company_name": "NuStar Energy"
     },
     {
-      "symbol": "WBD",
+      "symbol": "WBD-OLD",
       "manager_id": "AC",
       "action": "Buy",
       "date": "Q1 2013",
@@ -10491,7 +10491,7 @@
       "date": "Q1 2013",
       "percentage_change": 0.0,
       "action_type": "Reduce",
-      "shares": 1667,
+      "shares": 28,
       "portfolio_percentage": 0.01,
       "company_name": "AMTD IDEA Group"
     },
@@ -10876,7 +10876,7 @@
       "date": "Q3 2012",
       "percentage_change": 0.0,
       "action_type": "Add",
-      "shares": 137966,
+      "shares": 2299,
       "portfolio_percentage": 0.5,
       "company_name": "AMTD IDEA Group"
     },
@@ -11002,6 +11002,6 @@
       "company_name": "American Tower Corp."
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.126183",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.678823",
+  "scraped_date": "2026-11-01"
 }

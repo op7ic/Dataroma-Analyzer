@@ -3478,7 +3478,7 @@
       "company_name": "Bread Financial Holdings Inc."
     },
     {
-      "symbol": "ACA",
+      "symbol": "ACA-OLD",
       "manager_id": "VA",
       "action": "Sell 100.00%",
       "date": "Q4 2019",
@@ -3665,7 +3665,7 @@
       "company_name": "CBRE Group"
     },
     {
-      "symbol": "ACA",
+      "symbol": "ACA-OLD",
       "manager_id": "VA",
       "action": "Reduce 62.81%",
       "date": "Q3 2019",
@@ -3863,7 +3863,7 @@
       "company_name": "Hawaiian Electric Industries"
     },
     {
-      "symbol": "ACA",
+      "symbol": "ACA-OLD",
       "manager_id": "VA",
       "action": "Reduce 26.13%",
       "date": "Q2 2019",
@@ -4017,7 +4017,7 @@
       "company_name": "Hawaiian Electric Industries"
     },
     {
-      "symbol": "ACA",
+      "symbol": "ACA-OLD",
       "manager_id": "VA",
       "action": "Reduce 19.55%",
       "date": "Q1 2019",
@@ -4204,7 +4204,7 @@
       "company_name": "CBRE Group"
     },
     {
-      "symbol": "ACA",
+      "symbol": "ACA-OLD",
       "manager_id": "VA",
       "action": "Buy",
       "date": "Q4 2018",
@@ -7306,6 +7306,6 @@
       "company_name": "New York Times CL A"
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.102574",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.653699",
+  "scraped_date": "2026-11-01"
 }

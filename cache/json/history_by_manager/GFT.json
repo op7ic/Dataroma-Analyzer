@@ -1850,7 +1850,7 @@
       "company_name": "Sanderson Farms"
     },
     {
-      "symbol": "MSGS",
+      "symbol": "MSGK",
       "manager_id": "GFT",
       "action": "Add 112.98%",
       "date": "Q2 2022",
@@ -1858,7 +1858,7 @@
       "action_type": "Add",
       "shares": 314259,
       "portfolio_percentage": 0.27,
-      "company_name": "Madison Square Garden Sports Corp."
+      "company_name": "MSG Knickerbockers Corp."
     },
     {
       "symbol": "BRK.B",
@@ -2147,7 +2147,7 @@
       "company_name": "Deere & Co."
     },
     {
-      "symbol": "MSGS",
+      "symbol": "MSGK",
       "manager_id": "GFT",
       "action": "Buy",
       "date": "Q3 2021",
@@ -2155,7 +2155,7 @@
       "action_type": "Buy",
       "shares": 278147,
       "portfolio_percentage": 0.22,
-      "company_name": "Madison Square Garden Sports Corp."
+      "company_name": "MSG Knickerbockers Corp."
     },
     {
       "symbol": "WEBR-OLD",
@@ -7141,6 +7141,6 @@
       "company_name": "Time Warner Cable Inc."
     }
   ],
-  "timestamp": "2026-10-01T12:06:19.144215",
-  "scraped_date": "2026-10-01"
+  "timestamp": "2026-11-01T12:19:15.698313",
+  "scraped_date": "2026-11-01"
 }
